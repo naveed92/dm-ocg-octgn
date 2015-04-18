@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<templates>
+	<blocks>
+		<block type="overlay" id="light" src="proxy/light.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="water" src="proxy/water.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="darkness" src="proxy/darkness.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="fire" src="proxy/fire.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="nature" src="proxy/nature.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="halflight" src="proxy/halflight.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="halfwater" src="proxy/halfwater.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="halfdarkness" src="proxy/halfdarkness.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="halffire" src="proxy/halffire.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="halfnature" src="proxy/halfnature.png">
+			<location x="0" y="0" />
+		</block>
+	<block type="text" id="title">
+			<location x="99" y="28" />
+			<text color="#000000" size="30" />
+			<border color="#000000" size="2" />
+			<wordwrap height="31" width="349" align="center" shrinktofit="True" />
+		</block>
+		<block type="text" id="cost">
+			<location x="27" y="26" />
+			<text color="#FFFFFF" size="42" />
+			<border color="#000000" size="4" />
+			<wordwrap height="42" width="56" align="center" shrinktofit="True" />
+		</block>
+		<block type="text" id="race">
+			<location x="96" y="68" />
+			<text color="#000000" size="18" />
+			<border color="#000000" size="1" />
+			<wordwrap height="18" width="350" align="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="power">
+			<location x="26" y="591" />
+			<text color="#FFFFFF" size="60" />
+			<border color="#000000" size="8" />
+			<wordwrap height="58" width="126" align="center" shrinktofit="True" valign="center"/>
+		</block>
+		<block type="text" id="type">
+			<location x="27" y="406" />
+			<text color="#000000" size="20" />
+			<border color="#000000" size="1" />
+			<wordwrap height="20" width="153" align="near" shrinktofit="True"/>
+		</block>
+			<block type="text" id="rules">
+			<location x="56" y="435" />
+			<text color="#000000" size="20" />
+			<border color="#000000" size="1" />
+			<wordwrap height="149" width="370" align="near" shrinktofit="True"/>
+		</block>
+		<block type="text" id="rarity">
+			<location x="327" y="406" />
+			<text color="#000000" size="20" />
+			<border color="#000000" size="1" />
+			<wordwrap height="20" width="120" align="far" shrinktofit="True"/>
+		</block>
+	</blocks>
+	<template src="proxy/light.png" default="True" >
+		<matches>
+			<match name="Civilization" value="Light"/>
+		</matches>
+		<overlayblocks>
+			<conditional>
+				<switch property="Civilization">
+					<case value="Light"><link block="light" /></case>
+					<case value="Water"><link block="water" /></case>
+					<case value="Darkness"><link block="darkness" /></case>
+					<case value="Fire"><link block="fire" /></case>
+					<case value="Nature"><link block="nature" /></case>
+					<case value="Light/Water"><link block="light" /><link block="halfwater" /></case>
+					<case value="Water/Darkness"><link block="water" /><link block="halfdarkness" /></case>
+					<case value="Darkness/Fire"><link block="darkness" /><link block="halffire" /></case>
+					<case value="Fire/Nature"><link block="fire" /><link block="halfnature" /></case>
+					<case value="Light/Nature"><link block="light" /><link block="halfnature" /></case>
+					<case value="Light/Fire"><link block="light" /><link block="halffire" /></case>
+					<case value="Water/Nature"><link block="water" /><link block="halfnature" /></case>
+					<case value="Light/Darkness"><link block="light" /><link block="halfdarkness" /></case>
+					<case value="Water/Fire"><link block="water" /><link block="halffire" /></case>
+					<case value="Darkness/Nature"><link block="darkness" /><link block="halfnature" /></case>
+				</switch>
+			</conditional>
+		</overlayblocks>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Cost" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Type" /></link>
+		</textblocks>
+	</template>
+</templates>

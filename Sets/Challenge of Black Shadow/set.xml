@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Challenge of Black Shadow" id="dd14aac0-7fc6-4809-a169-128cc2acf713" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+	<packaging>
+		<pack name="Booster" id="5d951d1e-52a8-4d04-96c8-f7f4c0280055">
+			<options>
+				<option probability="0.083">
+					<pick qty="1" key="Rarity" value="Super Rare" />
+					<pick qty="5" key="Rarity" value="Common" />
+				</option>
+				<option probability="0.250">
+					<pick qty="1" key="Rarity" value="Very Rare" />
+					<pick qty="5" key="Rarity" value="Common" />
+				</option>
+				<option probability="0.667">
+					<pick qty="6" key="Rarity" value="Common" />
+				</option>
+			</options>
+			<pick qty="1" key="Rarity" value="Rare" />
+			<pick qty="3" key="Rarity" value="Uncommon" />
+		</pack>
+	</packaging>
+	<cards>
+		<card name="Rimuel, Cloudbreak Elemental" id="41ab5aa9-32bf-4666-90f3-559f3e924f81">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Angel Command" />
+			<property name="Rules" value="When you put this creature into the battle zone, tap one of your opponent's creatures in the battle zone for each untapped light card in your mana zone. &#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S1" />
+		</card>
+		<card name="King Aquakamui" id="0b59f2c7-dab2-47c7-ac78-a2693e68285f">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Leviathan" />
+			<property name="Rules" value="When you put this creature into the battle zone, you may return all Angel Commands and all Demon Commands from your graveyard to your hand. &#xd;&#xa;Angel Commands and Demon Commands in the battle zone each get +2000 power." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S2" />
+		</card>
+		<card name="Ballom, Master of Death" id="853c7044-da1c-4d5d-89dd-bc9cde3d4c5c">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Demon Command" />
+			<property name="Rules" value="Evolution-Put on one of your Demon Commands. &#xd;&#xa;When you put this creature into the battle zone, destroy all creatures except darkness creatures. &#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
+			<property name="Power" value="12000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S3" />
+		</card>
+		<card name="Galklife Dragon" id="ce41e345-82d5-47c2-a7ff-262061cc7175">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="When you put this creature into the battle zone, destroy all light creatures that have power 4000 or less. &#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S4" />
+		</card>
+		<card name="Niofa, Horned Protector" id="b3522e85-ef30-4f4d-8a4a-f7db726fbf1d">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Horned Beast" />
+			<property name="Rules" value="Evolution-Put on one of your Horned Beasts. &#xd;&#xa;When you put this creature into the battle zone, search your deck. You may take a nature creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck. &#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
+			<property name="Power" value="9000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S5" />
+		</card>
+		<card name="Alcadeias, Lord of Spirits" id="dffe10d4-b421-4cb8-9f47-d927e45588f6">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Angel Command" />
+			<property name="Rules" value="Evolution-Put on one of your Angel Commands. &#xd;&#xa;Double breaker (This creature breaks 2 shields.) &#xd;&#xa;Players can't cast spells other than light spells." />
+			<property name="Power" value="12500" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="1" />
+		</card>
+		<card name="Astral Warper" id="3be672e1-1722-4528-af1e-027f66ec067e">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Cyber Virus" />
+			<property name="Rules" value="Evolution-Put on one of your Cyber Viruses. &#xd;&#xa;When you put this creature into the battle zone, draw up to 3 cards." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="2" />
+		</card>
+		<card name="Trox, General of Destruction" id="588c1536-b362-4bc0-866c-7b2cbe21bb81">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Demon Command" />
+			<property name="Rules" value="When you put this creature into the battle zone, your opponent discards a card at random from his hand for each other darkness creature you have in the battle zone. &#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="3" />
+		</card>
+		<card name="Doboulgyser, Giant Rock Beast" id="8f9cd841-d074-4164-a916-7f1a94a86f24">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Rock Beast" />
+			<property name="Rules" value="Evolution-Put on one of your Rock Beasts. &#xd;&#xa;When you put this creature into the battle zone, you may destroy one of your opponent's creatures that has power 3000 or less. &#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
+			<property name="Power" value="8000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="4" />
+		</card>
+		<card name="Supporting Tulip" id="239429ed-3d91-4683-ba6a-167697dad9fc">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Tree Folk" />
+			<property name="Rules" value="Each Angel Command in the battle zone has &quot;power attacker +4000.&quot; (While attacking, a creature that has &quot;power attacker +4000&quot; gets +4000 power.)" />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="5" />
+		</card>
+		<card name="Aeris, Flight Elemental" id="02aa64bc-b34d-4ddd-a0cd-f2bc60332e28">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Angel Command" />
+			<property name="Rules" value="This creature can't attack players. &#xd;&#xa;This creature can attack untapped darkness creatures." />
+			<property name="Power" value="9000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="6" />
+		</card>
+		<card name="Amber Grass" id="f149fef4-ae45-4691-bb2e-5e3172d8edd0">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="StarLight Tree" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)" />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="7" />
+		</card>
+		<card name="Fu Reil, Seeker of Storms" id="52de3fc6-d82a-4665-95b3-8db508bbc60d">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Mecha Thunder" />
+			<property name="Rules" value="Players can't use the &quot;shield trigger&quot; abilities of darkness cards." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="8" />
+		</card>
+		<card name="Full Defensor" id="e06058a3-efe0-46fb-8271-1e9c0669b954">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xd;&#xa;Until the start of your next turn, each of your creatures in the battle zone gets &quot;Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle).&quot;" />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="9" />
+		</card>
+		<card name="Gulan Rias, Speed Guardian" id="6d45856e-c557-47ab-acb1-d31743faa3bd">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Guardian" />
+			<property name="Rules" value="This creature can't be attacked by darkness creatures. &#xd;&#xa;This creature can't be blocked by darkness creatures." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="10" />
+		</card>
+		<card name="Kolon, the Oracle" id="38919bbc-38bd-4a0d-8425-ac07c3d9c035">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Light Bringer" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.) &#xd;&#xa;When you put this creature into the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="11" />
+		</card>
+		<card name="Milieus, the Daystretcher" id="42d6ae71-b02a-4eb6-bb17-cb3886265292">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Berserker" />
+			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xd;&#xa;Each darkness creature costs 2 more to summon, and each darkness spell costs 2 more to cast." />
+			<property name="Power" value="2500" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="12" />
+		</card>
+		<card name="Mist Rias, Sonic Guardian" id="35f8fb4d-080b-4a6f-bcfe-78c643231b15">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Guardian" />
+			<property name="Rules" value="Whenever another creature is put into the battle zone, you may draw a card." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="13" />
+		</card>
+		<card name="Ouks, Vizier of Restoration" id="674eb708-c8f5-4dfb-9027-f4d98008a3ca">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Initiate" />
+			<property name="Rules" value="When this creature would be destroyed, add it to your shields face down instead." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="14" />
+		</card>
+		<card name="Re Bil, Seeker of Archery" id="0f82d5d3-28fc-40c5-ac3b-320c3edb401e">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Mecha Thunder" />
+			<property name="Rules" value="Each other light creature in the battle zone gets +2000 power. &#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="15" />
+		</card>
+		<card name="Sarius, Vizier of Suppression" id="bf01ccaf-3878-42bc-88eb-e5ddaf7dd418">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Initiate" />
+			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xd;&#xa;This creature can't attack players." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="16" />
+		</card>
+		<card name="Screaming Sunburst" id="66692c8c-7bb6-4ced-a52d-91ee3cb39b1a">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Tap all creatures in the battle zone except light creatures." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="17" />
+		</card>
+		<card name="Whisking Whirlwind" id="94154e08-1b40-4c2e-846b-d59723ae99e9">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="1" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="At the end of the turn, untap all your creatures in the battle zone." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="18" />
+		</card>
+		<card name="Aqua Guard" id="8d054aba-98bf-447b-863f-df8ad68ff715">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="1" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Liquid People" />
+			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xd;&#xa;This creature can't attack." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="19" />
+		</card>
+		<card name="Aqua Jolter" id="1c4009d5-dce9-456f-84d4-7738de42f1ee">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Liquid People" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)" />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="20" />
+		</card>
+		<card name="Clone Factory" id="a52aea45-ddf7-4a80-be8e-57752da80447">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Return up to 2 cards from your mana zone to your hand." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="21" />
+		</card>
+		<card name="Hunter Cluster" id="ead843c1-2fa6-415d-a6ec-1fb225153d3a">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Cyber Cluster" />
+			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.){SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)" />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="22" />
+		</card>
+		<card name="Hydro Hurricane" id="63ff715b-0f53-413b-97d9-12c2f909dba3">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="For each light creature you have in the battle zone, you may choose a card in your opponent's mana zone and return it to his hand. &#xd;&#xa;For each darkness creature you have in the battle zone, you may choose one of your opponent's creatures in the battle zone and return it to his hand." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="23" />
+		</card>
+		<card name="Keeper of the Sunlit Abyss" id="0d9cec82-8719-491e-b6c3-b1c2f9d00ead">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Cyber Virus" />
+			<property name="Rules" value="Light creatures and darkness creatures in the battle zone each get +1000 power." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="24" />
+		</card>
+		<card name="Marinomancer" id="203ee779-d0e9-4f96-8023-ed5e33471d6d">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Cyber Lord" />
+			<property name="Rules" value="When you put this creature into the battle zone, you may reveal the top 3 cards of your deck. Put all light cards and all darkness cards from the revealed cards into your hand, and put the rest into your graveyard." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="25" />
+		</card>
+		<card name="Smile Angler" id="078edf22-f4c3-460e-b785-6962ac9830c8">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Gel Fish" />
+			<property name="Rules" value="Whenever this creature attacks, you may choose a card in your opponent's mana zone and return it to his hand." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="26" />
+		</card>
+		<card name="Chains of Sacrifice" id="3b0445bd-1508-4365-9c4b-df57601c5b7a">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Destroy up to 2 of your opponent's creatures. &#xd;&#xa;Destroy one of your creatures." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="27" />
+		</card>
+		<card name="Darkpact" id="5422204c-e46c-4ea5-a95b-201397cf3ebd">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Put any number of cards from your mana zone into your graveyard. Then draw that many cards." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="28" />
+		</card>
+		<card name="Gigabolver" id="d6481935-eed2-47d8-876b-683117433d2c">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Chimera" />
+			<property name="Rules" value="Players can't use the &quot;shield trigger&quot; abilities of light cards." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="29" />
+		</card>
+		<card name="Gregoria, Princess of War" id="73e1890c-5022-4a7e-85a8-7509ff6f331f">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Dark Lord" />
+			<property name="Rules" value="Each Demon Command in the battle zone gets +2000 power and has &quot;blocker.&quot; (Whenever one of your opponent's creatures attacks, you may tap a creature that has &quot;blocker&quot; to stop the attack. Then the 2 creatures battle.)" />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="30" />
+		</card>
+		<card name="Gregorian Worm" id="40107e81-ec9b-40a3-acf3-c9ddbe95c84a">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Parasite Worm" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)" />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="31" />
+		</card>
+		<card name="Locomotiver" id="141c9525-185c-4c61-b06b-0ef1e9d926e6">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Hedrian" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.) &#xd;&#xa;When you put this creature into the battle zone, your opponent discards a card at random from his hand." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="32" />
+		</card>
+		<card name="Mongrel Man" id="bcd89186-760a-4cd1-9409-f692e2ab99f0">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Hedrian" />
+			<property name="Rules" value="Whenever another creature is destroyed, you may draw a card." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="33" />
+		</card>
+		<card name="Photocide, Lord of the Wastes" id="d041c9b1-f05e-49f2-9598-f4fee770c40e">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Demon Command" />
+			<property name="Rules" value="This creature can't attack players. &#xd;&#xa;This creature can attack untapped light creatures." />
+			<property name="Power" value="9000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="34" />
+		</card>
+		<card name="Purple Piercer" id="6aa76c36-3596-433b-bb12-8d788f99063a">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Brain Jacker" />
+			<property name="Rules" value="This creature can't be attacked by light creatures. &#xd;&#xa;This creature can't be blocked by light creatures." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="35" />
+		</card>
+		<card name="Shadow Moon, Cursed Shade" id="d3c1aada-d23c-4fb4-a626-57389e9a9746">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Ghost" />
+			<property name="Rules" value="Each other darkness creature in the battle zone gets +2000 power." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="36" />
+		</card>
+		<card name="Skeleton Thief, the Revealer" id="a0aa6af6-d264-4b89-84da-8e8871c098ac">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Living Dead" />
+			<property name="Rules" value="When you put this creature into the battle zone, you may return a Living Dead from your graveyard to your hand." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="37" />
+		</card>
+		<card name="Soul Gulp" id="dae6d386-a102-40cc-8086-5f4e163e2e14">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Your opponent chooses and discards a card from his hand for each light creature he has in the battle zone." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="38" />
+		</card>
+		<card name="Volcano Smog, Deceptive Shade" id="b8034cd6-c1a1-4d3e-814e-894c61e2f69e">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Ghost" />
+			<property name="Rules" value="Each light creature costs 2 more to summon, and each light spell costs 2 more to cast." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="39" />
+		</card>
+		<card name="Blasto, Explosive Soldier" id="b418e163-bb13-4f63-9329-f3eca5c1db7e">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Dragonoid" />
+			<property name="Rules" value="While you have a darkness creature in the battle zone, this creature gets +2000 power." />
+			<property name="Power" value="2000+" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="40" />
+		</card>
+		<card name="Chaotic Skyterror" id="7a9b3e96-03e5-40ad-841b-af4dd15c8935">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Wyvern" />
+			<property name="Rules" value="Each Demon Command in the battle zone has &quot;power attacker +4000&quot; and &quot;double breaker.&quot; (A creature that has &quot;power attacker +4000&quot; and &quot;double breaker&quot; gets +4000 power while attacking and breaks 2 shields.)" />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="41" />
+		</card>
+		<card name="Kamikaze, Chainsaw Warrior" id="0124726a-6b23-418f-88df-c071499bed8e">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armorloid" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)" />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="42" />
+		</card>
+		<card name="Magmarex" id="b23bf86b-388b-41ca-b500-db7b119c6b92">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Rock Beast" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.) &#xd;&#xa;When you put this creature into the battle zone, destroy all creatures that have power 1000." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="43" />
+		</card>
+		<card name="Mega Detonator" id="3332b4f3-188d-4f94-b3cf-cc5fc489e3a5">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Discard any number of cards from your hand. Then choose the same number of your creatures in the battle zone. Each of those creatures gets &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)" />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="44" />
+		</card>
+		<card name="Missile Boy" id="bf2b2898-a809-4c92-be95-3a4533dc085d">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Human" />
+			<property name="Rules" value="Each light creature costs 1 more to summon, and each light spell costs 1 more to cast." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="45" />
+		</card>
+		<card name="Pippie Kuppie" id="68802167-3fae-4bdc-818c-3860ce14d781">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Fire Bird" />
+			<property name="Rules" value="Each Armored Dragon in the battle zone gets +1000 power." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="46" />
+		</card>
+		<card name="Sword of Malevolent Death" id="29c67400-beb0-403e-a1f2-803484ce1c2c">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Until the end of the turn, each of your creatures in the battle zone gets &quot;While attacking, this creature gets +1000 power for each darkness card in your mana zone.&quot;" />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="47" />
+		</card>
+		<card name="Ancient Giant" id="6a57782d-c98e-4b15-803e-6befe44295b0">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Giant" />
+			<property name="Rules" value="This creature can't be blocked by darkness creatures. &#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
+			<property name="Power" value="9000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="48" />
+		</card>
+		<card name="Cannon Shell" id="ec1f8705-08a4-4b12-aac7-ca229036a8b1">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Colony Beetle" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.) &#xd;&#xa;This creature gets +1000 power for each shield you have." />
+			<property name="Power" value="1000+" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="49" />
+		</card>
+		<card name="Dew Mushroom" id="d47adbf4-24b0-45ba-9211-1391ea339e65">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Balloon Mushroom" />
+			<property name="Rules" value="Each darkness creature costs 1 more to summon, and each darkness spell costs 1 more to cast." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="50" />
+		</card>
+		<card name="Exploding Cactus" id="eba1d4e0-4ddd-4840-bf93-044f72886bfd">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Tree Folk" />
+			<property name="Rules" value="While you have a light creature in the battle zone, this creature gets +2000 power." />
+			<property name="Power" value="2000+" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="51" />
+		</card>
+		<card name="Mystic Inscription" id="24dcb98a-9d83-4898-a2a2-ae075f5ee4e1">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Add the top card of your deck to your shields face down." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="52" />
+		</card>
+		<card name="Sword of Benevolent Life" id="87510756-37a9-4f52-a6f1-0dbeb3a0412d">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Each of your creatures in the battle zone gets +1000 power until the end of the turn for each light creature you have in the battle zone." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="53" />
+		</card>
+		<card name="Three-Eyed Dragonfly" id="0dd23915-be35-44ea-844d-86122b4230e1">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Giant Insect" />
+			<property name="Rules" value="Whenever this creature attacks, you may destroy one of your other creatures. If you do, this creature gets +2000 power and has &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)" />
+			<property name="Power" value="4000+" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="54" />
+		</card>
+		<card name="Torcon" id="05b8403f-c331-4335-8550-68534347f2b9">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Beast Folk" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)" />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="55" />
+		</card>
+	</cards>
+</set>

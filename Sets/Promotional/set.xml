@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Promotional" id="dd9d179c-cbe4-42c6-9ff7-38a7969f220a" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+	<packaging>
+		<pack name="Booster" id="90a0ed09-7388-425b-b5b2-e363ef051652">
+			<options>
+				<option probability="0.083">
+					<pick qty="1" key="Rarity" value="Super Rare" />
+					<pick qty="5" key="Rarity" value="Common" />
+				</option>
+				<option probability="0.250">
+					<pick qty="1" key="Rarity" value="Very Rare" />
+					<pick qty="5" key="Rarity" value="Common" />
+				</option>
+				<option probability="0.667">
+					<pick qty="6" key="Rarity" value="Common" />
+				</option>
+			</options>
+			<pick qty="1" key="Rarity" value="Rare" />
+			<pick qty="3" key="Rarity" value="Uncommon" />
+		</pack>
+	</packaging>
+	<cards>
+		
+		<card name="Amnis, Holy Elemental" id="3dfc3aaf-e4a9-49eb-b99c-f91fcde327f9">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Angel Command" />
+			<property name="Rules" value="{DARKNESS BLOCKER} &#xd;&#xa;When this creature loses a battle against a Darkness creature, this creature isn't destroyed." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="L3/6 Y1" />
+		</card>
+		
+		<card name="Giliam, The Tormentor" id="a67a2dc3-e8a5-41c3-8603-e8954ff98831">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Demon Command" />
+			<property name="Rules" value="{LIGHT BLOCKER} &#xd;&#xa;When this creature loses a battle against a Light creature, this creature isn't destroyed." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="L5/6 Y1," />
+		</card>
+		
+		<card name="Angry Maple" id="04986395-67af-4e3e-9b46-1a19efc4e7e8">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Tree Folk" />
+			<property name="Rules" value="Power Attacker +4000" />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="M5/Y1" />
+		</card>
+		
+		<card name="Brigade Shell Q" id="8a7e6607-f94a-4425-92c7-b8696ec370ee">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Survivor/Colony Beetle" />
+			<property name="Rules" value="{SURVIVOR} &#xd;&#xa;Whenever this creature attacks, reveal the top card of your deck. If it's a Survivor, put it into your hand. Otherwise, put it into your graveyard." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="L18/20 Y1" />
+		</card>
+		
+		<card name="Twister Fish" id="9db6b2d5-c3f3-4a00-b237-bc7504a9b7df">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Gel Fish" />
+			<property name="Rules" value="{SHIELD TRIGGER}" />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="M2/Y1" />
+		</card>
+		
+		<card name="Super Dragon Machine Dolzark" id="c33f0223-1041-4c93-b21f-0112e01c75d9">
+			<property name="Civilization" value="Fire/Nature" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon/Earth Dragon" />
+			<property name="Rules" value="(This creature is put into your manazone tapped) &#xd;&#xa;Double Breaker. &#xd;&#xa;Whenever one of your other creatures that has 'Dragon' in it's race attacks, you may choose one of your opponent's creatures in the battlezone that has power 5000 or less and put it into his mana zone." />
+			<property name="Power" value="7000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="P0/Y3" />
+		</card>
+		
+		<card name="Star-Cry Dragon" id="7cab8643-2cf5-483d-b7a1-8b8243a75737">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="Double Breaker. &#xd;&#xa;Each of your other Armored Dragons in the battle zone gets +3000 power." />
+			<property name="Power" value="8000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="M4/Y1" />
+		</card>
+		
+		<card name="Olgate, Nightmare Samurai" id="8ddad0f5-391a-404f-8977-5e628ffed10c">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Demon Command" />
+			<property name="Rules" value="Double Breaker. &#xd;&#xa;Whenever one of your creatures is destroyed, you may untap this creature." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="L14/20 Y1" />
+		</card>
+		
+		<card name="Q-tronic Omnistrain" id="6eb5d861-d62e-4d54-8d95-edf72562cde2">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER}. &#xd;&#xa;Evolution - Put on one of your Survivors. &#xd;&#xa;Each of your creatures in the battle zone is a Survivor in addition to it's other races." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="L2/Y2" />
+		</card>
+		
+		<card name="Gigagrax" id="5e42765f-432b-4e33-8fee-65fc9026d1cd">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Chimera" />
+			<property name="Rules" value="When this creature is destroyed, you may destroy one of your opponent's creatures." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="M3/Y1" />
+		</card>
+		
+		<card name="Loth Rix, The Iridescent" id="bf0eb592-fb6f-4604-8851-f41835cceab9">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Guardian" />
+			<property name="Rules" value="Evolution - Put on one of your Guardians. &#xd;&#xa;When you put this creature into the battle zone, add the top card of your deck to your shields face down." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="M1/Y1" />
+		</card>	
+		
+		<card name="Dyno Mantis, The Mightspinner" id="c53626ab-22d8-42ce-935f-700cdf905fae">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Giant Insect" />
+			<property name="Rules" value="Evolution - Put on one of your Giant Insects. &#xd;&#xa;Double Breaker (This creature breaks 2 shields). &#xd;&#xa;Each of your other creatures in the battle zone that has power 5000 or more breaks one more shield." />
+			<property name="Power" value="7000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="L10/Y2" />
+		</card>
+		
+		<card name="Armored Groblav" id="540a15e7-3751-4b30-97ed-8c737bd2c231">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Human" />
+			<property name="Rules" value="Evolution - Put on one of your Humans. &#xd;&#xa;Double Breaker (This creature breaks 2 shields). &#xd;&#xa;While attacking, this creature gets +1000 power for each other fire creature in the battle zone." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="L1/6 Y1" />
+		</card>
+		
+		<card name="Velyrika Dragon" id="db89dd2a-472d-4ae6-bc2a-d1bc87cbbf0e">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="Double Breaker (This creature breaks 2 shields). &#xd;&#xa;When you put this creature into the battle zone, search your deck. You may take an Armored Dragon from your deck, show that Armored Dragon to your opponent, and put it into your hand. Then shuffle your deck." />
+			<property name="Power" value="7000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="L14/Y2" />
+		</card>
+		
+		<card name="Uberdragon Zaschack" id="25f5c132-d1c7-432f-867f-c81b73c05aef">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="9" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="Evolution - Put on one of your Armored Dragons. &#xd;&#xa;Crew breaker - Armored Dragon (This creature breaks one more shield for each of your other Armored Dragons in the battle zone.)" />
+			<property name="Power" value="11000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="L6/Y2" />
+		</card>
+	</cards>
+</set>

@@ -2,7 +2,7 @@
 <game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	id="bb784fc6-fe21-4603-90d7-82c049908a74" version="1.0.0.0" octgnVersion="3.1.30.0"
 	name="Duel Masters OCG" tags="Duel Masters, Kaijudo" description="Duel Masters"
-	setsurl="http://octgn.gamersjudgement.com/wordpress/duelmasters/images/" gameurl="http://octgn.gamersjudgement.com/wordpress/duelmasters/" authors="brine"
+	setsurl="http://octgn.gamersjudgement.com/wordpress/duelmasters/images/" gameurl="http://octgn.gamersjudgement.com/wordpress/duelmasters/" authors="brine, naveed92"
 	markersize="18" iconurl="https://raw.github.com/brine/duelmasters-octgn/master/game/cards/logo.jpg" >
 
 	<scripts>
@@ -57,7 +57,8 @@
 			<groupaction menu="Discard Top X Cards" execute="millX" />
 			<groupaction menu="Charge Top Card as Mana" execute="mana" />
 		</group>
-		<group name="Discard Pile" visibility="all" ordered="False" width="63" height="88" shortcut="del" icon="groups/discard.png" collapsed="False" />
+		<group name="Discard Pile" visibility="all" ordered="False" width="63" height="88" shortcut="del" icon="groups/graveyard.png" collapsed="False" />
+		<group name="Hyperspatial Zone" visibility="all" ordered="False" width="63" height="88" shortcut="" icon="groups/hyperspatial.png" collapsed="False" />
 	</player>
 	<deck>
 		<section name="Main" group="Deck" />

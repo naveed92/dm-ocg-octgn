@@ -62,5 +62,6 @@
 	</player>
 	<deck>
 		<section name="Main" group="Deck" />
+		<section name="Hyperspatial Deck" group="Hyperspatial Zone" />
 	</deck>
 </game>

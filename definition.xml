@@ -14,6 +14,11 @@
 	</events>
 	<proxygen definitionsrc="proxy/CardGenData.xml">
 	</proxygen>
+	<documents>
+
+		<document name="Banlist" icon="documents/rules.png" src="documents/banlist.txt" />
+
+	</documents>
 	<card back="cards/back.jpg" front="cards/front.jpg" width="63" height="88" cornerRadius="0">
 		<property name="Cost" type="Integer" hidden="False" />
 		<property name="Civilization" type="String" textKind="Enum" ignoreText="False" />

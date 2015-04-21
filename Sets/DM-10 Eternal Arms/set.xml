@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM-10 Eternal Arms" id="c3176869-0d93-4b23-afc9-a731439f7736" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+	<packaging>
+		<pack name="Booster" id="f71527ad-8714-435e-9b22-6e751e78ec51">
+			<options>
+				<option probability="0.083">
+					<pick qty="1" key="Rarity" value="Super Rare" />
+					<pick qty="5" key="Rarity" value="Common" />
+				</option>
+				<option probability="0.250">
+					<pick qty="1" key="Rarity" value="Very Rare" />
+					<pick qty="5" key="Rarity" value="Common" />
+				</option>
+				<option probability="0.667">
+					<pick qty="6" key="Rarity" value="Common" />
+				</option>
+			</options>
+			<pick qty="1" key="Rarity" value="Rare" />
+			<pick qty="3" key="Rarity" value="Uncommon" />
+		</pack>
+	</packaging>
+	<cards>
+		<card name="Deklowaz, the Terminator" id="a993fd17-05b0-49e6-9f29-0163fd543cac">
+			<property name="Civilization" value="Darkness/Fire" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Spirit Quartz" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.) &#xd;&#xa;Instead of having this creature attack, you may tap it to use its {TAP} ability. &#xd;&#xa;{TAP} Destroy all creatures that have power 3000 or less. Then look at your opponent's hand. He discards all creatures from it that have power 3000 or less." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S10" />
+		</card>
+		<card name="Bluum Erkis, Flare Guardian" id="2f17a92e-c787-4d93-abb1-ab8c449775d6">
+			<property name="Civilization" value="Light/Water" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Guardian" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.) &#xd;&#xa;Whenever this creature would break one of your opponent's shields, your opponent shows that shield to you instead of putting it into his hand. If it's a spell that has &quot;shield trigger,&quot; you cast it for no cost, then put it into your opponent's graveyard. If it's not, your opponent puts it into his hand. &#xd;&#xa;Double breaker" />
+			<property name="Power" value="8500" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S9" />
+		</card>
+		<card name="Hawkeye Lunatron" id="b4138642-08ae-4fd9-8ef9-90224451fca2">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Cyber Moon" />
+			<property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xd;&#xa;When you put this creature into the battle zone, search your deck. You may take a card from your deck and put it into your hand. Then shuffle your deck." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S2" />
+		</card>
+		<card name="Bodacious Giant" id="92d543fb-601c-4b01-8ad8-173246dfbf82">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Giant" />
+			<property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xd;&#xa;While this creature is tapped during your opponent's turn, if it hasn't been attacked that turn, your opponent's creatures must attack it if able." />
+			<property name="Power" value="12000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S7" />
+		</card>
+		<card name="Terradragon Dakma Balgarow" id="b126744f-b641-4ff9-a61d-513f07383373">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Earth Dragon" />
+			<property name="Rules" value="This creature gets +2000 power for each shield you and your opponent have. &#xd;&#xa;While this creature has power 6000 or more, it has &quot;Double breaker (This creature breaks 2 shields).&quot; &#xd;&#xa;While this creature has power 15000 or more, it has &quot;triple breaker&quot; instead of &quot;double breaker.&quot; (It breaks 3 shields)" />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S8" />
+		</card>
+		<card name="Elixia, Pureblade Elemental" id="70be7166-a1eb-4066-bc53-9552a153140c">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Angel Command" />
+			<property name="Rules" value="This creature gets +3000 power for each civilization in your mana zone. &#xd;&#xa;While this creature has power 6000 or more, it has &quot;Double breaker (This creature breaks 2 shields).&quot; &#xd;&#xa;While this creature has power 15000 or more, it has &quot;triple breaker&quot; instead of &quot;double breaker.&quot; (It breaks 3 shield)" />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S1" />
+		</card>
+		<card name="Ultimate Dragon" id="d6a240ee-9ba6-47f2-b38b-12fb9df27bea">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="This creature gets +5000 power for each of your other creatures in the battle zone that has Dragon in its race. &#xd;&#xa;Crew breaker-Dragon (This creature breaks one more shield for each of your other creatures in the battle zone that has Dragon in its race.)" />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S6" />
+		</card>
+		<card name="Core-Crash Lizard" id="8c150432-ff9d-4e09-a5f1-fa1c4cd32a97">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Melt Warrior" />
+			<property name="Rules" value="When you put this creature into the battle zone, choose one of your opponent's shields and put it into his graveyard." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S5" />
+		</card>
+		<card name="Hurricane Crawler" id="726909f9-a18c-467e-be34-c2cfef7cca71">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Earth Eater" />
+			<property name="Rules" value="When you put this creature into the battle zone, put all the cards from your hand into your mana zone. Then put that many cards from your mana zone into your hand." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S3" />
+		</card>
+		<card name="Necrodragon Bryzenaga" id="3e93050a-68ed-4dce-9f18-f9da610aa9cc">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Zombie Dragon" />
+			<property name="Rules" value="When you put this creature into the battle zone, put all your shields into your hand. (You can use the &quot;shield trigger&quot; abilities of those shields.) &#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
+			<property name="Power" value="9000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S4" />
+		</card>
+		<card name="Balza, Seeker of Hyperpearls" id="a6e9983d-88fa-422d-8f6d-d0ad83a47436">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Mecha Thunder" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it for no cost.) &#xd;&#xa;{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)" />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="1" />
+		</card>
+		<card name="Ryudmila, Channeler of Suns" id="aac0e158-f662-4efa-a53c-e48e426d69ad">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Mecha Del Sol" />
+			<property name="Rules" value="This creature gets +2000 power for each of your other untapped creatures in the battle zone. &#xd;&#xa;When this creature would be destroyed, shuffle it into your deck instead." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="2" />
+		</card>
+		<card name="King Oquanos" id="e033e2cb-332a-4a7b-b192-fdec7eaa2328">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Leviathan" />
+			<property name="Rules" value="This creature gets +2000 power for each tapped card in your opponent's mana zone. &#xd;&#xa;While this creature has power 6000 or more, it has &quot;Double breaker (This creature breaks 2 shields).&quot;" />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="3" />
+		</card>
+		<card name="Gajirabute, Vile Centurion" id="11569832-d0f4-4cf6-ac7c-9b5e85e8a89b">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Demon Command" />
+			<property name="Rules" value="When you put this creature into the battle zone, choose one of your opponent's shields and put it into his graveyard." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="4" />
+		</card>
+		<card name="Kejila, the Hidden Horror" id="3d60264a-7341-4e14-b3d0-ffc5da27e4f1">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Pandora's Box" />
+			<property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xd;&#xa;Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}This creature breaks 2 of your opponent's shields." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="5" />
+		</card>
+		<card name="Gaulezal Dragon" id="66e6e3b7-27b9-4ee8-893b-784528260dae">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="9" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="Double breaker (This creature breaks 2 shields.)" />
+			<property name="Power" value="11000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="6" />
+		</card>
+		<card name="Carnival Totem" id="ac22d25d-ef5b-463d-8788-2b674d29eeb1">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Mystery Totem" />
+			<property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xd;&#xa;When you put this creature into the battle zone, put all the cards from your mana zone into your hand and, at the same time, put all the cards from your hand into your mana zone tapped." />
+			<property name="Power" value="7000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="7" />
+		</card>
+		<card name="Tanzanyte, the Awakener" id="69fc8f1a-0feb-487b-adf0-ab4292cff105">
+			<property name="Civilization" value="Water/Darkness" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Spirit Quartz" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.) &#xd;&#xa;Double breaker (This creature breaks 2 shields.) &#xd;&#xa;Instead of having this creature attack, you may tap it to use its {TAP} ability. &#xd;&#xa;{TAP} Choose a creature in your graveyard. Return all creatures that have that name from your graveyard to your hand." />
+			<property name="Power" value="9000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="8" />
+		</card>
+		<card name="Bombazar, Dragon of Destiny" id="d49d4a5d-d64d-4880-b5ba-cde70a3c8a81">
+			<property name="Civilization" value="Fire/Nature" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon/Earth Dragon" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.) &#xd;&#xa;When you put this creature into the battle zone, destroy all other creatures that have 6000 power. Take an extra turn after this one. You lose the game at the end of that turn. &#xd;&#xa;Speed attacker (This creature doesn't get summoning sickness.) &#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="9" />
+		</card>
+		<card name="Techno Totem" id="b2b50070-54c2-4007-b50a-a3d3358b9887">
+			<property name="Civilization" value="Light/Nature" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Mystery Totem" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.) &#xd;&#xa;While this creature is tapped, each of your other creatures has &quot;power attacker +1500.&quot; (While attacking, a creature that has &quot;power attacker +1500&quot; gets +1500 power.) &#xd;&#xa;Instead of having this creature attack, you may tap it to use its {TAP} ability. &#xd;&#xa;{TAP} Choose one of your opponent's creatures in the battle zone and tap it." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="10" />
+		</card>
+		<card name="Berochika, Channeler of Suns" id="b5bc7fb5-4387-44ed-9494-49e4bfa34c2d">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Mecha Del Sol" />
+			<property name="Rules" value="When you put this creature into the battle zone, if you have 5 or more shields, add the top card of your deck to your shields face down." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="11" />
+		</card>
+		<card name="Bulgluf, the Spydroid" id="dfaa59b7-7b77-456c-a9e2-a6c5df1490c5">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Soltrooper" />
+			<property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}Add the top card of your deck to your shields face down." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="12" />
+		</card>
+		<card name="Clearlo, Grace Enforcer" id="95546876-08e7-41f5-a768-8fd356fd5ad9">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Berserker" />
+			<property name="Rules" value="This creature gets +1000 power for each of your other untapped creatures in the battle zone." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="13" />
+		</card>
+		<card name="Ferrosaturn, Spectral Knight" id="6f8771af-232e-4475-b0b0-b75224a7ec5f">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="1" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Rainbow Phantom" />
+			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xd;&#xa;This creature can't attack players." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="14" />
+		</card>
+		<card name="Flohdani, the Spydroid" id="7cc2b07d-4e2c-4e4d-84c0-1bcf9cf8701d">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Soltrooper" />
+			<property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}Choose up to 2 of your opponent's creatures in the battle zone and tap them." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="15" />
+		</card>
+		<card name="Glais Mejicula, the Extreme" id="5650f3a1-6103-41e4-8b1c-1c4ddd732f47">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Initiate" />
+			<property name="Rules" value="Evolution-Put on one of your Initiates. &#xd;&#xa;Whenever one of your shields would be broken, you may discard 2 cards from your hand instead." />
+			<property name="Power" value="5500" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="16" />
+		</card>
+		<card name="Ikaz, the Spydroid" id="8901f9c9-4059-475d-a93c-4eb484874657">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Soltrooper" />
+			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xd;&#xa;Whenever this creature blocks, choose one of your creatures in the battle zone. Untap it after the battle. &#xd;&#xa;This creature can't attack players." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="17" />
+		</card>
+		<card name="Kaemira, the Oracle" id="2701fb79-5625-4670-9343-25a1e5a5cb17">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Light Bringer" />
+			<property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}Add the top card of your deck to your shields face down." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="18" />
+		</card>
+		<card name="Lemik, Vizier of Thought" id="01592c98-32d3-4ac5-a4c4-3f4a30ec5bba">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Initiate" />
+			<property name="Rules" value="Each of your water creatures and nature creatures in the battle zone has &quot;blocker.&quot; (Whenever one of your opponent's creatures attacks, you may tap a creature that has &quot;blocker&quot; to stop the attack. Then the 2 creatures battle.)" />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="19" />
+		</card>
+		<card name="Logic Cube" id="4707e81e-2fbb-4c6c-99a4-b5be039424af">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xd;&#xa;Search your deck. You may take a spell from your deck, show that spell to your opponent, and put it into your hand. Then shuffle your deck." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="20" />
+		</card>
+		<card name="Messa Bahna, Expanse Guardian" id="83b5cc2a-e70d-48dc-9418-00975e277afc">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Guardian" />
+			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xd;&#xa;Whenever an opponent's creature attacks, this creature blocks if able. &#xd;&#xa;This creature can't attack players." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="21" />
+		</card>
+		<card name="Pala Olesis, Morning Guardian" id="7cd622e2-ef7d-4dcc-8e22-9d897a5ad248">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Guardian" />
+			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xd;&#xa;During your opponent's turn, each of your other creatures gets +2000 power. &#xd;&#xa;This creature can't attack players." />
+			<property name="Power" value="2500" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="22" />
+		</card>
+		<card name="Poltalester, the Spydroid" id="e8c46ed0-c00e-4b00-a995-da1391c8f2b0">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Soltrooper" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it for no cost.) &#xd;&#xa;{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)" />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="23" />
+		</card>
+		<card name="Rapid Reincarnation" id="8c36ba7d-de51-4449-8b78-66fe8c3fb9ac">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xd;&#xa;You may destroy one of your creatures. If you do, choose a creature in your hand that costs the same as or less than the number of cards in your mana zone and put it into the battle zone." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="24" />
+		</card>
+		<card name="Solar Ray" id="e86d2633-41f8-4eb1-b3ac-90f398b89368">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xd;&#xa;Choose one of your opponent's creatures in the battle zone and tap it." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="25" />
+		</card>
+		<card name="Static Warp" id="ac831818-11cb-4444-b591-f8c72bb3c6ad">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Each player chooses one of his creatures in the battle zone. Tap the rest of the creatures in the battle zone." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="26" />
+		</card>
+		<card name="Tulk, the Oracle" id="cd06d396-86d6-448b-a12c-f6f63dbd6589">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="1" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Light Bringer" />
+			<property name="Rules" value="" />
+			<property name="Power" value="500" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="27" />
+		</card>
+		<card name="Aqua Strummer" id="6fabb252-7be4-4e8f-b7ed-41b9d8229a7c">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Liquid People" />
+			<property name="Rules" value="When you put this creature into the battle zone, look at up to 5 cards from the top of your deck and put them back in any order." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="28" />
+		</card>
+		<card name="Ardent Lunatron" id="50ea2d75-6259-4144-97fc-50e2d348c6ce">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Cyber Moon" />
+			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xd;&#xa;Whenever an opponent's creature attacks, this creature blocks if able. &#xd;&#xa;This creature can't attack." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="29" />
+		</card>
+		<card name="Battery Cluster" id="e60360cb-5735-4325-95a7-495a7c7ab046">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Cyber Cluster" />
+			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xd;&#xa;This creature can't attack." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="30" />
+		</card>
+		<card name="Buoyant Blowfish" id="fc7b0556-b655-483a-a9fa-30f6983dadf3">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Gel Fish" />
+			<property name="Rules" value="This creature gets +1000 power for each tapped card in your opponent's mana zone." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="31" />
+		</card>
+		<card name="Charge Whipper" id="d291698e-d9b1-4d75-9a21-57326ee928f0">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Cyber Virus" />
+			<property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}You may add a card from your hand to your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="32" />
+		</card>
+		<card name="Crystal Spinslicer" id="1e1811b2-0f99-4c2d-9d01-8f1f7f506b99">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Liquid People" />
+			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xd;&#xa;Evolution-Put on one of your Liquid People." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="33" />
+		</card>
+		<card name="Fluorogill Manta" id="67a9e69d-cfc5-4fea-bced-a5b0f931736c">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Gel Fish" />
+			<property name="Rules" value="Your light creatures and darkness creatures can't be blocked." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="34" />
+		</card>
+		<card name="Milporo" id="8791d863-0f7c-4f74-b282-ffe247665f62">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Cyber Lord" />
+			<property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}Draw a card." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="35" />
+		</card>
+		<card name="Mystic Magician" id="abfe4c31-d978-4339-901c-2955776f29d6">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Merfolk" />
+			<property name="Rules" value="Your creatures that have &quot;silent skill&quot; are put into the battle zone tapped. &#xd;&#xa;Whenever one of your creatures that has &quot;silent skill&quot; would be destroyed, put it into your hand instead." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="36" />
+		</card>
+		<card name="Pinpoint Lunatron" id="05fcad24-54b6-4d39-9385-2cee7140a888">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Cyber Moon" />
+			<property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}Choose a creature in the battle zone or a card in either player's mana zone and return it to its owner's hand." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="37" />
+		</card>
+		<card name="Recon Operation" id="afe5bec3-006c-4ae1-81c5-d0bf1b43eb6d">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Look at up to 3 of your opponent's shields." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="38" />
+		</card>
+		<card name="Siren Concerto" id="5c9c437f-d40b-4891-93ae-06a726f4b879">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="1" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xd;&#xa;Put a card from your mana zone into your hand. Then put a card from your hand into your mana zone." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="39" />
+		</card>
+		<card name="Spiral Gate" id="e250935b-ded2-4ce9-88a6-ce3a96bb1e5a">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xd;&#xa;Choose a creature in the battle zone and return it to its owner's hand." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="40" />
+		</card>
+		<card name="Tide Patroller" id="631d9253-2f2d-4bcc-8a79-5892757d3982">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Merfolk" />
+			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)" />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="41" />
+		</card>
+		<card name="Torpedo Cluster" id="0db88212-eb13-4ee9-807c-5ef88fcffb7c">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Cyber Cluster" />
+			<property name="Rules" value="When you put this creature into the battle zone, return a card from your mana zone to your hand." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="42" />
+		</card>
+		<card name="Transmogrify" id="102b8593-9563-49c3-b1aa-ee2a09979727">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xd;&#xa;You may destroy a creature. If you do, its owner reveals cards from the top of his deck until he reveals a non-evolution creature. He puts that creature into the battle zone and puts the rest of those cards into his graveyard." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="43" />
+		</card>
+		<card name="Zaltan" id="fc0505fb-cf31-4b2b-9620-6f41c2c776ff">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Cyber Lord" />
+			<property name="Rules" value="Whenever you put a Cyber Virus into the battle zone, you may discard up to 2 cards from your hand. For each card you discard, choose a creature in the battle zone and return it to its owner's hand." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="44" />
+		</card>
+		<card name="Benzo, the Hidden Fury" id="e520eba2-19dc-4cb0-b046-2b5a089bb6e6">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Pandora's Box" />
+			<property name="Rules" value="When you put this creature into the battle zone, choose one of your shields and put it into your hand. (You can use the &quot;shield trigger&quot; ability of that shield.)" />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="45" />
+		</card>
+		<card name="Death Smoke" id="17ccb360-ecb0-47a0-8da9-1dfe71e395d3">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Destroy one of your opponent's untapped creatures." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="46" />
+		</card>
+		<card name="Dedreen, the Hidden Corrupter" id="3692c8d1-80a0-45c4-be6a-e910be77454a">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Pandora's Box" />
+			<property name="Rules" value="When you put this creature into the battle zone, if your opponent has 3 or fewer shields, he discards a card at random from his hand." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="47" />
+		</card>
+		<card name="Gigamente" id="c0b0a984-4366-4c9b-be7a-49c4bb189391">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Chimera" />
+			<property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}Return a creature from your graveyard to your hand." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="48" />
+		</card>
+		<card name="Gigandura" id="fa08fbbb-869f-47f7-bec2-174ee7676f58">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Chimera" />
+			<property name="Rules" value="When you put this creature into the battle zone, look at your opponent's hand. You may choose a card in it and put it into his mana zone. If you do, choose a card in his mana zone and put it into his hand." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="49" />
+		</card>
+		<card name="Hourglass Mutant" id="ee231e00-6ef9-4577-9bb9-4756bb5b03d6">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Hedrian" />
+			<property name="Rules" value="Each of your water creatures and fire creatures in the battle zone has &quot;slayer.&quot; (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)" />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="50" />
+		</card>
+		<card name="Infernal Command" id="22855fbc-c99b-49bb-bbf0-2dcee6709c28">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="1" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xd;&#xa;Choose one of your opponent's creatures in the battle zone. It gets &quot;this creature attacks if able&quot; until the start of your next turn." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="51" />
+		</card>
+		<card name="Mikay, Rattling Doll" id="d8b83c43-3f85-45df-afcf-4ed3d0147d57">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Death Puppet" />
+			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xd;&#xa;This creature can't attack." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="52" />
+		</card>
+		<card name="Mummy Wrap, Shadow of Fatigue" id="263497b8-bc75-42f0-b432-c7074a9bb186">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Ghost" />
+			<property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability. &#xd;&#xa;{TAP} Each player discards a card at random from his hand." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="53" />
+		</card>
+		<card name="Nightmare Invader" id="c267a071-219c-41cd-b60e-6d2a6c3141dc">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Devil Mask" />
+			<property name="Rules" value="" />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="54" />
+		</card>
+		<card name="Pierr, Psycho Doll" id="69ed845b-a86e-48f0-ac6c-995f3d6e1b0c">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Death Puppet" />
+			<property name="Rules" value="{BLOCKER} &#xd;&#xa;Whenever an opponent's creature attacks, this creature blocks if able. &#xd;&#xa;This creature can't attack. &#xd;&#xa;Slayer (Whenever this creature battles, destroy the other creature after the battle.)" />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="55" />
+		</card>
+		<card name="Spark Chemist, Shadow of Whim" id="4959856b-aaaf-4599-99ab-61ea6e4deb28">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Ghost" />
+			<property name="Rules" value="When you put this creature into the battle zone, return all the cards from your mana zone to your hand." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="56" />
+		</card>
+		<card name="Spinal Parasite" id="65af6fc9-c498-4525-92a6-97e5278b7e14">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Brain Jacker" />
+			<property name="Rules" value="At the start of each of your opponent's turns, he chooses one of his creatures in the battle zone that can attack. That creature attacks that turn if able." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="57" />
+		</card>
+		<card name="Uliya, the Entrancer" id="35ddcf13-bff1-4e7d-91cf-a832db51628f">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Dark Lord" />
+			<property name="Rules" value="When you put this creature into the battle zone, choose one of your shields and put it into your hand. (You can use the &quot;shield trigger&quot; ability of that shield.)" />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="58" />
+		</card>
+		<card name="Upheaval" id="9dadb599-c717-4aec-af54-efa8bb41a7a2">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xd;&#xa;Each player puts all the cards from his mana zone into his hand and, at the same time, puts all the cards from his hand into his mana zone tapped." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="59" />
+		</card>
+		<card name="Venom Capsule" id="22ce98e9-e403-4feb-86f9-e50379a37069">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Brain Jacker" />
+			<property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}This creature breaks one of your opponent's shields." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="60" />
+		</card>
+		<card name="Zero Nemesis, Shadow of Panic" id="3e94a4bf-68bb-4f16-a003-d31890d6ef24">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Ghost" />
+			<property name="Rules" value="Evolution-Put on one of your Ghosts. &#xd;&#xa;Whenever one of your creatures attacks, your opponent discards a card at random from his hand. &#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="61" />
+		</card>
+		<card name="Armored Raider Gandaval" id="3893c948-e931-47ce-87de-8d88d362bc04">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Human" />
+			<property name="Rules" value="Evolution-Put on one of your Humans. &#xd;&#xa;While attacking, this creature gets +2000 power for each of your other tapped creatures in the battle zone. &#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="62" />
+		</card>
+		<card name="Brad, Super Kickin' Dynamo" id="8f21409c-d0c3-48ee-ac09-7ef958d51f0f">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Human" />
+			<property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}Destroy one of your opponent's creatures that has &quot;blocker.&quot;" />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="63" />
+		</card>
+		<card name="Burnwisp Lizard" id="50370972-2959-453f-a876-e6d4c65d1989">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Melt Warrior" />
+			<property name="Rules" value="Each of your creatures in the battle zone that has &quot;silent skill&quot; has &quot;speed attacker.&quot; (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)" />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="64" />
+		</card>
+		<card name="Colossus Boost" id="9b0115e7-996f-41c8-8fb4-8c7585314e64">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="1" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="One of your creatures gets +4000 power until the end of the turn." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="65" />
+		</card>
+		<card name="Cragsaur" id="d16cfcbd-88f0-4269-881f-8ad8a52ba1ab">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Rock Beast" />
+			<property name="Rules" value="" />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="66" />
+		</card>
+		<card name="Explosive Trooper Zalmez" id="d1771ee7-098f-4abb-8409-bc654d7c6cfa">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armorloid" />
+			<property name="Rules" value="When you put this creature into the battle zone, if your opponent has 2 or fewer shields, you may destroy one of your opponent's creatures that has power 3000 or less." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="67" />
+		</card>
+		<card name="Forced Frenzy" id="d873ee8a-18d5-457b-a8da-ba3b6575cd84">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xd;&#xa;Each of your opponent's creatures gets &quot;This creature attacks if able&quot; until the start of your next turn." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="68" />
+		</card>
+		<card name="Hurlosaur" id="ccfda9bd-b632-456b-a534-1896f3f46cc9">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Rock Beast" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it for no cost.) &#xd;&#xa;When you put this creature into the battle zone, destroy one of your opponent's creatures that has power 1000 or less." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="69" />
+		</card>
+		<card name="Mezger, Commando Leader" id="6091395f-f050-4e9a-bef2-cff7b2b7a217">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Human" />
+			<property name="Rules" value="Speed attacker (This creature doesn't get summoning sickness.)" />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="70" />
+		</card>
+		<card name="Minelord Skyterror" id="7e4cbb0a-cfd6-4f70-950b-9e91c6638a4c">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Wyvern" />
+			<property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}Destroy all creatures that have power 3000 or less." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="71" />
+		</card>
+		<card name="Mykee's Pliers" id="5ec6f9ac-78ee-4090-b8bc-95e7d3352ae1">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="XenoParts" />
+			<property name="Rules" value="Each of your darkness creatures and nature creatures in the battle zone has &quot;speed attacker.&quot; (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)" />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="72" />
+		</card>
+		<card name="Phantom Dragon's Flame" id="48141bff-6590-405d-8462-c89f19f0d00b">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xd;&#xa;Destroy one of your opponent's creatures that has power 2000 or less." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="73" />
+		</card>
+		<card name="Siege Roller Bagash" id="8eb6f762-e08b-49f6-b7c2-3d44743c41aa">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armorloid" />
+			<property name="Rules" value="While attacking, this creature gets +1000 power for each of your other tapped creatures in the battle zone." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="74" />
+		</card>
+		<card name="Smash Warrior Stagrandu" id="52e664a6-b436-440a-bb3a-8f9f07a33db3">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armorloid" />
+			<property name="Rules" value="This creature can attack untapped creatures. &#xd;&#xa;Whenever this creature attacks a creature that has power 6000 or more, this creature gets +9000 power until the end of the turn." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="75" />
+		</card>
+		<card name="Supersonic Jet Pack" id="6e0a977d-56f5-4aee-bf44-385adb0aba18">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="1" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="One of your creatures in the battle zone gets &quot;speed attacker&quot; until the end of the turn. (It doesn't get summoning sickness.)" />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="76" />
+		</card>
+		<card name="Taunting Skyterror" id="225923b8-2a45-477c-b47c-d1b98cdcc054">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Wyvern" />
+			<property name="Rules" value="While this creature is tapped during your opponent's turn, each of his creatures attacks if able." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="77" />
+		</card>
+		<card name="Vorg's Engine" id="7c48a606-42b7-47f1-acce-039c3d52dbe4">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="XenoParts" />
+			<property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}Destroy all creatures that have power 2000 or less." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="78" />
+		</card>
+		<card name="Adventure Boar" id="4338f7dc-9f9c-48ad-8279-49c3be3cbdb7">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Beast Folk" />
+			<property name="Rules" value="Power attacker +2000 (While attacking, this creature gets +2000 power.)" />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="79" />
+		</card>
+		<card name="Ancient Horn, the Watcher" id="7dcb07e2-7c13-46d2-9113-1f930ad5d299">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Horned Beast" />
+			<property name="Rules" value="When you put this creature into the battle zone, if you have 5 or more shields, untap all the cards in your mana zone." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="80" />
+		</card>
+		<card name="Bubble Scarab" id="b3b9af31-dc2a-45e7-9043-8f44742c8649">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Giant Insect" />
+			<property name="Rules" value="Whenever one of your creatures is attacked, you may discard a card from your hand. If you do, that creature gets +3000 power until the end of the turn." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="81" />
+		</card>
+		<card name="Earth Ripper, Talon of Rage" id="5dbd5ca0-3ae3-4927-9b97-67df3341a3e7">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Beast Folk" />
+			<property name="Rules" value="Evolution-Put on one of your Beast Folk. &#xd;&#xa;When you put this creature into the battle zone, return all tapped cards from your mana zone to your hand. &#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="82" />
+		</card>
+		<card name="Faerie Life" id="ab8a2ed6-ab71-402a-bb33-5b3fcb4ddcf8">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xd;&#xa;Put the top card of your deck into your mana zone." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="83" />
+		</card>
+		<card name="Hustle Berry" id="72b7d499-91c6-4e47-987b-56fcd5c95732">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Wild Veggies" />
+			<property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}Put the top card of your deck into your mana zone." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="84" />
+		</card>
+		<card name="Jiggly Totem" id="07a3726a-8fc4-4c01-a5cb-2545fdb13967">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Mystery Totem" />
+			<property name="Rules" value="While attacking, this creature gets +1000 power for each tapped card in your mana zone." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="85" />
+		</card>
+		<card name="Karate Potato" id="2228b63d-c709-40a1-810f-9bd9c657cc9d">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Wild Veggies" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it for no cost.) &#xd;&#xa;When you put this creature into the battle zone, you may put up to 2 cards from your hand into your mana zone." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="86" />
+		</card>
+		<card name="Legacy Shell" id="0ec03e7f-62ea-42f2-9118-09d8d4cd4ce3">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Colony Beetle" />
+			<property name="Rules" value="Each of your light creatures and fire creatures has &quot;power attacker +3000.&quot; (While attacking, a creature that has &quot;power attacker +3000&quot; gets +3000 power.)" />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="87" />
+		</card>
+		<card name="Sabermask Scarab" id="f5bae555-e41c-418b-bd6f-f3ec450f3829">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Giant Insect" />
+			<property name="Rules" value="Whenever this creature attacks, return a card from your mana zone to your hand." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="88" />
+		</card>
+		<card name="Scowling Tomato" id="05233230-10a3-45df-b00c-7aa4a50adf1b">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Wild Veggies" />
+			<property name="Rules" value="" />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="89" />
+		</card>
+		<card name="Shaman Broccoli" id="c74822ca-b861-428f-9c96-ba587f1a8278">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Wild Veggies" />
+			<property name="Rules" value="When this creature would be destroyed, put it into your mana zone instead." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="90" />
+		</card>
+		<card name="Soulswap" id="f27e0a88-ca13-48fc-ae60-6ecf7ef714e7">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xd;&#xa;You may choose a creature in the battle zone and put it into its owner's mana zone. If you do, choose a non-evolution creature in that player's mana zone that costs the same as or less than the number of cards in that mana zone. That player puts that creature into the battle zone." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="91" />
+		</card>
+		<card name="Sporeblast Erengi" id="304921b6-4eb1-45fe-927d-48d0c0e7a74f">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Balloon Mushroom" />
+			<property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}Search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="92" />
+		</card>
+		<card name="Terradragon Cusdalf" id="249ec621-4a03-4814-99ba-e74c421aa3bd">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Earth Dragon" />
+			<property name="Rules" value="Power attacker +4000 (While attacking, this creature gets +4000 power.) &#xd;&#xa;Double breaker (This creature breaks 2 shields.) &#xd;&#xa;You can't untap the cards in your mana zone at the start of each of your turns." />
+			<property name="Power" value="7000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="93" />
+		</card>
+		<card name="Thirst for the Hunt" id="da679038-23ca-4fc5-a74e-d6bf5c9f0e9f">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="1" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Each of your creatures gets &quot;power attacker +1000&quot; until the end of the turn. (While attacking, a creature that has &quot;power attacker +1000&quot; gets +1000 power.)" />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="94" />
+		</card>
+		<card name="Twitch Horn, the Aggressor" id="902da22a-0fcf-4eb2-96db-873ec31e9d7d">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Horned Beast" />
+			<property name="Rules" value="While attacking, this creature gets +2000 power for each tapped card in your mana zone." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="95" />
+		</card>
+		<card name="Aqua Skydiver" id="35f50840-6ab8-4002-b76b-4e7b930cf12e">
+			<property name="Civilization" value="Light/Water" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Liquid People" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it for no cost.) &#xd;&#xa;{BLOCKER} (This creature is put into your mana zone tapped.) &#xd;&#xa;When this creature would be destroyed, return it to your hand instead." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="96" />
+		</card>
+		<card name="Estol, Vizier of Aqua" id="a9b8a3a6-4665-4d4e-b998-f63579301ce9">
+			<property name="Civilization" value="Light/Water" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Initiate/Liquid People" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.) &#xd;&#xa;When you put this creature into the battle zone, add the top card of your deck to your shields face down. Then look at one of your opponent's shields." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="97" />
+		</card>
+		<card name="Tajimal, Vizier of Aqua" id="212236f4-482d-44f7-8c56-08a607e22e54">
+			<property name="Civilization" value="Light/Water" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Initiate/Liquid People" />
+			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xd;&#xa;(This creature is put into your mana zone tapped.) &#xd;&#xa;This creature can't attack players. &#xd;&#xa;While battling a fire creature, this creature gets +4000 power." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="98" />
+		</card>
+		<card name="Melnia, the Aqua Shadow" id="725599a0-309d-4f0d-a8ea-e3e9c7a103e0">
+			<property name="Civilization" value="Water/Darkness" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Liquid People/Ghost" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.) &#xd;&#xa;This creature can't be blocked. &#xd;&#xa;Slayer (Whenever this creature battles, destroy the other creature after the battle.)" />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="99" />
+		</card>
+		<card name="Pointa, the Aqua Shadow" id="e3356c90-b263-4399-aa66-61fbbe66bdf7">
+			<property name="Civilization" value="Water/Darkness" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Liquid People/Ghost" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.) &#xd;&#xa;When you put this creature into the battle zone, look at one of your opponent's shields. Then your opponent discards a card at random from his hand." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="100" />
+		</card>
+		<card name="Soderlight, the Cold Blade" id="7087ca2f-2666-4610-8dd4-f36fc8da6b85">
+			<property name="Civilization" value="Water/Darkness" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Spirit Quartz" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.) &#xd;&#xa;This creature can't be blocked. &#xd;&#xa;Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}Your opponent chooses one of his creatures and destroys it." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="101" />
+		</card>
+		<card name="Dolmarks, the Shadow Warrior" id="6b8ef98d-f102-409d-9eba-a192afa6f246">
+			<property name="Civilization" value="Darkness/Fire" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Ghost/Human" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.) &#xd;&#xa;When you put this creature into the battle zone, destroy one of your creatures and put a card from your mana zone into your graveyard. Then your opponent chooses and destroys one of his creatures and chooses a card in his mana zone and puts it into his graveyard." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="102" />
+		</card>
+		<card name="Galek, the Shadow Warrior" id="939b1465-3ed8-4b4b-91e9-c4ba0739f01e">
+			<property name="Civilization" value="Darkness/Fire" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Ghost/Human" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.) &#xd;&#xa;When you put this creature into the battle zone, destroy one of your opponent's creatures that has &quot;blocker.&quot; Then your opponent discards a card at random from his hand." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="103" />
+		</card>
+		<card name="Ulex, the Dauntless" id="32b5b3fe-9965-45e6-9ba9-bf1669561a2e">
+			<property name="Civilization" value="Darkness/Fire" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Spirit Quartz" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.) &#xd;&#xa;Your opponent can't tap this creature." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="104" />
+		</card>
+		<card name="Gonta, the Warrior Savage" id="4c2ce81f-7944-488c-b7d9-c8e190d88609">
+			<property name="Civilization" value="Fire/Nature" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Human/Beast Folk" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.)" />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="105" />
+		</card>
+		<card name="Tagtapp, the Retaliator" id="b2a40498-6a96-4464-9f3e-26e3c208da51">
+			<property name="Civilization" value="Fire/Nature" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Spirit Quartz" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.) &#xd;&#xa;This creature gets +1000 power for each water card in your opponent's mana zone. &#xd;&#xa;While this creature has power 6000 or more, it has &quot;Double breaker (This creature breaks 2 shields).&quot;" />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="106" />
+		</card>
+		<card name="Wind Axe, the Warrior Savage" id="228d12e3-b294-42cf-a37f-901f2b97da8a">
+			<property name="Civilization" value="Fire/Nature" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Human/Beast Folk" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.) &#xd;&#xa;When you put this creature into the battle zone, destroy one of your opponent's creatures that has &quot;blocker.&quot; Then put the top card of your deck into your mana zone." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="107" />
+		</card>
+		<card name="Lukia Lex, Pinnacle Guardian" id="a9c25c64-a9a2-4a22-a87a-4d0a7436e9ff">
+			<property name="Civilization" value="Light/Nature" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Guardian" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.) &#xd;&#xa;Power attacker +3000 (While attacking, this creature gets +3000 power.) &#xd;&#xa;At the end of each of your turns, you may untap this creature." />
+			<property name="Power" value="2500" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="108" />
+		</card>
+		<card name="Sanfist, the Savage Vizier" id="f8fce57e-fc60-413d-9807-26fdfe322a9b">
+			<property name="Civilization" value="Light/Nature" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Beast Folk/Initiate" />
+			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xd;&#xa;(This creature is put into your mana zone tapped.) &#xd;&#xa;When this creature would be discarded from your hand during your opponent's turn, you may put it into the battle zone instead." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="109" />
+		</card>
+		<card name="Skysword, the Savage Vizier" id="2bf0bb68-3f0b-4cd6-ac89-5a9ebb17ea32">
+			<property name="Civilization" value="Light/Nature" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Beast Folk/Initiate" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.) &#xd;&#xa;When you put this creature into the battle zone, put the top card of your deck into your mana zone. Then add the top card of your deck to your shields face down." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="110" />
+		</card>
+	</cards>
+</set>

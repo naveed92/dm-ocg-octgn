@@ -34,6 +34,7 @@
 		<groupaction menu="Roll Die" shortcut="ctrl+R" execute="rollDie" />
 		<groupaction menu="Set Die Type" shortcut="ctrl+shift+R" execute="setDie" />
 		<groupaction menu="Set Up Battlezone" execute="setup" />
+		<groupaction menu="End Turn" shortcut="ctrl+E" execute="endTurn" />
 		<cardaction menu="Tap / Untap" default="True" shortcut="ctrl+G" execute="tap" />
 		<cardaction menu="Banish Card / Break Shield" shortcut="del" execute="banish" />
 		<cardaction menu="Set as Shield" shortcut="ctrl+H" execute="toShields" />
@@ -60,7 +61,7 @@
 			<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
 			<groupaction menu="Discard Top Card" execute="mill" />
 			<groupaction menu="Discard Top X Cards" execute="millX" />
-			<groupaction menu="Charge Top Card as Mana" execute="mana" />
+			<groupaction menu="Charge Top Card as Mana" shortcut="ctrl+M" execute="mana" />
 		</group>
 		<group name="Discard Pile" visibility="all" ordered="False" width="63" height="88" shortcut="del" icon="groups/graveyard.png" collapsed="False" />
 		<group name="Hyperspatial Zone" visibility="all" ordered="False" width="63" height="88" shortcut="" icon="groups/hyperspatial.png" collapsed="False" />

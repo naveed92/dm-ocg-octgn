@@ -255,6 +255,10 @@ def mana(group, x = 0, y = 0):
     toMana(card, notifymute = True)
     notify("{} charges top card of {} as mana.".format(me, group.name))
     
+def endTurn(x = 0, y = 0):
+    mute()
+    notify("{} ends their turn.".format(me))
+    
 def shields(group, x = 0, y = 0):
     mute()
     if len(group) == 0: return

@@ -14,9 +14,9 @@ def resetGame():
     mute()
     me.setGlobalVariable("shieldCount", "0")
 
-def moveCard(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove):
+def moveCard(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, highlights, markers, faceup):
     mute()
-    if player != me or isScriptMove == True: ##Ignore for cards you don't control, or cards that were moved via script
+    if player != me: ##Ignore for cards you don't control
         return
     if fromGroup != table or toGroup == table: ## we only want cases where a card is being moved from table to another group
         return

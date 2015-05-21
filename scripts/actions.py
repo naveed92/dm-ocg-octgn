@@ -14,14 +14,15 @@ def resetGame():
     mute()
     me.setGlobalVariable("shieldCount", "0")
 
-def moveCard(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, highlights, markers, faceup):
+def moveCards(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, highlights, markers, faceup):
+    ## This trigger updates the evolution dictionary in the event one of the cards involved in an evolution leaves the battlezone.
     mute()
     if player != me: ##Ignore for cards you don't control
         return
-    if fromGroup != table or toGroup == table: ## we only want cases where a card is being moved from table to another group
+    if table not in fromGroup: ## we only want cases where a card is being moved from table to another group
         return
     evolveDict = eval(me.getGlobalVariable("evolution"))
-    for evo in eval(me.getGlobalVariable("evolution")):
+    for evo in evolveDict.keys():
         if Card(evo) not in table:
             del evolveDict[evo]
         else:
@@ -95,7 +96,7 @@ def align():
             else: ##collect all creatures
                 cardorder[0].append(card)
     xpos = 80
-    ypos = 5
+    ypos = 5 + 10*(max([len(evolveDict[x]) for x in evolveDict]) if len(evolveDict) > 0 else 1)
     for cardtype in cardorder:
         if cardorder.index(cardtype) == 1:
             xpos = 80
@@ -104,12 +105,19 @@ def align():
             xpos = 80
             ypos += 93
         for c in cardtype:
-            c.moveToTable(sideflip * xpos, playerside * ypos + (44*playerside - 44))
+            x = sideflip * xpos
+            y = playerside * ypos + (44*playerside - 44)
+            if c.position != (x,y):
+                c.moveToTable(x,y)
             xpos += 79
     for evolution in evolveDict:
+        count = 0
         for evolvedCard in evolveDict[evolution]:
-            Card(evolvedCard).moveToTable(*Card(evolution).position)
+            x, y = Card(evolution).position
+            count += 1
+            Card(evolvedCard).moveToTable(x, y - 10*count*playerside)
             Card(evolvedCard).sendToBack()
+
 
 def clear(card, x = 0, y = 0):
     mute()
@@ -349,6 +357,8 @@ def toPlay(card, x = 0, y = 0, notifymute = False, evolveText = ''):
                 me.setGlobalVariable("evolution", str(evolveDict))
                 evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
         card.moveToTable(0,0)
+        if shieldMarker in card.markers:
+            card.markers[shieldMarker] = 0
         align()
     if notifymute == False:
         notify("{} plays {}{}.".format(me, card, evolveText))

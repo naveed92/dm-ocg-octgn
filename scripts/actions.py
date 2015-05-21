@@ -205,8 +205,8 @@ def banish(card, x = 0, y = 0):
                 rnd(1,10)
                 notify("{} uses {}'s Shield Trigger.".format(me, card))
                 return
+        notify("{}'s shield #{} is broken.".format(me, card.markers[shieldMarker]))
         card.moveTo(card.owner.hand)
-        notify("{}'s shield is broken.".format(me))
     else:
         toDiscard(card)
 

@@ -10,7 +10,7 @@
 	</scripts>
 	<events>
 		<event name="OnGameStart" action="resetGame" />
-		<event name="OnMoveCard" action="moveCard" />
+		<event name="OnMoveCards" action="moveCards" />
 	</events>
 	<proxygen definitionsrc="proxy/CardGenData.xml">
 	</proxygen>

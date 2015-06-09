@@ -31,8 +31,19 @@
 		<block type="overlay" id="halfnature" src="proxy/halfnature.png">
 			<location x="0" y="0" />
 		</block>
+
+<!--
+		<block type="overlay" id="titlebox" src="proxy/title.jpg">
+			<location x="86" y="20" />
+		</block>
+
+		<block type="overlay" id="textbox" src="proxy/text.jpg">
+			<location x="55" y="450" />
+		</block>
+-->
+
 	<block type="text" id="title">
-			<location x="99" y="28" />
+			<location x="96" y="28" />
 			<text color="#000000" size="30" />
 			<border color="#000000" size="2" />
 			<wordwrap height="31" width="349" align="center" shrinktofit="True" />
@@ -79,6 +90,12 @@
 			<match name="Civilization" value="Light"/>
 		</matches>
 		<overlayblocks>
+
+			<artoverlay>
+				<location x="0" y="0" />
+				<size height="669" width="479" />
+			</artoverlay>
+
 			<conditional>
 				<switch property="Civilization">
 					<case value="Light"><link block="light" /></case>
@@ -98,15 +115,21 @@
 					<case value="Darkness/Nature"><link block="darkness" /><link block="halfnature" /></case>
 				</switch>
 			</conditional>
+
+<!--
+			<link block="titlebox" />
+			<link block="textbox" />
+-->
+
 		</overlayblocks>
 		<textblocks>
 			<link block="title"><property name="Name" /></link>
-			<link block="cost"><property name="Cost" /></link>
 			<link block="race"><property name="Race" /></link>
 			<link block="rules"><property name="Rules" /></link>
+			<link block="type"><property name="Type" /></link>
+			<link block="cost"><property name="Cost" /></link>
 			<link block="power"><property name="Power" /></link>
 			<link block="rarity"><property name="Rarity" /></link>
-			<link block="type"><property name="Type" /></link>
 		</textblocks>
 	</template>
 </templates>

@@ -32,11 +32,11 @@
 	<table name="Battle Zone" visibility="undefined" ordered="False" width="800" height="600" background="background/background.jpg" backgroundStyle="uniformToFill">
 		<groupaction menu="Untap All" shortcut="F1" execute="untapAll" />
 		<groupaction menu="Roll Die" shortcut="ctrl+R" execute="rollDie" />
-		<groupaction menu="Set Die Type" shortcut="ctrl+shift+R" execute="setDie" />
 		<groupaction menu="Set Up Battlezone" execute="setup" />
 		<groupaction menu="End Turn" shortcut="ctrl+E" execute="endTurn" />
 		<cardaction menu="Tap / Untap" default="True" shortcut="ctrl+G" execute="tap" />
-		<cardaction menu="Banish Card / Break Shield" shortcut="del" execute="banish" />
+		<cardaction menu="Play Card" default="True" execute="toPlay" />
+		<cardaction menu="Destroy Card / Break Shield" shortcut="del" execute="banish" />
 		<cardaction menu="Set as Shield" shortcut="ctrl+H" execute="toShields" />
 		<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
 		<cardaction menu="Move to Hand" shortcut="ctrl+B" execute="toHand" />
@@ -63,7 +63,7 @@
 			<groupaction menu="Discard Top X Cards" execute="millX" />
 			<groupaction menu="Charge Top Card as Mana" shortcut="ctrl+M" execute="mana" />
 		</group>
-		<group name="Discard Pile" visibility="all" ordered="False" width="63" height="88" shortcut="del" icon="groups/graveyard.png" collapsed="False" />
+		<group name="Graveyard" visibility="all" ordered="False" width="63" height="88" shortcut="del" icon="groups/graveyard.png" collapsed="False" />
 		<group name="Hyperspatial Zone" visibility="all" ordered="False" width="63" height="88" shortcut="" icon="groups/hyperspatial.png" collapsed="False" />
 	</player>
 	<deck>

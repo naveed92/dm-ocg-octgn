@@ -10,6 +10,128 @@ sideflip = None
 diesides = 20
 shieldMarker = ('Shield', 'a4ba770e-3a38-4494-b729-ef5c89f561b7')
 
+# Start of Automation code
+
+# These effects activate when the card is summoned or cast
+onSummon = {'Bronze-Arm Tribe': 'mana(me.Deck);',
+            'Faerie Life': 'mana(me.Deck);',
+            'Reap and Sow': 'mana(me.Deck)',
+            'Wind Axe, the Warrior Savage': 'mana(me.Deck)',
+            'Ultimate Force': 'mana(me.Deck);mana(me.Deck)',
+            'Fighter Dual Fang': 'mana(me.Deck);mana(me.Deck)',
+            'Skysword, the Savage Vizier': 'mana(me.Deck);shields(me.Deck)',
+            'Estol, Vizier of Aqua': 'shields(me.Deck)',
+            'Mystic Inscription': 'shields(me.Deck)',
+            'Aqua Hulcus': 'draw(me.Deck);',
+            'Magris, Vizier of Magnetism': 'draw(me.Deck);',
+            'Eureka Charger': 'draw(me.Deck);',
+            'Brain Serum': 'draw(me.Deck);draw(me.Deck);',
+            'Astral Warper': 'draw(me.Deck);draw(me.Deck);draw(me.Deck)',
+            'Energy Stream': 'draw(me.Deck);draw(me.Deck);',
+            'King Ripped-Hide': 'draw(me.Deck);draw(me.Deck)',
+            'Phal Eaga, Dawn Guardian': 'fromGrave()',
+            'Dark Reversal': 'fromGrave()',
+            'Corpse Charger': 'fromGrave()',
+            'Gigargon': 'fromGrave();fromGrave()',
+            'Morbid Medicine': 'fromGrave();fromGrave',
+            'Thrash Crawler': 'fromMana()',
+            'Clone Factory': 'fromMana();fromMana()',
+            'Aqua Deformer': 'fromMana();fromMana()',
+            'Shtra': 'fromMana()',
+            'Solidskin Fish': 'fromMana()',
+            'Splash Zebrafish': 'fromMana()',
+            'Torpedo Cluster': 'fromMana()',
+            'Mystic Dreamscape': 'fromMana();fromMana();fromMana()',
+            'Boomerang Comet': 'fromMana()',
+            'Belix, the Explorer': 'fromManaSpell()',
+            'Syforce, Aurora Elemental': 'fromManaSpell()',
+            'Logic Sphere': 'fromManaSpell()',
+            'Lena, Vizier of Brilliance': 'fromManaSpell()',
+            'Dimension Gate': 'fromDeck()',
+            'Logic Cube': 'fromDeck()',
+            'Factory Shell Q': 'fromDeck()',
+            'Forbos, Sanctum Guardian Q': 'fromDeck()',
+            'Rumbling Terahorn': 'fromDeck()',
+            'Hawkeye Lunatron': 'fromDeck()',
+            'Crystal Memory': 'fromDeck()',
+            'Niofa, Horned Protector': 'fromDeck()',
+            'Rayla, Truth Enforcer': 'fromDeck()',
+            'Scissor Scarab': 'fromDeck()',
+            'Velyrika Dragon': 'fromDeck()',
+            'Whispering Totem': 'fromDeck()',
+            }
+
+# These effects trigger when creatures are destroyed
+onDestroy = {'Aqua Soldier': 'toHand(card)',
+             'Aqua Knight': 'toHand(card)',
+             'Aqua Agent': 'toHand(card)',
+             'Aqua Skydiver': 'toHand(card)',
+             'Chillias, the Oracle': 'toHand(card)',
+             'Shaman Broccoli': 'toMana(card)',
+             'Mighty Shouter': 'toMana(card)',
+             'Coiling Vines': 'toMana(card)',
+             'Red-Eye Scorpion': 'toMana(card)',
+             'Solid Horn': 'toMana(card)',
+             'Ouks, Vizier of Restoration': 'toShields(card)',
+             'Cetibols': 'draw(me.Deck)',
+             'Bat Doctor, Shadow of Undeath': 'fromGrave()',
+             'Pharzi, the Oracle': 'fromGrave()',
+             'Jil Warka, Time Guardian': 'tapCreature();tapCreature()'
+    }
+
+# Functions used in the Automation dictionaries.
+
+def fromGrave():
+    mute()
+    choice = askCard([card for card in me.piles['Graveyard']], 'Choose a Card to return to hand from the Graveyard', 'Graveyard')
+    if type(choice) is not Card:
+        return
+    toHand(choice)
+
+def fromMana():
+    mute()
+    choice = askCard([card for card in table if isMana(card) and card.owner==me],'Choose a Card to return to hand from the Mana Zone','Mana Zone')
+    if type(choice) is not Card:
+        return
+    toHand(choice)
+
+def fromManaSpell():
+    mute()
+    choice = askCard([card for card in table if isMana(card) and card.owner==me and card.Type=='Spell'],'Choose a Spell to return to hand from the Mana Zone', 'Mana Zone')
+    if type(choice) is not Card:
+        return
+    toHand(choice)
+
+def fromDeck():
+    mute()
+    me.Deck.lookAt(-1)
+
+def bounce():
+    mute()
+    choice = askCard([card for card in table if isCreature(card)],'Choose a Creature to return to Hand')
+    if type(choice) is not Card:
+        return
+    if choice.owner==me:
+        toHand(choice)
+    else:
+        choice.target()
+
+def kill(power = float('inf')):
+    mute()
+    choice = askCard([card for card in table if isCreature(card) and not card.owner==me and int(card.Power) <= power], 'Choose a Creature to destroy')
+    if type(choice) is not Card:
+        return
+    choice.target()
+
+def tapCreature():
+    mute()
+    choice = askCard([card for card in table if isCreature(card) and not card.owner==me], 'Choose a Creature to tap')
+    if type(choice) is not Card:
+        return
+    choice.target()
+
+#End of Automation Code
+
 def resetGame():
     mute()
     me.setGlobalVariable("shieldCount", "0")
@@ -131,7 +253,7 @@ def setup(group, x = 0, y = 0):
             return
     for c in me.hand: ## cancel if you've already drawn cards
         return
-    for c in me.piles['Discard Pile']: ##cancel if you have cards in Discard
+    for c in me.piles['Graveyard']: ##cancel if you have cards in Discard
         return
     if len(me.Deck) < 10: #We need at least 10 cards to properly setup the game
         return
@@ -144,46 +266,22 @@ def setup(group, x = 0, y = 0):
     align()
     notify("{} sets up their battle zone.".format(me))
 
-def setDie(group, x = 0, y = 0):
-    mute()
-    global diesides
-    num = askInteger("How many sides?\n\nFor Coin, enter 2.\nFor Chaos die, enter 6.", diesides)
-    if num != None and num > 0:
-      diesides = num
-      dieFunct(diesides)
-
 def rollDie(group, x = 0, y = 0):
     mute()
     global diesides
-    dieFunct(diesides)
-
-def dieFunct(num):
-    if num == 6:
-      n = rnd(1, 6)
-      if n == 1:
-        notify("{} rolls 1 (PLANESWALK) on a 6-sided die.".format(me))
-      elif n == 6:
-        notify("{} rolls 6 (CHAOS) on a 6-sided die.".format(me))
-      else:
-        notify("{} rolls {} on a 6-sided die.".format(me, n))
-    elif num == 2:
-      n = rnd(1, 2)
-      if n == 1:
-        notify("{} rolls 1 (HEADS) on a 2-sided die.".format(me))
-      else:
-        notify("{} rolls 2 (TAILS) on a 2-sided die.".format(me))
-    else:
-      n = rnd(1, num)
-      notify("{} rolls {} on a {}-sided die.".format(me, n, num))
+    n = rnd(1, diesides)
+    notify("{} rolls {} on a {}-sided die.".format(me, n, diesides))
 
 def untapAll(group, x = 0, y = 0):
     mute()
     for card in group:
+        if not card.owner == me:
+            continue
         if card.orientation == Rot90:
             card.orientation = Rot0
         if card.orientation == Rot270:
             card.orientation = Rot180
-    notify("{} untaps all cards.".format(me))
+    notify("{} untaps all their cards.".format(me))
     
 def tap(card, x = 0, y = 0):
     mute()
@@ -209,6 +307,8 @@ def banish(card, x = 0, y = 0):
         card.moveTo(card.owner.hand)
     else:
         toDiscard(card)
+        if card.name in onDestroy:
+            exec(onDestroy[card.name])
 
 def shuffle(group, x = 0, y = 0):
     mute()
@@ -331,7 +431,10 @@ def toShields(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreE
 def toPlay(card, x = 0, y = 0, notifymute = False, evolveText = ''):
     mute()
     if card.Type == "Spell":
-        card.moveTo(card.owner.piles['Discard Pile'])
+        if re.search("Charger", card.name):
+            toMana(card)
+        else:
+            card.moveTo(card.owner.piles['Graveyard'])
     else:
         if re.search("Evolution", card.Type):
             targets = [c for c in table
@@ -356,12 +459,16 @@ def toPlay(card, x = 0, y = 0, notifymute = False, evolveText = ''):
                 evolveDict[card._id] = targetList
                 me.setGlobalVariable("evolution", str(evolveDict))
                 evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
+        if card.group == table:
+            card.moveTo(me.hand)
         card.moveToTable(0,0)
         if shieldMarker in card.markers:
             card.markers[shieldMarker] = 0
         align()
     if notifymute == False:
         notify("{} plays {}{}.".format(me, card, evolveText))
+    if card.name in onSummon:
+        exec(onSummon[card.name])
 
 def toDiscard(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreEvo = False):
     mute()
@@ -370,7 +477,7 @@ def toDiscard(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreE
         if not confirm("WARNING: There is an evolution creature on top of this card, and can not legally be banished.\nWould you like to override this?"):
             return
     src = card.group
-    card.moveTo(card.owner.piles['Discard Pile'])
+    card.moveTo(card.owner.piles['Graveyard'])
     if card._id in evolveDict:
         evolvedCardList = evolveDict[card._id]
         for evolvedCard in evolvedCardList:
@@ -388,6 +495,7 @@ def toDiscard(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreE
 
 def toHand(card, x = 0, y = 0, alignCheck = True, ignoreEvo = False):
     mute()
+    src = card.group
     evolveDict = eval(me.getGlobalVariable('evolution'))
     if ignoreEvo == False and isCreature(card) and card._id in list(itertools.chain.from_iterable(evolveDict.values())):
         if not confirm("WARNING: There is an evolution creature on top of this card, and can not legally be banished.\nWould you like to override this?"):
@@ -400,7 +508,7 @@ def toHand(card, x = 0, y = 0, alignCheck = True, ignoreEvo = False):
                 toHand(Card(evolvedCard), alignCheck = False, ignoreEvo = True)
         del evolveDict[card._id]
         me.setGlobalVariable('evolution', str(evolveDict))
-    notify("{} moves {} to hand.".format(me, card))
+    notify("{} moves {} to hand from {}.".format(card.owner, card, src.name))
     if alignCheck:
         align()
 

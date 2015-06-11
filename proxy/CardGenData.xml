@@ -38,16 +38,16 @@
 		</block>
 
 	<block type="text" id="title">
-			<location x="65" y="28" />
+			<location x="55" y="28" />
 			<text color="#000000" size="30" />
 			<border color="#000000" size="0" />
 			<wordwrap height="28" width="310" align="center" shrinktofit="True" valign="center" />
 		</block>
 		<block type="text" id="cost">
-			<location x="18" y="18" />
-			<text color="#FFFFFF" size="42" />
+			<location x="8" y="18" />
+			<text color="#FFFFFF" size="30" />
 			<border color="#000000" size="2" />
-			<wordwrap height="38" width="33" align="center" shrinktofit="True" />
+			<wordwrap height="38" width="50" align="center" shrinktofit="False" valign="center" />
 		</block>
 		<block type="text" id="race">
 			<location x="110" y="55" />
@@ -62,17 +62,18 @@
 			<wordwrap height="38" width="115" align="near" shrinktofit="True" valign="center"/>
 		</block>
 		<block type="text" id="type">
-			<location x="44" y="358" />
+			<location x="40" y="358" />
 			<text color="#000000" size="20" />
 			<border color="#000000" size="0" />
-			<wordwrap height="15" width="120" align="near" shrinktofit="True"/>
+			<wordwrap height="15" width="120" align="center" shrinktofit="True" valign="center"/>
 		</block>
 			<block type="text" id="rules">
-			<location x="50" y="380" />
-			<text color="#000000" size="20" />
+			<location x="42" y="380" />
+			<text color="#000000" size="12" />
 			<border color="#000000" size="0" />
-			<wordwrap height="100" width="305" align="near" shrinktofit="True"/>
+			<wordwrap height="100" width="320" align="near" shrinktofit="False" valign="near"/>
 		</block>
+
 		<block type="text" id="rarity">
 			<location x="271" y="336" />
 			<text color="#000000" size="20" />
@@ -146,7 +147,6 @@
 			<link block="type"><property name="Type" /></link>
 			<link block="cost"><property name="Cost" /></link>
 			<link block="power"><property name="Power" /></link>
-			<link block="rarity"><property name="Rarity" /></link>
 		</textblocks>
 	</template>
 </templates>

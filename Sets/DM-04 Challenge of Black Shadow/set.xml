@@ -80,13 +80,13 @@
 			<property name="Rarity" value="Very Rare" />
 			<property name="Number" value="1" />
 		</card>
-		<card name="Astral Warper" id="62c85ad7-20c5-4eb0-8b9e-58c4266139f1">
+		<card name="Astral Reef" id="62c85ad7-20c5-4eb0-8b9e-58c4266139f1">
 			<property name="Civilization" value="Water" />
-			<property name="Cost" value="6" />
+			<property name="Cost" value="2" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Cyber Virus" />
-			<property name="Rules" value="Evolution-Put on one of your Cyber Viruses. &#xd;&#xa;When you put this creature into the battle zone, draw up to 3 cards." />
-			<property name="Power" value="5000" />
+			<property name="Rules" value="Evolution-Put on one of your Cyber Viruses. &#xd;&#xa;When you put this creature into the battle zone, you may draw 3 cards." />
+			<property name="Power" value="4000" />
 			<property name="Rarity" value="Very Rare" />
 			<property name="Number" value="2" />
 		</card>
@@ -310,12 +310,12 @@
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="24" />
 		</card>
-		<card name="Marinomancer" id="3da55908-e105-4270-b150-d5155f222f0b">
+		<card name="Aquan" id="3da55908-e105-4270-b150-d5155f222f0b">
 			<property name="Civilization" value="Water" />
-			<property name="Cost" value="5" />
+			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cyber Lord" />
-			<property name="Rules" value="When you put this creature into the battle zone, you may reveal the top 3 cards of your deck. Put all light cards and all darkness cards from the revealed cards into your hand, and put the rest into your graveyard." />
+			<property name="Rules" value="When you put this creature into the battle zone, reveal the top 5 cards of your deck. Put all light darkness cards from the revealed cards into your hand, and put the rest into your graveyard." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="Rare" />
 			<property name="Number" value="25" />

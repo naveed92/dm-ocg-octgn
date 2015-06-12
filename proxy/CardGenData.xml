@@ -69,7 +69,7 @@
 		</block>
 			<block type="text" id="rules">
 			<location x="42" y="380" />
-			<text color="#000000" size="12" />
+			<text color="#000000" size="14" />
 			<border color="#000000" size="0" />
 			<wordwrap height="100" width="320" align="near" shrinktofit="False" valign="near"/>
 		</block>

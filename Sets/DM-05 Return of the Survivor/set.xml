@@ -500,13 +500,13 @@
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="43" />
 		</card>
-		<card name="Ruthless Skyterror" id="153d92ba-27c4-43bb-8a3c-8bfe9519e1f0">
+		<card name="Storm Javelin Wyvern" id="153d92ba-27c4-43bb-8a3c-8bfe9519e1f0">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armored Wyvern" />
-			<property name="Rules" value="This creature can attack untapped water creatures. &#xd;&#xa;This creature can't attack players." />
-			<property name="Power" value="6000" />
+			<property name="Rules" value="This creature can attack untapped light or water creatures. &#xd;&#xa;This creature can't attack players." />
+			<property name="Power" value="7000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="44" />
 		</card>

@@ -330,12 +330,12 @@
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="26" />
 		</card>
-		<card name="Cranium Clamp" id="0cb41063-72f9-461c-8fca-9cb4f9b866f8">
+		<card name="Skeleton Vice" id="0cb41063-72f9-461c-8fca-9cb4f9b866f8">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Your opponent chooses and discards 2 cards from his hand." />
+			<property name="Rules" value="Your opponent discards 2 cards at random from his hand." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="Rare" />
 			<property name="Number" value="27" />

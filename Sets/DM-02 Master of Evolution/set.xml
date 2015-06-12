@@ -280,12 +280,12 @@
 			<property name="Rarity" value="Uncommon" />
 			<property name="Number" value="21" />
 		</card>
-		<card name="Thought Probe" id="af211fa9-9cd4-4736-966e-c3c2e484e4f4">
+		<card name="Deep Operation" id="af211fa9-9cd4-4736-966e-c3c2e484e4f4">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xd;&#xa;When you cast this spell, if your opponent has 3 or more creatures in the battle zone, draw 3 cards." />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xd;&#xa;Draw a card for each of your opponent's creatures in the battle zone." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="Uncommon" />
 			<property name="Number" value="22" />

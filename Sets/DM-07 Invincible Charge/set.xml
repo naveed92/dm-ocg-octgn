@@ -530,12 +530,12 @@
 			<property name="Rarity" value="Uncommon" />
 			<property name="Number" value="46" />
 		</card>
-		<card name="Cryptic Totem" id="9f3f83fa-ed3e-48f7-9396-bbe1d79ed544">
+		<card name="Cursed Totem" id="9f3f83fa-ed3e-48f7-9396-bbe1d79ed544">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Mystery Totem" />
-			<property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xd;&#xa;While this creature is tapped, your opponent can't use the &quot;shield trigger&quot; ability of his shields." />
+			<property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xd;&#xa;Your opponent cannot use the &quot;shield trigger&quot; ability of their shields." />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="Rare" />
 			<property name="Number" value="47" />

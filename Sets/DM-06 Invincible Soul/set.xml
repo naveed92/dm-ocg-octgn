@@ -660,12 +660,12 @@
 			<property name="Rarity" value="Rare" />
 			<property name="Number" value="54" />
 		</card>
-		<card name="Future Slash" id="df61933b-d11d-4ca7-ae70-8d5828b8a470">
+		<card name="Hell Slash" id="df61933b-d11d-4ca7-ae70-8d5828b8a470">
 			<property name="Civilization" value="Darkness" />
-			<property name="Cost" value="7" />
+			<property name="Cost" value="8" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Search your opponent's deck. Take up to 2 cards from his deck and put them into his graveyard. Then your opponent shuffles his deck." />
+			<property name="Rules" value="Search your opponent's deck. Take up to 3 cards from his deck and put them into his graveyard. Then your opponent shuffles his deck." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="Uncommon" />
 			<property name="Number" value="55" />
@@ -720,12 +720,12 @@
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="60" />
 		</card>
-		<card name="Intense Evil" id="1dd54a8d-d78f-4df9-a695-3024b0e79467">
+		<card name="Wicked Soul Reincarnation" id="1dd54a8d-d78f-4df9-a695-3024b0e79467">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xd;&#xa;Destroy any number of your creatures. Then draw that many cards." />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xd;&#xa;Choose any number of your creatures in the battle zone and put them in your graveyard. Then, draw 2 cards for each creature put into your graveyard in this way." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="Rare" />
 			<property name="Number" value="61" />

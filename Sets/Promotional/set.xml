@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Promotional" id="dd9d179c-cbe4-42c6-9ff7-38a7969f220a" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Promotional" id="3e1b440c-ed55-4578-99cf-0c29d1785004" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
 	<packaging>
 		<pack name="Booster" id="90a0ed09-7388-425b-b5b2-e363ef051652">
 			<options>
@@ -21,7 +21,7 @@
 	</packaging>
 	<cards>
 		
-		<card name="Amnis, Holy Elemental" id="3dfc3aaf-e4a9-49eb-b99c-f91fcde327f9">
+		<card name="Amnis, Holy Elemental" id="5f6d4906-1f2b-455a-a620-992dfa6c3673">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -32,7 +32,7 @@
 			<property name="Number" value="L3/6 Y1" />
 		</card>
 		
-		<card name="Giliam, The Tormentor" id="a67a2dc3-e8a5-41c3-8603-e8954ff98831">
+		<card name="Giliam, The Tormentor" id="b02fb837-3b16-4480-9408-49c710c9217d">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -43,7 +43,7 @@
 			<property name="Number" value="L5/6 Y1," />
 		</card>
 		
-		<card name="Angry Maple" id="04986395-67af-4e3e-9b46-1a19efc4e7e8">
+		<card name="Angry Maple" id="a1d42211-29f0-4d2f-a8a4-4c6ad19b700c">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -54,7 +54,7 @@
 			<property name="Number" value="M5/Y1" />
 		</card>
 		
-		<card name="Brigade Shell Q" id="8a7e6607-f94a-4425-92c7-b8696ec370ee">
+		<card name="Brigade Shell Q" id="80f04b78-bcd4-418f-8429-88dee42a522d">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -65,7 +65,7 @@
 			<property name="Number" value="L18/20 Y1" />
 		</card>
 		
-		<card name="Twister Fish" id="9db6b2d5-c3f3-4a00-b237-bc7504a9b7df">
+		<card name="Twister Fish" id="df175add-52a4-42b9-8be3-809b90c4df2f">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -76,7 +76,7 @@
 			<property name="Number" value="M2/Y1" />
 		</card>
 		
-		<card name="Super Dragon Machine Dolzark" id="c33f0223-1041-4c93-b21f-0112e01c75d9">
+		<card name="Super Dragon Machine Dolzark" id="b78076a1-eecf-4cc1-9bbc-009b90930edf">
 			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -87,7 +87,7 @@
 			<property name="Number" value="P0/Y3" />
 		</card>
 		
-		<card name="Star-Cry Dragon" id="7cab8643-2cf5-483d-b7a1-8b8243a75737">
+		<card name="Star-Cry Dragon" id="44104d00-b5f2-4429-ab37-6718950fa6cb">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -98,7 +98,7 @@
 			<property name="Number" value="M4/Y1" />
 		</card>
 		
-		<card name="Olgate, Nightmare Samurai" id="8ddad0f5-391a-404f-8977-5e628ffed10c">
+		<card name="Olgate, Nightmare Samurai" id="ff54e307-7097-4b12-9c35-e06307f61e74">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -109,7 +109,7 @@
 			<property name="Number" value="L14/20 Y1" />
 		</card>
 		
-		<card name="Q-tronic Omnistrain" id="6eb5d861-d62e-4d54-8d95-edf72562cde2">
+		<card name="Q-tronic Omnistrain" id="4c2e1260-29a9-4645-939a-012fa9df932f">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -120,7 +120,7 @@
 			<property name="Number" value="L2/Y2" />
 		</card>
 		
-		<card name="Gigagrax" id="5e42765f-432b-4e33-8fee-65fc9026d1cd">
+		<card name="Gigagrax" id="1c00f49b-2b60-48d0-8648-e78cd8036215">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -131,7 +131,7 @@
 			<property name="Number" value="M3/Y1" />
 		</card>
 		
-		<card name="Loth Rix, The Iridescent" id="bf0eb592-fb6f-4604-8851-f41835cceab9">
+		<card name="Loth Rix, The Iridescent" id="253aa0ed-2332-4e82-acc4-42405c669a52">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -142,7 +142,7 @@
 			<property name="Number" value="M1/Y1" />
 		</card>	
 		
-		<card name="Dyno Mantis, The Mightspinner" id="c53626ab-22d8-42ce-935f-700cdf905fae">
+		<card name="Dyno Mantis, The Mightspinner" id="7e9eddab-97ea-4b14-8e43-ede104dbf99a">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -153,7 +153,7 @@
 			<property name="Number" value="L10/Y2" />
 		</card>
 		
-		<card name="Armored Groblav" id="540a15e7-3751-4b30-97ed-8c737bd2c231">
+		<card name="Armored Groblav" id="e9a62043-5346-4584-bb61-84828af444f9">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -164,7 +164,7 @@
 			<property name="Number" value="L1/6 Y1" />
 		</card>
 		
-		<card name="Velyrika Dragon" id="db89dd2a-472d-4ae6-bc2a-d1bc87cbbf0e">
+		<card name="Velyrika Dragon" id="6c562252-75d9-4723-8316-e3dc4a303e3d">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -175,7 +175,7 @@
 			<property name="Number" value="L14/Y2" />
 		</card>
 		
-		<card name="Uberdragon Zaschack" id="25f5c132-d1c7-432f-867f-c81b73c05aef">
+		<card name="Uberdragon Zaschack" id="ec5bdb88-895a-4ca8-8f83-0cd99d24c765">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="9" />
 			<property name="Type" value="Evolution Creature" />

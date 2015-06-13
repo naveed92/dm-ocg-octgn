@@ -1,35 +1,97 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <templates>
 	<blocks>
-		<block type="overlay" id="light" src="proxy/light.png">
+		<block type="overlay" id="light" src="proxy\frames\light.jpg">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="water" src="proxy/water.png">
+		<block type="overlay" id="water" src="proxy\frames\water.jpg">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="darkness" src="proxy/darkness.png">
+		<block type="overlay" id="darkness" src="proxy\frames\darkness.jpg">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="fire" src="proxy/fire.png">
+		<block type="overlay" id="fire" src="proxy\frames\fire.jpg">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="nature" src="proxy/nature.png">
+		<block type="overlay" id="nature" src="proxy\frames\nature.jpg">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="darklight" src="proxy\frames\darklight.jpg">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="darkwater" src="proxy\frames\darkwater.jpg">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="darknature" src="proxy\frames\darknature.jpg">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="darkfire" src="proxy\frames\darkfire.jpg">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="firenature" src="proxy\frames\firenature.jpg">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="firelight" src="proxy\frames\firelight.jpg">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="firewater" src="proxy\frames\firewater.jpg">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="waterlight" src="proxy\frames\waterlight.jpg">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="waternature" src="proxy\frames\waternature.jpg">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="lightnature" src="proxy\frames\lightnature.jpg">
 			<location x="0" y="0" />
 		</block>
 
-		<block type="overlay" id="lightbox" src="proxy/lightbox.png">
+		<block type="overlay" id="lightbox" src="proxy\textboxes\lightbox.png">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="waterbox" src="proxy/waterbox.png">
+		<block type="overlay" id="waterbox" src="proxy\textboxes\waterbox.png">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="darknessbox" src="proxy/darknessbox.png">
+		<block type="overlay" id="darknessbox" src="proxy\textboxes\darknessbox.png">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="firebox" src="proxy/firebox.png">
+		<block type="overlay" id="firebox" src="proxy\textboxes\firebox.png">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="naturebox" src="proxy/naturebox.png">
+		<block type="overlay" id="naturebox" src="proxy\textboxes\naturebox.png">
+			<location x="0" y="0" />
+		</block>
+
+		<block type="overlay" id="darklightbox" src="proxy\textboxes\darklightbox.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="darkwaterbox" src="proxy\textboxes\darkwaterbox.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="darknaturebox" src="proxy\textboxes\darknaturebox.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="darkfirebox" src="proxy\textboxes\darkfirebox.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="firenaturebox" src="proxy\textboxes\firenaturebox.png">
+			<location x="0" y="0" />
+		</block>
+
+		<block type="overlay" id="firelightbox" src="proxy\textboxes\firelightbox.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="firewaterbox" src="proxy\textboxes\firewaterbox.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="waterlightbox" src="proxy\textboxes\waterlightbox.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="waternaturebox" src="proxy\textboxes\waternaturebox.png">
+			<location x="0" y="0" />
+		</block>
+		<block type="overlay" id="lightnaturebox" src="proxy\textboxes\lightnaturebox.png">
 			<location x="0" y="0" />
 		</block>
 
@@ -81,7 +143,7 @@
 			<wordwrap height="20" width="120" align="far" shrinktofit="True"/>
 		</block>
 	</blocks>
-	<template src="proxy/light.png" default="True" >
+	<template src="proxy\frames\light.jpg" default="True" >
 		<matches>
 			<match name="Civilization" value="Light"/>
 		</matches>
@@ -94,16 +156,16 @@
 					<case value="Darkness"><link block="darkness" /></case>
 					<case value="Fire"><link block="fire" /></case>
 					<case value="Nature"><link block="nature" /></case>
-					<case value="Light/Water"><link block="light" /></case>
-					<case value="Water/Darkness"><link block="water" /></case>
-					<case value="Darkness/Fire"><link block="darkness" /></case>
-					<case value="Fire/Nature"><link block="fire" /></case>
-					<case value="Light/Nature"><link block="light" /></case>
-					<case value="Light/Fire"><link block="light" /></case>
-					<case value="Water/Nature"><link block="water" /></case>
-					<case value="Light/Darkness"><link block="light" /></case>
-					<case value="Water/Fire"><link block="water" /></case>
-					<case value="Darkness/Nature"><link block="darkness" /></case>
+					<case value="Light/Water"><link block="waterlight" /></case>
+					<case value="Water/Darkness"><link block="darkwater" /></case>
+					<case value="Darkness/Fire"><link block="darkfire" /></case>
+					<case value="Fire/Nature"><link block="firenature" /></case>
+					<case value="Light/Nature"><link block="lightnature" /></case>
+					<case value="Light/Fire"><link block="firelight" /></case>
+					<case value="Water/Nature"><link block="waternature" /></case>
+					<case value="Light/Darkness"><link block="darklight" /></case>
+					<case value="Water/Fire"><link block="firewater" /></case>
+					<case value="Darkness/Nature"><link block="darknature" /></case>
 				</switch>
 			</conditional>
 
@@ -119,16 +181,16 @@
 					<case value="Darkness"><link block="darknessbox" /></case>
 					<case value="Fire"><link block="firebox" /></case>
 					<case value="Nature"><link block="naturebox" /></case>
-					<case value="Light/Water"><link block="lightbox" /></case>
-					<case value="Water/Darkness"><link block="waterbox" /></case>
-					<case value="Darkness/Fire"><link block="darknessbox" /></case>
-					<case value="Fire/Nature"><link block="firebox" /></case>
-					<case value="Light/Nature"><link block="lightbox" /></case>
-					<case value="Light/Fire"><link block="lightbox" /></case>
-					<case value="Water/Nature"><link block="waterbox" /></case>
-					<case value="Light/Darkness"><link block="lightbox" /></case>
-					<case value="Water/Fire"><link block="waterbox" /></case>
-					<case value="Darkness/Nature"><link block="darknessbox" /></case>
+					<case value="Light/Water"><link block="waterlightbox" /></case>
+					<case value="Water/Darkness"><link block="darkwaterbox" /></case>
+					<case value="Darkness/Fire"><link block="darkfirebox" /></case>
+					<case value="Fire/Nature"><link block="firenaturebox" /></case>
+					<case value="Light/Nature"><link block="lightnaturebox" /></case>
+					<case value="Light/Fire"><link block="firelightbox" /></case>
+					<case value="Water/Nature"><link block="waternaturebox" /></case>
+					<case value="Light/Darkness"><link block="darklightbox" /></case>
+					<case value="Water/Fire"><link block="firewaterbox" /></case>
+					<case value="Darkness/Nature"><link block="darknaturebox" /></case>
 				</switch>
 			</conditional>
 

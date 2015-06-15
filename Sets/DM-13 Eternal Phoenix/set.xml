@@ -25,7 +25,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Vortex Evolution: Put one Firebird and one Armored Dragon into a stack and then put this card on top of the stack.&#xd;&#xa;Your Dragon or Phoenix creatures may attack untapped creatures.&#xd;&#xa;When this creature is separated from the battle zone, return all non-evolution fire creatures from the grave to your hand.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Vortex Evolution: Put on one of your 'Fire bird' and 'Armored Dragon'&#xd;&#xa;Your 'Dragon' or 'Phoenix' creatures may attack untapped creatures.&#xd;&#xa;When this creature leaves the battle zone, return all non-evolution fire creatures from the grave to your hand.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="11000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S1" />
@@ -35,7 +35,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Angel Command/Demon Command" />
-			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;Sympathy: This card's cost is reduced by 1 for each Angel Command or Demon Command in your battle zone. You cannot reduce the cost below 2.&#xd;&#xa;When one of your Angel Command or Demon Command attacks, you may destroy one of your opponent's tapped creatures.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Sympathy: Angel Command and Demon Command&#xd;&#xa;When one of your Angel Command or Demon Command attacks, you may destroy one of your opponent's tapped creatures.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="6500" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S2" />
@@ -45,7 +45,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Angel Command/Armored Dragon" />
-			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;Sympathy: This card's cost is reduced by 1 for each Angel Command or Armored Dragon in your battle zone. You cannot reduce the cost below 2.&#xd;&#xa;When this card is destroyed instead of placing it in the graveyard, place it face-down in your shield zone.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Sympathy: Angel Command and Armored Dragon&#xd;&#xa;When this card is destroyed instead of placing it in the graveyard, place it face-down in your shield zone.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S3" />
@@ -55,7 +55,7 @@
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Earth Eater/Giant" />
-			<property name="Rules" value="When this card is placed in the mana zone, it is placed into the mana zone tapped.&#xd;&#xa;Sympathy: This card's cost is reduced by 1 for each Earth Eater or Giant in your battle zone. You cannot reduce the cost below 2.&#xd;&#xa;When this creature is put into the battle zone, you may draw 1 card for each Earth Eater or Giant in your battle zone.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Sympathy: Earth Eater and Giant&#xd;&#xa;When this creature is put into the battle zone, you may draw 1 card for each Earth Eater or Giant in your battle zone.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="9000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />
@@ -65,7 +65,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dark Lord/Earth Dragon" />
-			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;Sympathy: This card's cost is reduced by 1 for each Death Puppet and Beastfolk in your battle zone. You cannot reduce the cost below 2.&#xd;&#xa;When this creature attacks, no one may use &quot;Shield Trigger&quot; this turn." />
+			<property name="Rules" value="Sympathy: Death Puppet and Beastfolk&#xd;&#xa;When this creature attacks, no one may use &quot;Shield Trigger&quot; this turn." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S5" />
@@ -75,7 +75,7 @@
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Angel Command/Demon Command" />
-			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;[Blocker] Blocker&#xd;&#xa;All of your opponent's creatures must attack each turn, if possible.&#xd;&#xa;This creature cannot attack a player.&#xd;&#xa;When this creature blocks, after the battle untap it." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;All of your opponent's creatures must attack each turn, if possible.&#xd;&#xa;This creature cannot attack a player.&#xd;&#xa;When this creature blocks, after the battle untap it." />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="1" />
@@ -85,7 +85,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Gladiator/Armored Wyvern" />
-			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;[Blocker] Blocker&#xd;&#xa;This creature can't attack players.&#xd;&#xa;When this creature blocks and wins the battle, destroy all creatures with the same type as the destroyed creature." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack players.&#xd;&#xa;When this creature blocks and wins the battle, destroy all creatures with the same type as the destroyed creature." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="2" />
@@ -95,7 +95,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cyber Lord/Volcano Dragon" />
-			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;Sympathy: This card's cost is reduced by 1 for each Cyber Virus and Dragonoid in your battle zone. You cannot reduce the cost below 2.&#xd;&#xa;This creature may attack untapped creatures.&#xd;&#xa;When this creature is destroyed, you may return it to your hand instead." />
+			<property name="Rules" value="Sympathy: This card's cost is reduced by 1 for each Cyber Virus and Dragonoid in your battle zone. You cannot reduce the cost below 2.&#xd;&#xa;This creature may attack untapped creatures.&#xd;&#xa;When this creature is destroyed, you may return it to your hand instead." />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="3" />
@@ -105,7 +105,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Leviathan/Mystery Totem" />
-			<property name="Rules" value="When this card is placed in the mana zone, it is placed into the mana zone tapped.&#xd;&#xa;Sympathy: This card's cost is reduced by 1 for each Gel Fish and Snow Fairy in your battle zone. You cannot reduce the cost below 2.&#xd;&#xa;Whenever a evolution creature is put into the battle zone, tap all evolution creatures in the battle zone." />
+			<property name="Rules" value="Sympathy: This card's cost is reduced by 1 for each Gel Fish and Snow Fairy in your battle zone. You cannot reduce the cost below 2.&#xd;&#xa;Whenever a evolution creature is put into the battle zone, tap all evolution creatures in the battle zone." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="4" />
@@ -225,8 +225,8 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;This card is put into the mana zone tapped.&#xd;&#xa;If there are 2 or more of a card with the same name in the battle zone, destroy all of them. Afterwards look at all mana zones, and if there are 2 or more copies of a card with the same name, destroy all of them." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="{Shield Trigger}&#xd;&#xa;This card is put into the mana zone tapped.&#xd;&#xa;If there are 2 or more of a card with the same name in the battle zone, destroy all of them. Afterwards look at all mana zones, and if there are 2 or more copies of a card with the same name, destroy all of them." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="16" />
 		</card>
@@ -246,7 +246,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;Reveal cards from the top of your deck until you reach a creature. Destroy all creatures with a power less than that of the revealed creature. Put all cards revealed in this way into the graveyard." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="18" />
 		</card>
@@ -316,7 +316,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Until the end of the turn, all your creatures gain +4000 and the text &quot;When this creature attacks and is blocked, break 1 of your opponent's shields&quot;." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="25" />
 		</card>
@@ -355,8 +355,8 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;This card is put into the mana zone tapped.&#xd;&#xa;Destroy one of your opponent's creatures of 3000 power or less. Afterwards, you may select and tap one of your opponent's creatures." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="{Shield Trigger}&#xd;&#xa;This card is put into the mana zone tapped.&#xd;&#xa;Destroy one of your opponent's creatures of 3000 power or less. Afterwards, you may select and tap one of your opponent's creatures." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="29" />
 		</card>
@@ -376,7 +376,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;Destroy all creatures with 3000 power or less. Afterwards, you may draw 1 card for each creature destroyed." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="31" />
 		</card>
@@ -396,7 +396,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;During this turn, your multi-color creatures cannot be blocked." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="33" />
 		</card>
@@ -415,8 +415,8 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;This card is put into the mana zone tapped.&#xd;&#xa;During this turn, when your cards (other than this one) are placed in the graveyard, instead place them in your mana zone tapped." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="{Shield Trigger}&#xd;&#xa;This card is put into the mana zone tapped.&#xd;&#xa;During this turn, when your cards (other than this one) are placed in the graveyard, instead place them in your mana zone tapped." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="35" />
 		</card>
@@ -476,7 +476,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Return 1 evolution creature in the battle zone to the owner's hand." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="41" />
 		</card>
@@ -505,8 +505,8 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Destroy one of your untapped creatures. Afterwards, the opponent chooses and destroys one of his untapped creatures." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="{Shield Trigger}&#xd;&#xa;Destroy one of your untapped creatures. Afterwards, the opponent chooses and destroys one of his untapped creatures." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="44" />
 		</card>
@@ -565,8 +565,8 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Return 1 creature from your mana zone to your hand.&#xd;&#xa;After this spell is cast, instead of putting it in the graveyard, put it in the mana zone." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="{Shield Trigger}&#xd;&#xa;Return 1 creature from your mana zone to your hand.&#xd;&#xa;After this spell is cast, instead of putting it in the graveyard, put it in the mana zone." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="50" />
 		</card>
@@ -605,7 +605,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cyber Lord/Mystery Totem" />
-			<property name="Rules" value="When this card is placed in the mana zone, it is placed into the mana zone tapped.&#xd;&#xa;When this creature is put into the battle zone, you may draw 1 card.&#xd;&#xa;When this creature is destroyed, instead of putting it in the graveyard, put it in your mana zone." />
+			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;When this creature is put into the battle zone, you may draw 1 card.&#xd;&#xa;When this creature is destroyed, instead of putting it in the graveyard, put it in your mana zone." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="54" />

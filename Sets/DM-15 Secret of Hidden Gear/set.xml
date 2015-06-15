@@ -33,7 +33,7 @@
 		<card name="Admiral Queen" id="5453db88-d3ea-43fe-9186-523dd6f86c11">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="6" />
-			<property name="Type" value="Creature" />
+			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Splash Queen" />
 			<property name="Rules" value="Evolution: Put on one of your Splash Queen&#xd;&#xa;Instead of having this creature attack, you may tap it to use its [Tap] ability.&#xd;&#xa;[Tap]: Choose a player. That player chooses 2 cards in their mana zone and returns them to the owner's hand." />
 			<property name="Power" value="4000" />
@@ -56,7 +56,7 @@
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Cross Gear&#xd;&#xa;The crossed creature gets +2000 power, and breaks an additional shield.&#xd;&#xa;When the crossed creature attacks, choose up to 2 cards in your opponent's mana zone. Your opponent puts those cards into his graveyard." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />
 		</card>
@@ -65,8 +65,8 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger X (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature without paying its cost.)&#xd;&#xa;Cross Gear&#xd;&#xa;The crossed creature gains &quot;Power Attacker +9000&quot; and &quot;Triple Breaker&quot;." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="{Shield trigger} Shield Trigger X (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature without paying its cost.)&#xd;&#xa;The crossed creature gains &quot;Power Attacker +9000&quot; and &quot;Triple Breaker&quot;." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S5" />
 		</card>
@@ -135,8 +135,8 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Choose 1 of your opponent's creatures in the battle zone and tap it.&#xd;&#xa;Metamorph (When your mana zone has 7 or more cards, this card gains the following [Metamorph]  ability).&#xd;&#xa;[Metamorph] : Instead of tapping 1 of your opponent's creatures, tap all of your opponent's creatures." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="{Shield trigger}&#xd;&#xa;Choose 1 of your opponent's creatures in the battle zone and tap it.&#xd;&#xa;Metamorph (When your mana zone has 7 or more cards, this card gains the following [Metamorph]  ability).&#xd;&#xa;[Metamorph] : Instead of tapping 1 of your opponent's creatures, tap all of your opponent's creatures." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="7" />
 		</card>
@@ -146,7 +146,7 @@
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Cross Gear: Put this card into the battle zone when cast. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.&#xd;&#xa;When your opponent chooses a creature, the crossed creature may not be chosen. (However, this creature may be attacked or blocked.)" />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="8" />
 		</card>
@@ -176,7 +176,7 @@
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Cross Gear&#xd;&#xa;When the crossed creature attacks, you may look at the top 4 cards of your deck. If you do, add 1 of these cards to your hand and place the other 3 cards at the bottom of your deck in any order." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="11" />
 		</card>
@@ -195,8 +195,8 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Destroy 1 of your opponent's untapped creatures." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="{Shield trigger}&#xd;&#xa;Destroy 1 of your opponent's untapped creatures." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="13" />
 		</card>
@@ -206,7 +206,7 @@
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Cross Gear&#xd;&#xa;Instead of having the crossed creature attack, you may tap it to use its [Tap] ability.&#xd;&#xa;[Tap]: Destroy all creatures with power equal to or less than that of the crossed creature." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="14" />
 		</card>
@@ -236,7 +236,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Put the topmost card of your deck into your graveyard. If this card is a creature, destroy 1 of your opponent's creatures with a power lower than that of the revealed creature. If the card is a cross gear you may put in the battle zone." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="17" />
 		</card>
@@ -295,8 +295,8 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger X (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature without paying its cost.)&#xd;&#xa;Cross Gear&#xd;&#xa;The crossed creature gains &quot;Blocker&quot;.&#xd;&#xa;When the crossed creature is destroyed, you may cross this with one of your creatures without paying its cost." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="{Shield trigger} Shield Trigger X (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature without paying its cost.)&#xd;&#xa;Cross Gear&#xd;&#xa;The crossed creature gains &quot;Blocker&quot;.&#xd;&#xa;When the crossed creature is destroyed, you may cross this with one of your creatures without paying its cost." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="23" />
 		</card>
@@ -325,8 +325,8 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger X (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature without cost.)&#xd;&#xa;The crossed creature get +5000, and &quot;Blocker&quot;.&#xd;&#xa;The crossed creature can't attack." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="{Shield trigger} Shield Trigger X (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature without cost.)&#xd;&#xa;The crossed creature get +5000, and &quot;Blocker&quot;.&#xd;&#xa;The crossed creature can't attack." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="26" />
 		</card>
@@ -355,8 +355,8 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger X (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature without cost.)&#xd;&#xa;Cross Gear&#xd;&#xa;The crossed creature gets +1000 for each tapped creature in the battle zone." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="{Shield trigger} Shield Trigger X (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature without cost.)&#xd;&#xa;Cross Gear&#xd;&#xa;The crossed creature gets +1000 for each tapped creature in the battle zone." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="29" />
 		</card>
@@ -385,8 +385,8 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger X (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature without paying its cost.)&#xd;&#xa;Cross Gear&#xd;&#xa;When the crossed creature attacks, destroy any number of your opponents creatures that have a total power of 3000 or less." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="{Shield trigger} Shield Trigger X (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature without paying its cost.)&#xd;&#xa;Cross Gear&#xd;&#xa;When the crossed creature attacks, destroy any number of your opponents creatures that have a total power of 3000 or less." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="32" />
 		</card>
@@ -395,7 +395,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Colony Beetle" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;This creature can't attack players." />
+			<property name="Rules" value="{Shield trigger}&#xd;&#xa;This creature can't attack players." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="33" />
@@ -416,7 +416,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Until the end of the turn, 1 of your creatures gets +4000 power." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="35" />
 		</card>
@@ -445,7 +445,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cosmo Walker" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger" />
+			<property name="Rules" value="{Shield trigger}" />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="38" />
@@ -495,8 +495,8 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Choose 1 cross gear in the battle zone and return it to its owner's hand." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="{Shield trigger}&#xd;&#xa;Choose 1 cross gear in the battle zone and return it to its owner's hand." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="43" />
 		</card>
@@ -505,7 +505,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Gargoyle" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Slayer" />
+			<property name="Rules" value="{Shield trigger}&#xd;&#xa;Slayer" />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="44" />
@@ -536,7 +536,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Until the start of your next turn, your opponent can't place cards from their hand into the mana zone." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="47" />
 		</card>
@@ -575,8 +575,8 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="hoose 1 of your opponent's cross gears and put it in its owner's graveyard.&#xd;&#xa;Metamorph (When your mana zone has 7 or more cards, this card gains the following [Metamorph]  ability).&#xd;&#xa;[Metamorph] : Instead of 1 of your opponent's cross gears, choose 2 of your opponent's cross gears and put them in their owner's graveyards." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="Choose 1 of your opponent's cross gears and put it in its owner's graveyard.&#xd;&#xa;[Metamorph] : Instead of 1 of your opponent's cross gears, choose 2 of your opponent's cross gears and put them in their owner's graveyards." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="51" />
 		</card>
@@ -615,8 +615,8 @@
 			<property name="Cost" value="1" />
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Cross Gear: Put this card into the battle zone when cast. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.&#xd;&#xa;When the crossed creature attacks, you may put a card from your graveyard into your mana zone." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="[Cross Gear]&#xd;&#xa;When the crossed creature attacks, you may put a card from your graveyard into your mana zone." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="55" />
 		</card>

@@ -55,8 +55,8 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Cross Gear" />
 			<property name="Race" value="" />
-			<property name="Rules" value="This cross gear is put into your mana zone tapped.&#xd;&#xa;Evolution: Put on one of your light or water cross gears.&#xd;&#xa;The crossed creature gains &quot;blocker&quot;.&#xd;&#xa;When the crossed creature attacks, reveal the top 3 cards of your deck. You may cast any spells with &quot;shield trigger&quot; from these cards for no cost. Then, put the rest on the bottom of your deck in any order." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="Evolution: Light or Water cross gear.&#xd;&#xa;The crossed creature gains &quot;blocker&quot;.&#xd;&#xa;When the crossed creature attacks, reveal the top 3 cards of your deck. You may cast any spells with &quot;shield trigger&quot; from these cards for no cost. Then, put the rest on the bottom of your deck in any order." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />
 		</card>
@@ -65,8 +65,8 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Evolution Cross Gear" />
 			<property name="Race" value="" />
-			<property name="Rules" value="This cross gear is put into your mana zone tapped.&#xd;&#xa;Evolution: Put on one of your light or nature cross gears.&#xd;&#xa;The crossed creature gains &quot;blocker&quot;.&#xd;&#xa;When the crossed creature is destroyed, it stays in the battle zone instead.&#xd;&#xa;At the end of each of your turns, untap the crossed creature." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="Evolution: Light or Nature cross gear.&#xd;&#xa;The crossed creature gains &quot;blocker&quot;.&#xd;&#xa;When the crossed creature is destroyed, it stays in the battle zone instead.&#xd;&#xa;At the end of each of your turns, untap the crossed creature." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S5" />
 		</card>
@@ -76,7 +76,7 @@
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Cross Gear: Put this card into the battle zone when cast. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.&#xd;&#xa;The crossed creature gets +4000 power and gains &quot;blocker&quot;.&#xd;&#xa;If the crossed creature also has &quot;Lord of Legend Sword&quot; crossed with it, instead of +4000 this creature gets +12000 power." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="1" />
 		</card>
@@ -86,7 +86,7 @@
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Cross Gear&#xd;&#xa;The crossed creature gains &quot;Double Breaker&quot; and can't be blocked by creatures with less power than the crossed creature.&#xd;&#xa;If the crossed creature also has &quot;Queen of Protection&quot; crossed with it, this creature breaks an additional 2 shields." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="2" />
 		</card>
@@ -95,18 +95,18 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Evolution Cross Gear" />
 			<property name="Race" value="" />
-			<property name="Rules" value="This cross gear is put into your mana zone tapped.&#xd;&#xa;Evolution: Put on one of your water or darkness cross gears.&#xd;&#xa;The crossed creature gets +2000 power.&#xd;&#xa;When the crossed creature attacks, draw up to 2 cards. Then, the opponent chooses 2 cards from his hand and discards them." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="Evolution: Water or Darkness cross gear.&#xd;&#xa;The crossed creature gets +2000 power.&#xd;&#xa;When the crossed creature attacks, draw up to 2 cards. Then, the opponent chooses 2 cards from his hand and discards them." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="3" />
 		</card>
 		<card name="Explode Catastrophe" id="3b9ee72f-4670-4e00-b821-5e30e7858ffe">
-			<property name="Civilization" value="Fire/Darkness" />
+			<property name="Civilization" value="Darkness/Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Evolution Cross Gear" />
 			<property name="Race" value="" />
-			<property name="Rules" value="This cross gear is put into your mana zone tapped.&#xd;&#xa;Evolution: Put on one of your fire or darkness cross gears.&#xd;&#xa;The crossed creature can attack untapped creatures.&#xd;&#xa;When the crossed creature wins a battle, look at the opponent's hand. The opponent puts all cards from his hand, mana zone, graveyard, and battle zone with the same name as the creature that lost the battle on the bottom of his deck." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="Evolution: Fire or Darkness cross gear.&#xd;&#xa;The crossed creature can attack untapped creatures and when it wins a battle, look at the opponent's hand. The opponent puts all cards from their hand, mana zone, graveyard, and battle zone with the same name as the losing creature on the bottom of their deck." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="4" />
 		</card>
@@ -115,8 +115,8 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Cross Gear" />
 			<property name="Race" value="" />
-			<property name="Rules" value="This cross gear is put into your mana zone tapped.&#xd;&#xa;Evolution: Put on one of your fire or nature cross gears.&#xd;&#xa;The crossed creature gains &quot;Power Attacker +11000&quot; and &quot;Triple Breaker&quot;.&#xd;&#xa;If the crossed creature is an armored dragon that is not an evolution creature, when this creature attacks search your deck. You may put a creature from your deck with the same name as the crossed creature into the battle zone tapped. Afterwards, shuffle your deck." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="Evolution: Fire or Nature cross gear.&#xd;&#xa;The crossed creature gains &quot;Power Attacker +11000&quot; and &quot;Triple Breaker&quot;. If the crossed creature is a non-evolution 'Armored Dragon', when it attacks search your deck. You may put a creature with the same name as it into the battle zone tapped. Then shuffle your deck." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="5" />
 		</card>
@@ -135,7 +135,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Light Bringer" />
-			<property name="Rules" value="[Strike Back] Strike Back - Light (When a light card is put into your hand from your shield zone, you may discard that card. If you do, you may summon this creature for no cost.)&#xd;&#xa;[Blocker] Blocker&#xd;&#xa;This creature can't attack players.&#xd;&#xa;When this creature would be destroyed, return it to your hand instead." />
+			<property name="Rules" value="[Strike Back] Strike Back - Light&#xd;&#xa;[Blocker] Blocker&#xd;&#xa;This creature can't attack players.&#xd;&#xa;When this creature would be destroyed, return it to your hand instead." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="7" />
@@ -146,7 +146,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Look at all of your shields. Put any number of shields on the bottom of your deck in any order. Then, take that many cards from the top of your deck and add them to your shields face down." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="8" />
 		</card>
@@ -155,7 +155,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Liquid People" />
-			<property name="Rules" value="Instead of having this creature attack, you may tap it to use its [Tap] ability.&#xd;&#xa;[Tap]: Choose one cross gear in the battle zone and put in its owner's graveyard. That player searches his deck. That player may choose a cross gear from his deck and put in the battle zone for no cost. Afterwards, that player shuffles their deck." />
+			<property name="Rules" value="[Tap]: Choose one cross gear in the battle zone and put in its owner's graveyard. That player searches his deck. That player may choose a cross gear from his deck and put in the battle zone for no cost. Afterwards, that player shuffles their deck." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="9" />
@@ -176,7 +176,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="[Strike Back] Strike Back - Water (When a water card is put into your hand from your shield zone, you may discard that card. If you do, you may cast this spell for no cost.)&#xd;&#xa;Draw 1 card for each of your opponent's tapped creatures." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="11" />
 		</card>
@@ -206,7 +206,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="[Strike Back] Strike Back - Darkness (When a darkness card is put into your hand from your shield zone, you may discard that card. If you do, you may cast this spell for no cost.)&#xd;&#xa;Destroy one of your opponent's tapped creatures." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="14" />
 		</card>
@@ -236,7 +236,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Put the top card of your deck into your graveyard. Put all cross gears in the battle zone that have a cost lower than that card into their owners' graveyards." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="17" />
 		</card>
@@ -265,8 +265,8 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Strike Back] Strike Back - Nature (When a nature card is put into your hand from your shield zone, you may discard that card. If you do, you may cast this spell for no cost.)&#xd;&#xa;Choose one of your creatures in the battle zone. Search your deck for up to 2 creatures with the same name as the chosen creature, show those creatures to your opponent, and put them into your hand. Then shuffle your deck." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="Strike Back - Nature&#xd;&#xa;Choose one of your creatures in the battle zone. Search your deck for up to 2 creatures with the same name as the chosen creature, show those creatures to your opponent, and put them into your hand. Then shuffle your deck." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="20" />
 		</card>
@@ -296,7 +296,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="[Strike Back] Strike Back - Light (When a light card is put into your hand from your shield zone, you may discard that card. If you do, you may cast this spell for no cost.)&#xd;&#xa;Choose up to 2 of your opponent's creatures in the battle zone and tap them." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="23" />
 		</card>
@@ -356,7 +356,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="[Strike Back] Strike Back - Darkness (When a darkness card is put into your hand from your shield zone, you may discard that card. If you do, you may cast this spell for no cost.)&#xd;&#xa;Return up to 2 creatures from your graveyard to your hand." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="29" />
 		</card>
@@ -376,7 +376,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="[Strike Back] Strike Back - Fire (When a fire card is put into your hand from your shield zone, you may discard that card. If you do, you may cast this spell for no cost.)&#xd;&#xa;Choose one of your opponent's creatures that has power 5000 or less and destroy it." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="31" />
 		</card>
@@ -386,7 +386,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Choose one of your opponent's creatures. Then put the top card of your deck into your graveyard. If the chosen creature's cost is less than the cost of the card you put in the graveyard, destroy that creature." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="32" />
 		</card>
@@ -496,7 +496,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Look at the top 4 cards of your deck and put them back in any order." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="43" />
 		</card>
@@ -536,7 +536,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Look at your opponent's hand and discard a spell from it." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="47" />
 		</card>

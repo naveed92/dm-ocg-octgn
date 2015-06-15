@@ -135,7 +135,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Put up to 2 non-evolution light creatures with &quot;Blocker&quot; into the battle zone from your hand." />
+			<property name="Rules" value="{Shield trigger}&#xd;&#xa;Put up to 2 non-evolution light creatures with &quot;Blocker&quot; into the battle zone from your hand." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="7" />
@@ -165,7 +165,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Choose 1 civilization. Draw 1 card for each creature in your opponent's battle zone that is the same as the chosen civilization." />
+			<property name="Rules" value="{Shield Trigger}&#xd;&#xa;Choose 1 civilization. Draw 1 card for each creature in your opponent's battle zone that is the same as the chosen civilization." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="10" />
@@ -225,7 +225,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armorloid" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;When you put this creature into the battle zone, destroy one of your creatures. Then your opponent chooses 1 of their creatures and destroys it." />
+			<property name="Rules" value="{Shield Trigger}&#xd;&#xa;When you put this creature into the battle zone, destroy one of your creatures. Then your opponent chooses 1 of their creatures and destroys it." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="16" />
@@ -236,7 +236,7 @@
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Cross Gear&#xd;&#xa;The crossed creature gains &quot;Power Attacker +4000&quot;.&#xd;&#xa;When this card isn't crossed with a creature, all creatures in the battle zone gain &quot;Speed Attacker&quot;." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="17" />
 		</card>
@@ -256,7 +256,7 @@
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Cross Gear&#xd;&#xa;The crossed creature gets +3000 power.&#xd;&#xa;When this card isn't crossed with a creature, your creatures each cost 1 less to summon. They can't cost less than 1." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="19" />
 		</card>
@@ -266,7 +266,7 @@
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Cross Gear&#xd;&#xa;Instead of having the crossed creature attack, you may tap it to use this [Tap] ability.&#xd;&#xa;[Tap]: You may search your deck for a non-evolution creature with the same name as the crossed creature, show it to your opponent, and put it into the battle zone. Then shuffle your deck." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="20" />
 		</card>
@@ -326,7 +326,7 @@
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Cross Gear&#xd;&#xa;All creatures that share a race with the crossed creature gets +1000 power.&#xd;&#xa;When creatures that share a race with the crossed creature attack, you may draw a card." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="26" />
 		</card>
@@ -406,7 +406,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Choose one of your opponent's creatures in the battle zone, and put it and all cross gears crossed with that creature into its owner's mana zone." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="34" />
 		</card>
@@ -416,7 +416,7 @@
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Cross Gear&#xd;&#xa;All creatures that share a race with the crossed creature get +2000 power." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="35" />
 		</card>
@@ -576,7 +576,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Put 1 card from your mana zone into your graveyard. Afterwards, your opponent chooses 1 card in their mana zone and puts it in their graveyard." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="51" />
 		</card>

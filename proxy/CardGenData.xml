@@ -100,7 +100,7 @@
 		</block>
 
 	<block type="text" id="title">
-			<location x="55" y="28" />
+			<location x="57" y="28" />
 			<text color="#000000" size="30" />
 			<border color="#000000" size="0" />
 			<wordwrap height="28" width="310" align="center" shrinktofit="True" valign="center" />
@@ -113,9 +113,9 @@
 		</block>
 		<block type="text" id="race">
 			<location x="110" y="55" />
-			<text color="#000000" size="18" />
+			<text color="#000000" size="14" />
 			<border color="#000000" size="0" />
-			<wordwrap height="18" width="200" align="center" shrinktofit="True" valign="center"/>
+			<wordwrap height="18" width="200" align="center" shrinktofit="False" valign="center"/>
 		</block>
 		<block type="text" id="power">
 			<location x="21" y="502" />
@@ -133,7 +133,7 @@
 			<location x="42" y="380" />
 			<text color="#000000" size="14" />
 			<border color="#000000" size="0" />
-			<wordwrap height="100" width="320" align="near" shrinktofit="False" valign="near"/>
+			<wordwrap height="110" width="320" align="near" shrinktofit="False" valign="near"/>
 		</block>
 
 		<block type="text" id="rarity">
@@ -196,6 +196,12 @@
 
 			<conditional>
 				<if property="Type" value="Evolution Creature">
+					<link block="evo" />
+  				</if>
+			</conditional>
+
+			<conditional>
+				<if property="Type" value="Evolution Cross Gear">
 					<link block="evo" />
   				</if>
 			</conditional>

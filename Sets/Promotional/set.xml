@@ -20,7 +20,7 @@
 		</pack>
 	</packaging>
 	<cards>
-		<card name="Amnis, Holy Elemental" id="3dfc3aaf-e4a9-49eb-b99c-f91fcde327f9">
+		<card name="Amnis, Holy Elemental" id="5f6d4906-1f2b-455a-a620-992dfa6c3673">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -124,10 +124,250 @@
 			<property name="Cost" value="9" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Armored Dragon" />
-			<property name="Rules" value="Evolution - Put on one of your Armored Dragons. &#xd;&#xa;Crew breaker - Armored Dragon (This creature breaks one more shield for each of your other Armored Dragons in the battle zone.)" />
+			<property name="Rules" value="Evolution - Put on one of your Armored Dragons. &#xd;&#xa;Crew breaker-Armored Dragon (This creature breaks one more shield for each of your other Armored Dragons in the battle zone.)" />
 			<property name="Power" value="11000" />
 			<property name="Rarity" value="" />
 			<property name="Number" value="L6/Y2" />
+		</card>
+
+		<card name="Brain Serum" id="7f225860-af37-47ac-9b36-1480872576b6">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa; Draw up to 2 Cards." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P10/Y3" />
+		</card>
+
+		<card name="Future Slash" id="b455c70a-bcac-4063-9bc3-9793b7365b66">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Search your opponent's deck. Take up to 2 cards from his deck and put them into his graveyard. Then your opponent shuffles his deck." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P23/Y3" />
+		</card>
+
+		<card name="Terradragon Soulgardas" id="eac79388-1cc6-456b-8e41-e931112f3cc9">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Earth Dragon" />
+			<property name="Rules" value="Power Attacker +2000&#xd;&#xa;When this creature would be destroyed, you may put a Earth Dragon and a Fire Bird from your mana zone into your graveyard. If you do, this creature stays in the battle zone instead." />
+			<property name="Power" value="8000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P20/Y3" />
+		</card>
+
+		<card name="Psychic Shaper" id="14609828-6c61-441a-aa76-c436bf2c6b00">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Reveal the top 4 cards of your deck. Put all water cards from among them into your hand and the rest into your graveyard." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P17/Y3" />
+		</card>
+
+		<card name="Glaris, Electro-Spirit" id="05c47a4a-aca7-4bc2-858d-15599c34ee19">
+			<property name="Civilization" value="Light/Water" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Angel Command/Gel Fish" />
+			<property name="Rules" value="Your creatures can't be attacked by creatures that have the same civilization." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P2/Y3" />
+		</card>
+
+		<card name="Astral Warper" id="187a6327-b0e0-42a3-8cae-9293b41927ac">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Cyber Virus" />
+			<property name="Rules" value="Evolution - Put on one of your Cyber Viruses.&#xd;&#xa;When you put this creature into the battle zone, draw up to 3 cards." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P13/Y3" />
+		</card>
+
+		<card name="Angila, Electro-Mask" id="774ee0bb-0dcc-4213-8217-534cfab303fe">
+			<property name="Civilization" value="Water/Darkness" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="" />
+			<property name="Race" value="Liquid People/Devil Mask" />
+			<property name="Rules" value="{Wave Striker}&#xd;&#xa;Wave Striker: When you put this creature into the battle zone, you may return a creature that has 'Wave Striker' from your graveyard to your hand.&#xd;&#xa;Wavestriker: This creature can't be blocked and has Double breaker." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P12/Y3" />
+		</card>
+
+		<card name="Galzark, Divine Destruction Dragonmech" id="8a447cbb-a303-4327-80f9-117e0795a997">
+			<property name="Civilization" value="Darkness/Fire" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon/Zombie Dragon" />
+			<property name="Rules" value="While you have at least one other Dragon in the battle zone, this creature gets 'Power attacker +6000' and 'Triple breaker'.&#xd;&#xa;Double breaker.&#xd;&#xa;This creature can't be attacked." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P8/Y3" />
+		</card>
+
+		<card name="Saberfili, the Paladin" id="2aab221b-b1ed-40ba-878d-a1c92cfc06cf">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Rainbow Phantom" />
+			<property name="Rules" value="Instead of attacking, you may tap this creature to use another creature's {Tap} ability." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P9/Y2" />
+		</card>
+
+		<card name="Necrodragon Zekira" id="5694f7de-6f43-4c73-bd13-5a529b10f470">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Zombie Dragon" />
+			<property name="Rules" value="When you put this creature into the battle zone, destroy one of your creatures." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P33/Y3" />
+		</card>
+
+		<card name="Zardia, Spirit of Bloody Winds" id="600eddff-520f-4195-a2f2-605ef6c3ea71">
+			<property name="Civilization" value="Light/Fire" />
+			<property name="Cost" value="9" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Angel Command/Melt Warrior" />
+			<property name="Rules" value="Sympathy-Angel Command and Melt Warrior&#xd;&#xa;When you put this creature into the battle zone, choose any number of your opponent's creatures that have total power 5500 or less and destroy them. Then, add the top card of your deck to your shields face down." />
+			<property name="Power" value="5500" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P30/Y3" />
+		</card>
+
+
+		<card name="Gravity Dragon" id="293b1635-fe60-4a0a-b4bb-752866a8cd5e">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="Cross gears cost 1 less to cross with this creature. It can't cost less than 1.&#xd;&#xa;Double breaker (This creature breaks 2 shields" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P2/Y4" />
+		</card>
+
+		<card name="Kamikaze Zephyr" id="f1d269b6-516e-4b28-ba9d-302b71b893bd">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Feathernoid" />
+			<property name="Rules" value="Evolution-Put on one of your Feathernoid.&#xd;&#xa;Double breaker&#xd;&#xa;Accelerator: Whenever this creature attacks and isn't blocked, your other creatures get 'Speed attacker'." />
+			<property name="Power" value="7000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P11/Y4" />
+		</card>
+
+
+		<card name="Marinomancer" id="8155edc9-5ab2-4295-95e4-2cd07c438e61">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Cyber Lord" />
+			<property name="Rules" value="When you put this creature into the battle zone, you may reveal the top 3 cards of your deck. Put all light and darkness cards from the revealed cards into your hand, and put the rest into your graveyard." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P15/Y4" />
+		</card>
+
+
+		<card name="Forte, Brave Fear Lord" id="1ed1889a-fbbb-4fd8-ab52-c7589b0dd018">
+			<property name="Civilization" value="Darkness/Fire" />
+			<property name="Cost" value="10" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Dark Lord/Human" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.)&#xd;&#xa;Whenever this creature is blocked, destroy all of your opponent's creatures that have 'blocker'.&#xd;&#xa;Double breaker" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P28/Y3" />
+		</card>
+
+
+		<card name="Dark Jios, Lord of Dark Dragons" id="a4568ee5-1894-4f2b-8e77-55c376797dbb">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Demon Command" />
+			<property name="Rules" value="Gravity Zero-If your opponent has 6 or more creatures in his graveyard, you may summon this creature for no cost.&#xd;&#xa;Whenever your Dragons attack, your opponent chooses one of his creatures and destroys it." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P16/Y4" />
+		</card>
+
+
+		<card name="Neo Bolshack Dragon" id="b6bf1e13-1018-409b-b425-4cc23536a2c0">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="Power attacker +4000&#xd;&#xa;Triple breaker (This creature breaks 3 shields.)" />
+			<property name="Power" value="11000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P23/Y4" />
+		</card>
+
+
+		<card name="Leopard Glory Sword" id="d3f67040-cece-44c9-afbc-2ab7d860b54a">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Cross Gear" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Cross Gear&#xd;&#xa;You can put an evolution creature of any race on the crossed creature.&#xd;&#xa;You can put an evolution cross gear of any civilization(s) on this cross gear." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P24/Y4" />
+		</card>
+
+
+		<card name="Magmadragon Gardos" id="d13ed1db-47e1-407f-9806-ad0c69bbf43a">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Volcano Dragon" />
+			<property name="Rules" value=" Speed attacker (This creature doesn't get summoning sickness.)&#xd;&#xa;This creature can't attack players.&#xd;&#xa;At the end of your turn, return this creature to your hand." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P26/Y4" />
+		</card>
+
+
+		<card name="Helios Tiga Dragon" id="f0deb2fa-6ff6-482f-a8a8-47e1ecf55158">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="Double breaker&#xd;&#xa;When you put this creature into the battle zone, destroy all of your opponent's creatures that have power 2000 or less. If you have at least one 'Dark Salamandaz, White Tiger Swordsman' in the battle zone, destroy all your opponent's creatures that have power 4000 or less instead." />
+			<property name="Power" value="7000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P42/Y4" />
+		</card>
+
+
+		<card name="Dark Salamandaz, White Tiger Swordsman" id="bc0fb446-60cc-4173-b285-c7ab72aed99c">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Demon Command" />
+			<property name="Rules" value="Double breaker&#xd;&#xa;When you put this creature into the battle zone, your opponent chooses a card in his hand and discards it. If you have a 'Helios Tiga Dragon' in the battle zone, your opponent discards all cards from his hand." />
+			<property name="Power" value="7000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="P41/Y4" />
 		</card>
 	</cards>
 </set>

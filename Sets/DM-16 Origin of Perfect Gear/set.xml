@@ -136,7 +136,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="{Shield trigger}&#xd;&#xa;Put up to 2 non-evolution light creatures with &quot;Blocker&quot; into the battle zone from your hand." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="7" />
 		</card>
@@ -145,8 +145,8 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Cross Gear: Put this card into the battle zone when cast. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.&#xd;&#xa;When the crossed creature is destroyed, you may add it to your shield zone face-down instead.&#xd;&#xa;When this card isn't crossed with a creature, creatures can only break 1 shield per attack." />
-			<property name="Power" value="0" />
+			<property name="Rules" value="[Cross Gear]&#xd;&#xa;When the crossed creature is destroyed, you may add it to your shield zone face-down instead.&#xd;&#xa;When this card isn't crossed with a creature, creatures can only break 1 shield per attack." />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="8" />
 		</card>
@@ -166,7 +166,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="{Shield Trigger}&#xd;&#xa;Choose 1 civilization. Draw 1 card for each creature in your opponent's battle zone that is the same as the chosen civilization." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="10" />
 		</card>
@@ -176,7 +176,7 @@
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Cross Gear&#xd;&#xa;The crossed creature can't be attacked or blocked by creatures with 2000 power or less.&#xd;&#xa;When this card isn't crossed with a creature, creatures with 2000 power or less can't attack or block." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="11" />
 		</card>
@@ -196,7 +196,7 @@
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Destroy all creatures that are crossed with cross gears." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="13" />
 		</card>
@@ -206,7 +206,7 @@
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Cross Gear&#xd;&#xa;When the crossed creature attacks, you may return 1 creature from your graveyard to your hand.&#xd;&#xa;When this card isn't crossed with a creature, all creatures in the battle zone gain &quot;Slayer&quot;." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="14" />
 		</card>

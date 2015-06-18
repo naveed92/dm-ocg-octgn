@@ -75,7 +75,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Mecha del Sol" />
-			<property name="Rules" value="Double Breaker&#xd;&#xa;Accelerator (While this creature is crossed with a cross gear, this creature gains the following [Accelerator]  ability.)&#xd;&#xa;[Accelerator] : When this creature attacks, search your deck. Choose 1 spell with &quot;Shield Trigger&quot; and after shuffling you may cast this spell without paying its mana cost." />
+			<property name="Rules" value="Double Breaker&#xd;&#xa;[Accelerator] : When this creature attacks, search your deck. Choose 1 spell with &quot;Shield Trigger&quot; and after shuffling you may cast this spell without paying its mana cost." />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="1" />
@@ -115,7 +115,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Wonder Trick" />
-			<property name="Rules" value="Evolution: Put on one of your Wonder Trick&#xd;&#xa;When you put this creature into the battle zone, put the top 2 cards of your deck into your mana zone. Afterwards, return 1 creature from your mana zone to your hand.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Evolution: Wonder Trick&#xd;&#xa;When you put this creature into the battle zone, put the top 2 cards of your deck into your mana zone. Afterwards, return 1 creature from your mana zone to your hand.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="5" />
@@ -125,7 +125,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cosmo Walker" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;When you generate a cross gear, you may draw 1 card.&#xd;&#xa;This creature can't attack players." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;When you generate a cross gear, you may draw 1 card.&#xd;&#xa;This creature can't attack players." />
 			<property name="Power" value="3500" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="6" />
@@ -135,7 +135,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield trigger}&#xd;&#xa;Choose 1 of your opponent's creatures in the battle zone and tap it.&#xd;&#xa;Metamorph (When your mana zone has 7 or more cards, this card gains the following [Metamorph]  ability).&#xd;&#xa;[Metamorph] : Instead of tapping 1 of your opponent's creatures, tap all of your opponent's creatures." />
+			<property name="Rules" value="{Shield trigger}&#xd;&#xa;Choose 1 of your opponent's creatures in the battle zone and tap it.&#xd;&#xa;[Metamorph] : Instead of tapping 1 of your opponent's creatures, tap all of your opponent's creatures." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="7" />
@@ -145,7 +145,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Cross Gear: Put this card into the battle zone when cast. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.&#xd;&#xa;When your opponent chooses a creature, the crossed creature may not be chosen. (However, this creature may be attacked or blocked.)" />
+			<property name="Rules" value="[Cross Gear]&#xd;&#xa;When your opponent chooses a creature, the crossed creature may not be chosen. (However, this creature may be attacked or blocked.)" />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="8" />
@@ -295,7 +295,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield trigger} Shield Trigger X (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature without paying its cost.)&#xd;&#xa;Cross Gear&#xd;&#xa;The crossed creature gains &quot;Blocker&quot;.&#xd;&#xa;When the crossed creature is destroyed, you may cross this with one of your creatures without paying its cost." />
+			<property name="Rules" value="{Shield trigger} Shield Trigger X&#xd;&#xa;[Cross Gear]&#xd;&#xa;The crossed creature gains &quot;Blocker&quot;.&#xd;&#xa;When the crossed creature is destroyed, you may cross this with one of your creatures without paying its cost." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="23" />
@@ -385,7 +385,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield trigger} Shield Trigger X (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature without paying its cost.)&#xd;&#xa;Cross Gear&#xd;&#xa;When the crossed creature attacks, destroy any number of your opponents creatures that have a total power of 3000 or less." />
+			<property name="Rules" value="{Shield trigger} Shield Trigger X&#xd;&#xa;[Cross Gear]&#xd;&#xa;When the crossed creature attacks, destroy any number of your opponents creatures that have a total power of 3000 or less." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="32" />

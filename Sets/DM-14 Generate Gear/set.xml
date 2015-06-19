@@ -20,7 +20,7 @@
 		</pack>
 	</packaging>
 	<cards>
-		<card name="Marushias, Spirit of the Sun" id="92f4049f-4002-48f4-9b91-163547e49466">
+		<card name="Marshias, Spirit of the Sun" id="92f4049f-4002-48f4-9b91-163547e49466">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -130,7 +130,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="1" />
 		</card>
-		<card name="Light Weapon Melania" id="1c767a20-b83b-455e-8a67-1a0798bad0ea">
+		<card name="Melania, Light Weapon" id="1c767a20-b83b-455e-8a67-1a0798bad0ea">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -170,7 +170,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="5" />
 		</card>
-		<card name="Dark Divine Dragon Zanbajir" id="beff2fcb-da8f-4e13-8ce3-311529bc6160">
+		<card name="Necrodragon Zanbajir" id="beff2fcb-da8f-4e13-8ce3-311529bc6160">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -220,7 +220,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="10" />
 		</card>
-		<card name="Light Weapon Dominica" id="35b8d1cd-870d-47f2-98b8-bab0f50a608f">
+		<card name="Dominica, Light Weapon" id="35b8d1cd-870d-47f2-98b8-bab0f50a608f">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -265,7 +265,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield trigger}&#xd;&#xa;If there are 6 or more creatures in the battle zone, destroy all of them." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;If there are 6 or more creatures in the battle zone, destroy all of them." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="15" />
@@ -455,7 +455,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield trigger}&#xd;&#xa;Choose creatures that have a combined power of 5000 or less and destroy them." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose creatures that have a combined power of 5000 or less and destroy them." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="34" />
@@ -515,7 +515,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield trigger}&#xd;&#xa;Reveal the top 6 cards of your deck. Put all evolution creatures from the revealed cards into your hand, and put the rest on the bottom of your deck in any order." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Reveal the top 6 cards of your deck. Put all evolution creatures from the revealed cards into your hand, and put the rest on the bottom of your deck in any order." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="40" />
@@ -565,7 +565,7 @@
 			<property name="Cost" value="1" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield trigger}&#xd;&#xa;If your opponent has more cards in their mana zone than you have in yours, put the top card of your deck into your mana zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;If your opponent has more cards in their mana zone than you have in yours, put the top card of your deck into your mana zone." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="45" />
@@ -675,7 +675,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield trigger}&#xd;&#xa;Choose 1 of your opponent's tapped creatures. That creature gets -3000 power until the end of the turn. (A creature that has 0 or less power is destroyed.)" />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose 1 of your opponent's tapped creatures. That creature gets -3000 power until the end of the turn. (A creature that has 0 or less power is destroyed.)" />
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="56" />
@@ -820,7 +820,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="70" />
 		</card>
-		<card name="Light Weapon Glacier" id="8d93920b-709b-4d0a-a7d2-0f9ce320cf4e">
+		<card name="Glacier, Light Weapon" id="8d93920b-709b-4d0a-a7d2-0f9ce320cf4e">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -885,7 +885,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield trigger}&#xd;&#xa;Choose 1 of your opponent's cross gears and put it in the owner's graveyard." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose 1 of your opponent's cross gears and put it in the owner's graveyard." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="77" />
@@ -905,7 +905,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cyber Moon" />
-			<property name="Rules" value="{Shield trigger}" />
+			<property name="Rules" value="{SHIELD TRIGGER}" />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="79" />
@@ -965,7 +965,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield trigger}&#xd;&#xa;You may draw 1 card for each of your opponent's tapped creatures in the battle zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;You may draw 1 card for each of your opponent's tapped creatures in the battle zone." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="85" />
@@ -985,7 +985,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Pandora Box" />
-			<property name="Rules" value="{Shield trigger}" />
+			<property name="Rules" value="{SHIELD TRIGGER}" />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="87" />
@@ -1045,7 +1045,7 @@
 			<property name="Cost" value="1" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield trigger}&#xd;&#xa;Choose one of your opponent's tapped creatures in the battle zone. That creature gets -1000 power until the end of the turn. (A creature that has 0 or less power is destroyed.)" />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose one of your opponent's tapped creatures in the battle zone. That creature gets -1000 power until the end of the turn. (A creature that has 0 or less power is destroyed.)" />
 			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="93" />
@@ -1085,7 +1085,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Melt Warrior" />
-			<property name="Rules" value="{Shield trigger}&#xd;&#xa;Power Attacker +4000" />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Power Attacker +4000" />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="97" />
@@ -1145,7 +1145,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Mystery Totem" />
-			<property name="Rules" value="{Shield trigger}" />
+			<property name="Rules" value="{SHIELD TRIGGER}" />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="103" />

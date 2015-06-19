@@ -135,7 +135,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield trigger}&#xd;&#xa;Put up to 2 non-evolution light creatures with &quot;Blocker&quot; into the battle zone from your hand." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Put up to 2 non-evolution light creatures with &quot;Blocker&quot; into the battle zone from your hand." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="7" />
@@ -165,7 +165,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield Trigger}&#xd;&#xa;Choose 1 civilization. Draw 1 card for each creature in your opponent's battle zone that is the same as the chosen civilization." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose 1 civilization. Draw 1 card for each creature in your opponent's battle zone that is the same as the chosen civilization." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="10" />
@@ -225,7 +225,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armorloid" />
-			<property name="Rules" value="{Shield Trigger}&#xd;&#xa;When you put this creature into the battle zone, destroy one of your creatures. Then your opponent chooses 1 of their creatures and destroys it." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, destroy one of your creatures. Then your opponent chooses 1 of their creatures and destroys it." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="16" />
@@ -270,7 +270,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="20" />
 		</card>
-		<card name="Light Weapon Sveta" id="7bf5e969-ba5b-4f45-8bce-d2ae91114713">
+		<card name="Sveta, Light Weapon" id="7bf5e969-ba5b-4f45-8bce-d2ae91114713">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />

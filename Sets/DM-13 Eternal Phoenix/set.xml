@@ -225,7 +225,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield Trigger}&#xd;&#xa;This card is put into the mana zone tapped.&#xd;&#xa;If there are 2 or more of a card with the same name in the battle zone, destroy all of them. Afterwards look at all mana zones, and if there are 2 or more copies of a card with the same name, destroy all of them." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;This card is put into the mana zone tapped.&#xd;&#xa;If there are 2 or more of a card with the same name in the battle zone, destroy all of them. Afterwards look at all mana zones, and if there are 2 or more copies of a card with the same name, destroy all of them." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="16" />
@@ -355,7 +355,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield Trigger}&#xd;&#xa;This card is put into the mana zone tapped.&#xd;&#xa;Destroy one of your opponent's creatures of 3000 power or less. Afterwards, you may select and tap one of your opponent's creatures." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;This card is put into the mana zone tapped.&#xd;&#xa;Destroy one of your opponent's creatures of 3000 power or less. Afterwards, you may select and tap one of your opponent's creatures." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="29" />
@@ -415,7 +415,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield Trigger}&#xd;&#xa;This card is put into the mana zone tapped.&#xd;&#xa;During this turn, when your cards (other than this one) are placed in the graveyard, instead place them in your mana zone tapped." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;This card is put into the mana zone tapped.&#xd;&#xa;During this turn, when your cards (other than this one) are placed in the graveyard, instead place them in your mana zone tapped." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="35" />
@@ -505,7 +505,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield Trigger}&#xd;&#xa;Destroy one of your untapped creatures. Afterwards, the opponent chooses and destroys one of his untapped creatures." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy one of your untapped creatures. Afterwards, the opponent chooses and destroys one of his untapped creatures." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="44" />
@@ -565,7 +565,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{Shield Trigger}&#xd;&#xa;Return 1 creature from your mana zone to your hand.&#xd;&#xa;After this spell is cast, instead of putting it in the graveyard, put it in the mana zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Return 1 creature from your mana zone to your hand.&#xd;&#xa;After this spell is cast, instead of putting it in the graveyard, put it in the mana zone." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="50" />

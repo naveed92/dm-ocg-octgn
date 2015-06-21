@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	id="bb784fc6-fe21-4603-90d7-82c049908a74" version="1.0.0.4" octgnVersion="3.1.30.0" scriptVersion="3.1.0.1"
+	id="bb784fc6-fe21-4603-90d7-82c049908a74" version="1.0.0.5" octgnVersion="3.1.30.0" scriptVersion="3.1.0.1"
 	name="Duel Masters OCG" tags="Duel Masters, Kaijudo" description="The original format of the game with additional Sets"
 	setsurl="http://octgn.gamersjudgement.com/wordpress/dmocg/images/" gameurl="http://octgn.gamersjudgement.com/wordpress/dmocg/" authors="brine, naveed92, nitrox"
 	markersize="18" iconurl="https://raw.github.com/brine/duelmasters-octgn/master/game/cards/logo.jpg" >
@@ -35,7 +35,7 @@
 		<groupaction menu="Set Up Battlezone" execute="setup" />
 		<groupaction menu="End Turn" shortcut="ctrl+E" execute="endTurn" />
 		<cardaction menu="Tap / Untap" default="True" shortcut="ctrl+G" execute="tap" />
-		<cardaction menu="Play Card" default="True" execute="toPlay" />
+		<cardaction menu="Play Card" execute="toPlay" />
 		<cardaction menu="Destroy Card / Break Shield" shortcut="del" execute="banish" />
 		<cardaction menu="Set as Shield" shortcut="ctrl+H" execute="toShields" />
 		<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />

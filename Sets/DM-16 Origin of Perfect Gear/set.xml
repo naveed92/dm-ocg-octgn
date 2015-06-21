@@ -40,7 +40,7 @@
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S2" />
 		</card>
-		<card name="Supernova Dragon Abas Nonaris" id="d1782df9-8dd6-484f-b420-a7cc72abd5c9">
+		<card name="Super Necrodragon Abas Nonaris" id="d1782df9-8dd6-484f-b420-a7cc72abd5c9">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
@@ -60,7 +60,7 @@
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />
 		</card>
-		<card name="Supernova Dragon Bramgreil" id="965ebe40-5483-4102-9857-83246f08d113">
+		<card name="Super Terradragon Bramgreil" id="965ebe40-5483-4102-9857-83246f08d113">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />

@@ -200,7 +200,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="8" />
 		</card>
-		<card name="Green Divine Dragon Magragran" id="60ae781a-7868-4063-9eec-cdf749033db6">
+		<card name="Terradragon Magragran" id="60ae781a-7868-4063-9eec-cdf749033db6">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -745,7 +745,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Destroy one of your opponent's creature that has 2000 power or less.&#xd;&#xa;[Metamorph] : Instead of one of your opponent's creatures that has 2000 power or less, destroy one of your opponent's creatures that has 6000 power or less." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy one of your opponent's creature that has 2000 power or less.&#xd;&#xa;[Metamorph] : Instead of one of your opponent's creatures that has 2000 power or less, destroy one of your opponent's creatures that has 6000 power or less." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="63" />

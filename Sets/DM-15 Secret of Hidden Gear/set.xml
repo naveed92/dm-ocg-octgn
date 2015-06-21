@@ -240,7 +240,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="17" />
 		</card>
-		<card name="Green Divine Dragon Dagradolgran" id="5cffbbdc-566a-44ce-9c40-47ac001e3060">
+		<card name="Terradragon Dagradolgran" id="5cffbbdc-566a-44ce-9c40-47ac001e3060">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />

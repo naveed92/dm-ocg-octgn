@@ -210,7 +210,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="14" />
 		</card>
-		<card name="Crimson Divine Dragon, Garwind" id="1af0f659-0af4-4524-819c-938aa5124781">
+		<card name="Magmadragon Garwind" id="1af0f659-0af4-4524-819c-938aa5124781">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />

@@ -26,14 +26,46 @@ onSummon = {'Bronze-Arm Tribe': 'mana(me.Deck);',
             'Magris, Vizier of Magnetism': 'draw(me.Deck);',
             'Eureka Charger': 'draw(me.Deck);',
             'Brain Serum': 'draw(me.Deck);draw(me.Deck);',
+            'Cyber Brain': 'draw(me.Deck);draw(me.Deck);draw(me.Deck);',
+            'Triple Brain': 'draw(me.Deck);draw(me.Deck);draw(me.Deck);',
             'Astral Warper': 'draw(me.Deck);draw(me.Deck);draw(me.Deck)',
             'Energy Stream': 'draw(me.Deck);draw(me.Deck);',
             'King Ripped-Hide': 'draw(me.Deck);draw(me.Deck)',
+            'Akashic Second, Electro-Spirit': 'draw(me.Deck);',
+            'Dimension Gate': 'fromDeck()',
+            'Evolution Totem': 'fromDeck()',
+            'Gyulcas, Sage of the East Wind': 'fromDeck()',
+            'Dandy Eggplant': 'fromDeck()',
+            'Spiritual Star Dragon': 'fromDeck()',
+            'Logic Cube': 'fromDeck()',
+            'Factory Shell Q': 'fromDeck()',
+            'Forbos, Sanctum Guardian Q': 'fromDeck()',
+            'Rumbling Terahorn': 'fromDeck()',
+            'Hawkeye Lunatron': 'fromDeck()',
+            'Crystal Memory': 'fromDeck()',
+            'Niofa, Horned Protector': 'fromDeck()',
+            'Rayla, Truth Enforcer': 'fromDeck()',
+            'Scissor Scarab': 'fromDeck()',
+            'Velyrika Dragon': 'fromDeck()',
+            'Whispering Totem': 'fromDeck()',
             'Phal Eaga, Dawn Guardian': 'fromGrave()',
+            'Alshia, Spirit of Novas': 'fromGrave()',
+            'Moors, the Dirty Digger Puppet': 'fromGrave()',
+            'Purgatory Force': 'fromGrave()',
+            'Enchanted Soil': 'fromGrave()',
+            'Ochappi, Pure Hearted Faerie': 'fromGrave()',
+            'Thorny Mandra': 'fromGrave()',
+            'Zombie Carnival': 'fromGrave()',
+            'Grave Worm Q': 'fromGrave()',
             'Dark Reversal': 'fromGrave()',
             'Corpse Charger': 'fromGrave()',
-            'Gigargon': 'fromGrave();fromGrave()',
-            'Morbid Medicine': 'fromGrave();fromGrave',
+            'Gigargon': 'fromGrave()',
+            'Morbid Medicine': 'fromGrave()',
+            'Dark Hydra, Evil Planet Lord': 'fromGrave()'
+            
+}
+
+"""
             'Thrash Crawler': 'fromMana()',
             'Clone Factory': 'fromMana();fromMana()',
             'Aqua Deformer': 'fromMana();fromMana()',
@@ -46,20 +78,7 @@ onSummon = {'Bronze-Arm Tribe': 'mana(me.Deck);',
             'Belix, the Explorer': 'fromManaSpell()',
             'Syforce, Aurora Elemental': 'fromManaSpell()',
             'Logic Sphere': 'fromManaSpell()',
-            'Lena, Vizier of Brilliance': 'fromManaSpell()',
-            'Dimension Gate': 'fromDeck()',
-            'Logic Cube': 'fromDeck()',
-            'Factory Shell Q': 'fromDeck()',
-            'Forbos, Sanctum Guardian Q': 'fromDeck()',
-            'Rumbling Terahorn': 'fromDeck()',
-            'Hawkeye Lunatron': 'fromDeck()',
-            'Crystal Memory': 'fromDeck()',
-            'Niofa, Horned Protector': 'fromDeck()',
-            'Rayla, Truth Enforcer': 'fromDeck()',
-            'Scissor Scarab': 'fromDeck()',
-            'Velyrika Dragon': 'fromDeck()',
-            'Whispering Totem': 'fromDeck()',
-            }
+            'Lena, Vizier of Brilliance': 'fromManaSpell()'
 
 # These effects trigger when creatures are destroyed
 onDestroy = {'Aqua Soldier': 'toHand(card)',
@@ -77,16 +96,10 @@ onDestroy = {'Aqua Soldier': 'toHand(card)',
              'Bat Doctor, Shadow of Undeath': 'fromGrave()',
              'Pharzi, the Oracle': 'fromGrave()',
              'Jil Warka, Time Guardian': 'tapCreature();tapCreature()'
+
     }
 
 # Functions used in the Automation dictionaries.
-
-def fromGrave():
-    mute()
-    choice = askCard([card for card in me.piles['Graveyard']], 'Choose a Card to return to hand from the Graveyard', 'Graveyard')
-    if type(choice) is not Card:
-        return
-    toHand(choice)
 
 def fromMana():
     mute()
@@ -101,11 +114,16 @@ def fromManaSpell():
     if type(choice) is not Card:
         return
     toHand(choice)
+"""
 
 def fromDeck():
-    mute()
+    notify("{} looks at {}'s Deck.".format(me, me))
     me.Deck.lookAt(-1)
 
+def fromGrave():
+    me.piles['Graveyard'].lookAt(-1)
+
+"""
 def bounce():
     mute()
     choice = askCard([card for card in table if isCreature(card)],'Choose a Creature to return to Hand')
@@ -129,6 +147,7 @@ def tapCreature():
     if type(choice) is not Card:
         return
     choice.target()
+"""
 
 #End of Automation Code
 
@@ -307,8 +326,10 @@ def banish(card, x = 0, y = 0):
         card.moveTo(card.owner.hand)
     else:
         toDiscard(card)
+"""
         if card.name in onDestroy:
             exec(onDestroy[card.name])
+"""
 
 def shuffle(group, x = 0, y = 0):
     mute()

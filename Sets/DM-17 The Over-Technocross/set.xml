@@ -75,7 +75,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Cross Gear: Put this card into the battle zone when cast. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.&#xd;&#xa;The crossed creature gets +4000 power and gains &quot;blocker&quot;.&#xd;&#xa;If the crossed creature also has &quot;Lord of Legend Sword&quot; crossed with it, instead of +4000 this creature gets +12000 power." />
+			<property name="Rules" value="Cross Gear&#xd;&#xa;The crossed creature gets +4000 power and gains &quot;blocker&quot;.&#xd;&#xa;If the crossed creature also has &quot;Lord of Legend Sword&quot; crossed with it, instead of +4000 this creature gets +12000 power." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="1" />

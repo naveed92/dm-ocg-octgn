@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	id="bb784fc6-fe21-4603-90d7-82c049908a74" version="1.0.0.0" octgnVersion="3.1.30.0" scriptVersion="3.1.0.0"
-	name="Duel Masters OCG" tags="Duel Masters, Kaijudo" description="Duel Masters"
-	setsurl="http://octgn.gamersjudgement.com/wordpress/duelmasters/images/" gameurl="http://octgn.gamersjudgement.com/wordpress/duelmasters/" authors="brine, naveed92, nitro"
+	id="bb784fc6-fe21-4603-90d7-82c049908a74" version="1.0.0.4" octgnVersion="3.1.30.0" scriptVersion="3.1.0.1"
+	name="Duel Masters OCG" tags="Duel Masters, Kaijudo" description="The original format of the game with additional Sets"
+	setsurl="http://octgn.gamersjudgement.com/wordpress/dmocg/images/" gameurl="http://octgn.gamersjudgement.com/wordpress/dmocg/" authors="brine, naveed92, nitrox"
 	markersize="18" iconurl="https://raw.github.com/brine/duelmasters-octgn/master/game/cards/logo.jpg" >
 
 	<scripts>
@@ -64,10 +64,14 @@
 			<groupaction menu="Charge Top Card as Mana" shortcut="ctrl+M" execute="mana" />
 		</group>
 		<group name="Graveyard" visibility="all" ordered="False" width="63" height="88" shortcut="del" icon="groups/graveyard.png" collapsed="False" />
-		<group name="Hyperspatial Zone" visibility="all" ordered="False" width="63" height="88" shortcut="" icon="groups/hyperspatial.png" collapsed="False" />
+<!--
+		<group name="Hyperspatial Zone" visibility="all" ordered="False" width="63" height="88" shortcut="" icon="groups/hyperspatial.png" collapsed="False" /> 
+-->
 	</player>
 	<deck>
 		<section name="Main" group="Deck" />
+<!--
 		<section name="Hyperspatial Deck" group="Hyperspatial Zone" />
+-->
 	</deck>
 </game>

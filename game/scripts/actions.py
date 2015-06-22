@@ -182,7 +182,8 @@ def fromGrave():
 
 def kill(power = float('inf')):
     mute()
-    cardList = [card for card in table if isCreature(card) and not card.owner==me and int(card.Power) <= power]
+    cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
+    cardList = [card for card in cardList if int(card.Power) <= power]
     if len(cardList)==0:
         return    
     choice = askCard(cardList, 'Choose a Creature to destroy')
@@ -192,7 +193,7 @@ def kill(power = float('inf')):
     
 def bounce():
     mute()
-    cardList = [card for card in table if isCreature(card)]
+    cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
     if len(cardList)==0:
         return
     choice = askCard(cardList,'Choose a Creature to return to Hand')
@@ -205,7 +206,7 @@ def bounce():
 
 def tapCreature():
     mute()
-    cardList = [card for card in table if isCreature(card) and not card.owner==me]
+    cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
     if len(cardList)==0:
         return
     choice = askCard(cardList, 'Choose a Creature to tap')

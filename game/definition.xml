@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	id="bb784fc6-fe21-4603-90d7-82c049908a74" version="1.0.0.6" octgnVersion="3.1.30.0" scriptVersion="3.1.0.1"
+	id="bb784fc6-fe21-4603-90d7-82c049908a74" version="1.0.0.7" octgnVersion="3.1.30.0" scriptVersion="3.1.0.1"
 	name="Duel Masters OCG" tags="Duel Masters, Kaijudo" description="The original format of the game with additional Sets"
 	setsurl="http://octgn.gamersjudgement.com/wordpress/dmocg/images/" gameurl="http://octgn.gamersjudgement.com/wordpress/dmocg/" authors="brine, naveed92, nitrox"
 	markersize="18" iconurl="https://raw.githubusercontent.com/naveed92/dm-ocg-octgn/master/game/cards/logo.jpg" >
@@ -40,7 +40,7 @@
 		<cardaction menu="Set as Shield" shortcut="ctrl+H" execute="toShields" />
 		<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
 		<cardaction menu="Move to Hand" shortcut="ctrl+B" execute="toHand" />
-		<cardaction menu="Move to Top of Deck" shortcut="ctrl+E" execute="toDeckTop" />
+		<cardaction menu="Move to Top of Deck" execute="toDeckTop" />
 		<cardaction menu="Move to Bottom of Deck" shortcut="ctrl+shift+E" execute="toDeckBottom" />
 		<cardaction menu="Clear Targets/Arrows" shortcut="esc" execute="clear" />
 	</table>

@@ -15,14 +15,14 @@ shieldMarker = ('Shield', 'a4ba770e-3a38-4494-b729-ef5c89f561b7')
 # These effects activate when the corresponding creature is summoned
 onSummon = {
 			'Alshia, Spirit of Novas': 'fromGrave()',
-			'Akashic Second, Electro-Spirit': 'draw(me.Deck);',
+			'Akashic Second, Electro-Spirit': 'draw(me.Deck, True);',
 			'Aqua Bouncer': 'bounce()',
 			'Aqua Deformer': 'fromMana();fromMana()',
 			'Aqua Hulcus': 'draw(me.Deck, True);',
 			'Aqua Sniper': 'bounce();bounce()',
 			'Aqua Surfer': 'bounce()',
 			'Armored Decimator Valkaizer': 'kill(4000)',
-			'Astral Warper': 'draw(me.Deck);draw(me.Deck);draw(me.Deck)',
+			'Astral Warper': 'draw(me.Deck, True);draw(me.Deck, True);draw(me.Deck, True)',
 			'Belix, the Explorer': 'fromManaSpell()',
 			'Bronze-Arm Tribe': 'mana(me.Deck);',	
 			'Chaos Worm': 'kill()',
@@ -35,12 +35,13 @@ onSummon = {
 			'Fighter Dual Fang': 'mana(me.Deck);mana(me.Deck)',
 			'Fonch, the Oracle': 'tapCreature()',
 			'Forbos, Sanctum Guardian Q': 'fromDeck()',
+                        'Funky Wizard': 'draw(me.Deck, True);',
 			'Gigargon': 'fromGrave()',
 			'Grave Worm Q': 'fromGrave()',
 			'Gyulcas, Sage of the East Wind': 'fromDeck()',
 			'Hawkeye Lunatron': 'fromDeck()',
 			'Hurlosaur': 'kill(1000)',
-			'King Ripped-Hide': 'draw(me.Deck);draw(me.Deck)',
+			'King Ripped-Hide': 'draw(me.Deck, True);draw(me.Deck, True)',
 			'Kolon, the Oracle': 'tapCreature()',
 			'Lena, Vizier of Brilliance': 'fromManaSpell()',
 			'Magris, Vizier of Magnetism': 'draw(me.Deck, True);',
@@ -77,7 +78,7 @@ onCast = {  'Faerie Life': 'mana(me.Deck);',
             'Reap and Sow': 'mana(me.Deck)',
             'Mystic Inscription': 'shields(me.Deck)',
             'Eureka Charger': 'draw(me.Deck);',
-            'Brain Serum': 'draw(me.Deck);draw(me.Deck);',
+            'Brain Serum': 'draw(me.Deck, True);draw(me.Deck, True);',
             'Cyber Brain': 'draw(me.Deck);draw(me.Deck);draw(me.Deck);',
             'Triple Brain': 'draw(me.Deck);draw(me.Deck);draw(me.Deck);',
             'Dimension Gate': 'fromDeck()',
@@ -140,7 +141,7 @@ onDestroy = {'Aqua Soldier': 'toHand(card)',
              'Akashic Second, Electro-Spirit': 'toMana(card)',
              'Ouks, Vizier of Restoration': 'toShields(card)',
              'Asylum, the Dragon Paladin': 'toShields(card)',
-             'Cetibols': 'draw(me.Deck)',
+             'Cetibols': 'draw(me.Deck, True)',
              'Hammerhead Cluster': 'bounce()',
              'Crasher Burn': 'kill(3000)',
              'Bat Doctor, Shadow of Undeath': 'fromGrave()',
@@ -407,13 +408,14 @@ def draw(group, conditional = False, x = 0, y = 0):
 	mute()
 	if len(group) == 0: return
 	if conditional == False:
-		card = group[0]
-		card.moveTo(card.owner.hand)
-		notify("{} draws a card.".format(me))
-	choiceList = ['Yes', 'No']
-	colorsList = ['#FF0000', '#FF0000']
-	choice = askChoice("Draw a card?", choiceList, colorsList)
-	if choice==1: 
+            card = group[0]
+	    card.moveTo(card.owner.hand)
+	    notify("{} draws a card.".format(me))
+	else:
+            choiceList = ['Yes', 'No']
+            colorsList = ['#FF0000', '#FF0000']
+            choice = askChoice("Draw a card?", choiceList, colorsList)
+            if choice==1: 
 		card = group[0]
 		card.moveTo(card.owner.hand)
 		notify("{} draws a card.".format(me))

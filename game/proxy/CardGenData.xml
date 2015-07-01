@@ -112,10 +112,10 @@
 			<wordwrap height="38" width="50" align="center" shrinktofit="False" valign="center" />
 		</block>
 		<block type="text" id="race">
-			<location x="110" y="55" />
+			<location x="80" y="55" />
 			<text color="#000000" size="14" />
 			<border color="#000000" size="0" />
-			<wordwrap height="18" width="200" align="center" shrinktofit="False" valign="center"/>
+			<wordwrap height="18" width="260" align="center" shrinktofit="False" valign="center"/>
 		</block>
 		<block type="text" id="power">
 			<location x="21" y="502" />

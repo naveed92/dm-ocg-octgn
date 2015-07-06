@@ -85,7 +85,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Gladiator/Armored Wyvern" />
-			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack players.&#xd;&#xa;When this creature blocks and wins the battle, destroy all creatures with the same type as the destroyed creature." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack players.&#xd;&#xa;When this creature blocks and wins the battle, destroy all creatures with the same race as the destroyed creature." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="2" />
@@ -304,7 +304,7 @@
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Humanoid" />
+			<property name="Race" value="Human" />
 			<property name="Rules" value="Silent Skill (At the start of your turn, instead of untapping this creature you may use the following ability).&#xd;&#xa;[Silent skill] : Until the end of the turn, all your other creatures can attack untapped creatures." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="U" />

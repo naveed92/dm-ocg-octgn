@@ -13,62 +13,64 @@ shieldMarker = ('Shield', 'a4ba770e-3a38-4494-b729-ef5c89f561b7')
 # Start of Automation code
 
 # These effects activate when the corresponding creature is summoned
-onSummon = {'Bronze-Arm Tribe': 'mana(me.Deck);',
-            'Wind Axe, the Warrior Savage': 'mana(me.Deck)',
-            'Ultimate Force': 'mana(me.Deck);mana(me.Deck)',
-            'Fighter Dual Fang': 'mana(me.Deck);mana(me.Deck)',
-            'Skysword, the Savage Vizier': 'mana(me.Deck);shields(me.Deck)',
-            'Estol, Vizier of Aqua': 'shields(me.Deck)',
-            'Zardia, Spirit of Bloody Winds': 'shields(me.Deck)',
-            'Aqua Hulcus': 'draw(me.Deck);',
-            'Magris, Vizier of Magnetism': 'draw(me.Deck);',
-            'Astral Warper': 'draw(me.Deck);draw(me.Deck);draw(me.Deck)',
-            'King Ripped-Hide': 'draw(me.Deck);draw(me.Deck)',
-            'Akashic Second, Electro-Spirit': 'draw(me.Deck);',
-            'Evolution Totem': 'fromDeck()',
-            'Gyulcas, Sage of the East Wind': 'fromDeck()',
-            'Dandy Eggplant': 'fromDeck()',
-            'Spiritual Star Dragon': 'fromDeck()',
-            'Factory Shell Q': 'fromDeck()',
-            'Forbos, Sanctum Guardian Q': 'fromDeck()',
-            'Rumbling Terahorn': 'fromDeck()',
-            'Hawkeye Lunatron': 'fromDeck()',
-            'Niofa, Horned Protector': 'fromDeck()',
-            'Rayla, Truth Enforcer': 'fromDeck()',
-            'Scissor Scarab': 'fromDeck()',
-            'Velyrika Dragon': 'fromDeck()',
-            'Whispering Totem': 'fromDeck()',
-            'Phal Eega, Dawn Guardian': 'fromGrave()',
-            'Alshia, Spirit of Novas': 'fromGrave()',
-            'Moors, the Dirty Digger Puppet': 'fromGrave()',
-            'Ochappi, Pure Hearted Faerie': 'fromGrave()',
-            'Thorny Mandra': 'fromGrave()',
-            'Grave Worm Q': 'fromGrave()',
-            'Gigargon': 'fromGrave()',
-            'Dark Hydra, Evil Planet Lord': 'fromGrave()',
-            'Unicorn Fish': 'bounce()',
-            'Aqua Sniper': 'bounce();bounce()',
-            'Aqua Surfer': 'bounce()',
-            'Aqua Bouncer': 'bounce()',
-            'Chaos Worm': 'kill()',
-            'Meteosaur': 'kill(2000)',
-            'Hurlosaur': 'kill(1000)',
-            'Armored Decimator Valkaizer': 'kill(4000)',
-            'Miele, Vizier of Lightning': 'tapCreature()',
-            'Fonch, the Oracle': 'tapCreature()',
-            'Rom, Vizier of Tendrils': 'tapCreature()',
-            'Craze Valkyrie, the Drastic': 'tapCreature();tapCreature()',
-            'Kolon, the Oracle': 'tapCreature()',
-            'Thrash Crawler': 'fromMana()',
-            'Aqua Deformer': 'fromMana();fromMana()',
-            'Shtra': 'fromMana()',
-            'Solidskin Fish': 'fromMana()',
-            'Splash Zebrafish': 'fromMana()',
-            'Torpedo Cluster': 'fromMana()',
-            'Belix, the Explorer': 'fromManaSpell()',
-            'Syforce, Aurora Elemental': 'fromManaSpell()',
-            'Lena, Vizier of Brilliance': 'fromManaSpell()',
-            'Ryokudou, the Principle Defender': 'mana(me.Deck);mana(me.Deck);fromMana()'
+onSummon = {
+			'Alshia, Spirit of Novas': 'fromGrave()',
+			'Akashic Second, Electro-Spirit': 'draw(me.Deck, True);',
+			'Aqua Bouncer': 'bounce()',
+			'Aqua Deformer': 'fromMana();fromMana()',
+			'Aqua Hulcus': 'draw(me.Deck, True);',
+			'Aqua Sniper': 'bounce();bounce()',
+			'Aqua Surfer': 'bounce()',
+			'Armored Decimator Valkaizer': 'kill(4000)',
+			'Astral Warper': 'draw(me.Deck, True);draw(me.Deck, True);draw(me.Deck, True)',
+			'Belix, the Explorer': 'fromManaSpell()',
+			'Bronze-Arm Tribe': 'mana(me.Deck);',	
+			'Chaos Worm': 'kill()',
+			'Craze Valkyrie, the Drastic': 'tapCreature();tapCreature()',
+			'Dandy Eggplant': 'fromDeck()',
+			'Dark Hydra, Evil Planet Lord': 'fromGrave()',
+			'Estol, Vizier of Aqua': 'shields(me.Deck)',
+			'Evolution Totem': 'fromDeck()',
+			'Factory Shell Q': 'fromDeck()',
+			'Fighter Dual Fang': 'mana(me.Deck);mana(me.Deck)',
+			'Fonch, the Oracle': 'tapCreature()',
+			'Forbos, Sanctum Guardian Q': 'fromDeck()',
+            'Funky Wizard': 'draw(me.Deck, True);',
+			'Gigargon': 'fromGrave()',
+			'Grave Worm Q': 'fromGrave()',
+			'Gyulcas, Sage of the East Wind': 'fromDeck()',
+			'Hawkeye Lunatron': 'fromDeck()',
+			'Hurlosaur': 'kill(1000)',
+			'King Ripped-Hide': 'draw(me.Deck, True);draw(me.Deck, True)',
+			'Kolon, the Oracle': 'tapCreature()',
+			'Lena, Vizier of Brilliance': 'fromManaSpell()',
+			'Magris, Vizier of Magnetism': 'draw(me.Deck, True);',
+			'Meteosaur': 'kill(2000)',
+			'Miele, Vizier of Lightning': 'tapCreature()',
+			'Moors, the Dirty Digger Puppet': 'fromGrave()',
+			'Niofa, Horned Protector': 'fromDeck()',
+			'Ochappi, Pure Hearted Faerie': 'fromGrave()',
+			'Phal Eega, Dawn Guardian': 'fromGrave()',
+			'Rayla, Truth Enforcer': 'fromDeck()',
+			'Rom, Vizier of Tendrils': 'tapCreature()',
+			'Rumbling Terahorn': 'fromDeck()',
+			'Ryokudou, the Principle Defender': 'mana(me.Deck);mana(me.Deck);fromMana()',
+			'Scissor Scarab': 'fromDeck()',
+			'Shtra': 'fromMana()',
+			'Skysword, the Savage Vizier': 'mana(me.Deck);shields(me.Deck)',
+			'Solidskin Fish': 'fromMana()',
+			'Spiritual Star Dragon': 'fromDeck()',
+			'Splash Zebrafish': 'fromMana()',
+			'Syforce, Aurora Elemental': 'fromManaSpell()',
+			'Thorny Mandra': 'fromGrave()',
+			'Thrash Crawler': 'fromMana()',
+			'Torpedo Cluster': 'fromMana()',
+			'Ultimate Force': 'mana(me.Deck);mana(me.Deck)',
+			'Unicorn Fish': 'bounce()',
+			'Velyrika Dragon': 'fromDeck()',
+			'Whispering Totem': 'fromDeck()',
+			'Wind Axe, the Warrior Savage': 'mana(me.Deck)',
+			'Zardia, Spirit of Bloody Winds': 'shields(me.Deck)',
     }
 
 # These effects are triggered when the corresponding spell is cast
@@ -76,7 +78,7 @@ onCast = {  'Faerie Life': 'mana(me.Deck);',
             'Reap and Sow': 'mana(me.Deck)',
             'Mystic Inscription': 'shields(me.Deck)',
             'Eureka Charger': 'draw(me.Deck);',
-            'Brain Serum': 'draw(me.Deck);draw(me.Deck);',
+            'Brain Serum': 'draw(me.Deck, True);draw(me.Deck, True);',
             'Cyber Brain': 'draw(me.Deck);draw(me.Deck);draw(me.Deck);',
             'Triple Brain': 'draw(me.Deck);draw(me.Deck);draw(me.Deck);',
             'Dimension Gate': 'fromDeck()',
@@ -139,7 +141,7 @@ onDestroy = {'Aqua Soldier': 'toHand(card)',
              'Akashic Second, Electro-Spirit': 'toMana(card)',
              'Ouks, Vizier of Restoration': 'toShields(card)',
              'Asylum, the Dragon Paladin': 'toShields(card)',
-             'Cetibols': 'draw(me.Deck)',
+             'Cetibols': 'draw(me.Deck, True)',
              'Hammerhead Cluster': 'bounce()',
              'Crasher Burn': 'kill(3000)',
              'Bat Doctor, Shadow of Undeath': 'fromGrave()',
@@ -376,23 +378,36 @@ def tap(card, x = 0, y = 0):
         notify('{} untaps {}.'.format(me, card))
 
 def banish(card, x = 0, y = 0):
-    mute()
-    if isShield(card):
-        card.peek()
-        rnd(1,10)
-        if re.search("{SHIELD TRIGGER}", card.Rules):
-            if confirm("Activate Shield Trigger for {}?\n\n{}".format(card.Name, card.Rules)):
-                card.isFaceUp = True
-                toPlay(card, notifymute = True)
-                rnd(1,10)
-                notify("{} uses {}'s Shield Trigger.".format(me, card))
-                return
-        notify("{}'s shield #{} is broken.".format(me, card.markers[shieldMarker]))
-        card.moveTo(card.owner.hand)
-    else:
-        toDiscard(card)
-        if card.name in onDestroy:
-            exec(onDestroy[card.name])
+	mute()
+	if isShield(card):
+		card.peek()
+		rnd(1,10)
+		if re.search("{SHIELD TRIGGER}", card.Rules):
+			if confirm("Activate Shield Trigger for {}?\n\n{}".format(card.Name, card.Rules)):
+				card.isFaceUp = True
+				toPlay(card, notifymute = True)
+				rnd(1,10)
+				notify("{} uses {}'s Shield Trigger.".format(me, card))
+				return
+		shieldCard = card
+		cardsInHandWithStrikeBackAbility = [card for card in me.hand if re.search("Strike Back", card.rules)]
+		if len(cardsInHandWithStrikeBackAbility) > 0:
+			cardsInHandWithStrikeBackAbilityThatCanBeUsed = [card for card in cardsInHandWithStrikeBackAbility if shieldCard.properties['Civilization'] == card.properties['Civilization']]
+			if len(cardsInHandWithStrikeBackAbilityThatCanBeUsed) > 0:
+				choice = askCard(cardsInHandWithStrikeBackAbilityThatCanBeUsed, 'Choose Strike Back to activate')
+				if type(choice) is Card:
+					shieldCard.isFaceUp = True
+					rnd(1,100)
+					toPlay(choice, notifymute = True)
+					toDiscard(shieldCard)
+					notify("{} banishes {} to use {}'s Strike Back.".format(me, shieldCard.name, choice.name))
+					return
+		notify("{}'s shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
+		shieldCard.moveTo(shieldCard.owner.hand)
+	else:
+		toDiscard(card)
+		if card.name in onDestroy:
+			exec(onDestroy[card.name])
 
 def shuffle(group, x = 0, y = 0):
     mute()
@@ -402,12 +417,21 @@ def shuffle(group, x = 0, y = 0):
     group.shuffle()
     notify("{} shuffled their {}".format(me, group.name))
 
-def draw(group, x = 0, y = 0):
-    mute()
-    if len(group) == 0: return
-    card = group[0]
-    card.moveTo(card.owner.hand)
-    notify("{} draws a card.".format(me))
+def draw(group, conditional = False, x = 0, y = 0):
+	mute()
+	if len(group) == 0: return
+	if conditional == False:
+            card = group[0]
+	    card.moveTo(card.owner.hand)
+	    notify("{} draws a card.".format(me))
+	else:
+            choiceList = ['Yes', 'No']
+            colorsList = ['#FF0000', '#FF0000']
+            choice = askChoice("Draw a card?", choiceList, colorsList)
+            if choice==1: 
+		card = group[0]
+		card.moveTo(card.owner.hand)
+		notify("{} draws a card.".format(me))
 
 def drawX(group, x = 0, y = 0):
     if len(group) == 0: return

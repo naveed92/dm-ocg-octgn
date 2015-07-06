@@ -240,12 +240,12 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="17" />
 		</card>
-		<card name="Great Vegetable King, Big Nasdeen" id="acf632ca-bedf-40b9-bf73-fc5ec7ad6e97">
+		<card name="Big Nasdeen, Great Veggie King" id="acf632ca-bedf-40b9-bf73-fc5ec7ad6e97">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Wild Veggies" />
-			<property name="Rules" value="Evolution: Put on one of your Wild Veggies&#xd;&#xa;When you put this creature into the battle zone, count the number of civilizations in your mana zone. Then, put a number of cards equal to that number from the top of your deck into your mana zone.&#xd;&#xa;Double Breaker&#xd;&#xa;When this creature is destroyed, return 2 cards from your mana zone to your hand." />
+			<property name="Rules" value="Evolution - Wild Veggies&#xd;&#xa;[Double Breaker] When you put this creature into the battle zone, Put a number of cards equal to that number of Civilizations in your mana zone from the top of your deck into your mana zone.&#xd;&#xa;When this creature is destroyed, return 2 cards from your mana zone to your hand." />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="18" />
@@ -532,7 +532,7 @@
 		</card>
 		<card name="Mind Reset" id="741b6bdb-0ce6-428f-a859-58944ea74630">
 			<property name="Civilization" value="Darkness" />
-			<property name="Cost" value="1" />
+			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Look at your opponent's hand and discard a spell from it." />

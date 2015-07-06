@@ -214,7 +214,7 @@
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Humanoid" />
+			<property name="Race" value="Human" />
 			<property name="Rules" value="When this creature attacks, destroy 1 of your opponent's creatures with less power than this creature." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="R" />
@@ -564,7 +564,7 @@
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Humanoid" />
+			<property name="Race" value="Human" />
 			<property name="Rules" value="When you put this creature into the battle zone, if you have at least 1 &quot;Red Ridaz', Explosive Daredevils&quot; in your graveyard, choose 1 card in your opponent's mana zone and put it in its owner's graveyard." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />

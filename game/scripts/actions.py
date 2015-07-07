@@ -119,7 +119,9 @@ onCast = {  'Faerie Life': 'mana(me.Deck);',
             'Logic Sphere': 'fromManaSpell()',
             'Miraculous Rebirth': 'kill(5000);fromDeck()',
             'Stronghold of Lightning and Flame': 'kill(3000);tapCreature()',
-            'Seven\'s Tower': 'manaX()'
+            'Seven\'s Tower': 'manaX()',
+            'Martial Law': 'gear(kill)',
+            'Natural Snare': 'ensnare()'
     }
 
 # These effects trigger when creatures are destroyed
@@ -217,7 +219,7 @@ def tapCreature():
         return
     remoteCall(choice.owner,"tap",choice)
     
-def ensnare(conditional = False):
+def ensnare():
     mute()
     cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
     if len(cardList)==0:

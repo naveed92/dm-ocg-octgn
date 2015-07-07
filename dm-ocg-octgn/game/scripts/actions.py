@@ -27,7 +27,7 @@ onSummon = {
 			'Belix, the Explorer': 'fromMana(1,"Spell")',
 			'Bronze-Arm Tribe': 'mana(me.Deck);',
 			'Chaos Worm': 'kill()',
-			'Craze Valkyrie, the Drastic': 'tapCreature();tapCreature()',
+			'Craze Valkyrie, the Drastic': 'tapCreature(2)',
 			'Dandy Eggplant': 'fromDeck()',
 			'Dark Hydra, Evil Planet Lord': 'fromGrave()',
 			'Estol, Vizier of Aqua': 'shields(me.Deck)',
@@ -102,7 +102,7 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Logic Cube': 'search(me.Deck, 1, "Spell")',
             'Logic Sphere': 'fromMana(1, "Spell")',
             'Miraculous Rebirth': 'kill(5000);fromDeck()',
-            'Moonlight Flash': 'tapCreature();tapCreature()',
+            'Moonlight Flash': 'tapCreature(2)',
             'Morbid Medicine': 'fromGrave()',
             'Mystic Dreamscape': 'fromMana(3)',
             'Mystic Inscription': 'shields(me.Deck)',
@@ -144,7 +144,7 @@ onDestroy = {'Akashic First, Electro-Dragon': 'toHand(card)',
              'Crystal Jouster': 'toHand(card)',
              'Cubela, the Prophet': 'tapCreature()',
              'Hammerhead Cluster': 'bounce()',
-             'Jil Warka, Time Guardian': 'tapCreature();tapCreature()',
+             'Jil Warka, Time Guardian': 'tapCreature(2)',
              'Mighty Shouter': 'toMana(card)',
              'Ouks, Vizier of Restoration': 'toShields(card)',
              'Pharzi, the Oracle': 'search(me.piles[\'Graveyard\'], 1, "Spell")',
@@ -212,15 +212,19 @@ def bounce(count = 1):
 		else:
 			remoteCall(choice.owner,"toHand",choice)
 
-def tapCreature():
-    mute()
-    cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
-    if len(cardList)==0:
-        return
-    choice = askCard(cardList, 'Choose a Creature to tap')
-    if type(choice) is not Card:
-        return
-    remoteCall(choice.owner,"tap",choice)
+def tapCreature(count = 1, includeMyCreatures = False):
+	mute()
+	for i in range(0, count):
+		if includeMyCreatures == True: 
+			cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
+		else:
+			cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
+		if len(cardList)==0:
+			return
+		choice = askCard(cardList, 'Choose a Creature to tap')
+		if type(choice) is not Card:
+			return
+		remoteCall(choice.owner,"tap",choice)
 
 #End of Automation Code
 

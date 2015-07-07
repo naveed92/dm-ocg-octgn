@@ -93,6 +93,7 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Eureka Charger': 'draw(me.Deck);',
 			'Faerie Life': 'mana(me.Deck);',
             'Flame Lance Trap': 'kill(5000)',
+			'Flood Valve': 'fromMana()';
             'Hopeless Vortex': 'kill()',
 			'Invincible Abyss': 'banishALL([card for card in table if card.owner != me])',
 			'Invincible Aura': 'shields(me.Deck,3,True)',

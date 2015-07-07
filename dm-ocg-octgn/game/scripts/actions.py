@@ -17,11 +17,12 @@ onSummon = {
 			'Alshia, Spirit of Novas': 'search(me.piles[\'Graveyard\'], 1, "Spell")',
 			'Akashic Second, Electro-Spirit': 'draw(me.Deck, True);',
 			'Aqua Bouncer': 'bounce()',
-			'Aqua Deformer': 'fromMana(2)',#; remoteCall(not me,"fromMana",2)',
+			'Aqua Deformer': 'fromMana(2)',#; remoteCall(not card.owner==me,"fromMana",2)',
 			'Aqua Hulcus': 'draw(me.Deck, True);',
 			'Aqua Sniper': 'bounce(2)',
 			'Aqua Surfer': 'bounce()',
 			'Armored Decimator Valkaizer': 'kill(4000)',
+			'Artisan Picora': 'fromMana(1,"ALL","ALL","ALL",False,True)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
 			'Astral Warper': 'draw(me.Deck, True);draw(me.Deck, True);draw(me.Deck, True)',
 			'Belix, the Explorer': 'fromMana(1,"Spell")',
 			'Bronze-Arm Tribe': 'mana(me.Deck);',
@@ -56,7 +57,7 @@ onSummon = {
 			'Rumbling Terahorn': 'search(me.Deck, 1, "Creature")',
 			'Ryokudou, the Principle Defender': 'mana(me.Deck);mana(me.Deck);fromMana()',
 			'Scissor Scarab': 'fromDeck()',
-			'Shtra': 'fromMana()',#; remoteCall(not me,"fromMana",1)',
+			'Shtra': 'fromMana()',#; remoteCall(not card.owner,"fromMana",1)',
 			'Skysword, the Savage Vizier': 'mana(me.Deck);shields(me.Deck)',
 			'Solidskin Fish': 'fromMana()',
 			'Spiritual Star Dragon': 'fromDeck()',
@@ -133,7 +134,7 @@ onDestroy = {'Akashic First, Electro-Dragon': 'toHand(card)',
              'Aqua Ranger': 'toHand(card)',
              'Aqua Skydiver': 'toHand(card)',
              'Aqua Soldier': 'toHand(card)',
-             'Asylum, the Dragon Paladin': 'toShields(card)',
+			 'Asylum, the Dragon Paladin': 'toShields(card)',
              'Bat Doctor, Shadow of Undeath': 'search(me.piles[\'Graveyard\'], 1, "Creature")',
 			 'Bone Piercer': 'fromMana(1, "Creature")',
              'Cetibols': 'draw(me.Deck, True)',
@@ -157,13 +158,13 @@ onDestroy = {'Akashic First, Electro-Dragon': 'toHand(card)',
 
 # Functions used in the Automation dictionaries.
 
-def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL", show = False):
+def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL", show = False, toGrave = False):
 	mute()
 	for i in range(0,count):
 		if TypeFilter != "ALL":
 			cardsInGroup_Type_Filtered = [card for card in table if isMana(card) and card.owner==me and re.search(TypeFilter,card.Type)]
 		else:
-			cardsInGroup_Type_Filtered = [card for card in group]
+			cardsInGroup_Type_Filtered = [card for card in table if isMana(card) and card.owner==me]
 		if CivFilter != "ALL":
 			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered if re.search(CivFilter,card.properties['Civilization'])]
 		else:
@@ -175,7 +176,8 @@ def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL
 		if len(cardsInGroup_CivTypeandRace_Filtered) == 0: return
 		choice = askCard(cardsInGroup_CivTypeandRace_Filtered, 'Choose a Card to return to hand from the Mana Zone','Mana Zone')
 		if type(choice) is not Card: break
-		toHand(choice, show)
+		if toGrave == True: banish(choice)
+		else: toHand(choice, show)
 
 def fromDeck():
     mute()

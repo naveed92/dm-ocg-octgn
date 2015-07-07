@@ -118,7 +118,8 @@ onCast = {  'Faerie Life': 'mana(me.Deck);',
             'Pixie Cocoon': 'fromMana();toMana(card)',
             'Logic Sphere': 'fromManaSpell()',
             'Miraculous Rebirth': 'kill(5000);fromDeck()',
-            'Stronghold of Lightning and Flame': 'kill(3000);tapCreature()'
+            'Stronghold of Lightning and Flame': 'kill(3000);tapCreature()',
+            'Seven\'s Tower': 'manaX()'
     }
 
 # These effects trigger when creatures are destroyed
@@ -458,6 +459,12 @@ def mana(group, x = 0, y = 0):
     toMana(card, notifymute = True)
     notify("{} charges top card of {} as mana.".format(me, group.name))
     
+def manaX():
+    mute()
+    cardList = [card for card in table if isMana(card) and card.owner==me]
+    if len(cardList)<7: mana(me.Deck);	
+    else: mana(me.Deck);mana(me.Deck);mana(me.Deck);
+
 def endTurn(x = 0, y = 0):
     mute()
     notify("{} ends their turn.".format(me))

@@ -249,6 +249,7 @@ def gear(str):
 			toHand(choice)
 		else:
 			remoteCall(choice.owner,"toHand",choice)
+			
 	elif str == 'mana':
 		cardList = [card for card in table if isGear(card)]
 		if len(cardList)==0:

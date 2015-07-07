@@ -36,6 +36,7 @@ onSummon = {
 			'Fonch, the Oracle': 'tapCreature()',
 			'Forbos, Sanctum Guardian Q': 'fromDeck()',
                         'Funky Wizard': 'draw(me.Deck, True);',
+                        'Gardner, the Invoked': 'gear(mana);',
 			'Gigargon': 'fromGrave()',
 			'Grave Worm Q': 'fromGrave()',
 			'Gyulcas, Sage of the East Wind': 'fromDeck()',
@@ -120,8 +121,12 @@ onCast = {  'Faerie Life': 'mana(me.Deck);',
             'Miraculous Rebirth': 'kill(5000);fromDeck()',
             'Stronghold of Lightning and Flame': 'kill(3000);tapCreature()',
             'Seven\'s Tower': 'manaX()',
-            'Martial Law': 'gear(kill)',
-            'Natural Snare': 'ensnare()'
+            'Martial Law': 'gear(kill);',
+            'Natural Snare': 'ensnare()',
+            'Spiral Lance': 'gear(bounce);',
+            'Wave Rifle': 'gear(bounce);',
+            'Screw Rocket': 'gear(kill);',
+            'Drill Bowgun': 'gear(kill);'
     }
 
 # These effects trigger when creatures are destroyed

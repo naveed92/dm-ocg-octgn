@@ -35,11 +35,7 @@ onSummon = {
 			'Fighter Dual Fang': 'mana(me.Deck);mana(me.Deck)',
 			'Fonch, the Oracle': 'tapCreature()',
 			'Forbos, Sanctum Guardian Q': 'fromDeck()',
-<<<<<<< HEAD:dm-ocg-octgn/game/scripts/actions.py
             'Funky Wizard': 'draw(me.Deck, True);',
-=======
-                        'Funky Wizard': 'draw(me.Deck, True);',
->>>>>>> origin/master:game/scripts/actions.py
 			'Gigargon': 'fromGrave()',
 			'Grave Worm Q': 'fromGrave()',
 			'Gyulcas, Sage of the East Wind': 'fromDeck()',
@@ -122,8 +118,7 @@ onCast = {  'Faerie Life': 'mana(me.Deck);',
             'Pixie Cocoon': 'fromMana();toMana(card)',
             'Logic Sphere': 'fromManaSpell()',
             'Miraculous Rebirth': 'kill(5000);fromDeck()',
-            'Stronghold of Lightning and Flame': 'kill(3000);tapCreature()',
-            'Seven\'s Tower': 'manaX()'
+            'Stronghold of Lightning and Flame': 'kill(3000);tapCreature()'
     }
 
 # These effects trigger when creatures are destroyed
@@ -399,14 +394,15 @@ def banish(card, x = 0, y = 0):
 		if len(cardsInHandWithStrikeBackAbility) > 0:
 			cardsInHandWithStrikeBackAbilityThatCanBeUsed = [card for card in cardsInHandWithStrikeBackAbility if shieldCard.properties['Civilization'] == card.properties['Civilization']]
 			if len(cardsInHandWithStrikeBackAbilityThatCanBeUsed) > 0:
-				choice = askCard(cardsInHandWithStrikeBackAbilityThatCanBeUsed, 'Choose Strike Back to activate')
-				if type(choice) is Card:
-					shieldCard.isFaceUp = True
-					rnd(1,100)
-					toPlay(choice, notifymute = True)
-					toDiscard(shieldCard)
-					notify("{} banishes {} to use {}'s Strike Back.".format(me, shieldCard.name, choice.name))
-					return
+				if confirm("Activate Strike Back by sending {} to the graveyard?\n\n{}".format(shieldCard.Name, card.Rules)):
+					choice = askCard(cardsInHandWithStrikeBackAbilityThatCanBeUsed, 'Choose Strike Back to activate')
+					if type(choice) is Card:
+						shieldCard.isFaceUp = True
+						rnd(1,100)
+						toPlay(choice, notifymute = True)
+						toDiscard(shieldCard)
+						notify("{} banishes {} to use {}'s Strike Back.".format(me, shieldCard.name, choice.name))
+						return
 		notify("{}'s shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
 		shieldCard.moveTo(shieldCard.owner.hand)
 	else:
@@ -476,12 +472,6 @@ def mana(group, x = 0, y = 0):
     toMana(card, notifymute = True)
     notify("{} charges top card of {} as mana.".format(me, group.name))
     
-def manaX():
-    mute()
-    cardList = [card for card in table if isMana(card) and card.owner==me]
-    if len(cardList)<7: mana(me.Deck);	
-    else: mana(me.Deck);mana(me.Deck);mana(me.Deck);
-
 def endTurn(x = 0, y = 0):
     mute()
     notify("{} ends their turn.".format(me))

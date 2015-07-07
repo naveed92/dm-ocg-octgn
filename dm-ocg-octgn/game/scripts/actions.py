@@ -33,7 +33,7 @@ onSummon = {
 			'Estol, Vizier of Aqua': 'shields(me.Deck)',
 			'Evolution Totem': 'search(me.Deck, 1, "Evolution Creature")',
 			'Factory Shell Q': 'search(me.Deck, 1, "ALL", "ALL", "Survivor")',
-			'Fighter Dual Fang': 'mana(me.Deck);mana(me.Deck)',
+			'Fighter Dual Fang': 'mana(me.Deck,2)',
 			'Fonch, the Oracle': 'tapCreature()',
 			'Forbos, Sanctum Guardian Q': 'search(me.Deck, 1, "Spell")',
 			'Funky Wizard': 'draw(me.Deck, True);',
@@ -55,7 +55,7 @@ onSummon = {
 			'Rayla, Truth Enforcer': 'search(me.Deck, 1, "Spell")',
 			'Rom, Vizier of Tendrils': 'tapCreature()',
 			'Rumbling Terahorn': 'search(me.Deck, 1, "Creature")',
-			'Ryokudou, the Principle Defender': 'mana(me.Deck);mana(me.Deck);fromMana()',
+			'Ryokudou, the Principle Defender': 'mana(me.Deck,2);fromMana()',
 			'Scissor Scarab': 'fromDeck()',
 			'Shtra': 'fromMana()',#; remoteCall(not card.owner,"fromMana",1)',
 			'Skysword, the Savage Vizier': 'mana(me.Deck);shields(me.Deck)',
@@ -66,7 +66,6 @@ onSummon = {
 			'Thorny Mandra': 'fromGrave()',
 			'Thrash Crawler': 'fromMana()',
 			'Torpedo Cluster': 'fromMana()',
-			'Ultimate Force': 'mana(me.Deck);mana(me.Deck)',
 			'Unicorn Fish': 'bounce()',
 			'Velyrika Dragon': 'search(me.Deck, 1, "ALL", "ALL", "Armored Dragon")',
 			'Whispering Totem': 'fromDeck()',
@@ -108,6 +107,7 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Mystic Inscription': 'shields(me.Deck)',
             'Phantom Dragon\'s Flame': 'kill(2000)',
             'Pixie Cocoon': 'fromMana(1, "Creature");toMana(card)',
+			'Punish Hold': 'tapCreature(2)',
             'Purgatory Force': 'search(me.piles[\'Graveyard\'], 2, "Creature")',
             'Reap and Sow': 'mana(me.Deck)',
             'Riptide Charger': 'bounce()',
@@ -121,6 +121,7 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Terror Pit': 'kill()',
             'Triple Brain': 'draw(me.Deck);draw(me.Deck);draw(me.Deck);',
             'Tornado Flame': 'kill(4000)',
+			'Ultimate Force': 'mana(me.Deck,2)',
             'Volcanic Arrows': 'kill(6000)',
             'Volcano Charger': 'kill(2000)',
             'Zombie Carnival': 'fromGrave()'
@@ -404,7 +405,7 @@ def banish(card, x = 0, y = 0):
 		if len(cardsInHandWithStrikeBackAbility) > 0:
 			cardsInHandWithStrikeBackAbilityThatCanBeUsed = [card for card in cardsInHandWithStrikeBackAbility if shieldCard.properties['Civilization'] == card.properties['Civilization']]
 			if len(cardsInHandWithStrikeBackAbilityThatCanBeUsed) > 0:
-				if confirm("Activate Strike Back by sending {} to the graveyard?\n\n{}".format(shieldCard.Name, card.Rules)):
+				if confirm("Activate Strike Back by sending {} to the graveyard?\n\n{}".format(shieldCard.Name, shieldCard.Rules)):
 					choice = askCard(cardsInHandWithStrikeBackAbilityThatCanBeUsed, 'Choose Strike Back to activate')
 					if type(choice) is Card:
 						shieldCard.isFaceUp = True
@@ -481,12 +482,13 @@ def randomDiscard(group, x = 0, y = 0):
     rnd(1,10)
     notify("{} randomly discards {}.".format(me, card))
 
-def mana(group, x = 0, y = 0):
-    mute()
-    if len(group) == 0: return
-    card = group[0]
-    toMana(card, notifymute = True)
-    notify("{} charges top card of {} as mana.".format(me, group.name))
+def mana(group, count = 1, x = 0, y = 0):
+	mute()
+	for i in range(0,count):
+		if len(group) == 0: return
+		card = group[0]
+		toMana(card, notifymute = True)
+		notify("{} charges top card of {} as mana.".format(me, group.name))
     
 def endTurn(x = 0, y = 0):
     mute()

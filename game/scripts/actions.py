@@ -216,7 +216,52 @@ def tapCreature():
     if type(choice) is not Card:
         return
     remoteCall(choice.owner,"tap",choice)
-
+    
+def ensnare(conditional = False):
+    mute()
+    cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
+    if len(cardList)==0:
+        return    
+    choice = askCard(cardList, 'Choose a Creature to send to Mana')
+    if type(choice) is not Card:
+        return
+    remoteCall(choice.owner,"toMana",choice)
+    
+def gear(str):
+	mute()
+	if str == 'kill':
+		cardList = [card for card in table if isGear(card) and not card.owner==me]
+		if len(cardList)==0:
+			return
+		choice = askCard(cardList, 'Choose a Cross Gear to send to Graveyard')
+		if type(choice) is not Card:
+			return
+		remoteCall(choice.owner,"banish",choice)
+	
+	elif str == 'bounce':
+		cardList = [card for card in table if isGear(card)]
+		if len(cardList)==0:
+			return
+		choice = askCard(cardList, 'Choose a Cross Gear to send to Hand')
+		if type(choice) is not Card:
+			return
+		if choice.owner==me:
+			toHand(choice)
+		else:
+			remoteCall(choice.owner,"toHand",choice)
+	elif str == 'mana':
+		cardList = [card for card in table if isGear(card)]
+		if len(cardList)==0:
+			return
+		choice = askCard(cardList, 'Choose a Cross Gear to send to Mana')
+		if type(choice) is not Card:
+			return
+		if choice.owner==me:
+			toHand(choice)
+		else:
+			remoteCall(choice.owner,"toMana",choice)
+    
+    
 #End of Automation Code
 
 def resetGame():

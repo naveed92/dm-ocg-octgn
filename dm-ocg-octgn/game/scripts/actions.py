@@ -75,7 +75,7 @@ onSummon = {
 
 # These effects are triggered when the corresponding spell is cast
 onCast = {  'Abduction Charger': 'bounce(2)',
-			'Apocalypse Day': 'banishALL(table, len([card for card in table])>5)',
+			'Apocalypse Day': 'banishALL(table, len([card for card in table if isCreature(card)])>5)',
             'Boomerang Comet': 'fromMana(); toMana(card)',
             'Brain Serum': 'draw(me.Deck, True);draw(me.Deck, True);',
             'Chains of Sacrifice': 'kill();kill()',
@@ -419,18 +419,39 @@ def banish(card, x = 0, y = 0):
 		notify("{}'s shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
 		shieldCard.moveTo(shieldCard.owner.hand)
 	else:
-		toDiscard(card)
-		if card.name in onDestroy:
-			exec(onDestroy[card.name])
+		cardToBeSaved = card
+		possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]
+		if len(possibleSavers) > 0:
+			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(cardToBeSaved.Name)):
+				choice = askCard(possibleSavers, 'Choose Saver to banish')
+				if type(choice) is Card:
+					toDiscard(choice)
+					notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
+					return
+		toDiscard(cardToBeSaved)
+		if cardToBeSaved.name in onDestroy:
+			exec(onDestroy[cardToBeSaved.name])
 
-def banishALL(group, condition = True, x = 0, y = 0):
+def banishALL(group, condition = False, x = 0, y = 0):
 	mute()
 	if condition == False: return
-	cardList = [card for card in group if card.Type != "Cross Gear" and card.isFaceUp == True]
-	if len(cardList)==0:
-		return
-	for card in cardList: 
-		banish(card)
+	cardList = [card for card in group if isCreature(card)]
+	if len(cardList)==0: return
+	for card in cardList:
+		cardToBeSaved = card
+		possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]
+		if len(possibleSavers) > 0:
+			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(cardToBeSaved.Name)):
+				choice = askCard(possibleSavers, 'Choose Saver to banish')
+				if type(choice) is Card:
+					toDiscard(choice)
+					cardList.remove(choice)
+					cardList = [card for card in cardList]
+					notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
+					continue
+		toDiscard(cardToBeSaved)
+		if cardToBeSaved.name in onDestroy:
+			exec(onDestroy[cardToBeSaved.name])
 
 def shuffle(group, x = 0, y = 0):
 	mute()

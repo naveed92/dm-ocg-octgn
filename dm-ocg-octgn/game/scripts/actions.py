@@ -54,6 +54,7 @@ onSummon = {
 			'Phal Eega, Dawn Guardian': 'search(me.piles[\'Graveyard\'], 1, "Spell")',
 			'Rayla, Truth Enforcer': 'search(me.Deck, 1, "Spell")',
 			'Rom, Vizier of Tendrils': 'tapCreature()',
+			'Rothus, the Traveler': 'sacrifice()',
 			'Rumbling Terahorn': 'search(me.Deck, 1, "Creature")',
 			'Ryokudou, the Principle Defender': 'mana(me.Deck,2);fromMana()',
 			'Scissor Scarab': 'search(1,"ALL","ALL","Giant Insect")',
@@ -78,7 +79,7 @@ onCast = {  'Abduction Charger': 'bounce(2)',
 			'Apocalypse Day': 'banishALL(table, len([card for card in table if isCreature(card)])>5)',
             'Boomerang Comet': 'fromMana(); toMana(card)',
             'Brain Serum': 'draw(me.Deck, True);draw(me.Deck, True);',
-            'Chains of Sacrifice': 'kill();kill()',
+            'Chains of Sacrifice': 'kill(2); sacrifice()',
             'Clone Factory': 'fromMana(2)',
             'Corpse Charger': 'search(me.piles[\'Graveyard\'], 1, "Creature)',
             'Crimson Hammer': 'kill(2000)',
@@ -193,16 +194,29 @@ def fromGrave():
     notify("{} looks at their Graveyard.".format(me))
     me.piles['Graveyard'].lookAt(-1)
 
-def kill(power = float('inf')):
-    mute()
-    cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
-    cardList = [card for card in cardList if int(card.Power) <= power]
-    if len(cardList)==0:
-        return    
-    choice = askCard(cardList, 'Choose a Creature to destroy')
-    if type(choice) is not Card:
-        return
-    remoteCall(choice.owner,"banish",choice)
+def kill(power = float('inf'), count = 1):
+	mute()
+	for i in range(0, count):
+		cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
+		cardList = [card for card in cardList if int(card.Power) <= power]
+		if len(cardList)==0:
+			return    
+		choice = askCard(cardList, 'Choose a Creature to destroy')
+		if type(choice) is not Card:
+			return
+		remoteCall(choice.owner,"banish",choice)
+
+def sacrifice(power = float('inf'), count = 1):
+	mute()
+	for i in range(0, count):
+		cardList = [card for card in table if isCreature(card) and card.owner==me and re.search("Creature", card.Type)]
+		cardList = [card for card in cardList if int(card.Power) <= power]
+		if len(cardList)==0:
+			return    
+		choice = askCard(cardList, 'Choose a Creature to destroy')
+		if type(choice) is not Card:
+			return
+		banish(choice)
     
 def bounce(count = 1):
 	mute()

@@ -140,7 +140,7 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Logic Sphere': 'fromManaSpell()',
             'Miraculous Rebirth': 'kill(5000);fromDeck()',
             'Stronghold of Lightning and Flame': 'kill(3000);tapCreature()',
-            'Seven\'s Tower': 'manaX()',
+            'Seven\'s Tower': 'if metamorph(): mana(3) else: mana()',
             'Martial Law': 'gear(kill);',
             'Natural Snare': 'sendToMana()',
             'Spiral Lance': 'gear(bounce);',
@@ -360,6 +360,11 @@ def isCreature(card):
     else:
         return False
 
+def isGear(card):
+	mute()
+	if card in table and card.isFaceUp and card.orientation == Rot0 and re.search("Cross Gear", card.Type): return True
+	else: return False
+
 def isMana(card):
     mute()
     if card in table and card.isFaceUp and not card.orientation == Rot90 and not card.orientation == Rot0:
@@ -373,6 +378,12 @@ def isShield(card):
         return True
     else:
         return False
+
+def metamorph():
+	mute()
+	cardList = [card for card in table if isMana(card) and card.owner==me]
+    	if len(cardList)<7: return False;	
+    	else: return True;
 
 def align():
     mute()

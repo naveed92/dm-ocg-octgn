@@ -300,19 +300,19 @@ def tapCreature(count = 1, targetALL = False, includeOwn = False):
     mute()
     if targetALL:
         if includeOwn == True: 
-            cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
+            cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and re.search("Creature", card.Type)]
         else:
-            cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
+            cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and not card.owner==me and re.search("Creature", card.Type)]
         if len(cardList)==0:
             return
         for card in cardList:
-            remoteCall(choice.owner,"tap",choice)
+            remoteCall(card.owner,"tap",card)
     else:
         for i in range(0,count):
             if includeOwn == True: 
-                cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
+                cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and re.search("Creature", card.Type)]
             else:
-                cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
+                cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and not card.owner==me and re.search("Creature", card.Type)]
             if len(cardList)==0:
                 return
             choice = askCard(cardList, 'Choose a Creature to tap')

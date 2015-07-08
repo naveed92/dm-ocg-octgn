@@ -466,7 +466,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dragonoid" />
 			<property name="Rules" value="While you have a darkness creature in the battle zone, this creature gets +2000 power." />
-			<property name="Power" value="2000+" />
+			<property name="Power" value="2000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="40" />
 		</card>
@@ -556,7 +556,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Colony Beetle" />
 			<property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.) &#xd;&#xa;This creature gets +1000 power for each shield you have." />
-			<property name="Power" value="1000+" />
+			<property name="Power" value="1000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="49" />
 		</card>
@@ -576,7 +576,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tree Folk" />
 			<property name="Rules" value="While you have a light creature in the battle zone, this creature gets +2000 power." />
-			<property name="Power" value="2000+" />
+			<property name="Power" value="2000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="51" />
 		</card>
@@ -606,7 +606,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Giant Insect" />
 			<property name="Rules" value="Whenever this creature attacks, you may destroy one of your other creatures. If you do, this creature gets +2000 power and has &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)" />
-			<property name="Power" value="4000+" />
+			<property name="Power" value="4000" />
 			<property name="Rarity" value="Uncommon" />
 			<property name="Number" value="54" />
 		</card>

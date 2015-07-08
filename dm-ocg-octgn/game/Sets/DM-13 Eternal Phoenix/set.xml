@@ -25,7 +25,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Vortex Evolution: Put on one of your 'Fire bird' and 'Armored Dragon'&#xd;&#xa;Your 'Dragon' or 'Phoenix' creatures may attack untapped creatures.&#xd;&#xa;When this creature leaves the battle zone, return all non-evolution fire creatures from the grave to your hand.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Vortex Evolution: 'Fire bird' and 'Armored Dragon'&#xd;&#xa;[Double Breaker] Your 'Dragon' or 'Phoenix' creatures may attack untapped creatures.&#xd;&#xa;When this creature leaves the battle zone, return all non-evolution fire creatures from the graveyard to your hand." />
 			<property name="Power" value="11000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S1" />
@@ -385,7 +385,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Spirit Quartz" />
-			<property name="Rules" value="When this card is placed in the mana zone, it is placed into the mana zone tapped.&#xd;&#xa;Evolution: Put on one of your Spirit Quartz.&#xd;&#xa;When this creature is put into the battle zone, name 1 card. Reveal the top card of your deck. If it's the named card add it to your hand. If it isn't, put it in your mana zone.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Evolution: Spirit Quartz.&#xd;&#xa;When this creature is put into the battle zone, name 1 card. Reveal the top card of your deck. If it's the named card add it to your hand. If it isn't, put it in your mana zone.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="32" />

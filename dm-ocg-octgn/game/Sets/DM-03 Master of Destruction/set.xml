@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM-03 Master of Destruction" id="638093de-60d1-42ab-a081-6e3d8f14ed43" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
 	<packaging>
 		<pack name="Booster" id="7e055f4e-d5a0-4a32-b2de-07126358866b">
@@ -36,7 +36,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Gel Fish" />
 			<property name="Rules" value="This creature gets +1000 power for each other water creature you have in the battle zone. &#xd;&#xa;Whenever this creature attacks, you may draw a card for each of your other water creatures in the battle zone." />
-			<property name="Power" value="1000+" />
+			<property name="Power" value="1000" />
 			<property name="Rarity" value="Super Rare" />
 			<property name="Number" value="S2" />
 		</card>
@@ -56,7 +56,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armored Dragon" />
 			<property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xd;&#xa;This creature gets +1000 power for each other fire creature you have in the battle zone. &#xd;&#xa;This creature can attack untapped creatures." />
-			<property name="Power" value="6000+" />
+			<property name="Power" value="6000" />
 			<property name="Rarity" value="Super Rare" />
 			<property name="Number" value="S4" />
 		</card>
@@ -76,7 +76,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Berserker" />
 			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xd;&#xa;This creature gets +1000 power for each other light creature you have in the battle zone." />
-			<property name="Power" value="4000+" />
+			<property name="Power" value="4000" />
 			<property name="Rarity" value="Rare" />
 			<property name="Number" value="1" />
 		</card>
@@ -186,7 +186,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cyber Cluster" />
 			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xd;&#xa;This creature can't attack. &#xd;&#xa;While all the cards in your mana zone are water cards, this creature gets +3000 power." />
-			<property name="Power" value="3000+" />
+			<property name="Power" value="3000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="12" />
 		</card>
@@ -366,7 +366,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Hedrian" />
 			<property name="Rules" value="While all the cards in your mana zone are darkness cards, this creature gets +2000 power." />
-			<property name="Power" value="2000+" />
+			<property name="Power" value="2000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="30" />
 		</card>
@@ -376,7 +376,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Hedrian" />
 			<property name="Rules" value="Slayer (When this creature loses a battle, destroy the other creature.) &#xd;&#xa;This creature gets +1000 power for each other darkness creature you have in the battle zone." />
-			<property name="Power" value="1000+" />
+			<property name="Power" value="1000" />
 			<property name="Rarity" value="Rare" />
 			<property name="Number" value="31" />
 		</card>
@@ -416,7 +416,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Fire Bird" />
 			<property name="Rules" value="While all the cards in your mana zone are fire cards, this creature gets +2000 power." />
-			<property name="Power" value="2000+" />
+			<property name="Power" value="2000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="35" />
 		</card>
@@ -456,7 +456,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Rock Beast" />
 			<property name="Rules" value="Whenever this creature attacks, you may put a card from your mana zone into your graveyard. If you do, this creature gets &quot;power attacker +3000&quot; and &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;power attacker +3000&quot; and &quot;double breaker&quot; gets +3000 power while attacking and breaks 2 shields.)" />
-			<property name="Power" value="3000+" />
+			<property name="Power" value="3000" />
 			<property name="Rarity" value="Rare" />
 			<property name="Number" value="39" />
 		</card>
@@ -490,7 +490,7 @@
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="42" />
 		</card>
-		<card name="Überdragon Jabaha" id="5646364b-4018-4556-9b20-265ef3fb372d">
+		<card name="Uberdragon Jabaha" id="5646364b-4018-4556-9b20-265ef3fb372d">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
@@ -556,7 +556,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tree Folk" />
 			<property name="Rules" value="This creature gets +1000 power for each of your other nature creatures in the battle zone. &#xd;&#xa;This creature can't be blocked by any creature that has power 4000 or less." />
-			<property name="Power" value="1000+" />
+			<property name="Power" value="1000" />
 			<property name="Rarity" value="Uncommon" />
 			<property name="Number" value="49" />
 		</card>
@@ -586,7 +586,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Horned Beast" />
 			<property name="Rules" value="While all the cards in your mana zone are nature cards, this creature gets +3000 power and has &quot;Double breaker (This creature breaks 2 shields).&quot;" />
-			<property name="Power" value="4000+" />
+			<property name="Power" value="4000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="52" />
 		</card>
@@ -616,7 +616,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Giant Insect" />
 			<property name="Rules" value="Power attacker +3000 (While attacking, this creature gets +3000 power.)" />
-			<property name="Power" value="2000+" />
+			<property name="Power" value="2000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="55" />
 		</card>

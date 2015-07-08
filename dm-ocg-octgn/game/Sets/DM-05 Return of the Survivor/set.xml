@@ -116,7 +116,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Giant Insect" />
 			<property name="Rules" value="Power attacker +3000 (While attacking, this creature gets +3000 power.) &#xd;&#xa;Double breaker (This creature breaks 2 shields.) &#xd;&#xa;When this creature is destroyed, you may put an Obsidian Scarab from your mana zone into the battle zone." />
-			<property name="Power" value="5000+" />
+			<property name="Power" value="5000" />
 			<property name="Rarity" value="Very Rare" />
 			<property name="Number" value="5" />
 		</card>
@@ -426,7 +426,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Survivor / Rock Beast" />
 			<property name="Rules" value="Survivor (Each of your Survivors has this creature's {SURVIVOR} ability.) &#xd;&#xa;{SURVIVOR} Power attacker +1000 (While attacking, this creature gets +1000 power.)" />
-			<property name="Power" value="1000+" />
+			<property name="Power" value="1000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="36" />
 		</card>
@@ -436,7 +436,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armored Dragon" />
 			<property name="Rules" value="Power attacker +8000 (While attacking, this creature gets +8000 power.) &#xd;&#xa;Triple breaker (This creature breaks 3 shields.)" />
-			<property name="Power" value="4000+" />
+			<property name="Power" value="4000" />
 			<property name="Rarity" value="Uncommon" />
 			<property name="Number" value="37" />
 		</card>
@@ -526,7 +526,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Giant Insect" />
 			<property name="Rules" value="Power attacker +3000 (While attacking, this creature gets +3000 power.) &#xd;&#xa;When this creature is destroyed, you may choose an Ambush Scorpion in your mana zone and put it into the battle zone." />
-			<property name="Power" value="3000+" />
+			<property name="Power" value="3000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="46" />
 		</card>
@@ -566,7 +566,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Beast Folk" />
 			<property name="Rules" value="This creature gets +1000 power for each water creature and darkness creature your opponent has in the battle zone." />
-			<property name="Power" value="1000+" />
+			<property name="Power" value="1000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="50" />
 		</card>
@@ -586,7 +586,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Horned Beast" />
 			<property name="Rules" value="This creature gets +1000 power for each water creature and darkness creature your opponent has in the battle zone. &#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
-			<property name="Power" value="6000+" />
+			<property name="Power" value="6000" />
 			<property name="Rarity" value="Uncommon" />
 			<property name="Number" value="52" />
 		</card>
@@ -596,7 +596,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Giant" />
 			<property name="Rules" value="This creature can't attack creatures. &#xd;&#xa;Power attacker +7000 (While attacking, this creature gets +7000 power.) &#xd;&#xa;Triple breaker (This creature breaks 3 shields.)" />
-			<property name="Power" value="7000+" />
+			<property name="Power" value="7000" />
 			<property name="Rarity" value="Rare" />
 			<property name="Number" value="53" />
 		</card>
@@ -616,7 +616,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Survivor / Horned Beast" />
 			<property name="Rules" value="Survivor (Each of your Survivors has this creature's {SURVIVOR} ability.) &#xd;&#xa;{SURVIVOR} This creature gets +1000 power." />
-			<property name="Power" value="2000+" />
+			<property name="Power" value="2000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="55" />
 		</card>

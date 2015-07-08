@@ -196,7 +196,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armorloid" />
 			<property name="Rules" value="This creature can attack untapped creatures. &#xd;&#xa;Power attacker +3000 (While attacking, this creature gets +3000 power.)" />
-			<property name="Power" value="4000+" />
+			<property name="Power" value="4000" />
 			<property name="Rarity" value="Very Rare" />
 			<property name="Number" value="8" />
 		</card>
@@ -216,7 +216,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Giant Insect" />
 			<property name="Rules" value="Power attacker +3000 (While attacking, this creature gets +3000 power.) &#xd;&#xa;Double breaker (This creature breaks 2 shields.) &#xd;&#xa;Whenever this creature becomes blocked, it breaks one of your opponent's shields." />
-			<property name="Power" value="4000+" />
+			<property name="Power" value="4000" />
 			<property name="Rarity" value="Very Rare" />
 			<property name="Number" value="10" />
 		</card>
@@ -376,7 +376,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="StarLight Tree" />
 			<property name="Rules" value="This creature gets +2000 power for each shield you have." />
-			<property name="Power" value="1000+" />
+			<property name="Power" value="1000" />
 			<property name="Rarity" value="Uncommon" />
 			<property name="Number" value="26" />
 		</card>
@@ -836,7 +836,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armorloid" />
 			<property name="Rules" value="While you have no other fire creatures in the battle zone, this creature has &quot;power attacker +3000&quot; and &quot;double breaker.&quot; (A creature that has &quot;power attacker +3000&quot; and &quot;double breaker&quot; gets +3000 power while attacking and breaks 2 shields.)" />
-			<property name="Power" value="4000+" />
+			<property name="Power" value="4000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="72" />
 		</card>
@@ -856,7 +856,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dune Gecko" />
 			<property name="Rules" value="Power attacker +3000 (While attacking, this creature gets +3000 power.) &#xd;&#xa;Whenever this creature becomes blocked, no battle happens. (Both creatures stay tapped.)" />
-			<property name="Power" value="3000+" />
+			<property name="Power" value="3000" />
 			<property name="Rarity" value="Rare" />
 			<property name="Number" value="74" />
 		</card>
@@ -876,7 +876,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Human" />
 			<property name="Rules" value="Power attacker +1000 (While attacking, this creature gets +1000 power.) &#xd;&#xa;Whenever this creature becomes blocked, no battle happens. (Both creatures stay tapped.)" />
-			<property name="Power" value="1000+" />
+			<property name="Power" value="1000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="76" />
 		</card>
@@ -1016,7 +1016,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dragonoid" />
 			<property name="Rules" value="While you have at least one other fire creature in the battle zone, this creature has &quot;Power attacker +3000 (While attacking, this creature gets +3000 power).&quot;" />
-			<property name="Power" value="2000+" />
+			<property name="Power" value="2000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="90" />
 		</card>
@@ -1046,7 +1046,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Colony Beetle" />
 			<property name="Rules" value="Power attacker +3000 (While attacking, this creature gets +3000 power.)" />
-			<property name="Power" value="2000+" />
+			<property name="Power" value="2000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="93" />
 		</card>
@@ -1066,7 +1066,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Mystery Totem" />
 			<property name="Rules" value="Power attacker +2000 (While attacking, this creature gets +2000 power.) &#xd;&#xa;This creature can't be blocked by any creature that has power 5000 or less. &#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
-			<property name="Power" value="4000+" />
+			<property name="Power" value="4000" />
 			<property name="Rarity" value="Rare" />
 			<property name="Number" value="95" />
 		</card>
@@ -1126,7 +1126,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Snow Faerie" />
 			<property name="Rules" value="Power attacker +2000 (While attacking, this creature gets +2000 power.)" />
-			<property name="Power" value="1000+" />
+			<property name="Power" value="1000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="101" />
 		</card>
@@ -1196,7 +1196,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Horned Beast" />
 			<property name="Rules" value="Power attacker +2000 (While attacking, this creature gets +2000 power.)" />
-			<property name="Power" value="3000+" />
+			<property name="Power" value="3000" />
 			<property name="Rarity" value="Uncommon" />
 			<property name="Number" value="108" />
 		</card>
@@ -1216,7 +1216,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Giant Insect" />
 			<property name="Rules" value="This creature can't attack players. &#xd;&#xa;Power attacker +4000 (While attacking, this creature gets +4000 power.)" />
-			<property name="Power" value="4000+" />
+			<property name="Power" value="4000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="110" />
 		</card>

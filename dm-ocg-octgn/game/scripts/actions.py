@@ -512,7 +512,7 @@ def banish(card, x = 0, y = 0):
 		shieldCard = card
 		cardsInHandWithStrikeBackAbility = [card for card in me.hand if re.search("Strike Back", card.rules)]
 		if len(cardsInHandWithStrikeBackAbility) > 0:
-			cardsInHandWithStrikeBackAbilityThatCanBeUsed = [card for card in cardsInHandWithStrikeBackAbility if shieldCard.properties['Civilization'] == card.properties['Civilization']]
+			cardsInHandWithStrikeBackAbilityThatCanBeUsed = [card for card in cardsInHandWithStrikeBackAbility if re.search(card.Civilization, shieldCard.Civilization)]
 			if len(cardsInHandWithStrikeBackAbilityThatCanBeUsed) > 0:
 				if confirm("Activate Strike Back by sending {} to the graveyard?\n\n{}".format(shieldCard.Name, shieldCard.Rules)):
 					choice = askCard(cardsInHandWithStrikeBackAbilityThatCanBeUsed, 'Choose Strike Back to activate')

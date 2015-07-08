@@ -56,7 +56,7 @@ onSummon = {
 			'Rom, Vizier of Tendrils': 'tapCreature()',
 			'Rumbling Terahorn': 'search(me.Deck, 1, "Creature")',
 			'Ryokudou, the Principle Defender': 'mana(me.Deck,2);fromMana()',
-			'Scissor Scarab': 'fromDeck()',
+			'Scissor Scarab': 'search(1,"ALL","ALL","Giant Insect")',
 			'Shtra': 'fromMana()',#; remoteCall(not card.owner,"fromMana",1)',
 			'Skysword, the Savage Vizier': 'mana(me.Deck);shields(me.Deck)',
 			'Solidskin Fish': 'fromMana()',
@@ -95,15 +95,16 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Flame Lance Trap': 'kill(5000)',
 			'Flood Valve': 'fromMana()',
             'Hopeless Vortex': 'kill()',
-			'Invincible Abyss': 'banishALL([card for card in table if card.owner != me])',
+			'Invincible Abyss': 'banishALL([card for card in table if card.owner != me], True)',
 			'Invincible Aura': 'shields(me.Deck,3,True)',
 			'Invincible Technology': 'search(me.Deck,len(me.Deck))',
             'Lightning Charger': 'tapCreature()',
             'Logic Cube': 'search(me.Deck, 1, "Spell")',
             'Logic Sphere': 'fromMana(1, "Spell")',
             'Miraculous Rebirth': 'kill(5000);fromDeck()',
+			'Miraculous Snare': 'sendToShields()',
             'Moonlight Flash': 'tapCreature(2)',
-            'Morbid Medicine': 'fromGrave()',
+            'Morbid Medicine': 'search(me.piles[\'Graveyard\'], 2, "Creature")',
             'Mystic Dreamscape': 'fromMana(3)',
             'Mystic Inscription': 'shields(me.Deck)',
             'Phantom Dragon\'s Flame': 'kill(2000)',
@@ -214,6 +215,24 @@ def bounce(count = 1):
 			toHand(choice)
 		else:
 			remoteCall(choice.owner,"toHand",choice)
+
+def sendToShields():
+	mute()
+	for i in range(0,count):
+		cardList = [card for card in table if isCreature(card) and card.owner != me]
+		if len(cardList)==0: return
+		choice = askCard(cardList,'Choose a Creature to send to shields')
+		if type(choice) is not Card: return
+		remoteCall(choice.owner,"toShields",choice)
+
+def sendToMana():
+	mute()
+	for i in range(0,count):
+		cardList = [card for card in table if isCreature(card) and card.owner != me]
+		if len(cardList)==0: return
+		choice = askCard(cardList,'Choose a Creature to send to mana')
+		if type(choice) is not Card: return
+		remoteCall(choice.owner,"toMana",choice)
 
 def tapCreature(count = 1, includeMyCreatures = False):
 	mute()

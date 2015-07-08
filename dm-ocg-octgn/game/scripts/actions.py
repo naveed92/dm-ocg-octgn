@@ -71,7 +71,7 @@ onSummon = {
 			'Velyrika Dragon': 'search(me.Deck, 1, "ALL", "ALL", "Armored Dragon")',
 			'Whispering Totem': 'fromDeck()',
 			'Wind Axe, the Warrior Savage': 'mana(me.Deck)',
-			'Zardia, Spirit of Bloody Winds': 'shields(me.Deck)',
+			'Zardia, Spirit of Bloody Winds': 'shields(me.Deck)'
     }
 
 # These effects are triggered when the corresponding spell is cast
@@ -89,6 +89,7 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Death Smoke': 'kill()',
             'Dimension Gate': 'search(me.Deck, 1, "Creature")',
             'Dracobarrier': 'tapCreature()',
+            'Drill Bowgun': 'gear(kill);',
             'Enchanted Soil': 'fromGrave()',
             'Energy Stream': 'draw(me.Deck, False, 2)',
             'Eureka Charger': 'draw(me.Deck);',
@@ -103,21 +104,26 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Lightning Charger': 'tapCreature()',
             'Logic Cube': 'search(me.Deck, 1, "Spell")',
             'Logic Sphere': 'fromMana(1, "Spell")',
+            'Martial Law': 'gear(kill);',
             'Miraculous Rebirth': 'kill(5000);fromDeck()',
             'Miraculous Snare': 'sendToShields()',
             'Moonlight Flash': 'tapCreature(2)',
             'Morbid Medicine': 'search(me.piles[\'Graveyard\'], 2, "Creature")',
             'Mystic Dreamscape': 'fromMana(3)',
             'Mystic Inscription': 'shields(me.Deck)',
+            'Natural Snare': 'sendToMana()',
             'Phantom Dragon\'s Flame': 'kill(2000)',
             'Pixie Cocoon': 'fromMana(1, "Creature");toMana(card)',
             'Punish Hold': 'tapCreature(2)',
             'Purgatory Force': 'search(me.piles[\'Graveyard\'], 2, "Creature")',
             'Reap and Sow': 'mana(me.Deck)',
             'Riptide Charger': 'bounce()',
+            'Seven\'s Tower': 'mana(me.Deck,3) if metamorph() else mana(me.Deck)',
             'Solar Ray': 'tapCreature()',
             'Solar Trap': 'tapCreature()',
             'Spastic Missile': 'kill(3000)',
+            'Spiral Lance': 'gear(bounce);',
+            'Screw Rocket': 'gear(kill);',
             'Spiral Gate': 'bounce()',
             'Stronghold of Lightning and Flame': 'kill(3000); tapCreature()',
             'Teleportation': 'bounce(2)',
@@ -126,29 +132,11 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Triple Brain': 'draw(me.Deck, False, 3)',
             'Tornado Flame': 'kill(4000)',
             'Ultimate Force': 'mana(me.Deck,2)',
+            'Valiant Spark': 'tapCreature(1,True) if metamorph() else tapCreature()',
             'Volcanic Arrows': 'kill(6000)',
             'Volcano Charger': 'kill(2000)',
-            'Zombie Carnival': 'fromGrave()',
-            'Solar Ray': 'tapCreature()',
-            'Solar Trap': 'tapCreature()',
-            'Lightning Charger': 'tapCreature()',
-            'Moonlight Flash': 'tapCreature(2)',
-            'Dracobarrier': 'tapCreature()',
-            'Clone Factory': 'fromMana(2)',
-            'Mystic Dreamscape': 'fromMana(3)',
-            'Boomerang Comet': 'fromMana();toMana(card)',
-            'Pixie Cocoon': 'fromMana();toMana(card)',
-            'Logic Sphere': 'fromManaSpell()',
-            'Miraculous Rebirth': 'kill(5000);fromDeck()',
-            'Stronghold of Lightning and Flame': 'kill(3000);tapCreature()',
-            'Seven\'s Tower': 'if metamorph(): mana(me.Deck,3) else: mana(me.Deck)',
-            'Martial Law': 'gear(kill);',
-            'Natural Snare': 'sendToMana()',
-            'Spiral Lance': 'gear(bounce);',
             'Wave Rifle': 'gear(bounce);',
-            'Screw Rocket': 'gear(kill);',
-            'Drill Bowgun': 'gear(kill);',
-            'Valiant Spark': 'if metamorph(): tapCreature(1,True) else: tapCreature()'
+            'Zombie Carnival': 'fromGrave()'
     }
 
 # These effects trigger when creatures are destroyed
@@ -290,23 +278,23 @@ def gear(str):
         else:
             remoteCall(choice.owner, 'toMana', choice)
 
-def sendToShields():
-	mute()
-	for i in range(0,count):
-		cardList = [card for card in table if isCreature(card) and card.owner != me]
-		if len(cardList)==0: return
-		choice = askCard(cardList,'Choose a Creature to send to shields')
-		if type(choice) is not Card: return
-		remoteCall(choice.owner,"toShields",choice)
+def sendToShields(count=1):
+    mute()
+    for i in range(0,count):
+            cardList = [card for card in table if isCreature(card) and card.owner != me]
+            if len(cardList)==0: return
+            choice = askCard(cardList,'Choose a Creature to send to shields')
+            if type(choice) is not Card: return
+            remoteCall(choice.owner,"toShields",choice)
 
-def sendToMana():
-	mute()
-	for i in range(0,count):
-		cardList = [card for card in table if isCreature(card) and card.owner != me]
-		if len(cardList)==0: return
-		choice = askCard(cardList,'Choose a Creature to send to mana')
-		if type(choice) is not Card: return
-		remoteCall(choice.owner,"toMana",choice)
+def sendToMana(count=1):
+    mute()
+    for i in range(0,count):
+            cardList = [card for card in table if isCreature(card) and card.owner != me]
+            if len(cardList)==0: return
+            choice = askCard(cardList,'Choose a Creature to send to mana')
+            if type(choice) is not Card: return
+            remoteCall(choice.owner,"toMana",choice)
 
 def tapCreature(count = 1, targetALL = False, includeOwn = False):
     mute()
@@ -369,9 +357,11 @@ def isCreature(card):
         return False
 
 def isGear(card):
-	mute()
-	if card in table and card.isFaceUp and card.orientation == Rot0 and re.search("Cross Gear", card.Type): return True
-	else: return False
+    mute()
+    if card in table and card.isFaceUp and card.orientation == Rot0 and re.search("Cross Gear", card.Type):
+        return True
+    else:
+        return False
 
 def isMana(card):
     mute()

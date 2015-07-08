@@ -76,7 +76,7 @@ onSummon = {
 
 # These effects are triggered when the corresponding spell is cast
 onCast = {  'Abduction Charger': 'bounce(2)',
-			'Apocalypse Day': 'banishALL(table, len([card for card in table if isCreature(card)])>5)',
+            'Apocalypse Day': 'banishALL(table, len([card for card in table if isCreature(card)])>5)',
             'Boomerang Comet': 'fromMana(); toMana(card)',
             'Brain Serum': 'draw(me.Deck, True);draw(me.Deck, True);',
             'Chains of Sacrifice': 'kill(2); sacrifice()',
@@ -92,25 +92,25 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Enchanted Soil': 'fromGrave()',
             'Energy Stream': 'draw(me.Deck);draw(me.Deck);',
             'Eureka Charger': 'draw(me.Deck);',
-			'Faerie Life': 'mana(me.Deck);',
+            'Faerie Life': 'mana(me.Deck);',
             'Flame Lance Trap': 'kill(5000)',
-			'Flood Valve': 'fromMana()',
+            'Flood Valve': 'fromMana()',
             'Hopeless Vortex': 'kill()',
-			'Invincible Abyss': 'banishALL([card for card in table if card.owner != me], True)',
-			'Invincible Aura': 'shields(me.Deck,3,True)',
-			'Invincible Technology': 'search(me.Deck,len(me.Deck))',
+            'Invincible Abyss': 'banishALL([card for card in table if card.owner != me], True)',
+            'Invincible Aura': 'shields(me.Deck,3,True)'
+            'Invincible Technology': 'search(me.Deck,len(me.Deck))',
             'Lightning Charger': 'tapCreature()',
             'Logic Cube': 'search(me.Deck, 1, "Spell")',
             'Logic Sphere': 'fromMana(1, "Spell")',
             'Miraculous Rebirth': 'kill(5000);fromDeck()',
-			'Miraculous Snare': 'sendToShields()',
+            'Miraculous Snare': 'sendToShields()',
             'Moonlight Flash': 'tapCreature(2)',
             'Morbid Medicine': 'search(me.piles[\'Graveyard\'], 2, "Creature")',
             'Mystic Dreamscape': 'fromMana(3)',
             'Mystic Inscription': 'shields(me.Deck)',
             'Phantom Dragon\'s Flame': 'kill(2000)',
             'Pixie Cocoon': 'fromMana(1, "Creature");toMana(card)',
-			'Punish Hold': 'tapCreature(2)',
+            'Punish Hold': 'tapCreature(2)',
             'Purgatory Force': 'search(me.piles[\'Graveyard\'], 2, "Creature")',
             'Reap and Sow': 'mana(me.Deck)',
             'Riptide Charger': 'bounce()',
@@ -124,30 +124,49 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Terror Pit': 'kill()',
             'Triple Brain': 'draw(me.Deck);draw(me.Deck);draw(me.Deck);',
             'Tornado Flame': 'kill(4000)',
-			'Ultimate Force': 'mana(me.Deck,2)',
+            'Ultimate Force': 'mana(me.Deck,2)',
             'Volcanic Arrows': 'kill(6000)',
             'Volcano Charger': 'kill(2000)',
             'Zombie Carnival': 'fromGrave()'
+            'Solar Ray': 'tapCreature()',
+            'Solar Trap': 'tapCreature()',
+            'Lightning Charger': 'tapCreature()',
+            'Moonlight Flash': 'tapCreature();tapCreature()',
+            'Dracobarrier': 'tapCreature()',
+            'Clone Factory': 'fromMana();fromMana()',
+            'Mystic Dreamscape': 'fromMana();fromMana();fromMana()',
+            'Boomerang Comet': 'fromMana();toMana(card)',
+            'Pixie Cocoon': 'fromMana();toMana(card)',
+            'Logic Sphere': 'fromManaSpell()',
+            'Miraculous Rebirth': 'kill(5000);fromDeck()',
+            'Stronghold of Lightning and Flame': 'kill(3000);tapCreature()',
+            'Seven\'s Tower': 'manaX()',
+            'Martial Law': 'gear(kill);',
+            'Natural Snare': 'sendToMana()',
+            'Spiral Lance': 'gear(bounce);',
+            'Wave Rifle': 'gear(bounce);',
+            'Screw Rocket': 'gear(kill);',
+            'Drill Bowgun': 'gear(kill);'
     }
 
 # These effects trigger when creatures are destroyed
 onDestroy = {'Akashic First, Electro-Dragon': 'toHand(card)',
-			 'Akashic Second, Electro-Spirit': 'toMana(card)',
+             'Akashic Second, Electro-Spirit': 'toMana(card)',
              'Aqua Agent': 'toHand(card)',
              'Aqua Knight': 'toHand(card)',
              'Aqua Ranger': 'toHand(card)',
              'Aqua Skydiver': 'toHand(card)',
              'Aqua Soldier': 'toHand(card)',
-			 'Asylum, the Dragon Paladin': 'toShields(card)',
+             'Asylum, the Dragon Paladin': 'toShields(card)',
              'Bat Doctor, Shadow of Undeath': 'search(me.piles[\'Graveyard\'], 1, "Creature")',
-			 'Bone Piercer': 'fromMana(1, "Creature")',
+             'Bone Piercer': 'fromMana(1, "Creature")',
              'Cetibols': 'draw(me.Deck, True)',
              'Chillias, the Oracle': 'toHand(card)',
              'Coiling Vines': 'toMana(card)',
              'Crasher Burn': 'kill(3000)',
              'Crystal Jouster': 'toHand(card)',
              'Cubela, the Prophet': 'tapCreature()',
-			 'Dracodance Totem': 'fromMana(1,"","","Dragon");toMana(card)',
+             'Dracodance Totem': 'fromMana(1,"","","Dragon");toMana(card)',
              'Hammerhead Cluster': 'bounce()',
              'Jil Warka, Time Guardian': 'tapCreature(2)',
              'Mighty Shouter': 'toMana(card)',
@@ -225,10 +244,53 @@ def bounce(count = 1):
 		if len(cardList)==0: return
 		choice = askCard(cardList,'Choose a Creature to return to Hand')
 		if type(choice) is not Card: return
+                if choice.owner==me:
+                        toHand(choice)
+                else:
+                        remoteCall(choice.owner,"toHand",choice)
+
+def tapCreature():
+    mute()
+    cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
+    if len(cardList)==0:
+        return
+    choice = askCard(cardList, 'Choose a Creature to tap')
+    if type(choice) is not Card:
+        return
+    remoteCall(choice.owner,"tap",choice)
+    
+def gear(str):
+	mute()
+	if str == 'kill':
+		cardList = [card for card in table if isGear(card) and not card.owner==me]
+		if len(cardList)==0:
+			return
+		choice = askCard(cardList, 'Choose a Cross Gear to send to Graveyard')
+		if type(choice) is not Card:
+			return
+		remoteCall(choice.owner,"banish",choice)	
+	elif str == 'bounce':
+		cardList = [card for card in table if isGear(card)]
+		if len(cardList)==0:
+			return
+		choice = askCard(cardList, 'Choose a Cross Gear to send to Hand')
+		if type(choice) is not Card:
+			return
 		if choice.owner==me:
 			toHand(choice)
 		else:
 			remoteCall(choice.owner,"toHand",choice)
+	elif str == 'mana':
+                cardList = [card for card in table if isGear(card)]
+		if len(cardList)==0:
+			return
+		choice = askCard(cardList, 'Choose a Cross Gear to send to Mana')
+		if type(choice) is not Card:
+			return
+		if choice.owner==me:
+			toHand(choice)
+		else:
+			remoteCall(choice.owner,"toMana",choice)
 
 def sendToShields():
 	mute()

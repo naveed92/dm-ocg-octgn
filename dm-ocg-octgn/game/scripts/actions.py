@@ -23,7 +23,7 @@ onSummon = {
 			'Aqua Surfer': 'bounce()',
 			'Armored Decimator Valkaizer': 'kill(4000)',
 			'Artisan Picora': 'fromMana(1,"ALL","ALL","ALL",False,True)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
-			'Astral Warper': 'draw(me.Deck, True);draw(me.Deck, True);draw(me.Deck, True)',
+			'Astral Warper': 'draw(me.Deck, True, 3)',
 			'Belix, the Explorer': 'fromMana(1,"Spell")',
 			'Bronze-Arm Tribe': 'mana(me.Deck);',
 			'Chaos Worm': 'kill()',
@@ -42,7 +42,7 @@ onSummon = {
 			'Gyulcas, Sage of the East Wind': 'search(me.Deck, 1, "Cross Gear")',
 			'Hawkeye Lunatron': 'search(me.Deck, 1, "ALL", "ALL", "ALL", False)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
 			'Hurlosaur': 'kill(1000)',
-			'King Ripped-Hide': 'draw(me.Deck, True);draw(me.Deck, True)',
+			'King Ripped-Hide': 'draw(me.Deck, True, 2)',
 			'Kolon, the Oracle': 'tapCreature()',
 			'Lena, Vizier of Brilliance': 'fromMana(1,"Spell")',
 			'Magris, Vizier of Magnetism': 'draw(me.Deck, True);',
@@ -78,26 +78,27 @@ onSummon = {
 onCast = {  'Abduction Charger': 'bounce(2)',
             'Apocalypse Day': 'banishALL(table, len([card for card in table if isCreature(card)])>5)',
             'Boomerang Comet': 'fromMana(); toMana(card)',
-            'Brain Serum': 'draw(me.Deck, True);draw(me.Deck, True);',
+            'Brain Serum': 'draw(me.Deck, False, 2)',
             'Chains of Sacrifice': 'kill(2); sacrifice()',
             'Clone Factory': 'fromMana(2)',
             'Corpse Charger': 'search(me.piles[\'Graveyard\'], 1, "Creature)',
             'Crimson Hammer': 'kill(2000)',
-            'Cyber Brain': 'draw(me.Deck);draw(me.Deck);draw(me.Deck);',
+            'Cyber Brain': 'draw(me.Deck, False, 3)',
             'Crystal Memory': 'search(me.Deck, 1, "ALL", "ALL", "ALL", False)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
             'Dark Reversal': 'search(me.piles[\'Graveyard\'], 1, "Creature")',
             'Death Smoke': 'kill()',
             'Dimension Gate': 'search(me.Deck, 1, "Creature")',
             'Dracobarrier': 'tapCreature()',
             'Enchanted Soil': 'fromGrave()',
-            'Energy Stream': 'draw(me.Deck);draw(me.Deck);',
+            'Energy Stream': 'draw(me.Deck, False, 2)',
             'Eureka Charger': 'draw(me.Deck);',
             'Faerie Life': 'mana(me.Deck);',
             'Flame Lance Trap': 'kill(5000)',
             'Flood Valve': 'fromMana()',
             'Hopeless Vortex': 'kill()',
+            'Holy Awe': 'tapCreature(1,True)',
             'Invincible Abyss': 'banishALL([card for card in table if card.owner != me], True)',
-            'Invincible Aura': 'shields(me.Deck,3,True)'
+            'Invincible Aura': 'shields(me.Deck,3,True)',
             'Invincible Technology': 'search(me.Deck,len(me.Deck))',
             'Lightning Charger': 'tapCreature()',
             'Logic Cube': 'search(me.Deck, 1, "Spell")',
@@ -122,19 +123,19 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Teleportation': 'bounce(2)',
             'Ten-Ton Crunch': 'kill(3000)',
             'Terror Pit': 'kill()',
-            'Triple Brain': 'draw(me.Deck);draw(me.Deck);draw(me.Deck);',
+            'Triple Brain': 'draw(me.Deck, False, 3)',
             'Tornado Flame': 'kill(4000)',
             'Ultimate Force': 'mana(me.Deck,2)',
             'Volcanic Arrows': 'kill(6000)',
             'Volcano Charger': 'kill(2000)',
-            'Zombie Carnival': 'fromGrave()'
+            'Zombie Carnival': 'fromGrave()',
             'Solar Ray': 'tapCreature()',
             'Solar Trap': 'tapCreature()',
             'Lightning Charger': 'tapCreature()',
-            'Moonlight Flash': 'tapCreature();tapCreature()',
+            'Moonlight Flash': 'tapCreature(2)',
             'Dracobarrier': 'tapCreature()',
-            'Clone Factory': 'fromMana();fromMana()',
-            'Mystic Dreamscape': 'fromMana();fromMana();fromMana()',
+            'Clone Factory': 'fromMana(2)',
+            'Mystic Dreamscape': 'fromMana(3)',
             'Boomerang Comet': 'fromMana();toMana(card)',
             'Pixie Cocoon': 'fromMana();toMana(card)',
             'Logic Sphere': 'fromManaSpell()',
@@ -146,7 +147,8 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Spiral Lance': 'gear(bounce);',
             'Wave Rifle': 'gear(bounce);',
             'Screw Rocket': 'gear(kill);',
-            'Drill Bowgun': 'gear(kill);'
+            'Drill Bowgun': 'gear(kill);',
+            'Valiant Spark': 'if metamorph(): tapCreature(1,True) else: tapCreature()'
     }
 
 # These effects trigger when creatures are destroyed
@@ -238,59 +240,55 @@ def sacrifice(power = float('inf'), count = 1):
 		banish(choice)
     
 def bounce(count = 1):
-	mute()
-	for i in range(0,count):
-		cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
-		if len(cardList)==0: return
-		choice = askCard(cardList,'Choose a Creature to return to Hand')
-		if type(choice) is not Card: return
+        mute()
+        for i in range(0,count):
+                cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
+                if len(cardList)==0:
+                        return
+                choice = askCard(cardList,'Choose a Creature to return to Hand')
+                if type(choice) is not Card:
+                        return
                 if choice.owner==me:
                         toHand(choice)
                 else:
                         remoteCall(choice.owner,"toHand",choice)
-
-def tapCreature():
-    mute()
-    cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
-    if len(cardList)==0:
-        return
-    choice = askCard(cardList, 'Choose a Creature to tap')
-    if type(choice) is not Card:
-        return
-    remoteCall(choice.owner,"tap",choice)
     
-def gear(str):
-	mute()
-	if str == 'kill':
-		cardList = [card for card in table if isGear(card) and not card.owner==me]
-		if len(cardList)==0:
-			return
-		choice = askCard(cardList, 'Choose a Cross Gear to send to Graveyard')
-		if type(choice) is not Card:
-			return
-		remoteCall(choice.owner,"banish",choice)	
-	elif str == 'bounce':
-		cardList = [card for card in table if isGear(card)]
-		if len(cardList)==0:
-			return
-		choice = askCard(cardList, 'Choose a Cross Gear to send to Hand')
-		if type(choice) is not Card:
-			return
-		if choice.owner==me:
-			toHand(choice)
-		else:
-			remoteCall(choice.owner,"toHand",choice)
-	elif str == 'mana':
-                cardList = [card for card in table if isGear(card)]
-		if len(cardList)==0:
-			return
-		choice = askCard(cardList, 'Choose a Cross Gear to send to Mana')
-		if type(choice) is not Card:
-			return
-		if choice.owner==me:
-			toHand(choice)
-		else:
-			remoteCall(choice.owner,"toMana",choice)
+def gear(str):        
+    mute()
+    if str == 'kill':
+        cardList = [card for card in table if isGear(card)
+                    and not card.owner == me]
+        if len(cardList) == 0:
+            return
+        choice = askCard(cardList,
+                         'Choose a Cross Gear to send to Graveyard')
+        if type(choice) is not Card:
+            return
+        remoteCall(choice.owner, 'banish', choice)
+    elif str == 'bounce':
+        cardList = [card for card in table if isGear(card)]
+        if len(cardList) == 0:
+            return
+        choice = askCard(cardList, 'Choose a Cross Gear to send to Hand'
+                         )
+        if type(choice) is not Card:
+            return
+        if choice.owner == me:
+            toHand(choice)
+        else:
+            remoteCall(choice.owner, 'toHand', choice)
+    elif str == 'mana':
+        cardList = [card for card in table if isGear(card)]
+        if len(cardList) == 0:
+            return
+        choice = askCard(cardList, 'Choose a Cross Gear to send to Mana'
+                         )
+        if type(choice) is not Card:
+            return
+        if choice.owner == me:
+            toHand(choice)
+        else:
+            remoteCall(choice.owner, 'toMana', choice)
 
 def sendToShields():
 	mute()
@@ -310,19 +308,29 @@ def sendToMana():
 		if type(choice) is not Card: return
 		remoteCall(choice.owner,"toMana",choice)
 
-def tapCreature(count = 1, includeMyCreatures = False):
-	mute()
-	for i in range(0, count):
-		if includeMyCreatures == True: 
-			cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
-		else:
-			cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
-		if len(cardList)==0:
-			return
-		choice = askCard(cardList, 'Choose a Creature to tap')
-		if type(choice) is not Card:
-			return
-		remoteCall(choice.owner,"tap",choice)
+def tapCreature(count = 1, targetALL = False, includeOwn = False):
+    mute()
+    if targetALL:
+        if includeOwn == True: 
+            cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
+        else:
+            cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
+        if len(cardList)==0:
+            return
+        for card in cardList:
+            remoteCall(choice.owner,"tap",choice)
+    else:
+        for i in range(0,count):
+            if includeOwn == True: 
+                cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
+            else:
+                cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
+            if len(cardList)==0:
+                return
+            choice = askCard(cardList, 'Choose a Creature to tap')
+            if type(choice) is not Card:
+                return
+            remoteCall(choice.owner,"tap",choice)
 
 #End of Automation Code
 
@@ -380,10 +388,13 @@ def isShield(card):
         return False
 
 def metamorph():
-	mute()
-	cardList = [card for card in table if isMana(card) and card.owner==me]
-    	if len(cardList)<7: return False;	
-    	else: return True;
+    mute()
+    cardList = [card for card in table if isMana(card) and card.owner== me]
+    if len(cardList) < 7:
+        return False
+    else:
+        return True
+
 
 def align():
     mute()
@@ -560,25 +571,28 @@ def banishALL(group, condition = False, x = 0, y = 0):
 			exec(onDestroy[cardToBeSaved.name])
 
 def shuffle(group, x = 0, y = 0):
-	mute()
-	if len(group)==0:return
-	for card in group:
-		if card.isFaceUp:
-			card.isFaceUp = False
-	group.shuffle()
-	notify("{} shuffled their {}".format(me, group.name))
+    mute()
+    if len(group)==0:return
+    for card in group:
+        if card.isFaceUp:
+            card.isFaceUp = False
+    group.shuffle()
+    notify("{} shuffled their {}".format(me, group.name))
 
-def draw(group, conditional = False, x = 0, y = 0):
-	mute()
-	if len(group) == 0: return
-	if conditional == True:
-		choiceList = ['Yes', 'No']
-		colorsList = ['#FF0000', '#FF0000']
-		choice = askChoice("Draw a card?", choiceList, colorsList)
-		if choice == 0: return 
-	card = group[0]
-	card.moveTo(card.owner.hand)
-	notify("{} draws a card.".format(me))
+def draw(group, conditional = False, count = 1, x = 0, y = 0):
+    mute()
+    for i in range(0,count):
+        if len(group) == 0:
+            return
+        if conditional == True:
+            choiceList = ['Yes', 'No']
+            colorsList = ['#FF0000', '#FF0000']
+            choice = askChoice("Draw a card?", choiceList, colorsList)
+            if choice == 0:
+                return 
+        card = group[0]
+        card.moveTo(card.owner.hand)
+        notify("{} draws a card.".format(me))
 
 def drawX(group, x = 0, y = 0):
     if len(group) == 0: return

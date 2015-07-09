@@ -649,6 +649,7 @@ def search(group, count = 1, TypeFilter = "ALL" , CivFilter = "ALL", RaceFilter 
 	mute()
 	if len(group) == 0: return
 	for i in range(0,count):
+		cardsInGroup = [card for card in group]
 		if TypeFilter != "ALL":
 			cardsInGroup_Type_Filtered = [card for card in group if re.search(TypeFilter,card.Type)]
 		else:
@@ -661,10 +662,15 @@ def search(group, count = 1, TypeFilter = "ALL" , CivFilter = "ALL", RaceFilter 
 			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered if re.search(RaceFilter,card.properties['Race'])]
 		else:
 			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
-		if len(cardsInGroup_CivTypeandRace_Filtered) == 0: return
-		choice = askCard(cardsInGroup_CivTypeandRace_Filtered, 'Search card to take to hand (1 at a time)')
-		if type(choice) is not Card: break
-		toHand(choice, show)
+		while (True):
+			choice = askCard(cardsInGroup, 'Search card to take to hand (1 at a time)')
+			if type(choice) is not Card: 
+				group.shuffle()
+				notify("{} finishes searching his/her {}.".format(me, group.name))
+				return
+			if choice in cardsInGroup_CivTypeandRace_Filtered:
+				toHand(choice, show)
+				break
 	group.shuffle()
 	notify("{} finishes searching his/her {}.".format(me, group.name))
 

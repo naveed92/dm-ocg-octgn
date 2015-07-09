@@ -81,14 +81,15 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Apocalypse Day': 'banishALL(table, len([card for card in table if isCreature(card)])>5)',
             'Boomerang Comet': 'fromMana(); toMana(card)',
             'Brain Serum': 'draw(me.Deck, False, 2)',
-            'Chains of Sacrifice': 'kill(2); sacrifice()',
+            'Chains of Sacrifice': 'kill(float(\'inf\'),"All",2); sacrifice()',
             'Clone Factory': 'fromMana(2)',
             'Corpse Charger': 'search(me.piles[\'Graveyard\'], 1, "Creature)',
             'Crimson Hammer': 'kill(2000)',
             'Cyber Brain': 'draw(me.Deck, False, 3)',
             'Crystal Memory': 'search(me.Deck, 1, "ALL", "ALL", "ALL", False)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
             'Dark Reversal': 'search(me.piles[\'Graveyard\'], 1, "Creature")',
-            'Death Smoke': 'kill()',
+            'Death Smoke': 'kill(float(\'inf\'),"Untap")',
+            'Death Chaser': 'kill(float(\'inf\'),"Untap")',
             'Dimension Gate': 'search(me.Deck, 1, "Creature")',
             'Dracobarrier': 'tapCreature()',
             'Drill Bowgun': 'gear("kill");',
@@ -116,6 +117,7 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Natural Snare': 'sendToMana()',
             'Phantom Dragon\'s Flame': 'kill(2000)',
             'Pixie Cocoon': 'fromMana(1, "Creature");toMana(card)',
+            'Phantasm Clutch': 'kill(float(\'inf\'),"Tap")',
             'Punish Hold': 'tapCreature(2)',
             'Purgatory Force': 'search(me.piles[\'Graveyard\'], 2, "Creature")',
             'Reap and Sow': 'mana(me.Deck)',
@@ -190,7 +192,7 @@ def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL
 		else:
 			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
 		if len(cardsInGroup_CivTypeandRace_Filtered) == 0: return
-		choice = askCard(cardsInGroup_CivTypeandRace_Filtered, 'Choose a Card to return to hand from the Mana Zone','Mana Zone')
+		choice = askCard(cardsInGroup_CivTypeandRace_Filtered, 'Choose a Card from the Mana Zone','Mana Zone')
 		if type(choice) is not Card: break
 		if toGrave == True: banish(choice)
 		else: toHand(choice, show)
@@ -205,17 +207,22 @@ def fromGrave():
     notify("{} looks at their Graveyard.".format(me))
     me.piles['Graveyard'].lookAt(-1)
 
-def kill(power = float('inf'), count = 1):
-	mute()
-	for i in range(0, count):
-		cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
-		cardList = [card for card in cardList if int(card.Power) <= power]
-		if len(cardList)==0:
-			return    
-		choice = askCard(cardList, 'Choose a Creature to destroy')
-		if type(choice) is not Card:
-			return
-		remoteCall(choice.owner,"banish",choice)
+def kill(power = float('inf'), filter='All', count = 1):
+    mute()
+    for i in range(0, count):
+        cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type and int(card.Power) <= power)]
+        if filter=='All':
+            cardListFiltered = cardList
+        if filter=='Untap':
+            cardListFiltered = [card for card in cardList if card.orientation == Rot0]
+        if filter=='Tap':
+            cardListFiltered = [card for card in cardList if card.orientation == Rot90]
+        if len(cardListFiltered)==0:
+                return    
+        choice = askCard(cardListFiltered, 'Choose a Creature to destroy')
+        if type(choice) is not Card:
+                return
+        remoteCall(choice.owner,"banish",choice)
 
 def sacrifice(power = float('inf'), count = 1):
 	mute()
@@ -250,8 +257,7 @@ def gear(str):
                     and not card.owner == me]
         if len(cardList) == 0:
             return
-        choice = askCard(cardList,
-                         'Choose a Cross Gear to send to Graveyard')
+        choice = askCard(cardList,'Choose a Cross Gear to send to Graveyard')
         if type(choice) is not Card:
             return
         remoteCall(choice.owner, 'banish', choice)
@@ -259,8 +265,7 @@ def gear(str):
         cardList = [card for card in table if isGear(card)]
         if len(cardList) == 0:
             return
-        choice = askCard(cardList, 'Choose a Cross Gear to send to Hand'
-                         )
+        choice = askCard(cardList, 'Choose a Cross Gear to send to Hand')
         if type(choice) is not Card:
             return
         if choice.owner == me:
@@ -271,8 +276,7 @@ def gear(str):
         cardList = [card for card in table if isGear(card)]
         if len(cardList) == 0:
             return
-        choice = askCard(cardList, 'Choose a Cross Gear to send to Mana'
-                         )
+        choice = askCard(cardList, 'Choose a Cross Gear to send to Mana')
         if type(choice) is not Card:
             return
         if choice.owner == me:

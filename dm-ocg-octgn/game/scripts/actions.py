@@ -35,6 +35,7 @@ onSummon = {
                 'Factory Shell Q': 'search(me.Deck, 1, "ALL", "ALL", "Survivor")',
                 'Fighter Dual Fang': 'mana(me.Deck,2)',
                 'Fonch, the Oracle': 'tapCreature()',
+                'Fortress Shell': 'destroyMana(2)',
                 'Forbos, Sanctum Guardian Q': 'search(me.Deck, 1, "Spell")',
                 'Funky Wizard': 'draw(me.Deck, True);',
                 'Gardner, the Invoked': 'gear("mana")',
@@ -65,6 +66,7 @@ onSummon = {
                 'Spiritual Star Dragon': 'fromDeck()',
                 'Splash Zebrafish': 'fromMana()',
                 'Syforce, Aurora Elemental': 'fromMana(1,"Spell")',
+                'Terradragon Zalberg': 'destroyMana(2)',
                 'Thorny Mandra': 'fromGrave()',
                 'Thrash Crawler': 'fromMana()',
                 'Torpedo Cluster': 'fromMana()',
@@ -107,7 +109,8 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Lightning Charger': 'tapCreature()',
             'Logic Cube': 'search(me.Deck, 1, "Spell")',
             'Logic Sphere': 'fromMana(1, "Spell")',
-            'Martial Law': 'gear("kill");',
+            'Martial Law': 'gear("kill")',
+            'Mana Crisis': 'destroyMana',
             'Miraculous Rebirth': 'kill(5000);fromDeck()',
             'Miraculous Snare': 'sendToShields()',
             'Moonlight Flash': 'tapCreature(2)',
@@ -120,7 +123,7 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Phantasm Clutch': 'kill("ALL","Tap")',
             'Punish Hold': 'tapCreature(2)',
             'Purgatory Force': 'search(me.piles["Graveyard"], 2, "Creature")',
-            'Reap and Sow': 'mana(me.Deck)',
+            'Reap and Sow': 'mana(me.Deck);destroyMana()',
             'Riptide Charger': 'bounce()',
             'Seven\'s Tower': 'mana(me.Deck,3) if metamorph() else mana(me.Deck)',
             'Solar Ray': 'tapCreature()',
@@ -252,6 +255,17 @@ def kill(powerFilter = 'ALL', tapFilter='ALL', civFilter='ALL', count = 1, targe
         else:
             remoteCall(choice.owner,"banish",choice)
 
+def destroyMana(count = 1):
+    mute()
+    for i in range(0,count):
+        cardList = [card for card in table if isMana(card) and not card.owner==me]
+        if len(cardList)==0:
+            return
+        choice = askCard(cardList, 'Choose a Mana Card to destroy')
+        if type(choice) is not Card:
+            return        
+        remoteCall(choice.owner,"banish",choice)
+        
 def fromDeck():
     mute()
     notify("{} looks at their Deck.".format(me))

@@ -80,12 +80,15 @@ onSummon = {
 
 # These effects are triggered when the corresponding spell is cast
 onCast = {  'Abduction Charger': 'bounce(2)',
-            'Apocalypse Day': 'banishALL(table, len([card for card in table if isCreature(card)])>5)',
+            'Apocalypse Day': 'banishAll(table, len([card for card in table if isCreature(card)])>5)',
+            'Blizzard of Spears': 'banishAll(table, True, 4000)',
+            'Burst Shot': 'banishAll(table, True, 4000)',
             'Boomerang Comet': 'fromMana(); toMana(card)',
             'Brain Serum': 'draw(me.Deck, False, 2)',
+            'Cannonball Sling': 'kill(6000) if metamorph() else kill(2000)',
             'Chains of Sacrifice': 'kill("ALL","ALL","ALL",2); sacrifice()',
             'Clone Factory': 'fromMana(2)',
-            'Corpse Charger': 'search(me.piles["Graveyard"]), 1, "Creature)',
+            'Corpse Charger': 'search(me.piles["Graveyard"], 1, "Creature")',
             'Crimson Hammer': 'kill(2000)',
             'Cyber Brain': 'draw(me.Deck, False, 3)',
             'Crystal Memory': 'search(me.Deck, 1, "ALL", "ALL", "ALL", False)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
@@ -254,6 +257,32 @@ def kill(powerFilter = 'ALL', tapFilter='ALL', civFilter='ALL', count = 1, targe
             banish(choice)
         else:
             remoteCall(choice.owner,"banish",choice)
+
+def banishAll(group, condition = False, powerFilter = 'ALL'):
+	mute()
+	if powerFilter == 'ALL':
+                powerfilter = float('inf')
+	if condition == False: return
+	cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter]
+	if len(cardList)==0: return
+	for card in cardList:
+		cardToBeSaved = card
+		possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]
+		if len(possibleSavers) > 0:
+			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(cardToBeSaved.Name)):
+				choice = askCard(possibleSavers, 'Choose Saver to banish')
+				if type(choice) is Card:
+					toDiscard(choice)
+					cardList.remove(choice)
+					cardList = [card for card in cardList]
+					notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
+					continue
+		if cardToBeSaved.owner == me:   
+                        toDiscard(cardToBeSaved)
+                        if cardToBeSaved.name in onDestroy:
+                            exec(onDestroy[cardToBeSaved.name])
+                else :
+                        remoteCall(cardToBeSaved.owner,"banish",cardToBeSaved)
 
 def destroyMana(count = 1):
     mute()
@@ -600,30 +629,6 @@ def banish(card, x = 0, y = 0):
 		toDiscard(cardToBeSaved)
 		if cardToBeSaved.name in onDestroy:
 			exec(onDestroy[cardToBeSaved.name])
-
-def banishALL(group, condition = False, x = 0, y = 0):
-	mute()
-	if condition == False: return
-	cardList = [card for card in group if isCreature(card)]
-	if len(cardList)==0: return
-	for card in cardList:
-		cardToBeSaved = card
-		possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]
-		if len(possibleSavers) > 0:
-			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(cardToBeSaved.Name)):
-				choice = askCard(possibleSavers, 'Choose Saver to banish')
-				if type(choice) is Card:
-					toDiscard(choice)
-					cardList.remove(choice)
-					cardList = [card for card in cardList]
-					notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
-					continue
-		if cardToBeSaved.owner == me:   
-                        toDiscard(cardToBeSaved)
-                        if cardToBeSaved.name in onDestroy:
-                            exec(onDestroy[cardToBeSaved.name])
-                else :
-                        remoteCall(choice.owner,"banish",choice)
 
 def shuffle(group, x = 0, y = 0):
     mute()

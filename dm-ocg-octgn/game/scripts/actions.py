@@ -247,7 +247,10 @@ def kill(powerFilter = 'ALL', tapFilter='ALL', civFilter='ALL', count = 1, targe
         choice = askCard(cardList, 'Choose a Creature to destroy')
         if type(choice) is not Card:
             return
-        remoteCall(choice.owner,"banish",choice)
+        if choice.owner == me:
+            banish(choice)
+        else:
+            remoteCall(choice.owner,"banish",choice)
 
 def fromDeck():
     mute()

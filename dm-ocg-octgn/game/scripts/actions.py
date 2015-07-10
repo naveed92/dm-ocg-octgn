@@ -14,7 +14,7 @@ shieldMarker = ('Shield', 'a4ba770e-3a38-4494-b729-ef5c89f561b7')
 
 # These effects activate when the corresponding creature is summoned
 onSummon = {
-                'Alshia, Spirit of Novas': 'search(me.piles[\'Graveyard\'], 1, "Spell")',
+                'Alshia, Spirit of Novas': 'search(me.piles["Graveyard"], 1, "Spell")',
                 'Akashic Second, Electro-Spirit': 'draw(me.Deck, True);',
                 'Aqua Bouncer': 'bounce()',
                 'Aqua Deformer': 'fromMana(2)',#; remoteCall(not card.owner==me,"fromMana",2)',
@@ -38,8 +38,8 @@ onSummon = {
                 'Forbos, Sanctum Guardian Q': 'search(me.Deck, 1, "Spell")',
                 'Funky Wizard': 'draw(me.Deck, True);',
                 'Gardner, the Invoked': 'gear("mana")',
-                'Gigargon': 'search(me.piles[\'Graveyard\'], 2, "Creature")',
-                'Grave Worm Q': 'search(me.piles[\'Graveyard\'], 1, "ALL", "ALL", "Survivor")',
+                'Gigargon': 'search(me.piles["Graveyard"], 2, "Creature")',
+                'Grave Worm Q': 'search(me.piles["Graveyard"], 1, "ALL", "ALL", "Survivor")',
                 'Gyulcas, Sage of the East Wind': 'search(me.Deck, 1, "Cross Gear")',
                 'Hawkeye Lunatron': 'search(me.Deck, 1, "ALL", "ALL", "ALL", False)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
                 'Hurlosaur': 'kill(1000)',
@@ -49,10 +49,10 @@ onSummon = {
                 'Magris, Vizier of Magnetism': 'draw(me.Deck, True);',
                 'Meteosaur': 'kill(2000)',
                 'Miele, Vizier of Lightning': 'tapCreature()',
-                'Moors, the Dirty Digger Puppet': 'search(me.piles[\'Graveyard\'])',
+                'Moors, the Dirty Digger Puppet': 'search(me.piles["Graveyard"])',
                 'Niofa, Horned Protector': 'search(me.Deck, 1, "ALL", "Nature")',
                 'Ochappi, Pure Hearted Faerie': 'fromGrave()',
-                'Phal Eega, Dawn Guardian': 'search(me.piles[\'Graveyard\'], 1, "Spell")',
+                'Phal Eega, Dawn Guardian': 'search(me.piles["Graveyard"], 1, "Spell")',
                 'Rayla, Truth Enforcer': 'search(me.Deck, 1, "Spell")',
                 'Rom, Vizier of Tendrils': 'tapCreature()',
                 'Rothus, the Traveler': 'sacrifice()',
@@ -81,15 +81,15 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Apocalypse Day': 'banishALL(table, len([card for card in table if isCreature(card)])>5)',
             'Boomerang Comet': 'fromMana(); toMana(card)',
             'Brain Serum': 'draw(me.Deck, False, 2)',
-            'Chains of Sacrifice': 'kill(float(\'inf\'),"All",2); sacrifice()',
+            'Chains of Sacrifice': 'kill("ALL","ALL","ALL",2); sacrifice()',
             'Clone Factory': 'fromMana(2)',
-            'Corpse Charger': 'search(me.piles[\'Graveyard\'], 1, "Creature)',
+            'Corpse Charger': 'search(me.piles["Graveyard"], 1, "Creature)',
             'Crimson Hammer': 'kill(2000)',
             'Cyber Brain': 'draw(me.Deck, False, 3)',
             'Crystal Memory': 'search(me.Deck, 1, "ALL", "ALL", "ALL", False)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
-            'Dark Reversal': 'search(me.piles[\'Graveyard\'], 1, "Creature")',
-            'Death Smoke': 'kill(float(\'inf\'),"Untap")',
-            'Death Chaser': 'kill(float(\'inf\'),"Untap")',
+            'Dark Reversal': 'search(me.piles["Graveyard"], 1, "Creature")',
+            'Death Smoke': 'kill("ALL","Untap")',
+            'Death Chaser': 'kill("ALL","Untap")',
             'Dimension Gate': 'search(me.Deck, 1, "Creature")',
             'Dracobarrier': 'tapCreature()',
             'Drill Bowgun': 'gear("kill");',
@@ -111,15 +111,15 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Miraculous Rebirth': 'kill(5000);fromDeck()',
             'Miraculous Snare': 'sendToShields()',
             'Moonlight Flash': 'tapCreature(2)',
-            'Morbid Medicine': 'search(me.piles[\'Graveyard\'], 2, "Creature")',
+            'Morbid Medicine': 'search(me.piles["Graveyard"], 2, "Creature")',
             'Mystic Dreamscape': 'fromMana(3)',
             'Mystic Inscription': 'shields(me.Deck)',
             'Natural Snare': 'sendToMana()',
             'Phantom Dragon\'s Flame': 'kill(2000)',
             'Pixie Cocoon': 'fromMana(1, "Creature");toMana(card)',
-            'Phantasm Clutch': 'kill(float(\'inf\'),"Tap")',
+            'Phantasm Clutch': 'kill("ALL","Tap")',
             'Punish Hold': 'tapCreature(2)',
-            'Purgatory Force': 'search(me.piles[\'Graveyard\'], 2, "Creature")',
+            'Purgatory Force': 'search(me.piles["Graveyard"], 2, "Creature")',
             'Reap and Sow': 'mana(me.Deck)',
             'Riptide Charger': 'bounce()',
             'Seven\'s Tower': 'mana(me.Deck,3) if metamorph() else mana(me.Deck)',
@@ -152,7 +152,7 @@ onDestroy = {'Akashic First, Electro-Dragon': 'toHand(card)',
              'Aqua Skydiver': 'toHand(card)',
              'Aqua Soldier': 'toHand(card)',
              'Asylum, the Dragon Paladin': 'toShields(card)',
-             'Bat Doctor, Shadow of Undeath': 'search(me.piles[\'Graveyard\'], 1, "Creature")',
+             'Bat Doctor, Shadow of Undeath': 'search(me.piles["Graveyard"], 1, "Creature")',
              'Bone Piercer': 'fromMana(1, "Creature")',
              'Cetibols': 'draw(me.Deck, True)',
              'Chillias, the Oracle': 'toHand(card)',
@@ -165,7 +165,7 @@ onDestroy = {'Akashic First, Electro-Dragon': 'toHand(card)',
              'Jil Warka, Time Guardian': 'tapCreature(2)',
              'Mighty Shouter': 'toMana(card)',
              'Ouks, Vizier of Restoration': 'toShields(card)',
-             'Pharzi, the Oracle': 'search(me.piles[\'Graveyard\'], 1, "Spell")',
+             'Pharzi, the Oracle': 'search(me.piles["Graveyard"], 1, "Spell")',
              'Proxion, the Prophet': 'toHand(card)',
              'Shaman Broccoli': 'toMana(card)',
              'Shout Corn': 'toMana(card)',
@@ -226,6 +226,29 @@ def search(group, count = 1, TypeFilter = "ALL" , CivFilter = "ALL", RaceFilter 
 	group.shuffle()
 	notify("{} finishes searching his/her {}.".format(me, group.name))
 
+def kill(powerFilter = 'ALL', tapFilter='ALL', civFilter='ALL', count = 1, targetOwn = False):
+    mute()
+    if powerFilter == 'ALL':
+        powerFilter = float('inf')
+    for i in range(0, count):
+        if targetOwn:
+            cardList = [card for card in table if isCreature(card) and int(card.Power) <= powerFilter]
+        else:
+            cardList = [card for card in table if isCreature(card) and not card.owner==me and int(card.Power) <= powerFilter]
+        if tapFilter != 'ALL':
+            if tapFilter == 'Untap':
+                cardList = [card for card in cardList if card.orientation == Rot0]
+            if tapFilter == 'Tap':
+                cardList = [card for card in cardList if card.orientation == Rot90]
+        if civFilter != "ALL":
+            cardList = [card for card in cardList if re.search(civFilter,card.Civilization)]
+        if len(cardList)==0:
+            return    
+        choice = askCard(cardList, 'Choose a Creature to destroy')
+        if type(choice) is not Card:
+            return
+        remoteCall(choice.owner,"banish",choice)
+
 def fromDeck():
     mute()
     notify("{} looks at their Deck.".format(me))
@@ -235,23 +258,6 @@ def fromGrave():
     mute()
     notify("{} looks at their Graveyard.".format(me))
     me.piles['Graveyard'].lookAt(-1)
-
-def kill(power = float('inf'), filter='All', count = 1):
-    mute()
-    for i in range(0, count):
-        cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type and int(card.Power) <= power)]
-        if filter=='All':
-            cardListFiltered = cardList
-        if filter=='Untap':
-            cardListFiltered = [card for card in cardList if card.orientation == Rot0]
-        if filter=='Tap':
-            cardListFiltered = [card for card in cardList if card.orientation == Rot90]
-        if len(cardListFiltered)==0:
-                return    
-        choice = askCard(cardListFiltered, 'Choose a Creature to destroy')
-        if type(choice) is not Card:
-                return
-        remoteCall(choice.owner,"banish",choice)
 
 def sacrifice(power = float('inf'), count = 1):
 	mute()

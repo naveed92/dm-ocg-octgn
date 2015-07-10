@@ -85,7 +85,7 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Brain Serum': 'draw(me.Deck, False, 2)',
             'Chains of Sacrifice': 'kill("ALL","ALL","ALL",2); sacrifice()',
             'Clone Factory': 'fromMana(2)',
-            'Corpse Charger': 'search(me.piles["Graveyard"], 1, "Creature)',
+            'Corpse Charger': 'search(me.piles["Graveyard"]), 1, "Creature)',
             'Crimson Hammer': 'kill(2000)',
             'Cyber Brain': 'draw(me.Deck, False, 3)',
             'Crystal Memory': 'search(me.Deck, 1, "ALL", "ALL", "ALL", False)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
@@ -618,9 +618,12 @@ def banishALL(group, condition = False, x = 0, y = 0):
 					cardList = [card for card in cardList]
 					notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
 					continue
-		toDiscard(cardToBeSaved)
-		if cardToBeSaved.name in onDestroy:
-			exec(onDestroy[cardToBeSaved.name])
+		if cardToBeSaved.owner == me:   
+                        toDiscard(cardToBeSaved)
+                        if cardToBeSaved.name in onDestroy:
+                            exec(onDestroy[cardToBeSaved.name])
+                else :
+                        remoteCall(choice.owner,"banish",choice)
 
 def shuffle(group, x = 0, y = 0):
     mute()

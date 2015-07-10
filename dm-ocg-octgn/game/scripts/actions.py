@@ -176,7 +176,7 @@ onDestroy = {'Akashic First, Electro-Dragon': 'toHand(card)',
 
 # Functions used in the Automation dictionaries.
 
-def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL", show = False, toGrave = False):
+def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL", show = True, toGrave = False):
 	mute()
 	for i in range(0,count):
 		if TypeFilter != "ALL":
@@ -481,24 +481,28 @@ def align():
             Card(evolvedCard).moveToTable(x, y - 10*count*playerside)
             Card(evolvedCard).sendToBack()
 
-
 def clear(card, x = 0, y = 0):
     mute()
     card.target(False)
 
 def setup(group, x = 0, y = 0):
     mute()
-    ## cancel out of setup if any of these conditions occur
-    for c in table: ## scan the table for cards you own or control
-        if c.controller == me or c.owner == me:
+    cardsInTable = [c for c in table if c.controller == me or c.owner == me]
+    cardsInHand = [c for c in me.hand]
+    cardsInGrave = [c for c in me.piles['Graveyard']]
+    if cardsInTable or cardsInHand or cardsInGrave:
+        if confirm("Are you sure you want to setup battlezone? Current setup will be lost"):
+            for card in cardsInTable:
+                card.moveTo(me.Deck)
+            for card in cardsInHand:
+                card.moveTo(me.Deck)
+            for card in cardsInGrave:
+                card.moveTo(me.Deck)
+        else:
             return
-    for c in me.hand: ## cancel if you've already drawn cards
-        return
-    for c in me.piles['Graveyard']: ##cancel if you have cards in Discard
-        return
     if len(me.Deck) < 10: #We need at least 10 cards to properly setup the game
+        whisper("Not enough cards in deck")
         return
-    #####
     me.setGlobalVariable("shieldCount", "0")
     me.Deck.shuffle()
     rnd(1,10)
@@ -506,7 +510,7 @@ def setup(group, x = 0, y = 0):
     for card in me.Deck.top(5): card.moveTo(card.owner.hand)
     align()
     notify("{} sets up their battle zone.".format(me))
-
+            
 def rollDie(group, x = 0, y = 0):
     mute()
     global diesides

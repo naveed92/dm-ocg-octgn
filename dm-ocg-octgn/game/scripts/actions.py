@@ -197,6 +197,35 @@ def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL
 		if toGrave == True: banish(choice)
 		else: toHand(choice, show)
 
+def search(group, count = 1, TypeFilter = "ALL" , CivFilter = "ALL", RaceFilter = "ALL", show = True, x = 0, y = 0):
+	mute()
+	if len(group) == 0: return
+	for i in range(0,count):
+		cardsInGroup = [card for card in group]
+		if TypeFilter != "ALL":
+			cardsInGroup_Type_Filtered = [card for card in group if re.search(TypeFilter,card.Type)]
+		else:
+			cardsInGroup_Type_Filtered = [card for card in group]
+		if CivFilter != "ALL":
+			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered if re.search(CivFilter,card.properties['Civilization'])]
+		else:
+			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered]
+		if RaceFilter != "ALL":
+			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered if re.search(RaceFilter,card.properties['Race'])]
+		else:
+			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
+		while (True):
+			choice = askCard(cardsInGroup, 'Search card to take to hand (1 at a time)')
+			if type(choice) is not Card: 
+				group.shuffle()
+				notify("{} finishes searching his/her {}.".format(me, group.name))
+				return
+			if choice in cardsInGroup_CivTypeandRace_Filtered:
+				toHand(choice, show)
+				break
+	group.shuffle()
+	notify("{} finishes searching his/her {}.".format(me, group.name))
+
 def fromDeck():
     mute()
     notify("{} looks at their Deck.".format(me))
@@ -357,14 +386,14 @@ def moveCards(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, 
 
 def isCreature(card):
     mute()
-    if card in table and card.isFaceUp and not card.orientation == Rot180 and not card.orientation == Rot270:
+    if card in table and card.isFaceUp and not card.orientation == Rot180 and not card.orientation == Rot270 and re.search("Creature", card.Type):
         return True
     else:
         return False
 
 def isGear(card):
     mute()
-    if card in table and card.isFaceUp and card.orientation == Rot0 and re.search("Cross Gear", card.Type):
+    if card in table and card.isFaceUp and not card.orientation == Rot180 and not card.orientation == Rot270 and re.search("Cross Gear", card.Type):
         return True
     else:
         return False
@@ -644,35 +673,6 @@ def shields(group, count = 1, conditional = False, x = 0, y = 0):
 		card = group[0]
 		toShields(card, notifymute = True)
 		notify("{} sets top card of {} as shield.".format(me, group.name))
-
-def search(group, count = 1, TypeFilter = "ALL" , CivFilter = "ALL", RaceFilter = "ALL", show = True, x = 0, y = 0):
-	mute()
-	if len(group) == 0: return
-	for i in range(0,count):
-		cardsInGroup = [card for card in group]
-		if TypeFilter != "ALL":
-			cardsInGroup_Type_Filtered = [card for card in group if re.search(TypeFilter,card.Type)]
-		else:
-			cardsInGroup_Type_Filtered = [card for card in group]
-		if CivFilter != "ALL":
-			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered if re.search(CivFilter,card.properties['Civilization'])]
-		else:
-			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered]
-		if RaceFilter != "ALL":
-			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered if re.search(RaceFilter,card.properties['Race'])]
-		else:
-			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
-		while (True):
-			choice = askCard(cardsInGroup, 'Search card to take to hand (1 at a time)')
-			if type(choice) is not Card: 
-				group.shuffle()
-				notify("{} finishes searching his/her {}.".format(me, group.name))
-				return
-			if choice in cardsInGroup_CivTypeandRace_Filtered:
-				toHand(choice, show)
-				break
-	group.shuffle()
-	notify("{} finishes searching his/her {}.".format(me, group.name))
 
 def toMana(card, x = 0, y = 0, notifymute = False):
     mute()

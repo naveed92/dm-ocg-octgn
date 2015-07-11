@@ -259,30 +259,30 @@ def kill(powerFilter = 'ALL', tapFilter='ALL', civFilter='ALL', count = 1, targe
             remoteCall(choice.owner,"banish",choice)
 
 def banishAll(group, condition = False, powerFilter = 'ALL'):
-	mute()
-	if powerFilter == 'ALL':
-                powerfilter = float('inf')
-	if condition == False: return
-	cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter]
-	if len(cardList)==0: return
-	for card in cardList:
-		cardToBeSaved = card
-		possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]
-		if len(possibleSavers) > 0:
-			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(cardToBeSaved.Name)):
-				choice = askCard(possibleSavers, 'Choose Saver to banish')
-				if type(choice) is Card:
-					toDiscard(choice)
-					cardList.remove(choice)
-					cardList = [card for card in cardList]
-					notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
-					continue
-		if cardToBeSaved.owner == me:   
-                        toDiscard(cardToBeSaved)
-                        if cardToBeSaved.name in onDestroy:
-                            exec(onDestroy[cardToBeSaved.name])
-                else :
-                        remoteCall(cardToBeSaved.owner,"banish",cardToBeSaved)
+    mute()
+    if powerFilter == 'ALL':
+        powerfilter = float('inf')
+    if condition == False: return
+    cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter]
+    if len(cardList)==0: return
+    for card in cardList:
+        cardToBeSaved = card
+        possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]
+        if len(possibleSavers) > 0:
+            if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(cardToBeSaved.Name)):
+                choice = askCard(possibleSavers, 'Choose Saver to banish')
+                if type(choice) is Card:
+                    toDiscard(choice)
+                    cardList.remove(choice)
+                    cardList = [card for card in cardList]
+                    notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
+                    continue
+        if cardToBeSaved.owner == me:   
+            toDiscard(cardToBeSaved)
+            if cardToBeSaved.name in onDestroy:
+                exec(onDestroy[cardToBeSaved.name])
+        else :
+            remoteCall(cardToBeSaved.owner,"banish",cardToBeSaved)
 
 def destroyMana(count = 1):
     mute()
@@ -833,26 +833,26 @@ def toDiscard(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreE
             notify("{} discards {} from {}.".format(me, card, src.name))
 
 def toHand(card, show = True, x = 0, y = 0, alignCheck = True, ignoreEvo = False):
-	mute()
-	src = card.group
-	evolveDict = eval(me.getGlobalVariable('evolution'))
-	if ignoreEvo == False and isCreature(card) and card._id in list(itertools.chain.from_iterable(evolveDict.values())):
-		if not confirm("WARNING: There is an evolution creature on top of this card, and can not legally be banished.\nWould you like to override this?"):
-			return
-	card.moveTo(card.owner.hand)
-	if card._id in evolveDict:
-		evolvedCardList = evolveDict[card._id]
-		for evolvedCard in evolvedCardList:
-			if Card(evolvedCard) in table:
-				toHand(Card(evolvedCard), alignCheck = False, ignoreEvo = True)
-		del evolveDict[card._id]
-		me.setGlobalVariable('evolution', str(evolveDict))
-	if show == True: 
-		notify("{} moves {} to hand from {}.".format(card.owner, card, src.name))
-	else:
-		whisper("moved {} to hand from {}.".format(card, src.name))
-	if alignCheck:
-		align()
+    mute()
+    src = card.group
+    evolveDict = eval(me.getGlobalVariable('evolution'))
+    if ignoreEvo == False and isCreature(card) and card._id in list(itertools.chain.from_iterable(evolveDict.values())):
+        if not confirm("WARNING: There is an evolution creature on top of this card, and can not legally be banished.\nWould you like to override this?"):
+            return
+    card.moveTo(card.owner.hand)
+    if card._id in evolveDict:
+        evolvedCardList = evolveDict[card._id]
+        for evolvedCard in evolvedCardList:
+            if Card(evolvedCard) in table:
+                toHand(Card(evolvedCard), alignCheck = False, ignoreEvo = True)
+        del evolveDict[card._id]
+        me.setGlobalVariable('evolution', str(evolveDict))
+    if show == True: 
+        notify("{} moves {} to hand from {}.".format(me, card.name, src.name))
+    else:
+        whisper("Moved {} to hand from {}.".format(card, src.name))
+    if alignCheck:
+        align()
 
 def toDeckTop(card, x = 0, y = 0):
     mute()

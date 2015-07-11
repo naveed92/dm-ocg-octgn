@@ -604,7 +604,7 @@ def tap(card, x = 0, y = 0):
     else:
         notify('{} untaps {}.'.format(me, card))
 
-def banish(card, dest = False, x = 0, y = 0,):
+def banish(card, dest = False, x = 0, y = 0):
 	mute()
 	if isShield(card) and dest == False:
 		card.peek()

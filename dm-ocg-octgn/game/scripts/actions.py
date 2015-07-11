@@ -27,6 +27,7 @@ onSummon = {
                 'Belix, the Explorer': 'fromMana(1,"Spell")',
                 'Bronze-Arm Tribe': 'mana(me.Deck);',
                 'Chaos Worm': 'kill()',
+                'Core-Crash Lizard': 'destroyShield(True)',
                 'Craze Valkyrie, the Drastic': 'tapCreature(2)',
                 'Dandy Eggplant': 'fromDeck()',
                 'Dark Hydra, Evil Planet Lord': 'fromGrave()',
@@ -38,6 +39,7 @@ onSummon = {
                 'Fortress Shell': 'destroyMana(2)',
                 'Forbos, Sanctum Guardian Q': 'search(me.Deck, 1, "Spell")',
                 'Funky Wizard': 'draw(me.Deck, True);',
+                'Gajirabute, Vile Centurion': 'destroyShield(True)',
                 'Gardner, the Invoked': 'gear("mana")',
                 'Gigargon': 'search(me.piles["Graveyard"], 2, "Creature")',
                 'Grave Worm Q': 'search(me.piles["Graveyard"], 1, "ALL", "ALL", "Survivor")',
@@ -128,6 +130,7 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Purgatory Force': 'search(me.piles["Graveyard"], 2, "Creature")',
             'Reap and Sow': 'mana(me.Deck);destroyMana()',
             'Riptide Charger': 'bounce()',
+            'Searing Wave': 'destroyShield(False)',
             'Seven\'s Tower': 'mana(me.Deck,3) if metamorph() else mana(me.Deck)',
             'Solar Ray': 'tapCreature()',
             'Solar Trap': 'tapCreature()',
@@ -143,7 +146,7 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Tornado Flame': 'kill(4000)',
             'Ultimate Force': 'mana(me.Deck,2)',
             'Valiant Spark': 'tapCreature(1,True) if metamorph() else tapCreature()',
-            'Volcanic Arrows': 'kill(6000)',
+            'Volcanic Arrows': 'kill(6000); destroyShield(False);',
             'Volcano Charger': 'kill(2000)',
             'Wave Rifle': 'gear("bounce");',
             'Zombie Carnival': 'fromGrave()'
@@ -294,6 +297,19 @@ def destroyMana(count = 1):
         if type(choice) is not Card:
             return        
         remoteCall(choice.owner,"banish",choice)
+
+def destroyShield(owner = True):
+    	mute()
+	if owner == True:
+		cardList = [card for card in table if isShield(card) and not card.owner==me]
+    	else:
+		cardList = [card for card in table if isShield(card) and card.owner==me]
+	if len(cardList)==0:
+        	return
+    	choice = askCard(cardList, 'Choose a shield to send to graveyard')
+    	if type(choice) is not Card:
+        	return        
+    	remoteCall(choice.owner,"banish",[choice,True])
         
 def fromDeck():
     mute()
@@ -588,9 +604,9 @@ def tap(card, x = 0, y = 0):
     else:
         notify('{} untaps {}.'.format(me, card))
 
-def banish(card, x = 0, y = 0):
+def banish(card, dest = False, x = 0, y = 0):
 	mute()
-	if isShield(card):
+	if isShield(card) and dest == False:
 		card.peek()
 		rnd(1,10)
 		if re.search("{SHIELD TRIGGER}", card.Rules):
@@ -603,7 +619,7 @@ def banish(card, x = 0, y = 0):
 		shieldCard = card
 		cardsInHandWithStrikeBackAbility = [card for card in me.hand if re.search("Strike Back", card.rules)]
 		if len(cardsInHandWithStrikeBackAbility) > 0:
-			cardsInHandWithStrikeBackAbilityThatCanBeUsed = [card for card in cardsInHandWithStrikeBackAbility if re.search(card.Civilization, shieldCard.Civilization)]
+			cardsInHandWithStrikeBackAbilityThatCanBeUsed = [card for card in cardsInHandWithStrikeBackAbility if shieldCard.properties['Civilization'] == card.properties['Civilization']]
 			if len(cardsInHandWithStrikeBackAbilityThatCanBeUsed) > 0:
 				if confirm("Activate Strike Back by sending {} to the graveyard?\n\n{}".format(shieldCard.Name, shieldCard.Rules)):
 					choice = askCard(cardsInHandWithStrikeBackAbilityThatCanBeUsed, 'Choose Strike Back to activate')
@@ -616,6 +632,8 @@ def banish(card, x = 0, y = 0):
 						return
 		notify("{}'s shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
 		shieldCard.moveTo(shieldCard.owner.hand)
+	elsif isShield(card) and dest == True:
+		toDiscard(card)
 	else:
 		cardToBeSaved = card
 		possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]

@@ -300,7 +300,7 @@ def destroyMana(count = 1):
 
 def destroyShield(owner = True):
     	mute()
-	if owner = True:
+	if owner == True:
 		cardList = [card for card in table if isShield(card) and not card.owner==me]
     	else:
 		cardList = [card for card in table if isShield(card) and card.owner==me]
@@ -606,7 +606,7 @@ def tap(card, x = 0, y = 0):
 
 def banish(card, dest = False, x = 0, y = 0,):
 	mute()
-	if isShield(card) and dest = False:
+	if isShield(card) and dest == False:
 		card.peek()
 		rnd(1,10)
 		if re.search("{SHIELD TRIGGER}", card.Rules):
@@ -632,7 +632,7 @@ def banish(card, dest = False, x = 0, y = 0,):
 						return
 		notify("{}'s shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
 		shieldCard.moveTo(shieldCard.owner.hand)
-	elsif isShield(card) and dest = True:
+	elsif isShield(card) and dest == True:
 		toDiscard(card)
 	else:
 		cardToBeSaved = card

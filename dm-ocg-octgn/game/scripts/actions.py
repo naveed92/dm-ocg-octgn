@@ -14,145 +14,166 @@ shieldMarker = ('Shield', 'a4ba770e-3a38-4494-b729-ef5c89f561b7')
 
 # These effects activate when the corresponding creature is summoned
 onSummon = {
-			'Alshia, Spirit of Novas': 'search(me.piles[\'Graveyard\'], 1, "Spell")',
-			'Akashic Second, Electro-Spirit': 'draw(me.Deck, True);',
-			'Aqua Bouncer': 'bounce()',
-			'Aqua Deformer': 'fromMana(2)',#; remoteCall(not card.owner==me,"fromMana",2)',
-			'Aqua Hulcus': 'draw(me.Deck, True);',
-			'Aqua Sniper': 'bounce(2)',
-			'Aqua Surfer': 'bounce()',
-			'Armored Decimator Valkaizer': 'kill(4000)',
-			'Artisan Picora': 'fromMana(1,"ALL","ALL","ALL",False,True)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
-			'Astral Warper': 'draw(me.Deck, True);draw(me.Deck, True);draw(me.Deck, True)',
-			'Belix, the Explorer': 'fromMana(1,"Spell")',
-			'Bronze-Arm Tribe': 'mana(me.Deck);',
-			'Chaos Worm': 'kill()',
-			'Craze Valkyrie, the Drastic': 'tapCreature(2)',
-			'Dandy Eggplant': 'fromDeck()',
-			'Dark Hydra, Evil Planet Lord': 'fromGrave()',
-			'Estol, Vizier of Aqua': 'shields(me.Deck)',
-			'Evolution Totem': 'search(me.Deck, 1, "Evolution Creature")',
-			'Factory Shell Q': 'search(me.Deck, 1, "ALL", "ALL", "Survivor")',
-			'Fighter Dual Fang': 'mana(me.Deck,2)',
-			'Fonch, the Oracle': 'tapCreature()',
-			'Forbos, Sanctum Guardian Q': 'search(me.Deck, 1, "Spell")',
-			'Funky Wizard': 'draw(me.Deck, True);',
-			'Gigargon': 'search(me.piles[\'Graveyard\'], 2, "Creature")',
-			'Grave Worm Q': 'search(me.piles[\'Graveyard\'], 1, "ALL", "ALL", "Survivor")',
-			'Gyulcas, Sage of the East Wind': 'search(me.Deck, 1, "Cross Gear")',
-			'Hawkeye Lunatron': 'search(me.Deck, 1, "ALL", "ALL", "ALL", False)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
-			'Hurlosaur': 'kill(1000)',
-			'King Ripped-Hide': 'draw(me.Deck, True);draw(me.Deck, True)',
-			'Kolon, the Oracle': 'tapCreature()',
-			'Lena, Vizier of Brilliance': 'fromMana(1,"Spell")',
-			'Magris, Vizier of Magnetism': 'draw(me.Deck, True);',
-			'Meteosaur': 'kill(2000)',
-			'Miele, Vizier of Lightning': 'tapCreature()',
-			'Moors, the Dirty Digger Puppet': 'search(me.piles[\'Graveyard\'])',
-			'Niofa, Horned Protector': 'search(me.Deck, 1, "ALL", "Nature")',
-			'Ochappi, Pure Hearted Faerie': 'fromGrave()',
-			'Phal Eega, Dawn Guardian': 'search(me.piles[\'Graveyard\'], 1, "Spell")',
-			'Rayla, Truth Enforcer': 'search(me.Deck, 1, "Spell")',
-			'Rom, Vizier of Tendrils': 'tapCreature()',
-			'Rothus, the Traveler': 'sacrifice()',
-			'Rumbling Terahorn': 'search(me.Deck, 1, "Creature")',
-			'Ryokudou, the Principle Defender': 'mana(me.Deck,2);fromMana()',
-			'Scissor Scarab': 'search(1,"ALL","ALL","Giant Insect")',
-			'Shtra': 'fromMana()',#; remoteCall(not card.owner,"fromMana",1)',
-			'Skysword, the Savage Vizier': 'mana(me.Deck);shields(me.Deck)',
-			'Solidskin Fish': 'fromMana()',
-			'Spiritual Star Dragon': 'fromDeck()',
-			'Splash Zebrafish': 'fromMana()',
-			'Syforce, Aurora Elemental': 'fromMana(1,"Spell")',
-			'Thorny Mandra': 'fromGrave()',
-			'Thrash Crawler': 'fromMana()',
-			'Torpedo Cluster': 'fromMana()',
-			'Unicorn Fish': 'bounce()',
-			'Velyrika Dragon': 'search(me.Deck, 1, "ALL", "ALL", "Armored Dragon")',
-			'Whispering Totem': 'fromDeck()',
-			'Wind Axe, the Warrior Savage': 'mana(me.Deck)',
-			'Zardia, Spirit of Bloody Winds': 'shields(me.Deck)',
+                'Alshia, Spirit of Novas': 'search(me.piles["Graveyard"], 1, "Spell")',
+                'Akashic Second, Electro-Spirit': 'draw(me.Deck, True);',
+                'Aqua Bouncer': 'bounce()',
+                'Aqua Deformer': 'fromMana(2)',#; remoteCall(not card.owner==me,"fromMana",2)',
+                'Aqua Hulcus': 'draw(me.Deck, True);',
+                'Aqua Sniper': 'bounce(2)',
+                'Aqua Surfer': 'bounce()',
+                'Armored Decimator Valkaizer': 'kill(4000)',
+                'Artisan Picora': 'fromMana(1,"ALL","ALL","ALL",False,True)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
+                'Astral Warper': 'draw(me.Deck, True, 3)',
+                'Belix, the Explorer': 'fromMana(1,"Spell")',
+                'Bronze-Arm Tribe': 'mana(me.Deck);',
+                'Chaos Worm': 'kill()',
+                'Craze Valkyrie, the Drastic': 'tapCreature(2)',
+                'Dandy Eggplant': 'fromDeck()',
+                'Dark Hydra, Evil Planet Lord': 'fromGrave()',
+                'Estol, Vizier of Aqua': 'shields(me.Deck)',
+                'Evolution Totem': 'search(me.Deck, 1, "Evolution Creature")',
+                'Factory Shell Q': 'search(me.Deck, 1, "ALL", "ALL", "Survivor")',
+                'Fighter Dual Fang': 'mana(me.Deck,2)',
+                'Fonch, the Oracle': 'tapCreature()',
+                'Fortress Shell': 'destroyMana(2)',
+                'Forbos, Sanctum Guardian Q': 'search(me.Deck, 1, "Spell")',
+                'Funky Wizard': 'draw(me.Deck, True);',
+                'Gardner, the Invoked': 'gear("mana")',
+                'Gigargon': 'search(me.piles["Graveyard"], 2, "Creature")',
+                'Grave Worm Q': 'search(me.piles["Graveyard"], 1, "ALL", "ALL", "Survivor")',
+                'Gyulcas, Sage of the East Wind': 'search(me.Deck, 1, "Cross Gear")',
+                'Hawkeye Lunatron': 'search(me.Deck, 1, "ALL", "ALL", "ALL", False)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
+                'Hurlosaur': 'kill(1000)',
+                'King Ripped-Hide': 'draw(me.Deck, True, 2)',
+                'Kolon, the Oracle': 'tapCreature()',
+                'Lena, Vizier of Brilliance': 'fromMana(1,"Spell")',
+                'Magris, Vizier of Magnetism': 'draw(me.Deck, True);',
+                'Meteosaur': 'kill(2000)',
+                'Miele, Vizier of Lightning': 'tapCreature()',
+                'Moors, the Dirty Digger Puppet': 'search(me.piles["Graveyard"])',
+                'Niofa, Horned Protector': 'search(me.Deck, 1, "ALL", "Nature")',
+                'Ochappi, Pure Hearted Faerie': 'fromGrave()',
+                'Phal Eega, Dawn Guardian': 'search(me.piles["Graveyard"], 1, "Spell")',
+                'Rayla, Truth Enforcer': 'search(me.Deck, 1, "Spell")',
+                'Rom, Vizier of Tendrils': 'tapCreature()',
+                'Rothus, the Traveler': 'sacrifice()',
+                'Rumbling Terahorn': 'search(me.Deck, 1, "Creature")',
+                'Ryokudou, the Principle Defender': 'mana(me.Deck,2);fromMana()',
+                'Scissor Scarab': 'search(1,"ALL","ALL","Giant Insect")',
+				#'Shaman Totem': 'draw(me.Deck, True, len([card for card in table if card.owner==me and card.controller==me]))',
+                'Shtra': 'fromMana()',#; remoteCall(not card.owner,"fromMana",1)',
+                'Skysword, the Savage Vizier': 'mana(me.Deck);shields(me.Deck)',
+                'Solidskin Fish': 'fromMana()',
+                'Spiritual Star Dragon': 'fromDeck()',
+                'Splash Zebrafish': 'fromMana()',
+                'Syforce, Aurora Elemental': 'fromMana(1,"Spell")',
+                'Terradragon Zalberg': 'destroyMana(2)',
+                'Thorny Mandra': 'fromGrave()',
+                'Thrash Crawler': 'fromMana()',
+                'Torpedo Cluster': 'fromMana()',
+                'Unicorn Fish': 'bounce()',
+                'Velyrika Dragon': 'search(me.Deck, 1, "ALL", "ALL", "Armored Dragon")',
+                'Whispering Totem': 'fromDeck()',
+                'Wind Axe, the Warrior Savage': 'mana(me.Deck)',
+                'Zardia, Spirit of Bloody Winds': 'shields(me.Deck)',
+                'Zemechis, the Missionary': 'gear("kill")'
     }
 
 # These effects are triggered when the corresponding spell is cast
 onCast = {  'Abduction Charger': 'bounce(2)',
-			'Apocalypse Day': 'banishALL(table, len([card for card in table if isCreature(card)])>5)',
+            'Apocalypse Day': 'banishAll(table, len([card for card in table if isCreature(card)])>5)',
+            'Blizzard of Spears': 'banishAll(table, True, 4000)',
+            'Burst Shot': 'banishAll(table, True, 4000)',
             'Boomerang Comet': 'fromMana(); toMana(card)',
-            'Brain Serum': 'draw(me.Deck, True);draw(me.Deck, True);',
-            'Chains of Sacrifice': 'kill(2); sacrifice()',
+            'Brain Serum': 'draw(me.Deck, False, 2)',
+            'Cannonball Sling': 'kill(6000) if metamorph() else kill(2000)',
+            'Chains of Sacrifice': 'kill("ALL","ALL","ALL",2); sacrifice()',
             'Clone Factory': 'fromMana(2)',
-            'Corpse Charger': 'search(me.piles[\'Graveyard\'], 1, "Creature)',
+            'Corpse Charger': 'search(me.piles["Graveyard"], 1, "Creature")',
             'Crimson Hammer': 'kill(2000)',
-            'Cyber Brain': 'draw(me.Deck);draw(me.Deck);draw(me.Deck);',
+            'Cyber Brain': 'draw(me.Deck, False, 3)',
             'Crystal Memory': 'search(me.Deck, 1, "ALL", "ALL", "ALL", False)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
-            'Dark Reversal': 'search(me.piles[\'Graveyard\'], 1, "Creature")',
-            'Death Smoke': 'kill()',
+            'Dark Reversal': 'search(me.piles["Graveyard"], 1, "Creature")',
+            'Death Smoke': 'kill("ALL","Untap")',
+            'Death Chaser': 'kill("ALL","Untap")',
             'Dimension Gate': 'search(me.Deck, 1, "Creature")',
             'Dracobarrier': 'tapCreature()',
+            'Drill Bowgun': 'gear("kill");',
             'Enchanted Soil': 'fromGrave()',
-            'Energy Stream': 'draw(me.Deck);draw(me.Deck);',
+            'Energy Stream': 'draw(me.Deck, False, 2)',
             'Eureka Charger': 'draw(me.Deck);',
-			'Faerie Life': 'mana(me.Deck);',
+            'Faerie Life': 'mana(me.Deck);',
             'Flame Lance Trap': 'kill(5000)',
-			'Flood Valve': 'fromMana()',
+            'Flood Valve': 'fromMana()',
             'Hopeless Vortex': 'kill()',
-			'Invincible Abyss': 'banishALL([card for card in table if card.owner != me], True)',
-			'Invincible Aura': 'shields(me.Deck,3,True)',
-			'Invincible Technology': 'search(me.Deck,len(me.Deck))',
+            'Holy Awe': 'tapCreature(1,True)',
+            'Invincible Abyss': 'banishALL([card for card in table if card.owner != me], True)',
+            'Invincible Aura': 'shields(me.Deck,3,True)',
+            'Invincible Technology': 'search(me.Deck,len(me.Deck))',
             'Lightning Charger': 'tapCreature()',
             'Logic Cube': 'search(me.Deck, 1, "Spell")',
             'Logic Sphere': 'fromMana(1, "Spell")',
+            'Martial Law': 'gear("kill")',
+            'Mana Crisis': 'destroyMana',
             'Miraculous Rebirth': 'kill(5000);fromDeck()',
-			'Miraculous Snare': 'sendToShields()',
+            'Miraculous Snare': 'sendToShields()',
             'Moonlight Flash': 'tapCreature(2)',
-            'Morbid Medicine': 'search(me.piles[\'Graveyard\'], 2, "Creature")',
+            'Morbid Medicine': 'search(me.piles["Graveyard"], 2, "Creature")',
             'Mystic Dreamscape': 'fromMana(3)',
             'Mystic Inscription': 'shields(me.Deck)',
+            'Natural Snare': 'sendToMana()',
             'Phantom Dragon\'s Flame': 'kill(2000)',
             'Pixie Cocoon': 'fromMana(1, "Creature");toMana(card)',
-			'Punish Hold': 'tapCreature(2)',
-            'Purgatory Force': 'search(me.piles[\'Graveyard\'], 2, "Creature")',
-            'Reap and Sow': 'mana(me.Deck)',
+            'Phantasm Clutch': 'kill("ALL","Tap")',
+            'Punish Hold': 'tapCreature(2)',
+            'Purgatory Force': 'search(me.piles["Graveyard"], 2, "Creature")',
+            'Reap and Sow': 'mana(me.Deck);destroyMana()',
             'Riptide Charger': 'bounce()',
+            'Seven\'s Tower': 'mana(me.Deck,3) if metamorph() else mana(me.Deck)',
             'Solar Ray': 'tapCreature()',
             'Solar Trap': 'tapCreature()',
             'Spastic Missile': 'kill(3000)',
+            'Spiral Lance': 'gear("bounce");',
+            'Screw Rocket': 'gear("kill");',
             'Spiral Gate': 'bounce()',
             'Stronghold of Lightning and Flame': 'kill(3000); tapCreature()',
             'Teleportation': 'bounce(2)',
             'Ten-Ton Crunch': 'kill(3000)',
             'Terror Pit': 'kill()',
-            'Triple Brain': 'draw(me.Deck);draw(me.Deck);draw(me.Deck);',
+			'Transmogrify': 'killAndSearch(True)',
+            'Triple Brain': 'draw(me.Deck, False, 3)',
             'Tornado Flame': 'kill(4000)',
-			'Ultimate Force': 'mana(me.Deck,2)',
+            'Ultimate Force': 'mana(me.Deck,2)',
+            'Valiant Spark': 'tapCreature(1,True) if metamorph() else tapCreature()',
             'Volcanic Arrows': 'kill(6000)',
             'Volcano Charger': 'kill(2000)',
+            'Wave Rifle': 'gear("bounce");',
             'Zombie Carnival': 'fromGrave()'
     }
 
 # These effects trigger when creatures are destroyed
 onDestroy = {'Akashic First, Electro-Dragon': 'toHand(card)',
-			 'Akashic Second, Electro-Spirit': 'toMana(card)',
+             'Akashic Second, Electro-Spirit': 'toMana(card)',
              'Aqua Agent': 'toHand(card)',
              'Aqua Knight': 'toHand(card)',
              'Aqua Ranger': 'toHand(card)',
              'Aqua Skydiver': 'toHand(card)',
              'Aqua Soldier': 'toHand(card)',
-			 'Asylum, the Dragon Paladin': 'toShields(card)',
-             'Bat Doctor, Shadow of Undeath': 'search(me.piles[\'Graveyard\'], 1, "Creature")',
-			 'Bone Piercer': 'fromMana(1, "Creature")',
+             'Asylum, the Dragon Paladin': 'toShields(card)',
+             'Bat Doctor, Shadow of Undeath': 'search(me.piles["Graveyard"], 1, "Creature")',
+             'Bone Piercer': 'fromMana(1, "Creature")',
              'Cetibols': 'draw(me.Deck, True)',
              'Chillias, the Oracle': 'toHand(card)',
              'Coiling Vines': 'toMana(card)',
              'Crasher Burn': 'kill(3000)',
              'Crystal Jouster': 'toHand(card)',
              'Cubela, the Prophet': 'tapCreature()',
-			 'Dracodance Totem': 'fromMana(1,"","","Dragon");toMana(card)',
+             'Dracodance Totem': 'fromMana(1,"","","Dragon");toMana(card)',
              'Hammerhead Cluster': 'bounce()',
              'Jil Warka, Time Guardian': 'tapCreature(2)',
              'Mighty Shouter': 'toMana(card)',
              'Ouks, Vizier of Restoration': 'toShields(card)',
-             'Pharzi, the Oracle': 'search(me.piles[\'Graveyard\'], 1, "Spell")',
+             'Pharzi, the Oracle': 'search(me.piles["Graveyard"], 1, "Spell")',
              'Proxion, the Prophet': 'toHand(card)',
              'Shaman Broccoli': 'toMana(card)',
              'Shout Corn': 'toMana(card)',
@@ -163,7 +184,7 @@ onDestroy = {'Akashic First, Electro-Dragon': 'toHand(card)',
 
 # Functions used in the Automation dictionaries.
 
-def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL", show = False, toGrave = False):
+def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL", show = True, toGrave = False):
 	mute()
 	for i in range(0,count):
 		if TypeFilter != "ALL":
@@ -179,11 +200,132 @@ def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL
 		else:
 			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
 		if len(cardsInGroup_CivTypeandRace_Filtered) == 0: return
-		choice = askCard(cardsInGroup_CivTypeandRace_Filtered, 'Choose a Card to return to hand from the Mana Zone','Mana Zone')
+		choice = askCard(cardsInGroup_CivTypeandRace_Filtered, 'Choose a Card from the Mana Zone','Mana Zone')
 		if type(choice) is not Card: break
 		if toGrave == True: banish(choice)
 		else: toHand(choice, show)
 
+def killAndSearch(toPlay = False):
+	mute()
+	cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
+	if len(cardList)==0:
+		return    
+	choice = askCard(cardList, 'Choose a Creature to destroy')
+	if type(choice) is not Card:
+		return
+	card = choice
+	banish(choice)
+	while(True):
+		group = card.owner.Deck
+		if len(group) == 0: return
+		newCard = group[0]
+		newCard.isFaceUp = True
+		notify("{} reveals {}".format(card.owner,newCard.name))
+		rnd(1,100)
+		if re.search("Creature", newCard.Type) and not re.search("Evolution Creature", newCard.Type):
+			if toPlay == True:
+				newCard.moveToTable(0,0)
+				if newCard.name in onSummon:
+					exec(onSummon[newCard.name])
+				return
+			else:
+				newCard.moveTo(me.hand)
+				return
+		else:
+			toDiscard(newCard)
+
+def search(group, count = 1, TypeFilter = "ALL" , CivFilter = "ALL", RaceFilter = "ALL", show = True, x = 0, y = 0):
+	mute()
+	if len(group) == 0: return
+	for i in range(0,count):
+		cardsInGroup = [card for card in group]
+		if TypeFilter != "ALL":
+			cardsInGroup_Type_Filtered = [card for card in group if re.search(TypeFilter,card.Type)]
+		else:
+			cardsInGroup_Type_Filtered = [card for card in group]
+		if CivFilter != "ALL":
+			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered if re.search(CivFilter,card.properties['Civilization'])]
+		else:
+			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered]
+		if RaceFilter != "ALL":
+			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered if re.search(RaceFilter,card.properties['Race'])]
+		else:
+			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
+		while (True):
+			choice = askCard(cardsInGroup, 'Search card to take to hand (1 at a time)')
+			if type(choice) is not Card: 
+				group.shuffle()
+				notify("{} finishes searching his/her {}.".format(me, group.name))
+				return
+			if choice in cardsInGroup_CivTypeandRace_Filtered:
+				toHand(choice, show)
+				break
+	group.shuffle()
+	notify("{} finishes searching his/her {}.".format(me, group.name))
+
+def kill(powerFilter = 'ALL', tapFilter='ALL', civFilter='ALL', count = 1, targetOwn = False):
+    mute()
+    if powerFilter == 'ALL':
+        powerFilter = float('inf')
+    for i in range(0, count):
+        if targetOwn:
+            cardList = [card for card in table if isCreature(card) and int(card.Power) <= powerFilter]
+        else:
+            cardList = [card for card in table if isCreature(card) and not card.owner==me and int(card.Power) <= powerFilter]
+        if tapFilter != 'ALL':
+            if tapFilter == 'Untap':
+                cardList = [card for card in cardList if card.orientation == Rot0]
+            if tapFilter == 'Tap':
+                cardList = [card for card in cardList if card.orientation == Rot90]
+        if civFilter != "ALL":
+            cardList = [card for card in cardList if re.search(civFilter,card.Civilization)]
+        if len(cardList)==0:
+            return    
+        choice = askCard(cardList, 'Choose a Creature to destroy')
+        if type(choice) is not Card:
+            return
+        if choice.owner == me:
+            banish(choice)
+        else:
+            remoteCall(choice.owner,"banish",choice)
+
+def banishAll(group, condition = False, powerFilter = 'ALL'):
+    mute()
+    if powerFilter == 'ALL':
+        powerfilter = float('inf')
+    if condition == False: return
+    cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter]
+    if len(cardList)==0: return
+    for card in cardList:
+        cardToBeSaved = card
+        possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]
+        if len(possibleSavers) > 0:
+            if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(cardToBeSaved.Name)):
+                choice = askCard(possibleSavers, 'Choose Saver to banish')
+                if type(choice) is Card:
+                    toDiscard(choice)
+                    cardList.remove(choice)
+                    cardList = [card for card in cardList]
+                    notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
+                    continue
+        if cardToBeSaved.owner == me:   
+            toDiscard(cardToBeSaved)
+            if cardToBeSaved.name in onDestroy:
+                exec(onDestroy[cardToBeSaved.name])
+        else :
+            remoteCall(cardToBeSaved.owner,"banish",cardToBeSaved)
+
+def destroyMana(count = 1):
+    mute()
+    for i in range(0,count):
+        cardList = [card for card in table if isMana(card) and not card.owner==me]
+        if len(cardList)==0:
+            return
+        choice = askCard(cardList, 'Choose a Mana Card to destroy')
+        if type(choice) is not Card:
+            return        
+        remoteCall(choice.owner,"banish",choice)
+        
 def fromDeck():
     mute()
     notify("{} looks at their Deck.".format(me))
@@ -193,18 +335,6 @@ def fromGrave():
     mute()
     notify("{} looks at their Graveyard.".format(me))
     me.piles['Graveyard'].lookAt(-1)
-
-def kill(power = float('inf'), count = 1):
-	mute()
-	for i in range(0, count):
-		cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
-		cardList = [card for card in cardList if int(card.Power) <= power]
-		if len(cardList)==0:
-			return    
-		choice = askCard(cardList, 'Choose a Creature to destroy')
-		if type(choice) is not Card:
-			return
-		remoteCall(choice.owner,"banish",choice)
 
 def sacrifice(power = float('inf'), count = 1):
 	mute()
@@ -219,48 +349,94 @@ def sacrifice(power = float('inf'), count = 1):
 		banish(choice)
     
 def bounce(count = 1):
-	mute()
-	for i in range(0,count):
-		cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
-		if len(cardList)==0: return
-		choice = askCard(cardList,'Choose a Creature to return to Hand')
-		if type(choice) is not Card: return
-		if choice.owner==me:
-			toHand(choice)
-		else:
-			remoteCall(choice.owner,"toHand",choice)
+        mute()
+        for i in range(0,count):
+                cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
+                if len(cardList)==0:
+                        return
+                choice = askCard(cardList,'Choose a Creature to return to Hand')
+                if type(choice) is not Card:
+                        return
+                if choice.owner==me:
+                        toHand(choice)
+                else:
+                        remoteCall(choice.owner,"toHand",choice)
+    
+def gear(str):        
+    mute()
+    if str == 'kill':
+        cardList = [card for card in table if isGear(card)
+                    and not card.owner == me]
+        if len(cardList) == 0:
+            return
+        choice = askCard(cardList,'Choose a Cross Gear to send to Graveyard')
+        if type(choice) is not Card:
+            return
+        remoteCall(choice.owner, 'banish', choice)
+    elif str == 'bounce':
+        cardList = [card for card in table if isGear(card)]
+        if len(cardList) == 0:
+            return
+        choice = askCard(cardList, 'Choose a Cross Gear to send to Hand')
+        if type(choice) is not Card:
+            return
+        if choice.owner == me:
+            toHand(choice)
+        else:
+            remoteCall(choice.owner, 'toHand', choice)
+    elif str == 'mana':
+        cardList = [card for card in table if isGear(card)]
+        if len(cardList) == 0:
+            return
+        choice = askCard(cardList, 'Choose a Cross Gear to send to Mana')
+        if type(choice) is not Card:
+            return
+        if choice.owner == me:
+            toHand(choice)
+        else:
+            remoteCall(choice.owner, 'toMana', choice)
 
-def sendToShields():
-	mute()
-	for i in range(0,count):
-		cardList = [card for card in table if isCreature(card) and card.owner != me]
-		if len(cardList)==0: return
-		choice = askCard(cardList,'Choose a Creature to send to shields')
-		if type(choice) is not Card: return
-		remoteCall(choice.owner,"toShields",choice)
+def sendToShields(count=1):
+    mute()
+    for i in range(0,count):
+            cardList = [card for card in table if isCreature(card) and card.owner != me]
+            if len(cardList)==0: return
+            choice = askCard(cardList,'Choose a Creature to send to shields')
+            if type(choice) is not Card: return
+            remoteCall(choice.owner,"toShields",choice)
 
-def sendToMana():
-	mute()
-	for i in range(0,count):
-		cardList = [card for card in table if isCreature(card) and card.owner != me]
-		if len(cardList)==0: return
-		choice = askCard(cardList,'Choose a Creature to send to mana')
-		if type(choice) is not Card: return
-		remoteCall(choice.owner,"toMana",choice)
+def sendToMana(count=1):
+    mute()
+    for i in range(0,count):
+            cardList = [card for card in table if isCreature(card) and card.owner != me]
+            if len(cardList)==0: return
+            choice = askCard(cardList,'Choose a Creature to send to mana')
+            if type(choice) is not Card: return
+            remoteCall(choice.owner,"toMana",choice)
 
-def tapCreature(count = 1, includeMyCreatures = False):
-	mute()
-	for i in range(0, count):
-		if includeMyCreatures == True: 
-			cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
-		else:
-			cardList = [card for card in table if isCreature(card) and not card.owner==me and re.search("Creature", card.Type)]
-		if len(cardList)==0:
-			return
-		choice = askCard(cardList, 'Choose a Creature to tap')
-		if type(choice) is not Card:
-			return
-		remoteCall(choice.owner,"tap",choice)
+def tapCreature(count = 1, targetALL = False, includeOwn = False):
+    mute()
+    if targetALL:
+        if includeOwn == True: 
+            cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and re.search("Creature", card.Type)]
+        else:
+            cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and not card.owner==me and re.search("Creature", card.Type)]
+        if len(cardList)==0:
+            return
+        for card in cardList:
+            remoteCall(card.owner,"tap",card)
+    else:
+        for i in range(0,count):
+            if includeOwn == True: 
+                cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and re.search("Creature", card.Type)]
+            else:
+                cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and not card.owner==me and re.search("Creature", card.Type)]
+            if len(cardList)==0:
+                return
+            choice = askCard(cardList, 'Choose a Creature to tap')
+            if type(choice) is not Card:
+                return
+            remoteCall(choice.owner,"tap",choice)
 
 #End of Automation Code
 
@@ -293,7 +469,14 @@ def moveCards(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, 
 
 def isCreature(card):
     mute()
-    if card in table and card.isFaceUp and not card.orientation == Rot180 and not card.orientation == Rot270:
+    if card in table and card.isFaceUp and not card.orientation == Rot180 and not card.orientation == Rot270 and re.search("Creature", card.Type):
+        return True
+    else:
+        return False
+
+def isGear(card):
+    mute()
+    if card in table and card.isFaceUp and not card.orientation == Rot180 and not card.orientation == Rot270 and re.search("Cross Gear", card.Type):
         return True
     else:
         return False
@@ -311,6 +494,15 @@ def isShield(card):
         return True
     else:
         return False
+
+def metamorph():
+    mute()
+    cardList = [card for card in table if isMana(card) and card.owner== me]
+    if len(cardList) < 7:
+        return False
+    else:
+        return True
+
 
 def align():
     mute()
@@ -372,24 +564,28 @@ def align():
             Card(evolvedCard).moveToTable(x, y - 10*count*playerside)
             Card(evolvedCard).sendToBack()
 
-
 def clear(card, x = 0, y = 0):
     mute()
     card.target(False)
 
 def setup(group, x = 0, y = 0):
     mute()
-    ## cancel out of setup if any of these conditions occur
-    for c in table: ## scan the table for cards you own or control
-        if c.controller == me or c.owner == me:
+    cardsInTable = [c for c in table if c.controller == me or c.owner == me]
+    cardsInHand = [c for c in me.hand]
+    cardsInGrave = [c for c in me.piles['Graveyard']]
+    if cardsInTable or cardsInHand or cardsInGrave:
+        if confirm("Are you sure you want to setup battlezone? Current setup will be lost"):
+            for card in cardsInTable:
+                card.moveTo(me.Deck)
+            for card in cardsInHand:
+                card.moveTo(me.Deck)
+            for card in cardsInGrave:
+                card.moveTo(me.Deck)
+        else:
             return
-    for c in me.hand: ## cancel if you've already drawn cards
-        return
-    for c in me.piles['Graveyard']: ##cancel if you have cards in Discard
-        return
     if len(me.Deck) < 10: #We need at least 10 cards to properly setup the game
+        whisper("Not enough cards in deck")
         return
-    #####
     me.setGlobalVariable("shieldCount", "0")
     me.Deck.shuffle()
     rnd(1,10)
@@ -397,7 +593,7 @@ def setup(group, x = 0, y = 0):
     for card in me.Deck.top(5): card.moveTo(card.owner.hand)
     align()
     notify("{} sets up their battle zone.".format(me))
-
+            
 def rollDie(group, x = 0, y = 0):
     mute()
     global diesides
@@ -438,7 +634,7 @@ def banish(card, x = 0, y = 0):
 		shieldCard = card
 		cardsInHandWithStrikeBackAbility = [card for card in me.hand if re.search("Strike Back", card.rules)]
 		if len(cardsInHandWithStrikeBackAbility) > 0:
-			cardsInHandWithStrikeBackAbilityThatCanBeUsed = [card for card in cardsInHandWithStrikeBackAbility if shieldCard.properties['Civilization'] == card.properties['Civilization']]
+			cardsInHandWithStrikeBackAbilityThatCanBeUsed = [card for card in cardsInHandWithStrikeBackAbility if re.search(card.Civilization, shieldCard.Civilization)]
 			if len(cardsInHandWithStrikeBackAbilityThatCanBeUsed) > 0:
 				if confirm("Activate Strike Back by sending {} to the graveyard?\n\n{}".format(shieldCard.Name, shieldCard.Rules)):
 					choice = askCard(cardsInHandWithStrikeBackAbilityThatCanBeUsed, 'Choose Strike Back to activate')
@@ -465,47 +661,29 @@ def banish(card, x = 0, y = 0):
 		if cardToBeSaved.name in onDestroy:
 			exec(onDestroy[cardToBeSaved.name])
 
-def banishALL(group, condition = False, x = 0, y = 0):
-	mute()
-	if condition == False: return
-	cardList = [card for card in group if isCreature(card)]
-	if len(cardList)==0: return
-	for card in cardList:
-		cardToBeSaved = card
-		possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]
-		if len(possibleSavers) > 0:
-			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(cardToBeSaved.Name)):
-				choice = askCard(possibleSavers, 'Choose Saver to banish')
-				if type(choice) is Card:
-					toDiscard(choice)
-					cardList.remove(choice)
-					cardList = [card for card in cardList]
-					notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
-					continue
-		toDiscard(cardToBeSaved)
-		if cardToBeSaved.name in onDestroy:
-			exec(onDestroy[cardToBeSaved.name])
-
 def shuffle(group, x = 0, y = 0):
-	mute()
-	if len(group)==0:return
-	for card in group:
-		if card.isFaceUp:
-			card.isFaceUp = False
-	group.shuffle()
-	notify("{} shuffled their {}".format(me, group.name))
+    mute()
+    if len(group)==0:return
+    for card in group:
+        if card.isFaceUp:
+            card.isFaceUp = False
+    group.shuffle()
+    notify("{} shuffled their {}".format(me, group.name))
 
-def draw(group, conditional = False, x = 0, y = 0):
-	mute()
-	if len(group) == 0: return
-	if conditional == True:
-		choiceList = ['Yes', 'No']
-		colorsList = ['#FF0000', '#FF0000']
-		choice = askChoice("Draw a card?", choiceList, colorsList)
-		if choice == 0: return 
-	card = group[0]
-	card.moveTo(card.owner.hand)
-	notify("{} draws a card.".format(me))
+def draw(group, conditional = False, count = 1, x = 0, y = 0):
+    mute()
+    for i in range(0,count):
+        if len(group) == 0:
+            return
+        if conditional == True:
+            choiceList = ['Yes', 'No']
+            colorsList = ['#FF0000', '#FF0000']
+            choice = askChoice("Draw a card?", choiceList, colorsList)
+            if choice == 0:
+                return 
+        card = group[0]
+        card.moveTo(card.owner.hand)
+        notify("{} draws a card.".format(me))
 
 def drawX(group, x = 0, y = 0):
     if len(group) == 0: return
@@ -561,35 +739,6 @@ def shields(group, count = 1, conditional = False, x = 0, y = 0):
 		card = group[0]
 		toShields(card, notifymute = True)
 		notify("{} sets top card of {} as shield.".format(me, group.name))
-
-def search(group, count = 1, TypeFilter = "ALL" , CivFilter = "ALL", RaceFilter = "ALL", show = True, x = 0, y = 0):
-	mute()
-	if len(group) == 0: return
-	for i in range(0,count):
-		cardsInGroup = [card for card in group]
-		if TypeFilter != "ALL":
-			cardsInGroup_Type_Filtered = [card for card in group if re.search(TypeFilter,card.Type)]
-		else:
-			cardsInGroup_Type_Filtered = [card for card in group]
-		if CivFilter != "ALL":
-			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered if re.search(CivFilter,card.properties['Civilization'])]
-		else:
-			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered]
-		if RaceFilter != "ALL":
-			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered if re.search(RaceFilter,card.properties['Race'])]
-		else:
-			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
-		while (True):
-			choice = askCard(cardsInGroup, 'Search card to take to hand (1 at a time)')
-			if type(choice) is not Card: 
-				group.shuffle()
-				notify("{} finishes searching his/her {}.".format(me, group.name))
-				return
-			if choice in cardsInGroup_CivTypeandRace_Filtered:
-				toHand(choice, show)
-				break
-	group.shuffle()
-	notify("{} finishes searching his/her {}.".format(me, group.name))
 
 def toMana(card, x = 0, y = 0, notifymute = False):
     mute()
@@ -715,26 +864,26 @@ def toDiscard(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreE
             notify("{} discards {} from {}.".format(me, card, src.name))
 
 def toHand(card, show = True, x = 0, y = 0, alignCheck = True, ignoreEvo = False):
-	mute()
-	src = card.group
-	evolveDict = eval(me.getGlobalVariable('evolution'))
-	if ignoreEvo == False and isCreature(card) and card._id in list(itertools.chain.from_iterable(evolveDict.values())):
-		if not confirm("WARNING: There is an evolution creature on top of this card, and can not legally be banished.\nWould you like to override this?"):
-			return
-	card.moveTo(card.owner.hand)
-	if card._id in evolveDict:
-		evolvedCardList = evolveDict[card._id]
-		for evolvedCard in evolvedCardList:
-			if Card(evolvedCard) in table:
-				toHand(Card(evolvedCard), alignCheck = False, ignoreEvo = True)
-		del evolveDict[card._id]
-		me.setGlobalVariable('evolution', str(evolveDict))
-	if show == True: 
-		notify("{} moves {} to hand from {}.".format(card.owner, card, src.name))
-	else:
-		whisper("moved {} to hand from {}.".format(card, src.name))
-	if alignCheck:
-		align()
+    mute()
+    src = card.group
+    evolveDict = eval(me.getGlobalVariable('evolution'))
+    if ignoreEvo == False and isCreature(card) and card._id in list(itertools.chain.from_iterable(evolveDict.values())):
+        if not confirm("WARNING: There is an evolution creature on top of this card, and can not legally be banished.\nWould you like to override this?"):
+            return
+    card.moveTo(card.owner.hand)
+    if card._id in evolveDict:
+        evolvedCardList = evolveDict[card._id]
+        for evolvedCard in evolvedCardList:
+            if Card(evolvedCard) in table:
+                toHand(Card(evolvedCard), alignCheck = False, ignoreEvo = True)
+        del evolveDict[card._id]
+        me.setGlobalVariable('evolution', str(evolveDict))
+    if show == True: 
+        notify("{} moves {} to hand from {}.".format(me, card.name, src.name))
+    else:
+        whisper("Moved {} to hand from {}.".format(card, src.name))
+    if alignCheck:
+        align()
 
 def toDeckTop(card, x = 0, y = 0):
     mute()

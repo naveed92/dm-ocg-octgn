@@ -126,7 +126,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Initiate" />
 			<property name="Rules" value="Wave striker (While 2 or more other creatures in the battle zone have &quot;wave striker,&quot; this creature has its {WAVE STRIKER} ability.) &#xd;&#xa;{WAVE STRIKER} This creature gets +4000 power and has &quot;Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle).&quot;" />
-			<property name="Power" value="2000+" />
+			<property name="Power" value="2000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="6" />
 		</card>
@@ -266,7 +266,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Merfolk" />
 			<property name="Rules" value="Wave striker (While 2 or more other creatures in the battle zone have &quot;wave striker,&quot; this creature has its {WAVE STRIKER} abilities.) &#xd;&#xa;{WAVE STRIKER} This creature gets +4000 power.  &#xd;&#xa;{WAVE STRIKER} When this creature would be destroyed, return it to your hand instead." />
-			<property name="Power" value="2000+" />
+			<property name="Power" value="2000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="20" />
 		</card>
@@ -376,7 +376,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Parasite Worm" />
 			<property name="Rules" value="Wave striker (While 2 or more other creatures in the battle zone have &quot;wave striker,&quot; this creature has its {WAVE STRIKER} ability.) &#xd;&#xa;{WAVE STRIKER} This creature gets +4000 power and has &quot;Darkness stealth (This creature can't be blocked while your opponent has any darkness cards in his mana zone).&quot;" />
-			<property name="Power" value="2000+" />
+			<property name="Power" value="2000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="31" />
 		</card>
@@ -386,7 +386,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Devil Mask" />
 			<property name="Rules" value="This creature gets +2000 power for each tapped creature your opponent has in the battle zone." />
-			<property name="Power" value="1000+" />
+			<property name="Power" value="1000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="32" />
 		</card>
@@ -436,7 +436,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Melt Warrior" />
 			<property name="Rules" value="This creature attacks each turn if able.  &#xd;&#xa;Power attacker +3000 (While attacking, this creature gets +3000 power.)" />
-			<property name="Power" value="3000+" />
+			<property name="Power" value="3000" />
 			<property name="Rarity" value="Uncommon" />
 			<property name="Number" value="37" />
 		</card>
@@ -446,7 +446,7 @@
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="XenoParts" />
 			<property name="Rules" value="Evolution-Put on one of your XenoParts. &#xd;&#xa;Power attacker +4000 (While attacking, this creature gets +4000 power.) &#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
-			<property name="Power" value="6000+" />
+			<property name="Power" value="6000" />
 			<property name="Rarity" value="Rare" />
 			<property name="Number" value="38" />
 		</card>
@@ -466,7 +466,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dragonoid" />
 			<property name="Rules" value="Wave striker (While 2 or more other creatures in the battle zone have &quot;wave striker,&quot; this creature has its {WAVE STRIKER} ability.) &#xd;&#xa;{WAVE STRIKER} This creature gets +4000 power and can attack untapped creatures." />
-			<property name="Power" value="2000+" />
+			<property name="Power" value="2000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="40" />
 		</card>
@@ -506,7 +506,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Wild Veggies" />
 			<property name="Rules" value="Wave striker (While 2 or more other creatures in the battle zone have &quot;wave striker,&quot; this creature has its {WAVE STRIKER} ability.) &#xd;&#xa;{WAVE STRIKER} Power attacker +3000 (While attacking, this creature gets +3000 power.)" />
-			<property name="Power" value="1000+" />
+			<property name="Power" value="1000" />
 			<property name="Rarity" value="Uncommon" />
 			<property name="Number" value="44" />
 		</card>
@@ -516,7 +516,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Wild Veggies" />
 			<property name="Rules" value="Wave striker (While 2 or more other creatures in the battle zone have &quot;wave striker,&quot; this creature has its {WAVE STRIKER} ability.) &#xd;&#xa;{WAVE STRIKER} This creature gets +4000 power and can't be blocked by any creature that has power 5000 or less." />
-			<property name="Power" value="2000+" />
+			<property name="Power" value="2000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="45" />
 		</card>
@@ -526,7 +526,7 @@
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Beast Folk" />
 			<property name="Rules" value="Whenever this creature attacks a creature, this creature gets +3000 power until the end of the turn." />
-			<property name="Power" value="3000+" />
+			<property name="Power" value="3000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="46" />
 		</card>

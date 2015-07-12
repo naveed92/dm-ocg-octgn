@@ -199,7 +199,7 @@
 		<card name="Angila, Electro-Mask" id="774ee0bb-0dcc-4213-8217-534cfab303fe">
 			<property name="Civilization" value="Water/Darkness" />
 			<property name="Cost" value="6" />
-			<property name="Type" value="" />
+			<property name="Type" value="Creature" />
 			<property name="Race" value="Liquid People/Devil Mask" />
 			<property name="Rules" value="{Wave Striker}&#xd;&#xa;Wave Striker: When you put this creature into the battle zone, you may return a creature that has 'Wave Striker' from your graveyard to your hand.&#xd;&#xa;Wavestriker: This creature can't be blocked and has Double breaker." />
 			<property name="Power" value="6000" />

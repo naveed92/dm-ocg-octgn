@@ -352,7 +352,7 @@
 		</card>
 		<card name="Leila, Butterfly Shogun of Death" id="93385c3d-b019-42f3-aa3d-613433a12bdb">
 			<property name="Civilization" value="Darkness" />
-			<property name="Cost" value="4" />
+			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dark Lord" />
 			<property name="Rules" value="Metamorph (When your mana zone has 7 or more cards, this creature gains the following [Metamorph]  ability).&#xd;&#xa;[Metamorph] : This creature gets +7000 power and gains &quot;Double Breaker&quot;." />

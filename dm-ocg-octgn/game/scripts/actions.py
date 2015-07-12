@@ -27,6 +27,10 @@ onSummon = {
                 'Belix, the Explorer': 'fromMana(1,"Spell")',
                 'Bronze-Arm Tribe': 'mana(me.Deck);',
                 'Chaos Worm': 'kill()',
+<<<<<<< HEAD
+=======
+                'Core-Crash Lizard': 'destroyShield(True)',
+>>>>>>> origin/master
                 'Craze Valkyrie, the Drastic': 'tapCreature(2)',
                 'Dandy Eggplant': 'fromDeck()',
                 'Dark Hydra, Evil Planet Lord': 'fromGrave()',
@@ -38,6 +42,10 @@ onSummon = {
                 'Fortress Shell': 'destroyMana(2)',
                 'Forbos, Sanctum Guardian Q': 'search(me.Deck, 1, "Spell")',
                 'Funky Wizard': 'draw(me.Deck, True);',
+<<<<<<< HEAD
+=======
+                'Gajirabute, Vile Centurion': 'destroyShield(True)',
+>>>>>>> origin/master
                 'Gardner, the Invoked': 'gear("mana")',
                 'Gigargon': 'search(me.piles["Graveyard"], 2, "Creature")',
                 'Grave Worm Q': 'search(me.piles["Graveyard"], 1, "ALL", "ALL", "Survivor")',
@@ -60,7 +68,10 @@ onSummon = {
                 'Rumbling Terahorn': 'search(me.Deck, 1, "Creature")',
                 'Ryokudou, the Principle Defender': 'mana(me.Deck,2);fromMana()',
                 'Scissor Scarab': 'search(1,"ALL","ALL","Giant Insect")',
+<<<<<<< HEAD
 				#'Shaman Totem': 'draw(me.Deck, True, len([card for card in table if card.owner==me and card.controller==me]))',
+=======
+>>>>>>> origin/master
                 'Shtra': 'fromMana()',#; remoteCall(not card.owner,"fromMana",1)',
                 'Skysword, the Savage Vizier': 'mana(me.Deck);shields(me.Deck)',
                 'Solidskin Fish': 'fromMana()',
@@ -129,6 +140,10 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Purgatory Force': 'search(me.piles["Graveyard"], 2, "Creature")',
             'Reap and Sow': 'mana(me.Deck);destroyMana()',
             'Riptide Charger': 'bounce()',
+<<<<<<< HEAD
+=======
+            'Searing Wave': 'destroyShield(False)',
+>>>>>>> origin/master
             'Seven\'s Tower': 'mana(me.Deck,3) if metamorph() else mana(me.Deck)',
             'Solar Ray': 'tapCreature()',
             'Solar Trap': 'tapCreature()',
@@ -140,12 +155,19 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Teleportation': 'bounce(2)',
             'Ten-Ton Crunch': 'kill(3000)',
             'Terror Pit': 'kill()',
+<<<<<<< HEAD
 			'Transmogrify': 'killAndSearch(True)',
+=======
+>>>>>>> origin/master
             'Triple Brain': 'draw(me.Deck, False, 3)',
             'Tornado Flame': 'kill(4000)',
             'Ultimate Force': 'mana(me.Deck,2)',
             'Valiant Spark': 'tapCreature(1,True) if metamorph() else tapCreature()',
+<<<<<<< HEAD
             'Volcanic Arrows': 'kill(6000)',
+=======
+            'Volcanic Arrows': 'kill(6000); destroyShield(False);',
+>>>>>>> origin/master
             'Volcano Charger': 'kill(2000)',
             'Wave Rifle': 'gear("bounce");',
             'Zombie Carnival': 'fromGrave()'
@@ -205,6 +227,7 @@ def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL
 		if toGrave == True: banish(choice)
 		else: toHand(choice, show)
 
+<<<<<<< HEAD
 def killAndSearch(toPlay = False):
 	mute()
 	cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
@@ -234,6 +257,8 @@ def killAndSearch(toPlay = False):
 		else:
 			toDiscard(newCard)
 
+=======
+>>>>>>> origin/master
 def search(group, count = 1, TypeFilter = "ALL" , CivFilter = "ALL", RaceFilter = "ALL", show = True, x = 0, y = 0):
 	mute()
 	if len(group) == 0: return
@@ -325,6 +350,22 @@ def destroyMana(count = 1):
         if type(choice) is not Card:
             return        
         remoteCall(choice.owner,"banish",choice)
+<<<<<<< HEAD
+=======
+
+def destroyShield(owner = True):
+    	mute()
+	if owner == True:
+		cardList = [card for card in table if isShield(card) and not card.owner==me]
+    	else:
+		cardList = [card for card in table if isShield(card) and card.owner==me]
+	if len(cardList)==0:
+        	return
+    	choice = askCard(cardList, 'Choose a shield to send to graveyard')
+    	if type(choice) is not Card:
+        	return        
+    	remoteCall(choice.owner,"banish",[choice,True])
+>>>>>>> origin/master
         
 def fromDeck():
     mute()
@@ -619,9 +660,9 @@ def tap(card, x = 0, y = 0):
     else:
         notify('{} untaps {}.'.format(me, card))
 
-def banish(card, x = 0, y = 0):
+def banish(card, dest = False, x = 0, y = 0):
 	mute()
-	if isShield(card):
+	if isShield(card) and dest == False:
 		card.peek()
 		rnd(1,10)
 		if re.search("{SHIELD TRIGGER}", card.Rules):
@@ -647,6 +688,8 @@ def banish(card, x = 0, y = 0):
 						return
 		notify("{}'s shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
 		shieldCard.moveTo(shieldCard.owner.hand)
+	elsif isShield(card) and dest == True:
+		toDiscard(card)
 	else:
 		cardToBeSaved = card
 		possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]

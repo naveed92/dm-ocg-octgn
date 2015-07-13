@@ -22,8 +22,9 @@ onSummon = {
                 'Aqua Sniper': 'bounce(2)',
                 'Aqua Surfer': 'bounce()',
                 'Armored Decimator Valkaizer': 'kill(4000)',
-                'Artisan Picora': 'fromMana(1,"ALL","ALL","ALL",False,True)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
+                'Artisan Picora': 'fromMana(1,"ALL","ALL","ALL",False,True)', 
                 'Astral Warper': 'draw(me.Deck, True, 3)',
+				'Ballom, Master of Death':'banishAll(table, True, "ALL", "Darkness", True)', #NEW
                 'Belix, the Explorer': 'fromMana(1,"Spell")',
                 'Bronze-Arm Tribe': 'mana(me.Deck);',
                 'Chaos Worm': 'kill()',
@@ -44,7 +45,7 @@ onSummon = {
                 'Gigargon': 'search(me.piles["Graveyard"], 2, "Creature")',
                 'Grave Worm Q': 'search(me.piles["Graveyard"], 1, "ALL", "ALL", "Survivor")',
                 'Gyulcas, Sage of the East Wind': 'search(me.Deck, 1, "Cross Gear")',
-                'Hawkeye Lunatron': 'search(me.Deck, 1, "ALL", "ALL", "ALL", False)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
+                'Hawkeye Lunatron': 'search(me.Deck, 1, "ALL", "ALL", "ALL", False)', 
                 'Hurlosaur': 'kill(1000)',
                 'King Ripped-Hide': 'draw(me.Deck, True, 2)',
                 'Kolon, the Oracle': 'tapCreature()',
@@ -94,7 +95,7 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Corpse Charger': 'search(me.piles["Graveyard"], 1, "Creature")',
             'Crimson Hammer': 'kill(2000)',
             'Cyber Brain': 'draw(me.Deck, False, 3)',
-            'Crystal Memory': 'search(me.Deck, 1, "ALL", "ALL", "ALL", False)', #IF COST (or NAME, or other) SEARCH IS IMPLEMENTED THIS SUFFERS CHANGES.
+            'Crystal Memory': 'search(me.Deck, 1, "ALL", "ALL", "ALL", False)', 
             'Dark Reversal': 'search(me.piles["Graveyard"], 1, "Creature")',
             'Death Smoke': 'kill("ALL","Untap")',
             'Death Chaser': 'kill("ALL","Untap")',
@@ -292,31 +293,40 @@ def kill(powerFilter = 'ALL', tapFilter='ALL', civFilter='ALL', count = 1, targe
         else:
             remoteCall(choice.owner,"banish",choice)
 
-def banishAll(group, condition = False, powerFilter = 'ALL'):
-    mute()
-    if powerFilter == 'ALL':
-        powerfilter = float('inf')
-    if condition == False: return
-    cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter]
-    if len(cardList)==0: return
-    for card in cardList:
-        cardToBeSaved = card
-        possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]
-        if len(possibleSavers) > 0:
-            if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(cardToBeSaved.Name)):
-                choice = askCard(possibleSavers, 'Choose Saver to banish')
-                if type(choice) is Card:
-                    toDiscard(choice)
-                    cardList.remove(choice)
-                    cardList = [card for card in cardList]
-                    notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
-                    continue
-        if cardToBeSaved.owner == me:   
-            toDiscard(cardToBeSaved)
-            if cardToBeSaved.name in onDestroy:
-                exec(onDestroy[cardToBeSaved.name])
-        else :
-            remoteCall(cardToBeSaved.owner,"banish",cardToBeSaved)
+def banishAll(group, condition = False, powerFilter = 'ALL', civFilter = "ALL", AllExceptFiltered = False):
+	mute()
+	if powerFilter == 'ALL':
+		powerfilter = float('inf')
+	if condition == False:
+		return
+	cardlist = []
+	if civFilter == "ALL":
+		cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter]
+	else:
+		if AllExceptFiltered:
+			cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter and not re.search(civFilter,card.properties['Civilization'])]
+		else:
+			cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter and re.search(civFilter,card.properties['Civilization'])]
+	if len(cardList)==0:
+		return
+	for card in cardList:
+		cardToBeSaved = card
+		possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]
+		if len(possibleSavers) > 0:
+			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(cardToBeSaved.Name)):
+				choice = askCard(possibleSavers, 'Choose Saver to banish')
+				if type(choice) is Card:
+					toDiscard(choice)
+					cardList.remove(choice)
+					cardList = [card for card in cardList]
+					notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
+					continue
+		if cardToBeSaved.owner == me:   
+			toDiscard(cardToBeSaved)
+			if cardToBeSaved.name in onDestroy:
+				exec(onDestroy[cardToBeSaved.name])
+		else :
+			remoteCall(cardToBeSaved.owner,"banish",cardToBeSaved)
 
 def destroyMana(count = 1):
     mute()
@@ -637,7 +647,10 @@ def tap(card, x = 0, y = 0):
 
 def banish(card, dest = False, x = 0, y = 0):
 	mute()
-	if isShield(card) and dest == False:
+	if isShield(card):
+		if dest == True:
+			toDiscard(card)
+			return
 		card.peek()
 		rnd(1,10)
 		if re.search("{SHIELD TRIGGER}", card.Rules):
@@ -663,8 +676,6 @@ def banish(card, dest = False, x = 0, y = 0):
 						return
 		notify("{}'s shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
 		shieldCard.moveTo(shieldCard.owner.hand)
-	elif isShield(card) and dest == True:
-		toDiscard(card)
 	else:
 		cardToBeSaved = card
 		possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]

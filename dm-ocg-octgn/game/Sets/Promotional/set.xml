@@ -452,7 +452,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Great Mecha King" />
-			<property name="Rules" value="Evolution - Great Mecha King.&#xd;&#xa;[Fort Energy - Machine Hero] Draw a card.&#xd;&#xa;[Fort Energy - Great Mecha King]&#xd;&#xa;Put a card from your hand into your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the "shield trigger" ability of that shield." />
+			<property name="Rules" value="Evolution - Great Mecha King.&#xd;&#xa;[Fort Energy - Machine Hero] Draw a card.&#xd;&#xa;[Fort Energy - Great Mecha King]&#xd;&#xa;Put a card from your hand into your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the 'shield trigger' ability of that shield." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="Promotional" />
 			<property name="Number" value="P34/Y5" />
@@ -485,7 +485,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="Whenever this creature attacks, you may destroy one of your other Grand Devils. If you do, this creature gets +8000 power and "Double breaker" until the end of the turn." />
+			<property name="Rules" value="Whenever this creature attacks, you may destroy one of your other Grand Devils. If you do, this creature gets +8000 power and 'Double breaker' until the end of the turn." />
 			<property name="Power" value="4000+" />
 			<property name="Rarity" value="Promotional" />
 			<property name="Number" value="P37/Y5" />
@@ -496,7 +496,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tyranno Drake" />
-			<property name="Rules" value="Double breaker (This creature breaks 2 shields.)&#xd;&#xa;When you put this creature into the battle zone, destroy one of your opponent's creatures that has "blocker"." />
+			<property name="Rules" value="Double breaker (This creature breaks 2 shields.)&#xd;&#xa;When you put this creature into the battle zone, destroy one of your opponent's creatures that has 'Blocker'" />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="Promotional" />
 			<property name="Number" value="P38/Y5" />
@@ -540,7 +540,7 @@
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Apollonia Dragon" />
-			<property name="Rules" value="When you put this creature into the battle zone, ignore any effects that prevent your other creatures from attacking your opponent this turn. (For example, ignore summoning sickness and card effects that say "This creature can't attack" or "This creature can't attack players". Your creatures can't attack creatures this way.)
+			<property name="Rules" value="When you put this creature into the battle zone, ignore any effects that prevent your other creatures from attacking your opponent this turn. (For example, ignore summoning sickness and card effects that say 'This creature can't attack' or 'This creature can't attack players'. Your creatures can't attack creatures this way.)
  Double breaker" />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="P48/Y5" />
@@ -552,7 +552,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Galaxy Vortex evolution - Put on top of 3 of your creatures, whose race is Armored Dragons, Tyranno Drakes, and/or Brave Spirits.&#xd;&#xa;Meteorburn - Whenever this creature attacks, you may put a non-evolution creature under this creature into the battle zone. That creature gets "speed attacker". Destroy that creature at the end of your turn.&#xd;&#xa;Triple breaker" />
+			<property name="Rules" value="Galaxy Vortex evolution - Put on top of 3 of your creatures, whose race is Armored Dragons, Tyranno Drakes, and/or Brave Spirits.&#xd;&#xa;Meteorburn - Whenever this creature attacks, you may put a non-evolution creature under this creature into the battle zone. That creature gets 'Speed attacker'. Destroy that creature at the end of your turn.&#xd;&#xa;Triple breaker" />
 			<property name="Power" value="13000" />
 			<property name="Rarity" value="Promotional" />
 			<property name="Number" value="P57/Y5" />

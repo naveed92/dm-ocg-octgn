@@ -245,7 +245,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="Evolution - Grand Devils&#xd;&#xa;Meteorburn - Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, return one of your opponent's shields to his hand. (Your opponent may use "Shield trigger")&#xd;&#xa;Double breaker" />
+			<property name="Rules" value="Evolution - Grand Devils&#xd;&#xa;Meteorburn - Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, return one of your opponent's shields to his hand. (Your opponent may use 'Shield trigger')&#xd;&#xa;Double breaker" />
 			<property name="Power" value="9000" />
 			<property name="Rarity" value="Very Rare" />
 			<property name="Number" value="1" />
@@ -366,7 +366,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Guardian" />
-			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack players.&#xd;&#xa;Thrilling Three: Guardian (When you put this creature into the battle zone, reveal the top 3 cards of your deck. For each Guardian revealed, use the following Thrillingthree ability once. Then, put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa[Thrillingthree] Return a spell from your graveyard to your hand." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack players.&#xd;&#xa;Thrilling Three: Guardian (When you put this creature into the battle zone, reveal the top 3 cards of your deck. For each Guardian revealed, use the following Thrillingthree ability once. Then, put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa;[Thrillingthree] Return a spell from your graveyard to your hand." />
 			<property name="Power" value="2500" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="37" />

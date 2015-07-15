@@ -369,5 +369,205 @@
 			<property name="Rarity" value="" />
 			<property name="Number" value="P41/Y4" />
 		</card>
+
+		<card name="Shining Nova, Dragon Flame Phoenix" id="fe00ddd6-ad76-4d37-9337-94450c965ac4">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Tyranno Drake" />
+			<property name="Rules" value=" Evolution - Tyranno Drakes.&#xd;&#xa;Meteorburn - Whenever this creature can attack, you may put a card under this creature into your graveyard. If you do, put one of your opponent's cards in the battle zone that costs 5 or less into its owner's graveyard.&#xd;&#xa;Double breaker" />
+			<property name="Power" value="8000" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="P7/Y5" />
+		</card>
+
+		<card name="Demonic Vice" id="d98a5940-7a7b-494c-a01c-344f955f0189">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Your opponent discards 2 cards from his hand." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="P13/Y5" />
+		</card>
+
+		<card name="Priusriser, Spirit Knight" id="5122c996-ec44-4caa-828a-a28b3d90d039">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Arc Seraphim" />
+			<property name="Rules" value="When you put this creature into the battle zone, search your deck. You may put an Arc Seraphim creature from it into your mana zone. Then shuffle your deck." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="P18/Y5" />
+		</card>
+
+		<card name="Flamenimal of Wildfire" id="3f436235-06e8-4886-af62-a21a26aef1fb">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Brave Spirit" />
+			<property name="Rules" value="Speed attacker (This creature doesn't get summoning sickness.)&#xd;&#xa;Each of your Tyranno Drakes in the battle zone gets +1000 power" />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="P17/Y5" />
+		</card>
+
+		<card name="Fuuma Abyss Magmoor" id="e5b91fd2-cf3d-4fca-b830-1e669e379ff6">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Grand Devil" />
+			<property name="Rules" value="Double breaker (This creature breaks 2 shields.)&#xd;&#xa;When you put this creature into the battle zone, you may return 1 creature from your graveyard to your hand." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="P16/Y5" />
+		</card>
+
+		<card name="Commander Lucky Lottofive" id="ef4cd888-abd0-4384-b475-a365b3d51223">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Machine Hero" />
+			<property name="Rules" value="When you put this creature into the battle zone, your opponent reveals cards from the top of their deck until they reveal a non-evolution creature. Your opponent puts that creature into the battle zone, and the rest of the cards on the bottom of their deck in any order." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="P15/Y5" />
+		</card>
+
+		<card name="Meteor Flash Dragoon" id="6c77b8a9-a41d-41b0-9814-531255fc589b">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Tyranno Drake" />
+			<property name="Rules" value="Speed attacker (This creature doesn't get summoning sickness.)&#xd;&#xa;Power attacker +4000 (While attacking, this creature gets +4000 power.)" />
+			<property name="Power" value="1000+" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="P33/Y5" />
+		</card>
+
+		<card name="Wheel Warrior W, Invincible Warrior" id="8a46c2f3-f2c7-449e-ae3e-5b23e2e855c5">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Great Mecha King" />
+			<property name="Rules" value="Evolution - Great Mecha King.&#xd;&#xa;[Fort Energy - Machine Hero] Draw a card.&#xd;&#xa;[Fort Energy - Great Mecha King]&#xd;&#xa;Put a card from your hand into your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the "shield trigger" ability of that shield." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="P34/Y5" />
+		</card>
+
+		<card name="Jamseal, Spirit Knight" id="3cd95f04-9b2f-42cb-bbe5-b9505bad0566">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Arc Seraphim" />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack players.&#xd;&#xa;When you put this creature into the battle zone, if you have another Arc Seraphim in the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="P35/Y5" />
+		</card>
+
+		<card name="Paladin S, Invincible Warrior" id="da3d3731-8b97-4919-9972-18bdc1851939">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="1" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Great Mecha King" />
+			<property name="Rules" value="Evolution - Great Mecha King.&#xd;&#xa;Creatures destroyed by battling this creature may be returned to their owner's hand. (The owner of the destroyed creature chooses.)"/>
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="P36/Y5" />
+		</card>
+
+		<card name="Fuuma Daidologinus" id="7482458c-ea97-474a-9bcc-54dde25bf440">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Grand Devil" />
+			<property name="Rules" value="Whenever this creature attacks, you may destroy one of your other Grand Devils. If you do, this creature gets +8000 power and "Double breaker" until the end of the turn." />
+			<property name="Power" value="4000+" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="P37/Y5" />
+		</card>
+
+		<card name="Flaremetal Dragoon" id="d953602a-556e-4263-9086-92073d2860d4">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Tyranno Drake" />
+			<property name="Rules" value="Double breaker (This creature breaks 2 shields.)&#xd;&#xa;When you put this creature into the battle zone, destroy one of your opponent's creatures that has "blocker"." />
+			<property name="Power" value="7000" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="P38/Y5" />
+		</card>
+
+		<card name="Banjo, the Super-energetic" id="e1178e21-6946-46d5-b848-3bef7180dfb7">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Dreammate" />
+			<property name="Rules" value="When you put this creature into the battle zone, search your deck. You may take a Dreammate from your deck, show that Dreammate to your opponent, and put it into your hand. Then shuffle your deck." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="P39/Y5" />
+		</card>
+
+		<card name="Fuuma Fernodalos" id="af5c05d8-5cfb-4a4e-9a5e-61d2ae9359c1">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Grand Devil" />
+			<property name="Rules" value="Double breaker (This creature breaks 2 shields.)&#xd;&#xa;Whenever this creature attacks, you may discard a card from your hand. If you don't destroy this creature." />
+			<property name="Power" value="9000" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="P44/Y5" />
+		</card>
+
+		<card name="Bolmeteus Red Dragoon" id="60a9d53f-2f52-49ba-b597-a3dd27b3b78e">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Tyranno Drake" />
+			<property name="Rules" value="Double breaker (This creature breaks 2 shields.)&#xd;&#xa;Whenever this creature would break a shield, your opponent puts that shield into his graveyard instead." />
+			<property name="Power" value="9000" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="P46/Y5" />
+		</card>
+
+		<card name="Diamond Glorius, Light Divine Dragon" id="3a688a05-687c-4343-90cf-831a9870b08b">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Apollonia Dragon" />
+			<property name="Rules" value="When you put this creature into the battle zone, ignore any effects that prevent your other creatures from attacking your opponent this turn. (For example, ignore summoning sickness and card effects that say "This creature can't attack" or "This creature can't attack players". Your creatures can't attack creatures this way.)
+ Double breaker" />
+			<property name="Power" value="7000" />
+			<property name="Rarity" value="P48/Y5" />
+			<property name="Number" value="16" />
+		</card>
+
+		<card name="Supernova Ixion Burning Rave" id="985ba2fc-007a-46d6-889b-0286065024f8">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Phoenix" />
+			<property name="Rules" value="Galaxy Vortex evolution - Put on top of 3 of your creatures, whose race is Armored Dragons, Tyranno Drakes, and/or Brave Spirits.&#xd;&#xa;Meteorburn - Whenever this creature attacks, you may put a non-evolution creature under this creature into the battle zone. That creature gets "speed attacker". Destroy that creature at the end of your turn.&#xd;&#xa;Triple breaker" />
+			<property name="Power" value="13000" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="P57/Y5" />
+		</card>
+
+		<card name="Vilan Legius, Battle Dragon" id="f5b9b0e6-7b69-4491-86c8-f16895aa666a">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon/Tyranno Drake" />
+			<property name="Rules" value="Power attacker +5000 (While attacking, this creature gets +5000 power.)&#xd;&#xa;Triple breaker (This creature breaks 3 shields.)" />
+			<property name="Power" value="9000" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="P59/Y5" />
+		</card>					
+
 	</cards>
 </set>

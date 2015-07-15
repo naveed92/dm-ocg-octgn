@@ -239,5 +239,160 @@
 			<property name="Rarity" value="Super Rare" />
 			<property name="Number" value="S2" />
 		</card>		
+
+		<card name="Azelzard, Devil Emperor" id="4d2d570d-313b-4a50-9935-9b20f80ee51e">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Grand Devil" />
+			<property name="Rules" value="Evolution - Grand Devils&#xd;&#xa;Meteorburn - Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, return one of your opponent's shields to his hand. (Your opponent may use "Shield trigger")&#xd;&#xa;Double breaker" />
+			<property name="Power" value="9000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="1" />
+		</card>
+
+		<card name="Soldarios, Holy Emperor" id="7ee6d441-c07d-4115-b9ec-a022cdb4e04b">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Arc Seraphim" />
+			<property name="Rules" value="Evolution - Arc Seraphim.&#xd;&#xa;Meteorburn - Whenever your creatures are able to attack, you may put a card under this creature into your graveyard. If you do, put a non-evolution Arc Seraphim or Beast Folk from your mana zone into the battle zone.&#xd;&#xa;Double breaker" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="2" />
+		</card>
+
+		<card name="Dragrunder, Thunderous Dragonic Phoenix " id="d451c1d9-b0b7-4049-960e-fc07461695da">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Tyranno Drake" />
+			<property name="Rules" value="Evolution - Tyranno Drake&#xd;&#xa;Double breaker&#xd;&#xa;This creature can attack untapped creatures.&#xd;&#xa;[Fort Energy - Brave Spirit]Power attacker +4000" />
+			<property name="Power" value="8000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="21" />
+		</card>
+
+		<card name="Invincible Mecha Grandiver X" id="dec0014b-5754-4f3e-8180-a37cae41a12f">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Great Mecha King" />
+			<property name="Rules" value="Evolution - Great Mecha King&#xd;&#xa;Double breaker (This creature breaks 2 shields.)&#xd;&#xa;This creature can't be attacked or blocked.&#xd;&#xa;This creature can't attack creatures." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="1" />
+		</card>
+
+		<card name="Braveheart Dragoon" id="dc6e92bb-b8da-4392-a091-c72dad3d2c14">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Tyranno Drake" />
+			<property name="Rules" value="Speed attacker (This creature doesn't get summoning sickness.)&#xd;&#xa;If you have 5 or more fire creatures in your graveyard, this creature can't be attacked." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="3" />
+		</card>
+
+		<card name="Uberdragon Bajulaterra" id="9ea81d7c-d330-4c05-9fd4-a2bcebcbadc8">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="9" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="Evolution - Put on one of your creatures that has Dragon in its race.&#xd;&#xa;When you put this creature into the battle zone, each player puts all non-dragon cards from their mana zone into the graveyard.&#xd;&#xa;Triple breaker (This creature breaks 3 shields.)" />
+			<property name="Power" value="12000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="27" />
+		</card>
+
+		<card name="Falmeburn Dragon" id="24f64866-17bc-4de0-8165-b6fe837f3dcc">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="When you put this creature into the battle zone, destroy one of your opponent's creature that has power 4000 or less." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="37" />
+		</card>
+
+		<card name="Cassiopeia Story, Holy Emperor" id="beef5856-ea82-4e73-8010-7557c888f72b">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Arc Seraphim" />
+			<property name="Rules" value="Evolution - Arc Seraphim.&#xd;&#xa;When you put this creature into the battle zone, reveal the top 5 cards of your deck. You may choose a creature from each civilization from these and add them to your hand. Put the rest on the bottom of your deck in any order.&#xd;&#xa;Double breaker" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S4" />
+		</card>
+
+		<card name="Zack Pichi, Winged Dragon Admiral" id="a6de4559-ebc1-4c07-9bc9-ecf6b427d72e">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon / Fire Bird" />
+			<property name="Rules" value="When you put this creature into the battle zone, reveal the top 3 cards of your deck. Put all Armored Dragon and Fire Bird revealed in this way into your hand and the rest on the bottom of your deck in any order. If all the revealed cards were Dragons this creature has 'Speed attacker'.&#xd;&#xa;When this creature would be discarded during your opponent's turn, you may put it into the battle zone instead.&#xd;&#xa;Double breaker" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="55" />
+		</card>
+
+		<card name="Over Skill, Rampaging Machine" id="a7b31547-72d6-4ba2-a826-2f4d92f3a1fe">
+			<property name="Civilization" value="water" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Great Mecha King" />
+			<property name="Rules" value="Each player draws an additional card at the start of their turn.&#xd;&#xa;Whenever your opponent would choose a creature in the battle zone, he can't choose this one. (They can be attacked or blocked.)" />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="10" />
+		</card>
+
+		<card name="Vajuta, Demon of Chaos" id="e77f0405-e6f4-4661-b812-96cacdd85594">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Demon Command" />
+			<property name="Rules" value="This creature breaks an additional shield for each civilization in the battle zone." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="25" />
+		</card>
+
+		<card name="Mint Shuval, Oracle Guardian" id="48d25c20-4077-4476-a536-7eb572d3a82a">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Guardian" />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack players.&#xd;&#xa;Thrilling Three: Guardian (When you put this creature into the battle zone, reveal the top 3 cards of your deck. For each Guardian revealed, use the following Thrillingthree ability once. Then, put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa[Thrillingthree] Return a spell from your graveyard to your hand." />
+			<property name="Power" value="2500" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="37" />
+		</card>
+
+		<card name="Fuuma Agassion" id="1e08aed9-3871-4f7c-8607-b9bf1047cbb3">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Grand Devil" />
+			<property name="Rules" value=" When you put this creature into the battle zone, if you have at least 1 darkness creature in your graveyard you may draw a card." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="2" />
+		</card>
+
+		<card name="Grenbelk, Devil Emperor" id="6d798732-6d87-4337-b3f5-daa220283e24">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Evolution creature" />
+			<property name="Race" value="Grand Devil" />
+			<property name="Rules" value="Evolution - Grand Devil.&#xd;&#xa;Meteorburn - Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, you may put a creature that costs 3 or less from your graveyard into the battle zone.&#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
+			<property name="Power" value="7000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="1" />
+		</card>
+
 	</cards>
 </set>

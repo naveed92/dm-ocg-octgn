@@ -1181,7 +1181,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="106" />
 		</card>
-		<card name="Ebard Zenom, Tree Pulse Guardian" id="1fc33b02-ecef-42b3-a1cd-347a2ef04546">
+		<card name="Ebard Zenom, Tree Pulse Guardian" id="c3eb63e0-3b49-4011-9dfa-a63cedd04295">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />

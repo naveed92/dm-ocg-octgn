@@ -708,7 +708,7 @@ def draw(group, conditional = False, count = 1, x = 0, y = 0):
             choiceList = ['Yes', 'No']
             colorsList = ['#FF0000', '#FF0000']
             choice = askChoice("Draw a card?", choiceList, colorsList)
-            if choice == 0:
+            if choice == 0 or choice == 2:
                 return 
         card = group[0]
         card.moveTo(card.owner.hand)
@@ -835,8 +835,10 @@ def toPlay(card, x = 0, y = 0, notifymute = False, evolveText = ''):
             targets = [c for c in table
                         if c.controller == me
                         and c.targetedBy
-                        and c.targetedBy == me
-                        and isCreature(c)]
+                        and c.targetedBy == me]
+            targets = [c for c in targets
+                       if isCreature(c)
+                       or isGear(c)]
             for c in targets:
                 c.target(False) #remove the targets
             if len(targets) == 0:

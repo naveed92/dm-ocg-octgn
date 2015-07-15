@@ -17,14 +17,14 @@ onSummon = {
                 'Alshia, Spirit of Novas': 'search(me.piles["Graveyard"], 1, "Spell")',
                 'Akashic Second, Electro-Spirit': 'draw(me.Deck, True);',
                 'Aqua Bouncer': 'bounce()',
-                'Aqua Deformer': 'fromMana(2)',#; remoteCall(not card.owner==me,"fromMana",2)',
+                'Aqua Deformer': 'fromMana(2, "ALL", "ALL", "ALL", True, False, True)',
                 'Aqua Hulcus': 'draw(me.Deck, True);',
                 'Aqua Sniper': 'bounce(2)',
                 'Aqua Surfer': 'bounce()',
                 'Armored Decimator Valkaizer': 'kill(4000)',
                 'Artisan Picora': 'fromMana(1,"ALL","ALL","ALL",False,True)', 
                 'Astral Warper': 'draw(me.Deck, True, 3)',
-				'Ballom, Master of Death':'banishAll(table, True, "ALL", "Darkness", True)', #NEW
+				'Ballom, Master of Death':'banishAll(table, True, "ALL", "Darkness", True)',
                 'Belix, the Explorer': 'fromMana(1,"Spell")',
                 'Bronze-Arm Tribe': 'mana(me.Deck);',
                 'Chaos Worm': 'kill()',
@@ -63,8 +63,7 @@ onSummon = {
                 'Rumbling Terahorn': 'search(me.Deck, 1, "Creature")',
                 'Ryokudou, the Principle Defender': 'mana(me.Deck,2);fromMana()',
                 'Scissor Scarab': 'search(1,"ALL","ALL","Giant Insect")',
-				#'Shaman Totem': 'draw(me.Deck, True, len([card for card in table if card.owner==me and card.controller==me]))',
-                'Shtra': 'fromMana()',#; remoteCall(not card.owner,"fromMana",1)',
+                'Shtra': 'fromMana(1, "ALL", "ALL", "ALL", True, False, True)',
                 'Skysword, the Savage Vizier': 'mana(me.Deck);shields(me.Deck)',
                 'Solidskin Fish': 'fromMana()',
                 'Spiritual Star Dragon': 'fromDeck()',
@@ -137,7 +136,7 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Solar Ray': 'tapCreature()',
             'Solar Trap': 'tapCreature()',
             'Spastic Missile': 'kill(3000)',
-            'Spiral Lance': 'gear("bounce");',
+            'Spiral Lance': 'gear("bounce")',
             'Screw Rocket': 'gear("kill");',
             'Spiral Gate': 'bounce()',
             'Stronghold of Lightning and Flame': 'kill(3000); tapCreature()',
@@ -149,9 +148,9 @@ onCast = {  'Abduction Charger': 'bounce(2)',
             'Tornado Flame': 'kill(4000)',
             'Ultimate Force': 'mana(me.Deck,2)',
             'Valiant Spark': 'tapCreature(1,True) if metamorph() else tapCreature()',
-            'Volcanic Arrows': 'kill(6000); destroyShield(False);',
+            'Volcanic Arrows': 'kill(6000); destroyShield(False)',
             'Volcano Charger': 'kill(2000)',
-            'Wave Rifle': 'gear("bounce");',
+            'Wave Rifle': 'gear("bounce")',
             'Zombie Carnival': 'fromGrave()'
     }
 
@@ -166,6 +165,7 @@ onDestroy = {'Akashic First, Electro-Dragon': 'toHand(card)',
              'Asylum, the Dragon Paladin': 'toShields(card)',
              'Bat Doctor, Shadow of Undeath': 'search(me.piles["Graveyard"], 1, "Creature")',
              'Bone Piercer': 'fromMana(1, "Creature")',
+			 'Bruiser Dragon': 'destroyShield(False)',
              'Cetibols': 'draw(me.Deck, True)',
              'Chillias, the Oracle': 'toHand(card)',
              'Coiling Vines': 'toMana(card)',
@@ -188,26 +188,31 @@ onDestroy = {'Akashic First, Electro-Dragon': 'toHand(card)',
 
 # Functions used in the Automation dictionaries.
 
-def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL", show = True, toGrave = False):
+def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL", show = True, toGrave = False, ApplyToAllPlayers = False):
 	mute()
-	for i in range(0,count):
-		if TypeFilter != "ALL":
-			cardsInGroup_Type_Filtered = [card for card in table if isMana(card) and card.owner==me and re.search(TypeFilter,card.Type)]
-		else:
-			cardsInGroup_Type_Filtered = [card for card in table if isMana(card) and card.owner==me]
-		if CivFilter != "ALL":
-			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered if re.search(CivFilter,card.properties['Civilization'])]
-		else:
-			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered]
-		if RaceFilter != "ALL":
-			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered if re.search(RaceFilter,card.properties['Race'])]
-		else:
-			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
-		if len(cardsInGroup_CivTypeandRace_Filtered) == 0: return
-		choice = askCard(cardsInGroup_CivTypeandRace_Filtered, 'Choose a Card from the Mana Zone','Mana Zone')
-		if type(choice) is not Card: break
-		if toGrave == True: banish(choice)
-		else: toHand(choice, show)
+	if ApplyToAllPlayers == True:
+		playerList = players
+	else:
+		playerList = [players[0]]
+	for player in playerList:
+		for i in range(0,count):
+			if TypeFilter != "ALL":
+				cardsInGroup_Type_Filtered = [card for card in table if isMana(card) and card.owner==me and re.search(TypeFilter,card.Type)]
+			else:
+				cardsInGroup_Type_Filtered = [card for card in table if isMana(card) and card.owner==me]
+			if CivFilter != "ALL":
+				cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered if re.search(CivFilter,card.properties['Civilization'])]
+			else:
+				cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered]
+			if RaceFilter != "ALL":
+				cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered if re.search(RaceFilter,card.properties['Race'])]
+			else:
+				cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
+			if len(cardsInGroup_CivTypeandRace_Filtered) == 0: return
+			choice = askCard(cardsInGroup_CivTypeandRace_Filtered, 'Choose a Card from the Mana Zone','Mana Zone')
+			if type(choice) is not Card: break
+			if toGrave == True: remoteCall(player,"banish",choice)
+			else: remoteCall(player,"toHand",[choice, show])
 
 def killAndSearch(toPlay = False):
 	mute()
@@ -340,17 +345,17 @@ def destroyMana(count = 1):
         remoteCall(choice.owner,"banish",choice)
 
 def destroyShield(owner = True):
-    	mute()
+	mute()
 	if owner == True:
 		cardList = [card for card in table if isShield(card) and not card.owner==me]
     	else:
 		cardList = [card for card in table if isShield(card) and card.owner==me]
 	if len(cardList)==0:
-        	return
-    	choice = askCard(cardList, 'Choose a shield to send to graveyard')
-    	if type(choice) is not Card:
-        	return        
-    	remoteCall(choice.owner,"banish",[choice,True])
+		return
+	choice = askCard(cardList, 'Choose a shield to send to graveyard')
+	if type(choice) is not Card:
+		return        
+	remoteCall(choice.owner,"banish",[choice,True])
         
 def fromDeck():
     mute()

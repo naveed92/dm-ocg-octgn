@@ -274,7 +274,7 @@
 		</card>
 
 		<card name="Invincible Mecha Grandiver X" id="dec0014b-5754-4f3e-8180-a37cae41a12f">
-			<property name="Civilization" value="Nature" />
+			<property name="Civilization" value="Water" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Great Mecha King" />
@@ -285,7 +285,7 @@
 		</card>
 
 		<card name="Braveheart Dragoon" id="dc6e92bb-b8da-4392-a091-c72dad3d2c14">
-			<property name="Civilization" value="Nature" />
+			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tyranno Drake" />
@@ -322,7 +322,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Arc Seraphim" />
-			<property name="Rules" value="Evolution - Arc Seraphim.&#xd;&#xa;When you put this creature into the battle zone, reveal the top 5 cards of your deck. You may choose a creature from each civilization from these and add them to your hand. Put the rest on the bottom of your deck in any order.&#xd;&#xa;Double breaker" />
+			<property name="Rules" value="Evolution - Arc Seraphim.&#xd;&#xa;When you put this creature into the battle zone, reveal the top 5 cards of your deck. You may choose a creature from each civilization from these and add them to your hand. Put the rest on the bottom of your deck in any order.&#xd;&#xa;[Double breaker]" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="Super Rare" />
 			<property name="Number" value="S4" />
@@ -333,14 +333,14 @@
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armored Dragon / Fire Bird" />
-			<property name="Rules" value="When you put this creature into the battle zone, reveal the top 3 cards of your deck. Put all Armored Dragon and Fire Bird revealed in this way into your hand and the rest on the bottom of your deck in any order. If all the revealed cards were Dragons this creature has 'Speed attacker'.&#xd;&#xa;When this creature would be discarded during your opponent's turn, you may put it into the battle zone instead.&#xd;&#xa;Double breaker" />
+			<property name="Rules" value="[Double breaker] When you put this creature into the battle zone, reveal the top 3 cards of your deck. Put all Armored Dragon and Fire Bird into your hand and the rest on the bottom of your deck in any order. If all the cards were Dragons, this creature has 'Speed attacker'.&#xd;&#xa;When this creature would be discarded during your opponent's turn, you may put it into the battle zone instead." />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="Very Rare" />
 			<property name="Number" value="55" />
 		</card>
 
 		<card name="Over Skill, Rampaging Machine" id="a7b31547-72d6-4ba2-a826-2f4d92f3a1fe">
-			<property name="Civilization" value="water" />
+			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King" />
@@ -366,7 +366,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Guardian" />
-			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack players.&#xd;&#xa;Thrilling Three: Guardian (When you put this creature into the battle zone, reveal the top 3 cards of your deck. For each Guardian revealed, use the following Thrillingthree ability once. Then, put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa;[Thrillingthree] Return a spell from your graveyard to your hand." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack players.&#xd;&#xa;[Thrilling Three: Guardian] Return a spell from your graveyard to your hand." />
 			<property name="Power" value="2500" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="37" />
@@ -388,7 +388,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="Evolution - Grand Devil.&#xd;&#xa;Meteorburn - Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, you may put a creature that costs 3 or less from your graveyard into the battle zone.&#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
+			<property name="Rules" value="Evolution - Grand Devil.&#xd;&#xa;Meteorburn - Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, you may put a creature that costs 3 or less from your graveyard into the battle zone.&#xd;&#xa;[Double breaker]" />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="Common" />
 			<property name="Number" value="1" />

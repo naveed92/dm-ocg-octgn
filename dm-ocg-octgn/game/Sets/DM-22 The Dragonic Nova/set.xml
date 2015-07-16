@@ -25,7 +25,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Evolution - Put on one of your Phoenix.&#xd;&#xa;Meteorburn - When this creature attacks, you may send a card under this creature to the Graveyard. If the last card put into the Graveyard is a Phoenix, you win the game.&#xd;&#xa;Triple Breaker (This creature breaks 3 shields.)" />
+			<property name="Rules" value="Evolution - Phoenix.&#xd;&#xa;Meteorburn - When this creature attacks, you may send a card under this creature to the Graveyard. If the last card put into the Graveyard is a Phoenix, you win the game.&#xd;&#xa;[Triple Breaker]" />
 			<property name="Power" value="17000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S1" />
@@ -35,8 +35,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Evolution GV - Put on top of three creatures, whose race is Great Mecha King, Grand Devil, and/or Poseidia Dragon.&#xd;&#xa;When a creature you control is destroyed, you may put that card under this creature instead of sending it to the Graveyard.&#xd;&#xa;Meteorburn 6 - When this creature attacks, you may put 6 cards under this creature into the Graveyard. If so, return all creatures in  your opponent's Battle Zone and all cards in your opponent's Mana Zone to their owner's hand.&#xd;&#xa;Triple Breaker" />
-			<property name="Power" value="15000" />
+			<property name="Rules" value="Evolution GV - Great Mecha King, Grand Devil, and/or Poseidia Dragon.&#xd;&#xa;[Triple Breaker] When a creature you control is destroyed, you may put that card under this creature instead of sending it to the Graveyard.&#xd;&#xa;Meteorburn 6 - When this creature attacks, you may put 6 cards under this creature into the Graveyard. If so, return all creatures in  your opponent's Battle Zone and all cards in your opponent's Mana Zone to their owner's hand." />			<property name="Power" value="15000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S2" />
 		</card>
@@ -45,7 +44,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Zombie Dragon" />
-			<property name="Rules" value="When one of your Dragons is destroyed other than &quot;Necrodragon Guljeneraid&quot;, if this creature is in your graveyard, you may return this creature to the battle zone.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)" />
+			<property name="Rules" value="When one of your Dragons is destroyed other than &quot;Necrodragon Guljeneraid&quot;, if this creature is in your graveyard, you may return this creature to the battle zone.&#xd;&#xa;[Double Breaker]" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S3" />
@@ -55,7 +54,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix/Tyranno Drake" />
-			<property name="Rules" value="Evolution GV - Put on top of three creatures, whose race is Dragon.&#xd;&#xa;Meteorburn - When this creature attacks, you may send a card under this creature to the Graveyard. If so, this creature gains &quot;Power Attacker +15000&quot; and &quot;World Breaker&quot;. (Creature with &quot;Power Attacker +15000&quot; and &quot;World Breaker&quot; gain Power +15000 while attacking, and can break all Shields.)&#xd;&#xa;When an opponent chooses this creature, they put all of their cards in the Mana Zone into the Graveyard.&#xd;&#xa;Triple Breaker" />
+			<property name="Rules" value="Evolution GV - Dragon.&#xd;&#xa;Meteorburn - When this creature attacks, you may send a card under this creature to the Graveyard. If so, this creature gains &quot;Power Attacker +15000&quot; and &quot;World Breaker&quot; &#xd;&#xa;When an opponent chooses this creature, they put all of their cards in the Mana Zone into the Graveyard.&#xd;&#xa;Triple Breaker" />
 			<property name="Power" value="15000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />
@@ -65,7 +64,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix/Dynamo" />
-			<property name="Rules" value="Evolution GV - Put on top of three creatures, whose race is Dynamo.&#xd;&#xa;Dynamo&#xd;&#xa;Meteorburn - When this creature attacks, you may send a card under this creature to the  Graveyard.  If so, choose an opponent's creature in the Battle Zone and put it into its owner's Mana Zone.&#xd;&#xa;Triple Breaker" />
+			<property name="Rules" value="Evolution GV - Dynamo.&#xd;&#xa;[Triple Breaker] [Dynamo]&#xd;&#xa;Meteorburn - When this creature attacks, you may send a card under this creature to the  Graveyard. If so, choose an opponent's creature in the Battle Zone and put it into its owner's Mana Zone." />
 			<property name="Power" value="12000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S5" />
@@ -75,7 +74,7 @@
 			<property name="Cost" value="9" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Apollonia Dragon" />
-			<property name="Rules" value="Your opponent plays with their hand face-up.&#xd;&#xa;This creature gains Power +2000 for each Spell in your opponent's hand.&#xd;&#xa;Your opponent cannot play Spells.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)" />
+			<property name="Rules" value="Your opponent plays with their hand face-up.&#xd;&#xa;This creature gains Power +2000 for each Spell in your opponent's hand.&#xd;&#xa;Your opponent cannot play Spells.&#xd;&#xa;[Double Breaker]" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="1" />
@@ -85,7 +84,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Poseidia Dragon" />
-			<property name="Rules" value="When this creature attacks, reveal the top card of your deck. If it's a Spell with cost of 7 or less, you may play it without paying its cost. Otherwise, put it into the Graveyard.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)" />
+			<property name="Rules" value="When this creature attacks, reveal the top card of your deck. If it's a Spell with cost of 7 or less, you may play it without paying its cost. Otherwise, put it into the Graveyard.&#xd;&#xa;[Double Breaker]" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="2" />
@@ -105,7 +104,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Armored Dragon/Tyranno Drake" />
-			<property name="Rules" value="Evolution - Put on of one of your Dragon or Tyranno Drake.&#xd;&#xa;When this creature is put into the Battle Zone, if put on top of a Tyranno Drake, destroy an opponent's creature with Power 4000 or less.&#xd;&#xa;When this creature attacks, if a card under this creature is a Dragon, you may destroy 1 of your opponent's creatures with less power than this creature that isn't an Armored Dragon or Tyranno Drake.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Evolution - Dragon or Tyranno Drake.&#xd;&#xa;[Double Breaker] When this creature is put into the Battle Zone, if put on top of a Tyranno Drake, destroy an opponent's creature with Power 4000 or less.&#xd;&#xa;When this creature attacks, if a card under this creature is a Dragon, you may destroy 1 of your opponent's creatures with less power than this creature that isn't an Armored Dragon or Tyranno Drake." />
 			<property name="Power" value="8000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="4" />
@@ -125,7 +124,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Arc Seraphim" />
-			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;When this creature is put into the Battle Zone, tap all creatures with Power 3000 or less." />
+			<property name="Rules" value="{SHIELD TRIGGER} &#xd;&#xa;When this creature is put into the Battle Zone, tap all creatures with Power 3000 or less." />
 			<property name="Power" value="3500" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="6" />
@@ -145,7 +144,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Choose an Evolution Creature in the Battle Zone and return a card under that creature to its owner's hand." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose an Evolution Creature in the Battle Zone and return a card under that creature to its owner's hand." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="8" />
@@ -155,7 +154,7 @@
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Poseidia Dragon" />
-			<property name="Rules" value="[Blocker] Blocker (When an opponent's creature attacks, you may tap this creature to stop the attack. Then the two creatures battle.)&#xd;&#xa;When this creature attacks or blocks, return a card from your Mana Zone to your hand.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)" />
+			<property name="Rules" value="[Blocker] Blocker (When an opponent's creature attacks, you may tap this creature to stop the attack. Then the two creatures battle.)&#xd;&#xa;When this creature attacks or blocks, return a card from your Mana Zone to your hand.&#xd;&#xa;[Double Breaker]" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="9" />
@@ -175,7 +174,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Choose a card from any Mana Zone, and put that card on top of its owner's deck." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose a card from any Mana Zone, and put that card on top of its owner's deck." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="11" />
@@ -185,7 +184,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Zombie Dragon" />
-			<property name="Rules" value="At the beginning of your opponent's turn, your opponent draws an extra card.&#xd;&#xa;When this creature attacks, you may look at your opponent's hand and choose a card from there and discard it.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)" />
+			<property name="Rules" value="At the beginning of your opponent's turn, your opponent draws an extra card.&#xd;&#xa;When this creature attacks, you may look at your opponent's hand and choose a card from there and discard it.&#xd;&#xa;[Double Breaker]" />
 			<property name="Power" value="9000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="12" />
@@ -215,7 +214,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armored Dragon" />
-			<property name="Rules" value="When a Dragon you control would leave the Battle Zone, put the top card of your deck into your Graveyard. If that card is a Dragon or Fire Bird, your Dragon stays in the Battle Zone.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)" />
+			<property name="Rules" value="When a Dragon you control would leave the Battle Zone, put the top card of your deck into your Graveyard. If that card is a Dragon or Fire Bird, your Dragon stays in the Battle Zone.&#xd;&#xa;[Double Breaker]" />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="15" />
@@ -245,7 +244,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Earth Dragon" />
-			<property name="Rules" value="When attacking, this creature gains power equal to the total power of all other tapped creatures in your Battle Zone.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)" />
+			<property name="Rules" value="When attacking, this creature gains power equal to the total power of all other tapped creatures in your Battle Zone.&#xd;&#xa;[Double Breaker]" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="18" />
@@ -275,7 +274,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Evolution V - Put on top of 2 Arc Seraphim, Saint Head, and/or Apollonia Dragon you control.&#xd;&#xa;When an opponent chooses creatures in the Battle Zone, your opponent can't choose this creature (However, this creature can still be attacked or blocked.)&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)" />
+			<property name="Rules" value="Evolution V - Put on top of 2 Arc Seraphim, Saint Head, and/or Apollonia Dragon you control.&#xd;&#xa;When an opponent chooses creatures in the Battle Zone, your opponent can't choose this creature.&#xd;&#xa;[Double Breaker]" />
 			<property name="Power" value="11000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="21" />
@@ -295,7 +294,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;During this turn, when a creature you control is destroyed, they creature stays in the Battle Zone instead of going to the Graveyard." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;During this turn, when a creature you control is destroyed, they creature stays in the Battle Zone instead of going to the Graveyard." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="23" />
@@ -305,7 +304,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Evolution V - Put on top of 2 Great Mecha King, Machine Hero, and/or Poseidia Dragon you control.&#xd;&#xa;When this creature is destroyed, return this card to your hand.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)" />
+			<property name="Rules" value="Evolution V - Put on top of 2 Great Mecha King, Machine Hero, and/or Poseidia Dragon you control.&#xd;&#xa;When this creature is destroyed, return this card to your hand.&#xd;&#xa;[Double Breaker]" />
 			<property name="Power" value="11000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="24" />
@@ -335,7 +334,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Evolution V - Put on top of 2 of your Grand Devil, Deep Marine, and/or Zombie Dragon.&#xd;&#xa;When this creature is put into the Battle Zone, destroy an opponent's creature.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)" />
+			<property name="Rules" value="Evolution V - Put on top of 2 of your Grand Devil, Deep Marine, and/or Zombie Dragon.&#xd;&#xa;When this creature is put into the Battle Zone, destroy an opponent's creature.&#xd;&#xa;[Double Breaker]" />
 			<property name="Power" value="9000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="27" />
@@ -345,8 +344,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;Thrilling Three: Phoenix (When this creature is put into the Battle Zone, reveal the top 3 cards from your  deck. For each Phoenix in there, activate the following [TT] ability once.  Put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa;[TT]: Destroy an opponent's creature.&#xd;&#xa;This creature can't attack." />
-			<property name="Power" value="4000" />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;[Thrilling Three: Phoenix] Destroy an opponent's creature.&#xd;&#xa;This creature can't attack." />			<property name="Power" value="4000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="28" />
 		</card>
@@ -485,7 +483,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King" />
-			<property name="Rules" value="[Blocker] Blocker (When an opponent's creature attacks, you may tap this creature to stop the attack. Then the two creatures battle.)&#xd;&#xa;This creature cannot attack.&#xd;&#xa;This creature cannot block Evolution Creatures or Dragons." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature cannot attack.&#xd;&#xa;This creature cannot block Evolution Creatures or Dragons." />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="42" />
@@ -495,7 +493,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Look at the top 5 cards of your deck. Put any number of those cards on top of your deck in any order on top of your deck, the rest on the bottom of your deck in any order." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Look at the top 5 cards of your deck. Put any number of those cards on top of your deck in any order on top of your deck, the rest on the bottom of your deck in any order." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="43" />
@@ -535,7 +533,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Return a creature from your Graveyard to your hand. If that creature is a Dragon, you may return another creature from your Graveyard to your hand." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Return a creature from your Graveyard to your hand. If that creature is a Dragon, you may return another creature from your Graveyard to your hand." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="47" />
@@ -545,7 +543,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armored Dragon" />
-			<property name="Rules" value="Speed Attacker (This creature doesn't get summoning sickness.)&#xd;&#xa;Thrilling Three: Dragon (When this creature comes into play, reveal the top 3 cards from your deck.  For each Dragon revealed, activate the following [TT] ability once.  Afterward, put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa;[TT]: During this turn, this creature breaks an additional Shield." />
+			<property name="Rules" value="[Speed Attacker]&#xd;&#xa;[Thrilling Three: Dragon] During this turn, this creature breaks an additional Shield." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="48" />

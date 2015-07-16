@@ -35,7 +35,7 @@
 			<property name="Cost" value="8" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Evolution GV - Put on top of 3 of your Arc Seraphim, Dreammate, and/or Great Mecha King&#xd;&#xa;[Blocker] Blocker&#xd;&#xa;When this creature is put into the Battle Zone, reveal the top 5 cards of your deck.  From there you may summon any number of creatures without paying their cost. Afterward, put the rest of the cards into your Graveyard.&#xd;&#xa;Triple Breaker" />
+			<property name="Rules" value="Evolution GV - Arc Seraphim, Dreammate, and/or Great Mecha King&#xd;&#xa;[Triple Breaker] [Blocker]&#xd;&#xa;When this creature is put into the Battle Zone, reveal the top 5 cards of your deck.  From there you may summon any number of creatures without paying their cost. Afterward, put the rest of the cards into your Graveyard." />
 			<property name="Power" value="13000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S2" />
@@ -45,7 +45,7 @@
 			<property name="Cost" value="8" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Evolution GV - Put on top of 3 of your Grand Devil, Tyranno Drake, and/or Deep Marine&#xd;&#xa;When this creature is put into the Battle Zone, put all card s under Evolution creatures into their owner's Graveyard.&#xd;&#xa;Great Life Gate: Grand Devil, Tyranno Drake, Deep Marine, Brave Spirit (When this creature is destroyed, you may return all Grand Devil, Tyranno Drake, Deep Marine, and Brave Spirit from your Graveyard to your hand. If so, put this creature on the bottom of your deck instead of the Graveyard.)&#xd;&#xa;Triple Breaker" />
+			<property name="Rules" value="Evolution GV - Grand Devil, Tyranno Drake, and/or Deep Marine&#xd;&#xa;[Triple Breaker] When this creature is put into the Battle Zone, put all cards under Evolution creatures into their owner's Graveyard.&#xd;&#xa;[Great Life Gate: Grand Devil, Tyranno Drake, Deep Marine, Brave Spirit] (When this creature is destroyed, you may return all Grand Devil, Tyranno Drake, Deep Marine, and Brave Spirit from your Graveyard to your hand. If so, put this creature on the bottom of your deck.)" />
 			<property name="Power" value="13000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S3" />
@@ -55,7 +55,7 @@
 			<property name="Cost" value="8" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Poseidia Dragon" />
-			<property name="Rules" value="Evolution - Put on one of your Dragon&#xd;&#xa;Thrilling Three: Dragon (When this creature comes into play, reveal the top 3 cards from your deck.  For each Dragon revealed, activate the following [TT] ability once.  Afterward, put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa;[TT]: Search your deck for a card and add it to your hand. Shuffle your deck.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Evolution - Dragon&#xd;&#xa;[Thrilling Three: Dragon] Search your deck for a card and add it to your hand. Shuffle your deck.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="11000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />
@@ -65,7 +65,7 @@
 			<property name="Cost" value="8" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Apollonia Dragon" />
-			<property name="Rules" value="Evolution - Put on one of your Dragon&#xd;&#xa;When this creature is put into the Battle Zone, you may choose up to 2 opponent's creature in the Battle Zone and tap them.&#xd;&#xa;Meteorburn - When this creature attacks, put a card under this creature into your Graveyard. If you do, you may choose up to 2 opponent's creatures in the Battle Zone and tap them.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Evolution - Dragon&#xd;&#xa;[Double Breaker] When this creature is put into the Battle Zone, you may choose up to 2 opponent's creature in the Battle Zone and tap them.&#xd;&#xa;Meteorburn - When this creature attacks, put a card under this creature into your Graveyard. If you do, you may choose up to 2 opponent's creatures in the Battle Zone and tap them." />
 			<property name="Power" value="9500" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S5" />
@@ -75,7 +75,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Great Mecha King" />
-			<property name="Rules" value="Evolution - Put on one of your Great Mecha King&#xd;&#xa;[Blocker] Blocker&#xd;&#xa;When this creature blocks, after the battle, untap this creature.&#xd;&#xa;Meteorburn - When this creature would leave the Battle Zone, you may choose a card under this creature and put it into the Graveyard. If so, this creature remains in the Battle Zone.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Evolution - Great Mecha King&#xd;&#xa;[Double Breaker] [Blocker]&#xd;&#xa;When this creature blocks, after the battle, untap this creature.&#xd;&#xa;Meteorburn - When this creature would leave the Battle Zone, you may choose a card under this creature and put it into the Graveyard. If so, this creature remains in the Battle Zone." />
 			<property name="Power" value="6500" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="1" />
@@ -85,7 +85,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King" />
-			<property name="Rules" value="When this creature is put into the Battle Zone, look at your Shields. You may put one of them into your Graveyard.If so, put the top card of your deck into your Shields face-down.&#xd;&#xa;Life Gate: Great Mecha King (When this creature is destroyed, you may return a Great Mecha King from your Graveyard to your hand, and put this creature on the bottom of your deck instead of the Graveyard.)&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="When this creature is put into the Battle Zone, look at your Shields. You may put one of them into your Graveyard.If so, put the top card of your deck into your Shields face-down.&#xd;&#xa;[Life Gate: Great Mecha King]&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="2" />
@@ -95,7 +95,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Zombie Dragon/Tyranno Drake" />
-			<property name="Rules" value="Evolution - Put on one of your Zombie Dragon or Tyranno Drake&#xd;&#xa;When this creature is put into the Battle Zone, if you put it on top of a Tyranno Drake, choose a card from your opponent's hand and discard it.&#xd;&#xa;When this creature attacks, if the card under this creature is a Dragon, destroy an opponent's untapped creature.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Evolution - Zombie Dragon or Tyranno Drake&#xd;&#xa;[Double Breaker] When this creature is put into the Battle Zone, if you put it on top of a Tyranno Drake, choose a card from your opponent's hand and discard it.&#xd;&#xa;When this creature attacks, if the card under this creature is a Dragon, destroy an opponent's untapped creature."/>
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="3" />
@@ -145,7 +145,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King" />
-			<property name="Rules" value="Life Gate: Great Mecha King or Machine Hero (When this creature is destroyed, you may return a Great Mecha King or Machine Hero, or one of each, from your Graveyard to your hand. If you do, put this creature on the bottom of your deck instead of the Graveyard.)" />
+			<property name="Rules" value="[Life Gate: Great Mecha King or Machine Hero] (When this creature is destroyed, you may return a Great Mecha King or Machine Hero, or one of each, from your Graveyard to your hand. If you do, put this creature on the bottom of your deck instead of the Graveyard.)" />
 			<property name="Power" value="3500" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="8" />
@@ -155,7 +155,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Machine Hero" />
-			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;When this creature is put into the Battle Zone, look at a number of cards from the top of your deck equal to the number of Great Mecha King you control in the Battle Zone. From there put a card into your hand, and return the rest to the bottom of your deck in any order." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When this creature is put into the Battle Zone, look at a number of cards from the top of your deck equal to the number of Great Mecha King you control in the Battle Zone. From there put a card into your hand, and return the rest to the bottom of your deck in any order." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="9" />
@@ -185,7 +185,7 @@
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Deep Marine" />
-			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;When this creature is put into the Battle Zone, until end of turn, all of your opponent's tapped creatures gain Power -1000 for each Grand Devil you control in the Battle Zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When this creature is put into the Battle Zone, until end of turn, all of your opponent's tapped creatures gain Power -1000 for each Grand Devil you control in the Battle Zone." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="12" />
@@ -195,7 +195,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Zombie Dragon" />
-			<property name="Rules" value="When this creature is put into the Battle Zone, discard a card from your hand.&#xd;&#xa;Life Gate: Dragon (When this creature is destroyed, you may return a Dragon from your Graveyard to your hand.  If so, put this creature on the bottom of your deck instead of the Graveyard.)&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="When this creature is put into the Battle Zone, discard a card from your hand.&#xd;&#xa;[Life Gate: Dragon]&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="8000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="13" />
@@ -215,7 +215,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Tyranno Drake" />
-			<property name="Rules" value="Evolution - Put on one of your Tyranno Drake&#xd;&#xa;All creatures you control in the Battle Zone gain &quot;Speed Attacker&quot;.&#xd;&#xa;During the end of your turn, return all other creatures you control in the Battle Zone to your hand.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)" />
+			<property name="Rules" value="Evolution - Tyranno Drake&#xd;&#xa;All creatures you control in the Battle Zone gain &quot;Speed Attacker&quot;.&#xd;&#xa;During the end of your turn, return all other creatures you control in the Battle Zone to your hand.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="9000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="15" />
@@ -225,7 +225,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Brave Spirit" />
-			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;When this creature is put into the Battle Zone, you may destroy an opponent's creature with power 2000 or less for each Tyranno Drake you control in the Battle Zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When this creature is put into the Battle Zone, you may destroy an opponent's creature with power 2000 or less for each Tyranno Drake you control in the Battle Zone." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="16" />
@@ -235,7 +235,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dreammate" />
-			<property name="Rules" value="Life Gate: Dreammate or Vehicle Bee (When this creature is destroyed, you may return a Dreammate or Vehicle Bee, or one of each, from your Graveyard to your hand.  If so, put this creature on the bottom of your deck instead of the Graveyard.)" />
+			<property name="Rules" value="[Life Gate: Dreammate or Vehicle Bee] (When this creature is destroyed, you may return a Dreammate or Vehicle Bee, or one of each, from your Graveyard to your hand.  If so, put this creature on the bottom of your deck instead of the Graveyard.)" />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="17" />
@@ -255,7 +255,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Vehicle Bee" />
-			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;When this creature is put into the Battle Zone, you may put a card from the top of your deck into your Mana Zone for each Dreammate you control in the Battle Zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When this creature is put into the Battle Zone, you may put a card from the top of your deck into your Mana Zone for each Dreammate you control in the Battle Zone." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="19" />
@@ -295,7 +295,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Guardian" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;This creature cannot attack players.&#xd;&#xa;Whenever a card in your mana zone is put into the graveyard by an opponent, you may return that card to your mana zone." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature cannot attack players.&#xd;&#xa;Whenever a card in your mana zone is put into the graveyard by an opponent, you may return that card to your mana zone." />
 			<property name="Power" value="2500" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="23" />
@@ -384,8 +384,8 @@
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Humanoid" />
-			<property name="Rules" value="Speed Attacker (This creature doesn't get summoning sickness.)&#xd;&#xa;At the end of your turn, destroy this creature.&#xd;&#xa;Life Gate: Humanoid (When this creature is destroyed, you may return a Humanoid from your Graveyard to your hand instead.  If so, put this creature on the bottom of your deck instead of the Graveyard.)" />
+			<property name="Race" value="Human" />
+			<property name="Rules" value="[Speed Attacker]&#xd;&#xa;At the end of your turn, destroy this creature.&#xd;&#xa;Life Gate: Human (When this creature is destroyed, you may return a Human from your Graveyard to your hand instead.  If so, put this creature on the bottom of your deck instead of the Graveyard.)" />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="32" />
@@ -415,7 +415,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dreammate" />
-			<property name="Rules" value="When this creature is put into the Battle Zone, each player puts the top card from their deck into their ManaZone.&#xd;&#xa;Life Gate: Dreammate (When this creature is destroyed, you may return a Dreammate from your Graveyard to your hand.  If so, put this creature on the bottom of your deck instead of the Graveyard.)" />
+			<property name="Rules" value="When this creature is put into the Battle Zone, each player puts the top card from their deck into their ManaZone.&#xd;&#xa;[Life Gate: Dreammate]" />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="35" />
@@ -425,7 +425,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Guardian" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;This creature cannot attack players.&#xd;&#xa;Life Gate: Guardian (When this creature is destroyed, you may return a Guardian from your Graveyard to your hand. If so, put this creature on the bottom of your deck instead of the Graveyard.)" />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature cannot attack players.&#xd;&#xa;Life Gate: Guardian (When this creature is destroyed, you may return a Guardian from your Graveyard to your hand. If so, put this creature on the bottom of your deck instead of the Graveyard.)" />
 			<property name="Power" value="2500" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="36" />
@@ -575,7 +575,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tyranno Drake" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)" />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="51" />

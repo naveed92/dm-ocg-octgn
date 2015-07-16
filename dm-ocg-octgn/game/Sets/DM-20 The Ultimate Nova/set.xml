@@ -25,7 +25,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Arc Seraphim" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;Evolution - Put on one of your Arc Seraphim.&#xd;&#xa;Double Breaker&#xd;&#xa;When your opponent uses the &quot;Shield Trigger&quot; ability, search your deck for a Spell card with &quot;Shield Trigger&quot;.  Shuffle your deck.  Then, you may cast that spell without paying its cost. " />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;Evolution - Arc Seraphim.&#xd;&#xa;Double Breaker&#xd;&#xa;When your opponent uses the &quot;Shield Trigger&quot; ability, search your deck for a Spell card with &quot;Shield Trigger&quot;.  Shuffle your deck.  Then, you may cast that spell without paying its cost. " />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S1" />
@@ -45,7 +45,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Tyranno Drake" />
-			<property name="Rules" value="Evolution - Put on one of your Tyranno Drake.&#xd;&#xa;Photo E: Brave Spirit (When this creature is put into the Battle Zone, if a Brave Spirit is tapped to Summon this creature, this creature gain the following [Photo E]  ability.)&#xd;&#xa;[Photo E] : During this turn, your opponent can't use the &quot;Shield Trigger&quot; ability on Shields broken by this creature.&#xd;&#xa;Photo E: Tyranno Drake (When this creature is put into the Battle Zone, if a Tyranno Drake is tapped to Summon this creature, this creature gain the following [Photo E]  ability.)&#xd;&#xa;[Photo E] : This creature breaks an opponent's shield.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Evolution - Tyranno Drake.&#xd;&#xa;[Photo E: Brave Spirit] During this turn, your opponent can't use the &quot;Shield Trigger&quot; ability on Shields broken by this creature.&#xd;&#xa;[Photo E: Tyranno Drake] This creature breaks an opponent's shield.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="11000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S3" />
@@ -55,7 +55,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Evolution GV - Put on top of three creatures, whose race is Zombie Dragon, Armored Dragon, and/or Earth Dragon.&#xd;&#xa;Meteorburn - When this creature attacks, you may send a creature under this card to the Graveyard. If so, put a non-Evolution creature with type Dragon from your hand into play in the Battle Zone, destroy an opponent's creature with power 5000 or less, and choose a card from your opponent's Mana Zone and send it to itsowner's Graveyard.&#xd;&#xa;Triple Breaker" />
+			<property name="Rules" value="Evolution GV - Zombie Dragon, Armored Dragon, and/or Earth Dragon.&#xd;&#xa;Meteorburn - When this creature attacks, you may send a creature under this card to the Graveyard. If so, put a non-Evolution 'Dragon' from your hand into play, destroy an opponent's creature with power 5000 or less, and send a card from your opponent's Mana Zone into the Graveyard.&#xd;&#xa;Triple Breaker" />
 			<property name="Power" value="18000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />
@@ -65,8 +65,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Launcher E: Dragon (When this Spell is cast, you can tap any number of non-Evolution creatures you control with type Dragon that are not already tapped in the Battle Zone.)&#xd;&#xa;Look in your deck.  From there, for each creature tapped with type Dragon when this spell is cast, choose a creature with the same name and put it into the Battle Zone. Shuffle your deck." />
-			<property name="Power" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;[Launcher E: Dragon] Search your deck, for each 'Dragon' creature in the battlezone tapped when this spell is cast, choose a creature with the same name and put it into the Battle Zone. Shuffle your deck." />			<property name="Power" value="" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S5" />
 		</card>
@@ -115,7 +114,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Wild Veggies" />
-			<property name="Rules" value="Photo E: Wild Veggies (When this creature is put into the Battle Zone, if a Wild Veggies is tapped to Summon this creature, this creature gain the following [Photo E]  ability.)&#xd;&#xa;[Photo E] : You may choose a creature from your Graveyard and put it into your Mana Zone.&#xd;&#xa;Photo E: Dragon&#xd;&#xa;[Photo E] : You can return a creature from your Mana Zone to your hand." />
+			<property name="Rules" value="[Photo E: Wild Veggies] You may choose a creature from your Graveyard and put it into your Mana Zone.&#xd;&#xa;[Photo E: Dragon] You can return a creature from your Mana Zone to your hand." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="5" />
@@ -125,7 +124,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Great Mecha King" />
-			<property name="Rules" value="Evolution - Put on one of your Great Mecha King.&#xd;&#xa;Photo E: Machine Hero (When this creature is put into the Battle Zone, if a Machine Hero is tapped to Summon this creature, this creature gain the following [Photo E]  ability.)&#xd;&#xa;[Photo E] : Tap an opponent's creature in the Battle Zone with power 3000 or less.&#xd;&#xa;Photo E: Great Mecha King&#xd;&#xa;[Photo E] : Tap an opponent's creature in the Battle Zone with power 4000 or more." />
+			<property name="Rules" value="Evolution - Great Mecha King.&#xd;&#xa;[Photo E: Machine Hero] Tap an opponent's creature in the Battle Zone with power 3000 or less.&#xd;&#xa;[Photo E: Great Mecha King] Tap an opponent's creature in the Battle Zone with power 4000 or more." />
 			<property name="Power" value="3500" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="6" />
@@ -135,7 +134,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King/Dynamo" />
-			<property name="Rules" value="Dynamo (When another Dynamo attacks or is attacked, you may tap this creature. If you do, add this creature's power and abilities to that creature until the end of turn).&#xd;&#xa;When this creature attacks, choose an opponent's creature in the Battle Zone and tap it. (First you choose which creature to attack, and then you choose which creature to tap.)" />
+			<property name="Rules" value="[Dynamo]&#xd;&#xa;When this creature attacks, choose an opponent's creature in the Battle Zone and tap it. (First you choose which creature to attack, and then you choose which creature to tap.)" />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="7" />
@@ -145,7 +144,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;During this turn, creatures cannot attack.&#xd;&#xa;Add this spell face-down to your Shields.  Choose one of your Shields and send it to the Graveyard." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;During this turn, creatures cannot attack.&#xd;&#xa;Add this spell face-down to your Shields.  Choose one of your Shields and send it to the Graveyard." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="8" />
@@ -155,7 +154,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="Evolution - Put on one of your Grand Devil.&#xd;&#xa;Photo E: Deep Marine (When this creature is put into the Battle Zone, if a Deep Marine is tapped to Summon this creature, this creature gain the following [Photo E]  ability.)&#xd;&#xa;[Photo E] : Choose a creature in the Battle Zone and return it to owner's hand.&#xd;&#xa;Photo E: Grand Devil&#xd;&#xa;[Photo E] : Choose a player.  That player shuffles his/her hand into their deck, and draws the same number of cards." />
+			<property name="Rules" value="Evolution - Grand Devil.&#xd;&#xa;[Photo E: Deep Marine] Choose a creature in the Battle Zone and return it to owner's hand.&#xd;&#xa;[Photo E: Grand Devil] Choose a player.  That player shuffles his/her hand into their deck, and draws the same number of cards." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="9" />
@@ -175,7 +174,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Launcher E: Great Mecha King (When this Spell is cast, you can tap any number of non-Evolution creatures you control with type Dragon that are not already tapped in the Battle Zone.)&#xd;&#xa;Reveal double the amount of tapped Great Mecha King cards from your deck when casting this spell.  From there add all Great Mecha King to your hand, and put the rest on the bottom of your deck in any order." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;[Launcher E: Great Mecha King] Reveal double the amount of tapped Great Mecha King cards from your deck when casting this spell.  From there add all Great Mecha King to your hand, and put the rest on the bottom of your deck in any order." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="11" />
@@ -205,7 +204,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Launcher E: Grand Devil (When this Spell is cast, you can tap any number of non-Evolution creatures you control with type Grand Devil that are not already tapped in the Battle Zone.)&#xd;&#xa;For each Grand Devil tapped when this spell is played, choose an opponent's Shield and add it to his/her hand.  (Your opponent may use &quot;Shield Trigger&quot; abilities from the returned cards)." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;[Launcher E: Grand Devil] For each Grand Devil tapped when this spell is played, choose an opponent's Shield and add it to his/her hand.  (Your opponent may use &quot;Shield Trigger&quot; abilities from the returned cards)." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="14" />
@@ -214,8 +213,8 @@
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Humanoid" />
-			<property name="Rules" value="Photo E: Dragon (When this creature is put into the Battle Zone, if a Dragon is tapped to summon this creature, this creature gain the following [Photo E]  ability.)&#xd;&#xa;[Photo E] :Until the end of turn, all creatures in your Battle Zone gain power +3000.&#xd;&#xa;Photo E: Humanoid (When this creature is put into the Battle Zone, if a Humanoid is tapped to summon this creature, this creature gain the following [Photo E]  ability.)&#xd;&#xa;[Photo E] :Destroy a creature with power 2000 or less." />
+			<property name="Race" value="Human" />
+			<property name="Rules" value="[Photo E: Dragon] Until the end of turn, all creatures in your Battle Zone gain power +3000.&#xd;&#xa;[Photo E: Human] Destroy a creature with power 2000 or less." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="15" />
@@ -245,7 +244,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Dreammate" />
-			<property name="Rules" value="Evolution - Put on one of your Dreammate.&#xd;&#xa;When an opponent casts a Spell, look at your deck.  Select a Dreammate, reveal it and put it in your hand.  Shuffle the deck.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Evolution - Dreammate.&#xd;&#xa;When an opponent casts a Spell, look at your deck.  Select a Dreammate, reveal it and put it in your hand.  Shuffle the deck.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="18" />
@@ -265,7 +264,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Put up to three creatures from your Graveyard into your Mana Zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Put up to three creatures from your Graveyard into your Mana Zone." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="20" />
@@ -275,7 +274,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;Photo E: Great Mecha King (When this creature is put into the Battle Zone, if a Great Mecha King is tapped to Summon this creature, this creature gain the following [Photo E]  ability.)&#xd;&#xa;[Photo E] : Choose two Shields and reveal them. (The chosen shields  stay revealed in the Shield Zone.)&#xd;&#xa;This creature cannot attack players." />
+			<property name="Rules" value="[Blocker] &#xd;&#xa;[Photo E: Great Mecha King] Choose two Shields and reveal them. (The chosen shields  stay revealed in the Shield Zone.)&#xd;&#xa;This creature cannot attack players." />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="21" />
@@ -295,7 +294,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Launcher E: Arc Seraphim (When this Spell is cast, you can tap any number of non-Evolution creatures you control with type Arc Seraphim that are not already tapped in the Battle Zone.)&#xd;&#xa;Search your deck for the same number of Spells as Arc Seraphim you tapped when this Spell was cast.  Reveal them to your opponent, and put them in your hand.  Shuffle your deck." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;[Launcher E: Arc Seraphim] Search your deck for the same number of Spells as Arc Seraphim you tapped when this Spell was cast.  Reveal them to your opponent, and put them in your hand.  Shuffle your deck." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="23" />
@@ -315,7 +314,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;This creature cannot attack.&#xd;&#xa;All creatures that would destroyed by this creature in battle are not destroyed." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature cannot attack.&#xd;&#xa;All creatures that would destroyed by this creature in battle are not destroyed." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="25" />
@@ -325,7 +324,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King" />
-			<property name="Rules" value="[Blocker] Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)&#xd;&#xa;This creature cannot attack.&#xd;&#xa;When an opponent's creature blocks your attack, you may untap this creature." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature cannot attack.&#xd;&#xa;When an opponent's creature blocks your attack, you may untap this creature." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="26" />
@@ -355,7 +354,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Destroy an opponent's creature with cost equal to or less than the number of cards in your Graveyard." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy an opponent's creature with cost equal to or less than the number of cards in your Graveyard." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="29" />
@@ -385,7 +384,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Launcher E: Tyranno Drake (When this Spell is cast, you can tap any number of non-Evolution creatures you control with type Tyranno Drake that are not already tapped in the Battle Zone.)&#xd;&#xa;Destroy a creature with power equal to or less than the total power of the Tyranno Drakes tapped while casting this Spell." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;[Launcher E: Tyranno Drake] Destroy a creature with power equal to or less than the total power of the Tyranno Drakes tapped while casting this Spell." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="32" />
@@ -405,7 +404,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Choose a creature Type.  Until the end of this turn, all creatures in the Battle Zone you control have that creature Type." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose a creature Type.  Until the end of this turn, all creatures in the Battle Zone you control have that creature Type." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="35" />
@@ -455,7 +454,7 @@
 			<property name="Cost" value="1" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Guardian" />
-			<property name="Rules" value="[Blocker] Blocker (When an opponent's creature attacks, you may tap this creature to stop the attack. Then the two creatures battle.)&#xd;&#xa;This creature cannot block creatures with power 2000 or less.&#xd;&#xa;This creature cannot attack players." />
+			<property name="Rules" value="[Blocker] (When an opponent's creature attacks, you may tap this creature to stop the attack. Then the two creatures battle.)&#xd;&#xa;This creature cannot block creatures with power 2000 or less.&#xd;&#xa;This creature cannot attack players." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="39" />
@@ -465,8 +464,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Liquid People" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;When this creature is put into theBattle Zone, you may draw a card." />
-			<property name="Power" value="2000" />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When this creature is put into the Battle Zone, you may draw a card." />			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="40" />
 		</card>
@@ -485,8 +483,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Liquid People" />
-			<property name="Rules" value="[Blocker] Blocker (When an opponent's creature attacks, you may tap this creature to stop the attack. Then the two creatures battle.)&#xd;&#xa;This creature cannot attack.&#xd;&#xa;When this creature is put into the Battle Zone, choose one of your creatures in the Battle Zone and return it to your hand." />
-			<property name="Power" value="6000" />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature cannot attack.&#xd;&#xa;When this creature is put into the Battle Zone, choose one of your creatures in the Battle Zone and return it to your hand." />						<property name="Power" value="6000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="42" />
 		</card>
@@ -495,7 +492,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Look at the top 3 cards of your deck.  Add one card to your hand, put one on the bottom of your deck, and put the last one on the top of your deck." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Look at the top 3 cards of your deck.  Add one card to your hand, put one on the bottom of your deck, and put the last one on the top of your deck." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="43" />
@@ -505,7 +502,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tyranno Drake" />
-			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)" />
+			<property name="Rules" value="{SHIELD TRIGGER}" />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="44" />
@@ -515,7 +512,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="[Blocker] Blocker (When an opponent's creature attacks, you may tap this creature to stop the attack. Then the two creatures battle.)&#xd;&#xa;This creature can't attack.&#xd;&#xa;When this creature blocks, your opponent chooses a card in his/her hand and discard it." />
+			<property name="Rules" value="[Blocker] (When an opponent's creature attacks, you may tap this creature to stop the attack. Then the two creatures battle.)&#xd;&#xa;This creature can't attack.&#xd;&#xa;When this creature blocks, your opponent chooses a card in his/her hand and discards it." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="45" />
@@ -545,7 +542,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tyranno Drake" />
-			<property name="Rules" value="Photo E: Brave Spirit (When this creature is put into the Battle Zone, if a Brave Spirit is tapped to Summon this creature, this creature gain the following [Photo E]  ability.)&#xd;&#xa;[Photo E] : Until the end of turn, all Tyranno Drake you control in the Battle Zone gain &quot;Speed Attacker&quot; and &quot;This creaturemust attack if able&quot;." />
+			<property name="Rules" value="[Photo E: Brave Spirit] Until the end of this turn, all Tyranno Drake you control in the Battle Zone gain &quot;Speed Attacker&quot; and &quot;This creature must attack if able&quot;." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="48" />
@@ -615,7 +612,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Launcher E: Dreammate (When this Spell is cast, you can tap any number of non-Evolution creatures you control with type Dreammate that are not already tapped in the Battle Zone.)&#xd;&#xa;For each Dreammate tapped when this Spell is cast, put the top card from your deck into your Mana Zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;[Launcher E: Dreammate] For each Dreammate tapped when this Spell is cast, put the top card from your deck into your Mana Zone." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="55" />

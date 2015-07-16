@@ -20,7 +20,7 @@
 		</pack>
 	</packaging>
 	<cards>
-		<card name="Captain Mirionparts" id="55566178-79f7-4bb8-a0e3-f5c49483ae90">
+		<card name="Captain Million-Parts" id="55566178-79f7-4bb8-a0e3-f5c49483ae90">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -33,9 +33,9 @@
 		<card name="Supernova Neptune Shutrom" id="f6743a1a-3108-40ab-b031-6352c13a8ef2">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="7" />
-			<property name="Type" value="Creature" />
+			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Evolution GV - Put on top of three creatures, whose race is Grand Devil, Demon Command, and/or Angel Command&#xd;&#xa;Meteorburn - When this creature attacks, you may send a card under this creature to the Graveyard.  If so, your opponent put all of their creatures on top of their deck in any order.&#xd;&#xa;Triple Breaker (This creature breaks 3 shields.)" />
+			<property name="Rules" value="Evolution GV - Grand Devil, Demon Command, and/or Angel Command&#xd;&#xa;Meteorburn - When this creature attacks, you may send a card under this creature to the Graveyard. If so, your opponent put all of their creatures on top of their deck in any order.&#xd;&#xa;Triple Breaker" />
 			<property name="Power" value="13000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S2" />
@@ -55,7 +55,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tyranno Drake" />
-			<property name="Rules" value="Double Breaker&#xd;&#xa;At the beginning of your turn, if there are no  &quot;Kira of Dragoon Sound&quot; in your Battle Zone, put 2 cards from your Mana Zone into your Graveyard.&#xd;&#xa;If there is a &quot;Kira of Dragoon Sound&quot; in your Battle Zone, this creature gains &quot;Speed Attacker&quot;." />
+			<property name="Rules" value="Double Breaker&#xd;&#xa;At the beginning of your turn, if there are no  &quot;Kira of Dragoon Sound&quot; in your BattleZone, put 2 cards from your Mana Zone into your Graveyard.&#xd;&#xa;If there is a &quot;Kira of Dragoon Sound&quot; in your BattleZone, this creature gains &quot;Speed Attacker&quot;." />
 			<property name="Power" value="9000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />
@@ -75,7 +75,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King" />
-			<property name="Rules" value="Thrilling Three: Great Mecha King and Machine Hero (When this creature comes into play, reveal the top 3 cards from your deck.  For each Great Mecha King or Machine Hero revealed, activate the following [TT] ability once.  Afterward, put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa;[TT]: Add a card from your hand or Mana Zone to your Shield Zone face-down." />
+			<property name="Rules" value="[Thrilling Three: Great Mecha King and Machine Hero] Add a card from your hand or Mana Zone to your Shield Zone face-down." />
 			<property name="Power" value="5500" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="1" />
@@ -85,7 +85,7 @@
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="Thrilling Three: Grand Devil and Deep Marine (When this creature comes into play, reveal the top 3 cards from your deck.  For each Grand Devil or Deep Marine revealed, activate the following [TT] ability once.  Afterward, put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa;[TT]: Return a creature from the Battle Zone to its owner's hand." />
+			<property name="Rules" value="[Thrilling Three: Grand Devil and Deep Marine] Return a creature from the Battle Zone to its owner's hand." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="2" />
@@ -95,7 +95,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Angel Command/Grand Devil" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;This creature cannot attack.&#xd;&#xa;Slayer&#xd;&#xa;When an opponent's creature breaks your Shield, you can send that Shield to the Graveyard instead of your hand.  If so, destroy the creature that broke the shield." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature cannot attack.&#xd;&#xa;Slayer&#xd;&#xa;When an opponent's creature breaks your Shield, you can send that Shield to the Graveyard instead of your hand.  If so, destroy the creature that broke the shield." />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="3" />
@@ -105,7 +105,7 @@
 			<property name="Cost" value="14" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Sympathy: Tyranno Drake and Brave Spirit (When you pay the cost to summon this creature, that cost is reduced by 1 for each Tyranno Drake and Brave Spirit on the field. However, that cost can't be less than 2.)&#xd;&#xa;Your opponent adds all of his/her Shields to their hand (Opponent can use the &quot;Shield Trigger&quot; abilities of these cards.)" />
+			<property name="Rules" value="[Sympathy: Tyranno Drake and Brave Spirit]&#xd;&#xa;Your opponent adds all of his/her Shields to their hand (Opponent can use the &quot;Shield Trigger&quot; abilities of these cards.)" />
 			<property name="Power" value="" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="4" />
@@ -115,7 +115,7 @@
 			<property name="Cost" value="9" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Arc Seraphim" />
-			<property name="Rules" value="Thrilling Three: Arc Seraphim and Saint Head (When this creature comes into play, reveal the top 3 cards from your deck.  For each Arc Seraphim or Saint Head revealed, activate the following [TT] ability once.  Afterward, put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa;[TT]: Put a non-Evolution Arc Seraphim or Saint Head creature from your hand into the Battle Zone." />
+			<property name="Rules" value="[Thrilling Three: Arc Seraphim and Saint Head] Put a non-Evolution Arc Seraphim or Saint Head creature from your hand into the Battle Zone." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="5" />
@@ -125,7 +125,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Arc Seraphim/Saint Head" />
-			<property name="Rules" value="When this creature is put into the Battle Zone, reveal the top 3 cards of your deck. Add all revealed Arc Seraphim and Saint Head to your hand, then put the rest on the bottom of your deck in any order.&#xd;&#xa;When this creature is discarded from your hand during your opponent's turn, you may put this card into the Battle Zone instead of the Graveyard." />
+			<property name="Rules" value="When this creature is put into the BattleZone, reveal the top 3 cards of your deck. Add all Arc Seraphim and Saint Head to your hand, and the rest on the bottom of your deck in any order.&#xd;&#xa;When this creature is discarded from your hand during your opponent's turn, you may put it into the Battlezone instead." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="6" />
@@ -145,7 +145,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Sympathy: Arc Seraphim and Saint Head (When you pay the cost to summon this creature, that cost is reduced by 1 for each Arc Seraphim and Saint Head on the field. However, that cost can't be less than 2.)&#xd;&#xa;Your opponent chooses a creature type. Opponent taps all creatures in his/her Battle Zone that do not have the chosen creature type." />
+			<property name="Rules" value="[Sympathy: Arc Seraphim and Saint Head] Your opponent chooses a race. Opponent taps all creatures in his/her Battle Zone that do not have the chosen race." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="8" />
@@ -155,7 +155,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King/Machine Hero" />
-			<property name="Rules" value="When this creature is put into the Battle Zone, reveal the top 3 cards from your deck.  Add all revealed Great Mecha King and Machine Hero to your hand, then put the rest on the bottom of your deck in any order.&#xd;&#xa;When this creature is discarded from your hand during your opponent's turn, you may put this card into the Battle Zone instead of the Graveyard." />
+			<property name="Rules" value="When this creature is put into the Battlezone, reveal the top 3 cards from your deck.  Add all Great Mecha King and Machine Hero to your hand, and the rest on the bottom of your deck in any order.&#xd;&#xa;When this creature is discarded from your hand during your opponent's turn, you may put it into the Battle Zone instead." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="9" />
@@ -165,7 +165,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="Photo E: Grand Devil (When this creature is put into the Battle Zone, if a Grand Devil is tapped to Summon this creature, this creature gain the following [Photo E]  ability.)&#xd;&#xa;[Photo E] : Choose an opponent's creature with power less than or equal to a tapped Grand Devil you control, and return that creature to its owner's hand." />
+			<property name="Rules" value="[Photo E: Grand Devil] Choose an opponent's creature with power less than or equal to a tapped Grand Devil you control, and return that creature to its owner's hand." />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="10" />
@@ -175,7 +175,7 @@
 			<property name="Cost" value="10" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Sympathy: Great Mecha King and Machine Hero (When you pay the cost to summon this creature, that cost is reduced by 1 for each Great Mecha King and Machine Hero on the field. However, that cost can't be less than 2.)&#xd;&#xa;Choose a creature in the Battle Zone, and draw cards equal to the cost of that creature." />
+			<property name="Rules" value="Sympathy: Great Mecha King and Machine Hero (When you pay the cost to summon this creature, that cost is reduced by 1 for each Great Mecha King and Machine Hero on the field. However, that cost can't be less than 1.)&#xd;&#xa;Choose a creature in the Battle Zone, and draw cards equal to the cost of that creature." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="11" />
@@ -185,7 +185,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil/Deep Marine" />
-			<property name="Rules" value="When this creature is put into the Battle Zone, reveal the top 3 cards from your deck. Add all revealed Grand Devil and Deep Marine to your hand, then put the rest on the bottom of your deck in any order.&#xd;&#xa;When this creature is discarded from your hand during your opponent's turn, you may put this card into the Battle Zone instead of the Graveyard." />
+			<property name="Rules" value="When this creature is put into the Battle Zone, reveal the top 3 cards from your deck. Add all Grand Devil and Deep Marine to your hand, and the rest on the bottom of your deck in any order.&#xd;&#xa;When this creature is discarded from your hand during your opponent's turn, you may put it into the Battlezone instead." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="12" />
@@ -195,7 +195,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil/Deep Marine" />
-			<property name="Rules" value="When this creature is put into the Battle Zone, reveal the top 3 cards of your deck. Put all revealed Grand Devil and Deep Marine into your Graveyard, then put the rest on the bottom of your deck in any order. If no Grand Devil or Deep Marine are revealed, destroy this creature.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)" />
+			<property name="Rules" value="When this creature is put into the Battle Zone, reveal the top 3 cards of your deck. Put all revealed Grand Devil and Deep Marine into your Graveyard, then put the rest on the bottom of your deck in any order. If no Grand Devil or Deep Marine are revealed, destroy this creature.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="13" />
@@ -215,7 +215,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tyranno Drake/Brave Spirit" />
-			<property name="Rules" value="When this creature is put into the Battle Zone, reveal the top 3 cards from your deck. Add all revealed Tyranno Drake and Brave Spirit to your hand, then put the rest on the bottom of your deck in any order.&#xd;&#xa;When this creature is discarded from your hand during your opponent's turn, you may put this card into the Battle Zone instead of the Graveyard." />
+			<property name="Rules" value="When this creature is put into the Battle Zone, reveal the top 3 cards from your deck. Add all Tyranno Drake and Brave Spirit to your hand, and the rest on the bottom of your deck in any order.&#xd;&#xa;When this creature is discarded from your hand during your opponent's turn, you may put it into the Battlezone instead." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="15" />
@@ -225,7 +225,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dreammate" />
-			<property name="Rules" value="Thrilling Three: Dreammate and Vehicle Bee (When this creature comes into play, reveal the top 3 cards from your deck.  For each Dreammate or Vehicle Bee revealed, activate the following [TT] ability once.  Afterward, put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa;[TT]: Choose an opponent's Shield. If that card has a &quot;Shield Trigger&quot; ability, put it into its owner's Graveyard. Otherwise, turn it face-down." />
+			<property name="Rules" value="[Thrilling Three: Dreammate and Vehicle Bee] Choose an opponent's Shield. If that card has a &quot;Shield Trigger&quot; ability, put it into its owner's Graveyard. Otherwise, turn it face-down." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="16" />
@@ -245,7 +245,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dreammate/Vehicle Bee" />
-			<property name="Rules" value="When this creature is put into the Battle Zone, reveal the top 3 cards from your deck.  Add all revealed Dreammate and Vehicle Bee to your hand, then put the rest on the bottom of your deck in any order.&#xd;&#xa;When this creature is discarded from your hand during your opponent's turn, you may put this card into the Battle Zone instead of the Graveyard." />
+			<property name="Rules" value="When this creature is put into the Battle Zone, reveal the top 3 cards from your deck.  Add all Dreammate and Vehicle Bee to your hand, and the rest on the bottom of your deck in any order.&#xd;&#xa;When this creature is discarded from your hand during your opponent's turn, you may put it into the Battle Zone instead." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="18" />
@@ -255,7 +255,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dreammate" />
-			<property name="Rules" value="All other Dreammate you control in the Battle Zone gain Power +1000.&#xd;&#xa;When this creature battles, you may choose another Dreammate you control and battle with it instead.&#xd;&#xa;When your opponent chooses a creature in the Battle Zone, if you control a Vehicle Bee, your opponent can't choose this creature. (This creature can still be attacked or  blocked.)" />
+			<property name="Rules" value="All other Dreammates you control in the Battle Zone gain Power +1000.&#xd;&#xa;When this creature battles, you may choose another Dreammate you control and battle with it instead.When your opponent chooses a creature in the Battle Zone, if you control a Vehicle Bee, your opponent can't choose this creature." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="19" />
@@ -265,7 +265,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Sympathy: Dreammate and Vehicle Bee (When you pay the cost to summon this creature, that cost is reduced by 1 for each Dreammate and Vehicle Bee on the field. However, that cost can't be less than 2.)&#xd;&#xa;Put the top 2 cards from your deck into your Mana Zone." />
+			<property name="Rules" value="Sympathy: Dreammate and Vehicle Bee (When you pay the cost to summon this creature, that cost is reduced by 1 for each Dreammate and Vehicle Bee on the field. However, that cost can't be less than 1.)&#xd;&#xa;Put the top 2 cards from your deck into your Mana Zone." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="20" />
@@ -325,7 +325,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;If you control a Great Mecha King in the Battle Zone, choose a creature in the Battle Zone and return it to its owner's hand.&#xd;&#xa;If you control a Kical Hero in the Battle Zone, you may draw a card." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;If you control a Great Mecha King in the Battle Zone, choose a creature in the Battle Zone and return it to its owner's hand.&#xd;&#xa;If you control a Kical Hero in the Battle Zone, you may draw a card." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="26" />
@@ -335,7 +335,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tyranno Drake" />
-			<property name="Rules" value="Thrilling Three: Tyranno Drake and Brave Spirit (When this creature comes into play, reveal the top 3 cards from your deck.  For each Tyranno Drake or Brave Spirit revealed, activate the following [TT] ability once.  Afterward, put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa;[TT]: Choose an opponent's creature in the Battle Zone.  Until the end of this turn, that creature gains Power -3000. (All creatures with Power 0 or less are destroyed.)" />
+			<property name="Rules" value="[Thrilling Three: Tyranno Drake and Brave Spirit] Choose an opponent's creature in the Battle Zone.  Until the end of this turn, that creature gains Power -3000. (All creatures with Power 0 or less are destroyed.)" />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="27" />
@@ -435,7 +435,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Machine Hero" />
-			<property name="Rules" value="Thrilling Three: Great Mecha King (When this creature comes into play, reveal the top 3 cards from your deck.  For each Great Mecha King revealed, activate the following [TT] ability once.  Afterward, put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa;[TT]: Choose an opponent's creature in the Battle Zone and tap it." />
+			<property name="Rules" value="[Thrilling Three: Great Mecha King]  Choose an opponent's creature in the Battle Zone and tap it." />
 			<property name="Power" value="1500" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="37" />
@@ -445,7 +445,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Saint Head" />
-			<property name="Rules" value="[Blocker] Blocker (When an opponent's creature attacks, you may tap this creature to stop the attack. Then the two creatures battle.)&#xd;&#xa;This creature cannot attack players." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature cannot attack players." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="38" />
@@ -455,7 +455,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Put the top card of your deck into your Mana Zone.  Return a Spell from your Mana Zone to your hand." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Put the top card of your deck into your Mana Zone.  Return a Spell from your Mana Zone to your hand." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="39" />
@@ -485,7 +485,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Deep marine" />
-			<property name="Rules" value="Thrilling Three: Grand Devil (When this creature comes into play, reveal the top 3 cards from your deck.  For each Grand Devil revealed, activate the following [TT] ability once.  Afterward, put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa;[TT]: Look at an opponent's Shield.  You can send it to its owner's Graveyard.  If so, your opponent puts the top card from theirdeck into their Shields face-down." />
+			<property name="Rules" value="[Thrilling Three: Grand Devil] Look at an opponent's Shield.  You can send it to its owner's Graveyard.  If so, your opponent puts the top card from theirdeck into their Shields face-down." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="42" />
@@ -495,7 +495,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Deep Marine" />
-			<property name="Rules" value="[Blocker] Blocker (When an opponent's creature attacks, you may tap this creature to stop the attack. Then the two creatures battle.)&#xd;&#xa;This creature cannot attack." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature cannot attack." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="43" />
@@ -505,7 +505,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Brave Spirit" />
-			<property name="Rules" value="Thrilling Three: Tyranno Drake (When this creature comes into play, reveal the top 3 cards from your deck.  For each Tyranno Drake revealed, activate the following [TT] ability once.  Afterward, put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa;[TT]: Return a creature from your Graveyard to your hand." />
+			<property name="Rules" value="[Thrilling Three: Tyranno Drake] Return a creature from your Graveyard to your hand." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="44" />
@@ -535,7 +535,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="[Blocker] Blocker (When an opponent's creature attacks, you may tap this creature to stop the attack. Then the two creatures battle.)&#xd;&#xa;Slayer (When this creature loses a battle, destroy the other creature.)&#xd;&#xa;This creature cannot attack." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;Slayer (When this creature loses a battle, destroy the other creature.)&#xd;&#xa;This creature cannot attack." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="47" />
@@ -555,7 +555,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Vehicle Bee" />
-			<property name="Rules" value="Thrilling Three: Dreammate (When this creature comes into play, reveal the top 3 cards from your deck.  For each Dreammate revealed, activate the following [TT] ability once.  Afterward, put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa;[TT]: Destroy an opponent's creature with &quot;Blocker&quot;" />
+			<property name="Rules" value="[Thrilling Three: Dreammate] Destroy an opponent's creature with &quot;Blocker&quot;" />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="49" />
@@ -585,7 +585,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Arc Seraphim" />
-			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;When this creature is put into the Battle Zone, add the top card from your deck to your Mana Zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When this creature is put into the Battle Zone, add the top card from your deck to your Mana Zone." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="52" />
@@ -615,7 +615,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Saint Head" />
-			<property name="Rules" value="Thrilling Three: Arc Seraphim (When this creature comes into play, reveal the top 3 cards from your deck.  For each Arc Seraphim revealed, activate the following [TT] ability once.  Afterward, put the revealed cards on the bottom of your deck in any order.)&#xd;&#xa;[TT]: Until the end of the turn, a creature you control in the Battle Zone gains Power +1000." />
+			<property name="Rules" value="[Thrilling Three: Arc Seraphim] Until the end of the turn, a creature you control in the Battle Zone gains Power +1000." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="55" />

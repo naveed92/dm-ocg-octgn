@@ -45,7 +45,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Evolution GV - Put on top of three creatures, whose race is Great Macho, Grand Devil, and/or Liquid People.&#xd;&#xa;Meteorburn - When an effect of a Spell is activated, you may send a creature under this card to the Graveyard. If so, the effect of that spell is negated, and that spell is put into its owner's Graveyard.&#xd;&#xa;Triple Breaker" />
+			<property name="Rules" value="Evolution GV - Great Mecha, Grand Devil, and/or Liquid People.&#xd;&#xa;Meteorburn - When an effect of a Spell is activated, you may send a creature under this card to the Graveyard. If so, the effect of that spell is negated and it is put into its owner's Graveyard.&#xd;&#xa;Triple Breaker" />
 			<property name="Power" value="15000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S3" />
@@ -75,7 +75,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Evolution GV - Put on top of three creatures, whose race is Deathpuppet, Grand Devil, and/or Tyranno Drake.&#xd;&#xa;Meteorburn - When this creature attacks, you may send a creature under this card to Graveyard. If you do, destroy an opponent's creature.&#xd;&#xa;Triple Breaker" />
+			<property name="Rules" value="Evolution GV - Deathpuppet, Grand Devil, and/or Tyranno Drake.&#xd;&#xa;Meteorburn - When this creature attacks, you may send a creature under this card to Graveyard. If you do, destroy an opponent's creature.&#xd;&#xa;Triple Breaker" />
 			<property name="Power" value="13000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S6" />
@@ -135,17 +135,17 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Arc Seraphim" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;All other Arc Seraphim you control gain Power +2000.&#xd;&#xa;At the end of your turn, untap all other Arc Seraphim you control." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;All other Arc Seraphim you control gain Power +2000.&#xd;&#xa;At the end of your turn, untap all other Arc Seraphim you control." />
 			<property name="Power" value="3500" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="2" />
 		</card>
-		<card name="Computerized Iron Man Senjuo" id="79fae5fc-6ee0-4335-9cd5-da5eb55f632a">
+		<card name="Cyber Iron Man Senjuo" id="79fae5fc-6ee0-4335-9cd5-da5eb55f632a">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King/Dynamo" />
-			<property name="Rules" value="Dynamo (When another Dynamo attacks or is attacked, you may tap this creature. If you do, add this creature's power and abilities to that creature until the end of turn).&#xd;&#xa;This creature can't be blocked.&#xd;&#xa;When this creature attacks a player and is not blocked, for each Dynamo you tapped for its &quot;Dynamo&quot; effect, break an extra shield." />
+			<property name="Rules" value="[Dynamo]&#xd;&#xa;This creature can't be blocked.&#xd;&#xa;When this creature attacks a player and is not blocked, for each Dynamo you tapped for its &quot;Dynamo&quot; effect, break an extra shield." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="3" />
@@ -185,7 +185,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Evolution GV - Put on top of three creatures, whose race is Tyranno Drake,  Dreammate, and/or Humanoid.&#xd;&#xa;Meteorburn - When this creature attacks, you may send a creature under this card to Graveyard. If you do, destroy all creatures with power of 4000 or less.&#xd;&#xa;Triple Breaker" />
+			<property name="Rules" value="Evolution GV - Tyranno Drake, Dreammate, and/or Human.&#xd;&#xa;Meteorburn - When this creature attacks, you may send a creature under this card to Graveyard. If you do, destroy all creatures with power of 4000 or less.&#xd;&#xa;Triple Breaker" />
 			<property name="Power" value="13000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="7" />
@@ -205,7 +205,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Evolution GV - Put on top of three creatures, whose race is Dreammate, Arc Seraphim, and/or Wild Veggie.&#xd;&#xa;Meteroburn - When this creature attacks, you may choose a non-Evolution creature under this card and put it into the Battle Zone. (However, that creature is affected by Summon Sickness.)&#xd;&#xa;Triple Breaker" />
+			<property name="Rules" value="Evolution GV - Dreammate, Arc Seraphim, and/or Wild Veggie.&#xd;&#xa;Meteorburn - When this creature attacks, you may choose a non-Evolution creature under this card and put it into the Battle Zone&#xd;&#xa;Triple Breaker" />
 			<property name="Power" value="14000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="9" />
@@ -235,7 +235,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King/Dynamo" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;Dynamo (When another Dynamo attacks or is attacked, you may tap this creature. If you do, add this creature's power and abilities to that creature until the end of turn).&#xd;&#xa;This creature can't attack players." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;Dynamo (When another Dynamo attacks or is attacked, you may tap this creature. If you do, add this creature's power and abilities to that creature until the end of turn).&#xd;&#xa;This creature can't attack players." />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="12" />
@@ -255,7 +255,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Guardian" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;This creature can't attack players.&#xd;&#xa;During the turn that this creature is destroyed, creatures cannot attack." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack players.&#xd;&#xa;During the turn that this creature is destroyed, creatures cannot attack." />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="14" />
@@ -356,7 +356,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tyranno Drake" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;When this creature is put into the Battle Zone, your opponent chooses one of his/her Light or Nature creatures and destroys it." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When this creature is put into the Battle Zone, your opponent chooses one of his/her Light or Nature creatures and destroys it." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="24" />
@@ -405,8 +405,8 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
-			<property name="Race" value="Humanoid" />
-			<property name="Rules" value="Evolution - Put on one of your Humanoid.&#xd;&#xa;Meteorburn - When this creature attacks, you may send a card under this card to the Graveyard. If you do, this creature can attack untapped creatures during this turn.&#xd;&#xa;Double Breaker" />
+			<property name="Race" value="Human" />
+			<property name="Rules" value="Evolution - Put on one of your Human.&#xd;&#xa;Meteorburn - When this creature attacks, you may send a card under this card to the Graveyard. If you do, this creature can attack untapped creatures during this turn.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="29" />
@@ -566,7 +566,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Guardian" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;For each opponent's creature in the Battle Zone, this creature gains Power +1000.&#xd;&#xa;This creature can't attack players." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;For each opponent's creature in the Battle Zone, this creature gains Power +1000.&#xd;&#xa;This creature can't attack players." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="45" />
@@ -705,7 +705,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Humanoid" />
+			<property name="Race" value="Human" />
 			<property name="Rules" value="When this creature is put into the Battle Zone, choose a card in your opponent's Mana Zone and put it into its owner's Graveyard." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="U" />
@@ -735,7 +735,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Humanoid" />
+			<property name="Race" value="Human" />
 			<property name="Rules" value="Power Attacker +5000.&#xd;&#xa;When this creature attacks, all other creatures you control must attack if able." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="U" />
@@ -846,7 +846,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Arc Seraphim" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;This creature can't attack players." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack players." />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="73" />
@@ -936,7 +936,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;This creature can't attack.&#xd;&#xa;When you have any Deep Marine in the Battle Zone, this creature gains Power +5000." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack.&#xd;&#xa;When you have any Deep Marine in the Battle Zone, this creature gains Power +5000." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="82" />
@@ -946,7 +946,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King/Dynamo" />
-			<property name="Rules" value="[Blocker] Blocker{NLDynamo (When another Dynamo attacks or is attacked, you may tap this creature. If you do, add this creature's power and abilities to that creature until the end of turn).&#xd;&#xa;This creature can't attack." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;[Dynamo] (When another Dynamo attacks or is attacked, you may tap this creature. If you do, add this creature's power and abilities to that creature until the end of turn).&#xd;&#xa;This creature can't attack." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="83" />
@@ -966,7 +966,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Cost" value="1" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;This creature can't attack.&#xd;&#xa;If an opponent's creature attacks you and you do not block, this creature is destroyed." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack.&#xd;&#xa;If an opponent's creature attacks you and you do not block, this creature is destroyed." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="85" />
@@ -986,7 +986,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tyranno Drake" />
-			<property name="Rules" value="[Blocker]  Blocker&#xd;&#xa;When this creature is put into the Battle Zone, add a card from your Shield Zone to your hand.  You cannot use that card's Shield Trigger ability.&#xd;&#xa;This creature can't attack." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;When this creature is put into the Battle Zone, add a card from your Shield Zone to your hand.  You cannot use that card's 'Shield Trigger' ability.&#xd;&#xa;This creature can't attack." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="87" />
@@ -1016,7 +1016,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;This creature can't attack." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="90" />
@@ -1066,7 +1066,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tyranno Drake" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger" />
+			<property name="Rules" value="{SHIELD TRIGGER}" />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="95" />
@@ -1105,7 +1105,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Humanoid" />
+			<property name="Race" value="Human" />
 			<property name="Rules" value="Power Attacker +1000&#xd;&#xa;When this creature is tapped during your opponent's turn, your opponent's creatures must attack if able." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />

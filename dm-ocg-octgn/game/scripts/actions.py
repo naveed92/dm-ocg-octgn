@@ -12,236 +12,232 @@ shieldMarker = ('Shield', 'a4ba770e-3a38-4494-b729-ef5c89f561b7')
 
 # Start of Automation code
 
-# These effects activate when the corresponding creature is summoned
-onSummon = {
-                'Alshia, Spirit of Novas': 'search(me.piles["Graveyard"], 1, "Spell")',
-                'Akashic Second, Electro-Spirit': 'draw(me.Deck, True);',
-                'Aqua Bouncer': 'bounce()',
-                'Aqua Deformer': 'fromMana(2, "ALL", "ALL", "ALL", True, False, True)',
-                'Aqua Hulcus': 'draw(me.Deck, True);',
-                'Aqua Sniper': 'bounce(2)',
-                'Aqua Surfer': 'bounce()',
-                'Armored Decimator Valkaizer': 'kill(4000)',
-                'Artisan Picora': 'fromMana(1,"ALL","ALL","ALL",False,True)', 
-                'Astral Warper': 'draw(me.Deck, True, 3)',
-				'Ballom, Master of Death':'banishAll(table, True, "ALL", "Darkness", True)',
-                'Belix, the Explorer': 'fromMana(1,"Spell")',
-                'Bronze-Arm Tribe': 'mana(me.Deck);',
-                'Chaos Worm': 'kill()',
-                'Core-Crash Lizard': 'destroyShield(True)',
-                'Craze Valkyrie, the Drastic': 'tapCreature(2)',
-                'Dandy Eggplant': 'fromDeck()',
-                'Dark Hydra, Evil Planet Lord': 'fromGrave()',
-                'Estol, Vizier of Aqua': 'shields(me.Deck)',
-                'Evolution Totem': 'search(me.Deck, 1, "Evolution Creature")',
-                'Factory Shell Q': 'search(me.Deck, 1, "ALL", "ALL", "Survivor")',
-                'Fighter Dual Fang': 'mana(me.Deck,2)',
-                'Fonch, the Oracle': 'tapCreature()',
-                'Fortress Shell': 'destroyMana(2)',
-                'Forbos, Sanctum Guardian Q': 'search(me.Deck, 1, "Spell")',
-                'Funky Wizard': 'draw(me.Deck, True);',
-                'Gajirabute, Vile Centurion': 'destroyShield(True)',
-                'Gardner, the Invoked': 'gear("mana")',
-                'Gigargon': 'search(me.piles["Graveyard"], 2, "Creature")',
-                'Grave Worm Q': 'search(me.piles["Graveyard"], 1, "ALL", "ALL", "Survivor")',
-                'Gyulcas, Sage of the East Wind': 'search(me.Deck, 1, "Cross Gear")',
-                'Hawkeye Lunatron': 'search(me.Deck, 1, "ALL", "ALL", "ALL", False)', 
-                'Hurlosaur': 'kill(1000)',
-                'King Ripped-Hide': 'draw(me.Deck, True, 2)',
-                'Kolon, the Oracle': 'tapCreature()',
-                'Lena, Vizier of Brilliance': 'fromMana(1,"Spell")',
-                'Magris, Vizier of Magnetism': 'draw(me.Deck, True);',
-                'Meteosaur': 'kill(2000)',
-                'Miele, Vizier of Lightning': 'tapCreature()',
-                'Moors, the Dirty Digger Puppet': 'search(me.piles["Graveyard"])',
-                'Niofa, Horned Protector': 'search(me.Deck, 1, "ALL", "Nature")',
-                'Ochappi, Pure Hearted Faerie': 'fromGrave()',
-                'Phal Eega, Dawn Guardian': 'search(me.piles["Graveyard"], 1, "Spell")',
-                'Rayla, Truth Enforcer': 'search(me.Deck, 1, "Spell")',
-                'Rom, Vizier of Tendrils': 'tapCreature()',
-                'Rothus, the Traveler': 'sacrifice()',
-                'Rumbling Terahorn': 'search(me.Deck, 1, "Creature")',
-                'Ryokudou, the Principle Defender': 'mana(me.Deck,2);fromMana()',
-                'Scissor Scarab': 'search(1,"ALL","ALL","Giant Insect")',
-                'Shtra': 'fromMana(1, "ALL", "ALL", "ALL", True, False, True)',
-                'Skysword, the Savage Vizier': 'mana(me.Deck);shields(me.Deck)',
-                'Solidskin Fish': 'fromMana()',
-                'Spiritual Star Dragon': 'fromDeck()',
-                'Splash Zebrafish': 'fromMana()',
-                'Syforce, Aurora Elemental': 'fromMana(1,"Spell")',
-                'Terradragon Zalberg': 'destroyMana(2)',
-                'Thorny Mandra': 'fromGrave()',
-                'Thrash Crawler': 'fromMana()',
-                'Torpedo Cluster': 'fromMana()',
-                'Unicorn Fish': 'bounce()',
-                'Velyrika Dragon': 'search(me.Deck, 1, "ALL", "ALL", "Armored Dragon")',
-                'Whispering Totem': 'fromDeck()',
-                'Wind Axe, the Warrior Savage': 'mana(me.Deck)',
-                'Zardia, Spirit of Bloody Winds': 'shields(me.Deck)',
-                'Zemechis, the Missionary': 'gear("kill")'
-    }
+functionList = ['mana', 'draw', 'shields', 'search', 'bounce', 'kill', 'gear', 'fromMana', 'fromDeck', 'toHand', 'toMana', 'banishAll', 'tapCreature', 'sendToMana', 'sendToShields', 'destroyShield', 'destroyMana', 'killAndSearch']
 
-# These effects are triggered when the corresponding spell is cast
-onCast = {  'Abduction Charger': 'bounce(2)',
-            'Apocalypse Day': 'banishAll(table, len([card for card in table if isCreature(card)])>5)',
-            'Blizzard of Spears': 'banishAll(table, True, 4000)',
-            'Burst Shot': 'banishAll(table, True, 4000)',
-            'Boomerang Comet': 'fromMana(); toMana(card)',
-            'Brain Serum': 'draw(me.Deck, False, 2)',
-            'Cannonball Sling': 'kill(6000) if metamorph() else kill(2000)',
-            'Chains of Sacrifice': 'kill("ALL","ALL","ALL",2); sacrifice()',
-            'Clone Factory': 'fromMana(2)',
-            'Corpse Charger': 'search(me.piles["Graveyard"], 1, "Creature")',
-            'Crimson Hammer': 'kill(2000)',
-            'Cyber Brain': 'draw(me.Deck, False, 3)',
-            'Crystal Memory': 'search(me.Deck, 1, "ALL", "ALL", "ALL", False)', 
-            'Dark Reversal': 'search(me.piles["Graveyard"], 1, "Creature")',
-            'Death Smoke': 'kill("ALL","Untap")',
-            'Death Chaser': 'kill("ALL","Untap")',
-            'Dimension Gate': 'search(me.Deck, 1, "Creature")',
-            'Dracobarrier': 'tapCreature()',
-            'Drill Bowgun': 'gear("kill");',
-            'Enchanted Soil': 'fromGrave()',
-            'Energy Stream': 'draw(me.Deck, False, 2)',
-            'Eureka Charger': 'draw(me.Deck);',
-            'Faerie Life': 'mana(me.Deck);',
-            'Flame Lance Trap': 'kill(5000)',
-            'Flood Valve': 'fromMana()',
-            'Hopeless Vortex': 'kill()',
-            'Holy Awe': 'tapCreature(1,True)',
-            'Invincible Abyss': 'banishALL([card for card in table if card.owner != me], True)',
-            'Invincible Aura': 'shields(me.Deck,3,True)',
-            'Invincible Technology': 'search(me.Deck,len(me.Deck))',
-            'Lightning Charger': 'tapCreature()',
-            'Logic Cube': 'search(me.Deck, 1, "Spell")',
-            'Logic Sphere': 'fromMana(1, "Spell")',
-            'Martial Law': 'gear("kill")',
-            'Mana Crisis': 'destroyMana',
-            'Miraculous Rebirth': 'kill(5000);fromDeck()',
-            'Miraculous Snare': 'sendToShields()',
-            'Moonlight Flash': 'tapCreature(2)',
-            'Morbid Medicine': 'search(me.piles["Graveyard"], 2, "Creature")',
-            'Mystic Dreamscape': 'fromMana(3)',
-            'Mystic Inscription': 'shields(me.Deck)',
-            'Natural Snare': 'sendToMana()',
-            'Phantom Dragon\'s Flame': 'kill(2000)',
-            'Pixie Cocoon': 'fromMana(1, "Creature");toMana(card)',
-            'Phantasm Clutch': 'kill("ALL","Tap")',
-            'Punish Hold': 'tapCreature(2)',
-            'Purgatory Force': 'search(me.piles["Graveyard"], 2, "Creature")',
-            'Reap and Sow': 'mana(me.Deck);destroyMana()',
-            'Riptide Charger': 'bounce()',
-            'Searing Wave': 'destroyShield(False)',
-            'Seven\'s Tower': 'mana(me.Deck,3) if metamorph() else mana(me.Deck)',
-            'Solar Ray': 'tapCreature()',
-            'Solar Trap': 'tapCreature()',
-            'Spastic Missile': 'kill(3000)',
-            'Spiral Lance': 'gear("bounce")',
-            'Screw Rocket': 'gear("kill");',
-            'Spiral Gate': 'bounce()',
-            'Stronghold of Lightning and Flame': 'kill(3000); tapCreature()',
-            'Teleportation': 'bounce(2)',
-            'Ten-Ton Crunch': 'kill(3000)',
-            'Terror Pit': 'kill()',
-			'Transmogrify': 'killAndSearch(True)',
-            'Triple Brain': 'draw(me.Deck, False, 3)',
-            'Tornado Flame': 'kill(4000)',
-            'Ultimate Force': 'mana(me.Deck,2)',
-            'Valiant Spark': 'tapCreature(1,True) if metamorph() else tapCreature()',
-            'Volcanic Arrows': 'kill(6000); destroyShield(False)',
-            'Volcano Charger': 'kill(2000)',
-            'Wave Rifle': 'gear("bounce")',
-            'Zombie Carnival': 'fromGrave()'
-    }
-
-# These effects trigger when creatures are destroyed
-onDestroy = {'Akashic First, Electro-Dragon': 'toHand(card)',
-             'Akashic Second, Electro-Spirit': 'toMana(card)',
-             'Aqua Agent': 'toHand(card)',
-             'Aqua Knight': 'toHand(card)',
-             'Aqua Ranger': 'toHand(card)',
-             'Aqua Skydiver': 'toHand(card)',
-             'Aqua Soldier': 'toHand(card)',
-             'Asylum, the Dragon Paladin': 'toShields(card)',
-             'Bat Doctor, Shadow of Undeath': 'search(me.piles["Graveyard"], 1, "Creature")',
-             'Bone Piercer': 'fromMana(1, "Creature")',
-			 'Bruiser Dragon': 'destroyShield(False)',
-             'Cetibols': 'draw(me.Deck, True)',
-             'Chillias, the Oracle': 'toHand(card)',
-             'Coiling Vines': 'toMana(card)',
-             'Crasher Burn': 'kill(3000)',
-             'Crystal Jouster': 'toHand(card)',
-             'Cubela, the Prophet': 'tapCreature()',
-             'Dracodance Totem': 'fromMana(1,"","","Dragon");toMana(card)',
-             'Hammerhead Cluster': 'bounce()',
-             'Jil Warka, Time Guardian': 'tapCreature(2)',
-             'Mighty Shouter': 'toMana(card)',
-             'Ouks, Vizier of Restoration': 'toShields(card)',
-             'Pharzi, the Oracle': 'search(me.piles["Graveyard"], 1, "Spell")',
-             'Proxion, the Prophet': 'toHand(card)',
-             'Shaman Broccoli': 'toMana(card)',
-             'Shout Corn': 'toMana(card)',
-             'Solid Horn': 'toMana(card)',
-             'Stubborn Jasper': 'toHand(card)',
-             'Red-Eye Scorpion': 'toMana(card)'
-    }
+cardScripts = {
+                'Bronze-Arm Tribe': { 'onPlay': { 'mana': ['me.Deck', '1'] }},
+                'Alshia, Spirit of Novas': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Spell"'] }},
+                'Akashic Second, Electro-Spirit': { 'onPlay': { 'draw': ['me.Deck', 'True'] }},
+                'Aqua Bouncer': { 'onPlay': { 'bounce': [] }},
+                'Aqua Deformer': { 'onPlay': { 'fromMana': ['2', '"ALL"', '"ALL"', '"ALL"', 'True', 'False', 'True'] }},
+                'Aqua Hulcus': { 'onPlay': { 'draw': ['me.Deck', 'True'] }},
+                'Aqua Sniper': { 'onPlay': { 'bounce': ['2'] }},
+                'Aqua Surfer': { 'onPlay': { 'bounce': [] }},
+                'Armored Decimator Valkaizer': { 'onPlay': {  'kill': ['4000'] }},
+                'Artisan Picora': { 'onPlay': { 'fromMana': ['1','"ALL"','"ALL"','"ALL"','False','True'] }}, 
+                'Astral Warper': { 'onPlay': { 'draw': ['me.Deck', 'True', '3'] }},
+		'Ballom, Master of Death': { 'onPlay': { 'banishAll': ['table', 'True', '"ALL"', '"Darkness"', 'True'] }},
+                'Belix, the Explorer': { 'onPlay': { 'fromMana': ['1','"Spell"'] }},
+                'Chaos Worm': { 'onPlay': {  'kill': [] }},
+#               'Core-Crash Lizard': { 'onPlay': { 'destroyShield': ['True'] }},
+                'Craze Valkyrie, the Drastic': { 'onPlay': { 'tapCreature': ['2'] }},
+                'Dandy Eggplant': { 'onPlay': { 'fromDeck': [] }},
+                'Dark Hydra, Evil Planet Lord': { 'onPlay': { 'fromGrave': [] }},
+                'Estol, Vizier of Aqua': { 'onPlay': { 'shields': ['me.Deck'] }},
+                'Evolution Totem': { 'onPlay': {  'search': ['me.Deck', '1', '"Evolution Creature"'] }},
+                'Factory Shell Q': { 'onPlay': {  'search': ['me.Deck', '1', '"ALL"', '"ALL"', '"Survivor"'] }},
+                'Fighter Dual Fang': { 'onPlay': {  'mana': ['me.Deck','2'] }},
+                'Fonch, the Oracle': { 'onPlay': {  'tapCreature': [] }},
+                'Fortress Shell': { 'onPlay': {  'destroyMana': ['2'] }},
+                'Forbos, Sanctum Guardian Q': { 'onPlay': {  'search': ['me.Deck', '1', '"Spell"'] }},
+                'Funky Wizard': { 'onPlay': {  'draw': ['me.Deck', 'True'] }},
+#               'Gajirabute, Vile Centurion': { 'onPlay': {  'destroyShield': ['True'] }},
+                'Gardner, the Invoked': { 'onPlay': { 'gear': ['"mana"'] }},
+                'Gigargon': { 'onPlay': { 'search': ['me.piles['"Graveyard"']', '2', '"Creature"'] }},
+                'Grave Worm Q': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"ALL"', '"ALL"', '"Survivor"'] }},
+                'Gyulcas, Sage of the East Wind': { 'onPlay': {  'search': ['me.Deck', '1', '"Cross Gear"'] }},
+                'Hawkeye Lunatron': { 'onPlay': { 'search': ['me.Deck', '1', '"ALL"', '"ALL"', '"ALL"', 'False'] }},
+                'Hurlosaur': { 'onPlay': {  'kill': ['1000'] }},
+                'King Ripped-Hide': { 'onPlay': { 'draw': ['me.Deck', 'True', '2'] }},
+                'Kolon, the Oracle': { 'onPlay': { 'tapCreature': [] }},
+                'Lena, Vizier of Brilliance': { 'onPlay': { 'fromMana': ['1','"Spell"'] }},
+                'Magris, Vizier of Magnetism': { 'onPlay': { 'draw': ['me.Deck', 'True'] }},
+                'Meteosaur': { 'onPlay': { 'kill': ['2000'] }},
+                'Miele, Vizier of Lightning': { 'onPlay': { 'tapCreature': [] }},
+                'Moors, the Dirty Digger Puppet': { 'onPlay': {  'search': ['me.piles["Graveyard"]'] }},
+                'Niofa, Horned Protector': { 'onPlay': { 'search': ['me.Deck', '1', '"ALL"', '"Nature"'] }},
+                'Ochappi, Pure Hearted Faerie': { 'onPlay': { 'fromGrave': [] }},
+                'Phal Eega, Dawn Guardian': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Spell"'] }},
+                'Rayla, Truth Enforcer': { 'onPlay': { 'search': ['me.Deck', '1', '"Spell"'] }},
+                'Rom, Vizier of Tendrils': { 'onPlay': { 'tapCreature': [] }},
+                'Rothus, the Traveler': { 'onPlay': { 'sacrifice': [] }},
+                'Rumbling Terahorn': { 'onPlay': { 'search': ['me.Deck', '1', '"Creature"'] }},
+                'Ryokudou, the Principle Defender': { 'onPlay': { 'mana': ['me.Deck','2'], 'fromMana': [] }},
+                'Scissor Scarab': { 'onPlay': { 'search': ['1','"ALL"','"ALL"','"Giant Insect"'] }},
+                'Shtra': { 'onPlay': {  'fromMana': ['1', '"ALL"', '"ALL"', '"ALL"', 'True', 'False', 'True'] }},
+                'Skysword, the Savage Vizier': { 'onPlay': {  'mana': ['me.Deck'], 'shields': ['me.Deck'] }},
+                'Solidskin Fish': { 'onPlay': { 'fromMana': [] }},
+                'Spiritual Star Dragon': { 'onPlay': { 'fromDeck': [] }},
+                'Splash Zebrafish': { 'onPlay': { 'fromMana': [] }},
+                'Syforce, Aurora Elemental': { 'onPlay': { 'fromMana': ['1','"Spell"'] }},
+                'Terradragon Zalberg': { 'onPlay': {  'destroyMana': ['2'] }},
+                'Thorny Mandra': { 'onPlay': {  'fromGrave': [] }},
+                'Thrash Crawler': { 'onPlay': {  'fromMana': [] }},
+                'Torpedo Cluster': { 'onPlay': {  'fromMana': [] }},
+                'Unicorn Fish': { 'onPlay': { 'bounce': [] }},
+                'Velyrika Dragon': { 'onPlay': { 'search': ['me.Deck', '1', '"ALL"', '"ALL"', '"Armored Dragon"'] }},
+                'Whispering Totem': { 'onPlay': { 'fromDeck': [] }},
+                'Wind Axe, the Warrior Savage': { 'onPlay': {  'mana': ['me.Deck'] }},
+                'Zardia, Spirit of Bloody Winds': { 'onPlay': {  'shields': ['me.Deck'] }},
+                'Zemechis, the Missionary': { 'onPlay': {  'gear': ['"kill"'] }},
+                'Abduction Charger': { 'onPlay': {  'bounce': ['2'] }},
+                'Apocalypse Day': { 'onPlay': {  'banishAll': ['table', 'len([card for card in table if isCreature(card)])>5'] }},
+                'Blizzard of Spears': { 'onPlay': {  'banishAll': ['table', 'True', '4000'] }},
+                'Burst Shot': { 'onPlay': {  'banishAll': ['table', 'True', '4000'] }},
+                'Boomerang Comet': { 'onPlay': { 'fromMana': [], 'toMana': ['card'] }},
+                'Brain Serum': { 'onPlay': {  'draw': ['me.Deck', 'False', '2'] }},
+                'Cannonball Sling': { 'onPlay': { 'kill': ['2000'] },
+                                      'onMetaMorph': { 'kill': ['6000'] }},
+                'Chains of Sacrifice': { 'onPlay': { 'kill': ['"ALL"','"ALL"','"ALL"','2'], 'sacrifice': [] }},
+                'Clone Factory': { 'onPlay': {  'fromMana': ['2'] }},
+                'Corpse Charger': { 'onPlay': {  'search': ['me.piles["Graveyard"]', '1', '"Creature"'] }},
+                'Crimson Hammer': { 'onPlay': { 'kill': ['2000'] }},
+                'Cyber Brain': { 'onPlay': { 'draw': ['me.Deck', 'False', '3'] }},
+                'Crystal Memory': { 'onPlay': { 'search': ['me.Deck', '1', '"ALL"', '"ALL"', '"ALL"', 'False'] }}, 
+                'Dark Reversal': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Creature"'] }},
+                'Death Smoke': { 'onPlay': { 'kill': ['"ALL"','"Untap"'] }},
+                'Death Chaser': { 'onPlay': { 'kill': ['"ALL"','"Untap"'] }},
+                'Dimension Gate': { 'onPlay': { 'search': ['me.Deck', '1', '"Creature"'] }},
+                'Dracobarrier': { 'onPlay': { 'tapCreature': [] }},
+                'Drill Bowgun': { 'onPlay': { 'gear': ['"kill"'] }},
+                'Enchanted Soil': { 'onPlay': { 'fromGrave': [] }},
+                'Energy Stream': { 'onPlay': { 'draw': ['me.Deck', 'False', '2'] }},
+                'Eureka Charger': { 'onPlay': { 'draw': ['me.Deck'] }},
+                'Faerie Life': { 'onPlay': { 'mana': ['me.Deck'] }},
+                'Flame Lance Trap': { 'onPlay': { 'kill': ['5000'] }},
+                'Flood Valve': { 'onPlay': { 'fromMana': [] }},
+                'Hopeless Vortex': { 'onPlay': { 'kill': [] }},
+                'Holy Awe': { 'onPlay': { 'tapCreature': ['1','True'] }},
+                'Invincible Abyss': { 'onPlay': { 'banishAll': ['[card for card in table if card.owner != me]', 'True'] }},
+                'Invincible Aura': { 'onPlay': { 'shields': ['me.Deck', '3', 'True'] }},
+                'Invincible Technology': { 'onPlay': { 'search': ['me.Deck','len(me.Deck)'] }},
+                'Lightning Charger': { 'onPlay': { 'tapCreature': [] }},
+                'Logic Cube': { 'onPlay': { 'search': ['me.Deck', '1', '"Spell"'] }},
+                'Logic Sphere': { 'onPlay': { 'fromMana': ['1', '"Spell"'] }},
+                'Martial Law': { 'onPlay': { 'gear': ['"kill"'] }},
+                'Mana Crisis': { 'onPlay': { 'destroyMana': [] }},
+                'Miraculous Rebirth': { 'onPlay': { 'kill': ['5000'], 'fromDeck': [] }},
+                'Miraculous Snare': { 'onPlay': { 'sendToShields': [] }},
+                'Moonlight Flash': { 'onPlay': { 'tapCreature': ['2'] }},
+                'Morbid Medicine': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '2', '"Creature"'] }},
+                'Mystic Dreamscape': { 'onPlay': { 'fromMana': ['3'] }},
+                'Mystic Inscription': { 'onPlay': { 'shields': ['me.Deck'] }},
+                'Natural Snare': { 'onPlay': { 'sendToMana': [] }},
+                'Phantom Dragon\'s Flame': { 'onPlay': {  'kill': ['2000'] }},
+                'Pixie Cocoon': { 'onPlay': { 'fromMana': ['1', '"Creature"'], 'toMana': ['card'] }},
+                'Phantasm Clutch': { 'onPlay': { 'kill': ['"ALL"','"Tap"'] }},
+                'Punish Hold': { 'onPlay': { 'tapCreature': ['2'] }},
+                'Purgatory Force': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '2', '"Creature"'] }},
+                'Reap and Sow': { 'onPlay': { 'mana': ['me.Deck'], 'destroyMana': [] }},
+                'Riptide Charger': { 'onPlay': {  'bounce': [] }},
+                'Searing Wave': { 'onPlay': { 'destroyShield': ['False'] }},
+                'Seven\'s Tower': { 'onPlay': { 'mana': ['me.Deck'] },
+                                    'onMetamorph': { 'mana': ['me.Deck','3'] }},
+                'Solar Ray': { 'onPlay': { 'tapCreature': [] }},
+                'Solar Trap': { 'onPlay': { 'tapCreature': [] }},
+                'Spastic Missile': { 'onPlay': {  'kill': ['3000'] }},
+                'Spiral Lance': { 'onPlay': { 'gear': ['"bounce"'] }},
+                'Screw Rocket': { 'onPlay': { 'gear': ['"kill"'] }},
+                'Spiral Gate': { 'onPlay': { 'bounce': [] }},
+                'Stronghold of Lightning and Flame': { 'onPlay': { 'kill': ['3000'], 'tapCreature': [] }},
+                'Teleportation': { 'onPlay': { 'bounce': ['2'] }},
+                'Ten-Ton Crunch': { 'onPlay': { 'kill': ['3000'] }},
+                'Terror Pit': { 'onPlay': { 'kill': [] }},
+                'Transmogrify': { 'onPlay': { 'killAndSearch': ['True'] }},
+                'Triple Brain': { 'onPlay': { 'draw': ['me.Deck', 'False', '3'] }},
+                'Tornado Flame': { 'onPlay': {  'kill': ['4000'] }},
+                'Ultimate Force': { 'onPlay': {  'mana': ['me.Deck', '2'] }},
+                'Valiant Spark': { 'onPlay': {  'tapCreature': [] },
+                                   'onMetamorph': { 'tapCreature': ['1','True'] }},
+#               'Volcanic Arrows': { 'onPlay': { 'kill': ['6000'], 'destroyShield': ['False'] }},
+                'Volcano Charger': { 'onPlay': { 'kill': ['2000'] }},
+                'Wave Rifle': { 'onPlay': { 'gear': ["bounce"] }},
+                'Zombie Carnival': { 'onPlay': { 'fromGrave': [] }},
+                'Akashic First, Electro-Dragon': { 'onDestroy': { 'toHand': ['card'] }},
+                'Akashic Second, Electro-Spirit': { 'onDestroy': { 'toMana': ['card'] }},
+                'Aqua Agent': { 'onDestroy': { 'toHand': ['card'] }},
+                'Aqua Knight': { 'onDestroy': { 'toHand': ['card'] }},
+                'Aqua Ranger': { 'onDestroy': { 'toHand': ['card'] }},
+                'Aqua Skydiver': { 'onDestroy': {  'toHand': ['card'] }},
+                'Aqua Soldier': { 'onDestroy': { 'toHand': ['card'] }},
+                'Asylum, the Dragon Paladin': { 'onDestroy': {  'toShields': ['card'] }},
+                'Bat Doctor, Shadow of Undeath': { 'onDestroy': {  'search': ['me.piles["Graveyard"]', '1', '"Creature"'] }},
+                'Bone Piercer': { 'onDestroy': { 'fromMana': ['1', '"Creature"'] }},
+                'Bruiser Dragon': { 'onDestroy': { 'destroyShield': ['False'] }},
+                'Cetibols': { 'onDestroy': {  'draw': ['me.Deck', 'True'] }},
+                'Chillias, the Oracle': { 'onDestroy': {  'toHand': ['card'] }},
+                'Coiling Vines': { 'onDestroy': { 'toMana': ['card'] }},
+                'Crasher Burn': { 'onDestroy': { 'kill': ['3000'] }},
+                'Crystal Jouster': { 'onDestroy': { 'toHand': ['card'] }},
+                'Cubela, the Prophet': { 'onDestroy': { 'tapCreature': [] }},
+                'Dracodance Totem': { 'onDestroy': { 'fromMana': ['1','"ALL"','"ALL"','"Dragon"'], 'toMana': ['card'] }},
+                'Hammerhead Cluster': { 'onDestroy': { 'bounce': [] }},
+                'Jil Warka, Time Guardian': { 'onDestroy': {  'tapCreature': ['2'] }},
+                'Mighty Shouter': { 'onDestroy': { 'toMana': ['card'] }},
+                'Ouks, Vizier of Restoration': { 'onDestroy': {  'toShields': ['card'] }},
+                'Pharzi, the Oracle': { 'onDestroy': { 'search': ['me.piles["Graveyard"]', '1', '"Spell"'] }},
+                'Proxion, the Prophet': { 'onDestroy': { 'toHand': ['card'] }},
+                'Shaman Broccoli': { 'onDestroy': { 'toMana': ['card'] }},
+                'Shout Corn': { 'onDestroy': { 'toMana': ['card'] }},
+                'Solid Horn': { 'onDestroy': { 'toMana': ['card'] }},
+                'Stubborn Jasper': { 'onDestroy': { 'toHand': ['card'] }},
+                'Red-Eye Scorpion': { 'onDestroy': { 'toMana': ['card'] }}
+   }
 
 # Functions used in the Automation dictionaries.
 
 def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL", show = True, toGrave = False, ApplyToAllPlayers = False):
-	mute()
-	if ApplyToAllPlayers == True:
-		playerList = players
-	else:
-		playerList = [players[0]]
-	for player in playerList:
-		for i in range(0,count):
-			if TypeFilter != "ALL":
-				cardsInGroup_Type_Filtered = [card for card in table if isMana(card) and card.owner==me and re.search(TypeFilter,card.Type)]
-			else:
-				cardsInGroup_Type_Filtered = [card for card in table if isMana(card) and card.owner==me]
-			if CivFilter != "ALL":
-				cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered if re.search(CivFilter,card.properties['Civilization'])]
-			else:
-				cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered]
-			if RaceFilter != "ALL":
-				cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered if re.search(RaceFilter,card.properties['Race'])]
-			else:
-				cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
-			if len(cardsInGroup_CivTypeandRace_Filtered) == 0: return
-			choice = askCard(cardsInGroup_CivTypeandRace_Filtered, 'Choose a Card from the Mana Zone','Mana Zone')
-			if type(choice) is not Card: break
-			if toGrave == True: remoteCall(player,"banish",choice)
-			else: remoteCall(player,"toHand",[choice, show])
+    mute()
+    if ApplyToAllPlayers == True:
+        playerList = players
+    else:
+        playerList = [players[0]]
+    for player in playerList:
+        for i in range(0,count):
+            if TypeFilter != "ALL":
+                cardsInGroup_Type_Filtered = [card for card in table if isMana(card) and card.owner==me and re.search(TypeFilter,card.Type)]
+            else:
+                cardsInGroup_Type_Filtered = [card for card in table if isMana(card) and card.owner==me]
+            if CivFilter != "ALL":
+                cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered if re.search(CivFilter,card.properties['Civilization'])]
+            else:
+                cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered]
+            if RaceFilter != "ALL":
+                cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered if re.search(RaceFilter,card.properties['Race'])]
+            else:
+                cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
+            if len(cardsInGroup_CivTypeandRace_Filtered) == 0: return
+            choice = askCard(cardsInGroup_CivTypeandRace_Filtered, 'Choose a Card from the Mana Zone','Mana Zone')
+            if type(choice) is not Card: break
+            if toGrave == True: remoteCall(player,"banish",choice)
+            else: remoteCall(player,"toHand",[choice, show])
 
 def killAndSearch(toPlay = False):
-	mute()
-	cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
-	if len(cardList)==0:
-		return    
-	choice = askCard(cardList, 'Choose a Creature to destroy')
-	if type(choice) is not Card:
-		return
-	card = choice
-	banish(choice)
-	while(True):
-		group = card.owner.Deck
-		if len(group) == 0: return
-		newCard = group[0]
-		newCard.isFaceUp = True
-		notify("{} reveals {}".format(card.owner,newCard.name))
-		rnd(1,100)
-		if re.search("Creature", newCard.Type) and not re.search("Evolution Creature", newCard.Type):
-			if toPlay == True:
-				newCard.moveToTable(0,0)
-				if newCard.name in onSummon:
-					exec(onSummon[newCard.name])
-				return
-			else:
-				newCard.moveTo(me.hand)
-				return
-		else:
-			toDiscard(newCard)
+    mute()
+    cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
+    if len(cardList)==0:
+        return    
+    choice = askCard(cardList, 'Choose a Creature to destroy')
+    if type(choice) is not Card:
+        return
+    card = choice
+    banish(choice)
+    while(True):
+        group = card.owner.Deck
+        if len(group) == 0: return
+        newCard = group[0]
+        newCard.isFaceUp = True
+        notify("{} reveals {}".format(card.owner,newCard.name))
+        rnd(1,100)
+        if re.search("Creature", newCard.Type) and not re.search("Evolution Creature", newCard.Type):
+            if toPlay == True:
+                toPlay(newCard)
+                return
+            else:
+                newCard.moveTo(me.hand)
+                return
+        else:
+            toDiscard(newCard)
 
 def search(group, count = 1, TypeFilter = "ALL" , CivFilter = "ALL", RaceFilter = "ALL", show = True, x = 0, y = 0):
 	mute()
@@ -299,39 +295,41 @@ def kill(powerFilter = 'ALL', tapFilter='ALL', civFilter='ALL', count = 1, targe
             remoteCall(choice.owner,"banish",choice)
 
 def banishAll(group, condition = False, powerFilter = 'ALL', civFilter = "ALL", AllExceptFiltered = False):
-	mute()
-	if powerFilter == 'ALL':
-		powerfilter = float('inf')
-	if condition == False:
-		return
-	cardlist = []
-	if civFilter == "ALL":
-		cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter]
-	else:
-		if AllExceptFiltered:
-			cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter and not re.search(civFilter,card.properties['Civilization'])]
-		else:
-			cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter and re.search(civFilter,card.properties['Civilization'])]
-	if len(cardList)==0:
-		return
-	for card in cardList:
-		cardToBeSaved = card
-		possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]
-		if len(possibleSavers) > 0:
-			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(cardToBeSaved.Name)):
-				choice = askCard(possibleSavers, 'Choose Saver to banish')
-				if type(choice) is Card:
-					toDiscard(choice)
-					cardList.remove(choice)
-					cardList = [card for card in cardList]
-					notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
-					continue
-		if cardToBeSaved.owner == me:   
-			toDiscard(cardToBeSaved)
-			if cardToBeSaved.name in onDestroy:
-				exec(onDestroy[cardToBeSaved.name])
-		else :
-			remoteCall(cardToBeSaved.owner,"banish",cardToBeSaved)
+    mute()
+    if powerFilter == 'ALL':
+            powerfilter = float('inf')
+    if condition == False:
+            return
+    cardlist = []
+    if civFilter == "ALL":
+            cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter]
+    else:
+            if AllExceptFiltered:
+                    cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter and not re.search(civFilter,card.properties['Civilization'])]
+            else:
+                    cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter and re.search(civFilter,card.properties['Civilization'])]
+    if len(cardList)==0:
+            return
+    for card in cardList:
+        cardToBeSaved = card
+        possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]
+        if len(possibleSavers) > 0:
+            if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(cardToBeSaved.Name)):
+                choice = askCard(possibleSavers, 'Choose Saver to banish')
+                if type(choice) is Card:
+                    toDiscard(choice)
+                    cardList.remove(choice)
+                    cardList = [card for card in cardList]
+                    notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
+                    continue
+            if cardToBeSaved.owner == me:   
+                toDiscard(cardToBeSaved)
+                for function in functionList:
+                    if function in cardScripts.get(cardToBeSaved.name,{}).get('onDestroy',{}):
+                        argList = cardScripts.get(cardToBeSaved.name,{}).get('onDestroy',{}).get(function,{})
+                        eval(function)(*[eval(arg) for arg in argList])
+            else :
+                    remoteCall(cardToBeSaved.owner,"banish",cardToBeSaved)
 
 def destroyMana(count = 1):
     mute()
@@ -345,17 +343,17 @@ def destroyMana(count = 1):
         remoteCall(choice.owner,"banish",choice)
 
 def destroyShield(owner = True):
-	mute()
-	if owner == True:
-		cardList = [card for card in table if isShield(card) and not card.owner==me]
-    	else:
-		cardList = [card for card in table if isShield(card) and card.owner==me]
-	if len(cardList)==0:
-		return
-	choice = askCard(cardList, 'Choose a shield to send to graveyard')
-	if type(choice) is not Card:
-		return        
-	remoteCall(choice.owner,"banish",[choice,True])
+    mute()
+    if owner == True:
+            cardList = [card for card in table if isShield(card) and not card.owner==me]
+    else:
+            cardList = [card for card in table if isShield(card) and card.owner==me]
+    if len(cardList)==0:
+            return
+    choice = askCard(cardList, 'Choose a shield to send to graveyard')
+    if type(choice) is not Card:
+            return        
+    remoteCall(choice.owner,"banish",[choice,True])
         
 def fromDeck():
     mute()
@@ -651,49 +649,51 @@ def tap(card, x = 0, y = 0):
         notify('{} untaps {}.'.format(me, card))
 
 def banish(card, dest = False, x = 0, y = 0):
-	mute()
-	if isShield(card):
-		if dest == True:
-			toDiscard(card)
-			return
-		card.peek()
-		rnd(1,10)
-		if re.search("{SHIELD TRIGGER}", card.Rules):
-			if confirm("Activate Shield Trigger for {}?\n\n{}".format(card.Name, card.Rules)):
-				card.isFaceUp = True
-				toPlay(card, notifymute = True)
-				rnd(1,10)
-				notify("{} uses {}'s Shield Trigger.".format(me, card))
-				return
-		shieldCard = card
-		cardsInHandWithStrikeBackAbility = [card for card in me.hand if re.search("Strike Back", card.rules)]
-		if len(cardsInHandWithStrikeBackAbility) > 0:
-			cardsInHandWithStrikeBackAbilityThatCanBeUsed = [card for card in cardsInHandWithStrikeBackAbility if re.search(card.Civilization, shieldCard.Civilization)]
-			if len(cardsInHandWithStrikeBackAbilityThatCanBeUsed) > 0:
-				if confirm("Activate Strike Back by sending {} to the graveyard?\n\n{}".format(shieldCard.Name, shieldCard.Rules)):
-					choice = askCard(cardsInHandWithStrikeBackAbilityThatCanBeUsed, 'Choose Strike Back to activate')
-					if type(choice) is Card:
-						shieldCard.isFaceUp = True
-						rnd(1,100)
-						toPlay(choice, notifymute = True)
-						toDiscard(shieldCard)
-						notify("{} banishes {} to use {}'s Strike Back.".format(me, shieldCard.name, choice.name))
-						return
-		notify("{}'s shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
-		shieldCard.moveTo(shieldCard.owner.hand)
-	else:
-		cardToBeSaved = card
-		possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]
-		if len(possibleSavers) > 0:
-			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(cardToBeSaved.Name)):
-				choice = askCard(possibleSavers, 'Choose Saver to banish')
-				if type(choice) is Card:
-					toDiscard(choice)
-					notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
-					return
-		toDiscard(cardToBeSaved)
-		if cardToBeSaved.name in onDestroy:
-			exec(onDestroy[cardToBeSaved.name])
+    mute()
+    if isShield(card):
+        if dest == True:
+            toDiscard(card)
+            return
+        card.peek()
+        rnd(1,10)
+        if re.search("{SHIELD TRIGGER}", card.Rules):
+            if confirm("Activate Shield Trigger for {}?\n\n{}".format(card.Name, card.Rules)):
+                card.isFaceUp = True
+                toPlay(card, notifymute = True)
+                rnd(1,10)
+                notify("{} uses {}'s Shield Trigger.".format(me, card))
+                return
+        shieldCard = card
+        cardsInHandWithStrikeBackAbility = [card for card in me.hand if re.search("Strike Back", card.rules)]
+        if len(cardsInHandWithStrikeBackAbility) > 0:
+            cardsInHandWithStrikeBackAbilityThatCanBeUsed = [card for card in cardsInHandWithStrikeBackAbility if re.search(card.Civilization, shieldCard.Civilization)]
+            if len(cardsInHandWithStrikeBackAbilityThatCanBeUsed) > 0:
+                if confirm("Activate Strike Back by sending {} to the graveyard?\n\n{}".format(shieldCard.Name, shieldCard.Rules)):
+                    choice = askCard(cardsInHandWithStrikeBackAbilityThatCanBeUsed, 'Choose Strike Back to activate')
+                    if type(choice) is Card:
+                        shieldCard.isFaceUp = True
+                        rnd(1,100)
+                        toPlay(choice, notifymute = True)
+                        toDiscard(shieldCard)
+                        notify("{} banishes {} to use {}'s Strike Back.".format(me, shieldCard.name, choice.name))
+                        return
+        notify("{}'s shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
+        shieldCard.moveTo(shieldCard.owner.hand)
+    else:
+            cardToBeSaved = card
+            possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]
+            if len(possibleSavers) > 0:
+                    if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(cardToBeSaved.Name)):
+                            choice = askCard(possibleSavers, 'Choose Saver to banish')
+                            if type(choice) is Card:
+                                    toDiscard(choice)
+                                    notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
+                                    return
+            toDiscard(cardToBeSaved)
+            for function in functionList:
+                if function in cardScripts.get(card.name,{}).get('onDestroy',{}):
+                    argList = cardScripts.get(card.name,{}).get('onDestroy',{}).get(function,{})
+                    eval(function)(*[eval(arg) for arg in argList])
 
 def shuffle(group, x = 0, y = 0):
     mute()
@@ -785,6 +785,8 @@ def toMana(card, x = 0, y = 0, notifymute = False):
         return
     card.moveToTable(0,0)
     card.orientation = Rot180
+    if re.search("/", card.Civilization):
+        card.orientation = Rot270
     if card._id in evolveDict:
         evolvedCardList = evolveDict[card._id]
         for evolvedCard in evolvedCardList:
@@ -869,13 +871,19 @@ def toPlay(card, x = 0, y = 0, notifymute = False, evolveText = ''):
         align()
     if notifymute == False:
         notify("{} plays {}{}.".format(me, card, evolveText))
-    if card.Type=='Spell':
-        if card.name in onCast:
-            exec(onCast[card.name])
-    else:
-        if card.name in onSummon:
-            exec(onSummon[card.name])
 
+    if metamorph():
+        for function in functionList:
+            if function in cardScripts.get(card.name,{}).get('onMetamorph',{}):
+                argList = cardScripts.get(card.name,{}).get('onMetamorph',{}).get(function,{})
+                eval(function)(*[eval(arg) for arg in argList])
+                return
+        
+    for function in functionList:
+        if function in cardScripts.get(card.name,{}).get('onPlay',{}):
+            argList = cardScripts.get(card.name,{}).get('onPlay',{}).get(function,{})
+            eval(function)(*[eval(arg) for arg in argList])
+    
 def toDiscard(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreEvo = False):
     mute()
     evolveDict = eval(me.getGlobalVariable('evolution'))

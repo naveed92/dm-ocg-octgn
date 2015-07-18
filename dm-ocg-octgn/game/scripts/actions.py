@@ -15,7 +15,7 @@ shieldMarker = ('Shield', 'a4ba770e-3a38-4494-b729-ef5c89f561b7')
 functionList = ['mana', 'draw', 'shields', 'search', 'bounce', 'kill', 'gear', 'fromMana', 'fromDeck', 'toHand', 'toMana', 'banishAll', 'tapCreature', 'sendToMana', 'sendToShields', 'destroyShield', 'destroyMana', 'killAndSearch']
 
 cardScripts = {
-                'Bronze-Arm Tribe': { 'onPlay': { 'mana': ['me.Deck', '1'] }},
+                'Bronze-Arm Tribe': { 'onPlay': { 'mana': ['me.Deck'] }},
                 'Alshia, Spirit of Novas': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Spell"'] }},
                 'Akashic Second, Electro-Spirit': { 'onPlay': { 'draw': ['me.Deck', 'True'] }},
                 'Aqua Bouncer': { 'onPlay': { 'bounce': [] }},
@@ -83,7 +83,7 @@ cardScripts = {
                 'Abduction Charger': { 'onPlay': {  'bounce': ['2'] }},
                 'Apocalypse Day': { 'onPlay': {  'banishAll': ['table', 'len([card for card in table if isCreature(card)])>5'] }},
                 'Blizzard of Spears': { 'onPlay': {  'banishAll': ['table', 'True', '4000'] }},
-                'Burst Shot': { 'onPlay': {  'banishAll': ['table', 'True', '4000'] }},
+                'Burst Shot': { 'onPlay': {  'banishAll': ['table', 'True', '2000'] }},
                 'Boomerang Comet': { 'onPlay': { 'fromMana': [], 'toMana': ['card'] }},
                 'Brain Serum': { 'onPlay': {  'draw': ['me.Deck', 'False', '2'] }},
                 'Cannonball Sling': { 'onPlay': { 'kill': ['2000'] },
@@ -143,7 +143,7 @@ cardScripts = {
                 'Teleportation': { 'onPlay': { 'bounce': ['2'] }},
                 'Ten-Ton Crunch': { 'onPlay': { 'kill': ['3000'] }},
                 'Terror Pit': { 'onPlay': { 'kill': [] }},
-                'Transmogrify': { 'onPlay': { 'killAndSearch': ['True'] }},
+#               'Transmogrify': { 'onPlay': { 'killAndSearch': ['True'] }},
                 'Triple Brain': { 'onPlay': { 'draw': ['me.Deck', 'False', '3'] }},
                 'Tornado Flame': { 'onPlay': {  'kill': ['4000'] }},
                 'Ultimate Force': { 'onPlay': {  'mana': ['me.Deck', '2'] }},
@@ -212,7 +212,7 @@ def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL
             if toGrave == True: remoteCall(player,"banish",choice)
             else: remoteCall(player,"toHand",[choice, show])
 
-def killAndSearch(toPlay = False):
+def killAndSearch(play = False):
     mute()
     cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
     if len(cardList)==0:
@@ -230,7 +230,7 @@ def killAndSearch(toPlay = False):
         notify("{} reveals {}".format(card.owner,newCard.name))
         rnd(1,100)
         if re.search("Creature", newCard.Type) and not re.search("Evolution Creature", newCard.Type):
-            if toPlay == True:
+            if play == True:
                 toPlay(newCard)
                 return
             else:
@@ -297,19 +297,19 @@ def kill(powerFilter = 'ALL', tapFilter='ALL', civFilter='ALL', count = 1, targe
 def banishAll(group, condition = False, powerFilter = 'ALL', civFilter = "ALL", AllExceptFiltered = False):
     mute()
     if powerFilter == 'ALL':
-            powerfilter = float('inf')
+        powerfilter = float('inf')
     if condition == False:
-            return
+        return
     cardlist = []
     if civFilter == "ALL":
-            cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter]
+        cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter]
     else:
-            if AllExceptFiltered:
-                    cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter and not re.search(civFilter,card.properties['Civilization'])]
-            else:
-                    cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter and re.search(civFilter,card.properties['Civilization'])]
+        if AllExceptFiltered:
+            cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter and not re.search(civFilter,card.properties['Civilization'])]
+        else:
+            cardList = [card for card in group if isCreature(card) and int(card.Power) <= powerFilter and re.search(civFilter,card.properties['Civilization'])]
     if len(cardList)==0:
-            return
+        return
     for card in cardList:
         cardToBeSaved = card
         possibleSavers = [card for card in table if cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (re.search(cardToBeSaved.properties['Race'],card.rules) or re.search("Saver: All Races",card.rules))]
@@ -328,8 +328,8 @@ def banishAll(group, condition = False, powerFilter = 'ALL', civFilter = "ALL", 
                     if function in cardScripts.get(cardToBeSaved.name,{}).get('onDestroy',{}):
                         argList = cardScripts.get(cardToBeSaved.name,{}).get('onDestroy',{}).get(function,{})
                         eval(function)(*[eval(arg) for arg in argList])
-            else :
-                    remoteCall(cardToBeSaved.owner,"banish",cardToBeSaved)
+            else:
+                remoteCall(cardToBeSaved.owner,"banish",cardToBeSaved)
 
 def destroyMana(count = 1):
     mute()
@@ -758,7 +758,7 @@ def mana(group, count = 1, x = 0, y = 0):
 		toMana(card, notifymute = True)
 		notify("{} charges top card of {} as mana.".format(me, group.name))
     
-def endTurn(x = 0, y = 0):
+def endTurn(table,x=0,y=0):
     mute()
     notify("{} ends their turn.".format(me))
     

@@ -322,14 +322,14 @@ def banishAll(group, condition = False, powerFilter = 'ALL', civFilter = "ALL", 
                     cardList = [card for card in cardList]
                     notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
                     continue
-            if cardToBeSaved.owner == me:   
-                toDiscard(cardToBeSaved)
-                for function in functionList:
-                    if function in cardScripts.get(cardToBeSaved.name,{}).get('onDestroy',{}):
-                        argList = cardScripts.get(cardToBeSaved.name,{}).get('onDestroy',{}).get(function,{})
-                        eval(function)(*[eval(arg) for arg in argList])
-            else:
-                remoteCall(cardToBeSaved.owner,"banish",cardToBeSaved)
+        if cardToBeSaved.owner == me:   
+            toDiscard(cardToBeSaved)
+            for function in functionList:
+                if function in cardScripts.get(cardToBeSaved.name,{}).get('onDestroy',{}):
+                    argList = cardScripts.get(cardToBeSaved.name,{}).get('onDestroy',{}).get(function,{})
+                    eval(function)(*[eval(arg) for arg in argList])
+        else:
+            remoteCall(cardToBeSaved.owner,"banish",cardToBeSaved)
 
 def destroyMana(count = 1):
     mute()

@@ -35,7 +35,7 @@
 			<property name="Cost" value="8" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Evolution GV - Arc Seraphim, Dreammate, and/or Great Mecha King&#xd;&#xa;[Triple Breaker] [Blocker]&#xd;&#xa;When this creature is put into the Battle Zone, reveal the top 5 cards of your deck.  From there you may summon any number of creatures without paying their cost. Afterward, put the rest of the cards into your Graveyard." />
+			<property name="Rules" value="Evolution GV - Arc Seraphim, Dreammate, and/or Great Mecha King&#xd;&#xa;[Triple Breaker] [Blocker]&#xd;&#xa;When this creature is put into the Battle Zone, reveal the top 5 cards of your deck.  You may summon any number of creatures from these. Then put the rest of the cards into your Graveyard." />
 			<property name="Power" value="13000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S2" />
@@ -160,7 +160,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="9" />
 		</card>
-		<card name="Sealed Devil Gariev Ilsoul" id="15d1b3df-832c-4ee9-9689-c31299484381">
+		<card name="Fuuma Gariev Ilsoul" id="15d1b3df-832c-4ee9-9689-c31299484381">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -205,7 +205,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tyranno Drake" />
-			<property name="Rules" value="When your opponent uses a Shield they control, they choose and discard a card from their hand." />
+			<property name="Rules" value="Whenever your opponent uses the 'Shield Trigger' ability of one of their shields, your opponent discards a card from his hand." />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="14" />
@@ -320,7 +320,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="25" />
 		</card>
-		<card name="Sealed Devil Alcors Vaison" id="91285256-810d-4708-b829-9a2d9e4a721c">
+		<card name="Fuuma Alcors Vaison" id="91285256-810d-4708-b829-9a2d9e4a721c">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -330,7 +330,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="26" />
 		</card>
-		<card name="Sealed Devil Revenge Arast" id="1cd14ba1-fc36-45eb-ada0-6a516463b046">
+		<card name="Fuuma Revenge Arast" id="1cd14ba1-fc36-45eb-ada0-6a516463b046">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -340,7 +340,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="27" />
 		</card>
-		<card name="Sealed Devil Salvador" id="487689af-c255-4d75-90a1-983f3eb55110">
+		<card name="Fuuma Salvador" id="487689af-c255-4d75-90a1-983f3eb55110">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -460,7 +460,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="39" />
 		</card>
-		<card name="Sealed Devil Kurimi" id="6fc37ae3-37b1-4c1e-8144-54be706b55da">
+		<card name="Fuuma Kurimi" id="6fc37ae3-37b1-4c1e-8144-54be706b55da">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -480,7 +480,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="41" />
 		</card>
-		<card name="Sealed Devil Galsha" id="28675468-d7bc-476f-8a6b-56597ac3404b">
+		<card name="Fuuma Galsha" id="28675468-d7bc-476f-8a6b-56597ac3404b">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />

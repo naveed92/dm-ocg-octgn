@@ -150,7 +150,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="3" />
 		</card>
-		<card name="Neuro Marvas, Sealed Devil" id="64105c75-3445-41a1-9bce-eeb65902132b">
+		<card name="Fuuma Neuro Marvas" id="64105c75-3445-41a1-9bce-eeb65902132b">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -160,7 +160,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="4" />
 		</card>
-		<card name="Soul Avals, Sealed Devil" id="defbfb29-8de7-4e80-981e-a467ba72d76a">
+		<card name="Fuuma Soul Avals" id="defbfb29-8de7-4e80-981e-a467ba72d76a">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -275,7 +275,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose a Creature Type. Choose one of your creatures with that creature type, and an opponent's creature.  Tap both creatures." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose a race. For each of your creatures in the battle zone that have that race, you may choose one of your opponent's creatures in the battle zone and tap it." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="16" />
@@ -290,7 +290,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="17" />
 		</card>
-		<card name="Bagantis, Sealed Devil" id="d7d3f9dd-ed61-43cd-ad30-a9beb4a60c94">
+		<card name="Fuuma Bagantis" id="d7d3f9dd-ed61-43cd-ad30-a9beb4a60c94">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -301,7 +301,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="18" />
 		</card>
-		<card name="Raberis, Sealed Devil" id="9b42c902-059c-44dd-b58f-653c7ae477bd">
+		<card name="Fuuma Raberis" id="9b42c902-059c-44dd-b58f-653c7ae477bd">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -311,7 +311,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="19" />
 		</card>
-		<card name="Danrimos, Sealed Devil" id="ca9f7c66-d1c8-4edb-b137-84f9b814d6ea">
+		<card name="Fuuma Danrimos" id="ca9f7c66-d1c8-4edb-b137-84f9b814d6ea">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -321,7 +321,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="20" />
 		</card>
-		<card name="Garpuls, Sealed Devil" id="7a69723c-8830-4e52-8a21-811dc44e2ae1">
+		<card name="Torpedo Robo Missile Ocean " id="7a69723c-8830-4e52-8a21-811dc44e2ae1">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -341,7 +341,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="22" />
 		</card>
-		<card name="Sealed Devil Garpuls" id="dbe6a428-9a69-46dd-a1c4-9ac95a09e2ba">
+		<card name="Fuuma Garpuls" id="dbe6a428-9a69-46dd-a1c4-9ac95a09e2ba">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -396,7 +396,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose a creature type. Destroy any number of your creatures with that creature type. Then, destroy up to the same number of your opponent's creature." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose a race. Destroy any number of your creatures that have that race. Then, destroy a number of your opponent's creatures equal to or less than number of your creatures destroyed this way." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="28" />
@@ -516,7 +516,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose a creature type. All your creatures with that creature type gain Power +4000, and can't be blocked by creatures with power of 5000 or less, until end of turn." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose a race. Each of your creatures in the battle zone that have that race get +4000 power, and can't be blocked by creatures that have power 5000 or less until the end of the turn." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="40" />
@@ -636,7 +636,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose a creature type, and return any number of creatures you control with that creature type to your hand. Then, return up to the same number of creatures to their owner's hand." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose a race. Return any number of your creatures in the battle zone that have that race to your hand. Then, return a number of your opponent's creatures in the battle zone equal to or less than the number of creatures you returned to your hand to their owner's hand./>
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="52" />
@@ -756,7 +756,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose a creature type. Choose a creature you control with that creature type, and an opponent's creature with &quot;Blocker&quot;.  Destroy both creatures." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose a race. For each of your creatures in the battle zone that have that race, you may destroy one of your opponent's creatures that has "blocker"./>
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="64" />

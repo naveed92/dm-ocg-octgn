@@ -80,7 +80,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="1" />
 		</card>
-		<card name="Sealed Devil Vire Apostle" id="3dd7fa8d-32af-4d4c-9aee-c40bfe2dc5d1">
+		<card name="Fuuma Vire Apostle" id="3dd7fa8d-32af-4d4c-9aee-c40bfe2dc5d1">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -160,12 +160,12 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="9" />
 		</card>
-		<card name="Sealed Devil Zolfas" id="b7b26a79-8a78-42c2-a75a-aedb76ea4194">
+		<card name="Fuuma Zolfas" id="b7b26a79-8a78-42c2-a75a-aedb76ea4194">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="[Photo E: Grand Devil] Choose an opponent's creature with power less than or equal to a tapped Grand Devil you control, and return that creature to its owner's hand." />
+			<property name="Rules" value="[Fort Energy: Grand Devil] Choose an opponent's creature with power less than or equal to a tapped Grand Devil you control, and return that creature to its owner's hand." />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="10" />
@@ -235,7 +235,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tyranno Drake" />
-			<property name="Rules" value="Photo E: Tyranno Drake (When this creature is put into the Battle Zone, if a Tyranno Drake is tapped to Summon this creature, this creature gain the following [Photo E]  ability.)&#xd;&#xa;[Photo E] : Destroy an opponent's creature with power less than or equal to a tapped Tyranno Drake." />
+			<property name="Rules" value="Fort Energy: Tyranno Drake (When this creature is put into the Battle Zone, if a Tyranno Drake is tapped to Summon this creature, this creature gain the following [Fort Energy]  ability.)&#xd;&#xa;[Fort Energy] : Destroy an opponent's creature with power less than or equal to a tapped Tyranno Drake." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="17" />
@@ -340,7 +340,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="27" />
 		</card>
-		<card name="Sealed Devil Zaeros" id="c0e07597-d02e-410e-9164-7669c3e8bd75">
+		<card name="Fuuma Zaeros" id="c0e07597-d02e-410e-9164-7669c3e8bd75">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -530,7 +530,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="46" />
 		</card>
-		<card name="Sealed Devil Malwasp" id="82660b9d-1319-4921-b024-74e3076961d0">
+		<card name="Fuuma Malwasp" id="82660b9d-1319-4921-b024-74e3076961d0">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />

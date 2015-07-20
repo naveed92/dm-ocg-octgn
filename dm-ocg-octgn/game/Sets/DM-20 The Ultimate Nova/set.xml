@@ -45,7 +45,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Tyranno Drake" />
-			<property name="Rules" value="Evolution - Tyranno Drake.&#xd;&#xa;[Photo E: Brave Spirit] During this turn, your opponent can't use the &quot;Shield Trigger&quot; ability on Shields broken by this creature.&#xd;&#xa;[Photo E: Tyranno Drake] This creature breaks an opponent's shield.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Evolution - Tyranno Drake.&#xd;&#xa;[Fort Energy: Brave Spirit] During this turn, your opponent can't use the &quot;Shield Trigger&quot; ability on Shields broken by this creature.&#xd;&#xa;[Fort Energy: Tyranno Drake] This creature breaks an opponent's shield.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="11000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S3" />
@@ -94,7 +94,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Death Puppet" />
-			<property name="Rules" value="Photo E: Death Puppet (When this creature is put into the Battle Zone, if a Death Puppet is tapped to Summon this creature, this creature gain the following [Photo E]  ability.)&#xd;&#xa;[Photo E] : Each player discards their hand." />
+			<property name="Rules" value="Fort Energy: Death Puppet (When this creature is put into the Battle Zone, if a Death Puppet is tapped to Summon this creature, this creature gain the following [Fort Energy]  ability.)&#xd;&#xa;[Fort Energy] : Each player discards their hand." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="3" />
@@ -114,7 +114,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Wild Veggies" />
-			<property name="Rules" value="[Photo E: Wild Veggies] You may choose a creature from your Graveyard and put it into your Mana Zone.&#xd;&#xa;[Photo E: Dragon] You can return a creature from your Mana Zone to your hand." />
+			<property name="Rules" value="[Fort Energy: Wild Veggies] You may choose a creature from your Graveyard and put it into your Mana Zone.&#xd;&#xa;[Fort Energy: Dragon] You can return a creature from your Mana Zone to your hand." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="5" />
@@ -124,7 +124,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Great Mecha King" />
-			<property name="Rules" value="Evolution - Great Mecha King.&#xd;&#xa;[Photo E: Machine Hero] Tap an opponent's creature in the Battle Zone with power 3000 or less.&#xd;&#xa;[Photo E: Great Mecha King] Tap an opponent's creature in the Battle Zone with power 4000 or more." />
+			<property name="Rules" value="Evolution - Great Mecha King.&#xd;&#xa;[Fort Energy: Machine Hero] Tap an opponent's creature in the Battle Zone with power 3000 or less.&#xd;&#xa;[Fort Energy: Great Mecha King] Tap an opponent's creature in the Battle Zone with power 4000 or more." />
 			<property name="Power" value="3500" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="6" />
@@ -154,7 +154,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="Evolution - Grand Devil.&#xd;&#xa;[Photo E: Deep Marine] Choose a creature in the Battle Zone and return it to owner's hand.&#xd;&#xa;[Photo E: Grand Devil] Choose a player.  That player shuffles his/her hand into their deck, and draws the same number of cards." />
+			<property name="Rules" value="Evolution - Grand Devil.&#xd;&#xa;[Fort Energy: Deep Marine] Choose a creature in the Battle Zone and return it to owner's hand.&#xd;&#xa;[Fort Energy: Grand Devil] Choose a player.  That player shuffles his/her hand into their deck, and draws the same number of cards." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="9" />
@@ -214,7 +214,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Human" />
-			<property name="Rules" value="[Photo E: Dragon] Until the end of turn, all creatures in your Battle Zone gain power +3000.&#xd;&#xa;[Photo E: Human] Destroy a creature with power 2000 or less." />
+			<property name="Rules" value="[Fort Energy: Dragon] Until the end of turn, all creatures in your Battle Zone gain power +3000.&#xd;&#xa;[Fort Energy: Human] Destroy a creature with power 2000 or less." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="15" />
@@ -274,7 +274,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King" />
-			<property name="Rules" value="[Blocker] &#xd;&#xa;[Photo E: Great Mecha King] Choose two Shields and reveal them. (The chosen shields  stay revealed in the Shield Zone.)&#xd;&#xa;This creature cannot attack players." />
+			<property name="Rules" value="[Blocker] &#xd;&#xa;[Fort Energy: Great Mecha King] Choose two Shields and reveal them. (The chosen shields  stay revealed in the Shield Zone.)&#xd;&#xa;This creature cannot attack players." />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="21" />
@@ -304,12 +304,12 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Liquid People" />
-			<property name="Rules" value="Photo E: Liquid People (When this creature is put into the Battle Zone, if a Liquid People is tapped to Summon this creature, this creature gain the following [Photo E]  ability.)&#xd;&#xa;[Photo E] : Each player draw cards equal to the number of creatures in their Battle Zone." />
+			<property name="Rules" value="Fort Energy: Liquid People (When this creature is put into the Battle Zone, if a Liquid People is tapped to Summon this creature, this creature gain the following [Fort Energy]  ability.)&#xd;&#xa;[Fort Energy] : Each player draw cards equal to the number of creatures in their Battle Zone." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="24" />
 		</card>
-		<card name="Sealed Devil Boltis" id="2a5bbb84-2dee-4a8f-a5ae-78d341e6218d">
+		<card name="Fuuma Boltis" id="2a5bbb84-2dee-4a8f-a5ae-78d341e6218d">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -329,7 +329,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="26" />
 		</card>
-		<card name="Sealed Devil Foras" id="a051baa2-90d9-44f3-851f-040cf81f7e66">
+		<card name="Fuuma Foras" id="a051baa2-90d9-44f3-851f-040cf81f7e66">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -507,7 +507,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="44" />
 		</card>
-		<card name="Sealed Devil Valfork" id="482a0105-de7b-4337-be11-f60145769994">
+		<card name="Fuuma Valfork" id="482a0105-de7b-4337-be11-f60145769994">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -527,7 +527,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="46" />
 		</card>
-		<card name="Sealed Devil Josjaks" id="610c9980-d179-494f-a4af-3e6ff2a9a2d7">
+		<card name="Fuuma Josjaks" id="610c9980-d179-494f-a4af-3e6ff2a9a2d7">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -542,7 +542,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tyranno Drake" />
-			<property name="Rules" value="[Photo E: Brave Spirit] Until the end of this turn, all Tyranno Drake you control in the Battle Zone gain &quot;Speed Attacker&quot; and &quot;This creature must attack if able&quot;." />
+			<property name="Rules" value="[Fort Energy: Brave Spirit] Until the end of this turn, all Tyranno Drake you control in the Battle Zone gain &quot;Speed Attacker&quot; and &quot;This creature must attack if able&quot;." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="48" />
@@ -582,7 +582,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Arc Seraphim" />
-			<property name="Rules" value="Photo E: Arc Seraphim (When this creature is put into the Battle Zone, if a Arc Seraphim is tapped to Summon this creature, this creature gain the following [Photo E]  ability.)&#xd;&#xa;[Photo E] : Put a &quot;Spirit Rider Zafal Banikis&quot; from your Mana Zone into the Battle Zone." />
+			<property name="Rules" value="Fort Energy: Arc Seraphim (When this creature is put into the Battle Zone, if a Arc Seraphim is tapped to Summon this creature, this creature gain the following [Fort Energy]  ability.)&#xd;&#xa;[Fort Energy] : Put a &quot;Spirit Rider Zafal Banikis&quot; from your Mana Zone into the Battle Zone." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="52" />

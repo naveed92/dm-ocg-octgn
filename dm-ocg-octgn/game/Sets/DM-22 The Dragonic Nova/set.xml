@@ -35,7 +35,8 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Evolution GV - Great Mecha King, Grand Devil, and/or Poseidia Dragon.&#xd;&#xa;[Triple Breaker] When a creature you control is destroyed, you may put that card under this creature instead of sending it to the Graveyard.&#xd;&#xa;Meteorburn 6 - When this creature attacks, you may put 6 cards under this creature into the Graveyard. If so, return all creatures in  your opponent's Battle Zone and all cards in your opponent's Mana Zone to their owner's hand." />			<property name="Power" value="15000" />
+			<property name="Rules" value="Evolution GV - Great Mecha King, Grand Devil, and/or Poseidia Dragon.&#xd;&#xa;[Triple Breaker] When a creature you control is destroyed, you may put that card under this creature instead of sending it to the Graveyard.&#xd;&#xa;Meteorburn 6 - When this creature attacks, you may put 6 cards under this creature into the Graveyard. If so, return all creatures in your opponent's Battle Zone and all cards in their Mana Zone to their hand." />
+			<property name="Power" value="15000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S2" />
 		</card>
@@ -54,7 +55,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix/Tyranno Drake" />
-			<property name="Rules" value="Evolution GV - Dragon.&#xd;&#xa;Meteorburn - When this creature attacks, you may send a card under this creature to the Graveyard. If so, this creature gains &quot;Power Attacker +15000&quot; and &quot;World Breaker&quot; &#xd;&#xa;When an opponent chooses this creature, they put all of their cards in the Mana Zone into the Graveyard.&#xd;&#xa;Triple Breaker" />
+			<property name="Rules" value="Evolution GV - Dragon.&#xd;&#xa;Meteorburn - When this creature attacks, you may send a card under this creature to the Graveyard. If so, this creature gains &quot;Power Attacker +15000&quot; and &quot;World Breaker&quot; &#xd;&#xa;When an opponent chooses this creature, they put all of their cards in the Mana Zone into the Graveyard.&#xd;&#xa;[Triple Breaker]" />
 			<property name="Power" value="15000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />
@@ -114,7 +115,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Dreammate/Arc Seraphim" />
-			<property name="Rules" value="Evolution - Put on one of your Dreammate.&#xd;&#xa;The cost to summon Dreammate is reduced by 1, however the cost cannot be less than 1.&#xd;&#xa;When a Dreammate you control is put into the Battle Zone, draw a card.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)" />
+			<property name="Rules" value="Evolution - Put on one of your Dreammate.&#xd;&#xa;The cost to summon Dreammate is reduced by 1, however the cost cannot be less than 1.&#xd;&#xa;When a Dreammate you control is put into the Battle Zone, draw a card.&#xd;&#xa;[Double Breaker]" />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="5" />
@@ -154,7 +155,7 @@
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Poseidia Dragon" />
-			<property name="Rules" value="[Blocker] Blocker (When an opponent's creature attacks, you may tap this creature to stop the attack. Then the two creatures battle.)&#xd;&#xa;When this creature attacks or blocks, return a card from your Mana Zone to your hand.&#xd;&#xa;[Double Breaker]" />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;When this creature attacks or blocks, return a card from your Mana Zone to your hand.&#xd;&#xa;[Double Breaker]" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="9" />
@@ -309,7 +310,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="24" />
 		</card>
-		<card name="Sealed Devil Gorgonshack" id="21f0f2d8-8ec4-4c23-acfd-20ed8ab74c44">
+		<card name="Fuuma Gorgonshack" id="21f0f2d8-8ec4-4c23-acfd-20ed8ab74c44">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -339,12 +340,13 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="27" />
 		</card>
-		<card name="Sealed Devil Aogrun" id="2e19671d-08ce-4c6e-859d-cd431b7e59a3">
+		<card name="Fuuma Aogrun" id="2e19671d-08ce-4c6e-859d-cd431b7e59a3">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="[Blocker]&#xd;&#xa;[Thrilling Three: Phoenix] Destroy an opponent's creature.&#xd;&#xa;This creature can't attack." />			<property name="Power" value="4000" />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;[Thrilling Three: Phoenix] Destroy an opponent's creature.&#xd;&#xa;This creature can't attack." />			
+			<property name="Power" value="4000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="28" />
 		</card>
@@ -363,7 +365,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Evolution V - Put on top of 2 of your Tyranno Drake, Brave Spirit, and/or Armored Dragon.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)" />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Evolution V - Put on top of 2 of your Tyranno Drake, Brave Spirit, and/or Armored Dragon.&#xd;&#xa;[Double Breaker]" />
 			<property name="Power" value="11000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="30" />
@@ -433,7 +435,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Arc Seraphim" />
-			<property name="Rules" value="[Blocker] Blocker (When an opponent's creature attacks, you may tap this creature to stop the attack. Then the two creatures battle.)&#xd;&#xa;This creature cannot attack players.&#xd;&#xa;When you control a Dragon in the Battle Zone, this creature gains Power +2000." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature cannot attack players.&#xd;&#xa;When you control a Dragon in the Battle Zone, this creature gains Power +2000." />
 			<property name="Power" value="3500" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="37" />
@@ -443,8 +445,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King" />
-			<property name="Rules" value="[Blocker] Blocker (When an opponent's creature attacks, you may tap this creature to stop the attack. Then the two creatures battle.)&#xd;&#xa;This creature cannot attack players.&#xd;&#xa;When this creature is destroyed, untap all creatures you control in the Battle Zone." />
-			<property name="Power" value="2000" />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature cannot attack players.&#xd;&#xa;When this creature is destroyed, untap all creatures you control in the Battle Zone." />			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="38" />
 		</card>
@@ -458,12 +459,12 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="39" />
 		</card>
-		<card name="Sealed Devil Demigorun" id="61dde1c1-c83c-489a-9841-33dce82557cf">
+		<card name="Fuuma Demigorun" id="61dde1c1-c83c-489a-9841-33dce82557cf">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil" />
-			<property name="Rules" value="Photo E: Dragon (When this creature is put into the Battle Zone, if a Dragon is tapped to Summon this creature, this creature gain the following [Photo E]  ability.)&#xd;&#xa;[Photo E] : Search  your deck for any card, reveal it, and add it to your hand. Shuffle your deck." />
+			<property name="Rules" value="Fort Energy: Dragon (When this creature is put into the Battle Zone, if a Dragon is tapped to Summon this creature, this creature gain the following [Fort Energy]  ability.)&#xd;&#xa;[Fort Energy] : Search  your deck for any card, reveal it, and add it to your hand. Shuffle your deck." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="40" />
@@ -518,7 +519,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="45" />
 		</card>
-		<card name="Sealed Devil Vines" id="bad66e34-cb0c-4a55-9997-f565b17d6990">
+		<card name="Fuuma Vines" id="bad66e34-cb0c-4a55-9997-f565b17d6990">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />

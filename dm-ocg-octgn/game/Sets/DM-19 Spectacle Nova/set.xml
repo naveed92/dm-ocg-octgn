@@ -30,7 +30,7 @@
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S1" />
 		</card>
-		<card name="Amsion, Spirit of Protection Law" id="7a3f0e7b-426b-43e3-a41f-346a01052715">
+		<card name="Amshion, Spirit of Protection Law" id="7a3f0e7b-426b-43e3-a41f-346a01052715">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -230,7 +230,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="11" />
 		</card>
-		<card name="Steel Armor Benkeros" id="7c556c1f-777c-4528-906c-77bb49c35adb">
+		<card name="Steel-Armor Benkeros" id="7c556c1f-777c-4528-906c-77bb49c35adb">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -361,7 +361,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="24" />
 		</card>
-		<card name="Garmagias, Sealed Devil" id="db588c25-e5e3-4275-adca-0e695147b00f">
+		<card name="Fuuma Garmagias" id="db588c25-e5e3-4275-adca-0e695147b00f">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -371,7 +371,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="25" />
 		</card>
-		<card name="Soulbais Dragoon" id="b1cd4042-bf85-4fcb-ac11-84bec2b5c26a">
+		<card name="Soul Vice Dragoon" id="b1cd4042-bf85-4fcb-ac11-84bec2b5c26a">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -401,7 +401,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="28" />
 		</card>
-		<card name="Mechanical Divine Armor Valget III" id="7fec9911-461e-46b6-845d-8eaafc762fb6">
+		<card name="Superhuman Mech Armor Valget III" id="7fec9911-461e-46b6-845d-8eaafc762fb6">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -531,7 +531,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="41" />
 		</card>
-		<card name="Computerized Robo Digcrusher" id="e87eb919-f55d-4418-90d1-901a1724f5aa">
+		<card name="Cyber Robo Diecrusher" id="e87eb919-f55d-4418-90d1-901a1724f5aa">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -541,7 +541,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="42" />
 		</card>
-		<card name="Bal Bars, Guardian of Dust Light" id="af625ac9-19b9-4d30-8b2e-dfa59b2a498a">
+		<card name="Bal Bars, Dust Light Guardian" id="af625ac9-19b9-4d30-8b2e-dfa59b2a498a">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -581,7 +581,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="46" />
 		</card>
-		<card name="Adorak, Sealed Devil" id="b6904e76-9036-4bc5-babd-440c471bf73b">
+		<card name="Fuuma Adorak" id="b6904e76-9036-4bc5-babd-440c471bf73b">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -601,7 +601,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="48" />
 		</card>
-		<card name="Balzoo, Sealed Devil" id="b452d526-a8c2-4885-81a9-21aa32553c41">
+		<card name="Fuuma Balzoo" id="b452d526-a8c2-4885-81a9-21aa32553c41">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -621,7 +621,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="50" />
 		</card>
-		<card name="Medical Alnile" id="2d8c9090-0a09-4d97-bc2e-4facd26be453">
+		<card name="Medical Alnair" id="2d8c9090-0a09-4d97-bc2e-4facd26be453">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -671,7 +671,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="55" />
 		</card>
-		<card name="Raum, Sealed Devil" id="4f0163e3-f671-4146-8f6c-fb495a53770c">
+		<card name="Fuuma Raum" id="4f0163e3-f671-4146-8f6c-fb495a53770c">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -731,7 +731,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="61" />
 		</card>
-		<card name="One-Hit Hero Honoo" id="7b29b63a-6427-4bbf-8ba2-2fb3cab26447">
+		<card name="Honoo, the Brave Blow" id="7b29b63a-6427-4bbf-8ba2-2fb3cab26447">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -871,7 +871,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="75" />
 		</card>
-		<card name="Metalic Ambassador Jumbo Attacker" id="5c965c6c-85ed-40c7-b530-d684facb39bf">
+		<card name="Jumbo Attacker, the Steel Ambassador" id="5c965c6c-85ed-40c7-b530-d684facb39bf">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -931,7 +931,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="81" />
 		</card>
-		<card name="Sabanahal, Sealed Devil" id="2a63b52c-aacc-45df-9a82-72593133abe2">
+		<card name="Fuuma Sabanahal" id="2a63b52c-aacc-45df-9a82-72593133abe2">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -941,7 +941,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="82" />
 		</card>
-		<card name="Bursting Arm Robo Return Ace" id="15577641-40b5-493c-a095-f8c96235c18c">
+		<card name="Bursting Arm Robo, Return Ace" id="15577641-40b5-493c-a095-f8c96235c18c">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -951,7 +951,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="83" />
 		</card>
-		<card name="Folgarol, Sealed Devil" id="c9b48459-6d17-4569-b017-83b9ff82a028">
+		<card name="Fuuma Folgarol" id="c9b48459-6d17-4569-b017-83b9ff82a028">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -961,7 +961,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="84" />
 		</card>
-		<card name="Webaris, Sealed Devil" id="e5397a22-6661-4b5d-bf90-7091fa1b7a45">
+		<card name="Fuuma Webaris" id="e5397a22-6661-4b5d-bf90-7091fa1b7a45">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="1" />
 			<property name="Type" value="Creature" />
@@ -991,7 +991,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="87" />
 		</card>
-		<card name="Garabos, Sealed Devil" id="402827f9-3b37-4825-9ace-b0ef992be569">
+		<card name="Fuuma Garabos" id="402827f9-3b37-4825-9ace-b0ef992be569">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -1011,7 +1011,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="89" />
 		</card>
-		<card name="Samijal, Sealed Devil" id="4238f543-0fa0-4bc1-a12c-0a1e969982fe">
+		<card name="Fuuma Samijal" id="4238f543-0fa0-4bc1-a12c-0a1e969982fe">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1041,7 +1041,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="92" />
 		</card>
-		<card name="Erigoul, Sealed Devil" id="aac0e7cb-9d15-4702-a70d-777556e44040">
+		<card name="Fuuma Erigoul" id="aac0e7cb-9d15-4702-a70d-777556e44040">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -1101,7 +1101,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="98" />
 		</card>
-		<card name="Bagarn, Hot-Blooded Soldier" id="8e72d959-a1e0-45c5-bb6f-b46db0ede468">
+		<card name="Bagarn, Passionate Soldier" id="8e72d959-a1e0-45c5-bb6f-b46db0ede468">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -1171,7 +1171,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="105" />
 		</card>
-		<card name="Mask-do Berry" id="0df021a4-28e1-446b-811a-c3b8b59708ff">
+		<card name="Mask-do Cherry" id="0df021a4-28e1-446b-811a-c3b8b59708ff">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1211,7 +1211,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="109" />
 		</card>
-		<card name="Fiery Cyclone" id="c6a251dc-eed3-4026-a2ce-efdd0046299c">
+		<card name="Faerie Cyclone" id="c6a251dc-eed3-4026-a2ce-efdd0046299c">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />

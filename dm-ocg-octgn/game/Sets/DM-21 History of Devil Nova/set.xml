@@ -40,7 +40,7 @@
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S2" />
 		</card>
-		<card name="Shiver of Sealed Devil Jumazohl" id="4031bc7a-6d8d-4a8c-992e-896599f1015d">
+		<card name="Jumasol, Bloodcurdling Fuuma" id="4031bc7a-6d8d-4a8c-992e-896599f1015d">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -60,7 +60,7 @@
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />
 		</card>
-		<card name="Disaster Brave Orge Daigoku" id="9ec22f5d-de1f-4440-82b2-1a3c86230488">
+		<card name="Daigoku Ogre, Brave of Disaster" id="9ec22f5d-de1f-4440-82b2-1a3c86230488">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -70,7 +70,7 @@
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S5" />
 		</card>
-		<card name="Iron Maskman Brikion" id="871c6617-f24c-42fd-ad36-56ed7be98564">
+		<card name="Steel Maskman Brikion" id="871c6617-f24c-42fd-ad36-56ed7be98564">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -80,7 +80,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="1" />
 		</card>
-		<card name="Fuuma Vire Apostle" id="3dd7fa8d-32af-4d4c-9aee-c40bfe2dc5d1">
+		<card name="Fuuma Vile Apostle" id="3dd7fa8d-32af-4d4c-9aee-c40bfe2dc5d1">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -90,7 +90,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="2" />
 		</card>
-		<card name="Devil Saint Death Arcadia" id="b7f3db8e-8ed0-4f7f-885a-bfef9c097d3e">
+		<card name="Death Arcadia, Devil Saint" id="b7f3db8e-8ed0-4f7f-885a-bfef9c097d3e">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -110,7 +110,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="4" />
 		</card>
-		<card name="Spirit Rider Raze Mikerange" id="6e0c2952-181f-452d-b8f9-53b12ee017e7">
+		<card name="Rahxe Michelange, Spirit Knight" id="6e0c2952-181f-452d-b8f9-53b12ee017e7">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="9" />
 			<property name="Type" value="Creature" />
@@ -120,7 +120,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="5" />
 		</card>
-		<card name="Holy Spirit Admiral Sefia Parthenon" id="ed1a86a8-ac34-4efc-ae39-1c460c97690e">
+		<card name="Sephia Parthenon, Spirit Admiral" id="ed1a86a8-ac34-4efc-ae39-1c460c97690e">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -130,7 +130,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="6" />
 		</card>
-		<card name="Spirit Rider Agagem" id="029c87c9-0593-4c7e-8084-107081420d44">
+		<card name="Agagem, Spirit Knight" id="029c87c9-0593-4c7e-8084-107081420d44">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -150,7 +150,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="8" />
 		</card>
-		<card name="Machine Admiral Sound Shooter" id="0ef1c4c0-6201-469b-b6a6-8a803993668b">
+		<card name="Mecha Admiral, Sound Shooter" id="0ef1c4c0-6201-469b-b6a6-8a803993668b">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -180,7 +180,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="11" />
 		</card>
-		<card name="Devil Admiral Algo Bardiol" id="23048baf-ac56-4e96-a967-aaa06e2a3121">
+		<card name="Algo Bardiol, Devil Admiral" id="23048baf-ac56-4e96-a967-aaa06e2a3121">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -190,7 +190,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="12" />
 		</card>
-		<card name="Devil Kairyuu Gigan Doll" id="771af4c4-762d-4088-bce7-7ec2ae53dacc">
+		<card name="Gigandol, Evil Obstacle" id="771af4c4-762d-4088-bce7-7ec2ae53dacc">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -210,7 +210,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="14" />
 		</card>
-		<card name="Flame Dragon Admiral Gausbrazar" id="59c30457-94d4-4f47-b40e-defb18424a6f">
+		<card name="Gauss Blazer, Flame Dragon Admiral" id="59c30457-94d4-4f47-b40e-defb18424a6f">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -220,7 +220,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="15" />
 		</card>
-		<card name="Sage of Shield God Riord" id="243afd4e-6c85-4d87-ad0c-823296749ee9">
+		<card name="Leoldo, Divine Shield Sage" id="243afd4e-6c85-4d87-ad0c-823296749ee9">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -230,7 +230,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="16" />
 		</card>
-		<card name="Bless Blades Dragoon" id="52daf47d-2ccf-406d-b910-a35dd705f4a7">
+		<card name="Blaze Breath Dragoon" id="52daf47d-2ccf-406d-b910-a35dd705f4a7">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -240,7 +240,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="17" />
 		</card>
-		<card name="Mythical Beast Admiral Yu Wandafor" id="b006794c-8697-4c2c-b6f9-b9d3e2217d94">
+		<card name="Yu Wandafor, Phantom Beast Admiral" id="b006794c-8697-4c2c-b6f9-b9d3e2217d94">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -250,7 +250,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="18" />
 		</card>
-		<card name="Prisoned Paconeco" id="d535a889-54c2-4964-88ee-42921c101f1d">
+		<card name="Prisoned Pakoneko" id="d535a889-54c2-4964-88ee-42921c101f1d">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -270,7 +270,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="20" />
 		</card>
-		<card name="Guardian of Battlezone Rean Ignace" id="32534a29-a30e-4d0b-9f12-10ef3e8e604c">
+		<card name="Reanne Ignas, Battlefield Guardian" id="32534a29-a30e-4d0b-9f12-10ef3e8e604c">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -280,7 +280,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="21" />
 		</card>
-		<card name="Guardian of Castle Wall Pardio" id="a3381e77-0078-4ee3-a837-b607fad148a5">
+		<card name="Pardio, Castle Walls Guardian" id="a3381e77-0078-4ee3-a837-b607fad148a5">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -290,7 +290,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="22" />
 		</card>
-		<card name="Protection Spirit Vinocoat" id="614c6d82-6d7e-4aed-ac9c-9c0681ede491">
+		<card name="Vinogoat, Protection Spirit" id="614c6d82-6d7e-4aed-ac9c-9c0681ede491">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -300,7 +300,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="23" />
 		</card>
-		<card name="Armor Support Gatlinga" id="f57ceb03-5942-4796-81cf-4b08836ca250">
+		<card name="Armor Supporter, Gatlinger" id="f57ceb03-5942-4796-81cf-4b08836ca250">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -310,7 +310,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="24" />
 		</card>
-		<card name="Ririan Cashiros" id="29cba1c3-5c66-4328-8143-d9a1af2e2e21">
+		<card name="Lily Ann Cassios" id="29cba1c3-5c66-4328-8143-d9a1af2e2e21">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -370,7 +370,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="30" />
 		</card>
-		<card name="Excite Dragoon Phoenix Dorambeak" id="db6b9256-4a53-4abd-b9e9-8ad477014f7f">
+		<card name="Dorambeak, Violent Dragon Phoenix" id="db6b9256-4a53-4abd-b9e9-8ad477014f7f">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Evolution Creature" />
@@ -390,7 +390,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="32" />
 		</card>
-		<card name="Spirit Rider Subain" id="b7c0bcb8-89de-4f31-aa70-ab11a9421f1d">
+		<card name="Subyne, Spirit Knight" id="b7c0bcb8-89de-4f31-aa70-ab11a9421f1d">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -400,7 +400,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="33" />
 		</card>
-		<card name="Great Runner Mor" id="8a0ca575-e16d-44d5-a027-d51c1fc847d7">
+		<card name="Speedy Mo" id="8a0ca575-e16d-44d5-a027-d51c1fc847d7">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -410,12 +410,12 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="34" />
 		</card>
-		<card name="Sound of Crying of Soul" id="605d1df4-4011-44a2-b120-fb7f2ef17792">
+		<card name="Call of the Soul" id="605d1df4-4011-44a2-b120-fb7f2ef17792">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Select a creature Type.  Search your deck for three creatures of the chosen creature Type with different names, and reveal them to your opponent.  Shuffle your deck and put the three cards on top of your deck in any order." />
+			<property name="Rules" value="Choose a Race.  Search your deck for three creatures of the chosen Race with different names, and reveal them to your opponent.  Shuffle your deck and put the three cards on top of your deck in any order." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="35" />
@@ -440,7 +440,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="37" />
 		</card>
-		<card name="Protection Spirit Rabiyon" id="c143f2fb-894d-42d7-8597-fd67572cf3bc">
+		<card name="Rabbillion, Protection Spirit" id="c143f2fb-894d-42d7-8597-fd67572cf3bc">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -500,7 +500,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="43" />
 		</card>
-		<card name="Danjen of Dragon Group" id="22d47c6b-f495-468f-9a51-841f3a279fa7">
+		<card name="Danzen the Drake Pulse" id="22d47c6b-f495-468f-9a51-841f3a279fa7">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -510,7 +510,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="44" />
 		</card>
-		<card name="Tragedy Doll Warning" id="b7eafe92-02e1-4eb5-9927-0bfcaef35249">
+		<card name="Wranin, Tragedy Doll" id="b7eafe92-02e1-4eb5-9927-0bfcaef35249">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -520,7 +520,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="45" />
 		</card>
-		<card name="Gorbaudon of Explosive Flame" id="e5c25a72-ddf2-4e16-8156-bd6ae5a3a8b8">
+		<card name="Gorbaudon the Blast Flame" id="e5c25a72-ddf2-4e16-8156-bd6ae5a3a8b8">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -530,7 +530,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="46" />
 		</card>
-		<card name="Fuuma Malwasp" id="82660b9d-1319-4921-b024-74e3076961d0">
+		<card name="Fuuma Mehlwasp" id="82660b9d-1319-4921-b024-74e3076961d0">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -540,7 +540,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="47" />
 		</card>
-		<card name="Liver Gem Mary" id="c7009d02-b5a5-47e3-98ec-e32023016aef">
+		<card name="Gutsy Merry" id="c7009d02-b5a5-47e3-98ec-e32023016aef">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -550,7 +550,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="48" />
 		</card>
-		<card name="Sergent Kuwagadan" id="554cada8-6b6c-4c41-b69c-04bf77ca5209">
+		<card name="Sergeant Kuwagadan" id="554cada8-6b6c-4c41-b69c-04bf77ca5209">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -560,7 +560,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="49" />
 		</card>
-		<card name="Tactic Arinkon" id="b6e953f9-c28a-4ad3-bda4-950bdb88c63b">
+		<card name="Step Step Antikon" id="b6e953f9-c28a-4ad3-bda4-950bdb88c63b">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -570,7 +570,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="50" />
 		</card>
-		<card name="Kira of Dragon Sound" id="a2fe38ef-8acb-4ca0-a094-e72f6548e324">
+		<card name="Kira, of the Dragon Sound" id="a2fe38ef-8acb-4ca0-a094-e72f6548e324">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -580,7 +580,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="51" />
 		</card>
-		<card name="Spirit Rider Auries" id="3b10cb00-2393-41ef-ac28-ee74e50a1b1d">
+		<card name="Aures, Spirit Knight" id="3b10cb00-2393-41ef-ac28-ee74e50a1b1d">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -590,7 +590,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="52" />
 		</card>
-		<card name="Butter Butter Butterfly" id="3c5f0c7c-ed45-4ce9-9b25-67af0e1d7333">
+		<card name="Patter Patter Butterfly" id="3c5f0c7c-ed45-4ce9-9b25-67af0e1d7333">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -600,7 +600,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="53" />
 		</card>
-		<card name="Protection Spirit Uniforce" id="9da3e65e-a279-48fc-a37b-3c14fa6e2c18">
+		<card name="Unifolk, Protection Spirit" id="9da3e65e-a279-48fc-a37b-3c14fa6e2c18">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -610,7 +610,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="54" />
 		</card>
-		<card name="Protection Spirit Boafus" id="d0420172-4f86-4e29-8605-aa7f00bd3fd2">
+		<card name="Boarbus, Protection Spirit" id="d0420172-4f86-4e29-8605-aa7f00bd3fd2">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />

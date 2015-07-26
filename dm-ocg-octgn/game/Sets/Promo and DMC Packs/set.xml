@@ -1807,13 +1807,14 @@
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="1" />
+		</card>
 
 		<card name="Zeek Calibas, the Fuuma Holy Dragon" id="eb22fa4d-1f42-421d-bfe5-427028c9d2cc">
 			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Apollonia Dragon/Grand Devil" />
-			<property name="Rules" value="(This creature is put into your mana zone tapped.)&#xd;&#xa;Each of your other light creatures in the battle zone gets "blocker".&#xd;&#xa;Whenever one of your other darkness creatures would leave the battle zone due to the ability of one of your opponent's spells, it stays in the battle zone instead.&#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.)&#xd;&#xa;Each of your other light creatures in the battle zone gets 'Blocker'.&#xd;&#xa;Whenever one of your other darkness creatures would leave the battle zone due to the ability of one of your opponent's spells, it stays in the battle zone instead.&#xd;&#xa;Double breaker (This creature breaks 2 shields.)" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="1" />
@@ -1835,7 +1836,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armored Dragon/Earth Dragon" />
-			<property name="Rules" value="(This creature is put into your mana zone tapped.)&#xd;&#xa;Double breaker (This creature breaks 2 shields.)&#xd;&#xa;Whenever this creature attacks, you may discard a Dragon from your hand. If you do, this turn, this creature gets "triple breaker", and you may put the top 2 cards of your deck into your mana zone." />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.)&#xd;&#xa;Double breaker (This creature breaks 2 shields.)&#xd;&#xa;Whenever this creature attacks, you may discard a Dragon from your hand. If you do, this turn, this creature gets 'Triple breaker', and you may put the top 2 cards of your deck into your mana zone." />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="1" />

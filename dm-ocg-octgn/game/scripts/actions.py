@@ -12,9 +12,20 @@ shieldMarker = ('Shield', 'a4ba770e-3a38-4494-b729-ef5c89f561b7')
 
 # Start of Automation code
 
-functionList = ['mana', 'draw', 'shields', 'search', 'bounce', 'kill', 'gear', 'fromMana', 'fromDeck', 'toHand', 'toMana', 'banishAll', 'tapCreature', 'sendToMana', 'sendToShields', 'destroyShield', 'destroyMana', 'killAndSearch']
+functionList = [ 
+				'mana', 'fromMana', 'toMana', 'sendToMana', 'destroyMana',
+				'draw', 'toHand', 
+				'shields',
+				'search', 'fromDeck', 'sendToShields', 'destroyShield',
+				'bounce',
+				'kill', 'sacrifice', 'banishAll', 'killAndSearch',
+				'targetDiscard',
+				'gear', 
+				'tapCreature'
+				]
 
 cardScripts = {
+			# ON PLAY EFFECTS
                 'Bronze-Arm Tribe': { 'onPlay': { 'mana': ['me.Deck'] }},
                 'Alshia, Spirit of Novas': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Spell"'] }},
                 'Akashic Second, Electro-Spirit': { 'onPlay': { 'draw': ['me.Deck', 'True'] }},
@@ -26,7 +37,7 @@ cardScripts = {
                 'Armored Decimator Valkaizer': { 'onPlay': {  'kill': ['4000'] }},
                 'Artisan Picora': { 'onPlay': { 'fromMana': ['1','"ALL"','"ALL"','"ALL"','False','True'] }}, 
                 'Astral Warper': { 'onPlay': { 'draw': ['me.Deck', 'True', '3'] }},
-		'Ballom, Master of Death': { 'onPlay': { 'banishAll': ['table', 'True', '"ALL"', '"Darkness"', 'True'] }},
+				'Ballom, Master of Death': { 'onPlay': { 'banishAll': ['table', 'True', '"ALL"', '"Darkness"', 'True'] }},
                 'Belix, the Explorer': { 'onPlay': { 'fromMana': ['1','"Spell"'] }},
                 'Chaos Worm': { 'onPlay': {  'kill': [] }},
 #               'Core-Crash Lizard': { 'onPlay': { 'destroyShield': ['True'] }},
@@ -48,6 +59,7 @@ cardScripts = {
                 'Gyulcas, Sage of the East Wind': { 'onPlay': {  'search': ['me.Deck', '1', '"Cross Gear"'] }},
                 'Hawkeye Lunatron': { 'onPlay': { 'search': ['me.Deck', '1', '"ALL"', '"ALL"', '"ALL"', 'False'] }},
                 'Hurlosaur': { 'onPlay': {  'kill': ['1000'] }},
+				'Jenny, the Dismantling Puppet': { 'onPlay': {  'targetDiscard': [] }},
                 'King Ripped-Hide': { 'onPlay': { 'draw': ['me.Deck', 'True', '2'] }},
                 'Kolon, the Oracle': { 'onPlay': { 'tapCreature': [] }},
                 'Lena, Vizier of Brilliance': { 'onPlay': { 'fromMana': ['1','"Spell"'] }},
@@ -80,6 +92,7 @@ cardScripts = {
                 'Wind Axe, the Warrior Savage': { 'onPlay': {  'mana': ['me.Deck'] }},
                 'Zardia, Spirit of Bloody Winds': { 'onPlay': {  'shields': ['me.Deck'] }},
                 'Zemechis, the Missionary': { 'onPlay': {  'gear': ['"kill"'] }},
+			# ON CAST EFFECTS
                 'Abduction Charger': { 'onPlay': {  'bounce': ['2'] }},
                 'Apocalypse Day': { 'onPlay': {  'banishAll': ['table', 'len([card for card in table if isCreature(card)])>5'] }},
                 'Blizzard of Spears': { 'onPlay': {  'banishAll': ['table', 'True', '4000'] }},
@@ -143,7 +156,7 @@ cardScripts = {
                 'Teleportation': { 'onPlay': { 'bounce': ['2'] }},
                 'Ten-Ton Crunch': { 'onPlay': { 'kill': ['3000'] }},
                 'Terror Pit': { 'onPlay': { 'kill': [] }},
-#               'Transmogrify': { 'onPlay': { 'killAndSearch': ['True'] }},
+				'Transmogrify': { 'onPlay': { 'killAndSearch': ['True'] }},
                 'Triple Brain': { 'onPlay': { 'draw': ['me.Deck', 'False', '3'] }},
                 'Tornado Flame': { 'onPlay': {  'kill': ['4000'] }},
                 'Ultimate Force': { 'onPlay': {  'mana': ['me.Deck', '2'] }},
@@ -153,7 +166,8 @@ cardScripts = {
                 'Volcano Charger': { 'onPlay': { 'kill': ['2000'] }},
                 'Wave Rifle': { 'onPlay': { 'gear': ["bounce"] }},
                 'Zombie Carnival': { 'onPlay': { 'fromGrave': [] }},
-                'Akashic First, Electro-Dragon': { 'onDestroy': { 'toHand': ['card'] }},
+			# ON BANISH EFFECTS
+				'Akashic First, Electro-Dragon': { 'onDestroy': { 'toHand': ['card'] }},
                 'Akashic Second, Electro-Spirit': { 'onDestroy': { 'toMana': ['card'] }},
                 'Aqua Agent': { 'onDestroy': { 'toHand': ['card'] }},
                 'Aqua Knight': { 'onDestroy': { 'toHand': ['card'] }},
@@ -186,6 +200,23 @@ cardScripts = {
 
 # Functions used in the Automation dictionaries.
 
+def targetDiscard():
+	mute()
+	currentPlayers = getPlayers()
+	playerList = []
+	cardList = []
+	for player in currentPlayers:
+		playerList.append(player.name)
+	choicePlayer = askChoice("Pick a player:", playerList)
+	if choicePlayer < 1: return
+	targetPlayer = currentPlayers[choicePlayer-1]
+	cardList = [card for card in targetPlayer.hand]
+	cardChoice = askCard(cardList, 'Choose a Card to discard','Discard')
+	if type(cardChoice) is not Card: 
+		notify("{} - Error".format(type(cardChoice)))
+		return
+	remoteCall(targetPlayer,'toDiscard',cardChoice)
+
 def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL", show = True, toGrave = False, ApplyToAllPlayers = False):
     mute()
     if ApplyToAllPlayers == True:
@@ -212,32 +243,36 @@ def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL
             if toGrave == True: remoteCall(player,"banish",choice)
             else: remoteCall(player,"toHand",[choice, show])
 
-def killAndSearch(play = False):
-    mute()
-    cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
-    if len(cardList)==0:
-        return    
-    choice = askCard(cardList, 'Choose a Creature to destroy')
-    if type(choice) is not Card:
-        return
-    card = choice
-    banish(choice)
-    while(True):
-        group = card.owner.Deck
-        if len(group) == 0: return
-        newCard = group[0]
-        newCard.isFaceUp = True
-        notify("{} reveals {}".format(card.owner,newCard.name))
-        rnd(1,100)
-        if re.search("Creature", newCard.Type) and not re.search("Evolution Creature", newCard.Type):
-            if play == True:
-                toPlay(newCard)
-                return
-            else:
-                newCard.moveTo(me.hand)
-                return
-        else:
-            toDiscard(newCard)
+def killAndSearch(play = False, singleSearch = False):
+	mute()
+	cardList = [card for card in table if isCreature(card) and re.search("Creature", card.Type)]
+	if len(cardList)==0: return    
+	choice = askCard(cardList, 'Choose a Creature to destroy')
+	if type(choice) is not Card: return
+	card = choice
+	remoteCall(choice.owner,'banish',choice)
+	if singleSearch:
+		return
+	else:
+		remoteCall(choice.owner,'loopThroughDeck',[card, play])
+
+def loopThroughDeck(card, play = False):
+	group = card.owner.Deck
+	if len(group) == 0: return
+	newCard = group[0]
+	newCard.isFaceUp = True
+	notify("{} reveals {}".format(card.owner,newCard.name))
+	rnd(1,1000)
+	if re.search("Creature", newCard.Type) and not re.search("Evolution Creature", newCard.Type):
+		if play == True:
+			remoteCall(newCard.owner,'toPlay',newCard)
+			return
+		else:
+			remoteCall(newCard.owner,'moveTo',newCard.owner.hand)
+			return
+	else:
+		remoteCall(newCard.owner,'toDiscard',newCard)
+		remoteCall(newCard.owner,'loopThroughDeck',[card, play])
 
 def search(group, count = 1, TypeFilter = "ALL" , CivFilter = "ALL", RaceFilter = "ALL", show = True, x = 0, y = 0):
 	mute()

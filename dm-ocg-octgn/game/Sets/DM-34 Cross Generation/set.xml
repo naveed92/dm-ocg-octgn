@@ -131,9 +131,7 @@ power of 9000 or less and destroy them. If you put a Dragon with &quot;Sword Fla
 			<property name="Cost" value="9" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Earth Dragon/Phoenix/Samurai" />
-			<property name="Rules" value="Mana Galaxy Vortex: Choose 3 Dragons in your mana zone and put this creature into the battle zone on top of those creatures.&#xd;&#xa;Meteor Burn: When this creature attacks, you may put 3 cards under this creature into your graveyard If you do, reveal the top 3 cards of your deck. You may put any non-
-
-evolution Dragons you reveal into the battle zone. Put the rest into your graveyard.&#xd;&#xa;Triple Breaker" />
+			<property name="Rules" value="Mana Galaxy Vortex: Choose 3 Dragons in your mana zone and put this creature into the battle zone on top of those creatures.&#xd;&#xa;Meteor Burn: When this creature attacks, you may put 3 cards under this creature into your graveyard If you do, reveal the top 3 cards of your deck. You may put any non-evolution Dragons you reveal into the battle zone. Put the rest into your graveyard.&#xd;&#xa;Triple Breaker" />
 			<property name="Power" value="15000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="5" />
@@ -155,7 +153,7 @@ face down from the top of your deck equal to that card's cost. (Each bundle is s
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="God/Origin" />
-			<property name="Rules" value="[Blocker]  Blocker&#xd;&#xa;Evolution: Put on 1 of your Origins.&#xd;&#xa;Meteor Burn: Whenever this creature would leave the battle zone, you may put a card under this creature into your graveyard. If you do, this creature stays in the battle zone.&#xd;&#xa;God Link - ADAM, God of Wordly Creation (Left Side)&#xd;&#xa;While this creature is linked, it gains &quot;Triple Breaker&quot;." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;Evolution: Origins.&#xd;&#xa;Meteor Burn: Whenever this creature would leave the battle zone, you may put a card under this creature into your graveyard. If you do, this creature stays in the battle zone.&#xd;&#xa;God Link - ADAM, God of Wordly Creation (Left Side)&#xd;&#xa;While this creature is linked, it gains &quot;Triple Breaker&quot;." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="7" />
@@ -166,7 +164,7 @@ face down from the top of your deck equal to that card's cost. (Each bundle is s
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Tap all of your opponent's creatures in the battle zone.&#xd;&#xa;At the end of this turn, untap all of your creatures with &quot;White Knight&quot; in their names." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="8" />
 		</card>
@@ -304,7 +302,7 @@ Breaker&quot; until the end of the turn." />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Put the top card of your deck into your mana zone. Then, you may put 1 creature from your mana zone under one of your evolution creatures." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="20" />
 		</card>
@@ -338,7 +336,7 @@ card is a spell, you may show it to your opponent and put it into your hand." />
 			<property name="Type" value="Castle" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Castle&#xd;&#xa;You may have all of your creatures with &quot;White Knight&quot; in their names cost 1 less to summon. They can't cost less than 1.&#xd;&#xa;All of your creatures with &quot;White Knight&quot; in their names get +3000 power and gain &quot;Blocker&quot;." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="23" />
 		</card>
@@ -402,7 +400,7 @@ under the chosen Evolution Creature.  Shuffle your deck." />
 			<property name="Type" value="Castle" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Castle&#xd;&#xa;When this castle is put into the shield zone to fortify a shield, discard 1 card from your opponent's hand at random.&#xd;&#xa;You may have all of your creatures with &quot;Reaper&quot; in their names cost 1 less to summon. They can't cost less than 1.&#xd;&#xa;All of your creatures with &quot;Reaper&quot; in their names get +2000 power." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="29" />
 		</card>
@@ -634,13 +632,13 @@ generates 2 mana instead of 1.)&#xd;&#xa;When you put this creature into the bat
 			<property name="Rarity" value="C" />
 			<property name="Number" value="50" />
 		</card>
-		<card name="Lionic Phantom Dragon\'s Flame" id="83c95d54-767e-427b-909d-c1e11e4bfa4c">
+		<card name="Lionic Phantom Dragon's Flame" id="83c95d54-767e-427b-909d-c1e11e4bfa4c">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy 1 of your opponent\'s creatures with 2000 power or less OR choose 1 of your opponent\'s cross gears and put it in its owner\'s graveyard." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="51" />
 		</card>

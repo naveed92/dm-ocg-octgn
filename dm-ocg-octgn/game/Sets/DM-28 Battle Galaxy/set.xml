@@ -870,16 +870,6 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="75" />
 		</card>
-		<card name="La Ura Giga, Sky Guardian" id="758f56cb-acd0-4ec8-a899-ee8799396b77">
-			<property name="Civilization" value="Light" />
-			<property name="Cost" value="1" />
-			<property name="Type" value="Creature" />
-			<property name="Race" value="Guardian" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;This creature can't attack players." />
-			<property name="Power" value="2000" />
-			<property name="Rarity" value="C" />
-			<property name="Number" value="76" />
-		</card>
 		<card name="Magic Shot - Chain Spark" id="0961815a-ba0d-48b6-8a94-90f275d88f57">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />

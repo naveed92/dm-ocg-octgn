@@ -558,16 +558,6 @@ into your hand. Then, shuffle your deck." />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="39" />
 		</card>
-		<card name="Evolution Blueprint" id="3504c4c8-6aed-4023-892f-bcb6b01f3e36">
-			<property name="Civilization" value="Nature" />
-			<property name="Cost" value="2" />
-			<property name="Type" value="Spell" />
-			<property name="Race" value="" />
-			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Reveal the top 6 cards of your deck. Put all evolution creatures from the revealed cards into your hand, and put the rest on the bottom of your deck in any order." />
-			<property name="Power" value="0" />
-			<property name="Rarity" value="R" />
-			<property name="Number" value="40" />
-		</card>
 		<card name="Solomonias, the Wise" id="09447ef8-a47d-4efc-a6ef-75ecf151cdf2">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />

@@ -236,7 +236,7 @@
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Cross Gear&#xd;&#xa;This card may be crossed to a creature with &quot;Lupia&quot; in its name without cost.&#xd;&#xa;When the crossed creature attacks, search your deck. You may choose an Armored Dragon from it, show it your opponent, and put it into your hand. Then, shuffle your deck." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="17" />
 		</card>
@@ -266,7 +266,7 @@
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Cross Gear&#xd;&#xa;This card may be crossed to an evolution creature or a linked god without cost.&#xd;&#xa;When the crossed creature would be destroyed, you may put this card into your mana zone instead. Then, you may return 1 creature from your mana zone to your hand." />
-			<property name="Power" value="0" />
+			<property name="Power" value="" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="20" />
 		</card>

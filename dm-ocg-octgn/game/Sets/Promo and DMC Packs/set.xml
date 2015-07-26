@@ -3507,5 +3507,16 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 			<property name="Number" value="1" />
 		</card>
 
+		<card name="Fernando the 7th, Emperor of Mystic Light" id="3002970e-b70a-432a-9c50-503f4120b18b">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="11" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Demon Command/Knight" />
+			<property name="Rules" value="You may have this creature cost 1 less for each spell in your graveyard. It can't cost less than 1.&#xd;&#xa;When this creature attacks, choose one of your opponent's creatures. For each spell in your graveyard, the chosen creature gets -1000 power until the end of the turn. (A creature with 0 or less power is destroyed.)&#xd;&#xa;Double Breaker" />
+			<property name="Power" value="11000" />
+			<property name="Rarity" value="V" />
+			<property name="Number" value="5" />
+		</card>
+
 	</cards>
 </set>

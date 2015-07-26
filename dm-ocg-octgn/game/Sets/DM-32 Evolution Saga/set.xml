@@ -277,7 +277,7 @@ lowest power you may choose any of them. That creature doesn't untap the start o
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;Reveal the top 4 cards of your deck. You may choose 1 spell with &quot;Shield Trigger&quot; from among these cards. Put the rest of the cards on the bottom of your deck in any order. 
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Reveal the top 4 cards of your deck. You may choose 1 spell with &quot;Shield Trigger&quot; from among these cards. Put the rest of the cards on the bottom of your deck in any order. 
 
 Then, cast the chosen spell without cost." />
 			<property name="Power" value="0" />
@@ -486,7 +486,7 @@ isn't a creature return this creature to your hand.&#xd;&#xa;When this creature 
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Humanoid/Origin" />
+			<property name="Race" value="Human/Origin" />
 			<property name="Rules" value="When you put this creature into the battle zone, your opponent chooses 1 of their shields. This creature breaks that shield.&#xd;&#xa;When this creature leaves the battle zone, your opponent may put 1 card in their hand into their shields face down." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="R" />
@@ -563,7 +563,7 @@ into your hand. Then, shuffle your deck." />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;Reveal the top 6 cards of your deck. Put all evolution creatures from the revealed cards into your hand, and put the rest on the bottom of your deck in any order." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Reveal the top 6 cards of your deck. Put all evolution creatures from the revealed cards into your hand, and put the rest on the bottom of your deck in any order." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="40" />
@@ -753,7 +753,7 @@ put it into your hand. Then, shuffle your deck." />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;Choose 1 of your opponent's creatures. That creature gets -2000 power until the end of the turn." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose 1 of your opponent's creatures. That creature gets -2000 power until the end of the turn." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="58" />
@@ -784,7 +784,7 @@ into the battle zone without cost. (If that card doesn't have the same cost put 
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Evolution Creature" />
-			<property name="Race" value="Humanoid/Origin" />
+			<property name="Race" value="Human/Origin" />
 			<property name="Rules" value="Deck Evolution: Reveal the top card of your deck. If that card is a creature, put this creature into the battle zone on top of the revealed creature. If the revealed card 
 
 isn't a creature return this creature to your hand.&#xd;&#xa;This creature can attack untapped creatures until the end of the turn this creature is put into the battle zone." />
@@ -840,7 +840,7 @@ isn't a creature return this creature to your hand.&#xd;&#xa;This creature can a
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Humanoid" />
+			<property name="Race" value="Human" />
 			<property name="Rules" value="You may have your fire evolution creatures cost 1 less. However, they can't cost less than 1." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="U" />
@@ -851,7 +851,7 @@ isn't a creature return this creature to your hand.&#xd;&#xa;This creature can a
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;Choose the creature with the largest power in the battle zone. Then, choose the creature with the largest power among the other creatures in the battle zone. If two or more 
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose the creature with the largest power in the battle zone. Then, choose the creature with the largest power among the other creatures in the battle zone. If two or more 
 
 creatures are tied for largest power, choose 1 of them. The chosen creatures battle." />
 			<property name="Power" value="0" />
@@ -1069,7 +1069,7 @@ you may choose a creature in the battle zone and return it to its owner's hand."
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tyranno Drake" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;[Blocker]  Blocker&#xd;&#xa;This creature can't attack." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;[Blocker]  Blocker&#xd;&#xa;This creature can't attack." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="90" />

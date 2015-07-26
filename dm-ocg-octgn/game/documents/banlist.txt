@@ -1,5 +1,5 @@
-Phoenix Saga Banlist
-(As of January 15, 2007. Valid for Set 23 JP format)
+Divine Evolution Saga Banlist
+(As of May 15, 2010. Valid for Set 35 JP format)
 
 Source:
 http://duelmasters.wikia.com/wiki/User:BlitzerRyuusei/Hall_of_Fame_timeline
@@ -15,7 +15,24 @@ Deep Operation
 Streaming Shaper
 Aquan
 Skeleton Vice
-Judgement of the Flame's Spear and the Water's Blade
+Cloned Nightmare
+Nariel, the Oracle
+Aqua Hulcus
+Miraculous Snare
+Infinity Dragon
+Pacific Champion
+Uberdragon Bajula
+Bajula's Soul
+Crest of Mother
+Miraculous Plague
+Mist Rias, Thunder Guardian
+Inferno Sign
+Perfect Galaxy, Spirit of Immortality
+Amaterasu, Founder of the Blue Wolves
+Emperor Chirico
+Paradise Aroma
+Romanesk, the Dragon Wizard
+Spiral Gate
 
 Banned:
 Bombazar, Dragon of Destiny
@@ -23,3 +40,11 @@ Bolmeteus Sapphire Dragon
 Future Slash
 Hell Slash
 Slash Charger
+Soulswap
+Dark Hydra, Evil Planet Lord
+Judgement of the Flame's Spear and the Water's Blade
+Aqua Patrol
+Cursed Totem
+Inferno Gate
+Soul Advantage
+King Alcadeias, Holy Gaia

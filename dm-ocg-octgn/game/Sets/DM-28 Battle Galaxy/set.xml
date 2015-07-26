@@ -325,7 +325,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;For each creature in your battle zone with a &quot;Shield Force&quot; ability, draw a card." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;For each creature in your battle zone with a &quot;Shield Force&quot; ability, draw a card." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="21" />
@@ -394,7 +394,7 @@
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Armored Dragon/Humanoid/Samurai" />
+			<property name="Race" value="Armored Dragon/Human/Samurai" />
 			<property name="Rules" value="Samurai Generation (When you put this creature into the battle zone, you may generate a cross gear from your hand without paying its cost.)&#xd;&#xa;When you put this creature into the battle zone, you may cross 1 of your Samurai cross gear with this creature without cost.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="R" />
@@ -565,7 +565,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Tap 1 creature in your battle zone. Then, tap any number of your opponent's creatures with a total power equal to or less than the creature you tapped." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Tap 1 creature in your battle zone. Then, tap any number of your opponent's creatures with a total power equal to or less than the creature you tapped." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="45" />
@@ -595,7 +595,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cyber Virus" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;When you put this creature into the battle zone, if you have 2 or fewer shields, choose 1 creature in the battle zone and return it to your opponent's hand.&#xd;&#xa;When you have 2 or fewer shields, this creature gets +4000 power and can't be blocked." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, if you have 2 or fewer shields, choose 1 creature in the battle zone and return it to your opponent's hand.&#xd;&#xa;When you have 2 or fewer shields, this creature gets +4000 power and can't be blocked." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="48" />
@@ -714,7 +714,7 @@
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Humanoid" />
+			<property name="Race" value="Human" />
 			<property name="Rules" value="When this creature battles, play rock-paper-scissors with your opponent. If you win, this creature gets +5000 power until the end of that turn.&#xd;&#xa;If your opponent reveals &quot;rock&quot; when you play rock-paper-scissors, your opponent chooses 1 card in their mana zone and puts it in their graveyard." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="U" />
@@ -734,7 +734,7 @@
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Humanoid/Samurai" />
+			<property name="Race" value="Human/Samurai" />
 			<property name="Rules" value="When you put this creature into the battle zone, reveal the top 3 cards of your deck. Put all cross gears revealed in this way into your hand, and put the rest on the bottom of your deck in any order." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="U" />
@@ -805,7 +805,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;All of your creatures get +4000 power until the end of the turn." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;All of your creatures get +4000 power until the end of the turn." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="69" />
@@ -825,7 +825,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Light Bringer" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;If you have 2 shields or less when you put this creature into the battle zone, add the top card of your deck to your shields face down." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;If you have 2 shields or less when you put this creature into the battle zone, add the top card of your deck to your shields face down." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="71" />
@@ -895,7 +895,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;[Blocker] Blocker&#xd;&#xa;This creature can't attack." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;[Blocker] Blocker&#xd;&#xa;This creature can't attack." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="78" />
@@ -965,7 +965,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="Knight" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;[Knight Magic] : Draw 2 cards.&#xd;&#xa;Knight Magic (If there is a Knight in your battle zone, you may use this spell's [Knight Magic]  ability once more.) " />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;[Knight Magic] : Draw 2 cards.&#xd;&#xa;Knight Magic (If there is a Knight in your battle zone, you may use this spell's [Knight Magic]  ability once more.) " />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="85" />
@@ -995,7 +995,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dark Monster" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;When you put this creature into the battle zone, until the end of the turn all of your opponent's creatures get -1000 power." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, until the end of the turn all of your opponent's creatures get -1000 power." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="88" />
@@ -1005,7 +1005,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dark Lord/Knight" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;When you put this creature into the battle zone, return 1 Samurai or cross gear in the battle zone to the bottom of its owner's deck." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, return 1 Samurai or cross gear in the battle zone to the bottom of its owner's deck." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="89" />
@@ -1094,7 +1094,7 @@
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Humanoid" />
+			<property name="Race" value="Human" />
 			<property name="Rules" value="Power Attacker +3000" />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />
@@ -1125,7 +1125,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Destroy 1 of your opponent's creatures with 2000 power or less OR choose 1 of your opponent's cross gears and put it in its owner's graveyard." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy 1 of your opponent's creatures with 2000 power or less OR choose 1 of your opponent's cross gears and put it in its owner's graveyard." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="101" />
@@ -1185,7 +1185,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Wild Veggies" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;When you put this creature into the battle zone, you may return 1 card from your mana zone to your hand. " />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, you may return 1 card from your mana zone to your hand. " />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="107" />

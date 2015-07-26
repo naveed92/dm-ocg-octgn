@@ -3153,5 +3153,359 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 			<property name="Number" value="S7" />
 		</card>
 
+		<card name="Valiant Spark" id="320d326c-2ed9-4c4e-ac39-00a771e6e868">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose 1 of your opponent's creatures in the battle zone and tap it.&#xd;&#xa;[Metamorph] : Instead of tapping 1 of your opponent's creatures, tap all of your opponent's creatures." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="R" />
+			<property name="Number" value="7" />
+		</card>
+
+		<card name="Valkerios Dragon" id="f4f7f83e-daf8-4327-b963-6a4f13fd4d6c">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="G Zero: If there are 2 or more Armored Dragons in the battle zone, you may summon this monster without paying its mana cost.&#xd;&#xa;Double Breaker" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="V" />
+			<property name="Number" value="4" />
+		</card>
+
+		<card name="Malibu Dancer" id="c16f975c-3b25-4296-8890-edca5339a0ec">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Splash Queen" />
+			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;When this creature blocks, you may draw a card.&#xd;&#xa;This creature can't attack." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="U" />
+			<property name="Number" value="25" />
+		</card>
+
+		<card name="Invisible Suit" id="13ea4cea-09d1-47eb-9859-4693e40ebdce">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Cross Gear" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Cross Gear: Put this card in the battle zone when cast. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.&#xd;&#xa;The crossed creature gets +1000 power and can't be blocked." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="C" />
+			<property name="Number" value="86" />
+		</card>
+
+		<card name="Inferno Gate" id="654e926a-03c3-4130-911c-bf1a4a6461ac">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Put a non-Evolution Creature from your Graveyard into the Battle Zone." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="R" />
+			<property name="Number" value="27" />
+		</card>
+
+		<card name="Grudge Gathering" id="43580750-9ef0-40e8-b2a5-eb9aed5f60eb">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy an opponent's creature with cost equal to or less than the number of cards in your Graveyard." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="U" />
+			<property name="Number" value="29" />
+		</card>
+
+		<card name="Osmosis Bullet Soul, Skull Hunter" id="54b94d00-c8db-471a-a9b3-bf2edf12a0eb">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Great Mecha King" />
+			<property name="Rules" value="This creature cannot be attacked.&#xd;&#xa;This creature cannot be blocked.&#xd;&#xa;This creature cannot attack creatures." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="R" />
+			<property name="Number" value="10" />
+		</card>
+
+		<card name="Headlong Giant" id="c9be6090-077b-4f34-95cc-d33b2266e45c">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="9" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Giant" />
+			<property name="Rules" value="This creature can't attack if you have no cards in your hand. &#xd;&#xa;Whenever this creature attacks, discard a card from your hand. &#xd;&#xa;This creature can't be blocked by any creature that has power 4000 or less. &#xd;&#xa;Triple breaker (This creature breaks 3 shields.)" />
+			<property name="Power" value="14000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S5" />
+		</card>
+
+		<card name="Uberdragon Bajula" id="22e9d177-69b3-4239-8b2b-ec97f74d5577">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="Evolution-Put on one of your creatures that has Dragon in its race.  &#xd;&#xa;Whenever this creature attacks, choose up to 2 cards in your opponent's mana zone. Your opponent puts those cards into his graveyard. &#xd;&#xa;Triple breaker (This creature breaks 3 shields.)" />
+			<property name="Power" value="13000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S4" />
+		</card>
+
+		<card name="Magmadragon Jagalzor" id="bf000f38-660c-4ce0-aa24-2ecbb1e4dee2">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Volcano Dragon" />
+			<property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xd;&#xa;Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its {TURBO RUSH} ability until the end of the turn.) &#xd;&#xa;{TURBO RUSH} Each of your creatures in the battle zone has &quot;speed attacker.&quot; (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="4" />
+		</card>
+
+		<card name="Emergency Typhoon" id="ccf7ccd6-48e1-46f6-9800-367bf36ec29b">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xd;&#xa;Draw up to 2 cards. Then discard a card from your hand." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="16" />
+		</card>
+
+		<card name="Transmogrify" id="543e9cb0-a340-4c4e-bff1-049ed0036b09">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xd;&#xa;You may destroy a creature. If you do, its owner reveals cards from the top of his deck until he reveals a non-evolution creature. He puts that creature into the battle zone and puts the rest of those cards into his graveyard." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="43" />
+		</card>
+
+		<card name="Necrodragon Jagraveen" id="5468c3cc-b2ef-4d54-aec8-a4b5bde0b904">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Zombie Dragon" />
+			<property name="Rules" value="{BLOCKER} (When opponent's creature attack, you may tap this card and block that attack, afterward, both creature battle).&#xd;&#xa;When this creature blocks, destroy it after battles.&#xd;&#xa;Double breaker (When this creature breaks shield, it break 2 shields)." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="V" />
+			<property name="Number" value="3" />
+		</card>
+
+		<card name="Syrius, Firmament Elemental" id="322ecf37-071a-4ddd-bf50-b27e7fcb5913">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="11" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Angel Command" />
+			<property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xd;&#xa;Triple breaker (This creature breaks 3 shields.)" />
+			<property name="Power" value="12000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="S1" />
+		</card>
+
+		<card name="Space Crawler" id="a11bd791-18b3-4927-a45c-3c52e3a568a0">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Earth Eater" />
+			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;This creature can't attack.&#xd;&#xa;When this creature is put into the battle zone, for each civilization your have in your mana zone you may look at 1 card from the top of your deck. Add 1 of these to your hand and put the rest on the bottom of your deck in any order." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="U" />
+			<property name="Number" value="24" />
+		</card>
+
+		<card name="Terradragon Balgazarmas" id="a21b30a4-7ee9-4db3-b048-21986d402e94">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Earth Dragon" />
+			<property name="Rules" value="When one of your Dragon attacks, you may reveal the top card of your deck. If that card is a Dragon add it to your hand. If it isn't a Dragon, put it into your mana zone." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="R" />
+			<property name="Number" value="11" />
+		</card>
+
+		<card name="Lyla Litta" id="32ccb5de-a2f3-4556-b810-1da74dac97de">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Fire Bird" />
+			<property name="Rules" value="When this creature is attacked, return 1 of your shields to your hand. You can't use the shield trigger ability of that shield." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="C" />
+			<property name="Number" value="99" />
+		</card>
+
+		<card name="Loquat Retainers, the Wandering Travelers" id="239319d8-b68f-4536-9dda-8d9913ec4574">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Wild Veggies/Samurai" />
+			<property name="Rules" value="Accelerator (While this creature is crossed with a cross gear, this creature gains the following [Accelerator]  ability.)&#xd;&#xa;[Accelerator] : When this creature attacks, search your deck. You may choose a Samurai from it, show it to your opponent, and put it into your hand. Then, shuffle your deck." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="C" />
+			<property name="Number" value="105" />
+		</card>
+
+		<card name="Necrodragon Guljeneraid" id="a5276c8a-3ebf-4a12-861b-836b993d3f89">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Zombie Dragon" />
+			<property name="Rules" value="When one of your Dragons is destroyed other than &quot;Necrodragon Guljeneraid&quot;, if this creature is in your graveyard, you may return this creature to the battle zone.&#xd;&#xa;[Double Breaker]" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="S" />
+			<property name="Number" value="S3" />
+		</card>
+
+		<card name="Pop Rubin" id="23eb0249-9fd8-420c-bb6e-cfca3f416b6d">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Fire Bird" />
+			<property name="Rules" value="Instead of having this creature attack, you may tap it to use its [Tap] ability.&#xd;&#xa;[Tap]: Untap a Dragon you control in the Battle Zone." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="C" />
+			<property name="Number" value="50" />
+		</card>
+
+		<card name="Seventh, Light Divine Dragon" id="0a454bf9-e2fe-47ee-a894-9c7a14361541">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Apollonia Dragon" />
+			<property name="Rules" value="All Dragons you control in the Battle Zone gain &quot;Blocker&quot;." />
+			<property name="Power" value="5500" />
+			<property name="Rarity" value="U" />
+			<property name="Number" value="22" />
+		</card>
+
+		<card name="Peace Lupia" id="2150f333-93e4-4713-b651-4ba02988b047">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Fire Bird" />
+			<property name="Rules" value="[Blocker]  Blocker&#xd;&#xa;This creature can't attack players.&#xd;&#xa;When this creature is destroyed, choose 1 of your opponent's creatures and tap it." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="U" />
+			<property name="Number" value="23" />
+		</card>
+
+		<card name="Wiz, White Knight Enlightener" id="1250f9a8-93ef-4b3d-b10e-afc521f70cb4">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Mecha Thunder" />
+			<property name="Rules" value="[Blocker]  Blocker&#xd;&#xa;Evolution: Put on 1 of your creatures with &quot;Blocker&quot;&#xd;&#xa;Double Breaker&#xd;&#xa;Any effect that would prevent your creatures with &quot;Blocker&quot; from attacking is negated. (This includes summoning sickness, this creature can't attack, and this creature can't attack players.)&#xd;&#xa;At the end of your turn, untap all of your creatures in the battle zone that have &quot;White Knight&quot; in their name." />
+			<property name="Power" value="10500" />
+			<property name="Rarity" value="R" />
+			<property name="Number" value="6" />
+		</card>
+
+		<card name="Inaba Geeze, the Explosive" id="a032649a-4891-4d0d-8085-4e588471a94a">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Dragonoid/Origin/Knight" />
+			<property name="Rules" value="All of your other Knights in the battle zone get &quot;Speed Attacker&quot;." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="C" />
+			<property name="Number" value="48" />
+		</card>
+
+		<card name="Greatest Caesar, the Dark Kaiser" id="2d10fe86-5563-41c9-821e-004b20260f4f">
+			<property name="Civilization" value="Darkness/Fire" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Armored Dragon/Zombie Dragon/Knight" />
+			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;Vortex Evolution: Put on 2 of any combination of Dragon and/or Knight.&#xd;&#xa;When this creature attacks, you may cast any number of fire or darkness spells from your graveyard with a total cost of 7 or less. Then, put those spells on the bottom of your deck in any order.&#xd;&#xa;Triple Breaker" />
+			<property name="Power" value="13000" />
+			<property name="Rarity" value="S" />
+			<property name="Number" value="S5" />
+		</card>
+
+		<card name="God Saga" id="209aee21-11b8-4aa1-8ee2-7a2cafeae9a9">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="13" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Put up to two Gods into the battle zone from the mana zone." />
+			<property name="Power" value="0" />
+			<property name="Rarity" value="V" />
+			<property name="Number" value="10" />
+		</card>
+
+		<card name="Spear Lupia" id="af541901-7cd1-487a-9864-8d861e550355">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Fire Bird" />
+			<property name="Rules" value="This creature can attack untapped creatures.&#xd;&#xa;When this creature is destroyed, choose and activate one of the following effects:
+-Search your deck. Choose a Dragon from it, show it to your opponent and put it into your hand.  Then shuffle your deck.
+-During this turn, 1 of your creatures in the battle zone gets +2000 power and can attack untapped creatures." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="U" />
+			<property name="Number" value="62" />
+		</card>
+
+		<card name="Mach Lupia" id="22dd23c0-c4d1-4450-86d0-f0be6407fcbe">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Fire Bird" />
+			<property name="Rules" value="You may reduce the summoning cost of creatures with &quot;NEX&quot; in their name by 1. They can't cost less than 1.&#xd;&#xa;All of your Armored Dragons gain &quot;Speed Attacker&quot;.&#xd;&#xa;At the end of your turn, return all non-evolution Armored Dragons you put in the battle zone this turn to your hand." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="C" />
+			<property name="Number" value="49" />
+		</card>
+
+		<card name="Gulan Berze, Poseidon Destroying Dragon" id="aa3dd7e8-dea9-407b-98b3-0df6cd18a97a">
+			<property name="Civilization" value="Water/Darkness" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Poseidia Dragon/Zombie Dragon" />
+			<property name="Rules" value="This card is put into the Mana Zone tapped.&#xd;&#xa;When this creature attacks an  opponent and is not blocked, choose a civilization. Your opponent discards all cards from his/her hand with that civilization. Afterward, for each card your opponent discards, look at one of your Shields.&#xd;&#xa;Double Breaker (This creature breaks 2 shields.)" />
+			<property name="Power" value="9000" />
+			<property name="Rarity" value="R" />
+			<property name="Number" value="35" />
+		</card>
+
+		<card name="Elementius Thunderbolt Dragon" id="a1b9397d-c1b3-4bd4-87ab-efe5c8306f6c">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="When you have no shields, this creature gains &quot;Speed Attacker&quot;.&#xd;&#xa;When your last shield is broken, before you break that shield destroy one of your opponent's creatures with 4000 power or less.&#xd;&#xa;When your last shield is put into your graveyard, before you put that shield into your graveyard destroy one of your opponent's creatures of 4000 power or less.&#xd;&#xa;Double Breaker" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="V" />
+			<property name="Number" value="1" />
+		</card>
+
+		<card name="Uberdragon Sunburst NEX" id="b52abc73-b7d2-450a-9c3c-d9ca9b7c899a">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="Evolution - Put on one of your Armored Dragons.&#xd;&#xa;Whenever this creature wins a battle, you may untap it.&#xd;&#xa;While battling a creature that has power 12000 or more, this creature gets +11000 power.&#xd;&#xa;Double breaker." />
+			<property name="Power" value="11000" />
+			<property name="Rarity" value="None" />
+			<property name="Number" value="1" />
+		</card>
+
+		<card name="Stardust NEX, Spiritual Dragon Knight" id="24df6981-22d6-4802-9f43-d83656324cac">
+			<property name="Civilization" value="Fire/Light" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon/Angel Command" />
+			<property name="Rules" value="(This creature is put into your mana zone tapped.)&#xd;&#xa;Double breaker.&#xd;&#xa;When you put this creature or a creature that has Lupia in its name into the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it." />
+			<property name="Power" value="7000" />
+			<property name="Rarity" value="None" />
+			<property name="Number" value="1" />
+		</card>
+
 	</cards>
 </set>

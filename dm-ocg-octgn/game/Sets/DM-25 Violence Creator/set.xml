@@ -135,7 +135,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Tap all your opponent's creatures in the battle zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Tap all your opponent's creatures in the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="7" />
@@ -155,7 +155,7 @@
 			<property name="Cost" value="1" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Search your deck. Choose 1 God from it and show your opponent. Then, shuffle your deck and put the chosen card on top." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Search your deck. Choose 1 God from it and show your opponent. Then, shuffle your deck and put the chosen card on top." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="9" />
@@ -395,7 +395,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;This card is put into the mana zone tapped.&#xd;&#xa;Your opponent chooses a civilization. Then, reveal the top 6 cards of your deck. Add any cards of the chosen civilization to your hand and put the rest on the bottom of your deck in any order." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;This card is put into the mana zone tapped.&#xd;&#xa;Your opponent chooses a civilization. Then, reveal the top 6 cards of your deck. Add any cards of the chosen civilization to your hand and put the rest on the bottom of your deck in any order." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="34" />
@@ -435,7 +435,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Tap one of your opponent's creatures in the battle zone, then untap one of your multi-colored cards in either your battle zone or mana zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Tap one of your opponent's creatures in the battle zone, then untap one of your multi-colored cards in either your battle zone or mana zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="38" />
@@ -545,7 +545,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Human" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;When this creature is put into the battle zone, you may untap one of your multi-colored cards in either the battle zone or the mana zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When this creature is put into the battle zone, you may untap one of your multi-colored cards in either the battle zone or the mana zone." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="49" />
@@ -575,7 +575,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Vehicle Bee" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger" />
+			<property name="Rules" value="{SHIELD TRIGGER}" />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="52" />

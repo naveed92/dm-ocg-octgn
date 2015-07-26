@@ -255,7 +255,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Choose a civilization.  Until the end of opponent's next turn, he/she cannot cast Spells of that civilization." />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Choose a civilization.  Until the end of opponent's next turn, he/she cannot cast Spells of that civilization." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="14" />
@@ -525,7 +525,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Angel Command" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;All multi-colored creatures you control in the Battle Zone gain &quot;Blocker&quot;." />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;All multi-colored creatures you control in the Battle Zone gain &quot;Blocker&quot;." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="41" />
@@ -585,7 +585,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Splash Queen" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;All Light creatures and Darkness creatures you control in tje Battle Zone are also Water creatures.&#xd;&#xa;All other Water creatures you control in the Battle Zone gain Power +1000." />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;All Light creatures and Darkness creatures you control in tje Battle Zone are also Water creatures.&#xd;&#xa;All other Water creatures you control in the Battle Zone gain Power +1000." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="47" />
@@ -805,7 +805,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Lost Crusader" />
-			<property name="Rules" value="This card is put into the Mana Zone tapped.&#xd;&#xa;[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Lost Prism (When this creature is put into the Battle Zone, reveal the top card from  your deck. If it is a multi-colored card, add it do your hand.)" />
+			<property name="Rules" value="This card is put into the Mana Zone tapped.&#xd;&#xa;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Lost Prism (When this creature is put into the Battle Zone, reveal the top card from  your deck. If it is a multi-colored card, add it do your hand.)" />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="69" />
@@ -935,7 +935,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Splash Queen" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;When this creature is put into the Battle Zone, look at the top 3 cards of your deck.  Return them to top of your deck in any order." />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;When this creature is put into the Battle Zone, look at the top 3 cards of your deck.  Return them to top of your deck in any order." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="82" />
@@ -975,7 +975,7 @@
 			<property name="Cost" value="1" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Search your deck for a  multi-colored card and reveal it to your opponent.  Shuffle your deck and put that card one the top of your deck." />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Search your deck for a  multi-colored card and reveal it to your opponent.  Shuffle your deck and put that card one the top of your deck." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="86" />
@@ -1074,7 +1074,7 @@
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Humanoid" />
+			<property name="Race" value="Human" />
 			<property name="Rules" value="Power Attacker +3000" />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
@@ -1095,7 +1095,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Xeno Parts" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;When this creature is put into the Battle Zone, destroy an opponent's creature with Power 1000 or less." />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;When this creature is put into the Battle Zone, destroy an opponent's creature with Power 1000 or less." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="98" />
@@ -1125,7 +1125,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Destroy an opponent's mono-colored creature with Power 5000 or less." />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Destroy an opponent's mono-colored creature with Power 5000 or less." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="101" />
@@ -1195,7 +1195,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Search your deck for a Light, Water, Darkness, or Fire creature with cost 2 or less and put it into the Battle Zone.  Shuffle your deck." />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Search your deck for a Light, Water, Darkness, or Fire creature with cost 2 or less and put it into the Battle Zone.  Shuffle your deck." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="108" />
@@ -1215,7 +1215,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Destroy a creature you control.  Put cards from the top of your deck into your Mana Zone equal to number of civilizations of the destroyed creature." />
+			<property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;Destroy a creature you control.  Put cards from the top of your deck into your Mana Zone equal to number of civilizations of the destroyed creature." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="110" />

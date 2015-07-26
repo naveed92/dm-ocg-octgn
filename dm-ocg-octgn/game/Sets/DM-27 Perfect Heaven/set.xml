@@ -325,7 +325,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Your opponent chooses 1 card from their hand and discards it. If the discarded card shares a civilization with a card in your mana zone, your opponent chooses 1 card from his mana zone and puts it in their graveyard." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Your opponent chooses 1 card from their hand and discards it. If the discarded card shares a civilization with a card in your mana zone, your opponent chooses 1 card from his mana zone and puts it in their graveyard." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="26" />
@@ -345,7 +345,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Destroy one of your opponent's creatures with 5000 power or less. If you have at least one Bolmeteus Samurai Dragon in your battle zone, destroy 1 more of your opponent's creatures with 5000 power or less." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy one of your opponent's creatures with 5000 power or less. If you have at least one Bolmeteus Samurai Dragon in your battle zone, destroy 1 more of your opponent's creatures with 5000 power or less." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="28" />
@@ -355,7 +355,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dreammate" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;When this creature is put into the battle zone, search your deck. You may choose a creature from it with a cost less than or equal to the number of civilizations in your mana zone, show it to your opponent, and add it to your hand. Then, shuffle your deck." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When this creature is put into the battle zone, search your deck. You may choose a creature from it with a cost less than or equal to the number of civilizations in your mana zone, show it to your opponent, and add it to your hand. Then, shuffle your deck." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="29" />
@@ -465,7 +465,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Splash Queen/Cyber Lord" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;When this creature is put into the battle zone, you may draw 1 card." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When this creature is put into the battle zone, you may draw 1 card." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="40" />
@@ -554,7 +554,7 @@
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Humanoid" />
+			<property name="Race" value="Human" />
 			<property name="Rules" value="Power Attacker +2000&#xd;&#xa;This creature must attack each turn, if possible." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />

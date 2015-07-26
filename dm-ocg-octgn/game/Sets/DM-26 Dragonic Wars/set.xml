@@ -185,7 +185,7 @@ god's characteristics (power and abilities) and becomes one creature. When the l
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;[Shield trigger] Shield Trigger&#xd;&#xa;Destroy 1 of your opponent's creatures. Then, choose 1 creature in your opponent's graveyard. Your opponent puts that creature into the battle zone." />
+			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;Destroy 1 of your opponent's creatures. Then, choose 1 creature in your opponent's graveyard. Your opponent puts that creature into the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="11" />
@@ -195,7 +195,7 @@ god's characteristics (power and abilities) and becomes one creature. When the l
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;[Shield trigger] Shield Trigger&#xd;&#xa;At the end of this turn, draw 1 card for each tapped creature in the battle zone." />
+			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;At the end of this turn, draw 1 card for each tapped creature in the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="12" />
@@ -249,7 +249,7 @@ god's characteristics (power and abilities) and becomes one creature. When the l
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Arc Seraphim/Pandora Box" />
-			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;[Shield trigger] Shield Trigger&#xd;&#xa;When this creature is put into the battle zone, discard your hand. If you didn't discard at least 1 card in this way destroy this creature.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;When this creature is put into the battle zone, discard your hand. If you didn't discard at least 1 card in this way destroy this creature.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="8000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="17" />
@@ -258,7 +258,7 @@ god's characteristics (power and abilities) and becomes one creature. When the l
 			<property name="Civilization" value="Light/Fire/Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Great Mecha King/Humanoid/Mystery Totem" />
+			<property name="Race" value="Great Mecha King/Human/Mystery Totem" />
 			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;At the start of your turn you may tap 3 cards in your mana zone. If all the cards tapped are light cards, untap this creature at the end of your turn. If all the cards tapped are fire cards, this creature can attack untapped creatures this turn. If all the cards tapped are nature cards, this creature gets +4000 power this turn." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="R" />
@@ -465,7 +465,7 @@ deck." />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Guardian/Cyber Virus" />
-			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;[Shield trigger] Shield Trigger&#xd;&#xa;[Blocker] Blocker&#xd;&#xa;This creature can't attack players.&#xd;&#xa;When this creature is destroyed, you may return it to your hand instead." />
+			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;[Blocker] Blocker&#xd;&#xa;This creature can't attack players.&#xd;&#xa;When this creature is destroyed, you may return it to your hand instead." />
 			<property name="Power" value="2500" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="37" />
@@ -516,7 +516,7 @@ If you don't add the shield to your hand, draw a card." />
 			<property name="Civilization" value="Light/Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Initiate/Humanoid" />
+			<property name="Race" value="Initiate/Human" />
 			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;When this creature is put into the battle zone, add the top card for your deck to your shields face down. Then, choose on of your opponent's creatures with &quot;Blocker' and destroy it." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
@@ -546,7 +546,7 @@ If you don't add the shield to your hand, draw a card." />
 			<property name="Civilization" value="Water/Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
-			<property name="Race" value="Liquid People/Humanoid" />
+			<property name="Race" value="Liquid People/Human" />
 			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;When this creature is put into the battle zone, look at 1 of your opponent's shields. Then, choose 1 of your opponent's creatures with &quot;Blocker&quot; and destroy it." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
@@ -589,7 +589,7 @@ to your hand. Then, shuffle your deck." />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;[Shield trigger] Shield Trigger&#xd;&#xa;Reveal the top 4 cards of your deck. Your opponent chooses a non-evolution creature from these and puts it in your battle zone. Put the remaining cards on the bottom of your 
+			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;Reveal the top 4 cards of your deck. Your opponent chooses a non-evolution creature from these and puts it in your battle zone. Put the remaining cards on the bottom of your 
 
 deck in any order." />
 			<property name="Power" value="0" />
@@ -601,7 +601,7 @@ deck in any order." />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;[Shield trigger] Shield Trigger&#xd;&#xa;Destroy 1 of your creatures with 5000 power or less. If you do, destroy 1 of your opponent's creatures with 5000 power or less." />
+			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;Destroy 1 of your creatures with 5000 power or less. If you do, destroy 1 of your opponent's creatures with 5000 power or less." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="50" />

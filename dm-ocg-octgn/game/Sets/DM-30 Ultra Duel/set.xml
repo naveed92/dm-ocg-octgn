@@ -53,9 +53,9 @@
 		<card name="Balzark, Sword Flash Fortress" id="61db1ba8-0d54-4e41-9cb0-60fd6a41bd1c">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
-			<property name="Type" value="Fortress" />
+			<property name="Type" value="Castle" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortifythat shield.  When the fortified shield leaves the shield zone, put this card into the graveyard.  (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;All of your creatures break twice as many shields.&#xd;&#xa;If the fortified shield isn't fortified by any other fortresses,whenever the fortified shield would be broken by your opponent's creatures, you may return 1 of your other shields to your hand instead." />
+			<property name="Rules" value="Castle: Choose one of your shields and attach this card to fortifythat shield.  When the fortified shield leaves the shield zone, put this card into the graveyard.  (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;All of your creatures break twice as many shields.&#xd;&#xa;If the fortified shield isn't fortified by any other castles,whenever the fortified shield would be broken by your opponent's creatures, you may return 1 of your other shields to your hand instead." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />
@@ -73,9 +73,9 @@
 		<card name="Silver Glory, Invincible Fortress" id="c0dc6243-934b-4812-a16e-062fa4a1d432">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
-			<property name="Type" value="Fortress" />
+			<property name="Type" value="Castle" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortifythat shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;Your creatures win all battles.&#xd;&#xa;If the fortified shield isn't fortified by any other fortresses, whenever the fortified shield would be broken by your opponent's creatures, you may return 1 of your other shields to your hand instead." />
+			<property name="Rules" value="Castle: Choose one of your shields and attach this card to fortifythat shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;Your creatures win all battles.&#xd;&#xa;If the fortified shield isn't fortified by any other Castles, whenever the fortified shield would be broken by your opponent's creatures, you may return 1 of your other shields to your hand instead." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="1" />
@@ -104,7 +104,7 @@
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
-			<property name="Race" value="Armored Dragon/Humanoid/Samurai" />
+			<property name="Race" value="Armored Dragon/Human/Samurai" />
 			<property name="Rules" value="Vortex Evolution - Put on 2 of your Samurai creatures.&#xd;&#xa;When you put this creature into the battle zone, you may put up to 2 non-evolution Samurai creatures into the battle zone from your hand.  Those creatures get &quot;Speed Attacker&quot;.  At the end of the turn, destroy those creatures.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="11000" />
 			<property name="Rarity" value="V" />
@@ -195,7 +195,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;Destroy 1 of your opponent's creatures that has the same name as a card in their graveyard." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy 1 of your opponent's creatures that has the same name as a card in their graveyard." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="13" />
@@ -245,7 +245,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Snow Faerie/Emerald Monster" />
-			<property name="Rules" value="When you put this creature into the battle zone, your opponent chooses 1 non-fortress card in your shield zone. Look at that card and if it is a non-evolution creature you may put it into the battle zone.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="When you put this creature into the battle zone, your opponent chooses 1 non-Castle card in your shield zone. Look at that card and if it is a non-evolution creature you may put it into the battle zone.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="18" />
@@ -263,9 +263,9 @@
 		<card name="Hustle Castle" id="c0855591-72f3-440c-b450-7516654a54ce">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
-			<property name="Type" value="Fortress" />
+			<property name="Type" value="Castle" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;Whenever you put a creature into the battle zone, you may draw a card.&#xd;&#xa;If the fortified shield isn't fortified by any other fortresses, whenever the fortified shield would be broken by your  opponent's creatures, you may return 1 of your other shields to your hand instead." />
+			<property name="Rules" value="Castle: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;Whenever you put a creature into the battle zone, you may draw a card.&#xd;&#xa;If the fortified shield isn't fortified by any other castles, whenever the fortified shield would be broken by your  opponent's creatures, you may return 1 of your other shields to your hand instead." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="20" />
@@ -293,9 +293,9 @@
 		<card name="Saint Castle" id="f58e3e65-9845-4e18-94eb-d986465b6de5">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
-			<property name="Type" value="Fortress" />
+			<property name="Type" value="Castle" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortifythat shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;All of your creatures get +1000 power and&quot;Blocker&quot;." />
+			<property name="Rules" value="Castle: Choose one of your shields and attach this card to fortifythat shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;All of your creatures get +1000 power and&quot;Blocker&quot;." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="23" />
@@ -315,7 +315,7 @@
 			<property name="Cost" value="1" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;Return 1 of your creatures with &quot;Shield Force&quot; in the battle zone to your hand.  Then, you may put that creature into the battle zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Return 1 of your creatures with &quot;Shield Force&quot; in the battle zone to your hand.  Then, you may put that creature into the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="25" />
@@ -323,9 +323,9 @@
 		<card name="Submarine Fortress Lair" id="805efad8-dbc2-425a-96a1-11fa5be76719">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="1" />
-			<property name="Type" value="Fortress" />
+			<property name="Type" value="Castle" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortifythat shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;Your opponent may draw a card at the start of your turn.  Then, you may draw a card.  Also, if you have a Cyber Lord in your battle zone you may draw a card, then put a card from your hand on the bottom of your deck." />
+			<property name="Rules" value="Castle: Choose one of your shields and attach this card to fortifythat shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;Your opponent may draw a card at the start of your turn.  Then, you may draw a card.  Also, if you have a Cyber Lord in your battle zone you may draw a card, then put a card from your hand on the bottom of your deck." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="26" />
@@ -353,9 +353,9 @@
 		<card name="Rose Castle" id="1f2d0943-4cc8-493f-95b4-effc7f5cb801">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
-			<property name="Type" value="Fortress" />
+			<property name="Type" value="Castle" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;All of your opponent's creatures get -1000 power." />
+			<property name="Rules" value="Castle: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;All of your opponent's creatures get -1000 power." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="29" />
@@ -364,7 +364,7 @@
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Evolution Creature" />
-			<property name="Race" value="Humanoid/Samurai" />
+			<property name="Race" value="Human/Samurai" />
 			<property name="Rules" value="Evolution: Put on one of your Samurai creatures.&#xd;&#xa;While this creature is tapped, all of your crossed creatures break an additional shield." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="U" />
@@ -383,9 +383,9 @@
 		<card name="Super Shachihoko Castle" id="6db9e164-8b86-4466-9c54-88535b7f8c96">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
-			<property name="Type" value="Fortress" />
+			<property name="Type" value="Castle" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;Whenever one of your opponent's creatures attacks, destroy all creatures with 2000 power or less." />
+			<property name="Rules" value="Castle: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;Whenever one of your opponent's creatures attacks, destroy all creatures with 2000 power or less." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="32" />
@@ -413,9 +413,9 @@
 		<card name="Dalmandy, Snow Fortress" id="20f153f7-7ad5-45f9-9928-8bd657df3178">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
-			<property name="Type" value="Fortress" />
+			<property name="Type" value="Castle" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;All of your creatures get +3000 power." />
+			<property name="Rules" value="Castle: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;All of your creatures get +3000 power." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="35" />
@@ -455,7 +455,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;Tap all creatures in the battle zone with a cost of 3 or less." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Tap all creatures in the battle zone with a cost of 3 or less." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="39" />

@@ -165,7 +165,7 @@ face down from the top of your deck equal to that card's cost. (Each bundle is s
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;Tap all of your opponent's creatures in the battle zone.&#xd;&#xa;At the end of this turn, untap all of your creatures with &quot;White Knight&quot; in their names." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Tap all of your opponent's creatures in the battle zone.&#xd;&#xa;At the end of this turn, untap all of your creatures with &quot;White Knight&quot; in their names." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="8" />
@@ -335,9 +335,9 @@ card is a spell, you may show it to your opponent and put it into your hand." />
 		<card name="Pillar of Feather, White Knight Fortress" id="76fb3216-4986-4589-a65a-5dbc4824c1d7">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
-			<property name="Type" value="Fortress" />
+			<property name="Type" value="Castle" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Fortress&#xd;&#xa;You may have all of your creatures with &quot;White Knight&quot; in their names cost 1 less to summon. They can't cost less than 1.&#xd;&#xa;All of your creatures with &quot;White Knight&quot; in their names get +3000 power and gain &quot;Blocker&quot;." />
+			<property name="Rules" value="Castle&#xd;&#xa;You may have all of your creatures with &quot;White Knight&quot; in their names cost 1 less to summon. They can't cost less than 1.&#xd;&#xa;All of your creatures with &quot;White Knight&quot; in their names get +3000 power and gain &quot;Blocker&quot;." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="23" />
@@ -399,9 +399,9 @@ under the chosen Evolution Creature.  Shuffle your deck." />
 		<card name="XENOM, the Reaper Fortress" id="34b5526b-e4eb-47fb-9b52-b0c7b8f6b30c">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
-			<property name="Type" value="Fortress" />
+			<property name="Type" value="Castle" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Fortress&#xd;&#xa;When this fortress is put into the shield zone to fortify a shield, discard 1 card from your opponent's hand at random.&#xd;&#xa;You may have all of your creatures with &quot;Reaper&quot; in their names cost 1 less to summon. They can't cost less than 1.&#xd;&#xa;All of your creatures with &quot;Reaper&quot; in their names get +2000 power." />
+			<property name="Rules" value="Castle&#xd;&#xa;When this castle is put into the shield zone to fortify a shield, discard 1 card from your opponent's hand at random.&#xd;&#xa;You may have all of your creatures with &quot;Reaper&quot; in their names cost 1 less to summon. They can't cost less than 1.&#xd;&#xa;All of your creatures with &quot;Reaper&quot; in their names get +2000 power." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="29" />
@@ -411,7 +411,7 @@ under the chosen Evolution Creature.  Shuffle your deck." />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Armored Dragon" />
-			<property name="Rules" value="Super Infinite Evolution: Put on 1 or more of your creatures.&#xd;&#xa;Meteor Burn: When this creature attacks, you may put 1 card under this creature into your graveyard.If you do, choose 1 of the following abilities and activate it:&#xd;&#xa;-Your opponent chooses 1 card in their mana zone and puts it in their graveyard.&#xd;&#xa;-Choose 1 of your opponent's cross gears and put it into its owner's graveyard.&#xd;&#xa;-Choose 1 fortress that is fortifying your opponent's shields and put it into its owner's graveyard.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Super Infinite Evolution: Put on 1 or more of your creatures.&#xd;&#xa;Meteor Burn: When this creature attacks, you may put 1 card under this creature into your graveyard.If you do, choose 1 of the following abilities and activate it:&#xd;&#xa;-Your opponent chooses 1 card in their mana zone and puts it in their graveyard.&#xd;&#xa;-Choose 1 of your opponent's cross gears and put it into its owner's graveyard.&#xd;&#xa;-Choose 1 castle that is fortifying your opponent's shields and put it into its owner's graveyard.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="8000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="30" />
@@ -469,7 +469,7 @@ generates 2 mana instead of 1.)&#xd;&#xa;Double Breaker" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Mystery Totem/Origin" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;When you put this creature into the battle zone, you may destroy this creature. If you do, you may put 1 of your opponent's untapped creatures with 3000 power or less into its 
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, you may destroy this creature. If you do, you may put 1 of your opponent's untapped creatures with 3000 power or less into its 
 
 owner's mana zone." />
 			<property name="Power" value="2000" />
@@ -481,7 +481,7 @@ owner's mana zone." />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Berserker" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;When you put this creature into the battle zone, you may destroy it. If you do, tap up to 2 of your opponent's creatures in the battle zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, you may destroy it. If you do, tap up to 2 of your opponent's creatures in the battle zone." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="36" />
@@ -513,7 +513,7 @@ owner's mana zone." />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;Put 1 creature with &quot;Blocker&quot; that costs 3 or less into the battle zone from your graveyard." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Put 1 creature with &quot;Blocker&quot; that costs 3 or less into the battle zone from your graveyard." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="39" />
@@ -523,7 +523,7 @@ owner's mana zone." />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Liquid People/Origin" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;When you put this creature into the battle zone, you may destroy this creature. If you do, choose 1 creature in the battle zone and return it to its owner's hand." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, you may destroy this creature. If you do, choose 1 creature in the battle zone and return it to its owner's hand." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="40" />
@@ -639,7 +639,7 @@ generates 2 mana instead of 1.)&#xd;&#xa;When you put this creature into the bat
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;Destroy 1 of your opponent\'s creatures with 2000 power or less OR choose 1 of your opponent\'s cross gears and put it in its owner\'s graveyard." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy 1 of your opponent\'s creatures with 2000 power or less OR choose 1 of your opponent\'s cross gears and put it in its owner\'s graveyard." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="51" />

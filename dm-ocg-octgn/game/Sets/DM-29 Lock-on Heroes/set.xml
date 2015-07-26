@@ -135,7 +135,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Arc Seraphim/Knight" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;When you put this creature into the battle zone, you may return 1 spell from your graveyard to your hand." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, you may return 1 spell from your graveyard to your hand." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="7" />
@@ -145,7 +145,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Until the end of your next turn, all of the shields you add to your hand gain &quot;Shield Trigger&quot;." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Until the end of your next turn, all of the shields you add to your hand gain &quot;Shield Trigger&quot;." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="8" />
@@ -275,7 +275,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;[Blocker] Blocker&#xd;&#xa;When you put this creature into the battle zone, you may choose 1 of your opponent's cross gears and put it in its owner's graveyard.&#xd;&#xa;This creature can't attack players." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;[Blocker] Blocker&#xd;&#xa;When you put this creature into the battle zone, you may choose 1 of your opponent's cross gears and put it in its owner's graveyard.&#xd;&#xa;This creature can't attack players." />
 			<property name="Power" value="1500" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="21" />
@@ -405,7 +405,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Cross Gear" />
 			<property name="Race" value="Samurai" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger X (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature without paying its cost.)&#xd;&#xa;Cross Gear&#xd;&#xa;When you put this cross gear into the battle zone, you may cross it to one of your creatures without paying its cost.&#xd;&#xa;Shield Plus: When the crossed creature attacks, you may put the top card of your deck face down under 1 of your shields. (Each card stack is considered to be 1 shield.)" />
+			<property name="Rules" value="{SHIELD TRIGGER} X (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature without paying its cost.)&#xd;&#xa;Cross Gear&#xd;&#xa;When you put this cross gear into the battle zone, you may cross it to one of your creatures without paying its cost.&#xd;&#xa;Shield Plus: When the crossed creature attacks, you may put the top card of your deck face down under 1 of your shields. (Each card stack is considered to be 1 shield.)" />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="34" />
@@ -495,7 +495,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Your opponent chooses 1 of their untapped creatures and returns it to their hand." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Your opponent chooses 1 of their untapped creatures and returns it to their hand." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="43" />
@@ -585,7 +585,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Emerald Monster" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger" />
+			<property name="Rules" value="{SHIELD TRIGGER}" />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="52" />

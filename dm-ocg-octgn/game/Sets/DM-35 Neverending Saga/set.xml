@@ -155,7 +155,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cyber Virus/Grand Devil/Origin" />
-			<property name="Rules" value="[Blocker]  Blocker&#xd;&#xa;When this creature battles, you may put the top 2 cards of your deck into your shields face down. If you do, shuffle all of your other cards in your shield zone (except for fortresses) and put them on the bottom of your deck. (You may not look at the shuffled shield cards.)" />
+			<property name="Rules" value="[Blocker]  Blocker&#xd;&#xa;When this creature battles, you may put the top 2 cards of your deck into your shields face down. If you do, shuffle all of your other cards in your shield zone (except for Castles) and put them on the bottom of your deck. (You may not look at the shuffled shield cards.)" />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="9" />
@@ -295,7 +295,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;You may put a creature with &quot;White Knight&quot; in its name into the battle zone from your hand." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;You may put a creature with &quot;White Knight&quot; in its name into the battle zone from your hand." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="23" />
@@ -345,7 +345,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;Choose 1 of your opponent's creatures. This turn, that creature gets -4000 power. (A creature with 0 or less power is destroyed.)" />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose 1 of your opponent's creatures. This turn, that creature gets -4000 power. (A creature with 0 or less power is destroyed.)" />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="28" />
@@ -353,9 +353,9 @@
 		<card name="Original Heart, Ancient Blackmoon Fortress" id="f7119ef0-9298-452f-be3d-eb9649be2436">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
-			<property name="Type" value="Fortress" />
+			<property name="Type" value="Castle" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;Whenever your creatures attack, reveal the top card of your deck. If that card isn't a God, put it on the bottom of your deck. If that card is a God, you may put it into the battle zone. (If you don't wish to put it in the battle zone, return it to the top of your deck face down.)&#xd;&#xa;If the fortified shield isn't fortified by any other fortresses, whenever the fortified shield would be broken by your opponent's creatures, you may return 1 of your other shields to your hand instead." />
+			<property name="Rules" value="Castle: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;Whenever your creatures attack, reveal the top card of your deck. If that card isn't a God, put it on the bottom of your deck. If that card is a God, you may put it into the battle zone. (If you don't wish to put it in the battle zone, return it to the top of your deck face down.)&#xd;&#xa;If the fortified shield isn't fortified by any other castles, whenever the fortified shield would be broken by your opponent's creatures, you may return 1 of your other shields to your hand instead." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="29" />
@@ -385,7 +385,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;Destroy all of your opponent's creatures with 2000 power or less." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy all of your opponent's creatures with 2000 power or less." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="32" />
@@ -405,7 +405,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Mystery Totem/Origin" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;This creature is put into the battle zone tapped.&#xd;&#xa;When you put this creature into the battle zone, until the start of your next turn your opponent's creatures must attack this creature if possible." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;This creature is put into the battle zone tapped.&#xd;&#xa;When you put this creature into the battle zone, until the start of your next turn your opponent's creatures must attack this creature if possible." />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="34" />
@@ -445,7 +445,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;[Blocker]  Blocker&#xd;&#xa;This creature can't attack players." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;[Blocker]  Blocker&#xd;&#xa;This creature can't attack players." />
 			<property name="Power" value="1500" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="38" />
@@ -455,7 +455,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;Tap 1 of your opponent's creatures in the battle zone. If you have an evolution creature or linked God in your battle zone, you may tap another creature in your opponent's battle zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Tap 1 of your opponent's creatures in the battle zone. If you have an evolution creature or linked God in your battle zone, you may tap another creature in your opponent's battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="39" />

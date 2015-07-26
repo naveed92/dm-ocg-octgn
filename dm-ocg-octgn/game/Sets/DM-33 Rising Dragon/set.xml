@@ -135,7 +135,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Arc Seraphim/Origin" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;When you put this creature into the battle zone, for each creature in your battle zone you may choose 1 of your opponent's creatures and tap it." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, for each creature in your battle zone you may choose 1 of your opponent's creatures and tap it." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="7" />
@@ -175,7 +175,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;You may add a card from your hand to your shields face down. If you do, choose 1 of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield.&#xd;&#xa;Look at your opponent's hand and choose 1 card from it. You may add that card to your opponent's shields face down. If you do, choose 1 of your opponent's shields and put it into their hand. They can't use the &quot;shield trigger&quot; ability of that shield." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;You may add a card from your hand to your shields face down. If you do, choose 1 of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield.&#xd;&#xa;Look at your opponent's hand and choose 1 card from it. You may add that card to your opponent's shields face down. If you do, choose 1 of your opponent's shields and put it into their hand. They can't use the &quot;shield trigger&quot; ability of that shield." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="11" />
@@ -565,20 +565,10 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Fire Bird" />
-			<property name="Rules" value="[Shield trigger]  Shield Trigger&#xd;&#xa;When you put this creature into the battle zone, destroy 1 of your opponent's creatures with 1000 power or less." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, destroy 1 of your opponent's creatures with 1000 power or less." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="50" />
-		</card>
-		<card name="Immortal Baron, Vorg" id="928094e7-ce85-4e49-9232-a9232d63be29">
-			<property name="Civilization" value="Fire" />
-			<property name="Cost" value="2" />
-			<property name="Type" value="Creature" />
-			<property name="Race" value="Humanoid" />
-			<property name="Rules" value="" />
-			<property name="Power" value="2000" />
-			<property name="Rarity" value="C" />
-			<property name="Number" value="51" />
 		</card>
 		<card name="The Strong Crush" id="e3afd0eb-7920-4e15-a357-a8b1214ce256">
 			<property name="Civilization" value="Fire" />

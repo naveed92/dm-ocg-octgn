@@ -130,7 +130,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="6" />
 		</card>
-		<card name="Proxion, the Prophet" id="12a1d066-1f0c-4088-aa9d-00d2b7460675">
+		<card name="Proxion, the Oracle" id="12a1d066-1f0c-4088-aa9d-00d2b7460675">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -310,7 +310,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="24" />
 		</card>
-		<card name="Luna Revolver Wheel" id="8944244d-aeb2-488f-98cd-627df3efd074">
+		<card name="Revolver Wheel Lunatron" id="8944244d-aeb2-488f-98cd-627df3efd074">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -420,7 +420,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="35" />
 		</card>
-		<card name="Nicolaus, the Purger" id="4b4cb4b7-e524-4d43-a7c7-0865bbbda02a">
+		<card name="Nicolaus, the Spydroid" id="4b4cb4b7-e524-4d43-a7c7-0865bbbda02a">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -590,7 +590,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="52" />
 		</card>
-		<card name="Gardner, the Invoked" id="bc515e2c-7d8a-440f-89c4-a47d73783854">
+		<card name="Gardener, the Invoked" id="bc515e2c-7d8a-440f-89c4-a47d73783854">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />

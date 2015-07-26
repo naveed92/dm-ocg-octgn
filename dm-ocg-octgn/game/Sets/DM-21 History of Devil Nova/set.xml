@@ -300,7 +300,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="23" />
 		</card>
-		<card name="Armor Supporter, Gatlinger" id="f57ceb03-5942-4796-81cf-4b08836ca250">
+		<card name="Armored Supporter, Gatlinger" id="f57ceb03-5942-4796-81cf-4b08836ca250">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -340,7 +340,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="27" />
 		</card>
-		<card name="Fuuma Zaeros" id="c0e07597-d02e-410e-9164-7669c3e8bd75">
+		<card name="Fuuma Zareos" id="c0e07597-d02e-410e-9164-7669c3e8bd75">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -410,7 +410,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="34" />
 		</card>
-		<card name="Call of the Soul" id="605d1df4-4011-44a2-b120-fb7f2ef17792">
+		<card name="Soul Calling" id="605d1df4-4011-44a2-b120-fb7f2ef17792">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
@@ -550,7 +550,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="48" />
 		</card>
-		<card name="Sergeant Kuwagadan" id="554cada8-6b6c-4c41-b69c-04bf77ca5209">
+		<card name="Sergeant Stag Beetler" id="554cada8-6b6c-4c41-b69c-04bf77ca5209">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />

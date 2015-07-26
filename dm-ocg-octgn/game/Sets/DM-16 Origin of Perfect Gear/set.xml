@@ -30,7 +30,7 @@
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S1" />
 		</card>
-		<card name="Luna Cosmoview" id="eedf1953-bf6e-48f2-bf9d-0275bd2208fe">
+		<card name="Cosmoview Lunatron" id="eedf1953-bf6e-48f2-bf9d-0275bd2208fe">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="9" />
 			<property name="Type" value="Creature" />
@@ -50,7 +50,7 @@
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S3" />
 		</card>
-		<card name="Super Dragon Valkyrias" id="ca73d533-e6b1-42e4-a1d4-23f9f3428d74">
+		<card name="Uberdragon Valkyrias" id="ca73d533-e6b1-42e4-a1d4-23f9f3428d74">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="9" />
 			<property name="Type" value="Evolution Creature" />
@@ -90,7 +90,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="2" />
 		</card>
-		<card name="Jet Black War Demon, Dulanzames" id="2811fe78-f4ab-4226-891a-f294f6fdca0e">
+		<card name="Dulanzames, Jet-Black War Demon" id="2811fe78-f4ab-4226-891a-f294f6fdca0e">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="12" />
 			<property name="Type" value="Creature" />
@@ -350,7 +350,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="28" />
 		</card>
-		<card name="Gigasander" id="93a04906-7947-46f9-beff-e1bcfabf601a">
+		<card name="Gigazanda" id="93a04906-7947-46f9-beff-e1bcfabf601a">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -420,7 +420,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="35" />
 		</card>
-		<card name="Zemechis, the Missionary" id="ceed7c7a-9b7e-4c62-9164-3cd5f4b26f4d">
+		<card name="Zemechis, the Explorer" id="ceed7c7a-9b7e-4c62-9164-3cd5f4b26f4d">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -440,7 +440,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="37" />
 		</card>
-		<card name="Cubic, the Prophet" id="a7a11524-360e-4613-bb88-5b6c49345b8f">
+		<card name="Cubic, the Oracle" id="a7a11524-360e-4613-bb88-5b6c49345b8f">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -470,7 +470,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="40" />
 		</card>
-		<card name="Luna Eclipse" id="dfb0e979-dc67-4842-bc90-08352a2e219a">
+		<card name="Eclipse Lunatron" id="dfb0e979-dc67-4842-bc90-08352a2e219a">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -530,7 +530,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="46" />
 		</card>
-		<card name="Bind Shadow" id="df4a5fe8-27ac-49e2-a422-6ac835c93986">
+		<card name="Bind Shadow, Shadow of Bondage" id="df4a5fe8-27ac-49e2-a422-6ac835c93986">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="1" />
 			<property name="Type" value="Creature" />
@@ -560,7 +560,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="49" />
 		</card>
-		<card name="Fighter of Whirlwind Vinja" id="d3d63fec-46b7-4229-9810-2a4d9e8a4bf1">
+		<card name="Vinja, Fighter of the Whirlwind" id="d3d63fec-46b7-4229-9810-2a4d9e8a4bf1">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />

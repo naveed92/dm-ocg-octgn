@@ -30,7 +30,7 @@
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S1" />
 		</card>
-		<card name="Amshion, Spirit of Protection Law" id="7a3f0e7b-426b-43e3-a41f-346a01052715">
+		<card name="Amshion, Spirit of Protection" id="7a3f0e7b-426b-43e3-a41f-346a01052715">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -90,7 +90,7 @@
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S7" />
 		</card>
-		<card name="Omega Crisis Dragon" id="f90c7060-868f-4d44-b03f-c65485976ee8">
+		<card name="Omega Crisis Dragoon" id="f90c7060-868f-4d44-b03f-c65485976ee8">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -230,7 +230,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="11" />
 		</card>
-		<card name="Steel-Armor Benkeros" id="7c556c1f-777c-4528-906c-77bb49c35adb">
+		<card name="Steel-Armor Benkeroth" id="f01097e5-f299-4b21-99d2-f1bd4f0f4ac6">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -321,7 +321,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="20" />
 		</card>
-		<card name="Torpedo Robo Missile Ocean " id="7a69723c-8830-4e52-8a21-811dc44e2ae1">
+		<card name="Torpedo Robo Missile Ocean" id="7a69723c-8830-4e52-8a21-811dc44e2ae1">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -401,7 +401,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="28" />
 		</card>
-		<card name="Superhuman Mech Armor Valget III" id="7fec9911-461e-46b6-845d-8eaafc762fb6">
+		<card name="Superhuman Mech Armor Valgett III" id="7fec9911-461e-46b6-845d-8eaafc762fb6">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -683,7 +683,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="56" />
 		</card>
-		<card name="Snipe Alferas" id="a03319eb-e05f-45d9-ae27-9690c7cdd548">
+		<card name="Snipe Alpheras" id="a03319eb-e05f-45d9-ae27-9690c7cdd548">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -813,7 +813,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="69" />
 		</card>
-		<card name="Boltas, Forest of Knowledge " id="431ed408-5058-4820-afcc-592a37c67e7f">
+		<card name="Boltas, Forest of Knowledge" id="431ed408-5058-4820-afcc-592a37c67e7f">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -903,7 +903,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="78" />
 		</card>
-		<card name="Malcoshas, Sealed Devil" id="ff971124-4216-44e9-9531-31af788e3bfc">
+		<card name="Fuuma Malcoshas" id="ff971124-4216-44e9-9531-31af788e3bfc">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -913,7 +913,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="79" />
 		</card>
-		<card name="Zeres, Sealed Devil" id="2431ab24-dffb-419e-ad67-d3c97a466e5d">
+		<card name="Fuuma Zeres" id="2431ab24-dffb-419e-ad67-d3c97a466e5d">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -943,7 +943,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="82" />
 		</card>
-		<card name="Bursting Arm Robo, Return Ace" id="15577641-40b5-493c-a095-f8c96235c18c">
+		<card name="Bursting Arm Robo, Return Ace" id="ccd16dcc-641e-43b2-b956-2d8cf2c284ce">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -1093,7 +1093,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="97" />
 		</card>
-		<card name="Shot Wheel of Meizarzen" id="b47ecdcf-4c26-45a1-9d00-da26712dafec">
+		<card name="Shot Wheel of Meizrazen" id="b47ecdcf-4c26-45a1-9d00-da26712dafec">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1103,7 +1103,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="98" />
 		</card>
-		<card name="Bagarn, Passionate Soldier" id="8e72d959-a1e0-45c5-bb6f-b46db0ede468">
+		<card name="Bagarn, Hot-Blooded Soldier" id="8e72d959-a1e0-45c5-bb6f-b46db0ede468">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />

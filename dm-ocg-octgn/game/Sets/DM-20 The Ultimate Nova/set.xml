@@ -89,7 +89,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="2" />
 		</card>
-		<card name="Rabioru, Forgetting Doll" id="e82e5102-658d-4392-9600-7b8919b9a36b">
+		<card name="Rabiol, Forgetting Doll" id="e82e5102-658d-4392-9600-7b8919b9a36b">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -119,7 +119,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="5" />
 		</card>
-		<card name="Invicible Mecha Gomach V" id="ca582078-465a-46ec-bf5d-e6466f30e310">
+		<card name="Invincible Mecha Gomach V" id="ca582078-465a-46ec-bf5d-e6466f30e310">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Evolution Creature" />

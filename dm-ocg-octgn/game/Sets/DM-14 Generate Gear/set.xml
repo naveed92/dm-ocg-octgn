@@ -20,7 +20,7 @@
 		</pack>
 	</packaging>
 	<cards>
-		<card name="Marshias, Spirit of the Sun" id="92f4049f-4002-48f4-9b91-163547e49466">
+		<card name="Marushias, Spirit of the Sun" id="92f4049f-4002-48f4-9b91-163547e49466">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -170,7 +170,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="5" />
 		</card>
-		<card name="Necrodragon Zanbajir" id="beff2fcb-da8f-4e13-8ce3-311529bc6160">
+		<card name="Necrodragon Zanjibar" id="beff2fcb-da8f-4e13-8ce3-311529bc6160">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -220,7 +220,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="10" />
 		</card>
-		<card name="Dominica, Light Weapon" id="35b8d1cd-870d-47f2-98b8-bab0f50a608f">
+		<card name="Dominica, Channeler of Suns" id="35b8d1cd-870d-47f2-98b8-bab0f50a608f">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -230,7 +230,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="11" />
 		</card>
-		<card name="Moritz, the Purger" id="c1d07815-96ce-4e72-a62a-1346e2198f1d">
+		<card name="Moritz, the Spydroid" id="c1d07815-96ce-4e72-a62a-1346e2198f1d">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -290,7 +290,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="17" />
 		</card>
-		<card name="Savage Cluster" id="f56bdabd-afec-486f-b323-a1a17ea9aa8e">
+		<card name="Salvage Cluster" id="f56bdabd-afec-486f-b323-a1a17ea9aa8e">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -300,7 +300,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="18" />
 		</card>
-		<card name="Luna Trident Tower" id="7f123f85-3b09-417d-9d85-efb2f8a98ca8">
+		<card name="Trident Tower Lunatron" id="7f123f85-3b09-417d-9d85-efb2f8a98ca8">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -360,7 +360,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="24" />
 		</card>
-		<card name="Wrangle, the Heretical Treasure" id="6c6d8c93-4f96-4a13-9d3c-2dc1f94b099a">
+		<card name="Wrangle, the Hidden Heretic" id="6c6d8c93-4f96-4a13-9d3c-2dc1f94b099a">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -370,7 +370,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="25" />
 		</card>
-		<card name="Gamaa, the Assassination Puppet" id="579b65a1-baaa-46cc-8a21-461ffb6935c8">
+		<card name="Gummer, Assassination Doll" id="579b65a1-baaa-46cc-8a21-461ffb6935c8">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -380,7 +380,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="26" />
 		</card>
-		<card name="Time Tripper, the Congesting Shadow" id="f0bb0b2d-e393-4cb7-8c6d-34476811f530">
+		<card name="Time Tripper, Shadow of Stagnation" id="f0bb0b2d-e393-4cb7-8c6d-34476811f530">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -470,7 +470,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="35" />
 		</card>
-		<card name="Broken Horn, the Barracading" id="53548601-dc6b-4a6d-b168-42bea80b43ef">
+		<card name="Broken Horn, the Barricading" id="53548601-dc6b-4a6d-b168-42bea80b43ef">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -500,7 +500,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="38" />
 		</card>
-		<card name="Mirumeru, the Love Fairy" id="7c9d7ff8-ebae-4830-b11e-401a28b00305">
+		<card name="Mirumeru, Love Fairy" id="7c9d7ff8-ebae-4830-b11e-401a28b00305">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="1" />
 			<property name="Type" value="Creature" />
@@ -520,7 +520,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="40" />
 		</card>
-		<card name="Irvine, the Purger" id="02ecd739-eed8-4b33-81df-02c3940f5ca3">
+		<card name="Irvine, the Spydroid" id="02ecd739-eed8-4b33-81df-02c3940f5ca3">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -530,7 +530,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="41" />
 		</card>
-		<card name="Parshia, the Missionary" id="02dfd350-01e4-4ad9-a07b-45f01f6c4b76">
+		<card name="Parshia, the Explorer" id="02dfd350-01e4-4ad9-a07b-45f01f6c4b76">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -550,7 +550,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="43" />
 		</card>
-		<card name="Milky Way, the Paladin" id="c177dfb8-1e09-496f-b134-e3b9790ab317">
+		<card name="Milkyway, Spectral Knight" id="c177dfb8-1e09-496f-b134-e3b9790ab317">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -580,7 +580,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="46" />
 		</card>
-		<card name="Luna Starbase" id="f61d2a1e-482d-4781-810f-4ae9f5344f94">
+		<card name="Starbase Lunatron" id="f61d2a1e-482d-4781-810f-4ae9f5344f94">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -620,7 +620,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="50" />
 		</card>
-		<card name="Dive Juggler" id="8bba8e5c-e0d3-4ffa-881f-c616ea1c9830">
+		<card name="Deep Juggler" id="8bba8e5c-e0d3-4ffa-881f-c616ea1c9830">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -820,7 +820,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="70" />
 		</card>
-		<card name="Glacier, Light Weapon" id="8d93920b-709b-4d0a-a7d2-0f9ce320cf4e">
+		<card name="Glasya, Channeler of Suns" id="8d93920b-709b-4d0a-a7d2-0f9ce320cf4e">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -830,7 +830,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="71" />
 		</card>
-		<card name="Rentia, the Missionary" id="da05af71-af72-4adb-840a-3c4c1f1b95a3">
+		<card name="Rentia, the Explorer" id="da05af71-af72-4adb-840a-3c4c1f1b95a3">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -840,7 +840,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="72" />
 		</card>
-		<card name="Rias, the Apostle of Recovery" id="4e449bf2-32a0-4936-879f-ee9af680d7b5">
+		<card name="Rias, Vizier of Recovery" id="4e449bf2-32a0-4936-879f-ee9af680d7b5">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -850,7 +850,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="73" />
 		</card>
-		<card name="Malta, the Prophet" id="ecb9e205-19fb-4810-8a67-e6df2e74655b">
+		<card name="Malta, the Oracle" id="ecb9e205-19fb-4810-8a67-e6df2e74655b">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -860,7 +860,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="74" />
 		</card>
-		<card name="Bix, Guardian of the Sacred Mountain" id="ff954b44-0c33-4434-95bc-c99d66d8bbb4">
+		<card name="Bix, Sacred Mountain Guardian" id="ff954b44-0c33-4434-95bc-c99d66d8bbb4">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -870,7 +870,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="75" />
 		</card>
-		<card name="Cubela, the Prophet" id="563273d5-a14e-4b0f-b98c-ebd72ab4eb14">
+		<card name="Cubela, the Oracle" id="563273d5-a14e-4b0f-b98c-ebd72ab4eb14">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="1" />
 			<property name="Type" value="Creature" />
@@ -900,7 +900,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="78" />
 		</card>
-		<card name="Luna Photon" id="5e1a836d-05e7-448d-9150-0249bbac4107">
+		<card name="Photon Lunatron" id="5e1a836d-05e7-448d-9150-0249bbac4107">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -950,7 +950,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="83" />
 		</card>
-		<card name="Wave Rifle" id="64ff3510-fcf2-43b9-9c9d-ab8709273b99">
+		<card name="Warp Rifle" id="64ff3510-fcf2-43b9-9c9d-ab8709273b99">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Spell" />
@@ -980,7 +980,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="86" />
 		</card>
-		<card name="Delorin, the Surprise Treasure" id="f05b9cea-cb23-4543-97da-e1379b02536e">
+		<card name="Delorin, the Hidden Surprise" id="f05b9cea-cb23-4543-97da-e1379b02536e">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -1030,7 +1030,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="91" />
 		</card>
-		<card name="Parole, the Life Saving Puppet" id="55f0635d-6e82-4f86-8024-22ea8d50d1ad">
+		<card name="Balor, Lifesaving Doll" id="55f0635d-6e82-4f86-8024-22ea8d50d1ad">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -1070,7 +1070,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="95" />
 		</card>
-		<card name="Guncloak's Magnifying Glass" id="bba21ffa-54d2-40a0-83df-ce6f3e9be3db">
+		<card name="Gankloak's Magnifying Glass" id="bba21ffa-54d2-40a0-83df-ce6f3e9be3db">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -1090,7 +1090,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="97" />
 		</card>
-		<card name="Assault Soldier Rugeeza" id="e3874448-02d2-4284-acf6-a3634ff885ad">
+		<card name="Rugeeza, Assault Soldier" id="e3874448-02d2-4284-acf6-a3634ff885ad">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1100,7 +1100,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="98" />
 		</card>
-		<card name="Pyuzero, Prince of the South Wind" id="928fb3a2-ca9f-448a-9163-0db2bac6f671">
+		<card name="Pyuzero, Prince of the Sirocco" id="928fb3a2-ca9f-448a-9163-0db2bac6f671">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -1200,7 +1200,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="108" />
 		</card>
-		<card name="Seven's Tower" id="f1def5f9-df2b-4c1b-aaf2-b172797d6f31">
+		<card name="Seventh Tower" id="f1def5f9-df2b-4c1b-aaf2-b172797d6f31">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />

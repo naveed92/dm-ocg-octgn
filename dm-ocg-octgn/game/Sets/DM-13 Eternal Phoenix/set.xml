@@ -20,7 +20,7 @@
 		</pack>
 	</packaging>
 	<cards>
-		<card name="Eternal Phoenix, Phoenix of the Dragon Flame" id="7dd88262-93d1-483f-8495-101100ab8042">
+		<card name="Eternal Phoenix, Phoenix of the Dragonflame" id="7dd88262-93d1-483f-8495-101100ab8042">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -60,7 +60,7 @@
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />
 		</card>
-		<card name="Matchless Lord of Fear, Galumta" id="35409895-cf04-4a84-9eaf-5e54532cb15a">
+		<card name="Galamuta, Matchless Fear Lord" id="35409895-cf04-4a84-9eaf-5e54532cb15a">
 			<property name="Civilization" value="Darkness/Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -100,7 +100,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="3" />
 		</card>
-		<card name="Gaulzaganta, Spirit of the Forested Summit" id="bb5fb1d5-e252-4edc-891b-7e41e1a2c75f">
+		<card name="Gaulzaganta, Spirit of the Woodland Ridges" id="bb5fb1d5-e252-4edc-891b-7e41e1a2c75f">
 			<property name="Civilization" value="Water/Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -110,7 +110,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="4" />
 		</card>
-		<card name="Unleashed Getchell" id="7fa444fc-de17-457d-b274-90b771271de0">
+		<card name="Getchell, the Emitter" id="7fa444fc-de17-457d-b274-90b771271de0">
 			<property name="Civilization" value="Darkness/Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -120,7 +120,7 @@
 			<property name="Rarity" value="V" />
 			<property name="Number" value="5" />
 		</card>
-		<card name="Doroshia, the Missionary" id="3c65b4a6-4126-47db-9695-812e63be86fc">
+		<card name="Dorothea, the Explorer" id="3c65b4a6-4126-47db-9695-812e63be86fc">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -160,7 +160,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="9" />
 		</card>
-		<card name="Emperor of Death, Belzeber" id="f49ca7ca-94d8-41ad-a2a6-4ec17e2cb19c">
+		<card name="Belzeber, Emperor of Death" id="f49ca7ca-94d8-41ad-a2a6-4ec17e2cb19c">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -170,7 +170,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="10" />
 		</card>
-		<card name="Toronbo, the Bone Fracturing Puppet" id="b2ae51b5-7212-4561-b1d2-d3c0a76310da">
+		<card name="Trombo, Fractured Doll" id="b2ae51b5-7212-4561-b1d2-d3c0a76310da">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -190,7 +190,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="12" />
 		</card>
-		<card name="Mettza Iron" id="a91f496d-f6f2-4a67-adff-f236ac021a73">
+		<card name="Mettza's Iron" id="a91f496d-f6f2-4a67-adff-f236ac021a73">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -210,7 +210,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="14" />
 		</card>
-		<card name="Courtney, Fairy of the Summer Breeze" id="21380ea3-1a7a-4b53-8243-9afd584dc8b5">
+		<card name="Courtney, Summer Breeze Faerie" id="21380ea3-1a7a-4b53-8243-9afd584dc8b5">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -240,7 +240,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="17" />
 		</card>
-		<card name="Fortification against Barrage and Ambush" id="158575e4-3d66-437f-b405-ea4456fb3812">
+		<card name="Fortification Against Barrage and Ambush" id="158575e4-3d66-437f-b405-ea4456fb3812">
 			<property name="Civilization" value="Water/Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -260,7 +260,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="19" />
 		</card>
-		<card name="Absorbing Serigel" id="2c490ac3-2d86-4d17-8451-7e14f65560e0">
+		<card name="Sirigel, the Absorber" id="2c490ac3-2d86-4d17-8451-7e14f65560e0">
 			<property name="Civilization" value="Darkness/Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -270,7 +270,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="20" />
 		</card>
-		<card name="Polaris, the Prophet" id="eec126b1-5466-4372-85ff-55abd12cbb24">
+		<card name="Polaris, the Oracle" id="eec126b1-5466-4372-85ff-55abd12cbb24">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -290,7 +290,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="22" />
 		</card>
-		<card name="Flowing Anger Man" id="3c4ec8d1-56c0-46e8-adf4-c917613926e9">
+		<card name="Drill Mutant" id="3c4ec8d1-56c0-46e8-adf4-c917613926e9">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -300,7 +300,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="23" />
 		</card>
-		<card name="Jiruba, Precision Shooter" id="0cb63949-a349-4290-8339-e7b8654045b4">
+		<card name="Lockon Dude Jiruba" id="0cb63949-a349-4290-8339-e7b8654045b4">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -320,7 +320,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="25" />
 		</card>
-		<card name="Melcap, the Ghostly Sage" id="1ae06e1d-06b7-4425-ae8d-6ea37051fa38">
+		<card name="Melcap, the Mutant Explorer" id="1ae06e1d-06b7-4425-ae8d-6ea37051fa38">
 			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -410,7 +410,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="34" />
 		</card>
-		<card name="Conversion of Life and Spiritual Energy" id="9851db3e-c6cd-4541-b826-0299df47ae20">
+		<card name="Flesh-to-Spirit Conversion" id="9851db3e-c6cd-4541-b826-0299df47ae20">
 			<property name="Civilization" value="Darkness/Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -420,7 +420,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="35" />
 		</card>
-		<card name="Rubels, the Missionary" id="ea474746-ad69-491a-a311-36f5113a7908">
+		<card name="Rubels, the Explorer" id="ea474746-ad69-491a-a311-36f5113a7908">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -430,7 +430,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="36" />
 		</card>
-		<card name="Creis Dober, Guardian of the Barrier" id="75891b17-4302-4c57-9c17-665e04900f9c">
+		<card name="Creis Dober, Barrier Guardian" id="75891b17-4302-4c57-9c17-665e04900f9c">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -440,7 +440,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="37" />
 		</card>
-		<card name="Rieille, the Prophet" id="cb5850d5-b826-4ab7-aba7-c4fdc988cdd3">
+		<card name="Rieille, the Oracle" id="cb5850d5-b826-4ab7-aba7-c4fdc988cdd3">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -490,7 +490,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="42" />
 		</card>
-		<card name="Niyaari, the Puppet Bomb" id="4c21d977-5f93-4f9b-a0b9-0c4fc1153172">
+		<card name="Niyaari, Exploding Doll" id="4c21d977-5f93-4f9b-a0b9-0c4fc1153172">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -550,7 +550,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="48" />
 		</card>
-		<card name="Pocopen, the Counterattacking Fairy" id="aab6f47c-c1f6-4734-bc52-bdd2778fa650">
+		<card name="Pocopen, Counterattacking Fairy" id="aab6f47c-c1f6-4734-bc52-bdd2778fa650">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -570,7 +570,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="50" />
 		</card>
-		<card name="Strange Insect Gyunair" id="80577f1e-adce-4f9b-a52d-3eb37894367d">
+		<card name="Strange Insect Giunair" id="80577f1e-adce-4f9b-a52d-3eb37894367d">
 			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -590,7 +590,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="52" />
 		</card>
-		<card name="Stubborn Jasper" id="3386b9ac-56f7-46b0-b107-c5245b00cc79">
+		<card name="Jasper, the Stubborn" id="3386b9ac-56f7-46b0-b107-c5245b00cc79">
 			<property name="Civilization" value="Water/Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />

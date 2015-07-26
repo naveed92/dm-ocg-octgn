@@ -280,7 +280,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="21" />
 		</card>
-		<card name="Mobile Stronghold Piramirion" id="617bf17d-4424-4991-9a92-ae9142ca25cb">
+		<card name="Mobile Stronghold Plamilion" id="617bf17d-4424-4991-9a92-ae9142ca25cb">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -350,7 +350,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="28" />
 		</card>
-		<card name="Bomblade Dragoon" id="82427215-ada4-42fc-8bbc-27e0e7fadcfc">
+		<card name="Boneblade Dragoon" id="82427215-ada4-42fc-8bbc-27e0e7fadcfc">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -530,7 +530,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="46" />
 		</card>
-		<card name="Yapppp, Nuisance Doll" id="c0d271a2-cec4-43a6-90a9-0ee4a90355a6">
+		<card name="Yapp, Nuisance Doll" id="c0d271a2-cec4-43a6-90a9-0ee4a90355a6">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -580,7 +580,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="51" />
 		</card>
-		<card name="Cuckoo Clock, Coco-Cala" id="d9a1ee75-3a8c-48a6-a28f-270ccdf63a61">
+		<card name="Cuckoo Clock Coco-Cala" id="d9a1ee75-3a8c-48a6-a28f-270ccdf63a61">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -610,7 +610,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="54" />
 		</card>
-		<card name="Maximum Cobra, Guardian Spirit" id="f830f20a-309d-4ba8-bf68-5446d4d12a90">
+		<card name="Maximum Cobra, Protection Spirit" id="f830f20a-309d-4ba8-bf68-5446d4d12a90">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />

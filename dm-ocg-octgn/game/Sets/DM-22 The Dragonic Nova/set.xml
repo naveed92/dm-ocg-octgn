@@ -20,7 +20,7 @@
 		</pack>
 	</packaging>
 	<cards>
-		<card name="Ultimate Galaxy, Universe" id="b4a4fce4-cbbe-4047-b235-d15f7468d105">
+		<card name="Supernova Ultimate Galaxy" id="b4a4fce4-cbbe-4047-b235-d15f7468d105">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -449,7 +449,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="38" />
 		</card>
-		<card name="Celestrial Arc" id="129a2c79-dcb5-4434-b6fd-c0a26944969e">
+		<card name="Celestial Arc" id="129a2c79-dcb5-4434-b6fd-c0a26944969e">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
@@ -479,7 +479,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="41" />
 		</card>
-		<card name="Armored Machine, Sarbolt" id="12846a96-28b6-4ce6-aef1-4fa9487e34bc">
+		<card name="Armored Machine Sarbolt" id="12846a96-28b6-4ce6-aef1-4fa9487e34bc">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -499,7 +499,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="43" />
 		</card>
-		<card name="Necrodragon Halverd" id="8d24825f-a9ae-4ff3-a5a1-4f7c51ab9e4d">
+		<card name="Necrodragon Halberd" id="8d24825f-a9ae-4ff3-a5a1-4f7c51ab9e4d">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -619,31 +619,6 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="55" />
 		</card>
-		<card name="Dark Lupia" id="57deb704-005e-4333-9e9a-805d9b1944c3">
-			<property name="Civilization" value="Darkness" />
-			<property name="Cost" value="3" />
-			<property name="Type" value="Creature" />
-			<property name="Race" value="Fire Bird" />
-			<property name="Rules" value="Whenever one of your creatures that has Dragon in its race is destroyed, you may destroy one of your opponent's creatures." />
-			<property name="Power" value="1000" />
-			<property name="Rarity" value="Common" />
-			<property name="Number" value="3D" />
-		</card>
-		<card name="Zaum Poseidam, Super Divine Dragon" id="71bec60c-d279-415b-a344-97bb9100ce7f">
-			<property name="Civilization" value="Water" />
-			<property name="Cost" value="7" />
-			<property name="Type" value="Evolution Creature" />
-			<property name="Race" value="Poseidia Dragon" />
-			<property name="Rules" value="Evolution - Put on one of your Dragons.&#xd;&#xa;This creature can't be blocked.&#xd;&#xa;Triple breaker (This creature breaks 3 shields.)" />
-			<property name="Power" value="13000" />
-		</card>
-		<card name="Asteroid Luxus, Shower of Light" id="3befa0ff-4216-4c56-9f31-1ccbaa408b7f">
-			<property name="Civilization" value="Light" />
-			<property name="Cost" value="5" />
-			<property name="Type" value="Evolution Creature" />
-			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Vortex evolution - Put on 2 of any combination of Dragons, Fire Birds, or Tyranno Drakes.&#xd;&#xa;Meteorburn - Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, search your deck. You may choose a Dragon or Phoenix from among it, show it to your opponent, then put it into your hand. Then shuffle your deck.&#xd;&#xa;Double breaker" />
-			<property name="Power" value="9000" />
-		</card>
+
 	</cards>
 </set>

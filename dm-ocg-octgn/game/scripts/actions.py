@@ -545,9 +545,9 @@ def isGear(card):
     else:
         return False
 
-def isCastle(card):
+def isFortress(card):
     mute()
-    if card in table and card.isFaceUp and not card.orientation == Rot180 and not card.orientation == Rot270 and re.search("Castle", card.Type):
+    if card in table and card.isFaceUp and not card.orientation == Rot180 and not card.orientation == Rot270 and re.search("Fortress", card.Type):
         return True
     else:
         return False

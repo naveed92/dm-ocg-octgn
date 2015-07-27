@@ -333,9 +333,9 @@ card is a spell, you may show it to your opponent and put it into your hand." />
 		<card name="Pillar of Feather, White Knight Fortress" id="76fb3216-4986-4589-a65a-5dbc4824c1d7">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
-			<property name="Type" value="Castle" />
+			<property name="Type" value="Fortress" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Castle&#xd;&#xa;You may have all of your creatures with &quot;White Knight&quot; in their names cost 1 less to summon. They can't cost less than 1.&#xd;&#xa;All of your creatures with &quot;White Knight&quot; in their names get +3000 power and gain &quot;Blocker&quot;." />
+			<property name="Rules" value="Fortress&#xd;&#xa;You may have all of your creatures with &quot;White Knight&quot; in their names cost 1 less to summon. They can't cost less than 1.&#xd;&#xa;All of your creatures with &quot;White Knight&quot; in their names get +3000 power and gain &quot;Blocker&quot;." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="23" />
@@ -377,9 +377,7 @@ under the chosen Evolution Creature.  Shuffle your deck." />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Parasite Worm/Origin" />
-			<property name="Rules" value="Evolution: Put on 1 of your Parasite Worms or Origins&#xd;&#xa;Meteor Burn: When this creature attacks, you may put 1 card under this creature into your graveyard. If you do, destroy 1 of your opponent's creatures with 
-
-&quot;Blocker&quot;." />
+			<property name="Rules" value="Evolution: Put on 1 of your Parasite Worms or Origins&#xd;&#xa;Meteor Burn: When this creature attacks, you may put 1 card under this creature into your graveyard. If you do, destroy 1 of your opponent's creatures with &quot;Blocker&quot;." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="27" />
@@ -397,9 +395,9 @@ under the chosen Evolution Creature.  Shuffle your deck." />
 		<card name="XENOM, the Reaper Fortress" id="34b5526b-e4eb-47fb-9b52-b0c7b8f6b30c">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
-			<property name="Type" value="Castle" />
+			<property name="Type" value="Fortress" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Castle&#xd;&#xa;When this castle is put into the shield zone to fortify a shield, discard 1 card from your opponent's hand at random.&#xd;&#xa;You may have all of your creatures with &quot;Reaper&quot; in their names cost 1 less to summon. They can't cost less than 1.&#xd;&#xa;All of your creatures with &quot;Reaper&quot; in their names get +2000 power." />
+			<property name="Rules" value="Fortress&#xd;&#xa;When this Fortress is put into the shield zone to fortify a shield, discard 1 card from your opponent's hand at random.&#xd;&#xa;You may have all of your creatures with &quot;Reaper&quot; in their names cost 1 less to summon. They can't cost less than 1.&#xd;&#xa;All of your creatures with &quot;Reaper&quot; in their names get +2000 power." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="29" />
@@ -409,7 +407,7 @@ under the chosen Evolution Creature.  Shuffle your deck." />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Armored Dragon" />
-			<property name="Rules" value="Super Infinite Evolution: Put on 1 or more of your creatures.&#xd;&#xa;Meteor Burn: When this creature attacks, you may put 1 card under this creature into your graveyard.If you do, choose 1 of the following abilities and activate it:&#xd;&#xa;-Your opponent chooses 1 card in their mana zone and puts it in their graveyard.&#xd;&#xa;-Choose 1 of your opponent's cross gears and put it into its owner's graveyard.&#xd;&#xa;-Choose 1 castle that is fortifying your opponent's shields and put it into its owner's graveyard.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Super Infinite Evolution: Put on 1 or more of your creatures.&#xd;&#xa;Meteor Burn: When this creature attacks, you may put 1 card under this creature into your graveyard.If you do, choose 1 of the following abilities and activate it:&#xd;&#xa;-Your opponent chooses 1 card in their mana zone and puts it in their graveyard.&#xd;&#xa;-Choose 1 of your opponent's cross gears and put it into its owner's graveyard.&#xd;&#xa;-Choose 1 Fortress that is fortifying your opponent's shields and put it into its owner's graveyard.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="8000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="30" />

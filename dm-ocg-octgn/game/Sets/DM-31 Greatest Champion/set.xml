@@ -25,7 +25,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Angel Command" />
-			<property name="Rules" value="Evolution: Put on one of your Angel Command&#xd;&#xa;Shield Force (When you put this creature into the battle zone, you may choose one of your shields. While the chosen shield remains in the shield zone, this creature gains the following [Sheild Force]  abilities): &#xd;&#xa;[Sheild Force] : Non-light creatures cost 4 more to summon.&#xd;&#xa;For each Castle in your shield zone you may have your creatures cost 1 less to summon. They can't cost less than 1.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Evolution: Put on one of your Angel Command&#xd;&#xa;Shield Force (When you put this creature into the battle zone, you may choose one of your shields. While the chosen shield remains in the shield zone, this creature gains the following [Sheild Force]  abilities): &#xd;&#xa;[Sheild Force] : Non-light creatures cost 4 more to summon.&#xd;&#xa;For each Fortress in your shield zone you may have your creatures cost 1 less to summon. They can't cost less than 1.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="9500" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S1" />
@@ -173,9 +173,9 @@
 		<card name="Mystic Sea Castle - T2" id="f4556387-9f9a-467b-a052-7efeab6ca2e1">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
-			<property name="Type" value="Castle" />
+			<property name="Type" value="Fortress" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Castle: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;All cards returned from the fortified shield gain &quot;Shield Trigger&quot;" />
+			<property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;All cards returned from the fortified shield gain &quot;Shield Trigger&quot;" />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="11" />
@@ -203,9 +203,9 @@
 		<card name="Mysterious Castle - Potemkin" id="3f2b4c36-f3d8-4dcc-97e9-89d69df7d720">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="1" />
-			<property name="Type" value="Castle" />
+			<property name="Type" value="Fortress" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Castle: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;Whenever your opponent's creatures attack and are not blocked, after the attack destroy that creature." />
+			<property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;Whenever your opponent's creatures attack and are not blocked, after the attack destroy that creature." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="14" />
@@ -305,7 +305,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cyber Lord" />
-			<property name="Rules" value="Whenever you fortify 1 of your shields with a Castle, you may either draw a card OR choose a creature in the battle zone and return it to its owner's hand." />
+			<property name="Rules" value="Whenever you fortify 1 of your shields with a Fortress, you may either draw a card OR choose a creature in the battle zone and return it to its owner's hand." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="24" />
@@ -413,9 +413,9 @@
 		<card name="Great Veggie Fortress - Dandy Paradise" id="3c2c0e09-ff89-42e8-992e-f79c50b57cb2">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="2" />
-			<property name="Type" value="Castle" />
+			<property name="Type" value="Fortress" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Castle: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;All of your creatures in the battle zone gain &quot;Power Attacker +3000&quot;." />
+			<property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xd;&#xa;All of your creatures in the battle zone gain &quot;Power Attacker +3000&quot;." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="35" />
@@ -425,7 +425,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Rainbow Phantom/Samurai" />
-			<property name="Rules" value="Evolution: Put on 1 of your Samurai creatures&#xd;&#xa;When you put this creature into the battle zone, for each Castle in your shield zone you may add the top card of your deck to your shields face-down and tap 1 of your opponent's creatures.&#xd;&#xa;When this creature is added to your hand from your shields and there is a Castle in your shield zone, this creature gains &quot;Shield Trigger&quot;.&#xd;&#xa;Double Breaker" />
+			<property name="Rules" value="Evolution: Put on 1 of your Samurai creatures&#xd;&#xa;When you put this creature into the battle zone, for each Fortress in your shield zone you may add the top card of your deck to your shields face-down and tap 1 of your opponent's creatures.&#xd;&#xa;When this creature is added to your hand from your shields and there is a Fortress in your shield zone, this creature gains &quot;Shield Trigger&quot;.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="36" />
@@ -495,7 +495,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Reveal the top 4 cards of your deck. From the revealed cards you may add 1 creature, 1 spell, 1 cross gear, and 1 Castle to your hand. Put the rest of the cards on the bottom of your deck in any order." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Reveal the top 4 cards of your deck. From the revealed cards you may add 1 creature, 1 spell, 1 cross gear, and 1 Fortress to your hand. Put the rest of the cards on the bottom of your deck in any order." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="43" />

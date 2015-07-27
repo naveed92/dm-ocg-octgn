@@ -1151,9 +1151,9 @@
 		<card name="Fortress NEX, Assault Fortress" id="4bf93076-48de-4fd9-a20e-fe63f7494ab3">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
-			<property name="Type" value="Castle" />
+			<property name="Type" value="Fortress" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Castle - Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into your graveyard. (Use 'Shield Trigger' abilities before putting this card into your graveyard.)&#xd;&#xa;Your Dragons in the battle zone may attack untapped Gods.&#xd;&#xa;Whenever your Dragons battle, that Dragon gets +5000 power until the end of the turn." />
+			<property name="Rules" value="Fortress - Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into your graveyard. (Use 'Shield Trigger' abilities before putting this card into your graveyard.)&#xd;&#xa;Your Dragons in the battle zone may attack untapped Gods.&#xd;&#xa;Whenever your Dragons battle, that Dragon gets +5000 power until the end of the turn." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="1" />
@@ -1173,9 +1173,9 @@
 		<card name="Original Heart, the New Moon Pulses" id="a250d8a4-a4d5-423c-add5-5b9b833e8808">
 			<property name="Civilization" value="Water/Darkness" />
 			<property name="Cost" value="5" />
-			<property name="Type" value="Castle" />
+			<property name="Type" value="Fortress" />
 			<property name="Race" value="" />
-			<property name="Rules" value="(This castle is put into your mana zone tapped.)&#xd;&#xa;Castle - Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into your graveyard. (Use 'Shield Trigger' abilities before putting this card into your graveyard.)&#xd;&#xa;Whenever you put a God into the battle zone, you may draw a card.&#xd;&#xa;Whenever your creatures attack, you may put a God that has 'Emperor of the Gods' in its name from your hand into the battle zone." />
+			<property name="Rules" value="(This Fortress is put into your mana zone tapped.)&#xd;&#xa;Fortress - Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into your graveyard. (Use 'Shield Trigger' abilities before putting this card into your graveyard.)&#xd;&#xa;Whenever you put a God into the battle zone, you may draw a card.&#xd;&#xa;Whenever your creatures attack, you may put a God that has 'Emperor of the Gods' in its name from your hand into the battle zone." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="1" />

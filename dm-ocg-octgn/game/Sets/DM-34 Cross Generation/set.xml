@@ -243,7 +243,7 @@ That creature gets -1000 power until the end of the turn. (A creature with 0 or 
 		<card name="Lord Gou Ken ~Symphony of Swords~" id="071b908e-1265-4b26-ba33-858c727ea0fa">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="17" />
-			<property name="Type" value="Creature" />
+			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Flame Monster" />
 			<property name="Rules" value="Evolution: Put on 1 of your creatures with &quot;Ken Gou, Crimson Lord&quot; in its name.&#xd;&#xa;Soulshift&#xd;&#xa;Instead of having this creature attack, you may tap it to use its [Tap] ability.&#xd;&#xa;[Tap]: Destroy all of your opponent's creatures with &quot;Blocker&quot;. Search your deck. You may choose a card with &quot;Ken Geki, Absolute Ruler&quot; in its name and put it on top of this 
 
@@ -255,7 +255,7 @@ creature. Then, shuffle your deck.&#xd;&#xa;Triple Breaker" />
 		<card name="Kagekiri, Bird of Fire" id="db336afb-bf75-42f4-bb7e-70d09eb3b2f7">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
-			<property name="Type" value="Creature" />
+			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Fire Bird/Origin" />
 			<property name="Rules" value="Evolution: Put on 1 of your Fire Birds or Origins.&#xd;&#xa;Meteor Burn: When this creature attacks, you may put 1 card under this creature into your graveyard. If you do, untap this creature." />
 			<property name="Power" value="4000" />

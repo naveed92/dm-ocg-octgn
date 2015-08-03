@@ -123,9 +123,9 @@
 		<card name="Shabada Badou, JK Holy Nova" id="5514e33b-d5cf-49c7-acd0-36ed5f42557b">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
-			<property name="Type" value="Creature" />
+			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Phoenix" />
-			<property name="Rules" value="Galaxy Vortex: Put on 3 of your creatures.&#xd;&#xa;At the start of your turn, play rock-paper-scissors with youropponent until you lose. If you win 5 or more straight times, search your deck. You may put any number of non-evolution creatures from your deck into your battle zone. Then, you may put any number of cards into your hand from your deck. Then, shuffle your deck.&#xd;&#xa;Triple Breaker (This creature breaks 3 shields.)" />
+			<property name="Rules" value="Galaxy Vortex: Put on 3 of your creatures.&#xd;&#xa;At the start of your turn, play rock-paper-scissors with youropponent until you lose. If you win 5 or more straight times, search your deck. You may put any number of non-evolution creatures from your deck into your battle zone. Then, you may put any number of cards into your hand from your deck. Then, shuffle your deck.&#xd;&#xa;Triple Breaker" />
 			<property name="Power" value="12000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="6" />
@@ -153,7 +153,7 @@
 		<card name="Emperor Kinta, Battle Artiste" id="1ff6cab7-4586-4645-abf0-2031b9d14fff">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
-			<property name="Type" value="Creature" />
+			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Cyber Lord/Samurai" />
 			<property name="Rules" value="Evolution: Put on 1 of your Samurai creatures.&#xd;&#xa;Whenever your opponent casts a spell you may untap this creature.&#xd;&#xa;Double Breaker" />
 			<property name="Power" value="6000" />

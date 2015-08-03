@@ -668,7 +668,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="Knight" />
-			<property name="Rules" value="Shield trigger&#xd;&#xa;Destroy one of your opponent's untapped creatures.&#xd;&#xa;If Magic Shot - Glory Gate is in your graveyard, you may put a Nero Gryphis, Mystic Light Emperor from your hand into the battle zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy one of your opponent's untapped creatures.&#xd;&#xa;If Magic Shot - Glory Gate is in your graveyard, you may put a Nero Gryphis, Mystic Light Emperor from your hand into the battle zone." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="1" />
@@ -767,7 +767,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield trigger&#xd;&#xa;Put the top 4 cards of your deck into your graveyard. Then, you may return a creature from your graveyard to your hand." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Put the top 4 cards of your deck into your graveyard. Then, you may return a creature from your graveyard to your hand." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="1" />
@@ -933,7 +933,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="(This spell is put into your mana zone tapped.)&#xd;&#xa;Shield trigger&#xd;&#xa;If you have an Angel Command in the battle zone, you may put one of your opponent's creatures into their shield zone face down.&#xd;&#xa;If you have a creature that has Dragon in its race in the battle zone, you may destroy one of your opponent's creatures that has power 6000 or less." />
+			<property name="Rules" value="(This spell is put into your mana zone tapped.)&#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;If you have an Angel Command in the battle zone, you may put one of your opponent's creatures into their shield zone face down.&#xd;&#xa;If you have a creature that has Dragon in its race in the battle zone, you may destroy one of your opponent's creatures that has power 6000 or less." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="1" />
@@ -1162,7 +1162,7 @@
 		<card name="Valkyrie Lupia, Sky Lord Dragonmech" id="62dba49a-1452-4a14-a065-b81f01c97fff">
 			<property name="Civilization" value="Fire/Light" />
 			<property name="Cost" value="5" />
-			<property name="Type" value="Creature" />
+			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Armored Dragon/Fire Bird" />
 			<property name="Rules" value="(This creature is put into your mana zone tapped.)&#xd;&#xa;Evolution - Put on one of your Armored Dragons or Fire Birds.&#xd;&#xa;When you put this creature into the battle zone, search your deck. You may take a Dragon from it, show it to your opponent, and put it into your hand. Then shuffle your deck." />
 			<property name="Power" value="5000" />
@@ -1979,7 +1979,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield trigger&#xd;&#xa;Put one of your non-evolution creatures that costs 7 or less from your graveyard into the battle zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Put one of your non-evolution creatures that costs 7 or less from your graveyard into the battle zone." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="1" />
@@ -1990,7 +1990,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield trigger&#xd;&#xa;Put one of your non-evolution creatures that costs 7 or less from your graveyard into the battle zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Put one of your non-evolution creatures that costs 7 or less from your graveyard into the battle zone." />
 			<property name="Power" value="" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="1" />
@@ -2839,7 +2839,7 @@ random." />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Tap all your opponent's creatures in the battle zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Tap all your opponent's creatures in the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="7" />
@@ -2850,7 +2850,7 @@ random." />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Tap all your opponent's creatures in the battle zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Tap all your opponent's creatures in the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="7" />
@@ -2861,7 +2861,7 @@ random." />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;Tap all your opponent's creatures in the battle zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Tap all your opponent's creatures in the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="7" />
@@ -2883,7 +2883,7 @@ random." />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Angel Command" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;This creature can't attack players.&#xd;&#xa;When this creature is destroyed, search your deck. You may choose 1 spell with &quot;Shield Trigger&quot; and add it to your hand after you show it to your opponent. Then, shuffle your deck." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack players.&#xd;&#xa;When this creature is destroyed, search your deck. You may choose 1 spell with &quot;Shield Trigger&quot; and add it to your hand after you show it to your opponent. Then, shuffle your deck." />
 			<property name="Power" value="3500" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="21" />
@@ -2947,7 +2947,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 			<property name="Number" value="3" />
 		</card>
 
-		<card name="Murmur, Apostle of the Formation" id="43547845-55ec-4f5e-bef7-df3a9f56bbcf">
+		<card name="Murmur, Vizier of Formation" id="43547845-55ec-4f5e-bef7-df3a9f56bbcf">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -3312,7 +3312,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Earth Eater" />
-			<property name="Rules" value="[Blocker] Blocker&#xd;&#xa;This creature can't attack.&#xd;&#xa;When this creature is put into the battle zone, for each civilization your have in your mana zone you may look at 1 card from the top of your deck. Add 1 of these to your hand and put the rest on the bottom of your deck in any order." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack.&#xd;&#xa;When this creature is put into the battle zone, for each civilization your have in your mana zone you may look at 1 card from the top of your deck. Add 1 of these to your hand and put the rest on the bottom of your deck in any order." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="24" />

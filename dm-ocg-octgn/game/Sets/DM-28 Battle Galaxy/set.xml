@@ -315,7 +315,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Earth Eater" />
-			<property name="Rules" value="[Blocker]  Blocker&#xd;&#xa;This creature can't attack.&#xd;&#xa;At the start of your turn, return 1 of your creatures to your hand. Then, you may draw a card." />
+			<property name="Rules" value="[Blocker]&#xd;&#xa;This creature can't attack.&#xd;&#xa;At the start of your turn, return 1 of your creatures to your hand. Then, you may draw a card." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="20" />
@@ -333,7 +333,7 @@
 		<card name="Belfegius, Emperor of Death" id="e1fb56c7-d8de-4e10-9b4e-d4ee23d532a3">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
-			<property name="Type" value="Creature" />
+			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Dark Lord" />
 			<property name="Rules" value="Mana Evolution: Choose a darkness creature in your mana zone and put this creature into the battle zone on top of that creature.&#xd;&#xa;Players can choose not to untap their creatures.&#xd;&#xa;Whenever another creature in the battle zone is untapped, destroy it." />
 			<property name="Power" value="3000" />

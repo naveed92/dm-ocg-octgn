@@ -288,7 +288,7 @@ hand." />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="20" />
 		</card>
-		<card name="Murmur, Apostle of the Formation" id="71747845-55ec-4f5e-bef7-df3a9f56bbcf">
+		<card name="Murmur, Vizier of Formation" id="71747845-55ec-4f5e-bef7-df3a9f56bbcf">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />

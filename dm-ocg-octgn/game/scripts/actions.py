@@ -12,20 +12,8 @@ shieldMarker = ('Shield', 'a4ba770e-3a38-4494-b729-ef5c89f561b7')
 
 # Start of Automation code
 
-functionList = [ 
-				'mana', 'fromMana', 'toMana', 'sendToMana', 'destroyMana',
-				'draw', 'toHand', 
-				'shields',
-				'search', 'fromDeck', 'sendToShields', 'destroyShield',
-				'bounce',
-				'kill', 'sacrifice', 'banishAll', 'killAndSearch',
-				'targetDiscard',
-				'gear', 
-				'tapCreature'
-				]
-
 cardScripts = {
-			# ON PLAY EFFECTS
+                        # ON PLAY EFFECTS
                 'Bronze-Arm Tribe': { 'onPlay': { 'mana': ['me.Deck'] }},
                 'Alshia, Spirit of Novas': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Spell"'] }},
                 'Akashic Second, Electro-Spirit': { 'onPlay': { 'draw': ['me.Deck', 'True'] }},
@@ -91,7 +79,7 @@ cardScripts = {
                 'Whispering Totem': { 'onPlay': { 'fromDeck': [] }},
                 'Wind Axe, the Warrior Savage': { 'onPlay': {  'mana': ['me.Deck'] }},
                 'Zardia, Spirit of Bloody Winds': { 'onPlay': {  'shields': ['me.Deck'] }},
-                'Zemechis, the Missionary': { 'onPlay': {  'gear': ['"kill"'] }},
+                'Zemechis, the Explorer': { 'onPlay': {  'gear': ['"kill"'] }},
 			# ON CAST EFFECTS
                 'Abduction Charger': { 'onPlay': {  'bounce': ['2'] }},
                 'Apocalypse Day': { 'onPlay': {  'banishAll': ['table', 'len([card for card in table if isCreature(card)])>5'] }},
@@ -144,7 +132,7 @@ cardScripts = {
                 'Reap and Sow': { 'onPlay': { 'mana': ['me.Deck'], 'destroyMana': [] }},
                 'Riptide Charger': { 'onPlay': {  'bounce': [] }},
                 'Searing Wave': { 'onPlay': { 'destroyShield': ['False'] }},
-                'Seven\'s Tower': { 'onPlay': { 'mana': ['me.Deck'] },
+                'Seventh Tower': { 'onPlay': { 'mana': ['me.Deck'] },
                                     'onMetamorph': { 'mana': ['me.Deck','3'] }},
                 'Solar Ray': { 'onPlay': { 'tapCreature': [] }},
                 'Solar Trap': { 'onPlay': { 'tapCreature': [] }},
@@ -359,9 +347,11 @@ def banishAll(group, condition = False, powerFilter = 'ALL', civFilter = "ALL", 
                     continue
         if cardToBeSaved.owner == me:   
             toDiscard(cardToBeSaved)
-            for function in functionList:
-                if function in cardScripts.get(cardToBeSaved.name,{}).get('onDestroy',{}):
-                    argList = cardScripts.get(cardToBeSaved.name,{}).get('onDestroy',{}).get(function,{})
+            
+            if cardScripts.get(card.name,{}).get('onDestroy',{}):
+                functionDict = cardScripts.get(card.name).get('onDestroy')
+                for function in functionDict:
+                    argList = functionDict.get(function)
                     eval(function)(*[eval(arg) for arg in argList])
         else:
             remoteCall(cardToBeSaved.owner,"banish",cardToBeSaved)
@@ -732,10 +722,12 @@ def banish(card, dest = False, x = 0, y = 0):
                                     notify("{} banishes {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
                                     return
             toDiscard(cardToBeSaved)
-            for function in functionList:
-                if function in cardScripts.get(card.name,{}).get('onDestroy',{}):
-                    argList = cardScripts.get(card.name,{}).get('onDestroy',{}).get(function,{})
+            if cardScripts.get(card.name,{}).get('onDestroy',{}):
+                functionDict = cardScripts.get(card.name).get('onDestroy')
+                for function in functionDict:
+                    argList = functionDict.get(function)
                     eval(function)(*[eval(arg) for arg in argList])
+
 
 def shuffle(group, x = 0, y = 0):
     mute()
@@ -913,17 +905,19 @@ def toPlay(card, x = 0, y = 0, notifymute = False, evolveText = ''):
         align()
     if notifymute == False:
         notify("{} plays {}{}.".format(me, card, evolveText))
-
-    if metamorph():
-        for function in functionList:
-            if function in cardScripts.get(card.name,{}).get('onMetamorph',{}):
-                argList = cardScripts.get(card.name,{}).get('onMetamorph',{}).get(function,{})
-                eval(function)(*[eval(arg) for arg in argList])
-                return
         
-    for function in functionList:
-        if function in cardScripts.get(card.name,{}).get('onPlay',{}):
-            argList = cardScripts.get(card.name,{}).get('onPlay',{}).get(function,{})
+    if metamorph():
+        if cardScripts.get(card.name,{}).get('onMetamorph',{}):
+            functionDict = cardScripts.get(card.name).get('onMetamorph')
+            for function in functionDict:
+                argList = functionDict.get(function)
+                eval(function)(*[eval(arg) for arg in argList])
+            return
+
+    if cardScripts.get(card.name,{}).get('onPlay',{}):
+        functionDict = cardScripts.get(card.name).get('onPlay')
+        for function in functionDict:
+            argList = functionDict.get(function)
             eval(function)(*[eval(arg) for arg in argList])
     
 def toDiscard(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreEvo = False):

@@ -722,6 +722,7 @@ def setup(group, x = 0, y = 0):
         whisper("Not enough cards in deck")
         return
     me.setGlobalVariable("shieldCount", "0")
+    me.setGlobalVariable("evolution", "{}")
     me.Deck.shuffle()
     rnd(1,10)
     for card in me.Deck.top(5): toShields(card, notifymute = True)

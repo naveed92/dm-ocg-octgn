@@ -709,7 +709,7 @@ def align():
     cardorder = [[],[],[]]
     evolveDict = eval(me.getGlobalVariable("evolution"))
     for card in table:
-        if card.controller == me and not isFortress(card) and not isGod(card) and not card._id in list(itertools.chain.from_iterable(evolveDict.values())):
+        if card.controller == me and not isFortress(card) and not card._id in list(itertools.chain.from_iterable(evolveDict.values())):
             if isShield(card):
                 cardorder[1].append(card)
             elif isMana(card):

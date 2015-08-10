@@ -568,12 +568,12 @@ generates 2 mana instead of 1.)&#xd;&#xa;Slayer" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="44" />
 		</card>
-		<card name="Death Circle, the Explosive Shadow" id="a5feba11-ce85-4283-893a-1cd2bec0afcc">
+		<card name="Death Circle, Explosive Shadow" id="a5feba11-ce85-4283-893a-1cd2bec0afcc">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Ghost" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger&#xd;&#xa;When you put this creature into the battle zone, you may destroy it. If you do, choose 1 of your opponent's untapped creatures and destroy it." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, you may destroy it. If you do, choose 1 of your opponent's untapped creatures and destroy it." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="45" />

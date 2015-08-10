@@ -500,7 +500,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="43" />
 		</card>
-		<card name="Death Mendosa, Dragonic Baron of Death" id="fbca9037-520b-442c-91df-ad4be323a5c0">
+		<card name="Death Mendosa, Death Dragonic Baron" id="fbca9037-520b-442c-91df-ad4be323a5c0">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />

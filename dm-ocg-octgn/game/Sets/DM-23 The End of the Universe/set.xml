@@ -125,7 +125,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Saint Head" />
-			<property name="Rules" value="[Shield trigger] Shield Trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xd;&#xa;When this creature is put into the Battle Zone, you may tap an opponent's creature for each Arc Seraphim you control in the Battle Zone. " />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When this creature is put into the Battle Zone, you may tap an opponent's creature for each Arc Seraphim you control in the Battle Zone. " />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="6" />

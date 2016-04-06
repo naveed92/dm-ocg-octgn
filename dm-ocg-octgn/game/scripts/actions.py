@@ -606,6 +606,17 @@ def tapCreature(count = 1, targetALL = False, includeOwn = False):
 
 #End of Automation Code
 
+def awaken(card, x = 0, y = 0):
+    mute()
+    if (re.search("Psychic", card.Type)):
+        altName = card.alternateProperty('awakening', 'name')
+        if card.alternate is '':
+            card.switchTo('awakening')
+            notify("{}'s' {} awakens to {}.".format(me, altName, card))
+        else:
+            card.switchTo('')
+            notify("{}'s {} reverts to {}.".format(me, altName, card))
+
 def resetGame():
     mute()
     me.setGlobalVariable("shieldCount", "0")

@@ -1,5 +1,5 @@
-Divine Evolution Saga Banlist
-(As of May 15, 2010. Valid for Set 35 JP format)
+Awakening Saga Banlist
+(As of July 23, 2011. Valid for Set 39 JP format)
 
 Source:
 http://duelmasters.wikia.com/wiki/User:BlitzerRyuusei/Hall_of_Fame_timeline
@@ -9,11 +9,11 @@ Maximum deck size: 40
 
 Restricted to 1:
 Astral Reef
-Cyber Brain
+
 Emeral
 Deep Operation
 Streaming Shaper
-Aquan
+
 Skeleton Vice
 Cloned Nightmare
 Nariel, the Oracle
@@ -36,6 +36,17 @@ Spiral Gate
 Hanzou, Menacing Phantom
 Falconer, Lightfang Ninja
 Hydro Hurricane
+Heavy, Dragon God
+Lucky Darts
+Mad Romanoff, he Wicked God
+Transmogrify
+Sir Virginia, Mystic Light Insect
+Dandy Eggplant
+Hyperspatial Dravita Hole
+Mil Armor, Mecha King Vizier
+Prince Avaraldo, Cavalier of Thunder
+Shrine of Rebirth
+Orochi, of the Hidden Blade
 
 Banned:
 Bombazar, Dragon of Destiny
@@ -51,3 +62,5 @@ Cursed Totem
 Inferno Gate
 Soul Advantage
 King Alcadeias, Holy Gaia
+Aquan
+Cyber Brain

@@ -555,7 +555,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Wild Veggies" />
-			<property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}Put a creature that has Dragon in its race from your mana zone into the battle zone." />
+			<property name="Rules" value="{SHIELD TRIGGER} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xd;&#xa;{SILENT}Put a creature that has Dragon in its race from your mana zone into the battle zone." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="Rare" />
 			<property name="Number" value="49" />

@@ -195,7 +195,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="10" />
 		</card>
-		<card name="Hyperspatial Romanov Hole" id="bd6462d7-e715-4161-a4b5-ac8595a4aa33">
+		<card name="Hyperspatial Romanoff Hole" id="bd6462d7-e715-4161-a4b5-ac8595a4aa33">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Spell" />

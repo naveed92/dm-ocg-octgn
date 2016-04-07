@@ -9,11 +9,9 @@ Maximum deck size: 40
 
 Restricted to 1:
 Astral Reef
-
 Emeral
 Deep Operation
 Streaming Shaper
-
 Skeleton Vice
 Cloned Nightmare
 Nariel, the Oracle

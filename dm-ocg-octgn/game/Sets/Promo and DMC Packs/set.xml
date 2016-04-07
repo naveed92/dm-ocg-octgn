@@ -3518,5 +3518,292 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 			<property name="Number" value="5" />
 		</card>
 
+
+		<card name="Master Lupia, Temporal Wing" id="814a278c-531d-4e4e-b456-70e7f3674008">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Psychic Creature" />
+			<property name="Race" value="Fire Bird" />
+			<property name="Rules" value="Your Dragons may each cost up to 1 less to summon for each of your creatures that have Lupia in the battle zone. However, they can't cost less than 1.&#xd;&#xa;Awaken - At the start of your turn, if you have 3 or more Dragons in the battle zone, flip this creature." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="No Rarity" />
+			<property name="Number" value="1a/18" />
+
+			<alternate name="Psychic NEX, the Awakened Blue Flame" type="awakening">
+				<property name="Civilization" value="Fire" />
+				<property name="Cost" value="14" />
+				<property name="Type" value="Psychic Creature" />
+				<property name="Race" value="Armored Dragon" />
+				<property name="Rules" value="Whenever your opponent would choose a creature in the battle zone, they can't choose creatures that have Lupia in its name. (They can still be attacked and blocked.)&#xd;&#xa;Your Dragons break an additional shield for each of your creatures in the battle zone that have Lupia in its name.&#xd;&#xa;Quattro breaker&#xd;&#xa;Release (When this creature would leave the battle zone, flip this creature to its lower cost side instead.)" />
+				<property name="Power" value="22000" />
+				<property name="Rarity" value="No Rarity" />
+				<property name="Number" value="1b/18" />
+        	</alternate>
+		</card>
+
+		<card name="Suva, Temporal Menace" id="1ad01812-1781-434b-824b-ea827a8ea991">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Psychic Creature" />
+			<property name="Race" value="Demon Command/Origin" />
+			<property name="Rules" value="Blocker&#xd;&#xa;This creature can't attack.&#xd;&#xa;Awaken - Whenever you put a creature that has 'Emperor of the Gods' in its name into the battle zone, if that creature links with 3 other cards, flip this creature." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="" />
+
+			<alternate name="Psychic Suva, the Awakened God" type="awakening">
+				<property name="Civilization" value="Darkness" />
+				<property name="Cost" value="14" />
+				<property name="Type" value="Psychic Creature" />
+				<property name="Race" value="Demon Command/Origin" />
+				<property name="Rules" value="When this creature is awakened, destroy all other non-God creatures. Then, each player puts all non-God cards in their mana zone into their respective graveyards.&#xd;&#xa;Triple breaker&#xd;&#xa;Release (When this creature would leave the battle zone, flip this creature to its lower cost side instead.)" />
+				<property name="Power" value="12000" />
+				<property name="Rarity" value="No Rarity" />
+				<property name="Number" value="1b" />
+        	</alternate>
+		</card>
+
+		<card name="Storm Double Cross, Temporal Storm" id="a76dd455-c86c-4df5-82e4-d12807668ca5">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Psychic Creature" />
+			<property name="Race" value="Armored Dragon/Flame Command" />
+			<property name="Rules" value="This creature can't attack.&#xd;&#xa;At the start of your turn, put the top 3 cards of your deck into your graveyard.&#xd;&#xa;Awaken - At the start of your turn, you may shuffle 5 Fire Birds in your graveyard into your deck. If you do, flip this creature." />
+			<property name="Power" value="7000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="1a/15" />
+
+			<alternate name="Storm Kaiser Double Cross, the Awakened Kamikaze" type="awakening">
+				<property name="Civilization" value="Fire" />
+				<property name="Cost" value="14" />
+				<property name="Type" value="Psychic Creature" />
+				<property name="Race" value="Armored Dragon/Flame Command" />
+				<property name="Rules" value="When you awaken this creature, destroy 2 of your opponent's creatures.&#xd;&#xa;Triple breaker" />
+				<property name="Power" value="15000" />
+				<property name="Rarity" value="Super Rare" />
+				<property name="Number" value="1b/15" />
+        	</alternate>
+		</card>
+
+		<card name="Galaxy, Temporal Immortal" id="157c90b5-53d3-4de9-bd46-02a676ea3dc6">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Psychic Creature" />
+			<property name="Race" value="Angel Command" />
+			<property name="Rules" value="Awaken - When this creature would leave the battle zone, you may flip it instead." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Very Rare" />
+			<property name="Number" value="1a/22" />
+
+			<alternate name="King of Galaxy, Destruction Awakened" type="awakening">
+				<property name="Civilization" value="Light" />
+				<property name="Cost" value="9" />
+				<property name="Type" value="Psychic Creature" />
+				<property name="Race" value="Angel Command" />
+				<property name="Rules" value="Each of your other creatures in the battle zone gets 'Blocker'.&#xd;&#xa;Double breaker" />
+				<property name="Power" value="11500" />
+				<property name="Rarity" value="Very Rare" />
+				<property name="Number" value="1b/22" />
+        	</alternate>
+		</card>
+
+		<card name="Bolmeteus 'Young Samurai' Dragon, Temporal Samurai" id="6b339d81-8424-4436-ba75-7fc741d77969">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Psychic Creature" />
+			<property name="Race" value="Armored Dragon/Samurai" />
+			<property name="Rules" value="Whenever this creature attacks, destroy one of your opponent's creatures that has power 3000 or less.&#xd;&#xa;Awaken - At the start of your turn, if your opponent has 2 shields or less, flip this creature." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="1a/42" />
+
+			<alternate name="Mobius Samurai Dragon, the Awakened Army" type="awakening">
+				<property name="Civilization" value="Fire" />
+				<property name="Cost" value="14" />
+				<property name="Type" value="Psychic Creature" />
+				<property name="Race" value="Armored Dragon/Samurai" />
+				<property name="Rules" value="Whenever this creature attacks, you may destroy one of your opponent's creatures that has power 9000 or less.&#xd;&#xa;Double breaker" />
+				<property name="Power" value="9000" />
+				<property name="Rarity" value="Promotional" />
+				<property name="Number" value="1b/42" />
+        	</alternate>
+		</card>
+
+		<card name="Olzekia, Temporal Sword General" id="dd9b8e01-3f26-4e11-aecd-eeccfba8f3a1">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Psychic Creature" />
+			<property name="Race" value="Demon Command" />
+			<property name="Rules" value="Double breaker&#xd;&#xa;Awaken - If any of your Demon Commands are destroyed during any player's turn, flip this creature at the end of that turn." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="No Rarity" />
+			<property name="Number" value="5a/22" />
+
+			<alternate name="Galactica Olzekia, the Decapitator Awakened" type="awakening">
+				<property name="Civilization" value="Darkness" />
+				<property name="Cost" value="14" />
+				<property name="Type" value="Psychic Creature" />
+				<property name="Race" value="Demon Command" />
+				<property name="Rules" value="When you awaken this creature, your opponent discards 2 cards at random from his hand.&#xd;&#xa;Triple breaker " />
+				<property name="Power" value="12000" />
+				<property name="Rarity" value="No Rarity" />
+				<property name="Number" value="5b/22" />
+        	</alternate>
+		</card>
+
+		<card name="Hyperspatial Shooting Hole" id="0da4592c-74e2-408b-9856-6f6c56e06e63">
+			<property name="Civilization" value=" Fire" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Destroy one of your opponent's creatures that has 'Blocker'.&#xd;&#xa;Put a Fire psychic creature that costs 9 or less from your hyperspatial zone into the battle zone." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="No Rarity" />
+			<property name="Number" value="6/18" />
+		</card>
+
+		<card name="Hyperspatial Emperor Hole" id="88c14c77-30e1-4583-b2a9-0ddf5732d9b6">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Choose one of your opponent's creatures in the battle zone. That creature gets -2000 power until the end of the turn.&#xd;&#xa;Put a Darkness psychic creature that costs 9 or less from your hyperspatial zone into the battle zone." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="No Rarity" />
+			<property name="Number" value="4/19" />
+		</card>	
+
+		<card name="Hyperspatial Samurai Hole" id="ac80a3a2-7c6d-4231-b6c5-6376a7f24b62">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Destroy one of your opponent's creatures that costs 4 or less.&#xd;&#xa;Put a Fire psychic creature that costs 7 or less from your hyperspatial zone into the battle zone." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="No Rarity" />
+			<property name="Number" value="5/15" />
+		</card>	
+
+		<card name="Shobu Aini" id="9c762431-4e58-4544-b401-0915a63bc7a5">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Fire Bird" />
+			<property name="Rules" value="Instead of having this creature attack, you may tap it to use its Tap ability.&#xd;&#xa;Tap: Destroy this creature. Then, you may choose a fire psychic creature that costs 7 or less from your hyperspatial zone and put it into the battle zone." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="No Rarity" />
+			<property name="Number" value="3/15" />
+		</card>
+
+		<card name="Reppi Aini" id="850c4f2f-6ae0-48e9-9f85-b6a3523e5907">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Fire Bird" />
+			<property name="Rules" value="When you put this creature into the battle zone, you may reveal the top 2 cards of your deck. You may take a spell that has Hyperspatial in its name from among them into your hand, then put the rest into your graveyard." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="Promotional" />
+			<property name="Number" value="4/15" />
+		</card>
+
+		<card name="Dual Belforce, Blastdragon" id="8fac9000-4e89-41d8-a12d-ea1a3a3a027f">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon/Flame Command/Samurai" />
+			<property name="Rules" value="Speed attacker&#xd;&#xa;Double breaker&#xd;&#xa;If you have a creature that has NEX or Double Cross in its name in the battle zone, this creature gets 'Power attacker +5000' and 'Triple breaker'." />
+			<property name="Power" value="11000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="5/21" />
+		</card>
+
+		<card name="Storm Double Cross, Blastdragon ~Tornado Chain~" id="3795604f-65fd-4153-9678-b4a00dc9d244">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon/Flame Command" />
+			<property name="Rules" value="When you put this creature into the battle zone, put the top 2 cards of your deck into your graveyard. If one of those cards is a Fire Bird, this creature gets 'Speed attacker' until the end of the turn.&#xd;&#xa;Double breaker&#xd;&#xa;While you have 5 or more Fire Birds in your graveyard, this creature gets 'Power attacker +6000' and 'Triple breaker'." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="No Rarity" />
+			<property name="Number" value="b14" />
+		</card>
+
+		<card name="Perfect Storm Double Cross, Blastdragon" id="f184d970-abcf-41b2-9ef8-a46f9553fb63">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon/Flame Command" />
+			<property name="Rules" value="Double breaker&#xd;&#xa;When this creature would leave the battle zone, you may put a spell in your graveyard that has Hyperspatial in its name on the bottom of your deck instead." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="No Rarity" />
+			<property name="Number" value="P40" />
+		</card>
+
+		<card name="Duel Jacker Shou, Super Live" id="9348adae-6271-481c-a79a-f4c999486177">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Human" />
+			<property name="Rules" value="If 'Duel Jacker Shou' is in the room, this creature gets 'Speed Attacker'.&#xd;&#xa;When this creature is returned to your hand from the battle zone, play rock-paper-scissors with your opponent. If you win, you may put Duel Jacker Shou, Super Live from your hand into the battle zone." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="No Rarity" />
+			<property name="Number" value="P6" />
+		</card>
+
+		<card name="Crystal Super Paladin" id="42320f73-5170-4425-89af-60c657536447">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Liquid People" />
+			<property name="Rules" value="Evolution - Put on one of your Liquid People.&#xd;&#xa;When you put this creature into the battle zone, choose one of your opponent's psychic creatures and return it to his hyperspatial zone.&#xd;&#xa;Whenever this creature attacks, return all creatures in the battle zone that have 'Blocker' to their owners' hands.&#xd;&#xa;Double breaker" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="No Rarity" />
+			<property name="Number" value="P93" />
+		</card>
+
+		<card name="Galaxy Cross Aini, Sky Lord Dragonmech" id="b71e864e-a811-473b-a05e-20e2313458ac">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Armored Dragon/Fire Bird" />
+			<property name="Rules" value="Evolution - Put on one of your Armored Dragons or Fire Birds.&#xd;&#xa;Whenever this creature attacks, put the top card of your deck into your graveyard. If that card is a fire spell that has Hyperspatial in its name, you may cast it from your graveyard for no cost. (Then, put it back into your graveyard.)&#xd;&#xa;Double breaker" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="No Rarity" />
+			<property name="Number" value="P56" />
+		</card>
+
+		<card name="Uberdragon Fighbird" id="5db10014-4ea7-4ae6-a844-97bce5bab160">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="Evolution - Put on one of your Armored Dragons.&#xd;&#xa;When you put this creature into the battle zone, put all non-evolution Fire Birds from your mana zone into the battle zone. If this effect is used in a 'Duel Road' tournament event, you may also put any number of evolution Fire Birds from your mana zone into the battle zone.&#xd;&#xa;Triple breaker" />
+			<property name="Power" value="13000" />
+			<property name="Rarity" value="No Rarity" />
+			<property name="Number" value="2D" />
+		</card>
+
+		<card name="Manly Pepper" id="369d3709-88dd-4f98-a851-ca868a26e96c">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Wild Veggies" />
+			<property name="Rules" value="When you put this creature into the battle zone, you may put the top 4 cards of your deck into your mana zone tapped. If you do, put 4 cards from your mana zone on the bottom of your deck in any order.&#xd;&#xa;:Wild Soul:" />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="No Rarity" />
+			<property name="Number" value="3D" />
+		</card>
+
+		<card name="Kizuna Blaster" id="ca5ab177-a919-4343-b92f-6e22ff3f0f72">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Choose one of the following:&#xd;&#xa;1. Search your deck. You may take a creature that has 'Double Cross' in its name from it and put it into the battle zone. Then shuffle your deck.&#xd;&#xa;2. Put a psychic creature that costs 7 or less that has 'Double Cross' in its name from your hyperspatial zone into the battle zone." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="No Rarity" />
+			<property name="Number" value="P27" />
+		</card>
+
 	</cards>
 </set>

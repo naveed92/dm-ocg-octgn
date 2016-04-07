@@ -476,7 +476,7 @@
         	</alternate>
 		</card>
 
-		<card name="Mantis Sword, Brute Insect" id="3ad8bf54-fd15-492e-a4fa-5379954dd587">
+		<card name="Brute Mantis, Peerless Insect" id="3ad8bf54-fd15-492e-a4fa-5379954dd587">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />

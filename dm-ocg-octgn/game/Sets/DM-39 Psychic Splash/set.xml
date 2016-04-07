@@ -30,7 +30,7 @@
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S1" />
 		</card>
-		<card name="Grateful Dead, Lord of Demons" id="bedb0d74-050c-444d-aa4a-9a6f1fcac21e">
+		<card name="Grateful Dead, Lord of Demons" id="0807850f-9c52-406c-9752-ac85d133bc70">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
@@ -282,7 +282,7 @@
 			<property name="Rarity" value="R" />
 			<property name="Number" value="14" />
 		</card>
-		<card name="Jet Drill, Advanced Soldier" id="10ae7995-cb7b-407c-8702-ffdc5e82c16f">
+		<card name="Jet Drill, Advanced Soldier" id="1dfbcd19-f458-455d-ad4b-ec67777a1c95">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -374,7 +374,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="22" />
 		</card>
-		<card name="Five Star Blaster" id="3de1e877-dd7a-487a-8c1b-032a33c73e25">
+		<card name="Five Star Blaster" id="a796f4ac-824d-49f7-a1bc-90a25278449a">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
@@ -474,7 +474,7 @@
 			<property name="Rarity" value="U" />
 			<property name="Number" value="32" />
 		</card>
-		<card name="Yokozuna Giant" id="2b0121b5-6ea7-4abf-a743-6aa39e7af93e">
+		<card name="Yokozuna Giant" id="03af4f6b-60cd-4ec6-8cbc-297e3e6e8723">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -664,7 +664,7 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="51" />
 		</card>
-		<card name="Mimosa, the Strong" id="3c3b2cb7-f41f-40e6-9423-dda5a29755ee">
+		<card name="Mimosa, the Strong" id="ec38f331-70d6-441a-8178-b11076dfc695">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="6 " />
 			<property name="Type" value="Creature" />

@@ -21,6 +21,7 @@
 	</packaging>
 	<cards>
 		<card name="Gabriella, Holy Princess" id="6860cb52-14a1-47ac-90b9-b58f5e800253">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -31,6 +32,7 @@
 			<property name="Number" value="S1" />
 		</card>
 		<card name="Change the World, Blue Divine Dragon" id="2de7278e-3f93-460d-83c9-1c1126a1842e">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -41,6 +43,7 @@
 			<property name="Number" value="S2" />
 		</card>
 		<card name="DEATH Dragerion, the Supernova" id="510460f8-cfdc-49ea-a642-80797b312b2f">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Evolution Creature" />
@@ -51,6 +54,7 @@
 			<property name="Number" value="S3" />
 		</card>
 		<card name="Balzark, Sword Flash Fortress" id="61db1ba8-0d54-4e41-9cb0-60fd6a41bd1c">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Fortress" />
@@ -61,6 +65,7 @@
 			<property name="Number" value="S4" />
 		</card>
 		<card name="Halsa, the Great Enigma" id="036c8805-71d5-4903-8f44-3c9b41be2cfa">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -71,6 +76,7 @@
 			<property name="Number" value="S5" />
 		</card>
 		<card name="Silver Glory, Invincible Fortress" id="c0dc6243-934b-4812-a16e-062fa4a1d432">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Fortress" />
@@ -81,6 +87,7 @@
 			<property name="Number" value="1" />
 		</card>
 		<card name="Ice Lance - Paladin Spear" id="154fb46f-e705-4778-97d7-640012a996a2">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Cross Gear" />
@@ -91,6 +98,7 @@
 			<property name="Number" value="2" />
 		</card>
 		<card name="Zarfeld the 2nd, Dark Knight" id="04eb9157-906d-4c41-8244-f121c4bf4807">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -101,6 +109,7 @@
 			<property name="Number" value="3" />
 		</card>
 		<card name="Valkyrias Musashi, Ultimate Battle Dragon" id="76165e10-eb80-45e5-a2ea-aa6526384aa8">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -111,6 +120,7 @@
 			<property name="Number" value="4" />
 		</card>
 		<card name="Terradragon Bagnaborne" id="439b402f-25f0-4776-b60b-e864aa68e821">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -121,6 +131,7 @@
 			<property name="Number" value="5" />
 		</card>
 		<card name="Shabada Badou, JK Holy Nova" id="5514e33b-d5cf-49c7-acd0-36ed5f42557b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -131,6 +142,7 @@
 			<property name="Number" value="6" />
 		</card>
 		<card name="Elizabeth, Thunder Dragon Princess" id="aa533105-81cd-4450-9157-e793788e1e29">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -141,6 +153,7 @@
 			<property name="Number" value="7" />
 		</card>
 		<card name="Pure Thunder, Spirit Beast" id="f1ceae61-a609-470e-971d-fda2a043d1ba">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -151,6 +164,7 @@
 			<property name="Number" value="8" />
 		</card>
 		<card name="Emperor Kinta, Battle Artiste" id="1ff6cab7-4586-4645-abf0-2031b9d14fff">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Evolution Creature" />
@@ -161,6 +175,7 @@
 			<property name="Number" value="9" />
 		</card>
 		<card name="Cherenko" id="134944ee-a764-4c21-80d5-f47c047ad6ce">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -171,6 +186,7 @@
 			<property name="Number" value="10" />
 		</card>
 		<card name="Xanatic X" id="ffaf5a71-03da-4e18-b182-8e877be0011a">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -181,6 +197,7 @@
 			<property name="Number" value="11" />
 		</card>
 		<card name="Black Shadow, Darkfang Ninja" id="39660056-c1f3-44b1-9097-f525b88fdac3">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -191,6 +208,7 @@
 			<property name="Number" value="12" />
 		</card>
 		<card name="Chain of Grief" id="f23b943f-66a6-442d-9dec-6003e16b4e3c">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
@@ -201,6 +219,7 @@
 			<property name="Number" value="13" />
 		</card>
 		<card name="Shadow Warrior - Soul Bringer" id="40e1b1ba-b349-4a2d-bde4-3ba8dff5d1ee">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Cross Gear" />
@@ -211,6 +230,7 @@
 			<property name="Number" value="14" />
 		</card>
 		<card name="Balzark &quot;Fire Blast&quot; Dragon" id="17b331a1-de0f-4d85-bd83-ef1142139b9d">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -221,6 +241,7 @@
 			<property name="Number" value="15" />
 		</card>
 		<card name="Balrun Shizou" id="79ce6dc0-3751-47a8-9ef4-c985c05547d3">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -231,6 +252,7 @@
 			<property name="Number" value="16" />
 		</card>
 		<card name="Softknuckle Dragoon" id="f0988e1d-485b-4e1f-aca7-b09e446e289b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -241,6 +263,7 @@
 			<property name="Number" value="17" />
 		</card>
 		<card name="Pony Nature, Forest Beast Fairy" id="15025e26-a342-45aa-beaf-b14e095f1636">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -251,6 +274,7 @@
 			<property name="Number" value="18" />
 		</card>
 		<card name="No Dandy Leekio" id="0bcd971e-831a-44e9-9a74-3c0958bbe340">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -261,6 +285,7 @@
 			<property name="Number" value="19" />
 		</card>
 		<card name="Hustle Castle" id="c0855591-72f3-440c-b450-7516654a54ce">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Fortress" />
@@ -271,6 +296,7 @@
 			<property name="Number" value="20" />
 		</card>
 		<card name="Sir Navaal, Thunder Mecha Knight" id="355e3a7e-98c2-4405-b834-ecb2edfdbb08">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -281,6 +307,7 @@
 			<property name="Number" value="21" />
 		</card>
 		<card name="Raiden, Lightfang Ninja" id="3a319bdb-a2b4-4e50-91af-98234d96ff22">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -291,6 +318,7 @@
 			<property name="Number" value="22" />
 		</card>
 		<card name="Saint Castle" id="f58e3e65-9845-4e18-94eb-d986465b6de5">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Fortress" />
@@ -301,6 +329,7 @@
 			<property name="Number" value="23" />
 		</card>
 		<card name="Deepsea Mammoth" id="b12e76b9-3cc1-45b3-bdb1-22e80eb1256b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -311,6 +340,7 @@
 			<property name="Number" value="24" />
 		</card>
 		<card name="Force Reloaded" id="6db2d3f4-e83c-4ae7-bc79-cd6fcc0b4e8b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="1" />
 			<property name="Type" value="Spell" />
@@ -321,6 +351,7 @@
 			<property name="Number" value="25" />
 		</card>
 		<card name="Submarine Fortress Lair" id="805efad8-dbc2-425a-96a1-11fa5be76719">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="1" />
 			<property name="Type" value="Fortress" />
@@ -331,6 +362,7 @@
 			<property name="Number" value="26" />
 		</card>
 		<card name="Death Romanoff the 5th, Demonic Eye General" id="32224edf-510e-41e2-9e4d-46655ab4f7aa">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -341,6 +373,7 @@
 			<property name="Number" value="27" />
 		</card>
 		<card name="Dark Sanji, Darkfang Ninja" id="c647f91f-33f3-4d23-bd38-589521db887f">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -351,6 +384,7 @@
 			<property name="Number" value="28" />
 		</card>
 		<card name="Rose Castle" id="1f2d0943-4cc8-493f-95b4-effc7f5cb801">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Fortress" />
@@ -361,6 +395,7 @@
 			<property name="Number" value="29" />
 		</card>
 		<card name="Crow Todoroki, Relentless Swordsman" id="956f8656-48eb-4423-90e3-eeb3305f627b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Evolution Creature" />
@@ -371,6 +406,7 @@
 			<property name="Number" value="30" />
 		</card>
 		<card name="Jack Raidou, Battle Dragon" id="28c84de7-5a48-4fb8-bb72-c5623a23a563">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -381,6 +417,7 @@
 			<property name="Number" value="31" />
 		</card>
 		<card name="Super Shachihoko Castle" id="6db9e164-8b86-4466-9c54-88535b7f8c96">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Fortress" />
@@ -391,6 +428,7 @@
 			<property name="Number" value="32" />
 		</card>
 		<card name="Ganbarat, Martial Artist of the Forest" id="38860409-e98f-447e-b89a-8f356d0dffba">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="1" />
 			<property name="Type" value="Creature" />
@@ -401,6 +439,7 @@
 			<property name="Number" value="33" />
 		</card>
 		<card name="Flash Gear - Lightning Helmet" id="2768df74-224e-4a16-ab85-ac56cafafa99">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Cross Gear" />
@@ -411,6 +450,7 @@
 			<property name="Number" value="34" />
 		</card>
 		<card name="Dalmandy, Snow Fortress" id="20f153f7-7ad5-45f9-9928-8bd657df3178">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Fortress" />
@@ -421,6 +461,7 @@
 			<property name="Number" value="35" />
 		</card>
 		<card name="Brunhilde, Ghost Knight" id="930811dc-f2e2-4c66-94dd-86e905add31d">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Evolution Creature" />
@@ -431,6 +472,7 @@
 			<property name="Number" value="36" />
 		</card>
 		<card name="Reesa, Spirit of Infinity" id="673d45f8-3409-4435-92fa-087d17174008">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -441,6 +483,7 @@
 			<property name="Number" value="37" />
 		</card>
 		<card name="Lord Silver, Thunder Mecha King" id="e578c108-6d8e-4ded-80b8-7ef662853414">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -451,6 +494,7 @@
 			<property name="Number" value="38" />
 		</card>
 		<card name="Spark Sunshine" id="bee640ba-5d2f-4cb1-bcdb-0316ad43db49">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
@@ -461,6 +505,7 @@
 			<property name="Number" value="39" />
 		</card>
 		<card name="Lord Fuuma Guliermo, Ice Fang" id="8dcdfb97-1624-4994-b09c-b5700b5f7148">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -471,6 +516,7 @@
 			<property name="Number" value="40" />
 		</card>
 		<card name="Aqua Anchor" id="6df8fd75-d3b6-4f17-95d7-478969c2c4b2">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -481,6 +527,7 @@
 			<property name="Number" value="41" />
 		</card>
 		<card name="Kaidou Crawler, Hidden Blade" id="f93778f5-5387-45d0-9bd2-60f2ce452fbb">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -491,6 +538,7 @@
 			<property name="Number" value="42" />
 		</card>
 		<card name="Medetine, New Year Electro-knight" id="3125f921-6547-41a0-87bb-8c43d786eaea">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="1" />
 			<property name="Type" value="Creature" />
@@ -501,6 +549,7 @@
 			<property name="Number" value="43" />
 		</card>
 		<card name="Sir Virginia, Mystic Light Insect" id="5ca4b891-723b-40e9-8783-eafdf8a6b94b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -511,6 +560,7 @@
 			<property name="Number" value="44" />
 		</card>
 		<card name="Rose Avacoom, Prince of the Demonic Eye" id="ddde86bb-c536-4f2a-b868-f829b5136c74">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -521,6 +571,7 @@
 			<property name="Number" value="45" />
 		</card>
 		<card name="Kodamanma, All-Devouring Puppet" id="0da804ea-69ea-4531-bef0-e4de5c96e1d8">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -531,6 +582,7 @@
 			<property name="Number" value="46" />
 		</card>
 		<card name="Drum Treble, of the Mystic Light" id="c4235746-ac96-404e-b4c0-d50cc2d50fa7">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -541,6 +593,7 @@
 			<property name="Number" value="47" />
 		</card>
 		<card name="Magma Chopster" id="c6174e74-dd91-44d9-a4a7-037f024c9a26">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -551,6 +604,7 @@
 			<property name="Number" value="48" />
 		</card>
 		<card name="Izayoi, Raging Crimson Lord" id="a9f5af3d-c5db-4e22-ad60-f06f1b6e0dea">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -561,6 +615,7 @@
 			<property name="Number" value="49" />
 		</card>
 		<card name="Phantom Beast Flame Dance" id="65bbab67-eea3-4b3f-b7d6-8fbcee8c2e86">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
@@ -571,6 +626,7 @@
 			<property name="Number" value="50" />
 		</card>
 		<card name="Magic Shot - Explosive Strike" id="56786621-3b55-4338-a55e-885e01d110f1">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
@@ -581,6 +637,7 @@
 			<property name="Number" value="51" />
 		</card>
 		<card name="Senpoon, Invoked by the Hidden Earth" id="9a1f7b57-0006-47c0-9176-541630c1e9b9">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -591,6 +648,7 @@
 			<property name="Number" value="52" />
 		</card>
 		<card name="Bucket Bucket, Fairy of the Enduring Snow" id="5ce0cb1c-771f-4afc-b0cc-03057cc605bb">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -601,6 +659,7 @@
 			<property name="Number" value="53" />
 		</card>
 		<card name="Hijikata Giant" id="e84a9bce-515d-47a8-a4cc-a12ec8f8fc85">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -611,6 +670,7 @@
 			<property name="Number" value="54" />
 		</card>
 		<card name="Rondo of the Beasts" id="2f1698fb-3bac-4ae1-a9b4-cc25adef7c31">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="1" />
 			<property name="Type" value="Spell" />

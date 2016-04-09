@@ -21,6 +21,7 @@
 	</packaging>
 	<cards>
 		<card name="Vorse Red Fire Dragon" id="e025cee0-d509-470c-87fe-f9ac9a3e8c9c">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -32,6 +33,7 @@
 		</card>		
 
 		<card name="Terradragon Zalberg" id="fd6db651-ecb6-444e-a822-e65f1e479f43">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="9" />
 			<property name="Type" value="Creature" />
@@ -43,6 +45,7 @@
 		</card>		
 
 		<card name="Kicky Yacoopy" id="4f42ed91-688b-4a12-9c64-9e52212f5d41">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -54,6 +57,7 @@
 		</card>		
 
 		<card name="Alshia, Spirit of Novas" id="e420560f-2a5e-496b-ba4e-ff09e78bf886">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -65,6 +69,7 @@
 		</card>		
 
 		<card name="Gett's Saw" id="1698581f-e5fa-4bfa-9544-fbd5cf84c843">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -76,6 +81,7 @@
 		</card>		
 
 		<card name="Glider Man" id="ce93ce93-beb5-4a74-88fa-bb7baa136af5">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -87,6 +93,7 @@
 		</card>		
 
 		<card name="Streaming Tutor" id="10dcbbea-37d8-4a20-899a-f0db12dcc3c0">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -98,6 +105,7 @@
 		</card>		
 
 		<card name="Rainbow Arrow" id="b732afae-9572-419f-ad09-8f6bedbfb19d">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -109,6 +117,7 @@
 		</card>		
 
 		<card name="Blossom Trap" id="ddb3818e-b3b6-4648-abcd-5801eb485ea9">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -120,6 +129,7 @@
 		</card>		
 
 		<card name="Blue Dinosaur Lunatron" id="c721b4d5-1777-429e-8078-b64391c56d97">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -131,6 +141,7 @@
 		</card>		
 
 		<card name="Necrodragon Bagrazard" id="57a749e8-c8db-44ea-a012-eab88309a9b4">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -142,6 +153,7 @@
 		</card>		
 
 		<card name="Fire Barett, Armed Soldier" id="df2ef100-2d8d-4a8a-85b0-ee4112b5c127">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -153,6 +165,7 @@
 		</card>		
 
 		<card name="Construction Mutant" id="57925086-6eb7-4e1e-abe6-797fe89f4c47">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -164,6 +177,7 @@
 		</card>		
 
 		<card name="Forest Sword, Great Hero" id="edd69ce2-3499-4ccb-8d68-cd3904cb390f">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -175,6 +189,7 @@
 		</card>		
 
 		<card name="Necrodragon Bazradyuda" id="56bf9a01-ea95-48a6-ac85-5f8affedce7b">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -186,6 +201,7 @@
 		</card>		
 
 		<card name="Gigajiras" id="f64abfbf-dfea-4ae6-b45f-a27138203460">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -197,6 +213,7 @@
 		</card>		
 
 		<card name="Fist Blader" id="8b619595-3387-4859-b938-37969ac32562">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="1" />
 			<property name="Type" value="Creature" />
@@ -208,6 +225,7 @@
 		</card>
 
 		<card name="Dark Hydra, Evil Planet Lord" id="047f666f-35e0-41af-a8af-7d2b3618b793">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -219,6 +237,7 @@
 		</card>
 
 		<card name="Mirror Force Dragon" id="1c93a584-ead8-422a-b96a-de0e4054d0a6">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -230,6 +249,7 @@
 		</card>		
 
 		<card name="Azelzard, Devil Emperor" id="4d2d570d-313b-4a50-9935-9b20f80ee51e">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -241,6 +261,7 @@
 		</card>
 
 		<card name="Soldarios, Holy Emperor" id="7ee6d441-c07d-4115-b9ec-a022cdb4e04b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -252,6 +273,7 @@
 		</card>
 
 		<card name="Dragrunder, Thunderous Dragonic Phoenix " id="d451c1d9-b0b7-4049-960e-fc07461695da">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -263,6 +285,7 @@
 		</card>
 
 		<card name="Invincible Mecha Grandiver X" id="dec0014b-5754-4f3e-8180-a37cae41a12f">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
@@ -274,6 +297,7 @@
 		</card>
 
 		<card name="Braveheart Dragoon" id="dc6e92bb-b8da-4392-a091-c72dad3d2c14">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -285,6 +309,7 @@
 		</card>
 
 		<card name="Uberdragon Bajulaterra" id="9ea81d7c-d330-4c05-9fd4-a2bcebcbadc8">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="9" />
 			<property name="Type" value="Evolution Creature" />
@@ -296,6 +321,7 @@
 		</card>
 
 		<card name="Flameburn Dragon" id="24f64866-17bc-4de0-8165-b6fe837f3dcc">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -307,6 +333,7 @@
 		</card>
 
 		<card name="Flameburn Dragon" id="83f84b4a-00f5-49f6-a580-91054d84afae">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -318,6 +345,7 @@
 		</card>
 
 		<card name="Cassiopeia Story, Holy Emperor" id="beef5856-ea82-4e73-8010-7557c888f72b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
@@ -329,6 +357,7 @@
 		</card>
 
 		<card name="Zack Pichi, Winged Dragon Admiral" id="a6de4559-ebc1-4c07-9bc9-ecf6b427d72e">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -340,6 +369,7 @@
 		</card>
 
 		<card name="Zack Pichi, Winged Dragon Admiral" id="c4aef97a-a61f-4133-b648-f596a6a468af">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -351,6 +381,7 @@
 		</card>
 
 		<card name="Over Skill, Rampaging Machine" id="a7b31547-72d6-4ba2-a826-2f4d92f3a1fe">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -362,6 +393,7 @@
 		</card>
 
 		<card name="Vajuta, Demon of Chaos" id="e77f0405-e6f4-4661-b812-96cacdd85594">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -373,6 +405,7 @@
 		</card>
 
 		<card name="Mint Shuval, Oracle Guardian" id="48d25c20-4077-4476-a536-7eb572d3a82a">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -384,6 +417,7 @@
 		</card>
 
 		<card name="Fuuma Agassion" id="1e08aed9-3871-4f7c-8607-b9bf1047cbb3">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -395,6 +429,7 @@
 		</card>
 
 		<card name="Grenbelk, Devil Emperor" id="6d798732-6d87-4337-b3f5-daa220283e24">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution creature" />
@@ -406,6 +441,7 @@
 		</card>
 
 		<card name="Gantora Maxivus" id="0a4161d2-ad17-4ea9-8cd4-72e754714c24">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -417,6 +453,7 @@
 		</card>
 
 		<card name="Kenji Panda Nelra, Tyrannical Shogun" id="0af23c03-bc89-4021-9b2a-00d09bf704e4">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution creature" />
@@ -428,9 +465,10 @@
 		</card>
 
 		<card name="1st Lt. Pen Pen, Special Forest Commander" id="dd50976e-e060-4b20-ae8a-df5030463b2b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="2" />
-			<property name="Type" value="Evolution creature" />
+			<property name="Type" value="Creature" />
 			<property name="Race" value="Dreammate" />
 			<property name="Rules" value="Each of your other Dreammates gets +1000 power.&#xd;&#xa;Whenever your other Dreammates would be destroyed, put them into your mana zone instead." />
 			<property name="Power" value="1000" />
@@ -439,6 +477,7 @@
 		</card>
 
 		<card name="Bolmeteus 'Kensei' Dragon" id="73da961d-5038-4d40-b8aa-febdc6ee93f8">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -448,9 +487,9 @@
 			<property name="Rarity" value="None" />
 			<property name="Number" value="1" />
 		</card>
-
 
 		<card name="Bolmeteus 'Kensei' Dragon" id="99ce0943-65a8-4beb-aa21-af115bc97bfb">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -461,8 +500,8 @@
 			<property name="Number" value="1" />
 		</card>
 
-
 		<card name="Wind Blade - Kamikaze Spirit" id="deebc623-9da3-41a9-9036-5b0e4561e5dd">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Cross Gear" />
@@ -473,8 +512,8 @@
 			<property name="Number" value="1" />
 		</card>
 
-
 		<card name="Dragon Blade - Yamato Spirit" id="63ba3fd1-b3a0-4727-b95e-6be8dd7ead4b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Cross Gear" />
@@ -485,8 +524,8 @@
 			<property name="Number" value="1" />
 		</card>
 
-
 		<card name="Thunder Blade - Bushido Spirit" id="80f41d5f-9859-482e-bbfe-c822442968a5">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Cross Gear" />
@@ -498,6 +537,7 @@
 		</card>
 
 		<card name="Bolggenpac, Armed Dragon" id="c431c565-8080-421e-b68b-ee6fb1b5a748">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -508,8 +548,8 @@
 			<property name="Number" value="1" />
 		</card>
 
-
 		<card name="Shishio, Armed Swordsman" id="6af21fdc-dc7a-47bd-b961-58d571753173">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -521,6 +561,7 @@
 		</card>
 
 		<card name="Julius, Thunder Elemental" id="c1c638fc-9aa9-4c65-82cf-643a173d0355">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -532,6 +573,7 @@
 		</card>
 
 		<card name="Gatling Force Dragon" id="02d517e2-6e1d-40d4-9ee4-8a2257af802e">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -543,6 +585,7 @@
 		</card>
 
 		<card name="Lupia Lapia" id="af19a159-6342-4358-a45e-d08fc70be752">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -554,6 +597,7 @@
 		</card>
 
 		<card name="Lord Reis, Spirit of Wisdom" id="f4654889-1525-4686-bacf-2826638904f1">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light/Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -565,6 +609,7 @@
 		</card>
 
 		<card name="Mil Armor, Mecha King Vizier" id="314605d0-7f04-4fbb-a8ee-1720b15a189d">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light/Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -576,6 +621,7 @@
 		</card>
 
 		<card name="Suva, Emperor of the Gods" id="c77769c4-d078-4e09-b641-ec44a65c894e">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -587,6 +633,7 @@
 		</card>
 
 		<card name="Vishu, Emperor of the Gods" id="5c711d7e-bd61-4865-8026-879cad6e0c29">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -598,6 +645,7 @@
 		</card>
 
 		<card name="Death, Destruction God" id="755d9eed-06d8-4233-8a2a-eeb48ade6a93">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness/Fire" />
 			<property name="Cost" value="10" />
 			<property name="Type" value="Creature" />
@@ -609,6 +657,7 @@
 		</card>
 
 		<card name="Heavy, Dragon God" id="a1d49a6d-a114-4788-942f-a2a0edcfc471">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -620,6 +669,7 @@
 		</card>
 
 		<card name="Metal, Dragon God" id="93a08d95-497e-40d2-83bb-63f35f1ea478">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -631,6 +681,7 @@
 		</card>
 
 		<card name="Magic Shot - Glory Gate" id="e0bdb051-fe13-4066-a66f-43b13425e3f9">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
@@ -642,6 +693,7 @@
 		</card>
 
 		<card name="Dark Soul Creation" id="9ec9cdec-1859-4dcd-996f-40580de59697">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
@@ -653,6 +705,7 @@
 		</card>
 
 		<card name="Dark Soul Creation" id="462e2914-f21b-4ba2-a511-aa4b5a7ea7ed">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
@@ -664,6 +717,7 @@
 		</card>
 
 		<card name="Magic Shot - Arcadia Egg" id="cada7b8a-200e-40b3-99dc-6d6943671b0e">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -675,6 +729,7 @@
 		</card>
 
 		<card name="Nero Gryphis, Mystic Light Emperor" id="16810da1-ffda-47f8-9192-e999ee076afc">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -686,6 +741,7 @@
 		</card>
 
 		<card name="Gregorias, Mystic Light Death Saint" id="94eb5fc0-a451-4d7d-9190-9d627076cae5">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -697,6 +753,7 @@
 		</card>
 
 		<card name="Rock Romanoff, the Wicked God" id="6e4921d6-99b5-411c-92d1-fa4edb88f2d0">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Darkness" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Evolution Creature" />
@@ -708,6 +765,7 @@
 		</card>
 
 		<card name="Chester Romanoff, the Wicked God" id="b0f467b4-a45d-4392-b9ec-7569b7a8a749">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
@@ -719,6 +777,7 @@
 		</card>
 
 		<card name="Mad Romanoff, the Wicked God" id="cb0bc036-4992-4e5b-91bb-1b97d6663279">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -730,6 +789,7 @@
 		</card>
 
 		<card name="Earth Eternity Gate" id="6ad80e64-bd42-4cdf-986a-3c04ae9fcfab">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness/Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
@@ -741,6 +801,7 @@
 		</card>
 
 		<card name="Earth Eternity Gate" id="84c628be-bdd0-49ec-88e4-574b197b5c1e">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness/Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
@@ -752,6 +813,7 @@
 		</card>
 
 		<card name="God Bringer" id="920f0571-31b3-4fe5-898f-3669bc08f185">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="10" />
 			<property name="Type" value="Spell" />
@@ -763,6 +825,7 @@
 		</card>
 
 		<card name="Primal Scream" id="cf4f50a7-5821-4ded-920d-e8a35919e819">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
@@ -774,6 +837,7 @@
 		</card>
 
 		<card name="Evolution Burst - Death and Rebirth" id="e81715bc-16d0-41c9-aa1b-d82c49a7d5b4">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness/Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
@@ -785,6 +849,7 @@
 		</card>
 
 		<card name="Dragon Gear - Sword Flash Legend" id="87d55c40-80e8-4df9-a9f1-49bfca1b7c8a">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Cross Gear" />
@@ -796,6 +861,7 @@
 		</card>
 
 		<card name="Whitecrane Zack, Lord of the Skies" id="04107c6d-49b4-4766-8747-ebe436d5c4f4">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -807,6 +873,7 @@
 		</card>
 
 		<card name="Pipippi, Electro-Riser" id="29d8bcde-2380-4689-9b2e-ace92e37ce0c">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Water" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -818,6 +885,7 @@
 		</card>
 
 		<card name="Saga, the Almighty Creator" id="fd31717c-9dab-4477-96fc-7f7eb351cec5">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water/Nature" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -829,6 +897,7 @@
 		</card>
 
 		<card name="Dark Division, Demonic Eye Beast" id="2f7a1b92-f0ab-4160-a279-6343ae9b7589">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness/Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -840,6 +909,7 @@
 		</card>
 
 		<card name="Magmadragon Balga Geyser" id="9cee0ac0-97b1-419e-83f2-e8d034f1be10">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -850,8 +920,8 @@
 			<property name="Number" value="1" />
 		</card>
 
-
 		<card name="Magmadragon Balga Geyser" id="852acd17-4095-455f-b45d-f3933379888f">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -863,6 +933,7 @@
 		</card>
 
 		<card name="Maxval, Electro-Fuuma" id="71913654-b5bd-4d93-8a61-189ca4d0341b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water/Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -874,6 +945,7 @@
 		</card>
 
 		<card name="Bolgress Bazz, Matchless Dragon Machine" id="3ced3501-5cca-42d6-b357-5b0796f6c89b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -885,6 +957,7 @@
 		</card>
 
 		<card name="Necrodragon Dobolzack" id="4d12e01b-43e8-417b-bce4-ed7bc8ab9ab8">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -896,6 +969,7 @@
 		</card>
 
 		<card name="Bloody Dragoon" id="a7aadea0-621c-402b-9838-d7bb75a40801">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -907,6 +981,7 @@
 		</card>
 
 		<card name="God Lupia" id="68cbc121-7a2c-4ee8-8fff-b79ad3eac876">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -918,6 +993,7 @@
 		</card>
 
 		<card name="Endra Pappi" id="418b281d-c15d-46ac-9d54-6c19fb87dd7c">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -929,6 +1005,7 @@
 		</card>
 
 		<card name="Impact of Heavenly Violence" id="bcdd0e65-a8f4-46ed-8cfd-aa5445e808a1">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Light" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Spell" />
@@ -940,6 +1017,7 @@
 		</card>
 
 		<card name="Saint Bolshack, Spiritual Dragon" id="23ef41e6-cf58-4bac-bc91-6ecf12cb99fc">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Light" />
 			<property name="Cost" value="9" />
 			<property name="Type" value="Creature" />
@@ -951,6 +1029,7 @@
 		</card>
 
 		<card name="Phantom Spear Zircon" id="e3d72d31-a162-4e90-8393-c7176e5913ea">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water/Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -962,6 +1041,7 @@
 		</card>
 
 		<card name="Infinity 'Hidden Blade' Dragon" id="9ef5af67-ec64-470e-8f1a-2940f87a1174">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -973,6 +1053,7 @@
 		</card>
 
 		<card name="Geo Goctra, Armed Dragon" id="ced6de49-8305-49d8-9d05-317b19a4be95">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -984,6 +1065,7 @@
 		</card>
 
 		<card name="Bloody Shadow, Mystic Light Death Knight" id="be73e82d-6da3-41b2-9218-29c06ce8f8c9">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -995,6 +1077,7 @@
 		</card>
 
 		<card name="Grand Cross 'Iron Cleaver' Dragon" id="74bbe854-d34c-40f8-91df-37e6fdda98c4">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1006,6 +1089,7 @@
 		</card>
 
 		<card name="Valkyrie 'Windbreaker' Dragon" id="8d34480b-abbd-4d48-addd-0b25391075fb">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1017,6 +1101,7 @@
 		</card>
 
 		<card name="Ivan the 2nd, Demonic Eye Gunman" id="80d9765b-c675-42d8-997f-476aa32a682e">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1028,6 +1113,7 @@
 		</card>
 
 		<card name="Necrodragon Metal Zangilas" id="36e16d73-5f9c-481a-93d4-4dd383f0a4d1">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1039,6 +1125,7 @@
 		</card>
 
 		<card name="Balga Raiser, the Dragonic Meteor" id="192a4b5d-48c6-4ded-9795-adcf15d797c7">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -1050,6 +1137,7 @@
 		</card>
 
 		<card name="Ailfreet, Spirit of the Holy Gates" id="f61be9d8-dbac-4ca6-a93a-0d02068c16a1">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -1061,6 +1149,7 @@
 		</card>
 
 		<card name="Ulcelios, Spirit of the Holy Core" id="7d7b195c-7c02-486f-a762-1905cc3f5bb3">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -1072,6 +1161,7 @@
 		</card>
 
 		<card name="Black Lucifer, Sorcerer of Darkness" id="5a053697-f994-4624-b8dd-bcd81372f19c">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1083,6 +1173,7 @@
 		</card>
 
 		<card name="Super Necrodragon Lunarzberg" id="abc3bd70-7a83-46f8-a828-d583ed2f5236">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -1094,6 +1185,7 @@
 		</card>
 
 		<card name="Bari Bari Miracle" id="79a3d574-549c-48f3-adb5-d590171321f1">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light/Water/Darkness/Fire/Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1105,6 +1197,7 @@
 		</card>
 
 		<card name="Grave Deal, Pure Flame Shadow" id="c9240f84-6905-4c17-b9f9-05e68e47dce3">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1116,6 +1209,7 @@
 		</card>
 
 		<card name="Grave Deal, Pure Flame Shadow" id="f81bfc12-41b3-4ae5-8aa6-787a89de24a7">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1127,6 +1221,7 @@
 		</card>
 
 		<card name="Flamewing Dragon" id="bfdd7449-c08b-4149-8c7b-a3cda1f086c5">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1138,6 +1233,7 @@
 		</card>
 
 		<card name="Galaxy Lupia" id="58de11b7-55ac-42f6-864f-8f646497301f">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -1149,6 +1245,7 @@
 		</card>
 
 		<card name="Fortress NEX, Assault Fortress" id="4bf93076-48de-4fd9-a20e-fe63f7494ab3">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Fortress" />
@@ -1160,6 +1257,7 @@
 		</card>
 
 		<card name="Valkyrie Lupia, Sky Lord Dragonmech" id="62dba49a-1452-4a14-a065-b81f01c97fff">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -1171,6 +1269,7 @@
 		</card>
 
 		<card name="Original Heart, the New Moon Pulses" id="a250d8a4-a4d5-423c-add5-5b9b833e8808">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water/Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Fortress" />
@@ -1182,6 +1281,7 @@
 		</card>
 
 		<card name="Melgainer, Electro-Spectre" id="ee14da82-9830-4baa-8040-8e85ef5a3177">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water/Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -1193,6 +1293,7 @@
 		</card>
 
 		<card name="Great Ashikaga, Wicked General" id="354b5d49-3e66-4599-ac68-8d37afd2808a">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1204,6 +1305,7 @@
 		</card>
 
 		<card name="Orgaiza, Dark Demon of the Evil Fortress" id="9637fff9-144f-49cf-aea8-e7b83aada6cd">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1215,6 +1317,7 @@
 		</card>
 
 		<card name="Asteroid Luxus, Shower of Light" id="3befa0ff-4216-4c56-9f31-1ccbaa408b7f">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -1226,6 +1329,7 @@
 		</card>
 
 		<card name="Amnis, Holy Elemental" id="5f6d4906-1f2b-455a-a620-992dfa6c3673">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1237,6 +1341,7 @@
 		</card>		
 
 		<card name="Giliam, The Tormentor" id="b02fb837-3b16-4480-9408-49c710c9217d">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1248,6 +1353,7 @@
 		</card>
 		
 		<card name="Brigade Shell Q" id="80f04b78-bcd4-418f-8429-88dee42a522d">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1259,6 +1365,7 @@
 		</card>
 		
 		<card name="Super Dragon Machine Dolzark" id="b78076a1-eecf-4cc1-9bbc-009b90930edf">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1270,6 +1377,7 @@
 		</card>
 
 		<card name="Super Dragon Machine Dolzark" id="de4c01ce-5f8c-4332-8953-dbb2c9d18ab2">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1281,6 +1389,7 @@
 		</card>
 		
 		<card name="Olgate, Nightmare Samurai" id="ff54e307-7097-4b12-9c35-e06307f61e74">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1292,6 +1401,7 @@
 		</card>
 		
 		<card name="Q-tronic Omnistrain" id="4c2e1260-29a9-4645-939a-012fa9df932f">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -1303,6 +1413,7 @@
 		</card>
 		
 		<card name="Dyno Mantis, The Mightspinner" id="7e9eddab-97ea-4b14-8e43-ede104dbf99a">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -1314,6 +1425,7 @@
 		</card>
 		
 		<card name="Armored Valborg" id="e9a62043-5346-4584-bb61-84828af444f9">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Evolution Creature" />
@@ -1325,6 +1437,7 @@
 		</card>
 		
 		<card name="Velyrika Dragon" id="6c562252-75d9-4723-8316-e3dc4a303e3d">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1336,6 +1449,7 @@
 		</card>
 		
 		<card name="Uberdragon Zaschack" id="ec5bdb88-895a-4ca8-8f83-0cd99d24c765">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="9" />
 			<property name="Type" value="Evolution Creature" />
@@ -1347,6 +1461,7 @@
 		</card>
 
 		<card name="Brain Serum" id="7f225860-af37-47ac-9b36-1480872576b6">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
@@ -1358,6 +1473,7 @@
 		</card>
 
 		<card name="Future Slash" id="b455c70a-bcac-4063-9bc3-9793b7365b66">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Spell" />
@@ -1369,6 +1485,7 @@
 		</card>
 
 		<card name="Terradragon Soulgardas" id="eac79388-1cc6-456b-8e41-e931112f3cc9">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1380,6 +1497,7 @@
 		</card>
 
 		<card name="Psychic Shaper" id="14609828-6c61-441a-aa76-c436bf2c6b00">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
@@ -1391,6 +1509,7 @@
 		</card>
 
 		<card name="Glaris, Electro-Spirit" id="05c47a4a-aca7-4bc2-858d-15599c34ee19">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Light/Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -1402,6 +1521,7 @@
 		</card>
 
 		<card name="Astral Warper" id="187a6327-b0e0-42a3-8cae-9293b41927ac">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -1413,6 +1533,7 @@
 		</card>
 
 		<card name="Angila, Electro-Mask" id="774ee0bb-0dcc-4213-8217-534cfab303fe">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Water/Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1424,6 +1545,7 @@
 		</card>
 
 		<card name="Galzark, Divine Destruction Dragonmech" id="8a447cbb-a303-4327-80f9-117e0795a997">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness/Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1435,6 +1557,7 @@
 		</card>
 
 		<card name="Saberfili, the Paladin" id="2aab221b-b1ed-40ba-878d-a1c92cfc06cf">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -1446,6 +1569,7 @@
 		</card>
 
 		<card name="Necrodragon Zekira" id="5694f7de-6f43-4c73-bd13-5a529b10f470">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1457,6 +1581,7 @@
 		</card>
 
 		<card name="Zardia, Spirit of Bloody Winds" id="600eddff-520f-4195-a2f2-605ef6c3ea71">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Light/Fire" />
 			<property name="Cost" value="9" />
 			<property name="Type" value="Creature" />
@@ -1469,6 +1594,7 @@
 
 
 		<card name="Gravity Dragon" id="293b1635-fe60-4a0a-b4bb-752866a8cd5e">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1480,6 +1606,7 @@
 		</card>
 
 		<card name="Kamikaze Zephyr" id="f1d269b6-516e-4b28-ba9d-302b71b893bd">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Evolution Creature" />
@@ -1491,6 +1618,7 @@
 		</card>
 
 		<card name="Marinomancer" id="8155edc9-5ab2-4295-95e4-2cd07c438e61">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -1502,6 +1630,7 @@
 		</card>
 
 		<card name="Forte, Brave Fear Lord" id="1ed1889a-fbbb-4fd8-ab52-c7589b0dd018">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness/Fire" />
 			<property name="Cost" value="10" />
 			<property name="Type" value="Creature" />
@@ -1513,6 +1642,7 @@
 		</card>
 
 		<card name="Dark Jios, Lord of Dark Dragons" id="a4568ee5-1894-4f2b-8e77-55c376797dbb">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1524,6 +1654,7 @@
 		</card>
 
 		<card name="Neo Bolshack Dragon" id="b6bf1e13-1018-409b-b425-4cc23536a2c0">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -1535,6 +1666,7 @@
 		</card>
 
 		<card name="Leopard Glory Sword" id="d3f67040-cece-44c9-afbc-2ab7d860b54a">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Cross Gear" />
@@ -1546,6 +1678,7 @@
 		</card>
 
 		<card name="Magmadragon Gardos" id="d13ed1db-47e1-407f-9806-ad0c69bbf43a">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1557,6 +1690,7 @@
 		</card>
 
 		<card name="Helios Tiga Dragon" id="f0deb2fa-6ff6-482f-a8a8-47e1ecf55158">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1568,6 +1702,7 @@
 		</card>
 
 		<card name="Dark Salamandaz, White Tiger Swordsman" id="bc0fb446-60cc-4173-b285-c7ab72aed99c">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1579,6 +1714,7 @@
 		</card>
 
 		<card name="Shining Nova, Dragon Flame Phoenix" id="fe00ddd6-ad76-4d37-9337-94450c965ac4">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
@@ -1590,6 +1726,7 @@
 		</card>
 
 		<card name="Demonic Vice" id="d98a5940-7a7b-494c-a01c-344f955f0189">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -1601,6 +1738,7 @@
 		</card>
 
 		<card name="Priusriser, Spirit Knight" id="5122c996-ec44-4caa-828a-a28b3d90d039">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -1612,6 +1750,7 @@
 		</card>
 
 		<card name="Flamenimal of Wildfire" id="3f436235-06e8-4886-af62-a21a26aef1fb">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -1623,6 +1762,7 @@
 		</card>
 
 		<card name="Fuuma Abyss Magmoor" id="e5b91fd2-cf3d-4fca-b830-1e669e379ff6">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1634,6 +1774,7 @@
 		</card>
 
 		<card name="Commander Lucky Lottofive" id="ef4cd888-abd0-4384-b475-a365b3d51223">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -1645,6 +1786,7 @@
 		</card>
 
 		<card name="Meteor Flash Dragoon" id="6c77b8a9-a41d-41b0-9814-531255fc589b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -1656,6 +1798,7 @@
 		</card>
 
 		<card name="Wheel Warrior W, Invincible Warrior" id="8a46c2f3-f2c7-449e-ae3e-5b23e2e855c5">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -1667,6 +1810,7 @@
 		</card>
 
 		<card name="Jamseal, Spirit Knight" id="3cd95f04-9b2f-42cb-bbe5-b9505bad0566">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1678,6 +1822,7 @@
 		</card>
 
 		<card name="Paladin S, Invincible Warrior" id="da3d3731-8b97-4919-9972-18bdc1851939">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="1" />
 			<property name="Type" value="Evolution Creature" />
@@ -1689,6 +1834,7 @@
 		</card>
 
 		<card name="Fuuma Daidologinus" id="7482458c-ea97-474a-9bcc-54dde25bf440">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1700,6 +1846,7 @@
 		</card>
 
 		<card name="Flaremetal Dragoon" id="d953602a-556e-4263-9086-92073d2860d4">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1711,6 +1858,7 @@
 		</card>
 
 		<card name="Banjo, the Super-energetic" id="e1178e21-6946-46d5-b848-3bef7180dfb7">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -1722,6 +1870,7 @@
 		</card>
 
 		<card name="Fuuma Fernodalos" id="af5c05d8-5cfb-4a4e-9a5e-61d2ae9359c1">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -1733,6 +1882,7 @@
 		</card>
 
 		<card name="Bolmeteus Red Dragoon" id="60a9d53f-2f52-49ba-b597-a3dd27b3b78e">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -1744,6 +1894,7 @@
 		</card>
 
 		<card name="Diamond Glorius, Light Divine Dragon" id="3a688a05-687c-4343-90cf-831a9870b08b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -1755,6 +1906,7 @@
 		</card>
 
 		<card name="Diamond Glorius, Light Divine Dragon" id="a113f5c4-8ea3-4698-9b2a-d2169fd6607c">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -1766,6 +1918,7 @@
 		</card>
 
 		<card name="Supernova Ixion Burning Rave" id="985ba2fc-007a-46d6-889b-0286065024f8">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -1777,6 +1930,7 @@
 		</card>
 
 		<card name="Vilan Legius, Battle Dragon" id="f5b9b0e6-7b69-4491-86c8-f16895aa666a">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -1788,6 +1942,7 @@
 		</card>
 
 		<card name="Balzack, Military Flame God" id="67a13371-fba8-4ad3-9e11-03086d51b2d2">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -1799,6 +1954,7 @@
 		</card>
 
 		<card name="Olmegas, Military Earth God" id="2bf009b7-e5c4-49f4-ad55-56883bd16c16">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -1810,6 +1966,7 @@
 		</card>
 
 		<card name="Zeek Calibas, the Fuuma Holy Dragon" id="eb22fa4d-1f42-421d-bfe5-427028c9d2cc">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1821,6 +1978,7 @@
 		</card>
 
 		<card name="Orgias, Champion of the Evil Fortress" id="bf4f9a63-3660-4804-819e-9f3d7c8bd304">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -1832,6 +1990,7 @@
 		</card>
 
 		<card name="Valgazak, Matchless Dragonmech" id="2b172064-c0b6-4524-974b-838261ae9006">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1843,6 +2002,7 @@
 		</card>
 
 		<card name="Gaius, Mystic Light Emperor" id="f217ab39-19cd-4094-b8b5-1154f9adc6bd">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1854,6 +2014,7 @@
 		</card>
 
 		<card name="Balga Zenigata, Armed Dragon" id="0cedee59-ffe2-4860-a5f6-3bd7895f2624">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1865,6 +2026,7 @@
 		</card>	
 
 		<card name="Gordnov the 5th, Demonic Eyed Death Dragon" id="0d0066e0-e560-4b24-ad46-8895db471d31">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1876,6 +2038,7 @@
 		</card>	
 
 		<card name="Overkill Zero Dragon" id="be9689b6-d3b2-4720-83ca-421e9eab8c2d">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -1887,6 +2050,7 @@
 		</card>
 
 		<card name="Uberdragon Bolmeteus Crimson" id="ff683682-abdc-4007-87d9-4bed2c3e1872">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Evolution Creature" />
@@ -1898,6 +2062,7 @@
 		</card>	
 
 		<card name="Cerulean Dagger Dragon" id="064d8062-939d-4832-b48d-84a182f5dbb1">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1909,6 +2074,7 @@
 		</card>
 
 		<card name="Varz Romanoff, Dark Lord of Demons" id="710e3158-5264-413f-bacd-da3b47be1c42">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
@@ -1920,6 +2086,7 @@
 		</card>
 
 		<card name="Valkerios Samurai Dragon" id="a7b0c7fd-c8fa-47d9-8dfe-77fcb69359d8">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1931,6 +2098,7 @@
 		</card>
 
 		<card name="Geometeus Infinite Dragon" id="9bef360b-2a14-44d1-9b3c-66eff50c5da9">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -1942,6 +2110,7 @@
 		</card>
 
 		<card name="Bocco Lupia" id="101e3f13-e30a-4d2b-a210-78901aca6aa4">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -1953,6 +2122,7 @@
 		</card>
 
 		<card name="Bocco Lupia" id="6475dac4-0a66-40ed-b760-c276bfe4db43">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -1964,6 +2134,7 @@
 		</card>
 
 		<card name="Diamond Aven, Spirit of Awakening" id="7c32fe51-c895-48b7-a338-6ac9bbaa347a">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1975,6 +2146,7 @@
 		</card>
 
 		<card name="Inferno Sign" id="6fb58f86-935a-4d23-b669-1e7d353d0414">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -1986,6 +2158,7 @@
 		</card>
 
 		<card name="Inferno Sign" id="595c6576-d9c8-4947-aa2e-519dc41b5b81">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -1997,6 +2170,7 @@
 		</card>
 
 		<card name="Bolmeteus Sapphire Dragon" id="3f82c55e-5b71-4202-bf74-b4299614d32e">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="10" />
 			<property name="Type" value="Creature" />
@@ -2008,6 +2182,7 @@
 		</card>
 
 		<card name="Terror Pit" id="3ba0bda8-9ebd-4e6c-8f45-f6a4e36b7a1d">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
@@ -2019,6 +2194,7 @@
 		</card>
 
 		<card name="Terror Pit" id="fcdf992f-f4b4-4dda-af23-fbe0c47ce6d0">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
@@ -2030,6 +2206,7 @@
 		</card>
 
 		<card name="Terror Pit" id="ae1ca987-b18b-494e-9f6c-e851bf059a45">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
@@ -2041,6 +2218,7 @@
 		</card>
 
 		<card name="Terror Pit" id="95b63387-4260-4b0b-8654-1b46ed1c027b">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
@@ -2052,6 +2230,7 @@
 		</card>
 
 		<card name="Bronze-Arm Tribe" id="d0e938ec-124e-420a-9e6f-0aa44f071eca">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -2063,6 +2242,7 @@
 		</card>
 
 		<card name="Bronze-Arm Tribe" id="4a4c7646-9c5d-4635-a4a5-8d4907e55f48">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -2074,6 +2254,7 @@
 		</card>
 
 		<card name="Hell's Scrapper" id="cf495d33-05a5-4168-862e-e3a118ec79b3">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Spell" />
@@ -2085,6 +2266,7 @@
 		</card>
 
 		<card name="Hell's Scrapper" id="8e195419-e837-483b-8572-355fecf8f33e">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Spell" />
@@ -2096,6 +2278,7 @@
 		</card>
 
 		<card name="Hell's Scrapper" id="7df58fc9-716a-40d9-89b0-2210a2ce2be1">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Spell" />
@@ -2107,6 +2290,7 @@
 		</card>
 
 		<card name="Hell's Scrapper" id="726831ea-c2ba-4e98-bd83-6cc7f7bf9fb6">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Spell" />
@@ -2118,6 +2302,7 @@
 		</card>
 
 		<card name="Ultimate 'Shadow Tiger' Dragon" id="e2ae8719-8325-4c99-b29e-102085da1974">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -2129,6 +2314,7 @@
 		</card>
 
 		<card name="Ultra Miracluppi" id="be1c1447-0004-4e2e-a741-dfb47cf7e6f5">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light/Water/Fire/Darkness/Nature" />
 			<property name="Cost" value="9" />
 			<property name="Type" value="Creature" />
@@ -2140,6 +2326,7 @@
 		</card>
 
 		<card name="Greatest Earth, Planetary Dragon" id="5741304d-89b2-4ed1-a481-4a794210ef7c">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light/Water/Fire/Darkness/Nature" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -2151,6 +2338,7 @@
 		</card>
 
 		<card name="Dark Lucifer, Demonic Eyed Gunman" id="3eaf10ef-1bf4-4443-9d77-4e1a10cf7193">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -2162,6 +2350,7 @@
 		</card>
 
 		<card name="Bolbalzak 'Sword Flash' Dragon, Blue Divine Dragon" id="805cc5f5-6557-4206-ac4f-0d2830dc97ab">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -2173,6 +2362,7 @@
 		</card>
 
 		<card name="Bolbalzak 'Sword Flash' Dragon, Blue Divine Dragon" id="b519b724-3a54-4847-8ca9-7b56fec4b3d9">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -2184,6 +2374,7 @@
 		</card>
 
 		<card name="Saga, God of Destruction" id="a2be29db-97da-40bd-8ff2-9f5781e6af50">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -2195,6 +2386,7 @@
 		</card>
 
 		<card name="Aqua Surfer" id="143e624a-e4a7-4612-a4f2-f1447b25daab">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -2206,6 +2398,7 @@
 		</card>
 
 		<card name="Aqua Surfer" id="d0c9f6bb-fbf4-4ef7-aa83-c76e22eea1f0">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -2217,6 +2410,7 @@
 		</card>
 
 		<card name="Aqua Surfer" id="9a2cb13b-7a0a-4bb6-a486-c546192c5a0b">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -2228,6 +2422,7 @@
 		</card>
 
 		<card name="Aqua Surfer" id="d2e53185-db93-4d70-a412-2a87647541a7">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -2239,6 +2434,7 @@
 		</card>
 
 		<card name="Arcturis, Earth's Centurion" id="9c6f5fcc-4fba-41d6-be33-b650fb023edc">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -2250,6 +2446,7 @@
 		</card>
 
 		<card name="Reaper Gate" id="4afcae6e-9a05-40ec-8ed2-c52c3d17a7fe">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
@@ -2261,6 +2458,7 @@
 		</card>
 
 		<card name="Uberdragon Baham" id="5f2a7c71-adc0-4ea3-afb9-3c1999c2cb5e">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Evolution Creature" />
@@ -2268,10 +2466,11 @@
 			<property name="Rules" value="Evolution - Armored Dragon.&#xd;&#xa;Whenever this creature attacks your opponent's shields, this creature breaks an additional shield for each of your Dragonoids in the battle zone." />
 			<property name="Power" value="11000" />
 			<property name="Rarity" value="None" />
-			<property name="Number" value="1" />
+			<property name="Number" value="P14/Y2" />
 		</card>
 
 		<card name="Alphadios, Lord of Spirits" id="7fe5722e-3e4a-4543-b6fc-d53baf1b6704">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="10" />
 			<property name="Type" value="Evolution Creature" />
@@ -2283,6 +2482,7 @@
 		</card>
 
 		<card name="Alphadios, Lord of Spirits" id="e5b8f0d0-854e-4817-9bcc-d7bdf7ddf393">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="10" />
 			<property name="Type" value="Evolution Creature" />
@@ -2294,6 +2494,7 @@
 		</card>
 
 		<card name="Alcadeias, Lord of Spirits" id="c47db7c9-57b4-4c2c-b40d-d7553c58da39">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -2305,6 +2506,7 @@
 		</card>
 
 		<card name="Alcadeias, Lord of Spirits" id="8732f13b-07fe-4306-824e-36209739b230">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -2316,6 +2518,7 @@
 		</card>
 
 		<card name="Auzesu, the Demonic Holy Spirit" id="c5b924ad-69c1-4e7f-a672-e2ffd7eca791">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -2327,6 +2530,7 @@
 		</card>
 
 		<card name="Asylum, the Dragon Paladin" id="e68dc1e3-4a76-4902-af8c-a5c627d7c4db">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Light/Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -2338,6 +2542,7 @@
 		</card>
 
 		<card name="Dolgazer, Veteran of Hard Battle" id="38e00e38-c01b-4ea5-9c3d-d3e8b95ee91e">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Water/Nature" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -2349,6 +2554,7 @@
 		</card>
 
 		<card name="Natural Snare" id="97a855ee-1460-4f14-b0f0-46491b4b76cc">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
@@ -2360,6 +2566,7 @@
 		</card>
 
 		<card name="Petrova, Channeler of Suns" id="90806d0e-6707-47d0-8050-0354c4b4b690">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -2371,6 +2578,7 @@
 		</card>
 
 		<card name="Petrova, Channeler of Suns" id="04501ae7-54b4-4949-8771-06a940fa7bb3">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -2382,6 +2590,7 @@
 		</card>
 
 		<card name="Bloody Squito" id="7221e7c6-526e-4e3f-889f-944e8270afdb">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -2393,6 +2602,7 @@
 		</card>
 
 		<card name="Cyber Brain" id="09ca128f-4b16-4dbc-bbd0-66bf71ee7bf5">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
@@ -2404,6 +2614,7 @@
 		</card>
 
 		<card name="Death Smoke" id="d8c0c9ea-b8bc-4cde-aa3c-2ce6d701657d">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
@@ -2416,6 +2627,7 @@
 
 
 		<card name="Kratos, White Knight Admiral" id="bde98bd8-84ee-4842-b100-2cb60a72c8b3">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -2427,6 +2639,7 @@
 		</card>
 
 		<card name="Cocco Lupia" id="8217ac36-5184-463e-8a7e-38f3c8baf668">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -2438,6 +2651,7 @@
 		</card>
 
 		<card name="Faerie Life" id="91adec4d-98f8-46e7-b859-80a1f65d5472">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
@@ -2449,6 +2663,7 @@
 		</card>
 
 		<card name="Energy Stream" id="c82d5a8d-a87d-44b1-876b-645c9eb3a5ee">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
@@ -2460,6 +2675,7 @@
 		</card>
 
 		<card name="Ballom, Master of Death" id="74652d73-ab29-4c7b-84b4-de6ffdc0b363">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Evolution Creature" />
@@ -2471,6 +2687,7 @@
 		</card>
 
 		<card name="Volcano Charger" id="58de5435-b7ab-4d7e-8075-1a9a230f6c85">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
@@ -2482,6 +2699,7 @@
 		</card>
 
 		<card name="Emeral" id="31977e53-9534-4130-9fc8-c28fc5afc9ad">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -2493,6 +2711,7 @@
 		</card>
 
 		<card name="Aku, Ultimate God" id="54621340-a25d-4cc7-8801-0894d230f57e">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water/Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -2504,6 +2723,7 @@
 		</card>
 
 		<card name="Amaterasu, Founder of the Blue Wolves" id="654c5ab4-9f4b-4c4e-be5e-2c4f773d3c7a">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -2515,6 +2735,7 @@
 		</card>
 
 		<card name="Ambitious Dragon" id="a6e63ddd-c66c-41a8-8a73-5c320fa7fae4">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -2526,6 +2747,7 @@
 		</card>
 
 		<card name="Babelginus, Demonic Dragon" id="b546c319-0a68-4b5a-a1fb-b504f5d5d408">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -2537,6 +2759,7 @@
 		</card>
 
 		<card name="Baiken, Blue Dragon of the Hidden Blade" id="87f29c76-e530-487a-89b7-94d773c56da5">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -2548,19 +2771,19 @@
 		</card>
 
 		<card name="Bega, Vizier of Shadow" id="6544df7e-24c2-49b3-95b1-97c5ea197241">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Initiate/Ghost" />
-			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;When this creature is put into the battle zone, add the top card of your deck to your shields face down. Then, discard 1 card from your opponent's hand at 
-
-random." />
+			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;When this creature is put into the battle zone, add the top card of your deck to your shields face down. Then, discard 1 card from your opponent's hand at random." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="40" />
 		</card>
 
 		<card name="Boiling Blade - Dual Stinger" id="76c6a411-3f65-4fb5-a3d1-d188e30a1456">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Cross Gear" />
@@ -2572,6 +2795,7 @@ random." />
 		</card>
 
 		<card name="Milzam, Spirit of Miracles" id="77f29e79-33cf-4f9e-9fa0-b661c0560265">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="9" />
 			<property name="Type" value="Creature" />
@@ -2583,6 +2807,7 @@ random." />
 		</card>
 
 		<card name="Hanzou, Menacing Phantom" id="b6f95ca0-d838-461c-a600-3a14f81e65b1">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -2594,6 +2819,7 @@ random." />
 		</card>
 
 		<card name="Magic Shot - Romanoff Strike" id="c32b9f85-1ec9-4c20-8b1c-1f55b3e72760">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -2605,6 +2831,7 @@ random." />
 		</card>
 
 		<card name="Bolshack NEX" id="2d0d154b-d53f-4bc4-9c8a-4d7c09074850">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -2616,6 +2843,7 @@ random." />
 		</card>
 
 		<card name="Bolshack NEX" id="3d0d154b-d53f-4bc4-9c8a-4d7c09074850">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -2627,6 +2855,7 @@ random." />
 		</card>
 
 		<card name="Romanoff the 1st, Lord of the Demonic Eye" id="a1234cec-d0ee-4243-9313-db4309b37e38">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -2638,6 +2867,7 @@ random." />
 		</card>
 
 		<card name="Bolbalzak &quot;Sword Flash&quot; Dragon" id="3d1aa2c3-02ea-445b-8f19-57377e05a7b3">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -2649,6 +2879,7 @@ random." />
 		</card>
 
 		<card name="Chief De Baula, Machine King of Mystic Light" id="db7f40de-0d23-4a20-9a22-19c9aaa4cb04">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -2660,6 +2891,7 @@ random." />
 		</card>
 
 		<card name="Emperor Marco" id="33ec6a25-f5aa-4682-9ec5-c2c2b06a4960">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -2671,6 +2903,7 @@ random." />
 		</card>
 
 		<card name="Zero Phoenix, Phoenix of Darkness" id="cebd4488-cd36-40d7-8edf-8991a1faa04f">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
@@ -2682,6 +2915,7 @@ random." />
 		</card>
 
 		<card name="Violence Heaven" id="c3b88eb1-4b7e-4b33-98cd-4ccbee64a3d2">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="10" />
 			<property name="Type" value="Spell" />
@@ -2693,6 +2927,7 @@ random." />
 		</card>
 
 		<card name="Samurai Lupia" id="32f2a6e6-6384-4d67-a19c-0518816346bc">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light/Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -2704,6 +2939,7 @@ random." />
 		</card>
 
 		<card name="Queen Alcadeias, Holy Gaia" id="acd9c7eb-403d-46e0-ad14-4ce8f96d4f88">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -2715,6 +2951,7 @@ random." />
 		</card>
 
 		<card name="Qurian" id="c8d4fe22-66c2-46d3-b9c5-8a18da71967f">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -2726,6 +2963,7 @@ random." />
 		</card>
 
 		<card name="Miraculous Plague" id="b912b52a-6d6b-4997-ba2d-49468e18eb65">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Water/Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Spell" />
@@ -2736,6 +2974,7 @@ random." />
 			<property name="Number" value="S3" />
 		</card>
 		<card name="Miraculous Meltdown" id="4713abe0-27bb-475d-b94e-35d2c2fd3f79">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness/Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
@@ -2747,6 +2986,7 @@ random." />
 		</card>
 
 		<card name="Miraculous Snare" id="5d4863c7-9586-4e9a-af76-9ce1b5b332e2">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Light/Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
@@ -2758,6 +2998,7 @@ random." />
 		</card>
 
 		<card name="Ulpheus, Dragonic Spirit" id="32456a90-e77b-4a44-928b-f2f201967325">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -2769,6 +3010,7 @@ random." />
 		</card>
 
 		<card name="Bolmeteus Samurai Dragon" id="3e7893b8-2e08-4f17-b645-772d740ba0f0">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -2780,6 +3022,7 @@ random." />
 		</card>
 
 		<card name="Dorballom, Lord of Demons" id="cbc7ac02-9982-4865-8d37-64e95e7b610e">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="10" />
 			<property name="Type" value="Evolution Creature" />
@@ -2791,6 +3034,7 @@ random." />
 		</card>
 
 		<card name="Bolberg Cross Dragon" id="b387acbb-27f1-4666-ac43-bf3373fcfce4">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -2802,6 +3046,7 @@ random." />
 		</card>
 
 		<card name="Elupheus, Lord of Spirits" id="c6eb0d69-162e-400d-be54-89189ec789a0">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -2813,6 +3058,7 @@ random." />
 		</card>
 
 		<card name="Shaman Totem" id="435d91bb-a2c7-4a70-9b45-55e890856845">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -2824,6 +3070,7 @@ random." />
 		</card>
 
 		<card name="Olzekia, General of Decapitation" id="c8148927-73b9-4f40-a90e-6369196c8579">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -2835,6 +3082,7 @@ random." />
 		</card>
 
 		<card name="Super Spark" id="ab2efde5-37b9-435b-971f-ac5648b9ba05">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -2846,6 +3094,7 @@ random." />
 		</card>
 
 		<card name="Super Spark" id="bb2efde5-37b9-435b-971f-ac5648b9ba05">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -2857,6 +3106,7 @@ random." />
 		</card>
 
 		<card name="Super Spark" id="cb2efde5-37b9-435b-971f-ac5648b9ba05">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -2868,6 +3118,7 @@ random." />
 		</card>
 
 		<card name="Super Trash Train, Fuuma Devil" id="4fcf61a1-9738-4777-9890-74e6d0c2347d">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -2879,6 +3130,7 @@ random." />
 		</card>
 
 		<card name="Ultimus, Spirit of Divine Law" id="a1a87351-4613-4499-a9e8-abbc683821cb">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -2890,6 +3142,7 @@ random." />
 		</card>
 
 		<card name="Boleas, Bird of Fire" id="32a73de2-1c62-4352-94e2-a4d909e02c33">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Evolution Creature" />
@@ -2901,6 +3154,7 @@ random." />
 		</card>
 
 		<card name="Bolgalshack, Super Divine Dragoon" id="43d88c96-a36e-4dce-a3e1-a99ebfb2e5d1">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
@@ -2912,18 +3166,18 @@ random." />
 		</card>
 
 		<card name="Bolshack Yamato Dragon" id="2c374db2-7b97-4205-a669-cda740d21176">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armored Dragon" />
-			<property name="Rules" value="Speed Attacker&#xd;&#xa;When this creature attacks, it gets +1000 power for each fire card in your graveyard.&#xd;&#xa;Double Breaker&#xd;&#xa;When you would destroy 1 of your opponent's creatures with 6000 power or less by the effect of &quot;Bolmeteus Samurai Dragon&quot;, instead destroy one of your opponent's 
-
-creatures with 12000 power or less." />
+			<property name="Rules" value="Speed Attacker&#xd;&#xa;When this creature attacks, it gets +1000 power for each fire card in your graveyard.&#xd;&#xa;Double Breaker&#xd;&#xa;When you would destroy 1 of your opponent's creatures with 6000 power or less by the effect of &quot;Bolmeteus Samurai Dragon&quot;, instead destroy one of your opponent's creatures with 12000 power or less." />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S2" />
 		</card>
 		<card name="King Alcadeias, Holy Gaia" id="2dbe96e2-2ca6-4eff-baaa-546580db7c42">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
@@ -2935,12 +3189,12 @@ creatures with 12000 power or less." />
 		</card>
 
 		<card name="Zen, Transcendent God" id="246ac39d-d9a0-49cb-96c4-8998662c34b6">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light/Nature" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="God" />
 			<property name="Rules" value="This card is put into the mana zone tapped.&#xd;&#xa;[Blocker] Blocker&#xd;&#xa;Double Breaker&#xd;&#xa;God Link - Aku, Ultimate God (Right Side) (If the specified god is in the battle zone, you may link this to it. The linked god gains each god's characteristics (power and 
-
 abilities) and becomes one creature. When the linked creature leaves the battle zone, select 1 side instead.)&#xd;&#xa;While this creature is linked it gets &quot;Quad Breaker&quot; and untaps at the end of your turn." />
 			<property name="Power" value="8000" />
 			<property name="Rarity" value="V" />
@@ -2948,6 +3202,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Murmur, Vizier of Formation" id="43547845-55ec-4f5e-bef7-df3a9f56bbcf">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -2959,6 +3214,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Bullet &quot;Shirou&quot; Barrett" id="4b0f1da0-bb2e-40fe-a453-41eb64946368">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -2970,6 +3226,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Crest of Mother" id="23945b8c-07c0-4d74-bd9d-6055bf586ba4">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
@@ -2981,6 +3238,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Dragon Ultimate God Geki" id="b8e4a4b7-ad0b-4e07-b299-330ebb4cbdd4">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -2991,6 +3249,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 			<property name="Number" value="3" />
 		</card>
 		<card name="Dragon Ultimate God Metsu" id="4364f931-1a39-40ff-9f1b-f1b7d6a77b9e">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -3002,6 +3261,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Darkness Romanoff, the Enlightened" id="b07b89d5-e113-40bf-ab92-c797652825a7">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -3013,6 +3273,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Change the World, Blue Divine Dragon" id="3de7278e-3f93-460d-83c9-1c1126a1842e">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -3023,6 +3284,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 			<property name="Number" value="S2" />
 		</card>
 		<card name="DEATH Dragerion, the Supernova" id="610460f8-cfdc-49ea-a642-80797b312b2f">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Evolution Creature" />
@@ -3034,6 +3296,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Death Phoenix, Avatar of Doom" id="ccc5ee70-bc60-420d-92e5-ed8bd7ff949f">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire/Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Evolution Creature" />
@@ -3045,6 +3308,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Dorvolan, the Battle Attacking Dragon Rider" id="546d8f58-44bd-43f7-947a-9a192f8d1734">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water/Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -3056,6 +3320,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Dual Shock Dragon" id="431148f8-29bc-4d58-8376-7af75468d92b">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -3067,6 +3332,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Jack Raidou, Battle Dragon" id="23c84de7-5a48-4fb8-bb72-c5623a23a563">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -3078,6 +3344,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Jack Raidou, Battle Dragon" id="48c84de7-5a48-4fb8-bb72-c5623a23a563">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -3089,6 +3356,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Skysword, the Savage Vizier" id="a30403b3-75b0-4916-9d5e-5d21e0461326">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Light/Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -3100,6 +3368,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Supernova Neptune Shutrom" id="a6743a1a-3108-40ab-b031-6352c13a8ef2">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
@@ -3110,6 +3379,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 			<property name="Number" value="S2" />
 		</card>
 		<card name="Jumasol, Bloodcurdling Fuuma" id="3031bc7a-6d8d-4a8c-992e-896599f1015d">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -3121,6 +3391,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Supernova Apollonus Dragerion" id="b16028e0-c74c-410b-a01a-6784550aee99">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -3132,6 +3403,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Spell Del Fin, Light Divine Dragon" id="dfcd4201-ea9a-4b6b-9793-70ab4b4a48de">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="9" />
 			<property name="Type" value="Creature" />
@@ -3143,6 +3415,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Drag Moon, the Enlightened" id="43659e23-c9ab-4e14-b965-2e70b06d4234">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
@@ -3154,6 +3427,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Valiant Spark" id="320d326c-2ed9-4c4e-ac39-00a771e6e868">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
@@ -3165,6 +3439,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Valkerios Dragon" id="f4f7f83e-daf8-4327-b963-6a4f13fd4d6c">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -3176,6 +3451,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Malibu Dancer" id="c16f975c-3b25-4296-8890-edca5339a0ec">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -3187,6 +3463,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Invisible Suit" id="13ea4cea-09d1-47eb-9859-4693e40ebdce">
+			<property name="Format" value="Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Cross Gear" />
@@ -3198,6 +3475,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Inferno Gate" id="654e926a-03c3-4130-911c-bf1a4a6461ac">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -3209,6 +3487,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Grudge Gathering" id="43580750-9ef0-40e8-b2a5-eb9aed5f60eb">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
@@ -3220,6 +3499,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Osmosis Bullet Soul, Skull Hunter" id="54b94d00-c8db-471a-a9b3-bf2edf12a0eb">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -3231,6 +3511,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Headlong Giant" id="c9be6090-077b-4f34-95cc-d33b2266e45c">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="9" />
 			<property name="Type" value="Creature" />
@@ -3242,6 +3523,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Uberdragon Bajula" id="22e9d177-69b3-4239-8b2b-ec97f74d5577">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
@@ -3253,6 +3535,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Magmadragon Jagalzor" id="bf000f38-660c-4ce0-aa24-2ecbb1e4dee2">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -3264,6 +3547,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Emergency Typhoon" id="ccf7ccd6-48e1-46f6-9800-367bf36ec29b">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
@@ -3275,6 +3559,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Transmogrify" id="543e9cb0-a340-4c4e-bff1-049ed0036b09">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
@@ -3286,6 +3571,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Necrodragon Jagraveen" id="5468c3cc-b2ef-4d54-aec8-a4b5bde0b904">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -3297,6 +3583,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Syrius, Firmament Elemental" id="322ecf37-071a-4ddd-bf50-b27e7fcb5913">
+			<property name="Format" value="TCG, Set17, Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="11" />
 			<property name="Type" value="Creature" />
@@ -3308,6 +3595,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Space Crawler" id="a11bd791-18b3-4927-a45c-3c52e3a568a0">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -3319,6 +3607,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Terradragon Balgazarmas" id="a21b30a4-7ee9-4db3-b048-21986d402e94">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -3330,6 +3619,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Lyla Litta" id="32ccb5de-a2f3-4556-b810-1da74dac97de">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -3341,6 +3631,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Loquat Retainers, the Wandering Travelers" id="239319d8-b68f-4536-9dda-8d9913ec4574">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -3352,6 +3643,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Necrodragon Guljeneraid" id="a5276c8a-3ebf-4a12-861b-836b993d3f89">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -3363,6 +3655,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Pop Rubin" id="23eb0249-9fd8-420c-bb6e-cfca3f416b6d">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -3374,6 +3667,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Seventh, Light Divine Dragon" id="0a454bf9-e2fe-47ee-a894-9c7a14361541">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -3385,6 +3679,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Peace Lupia" id="2150f333-93e4-4713-b651-4ba02988b047">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -3396,6 +3691,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Wiz, White Knight Enlightener" id="1250f9a8-93ef-4b3d-b10e-afc521f70cb4">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
@@ -3407,6 +3703,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Inaba Geeze, the Explosive" id="a032649a-4891-4d0d-8085-4e588471a94a">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -3418,6 +3715,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Greatest Caesar, the Dark Kaiser" id="2d10fe86-5563-41c9-821e-004b20260f4f">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness/Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -3429,6 +3727,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="God Saga" id="209aee21-11b8-4aa1-8ee2-7a2cafeae9a9">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="13" />
 			<property name="Type" value="Spell" />
@@ -3440,6 +3739,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Spear Lupia" id="af541901-7cd1-487a-9864-8d861e550355">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -3453,6 +3753,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Mach Lupia" id="22dd23c0-c4d1-4450-86d0-f0be6407fcbe">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -3464,6 +3765,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Gulan Berze, Poseidon Destroying Dragon" id="aa3dd7e8-dea9-407b-98b3-0df6cd18a97a">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water/Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -3475,6 +3777,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Elementius Thunderbolt Dragon" id="a1b9397d-c1b3-4bd4-87ab-efe5c8306f6c">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -3486,6 +3789,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Uberdragon Sunburst NEX" id="b52abc73-b7d2-450a-9c3c-d9ca9b7c899a">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
@@ -3497,6 +3801,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Stardust NEX, Spiritual Dragon Knight" id="24df6981-22d6-4802-9f43-d83656324cac">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire/Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -3508,6 +3813,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Fernando the 7th, Emperor of Mystic Light" id="3002970e-b70a-432a-9c50-503f4120b18b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="11" />
 			<property name="Type" value="Creature" />
@@ -3520,6 +3826,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 
 
 		<card name="Master Lupia, Temporal Wing" id="814a278c-531d-4e4e-b456-70e7f3674008">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Psychic Creature" />
@@ -3530,11 +3837,12 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 			<property name="Number" value="1a/18" />
 
 			<alternate name="Psychic NEX, the Awakened Blue Flame" type="awakening">
+				<property name="Format" value="OCG" />
 				<property name="Civilization" value="Fire" />
 				<property name="Cost" value="14" />
 				<property name="Type" value="Psychic Creature" />
 				<property name="Race" value="Armored Dragon" />
-				<property name="Rules" value="Whenever your opponent would choose a creature in the battle zone, they can't choose creatures that have Lupia in its name. (They can still be attacked and blocked.)&#xd;&#xa;Your Dragons break an additional shield for each of your creatures in the battle zone that have Lupia in its name.&#xd;&#xa;Quattro breaker&#xd;&#xa;Release (When this creature would leave the battle zone, flip this creature to its lower cost side instead.)" />
+				<property name="Rules" value="Whenever your opponent would choose a creature in the battle zone, they can't choose creatures that have Lupia in its name. (They can still be attacked and blocked.)&#xd;&#xa;Your Dragons break an additional shield for each of your creatures in the battle zone that have Lupia in its name.&#xd;&#xa;Quattro breaker&#xd;&#xa;{RELEASE} (When this creature would leave the battle zone, flip this creature to its lower cost side instead.)" />
 				<property name="Power" value="22000" />
 				<property name="Rarity" value="No Rarity" />
 				<property name="Number" value="1b/18" />
@@ -3542,6 +3850,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Suva, Temporal Menace" id="1ad01812-1781-434b-824b-ea827a8ea991">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Psychic Creature" />
@@ -3552,11 +3861,12 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 			<property name="Number" value="" />
 
 			<alternate name="Psychic Suva, the Awakened God" type="awakening">
+				<property name="Format" value="OCG" />
 				<property name="Civilization" value="Darkness" />
 				<property name="Cost" value="14" />
 				<property name="Type" value="Psychic Creature" />
 				<property name="Race" value="Demon Command/Origin" />
-				<property name="Rules" value="When this creature is awakened, destroy all other non-God creatures. Then, each player puts all non-God cards in their mana zone into their respective graveyards.&#xd;&#xa;Triple breaker&#xd;&#xa;Release (When this creature would leave the battle zone, flip this creature to its lower cost side instead.)" />
+				<property name="Rules" value="When this creature is awakened, destroy all other non-God creatures. Then, each player puts all non-God cards in their mana zone into their respective graveyards.&#xd;&#xa;Triple breaker&#xd;&#xa;{RELEASE} (When this creature would leave the battle zone, flip this creature to its lower cost side instead.)" />
 				<property name="Power" value="12000" />
 				<property name="Rarity" value="No Rarity" />
 				<property name="Number" value="1b" />
@@ -3564,6 +3874,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Storm Double Cross, Temporal Storm" id="a76dd455-c86c-4df5-82e4-d12807668ca5">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Psychic Creature" />
@@ -3574,6 +3885,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 			<property name="Number" value="1a/15" />
 
 			<alternate name="Storm Kaiser Double Cross, the Awakened Kamikaze" type="awakening">
+				<property name="Format" value="OCG" />
 				<property name="Civilization" value="Fire" />
 				<property name="Cost" value="14" />
 				<property name="Type" value="Psychic Creature" />
@@ -3586,6 +3898,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Galaxy, Temporal Immortal" id="157c90b5-53d3-4de9-bd46-02a676ea3dc6">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Psychic Creature" />
@@ -3596,6 +3909,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 			<property name="Number" value="1a/22" />
 
 			<alternate name="King of Galaxy, Destruction Awakened" type="awakening">
+				<property name="Format" value="OCG" />
 				<property name="Civilization" value="Light" />
 				<property name="Cost" value="9" />
 				<property name="Type" value="Psychic Creature" />
@@ -3608,6 +3922,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Bolmeteus 'Young Samurai' Dragon, Temporal Samurai" id="6b339d81-8424-4436-ba75-7fc741d77969">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Psychic Creature" />
@@ -3618,6 +3933,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 			<property name="Number" value="1a/42" />
 
 			<alternate name="Mobius Samurai Dragon, the Awakened Army" type="awakening">
+				<property name="Format" value="OCG" />
 				<property name="Civilization" value="Fire" />
 				<property name="Cost" value="14" />
 				<property name="Type" value="Psychic Creature" />
@@ -3630,6 +3946,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Olzekia, Temporal Sword General" id="dd9b8e01-3f26-4e11-aecd-eeccfba8f3a1">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Psychic Creature" />
@@ -3640,6 +3957,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 			<property name="Number" value="5a/22" />
 
 			<alternate name="Galactica Olzekia, the Decapitator Awakened" type="awakening">
+				<property name="Format" value="OCG" />
 				<property name="Civilization" value="Darkness" />
 				<property name="Cost" value="14" />
 				<property name="Type" value="Psychic Creature" />
@@ -3652,6 +3970,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Hyperspatial Shooting Hole" id="0da4592c-74e2-408b-9856-6f6c56e06e63">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value=" Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -3663,6 +3982,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Hyperspatial Emperor Hole" id="88c14c77-30e1-4583-b2a9-0ddf5732d9b6">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -3674,6 +3994,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>	
 
 		<card name="Hyperspatial Samurai Hole" id="ac80a3a2-7c6d-4231-b6c5-6376a7f24b62">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -3685,6 +4006,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>	
 
 		<card name="Shobu Aini" id="9c762431-4e58-4544-b401-0915a63bc7a5">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -3696,6 +4018,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Reppi Aini" id="850c4f2f-6ae0-48e9-9f85-b6a3523e5907">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -3707,6 +4030,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Dual Belforce, Blastdragon" id="8fac9000-4e89-41d8-a12d-ea1a3a3a027f">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -3718,6 +4042,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Storm Double Cross, Blastdragon ~Tornado Chain~" id="3795604f-65fd-4153-9678-b4a00dc9d244">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -3729,6 +4054,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Perfect Storm Double Cross, Blastdragon" id="f184d970-abcf-41b2-9ef8-a46f9553fb63">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -3740,6 +4066,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Duel Jacker Shou, Super Live" id="9348adae-6271-481c-a79a-f4c999486177">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -3751,6 +4078,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Crystal Super Paladin" id="42320f73-5170-4425-89af-60c657536447">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -3762,6 +4090,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Galaxy Cross Aini, Sky Lord Dragonmech" id="b71e864e-a811-473b-a05e-20e2313458ac">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -3773,6 +4102,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Uberdragon Fighbird" id="5db10014-4ea7-4ae6-a844-97bce5bab160">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Evolution Creature" />
@@ -3784,6 +4114,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Manly Pepper" id="369d3709-88dd-4f98-a851-ca868a26e96c">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -3795,6 +4126,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 		</card>
 
 		<card name="Kizuna Blaster" id="ca5ab177-a919-4343-b92f-6e22ff3f0f72">
+			<property name="Format" value="OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Spell" />
@@ -3804,6 +4136,152 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 			<property name="Rarity" value="No Rarity" />
 			<property name="Number" value="P27" />
 		</card>
+
+		<card name="Twister Fish" id="9db6b2d5-c3f3-4a00-b237-bc7504a9b7df">
+			<property name="Format" value="TCG" />
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Gel Fish" />
+			<property name="Rules" value="{TCG ONLY}&#xd;&#xa;{SHIELD TRIGGER}" />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="M2/Y1" />
+		</card>
+
+		<card name="Star-Cry Dragon" id="7cab8643-2cf5-483d-b7a1-8b8243a75737">
+			<property name="Format" value="TCG" />
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Rules" value="{TCG ONLY}&#xd;&#xa;Double Breaker. &#xd;&#xa;Each of your other Armored Dragons in the battle zone gets +3000 power." />
+			<property name="Power" value="8000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="M4/Y1" />
+		</card>
+
+		<card name="Gigagrax" id="5e42765f-432b-4e33-8fee-65fc9026d1cd">
+			<property name="Format" value="TCG" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="8" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Chimera" />
+			<property name="Rules" value="{TCG ONLY}&#xd;&#xa;When this creature is destroyed, you may destroy one of your opponent's creatures." />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="M3/Y1" />
+		</card>
+		
+		<card name="Loth Rix, The Iridescent" id="bf0eb592-fb6f-4604-8851-f41835cceab9">
+			<property name="Format" value="TCG" />
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Guardian" />
+			<property name="Rules" value="{TCG ONLY}&#xd;&#xa;Evolution - Put on one of your Guardians. &#xd;&#xa;When you put this creature into the battle zone, add the top card of your deck to your shields face down." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="" />
+			<property name="Number" value="M1/Y1" />
+		</card>	
+
+		<card name="Armored Groblav" id="540a15e7-3751-4b30-97ed-8c737bd2c231">
+			<property name="Format" value="TCG" />
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Human" />
+			<property name="Rules" value="{TCG ONLY}&#xd;&#xa;Evolution - Put on one of your Humans. &#xd;&#xa;Double Breaker (This creature breaks 2 shields). &#xd;&#xa;While attacking, this creature gets +1000 power for each other fire creature in the battle zone." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Super Rare" />
+			<property name="Number" value="L1/6 Y1" />
+		</card>
+
+		<card name="Angry Maple" id="04986395-67af-4e3e-9b46-1a19efc4e7e8">
+			<property name="Format" value="TCG" />
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Tree Folk" />
+			<property name="Rules" value="{TCG ONLY}&#xd;&#xa;Power Attacker +4000" />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="No Rarity" />
+			<property name="Number" value="M5/Y1" />
+		</card>
+
+		<card name="Neve, the Leveler" id="04965395-67af-4e3e-9b46-1a19efc4e7e8">
+			<property name="Format" value="TCG" />
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Evolution Creature" />
+			<property name="Race" value="Snow Faerie" />
+			<property name="Rules" value="{TCG ONLY}&#xd;&#xa;When you put this creature into the battle zone, if your opponent has more creatures in the battle zone than you do, search your deck. For each extra creature he has, you may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck." />
+			<property name="Power" value="4000" />
+			<property name="Rarity" value="No Rarity" />
+			<property name="Number" value="P4/Y3" />
+		</card>
+
+		<card name="Thought Probe" id="98b1afbe-5a0a-461e-800c-34d02339f21f">
+			<property name="Format" value="TCG" />
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{TCG ONLY}&#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;When you cast this spell, if your opponent has 3 or more creatures in the battle zone, draw 3 cards." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Uncommon" />
+			<property name="Number" value="22/55" />
+		</card>
+
+		<card name="Ruthless Skyterror" id="5ad88bc8-5991-46d9-a98a-19c7569a4f05">
+			<property name="Format" value="TCG" />
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Armored Wyvern" />
+			<property name="Rules" value="{TCG ONLY}&#xd;&#xa;This creature can attack untapped water creatures.&#xd;&#xa;This creature can't attack players." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Common" />
+			<property name="Number" value="44/55" />
+		</card>
+
+		<card name="Intense Evil" id="eca2f1a6-c8df-4abc-b0bb-41d31058ee10">
+			<property name="Format" value="TCG" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{TCG ONLY}&#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;Destroy any number of your creatures. Then draw that many cards." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="61/110" />
+		</card>
+
+		<card name="Cryptic Totem" id="bb339fe8-3e63-4657-8c5d-d2386c22ff38">
+			<property name="Format" value="TCG" />
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Mystery Totem" />
+			<property name="Rules" value="{TCG ONLY}&#xd;&#xa;Double Breaker.&#xd;&#xa;While this creature is tapped, your opponent can't use the 'Shield Trigger' ability of their shields." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="47/55" />
+		</card>
+
+		<card name="Cranium Clamp" id="f9810ff9-ae5e-41c5-a88d-4bf6324e1c7e">
+			<property name="Format" value="TCG" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="{TCG ONLY}&#xd;&#xa;Your opponent chooses and discards 2 cards from their hand." />
+			<property name="Power" value="" />
+			<property name="Rarity" value="Rare" />
+			<property name="Number" value="27/55" />
+		</card>
+
+
 
 	</cards>
 </set>

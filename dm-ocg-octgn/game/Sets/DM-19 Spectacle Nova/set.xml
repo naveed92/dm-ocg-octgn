@@ -21,6 +21,7 @@
 	</packaging>
 	<cards>
 		<card name="Supernova Venus la Saint Mother" id="50400e73-2ac3-49f5-90b1-f9732b0558e0">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -31,6 +32,7 @@
 			<property name="Number" value="S1" />
 		</card>
 		<card name="Amshion, Spirit of Protection" id="7a3f0e7b-426b-43e3-a41f-346a01052715">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -41,6 +43,7 @@
 			<property name="Number" value="S2" />
 		</card>
 		<card name="Supernova Mercury Gigablizzard" id="e95e8eb9-aa9f-4b05-aa7f-4e1e838e32a0">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -51,6 +54,7 @@
 			<property name="Number" value="S3" />
 		</card>
 		<card name="Fantasy Heart" id="6c1f780b-f2a2-4e0d-ae0b-513065fc3cd8">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -61,6 +65,7 @@
 			<property name="Number" value="S4" />
 		</card>
 		<card name="Death Monarch, Lord of Demons" id="9b01b8ac-7ab0-413d-9150-f6fdb9d54c1e">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
@@ -71,6 +76,7 @@
 			<property name="Number" value="S5" />
 		</card>
 		<card name="Supernova Pluto Deathbringer" id="b791684f-cbd9-40dd-ad38-b31d45728660">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Evolution Creature" />
@@ -81,6 +87,7 @@
 			<property name="Number" value="S6" />
 		</card>
 		<card name="Dragirias, Explosive Dragonic Phoenix" id="1b580089-7e76-4ada-a522-6a1b5695c8f1">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -91,6 +98,7 @@
 			<property name="Number" value="S7" />
 		</card>
 		<card name="Omega Crisis Dragoon" id="f90c7060-868f-4d44-b03f-c65485976ee8">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -101,6 +109,7 @@
 			<property name="Number" value="S8" />
 		</card>
 		<card name="General Kuwagatan" id="644c9069-35ce-41d0-883e-bd1fa97ba500">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -111,6 +120,7 @@
 			<property name="Number" value="S9" />
 		</card>
 		<card name="Great Cactus" id="436ad3f5-f9e6-4a5a-939c-952f130ab28e">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -121,6 +131,7 @@
 			<property name="Number" value="S10" />
 		</card>
 		<card name="Fol Regaia, Spiral Light Guardian" id="054f8d13-b9b9-45b2-ae47-f43a8676d531">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -131,6 +142,7 @@
 			<property name="Number" value="1" />
 		</card>
 		<card name="Arac Kai Bades, Spirit Knight" id="da887ce8-3f30-4973-9d55-0e7662639bf6">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -141,6 +153,7 @@
 			<property name="Number" value="2" />
 		</card>
 		<card name="Cyber Iron Man Senjuo" id="79fae5fc-6ee0-4335-9cd5-da5eb55f632a">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -151,6 +164,7 @@
 			<property name="Number" value="3" />
 		</card>
 		<card name="Fuuma Neuro Marvas" id="64105c75-3445-41a1-9bce-eeb65902132b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -161,6 +175,7 @@
 			<property name="Number" value="4" />
 		</card>
 		<card name="Fuuma Soul Avals" id="defbfb29-8de7-4e80-981e-a467ba72d76a">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -171,6 +186,7 @@
 			<property name="Number" value="5" />
 		</card>
 		<card name="Ribengios Dragoon" id="8ddbc2d4-8d61-4bae-b220-a60d8cd5cedf">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -181,6 +197,7 @@
 			<property name="Number" value="6" />
 		</card>
 		<card name="Supernova Mars Disaster" id="7c682511-14c6-4b21-9fd1-c56807058a56">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -191,6 +208,7 @@
 			<property name="Number" value="7" />
 		</card>
 		<card name="Red Jackal, Raider of the North Sea" id="90268543-ba45-408f-8692-938e43c643e1">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
@@ -201,6 +219,7 @@
 			<property name="Number" value="8" />
 		</card>
 		<card name="Supernova Jupiter King Empire" id="072de5e2-21d7-44c8-b2b0-d1aa04cfa5a3">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -211,6 +230,7 @@
 			<property name="Number" value="9" />
 		</card>
 		<card name="Spirit Sateek, Spirit Knight" id="3b452c0e-ebe5-4a77-a34b-654cd0b11624">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -221,6 +241,7 @@
 			<property name="Number" value="10" />
 		</card>
 		<card name="Rafarm, Spirit Knight" id="aca04467-769b-4d21-b289-cc8e79c598dd">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -231,6 +252,7 @@
 			<property name="Number" value="11" />
 		</card>
 		<card name="Steel-Armor Benkeroth" id="f01097e5-f299-4b21-99d2-f1bd4f0f4ac6">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -241,6 +263,7 @@
 			<property name="Number" value="12" />
 		</card>
 		<card name="Roam, Spirit Knight" id="42ed48ef-e39f-4481-a43a-049f38de1093">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -251,6 +274,7 @@
 			<property name="Number" value="13" />
 		</card>
 		<card name="Me Fusar, Guardian of Harmony" id="12aab2a0-9d8f-438c-9627-346305e2612c">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -261,6 +285,7 @@
 			<property name="Number" value="14" />
 		</card>
 		<card name="Mardes, Spirit Knight" id="68373961-0fc7-44b4-b8b2-52c9c7699d86">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -271,6 +296,7 @@
 			<property name="Number" value="15" />
 		</card>
 		<card name="Solar Commune" id="724c2e0d-a490-4279-89d3-5d6abc367ef0">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
@@ -281,6 +307,7 @@
 			<property name="Number" value="16" />
 		</card>
 		<card name="Balbas, Lord of Devils" id="fbb06823-a575-4629-86cc-ec4956a06455">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -291,6 +318,7 @@
 			<property name="Number" value="17" />
 		</card>
 		<card name="Fuuma Bagantis" id="d7d3f9dd-ed61-43cd-ad30-a9beb4a60c94">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -302,6 +330,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="18" />
 		</card>
 		<card name="Fuuma Raberis" id="9b42c902-059c-44dd-b58f-653c7ae477bd">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -312,6 +341,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="19" />
 		</card>
 		<card name="Fuuma Danrimos" id="ca9f7c66-d1c8-4edb-b137-84f9b814d6ea">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -322,6 +352,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="20" />
 		</card>
 		<card name="Torpedo Robo Missile Ocean" id="7a69723c-8830-4e52-8a21-811dc44e2ae1">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -332,6 +363,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="21" />
 		</card>
 		<card name="Shadowwave Cyclone" id="eb6c208a-9b4d-4ca3-a8c0-c971f73d853f">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -342,6 +374,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="22" />
 		</card>
 		<card name="Fuuma Garpuls" id="dbe6a428-9a69-46dd-a1c4-9ac95a09e2ba">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -352,6 +385,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="23" />
 		</card>
 		<card name="Betrayal Dragoon" id="07c252f3-4a62-4425-a1cf-2b55fc375247">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -362,6 +396,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="24" />
 		</card>
 		<card name="Fuuma Garmagias" id="db588c25-e5e3-4275-adca-0e695147b00f">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -372,6 +407,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="25" />
 		</card>
 		<card name="Soul Vice Dragoon" id="b1cd4042-bf85-4fcb-ac11-84bec2b5c26a">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -382,6 +418,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="26" />
 		</card>
 		<card name="Inferno Gate" id="704e926a-03c3-4130-911c-bf1a4a6461ac">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -392,6 +429,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="27" />
 		</card>
 		<card name="Trap Commune" id="5566c65e-2891-4c78-b4c0-e0dec474d2dd">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
@@ -402,6 +440,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="28" />
 		</card>
 		<card name="Superhuman Mech Armor Valgett III" id="7fec9911-461e-46b6-845d-8eaafc762fb6">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -412,6 +451,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="29" />
 		</card>
 		<card name="Perionbris Dragoon" id="c608dabb-29e9-4d25-8fd5-a37b664df377">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -422,6 +462,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="30" />
 		</card>
 		<card name="Heatweb Dragoon" id="3bf688f1-7e3c-4e65-ab92-af083ebf17a4">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -432,6 +473,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="31" />
 		</card>
 		<card name="Burning Ears Pitton" id="b82634a2-d832-4296-ba0c-9c27daf2c872">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -442,6 +484,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="32" />
 		</card>
 		<card name="Raptor Dragoon" id="1a4eeef8-1616-49c5-9f44-fc2b070309fc">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -452,6 +495,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="33" />
 		</card>
 		<card name="Jet Cyclone" id="7752a495-2086-46ad-865f-fbb01aa1e790">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
@@ -462,6 +506,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="34" />
 		</card>
 		<card name="God Bananan, Great Veggie King" id="9edcd5e5-af2b-4673-b42d-6abe88204be2">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -472,6 +517,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="35" />
 		</card>
 		<card name="Radia, Spirit Knight" id="e065fc61-5dc0-4e9c-88f8-dbdd89436d83">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="9" />
 			<property name="Type" value="Creature" />
@@ -482,6 +528,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="36" />
 		</card>
 		<card name="Amitoaki, Explorer of Adventure" id="1ccb763f-e475-4b58-a178-4192c7ea0e91">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -492,6 +539,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="37" />
 		</card>
 		<card name="Sandal, Spirit Knight" id="69e5a1c1-f4c7-4171-8991-f953b8eac2d5">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -502,6 +550,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="38" />
 		</card>
 		<card name="Assault Champion" id="eed4d88c-eb69-49ea-8344-0b165ebc40ac">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -512,6 +561,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="39" />
 		</card>
 		<card name="Tribal Commune" id="0a7a634c-f2b1-4e2e-a47d-ec57aff7d71a">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
@@ -522,6 +572,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="40" />
 		</card>
 		<card name="Farmahat, Emperor of Spirits" id="02617c6a-277c-4e34-a79e-3e19afb8f6f5">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -532,6 +583,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="41" />
 		</card>
 		<card name="Cyber Robo Diecrusher" id="e87eb919-f55d-4418-90d1-901a1724f5aa">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -542,6 +594,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="42" />
 		</card>
 		<card name="Bal Bars, Dust Light Guardian" id="af625ac9-19b9-4d30-8b2e-dfa59b2a498a">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -552,6 +605,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="43" />
 		</card>
 		<card name="Rengston, Spirit Knight" id="fb74965d-d8f6-4d0c-bd07-e22c3741e309">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -562,6 +616,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="44" />
 		</card>
 		<card name="Krista, Guardian of the Valley" id="76e15447-be18-4fab-a7d3-feebf77b3546">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -572,6 +627,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="45" />
 		</card>
 		<card name="Reverse Cyclone" id="7b52d1ab-0be9-48fc-8148-bcd094b9907e">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
@@ -582,6 +638,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="46" />
 		</card>
 		<card name="Fuuma Adorak" id="b6904e76-9036-4bc5-babd-440c471bf73b">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -592,6 +649,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="47" />
 		</card>
 		<card name="Demomate Eridanus" id="49a02d4e-93db-4ae7-8739-1a734af86caf">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -602,6 +660,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="48" />
 		</card>
 		<card name="Fuuma Balzoo" id="b452d526-a8c2-4885-81a9-21aa32553c41">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -612,6 +671,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="49" />
 		</card>
 		<card name="Grand Iron Man Silbusters" id="79be7d74-df3f-4e58-9f0f-683eb6cc2f11">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -622,6 +682,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="50" />
 		</card>
 		<card name="Medical Alnair" id="2d8c9090-0a09-4d97-bc2e-4facd26be453">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -633,6 +694,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 		</card>
 
 		<card name="Hydro Commune" id="c443ccef-dd7c-42bb-bf49-d680068673e6">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
@@ -644,6 +706,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 		</card>
 
 		<card name="Drazalk, Prisoned Dragonic Phoenix" id="7dd16700-cfb1-4759-b98f-ccdc74182392">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
@@ -654,6 +717,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="53" />
 		</card>
 		<card name="Jet Punch Dragoon" id="c0a1765d-9f31-47fd-bed8-7153430435f5">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -664,6 +728,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="54" />
 		</card>
 		<card name="Nocturne Dragoon" id="791594c0-e9af-4582-a7f7-4a1a04517920">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -674,6 +739,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="55" />
 		</card>
 		<card name="Fuuma Raum" id="4f0163e3-f671-4146-8f6c-fb495a53770c">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -684,6 +750,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="56" />
 		</card>
 		<card name="Snipe Alpheras" id="a03319eb-e05f-45d9-ae27-9690c7cdd548">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -694,6 +761,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="57" />
 		</card>
 		<card name="Vise Cyclone" id="1af9a83e-c8b2-453b-be93-827eb0baa191">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
@@ -704,6 +772,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="58" />
 		</card>
 		<card name="Meden, Sky Dancing Warrior" id="cf3c1d8f-ff0d-4f71-8998-521a85eb1900">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -714,6 +783,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="59" />
 		</card>
 		<card name="Igars Dragoon" id="f66fbd38-9b9c-4b2f-a292-128ffea1c526">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -724,6 +794,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="60" />
 		</card>
 		<card name="Rinpao, King of Speed Eating" id="b812e1d8-730c-4804-bdd7-44b58833f3d1">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -734,6 +805,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="61" />
 		</card>
 		<card name="Honoo, the Brave Blow" id="7b29b63a-6427-4bbf-8ba2-2fb3cab26447">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -744,6 +816,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="62" />
 		</card>
 		<card name="Oneshot Flame" id="61994fc1-989b-4968-8044-9fdc7f95e565">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Spell" />
@@ -754,6 +827,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="63" />
 		</card>
 		<card name="Crimson Commune" id="52d924ac-37f7-4142-8332-6a99dbe34155">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
@@ -764,6 +838,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="64" />
 		</card>
 		<card name="Gallium, Spirit Knight" id="76751f0c-4e9d-4404-accf-2908f17f276c">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -774,6 +849,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="65" />
 		</card>
 		<card name="Ragmal, Spirit Knight" id="131f45f8-cf0a-43bb-b848-55d9823089e3">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -784,6 +860,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="66" />
 		</card>
 		<card name="Cruz Taspol, Spirit Knight" id="7e4e8766-27d6-4765-b2cb-ec3bcb456e0f">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -794,6 +871,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="67" />
 		</card>
 		<card name="Karate Carrot" id="9136ac93-54fd-4e3a-ba86-8d5dfd47a456">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -804,6 +882,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="68" />
 		</card>
 		<card name="Charock, the Edacious" id="3be97a07-394c-40e2-b5a6-67c144c27971">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -814,6 +893,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="69" />
 		</card>
 		<card name="Boltas, Forest of Knowledge" id="431ed408-5058-4820-afcc-592a37c67e7f">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -824,6 +904,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="70" />
 		</card>
 		<card name="Pulse Mars, Electrostatic Guardian" id="2a8a5553-ccc9-4f40-85f2-429e62556d49">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -834,6 +915,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="71" />
 		</card>
 		<card name="Aqua Holy" id="4bb3501f-067d-49af-96cd-31efb20eeebe">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -844,6 +926,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="72" />
 		</card>
 		<card name="Saiya, Spirit Knight" id="9b59fc17-8e94-4e71-9309-27369a43c309">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -854,6 +937,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="73" />
 		</card>
 		<card name="Rahars, Spirit Knight" id="4daed080-5abf-4568-85fc-a1f74a782064">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -864,6 +948,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="74" />
 		</card>
 		<card name="Maria Necks, Guardian of the Spirit Capital" id="e085a939-d098-4f8b-8afd-7e3c8b84e646">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -874,6 +959,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="75" />
 		</card>
 		<card name="Jumbo Attacker, the Steel Ambassador" id="5c965c6c-85ed-40c7-b530-d684facb39bf">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -884,6 +970,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="76" />
 		</card>
 		<card name="Marix, Spirit Knight" id="959d9093-251a-4f51-85e4-6284d5d7120c">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -894,6 +981,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="77" />
 		</card>
 		<card name="Barrier Cyclone" id="1b90d64c-9454-4326-aca3-9e5732690cd3">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -904,6 +992,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="78" />
 		</card>
 		<card name="Fuuma Malcoshas" id="ff971124-4216-44e9-9531-31af788e3bfc">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -914,6 +1003,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="79" />
 		</card>
 		<card name="Fuuma Zeres" id="2431ab24-dffb-419e-ad67-d3c97a466e5d">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -924,6 +1014,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="80" />
 		</card>
 		<card name="Aqua Screw" id="7bf173c0-f306-45d0-8cc0-cb336f1dd748">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -934,6 +1025,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="81" />
 		</card>
 		<card name="Fuuma Sabanahal" id="2a63b52c-aacc-45df-9a82-72593133abe2">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -944,6 +1036,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="82" />
 		</card>
 		<card name="Bursting Arm Robo, Return Ace" id="ccd16dcc-641e-43b2-b956-2d8cf2c284ce">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -954,6 +1047,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="83" />
 		</card>
 		<card name="Fuuma Folgarol" id="c9b48459-6d17-4569-b017-83b9ff82a028">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -964,6 +1058,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="84" />
 		</card>
 		<card name="Fuuma Webaris" id="e5397a22-6661-4b5d-bf90-7091fa1b7a45">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="1" />
 			<property name="Type" value="Creature" />
@@ -974,6 +1069,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="85" />
 		</card>
 		<card name="Brain Cyclone" id="77d5a103-c7e2-4447-b312-af1374808250">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
@@ -984,6 +1080,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="86" />
 		</card>
 		<card name="Hekisario Dragoon" id="89fce15e-724f-42b6-a661-67817dcbc957">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
@@ -994,6 +1091,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="87" />
 		</card>
 		<card name="Fuuma Garabos" id="402827f9-3b37-4825-9ace-b0ef992be569">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -1004,6 +1102,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="88" />
 		</card>
 		<card name="Chilled Horn Dragoon" id="fa220cce-339e-4f24-ad3c-1bde1d3cffd7">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -1014,6 +1113,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="89" />
 		</card>
 		<card name="Fuuma Samijal" id="4238f543-0fa0-4bc1-a12c-0a1e969982fe">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1024,6 +1124,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="90" />
 		</card>
 		<card name="Sag Panel of Eradication" id="baf714b3-6db5-47b7-8099-6fb4f2348557">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1034,6 +1135,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="91" />
 		</card>
 		<card name="Storium, Light Ray Doll" id="05aadc19-ddcf-442c-81c0-d8b84ada36cb">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -1044,6 +1146,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="92" />
 		</card>
 		<card name="Fuuma Erigoul" id="aac0e7cb-9d15-4702-a70d-777556e44040">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -1054,6 +1157,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="93" />
 		</card>
 		<card name="Bloody Cyclone" id="e70937b2-7034-4c53-9857-9a51577d503f">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="1" />
 			<property name="Type" value="Spell" />
@@ -1064,6 +1168,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="94" />
 		</card>
 		<card name="Headhunter Dragoon" id="6cac575a-8c48-423a-acf4-cd0ecb28823a">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -1074,6 +1179,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="95" />
 		</card>
 		<card name="Blastball Dragoon" id="b8cc9c8c-ebd1-45e5-9626-b01d259ffab2">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1084,6 +1190,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="96" />
 		</card>
 		<card name="Outlaw Pepper" id="89adf203-7a14-40bf-895f-3193bc0e2bb4">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1094,6 +1201,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="97" />
 		</card>
 		<card name="Shot Wheel of Meizrazen" id="b47ecdcf-4c26-45a1-9d00-da26712dafec">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1104,6 +1212,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="98" />
 		</card>
 		<card name="Bagarn, Hot-Blooded Soldier" id="8e72d959-a1e0-45c5-bb6f-b46db0ede468">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -1114,6 +1223,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="99" />
 		</card>
 		<card name="Geron, the Strong" id="e4534c3e-f652-4a08-a4df-e20e341b0e08">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -1124,6 +1234,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="100" />
 		</card>
 		<card name="Suza of Gale" id="b50d8d90-b20b-4619-a447-a295dee771e1">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -1134,6 +1245,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="101" />
 		</card>
 		<card name="Gatling Cyclone" id="73f3f77d-9002-4d46-94fb-cb7cecc1bef0">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
@@ -1144,6 +1256,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="102" />
 		</card>
 		<card name="Shushu of the Silver" id="1869f149-245f-465e-90eb-2c7ea5581965">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -1154,6 +1267,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="103" />
 		</card>
 		<card name="Bazion, Spirit Knight" id="a813dff8-600d-4fe1-aad8-34c8e22aeb36">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -1164,6 +1278,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="104" />
 		</card>
 		<card name="Slice Onion" id="eb730648-488d-4358-b1bc-cb12ba8d78a1">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1174,6 +1289,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="105" />
 		</card>
 		<card name="Mask-do Cherry" id="0df021a4-28e1-446b-811a-c3b8b59708ff">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1184,6 +1300,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="106" />
 		</card>
 		<card name="Ebard Zenom, Tree Pulse Guardian" id="c3eb63e0-3b49-4011-9dfa-a63cedd04295">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1194,6 +1311,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="107" />
 		</card>
 		<card name="Sirinz, Spirit Knight" id="700f2287-6a0e-48cd-a618-dc9acac1ba70">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
@@ -1204,6 +1322,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="108" />
 		</card>
 		<card name="Antarios, Spirit Knight" id="29a68d6e-6698-4554-89f3-f8ca31f701cb">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
@@ -1214,6 +1333,7 @@ When of your opponent's creatures blocks your attack, discard your hand." />
 			<property name="Number" value="109" />
 		</card>
 		<card name="Faerie Cyclone" id="c6a251dc-eed3-4026-a2ce-efdd0046299c">
+			<property name="Format" value="Set35, OCG" />
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />

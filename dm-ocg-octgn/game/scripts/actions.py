@@ -792,19 +792,30 @@ def clear(card, x = 0, y = 0):
 
 def setup(group, x = 0, y = 0):
     mute()
-    cardsInTable = [c for c in table if c.controller == me or c.owner == me and not isPsychic(card)]
-    psychicsInTable = [c for c in table if c.controller == me or c.owner == me and isPsychic(card)]
-    cardsInHand = [c for c in me.hand]
-    cardsInGrave = [c for c in me.piles['Graveyard']]
-    if cardsInTable or cardsInHand or cardsInGrave:
+    
+    cardsInTable = [c for c in table if c.controller == me and c.owner == me and not isPsychic(c)]
+    cardsInHand = [c for c in me.hand if not isPsychic(c)]
+    cardsInGrave = [c for c in me.piles['Graveyard'] if not isPsychic(c)]
+    
+    psychicsInTable = [c for c in table if c.controller == me and c.owner == me and isPsychic(c)]
+    psychicsInHand = [c for c in me.hand if isPsychic(c)]
+    psychicsInGrave = [c for c in me.piles['Graveyard'] if isPsychic(c)]
+    
+    if cardsInTable or cardsInHand or cardsInGrave or psychicsInTable or psychicsInGrave or psychicsInHand:
         if confirm("Are you sure you want to setup battlezone? Current setup will be lost"):
+            
             for card in cardsInTable:
                 card.moveTo(me.Deck)
             for card in cardsInHand:
                 card.moveTo(me.Deck)
             for card in cardsInGrave:
                 card.moveTo(me.Deck)
+
             for card in psychicsInTable:
+                card.moveTo(me.Hyperspatial)
+            for card in psychicsInHand:
+                card.moveTo(me.Hyperspatial)
+            for card in psychicsInGrave:
                 card.moveTo(me.Hyperspatial)
         else:
             return

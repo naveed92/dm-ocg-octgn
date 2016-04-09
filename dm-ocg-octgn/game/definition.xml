@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	id="bb784fc6-fe21-4603-90d7-82c049908a74" version="1.0.3.0" octgnVersion="3.1.30.0" scriptVersion="3.1.0.1"
-	name="Duel Masters OCG" tags="Duel Masters, Kaijudo" description="The original format of the game with additional Sets. Currently at DM-39 (Awakening Saga) with most of the commonly used cards automated."
-	setsurl="http://octgn.gamersjudgement.com/wordpress/dmocg/images/" gameurl="http://octgn.gamersjudgement.com/wordpress/dmocg/" authors="naveed92(Light)&#xD;&#xA;Zerovash&#xD;&#xA;vokes&#xD;&#xA;nitrox"
+	name="Duel Masters OCG" tags="Duel Masters, Kaijudo" description="The official Japanese format of the game. Currently up to DM-39: Awakening Saga with many common card effects automated."
+	setsurl="http://octgngames.com/dmocg/images/" gameurl="http://octgngames.com/dmocg/" authors="naveed92(Light)&#xD;&#xA;zerovash&#xD;&#xA;vokes&#xD;&#xA;nitrox"
 	markersize="18" iconurl="https://raw.githubusercontent.com/naveed92/dm-ocg-octgn/master/game/cards/logo.jpg" >
 
 	<scripts>
@@ -72,7 +72,7 @@
 	<deck>
 		<section name="Main" group="Deck" />
 
-		<section name="Hyperspatial Deck" group="Hyperspatial Zone" />
+		<section name="Hyperspatial Deck" group="Hyperspatial" />
 
 	</deck>
 </game>

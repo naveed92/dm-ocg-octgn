@@ -31,7 +31,7 @@
 			<property name="Number" value="S1a" />
 
 			<alternate name="Vermillion Dravita, the Awakened Pressure Dragon" type="awakening">
-				<property name="Civilization" value="Light" />
+				<property name="Civilization" value="Light/Fire" />
 				<property name="Cost" value="14" />
 				<property name="Type" value="Psychic Creature" />
 				<property name="Race" value="Angel Command/Armored Dragon" />
@@ -65,7 +65,7 @@
 		</card>
 
 		<card name="El Dorado, Spirit of Taiga" id="45cb13ab-fec9-4b3c-815d-b902ad061858">
-			<property name="Civilization" value="Light" />
+			<property name="Civilization" value="Light/Water" />
 			<property name="Cost" value="9" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Angel Command/Cyber Command" />
@@ -75,7 +75,7 @@
 			<property name="Number" value="S3" />
 		</card>
 		<card name="El Destorade, Dragonic Meteor of Taiga" id="dfc9c0d2-3cc2-4e10-9f6f-573e593d212c">
-			<property name="Civilization" value="Light" />
+			<property name="Civilization" value="Light/Water" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cyber Command/Apollonia Dragon" />
@@ -85,7 +85,7 @@
 			<property name="Number" value="S4" />
 		</card>
 		<card name="Whitemane Juukai, Earthen Dragonmech" id="cf0d0cec-aefe-4da5-972e-3729d92bb98d">
-			<property name="Civilization" value="Fire" />
+			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armored Dragon/Gaia Command" />
@@ -135,7 +135,7 @@
 			<property name="Number" value="4" />
 		</card>
 		<card name="Vilem Arc, the Brute Dragon" id="5892e89b-8ed1-4149-8124-bddf802513b8">
-			<property name="Civilization" value="Fire" />
+			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="9" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armored Dragon/Giant/Samurai" />
@@ -275,7 +275,7 @@
 			<property name="Number" value="18" />
 		</card>
 		<card name="Una Arana, Neptune Spirit" id="171f1605-15f5-4d46-bc07-fea05260c1d5">
-			<property name="Civilization" value="Light" />
+			<property name="Civilization" value="Light/Water" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Poseidia Dragon/Angel Command" />
@@ -285,7 +285,7 @@
 			<property name="Number" value="19" />
 		</card>
 		<card name="Volcano Fudou, the Twin Blast" id="41bc0890-3712-4c43-9fd6-270f21d8973f">
-			<property name="Civilization" value="Fire" />
+			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Earth Dragon/Flame Command" />
@@ -677,7 +677,7 @@
 			<property name="Number" value="53" />
 		</card>
 		<card name="Majestic Star, the Electro-Apocalyptic" id="6044bddb-16bc-468d-8215-0e78922eaf62">
-			<property name="Civilization" value="Light" />
+			<property name="Civilization" value="Light/Water" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cyber Lord/Light Bringer" />
@@ -687,7 +687,7 @@
 			<property name="Number" value="54" />
 		</card>
 		<card name="Zan Ebizou, the Savage Gale" id="011c10f6-6f6f-41be-9921-8fbb16f3f5ec">
-			<property name="Civilization" value="Fire" />
+			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Beast Folk/Feathernoid" />

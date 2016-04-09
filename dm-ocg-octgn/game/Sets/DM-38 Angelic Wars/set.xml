@@ -86,7 +86,7 @@
 			<property name="Number" value="S4" />
 		</card>
 		<card name="Ballcadeias, Overlord of Demons" id="243a08e6-bb19-44b5-8c53-2ead9a742e38">
-			<property name="Civilization" value="Light" />
+			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="10" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Angel Command/Demon Command" />
@@ -136,7 +136,7 @@
 			<property name="Number" value="4" />
 		</card>
 		<card name="Sylvester V Sword, Explosive Taiga" id="973202d5-25a9-46ed-9595-5af0be2e1f07">
-			<property name="Civilization" value="Water" />
+			<property name="Civilization" value="Water/Fire" />
 			<property name="Cost" value="6 " />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Cyber Command/Flame Command" />
@@ -256,7 +256,7 @@
 			<property name="Number" value="16" />
 		</card>
 		<card name="Zanbara, Masked Vizier" id="6a8d03b1-031c-4963-a999-3c0a73341152">
-			<property name="Civilization" value="Light" />
+			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Initiate/Devil Mask" />
@@ -266,7 +266,7 @@
 			<property name="Number" value="17" />
 		</card>
 		<card name="Red Scorpion, Electro-mech" id="1b79065f-d47b-48ad-a687-60afbd396b26">
-			<property name="Civilization" value="Water" />
+			<property name="Civilization" value="Water/Fire" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Merfolk/Armorloid" />
@@ -440,7 +440,7 @@
 			<property name="Number" value="32" />
 		</card>
 		<card name="Cheval, Temporal Demon Spirit" id="46e23249-d65b-4185-97c2-ae3158600bf1">
-			<property name="Civilization" value="Light" />
+			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Angel Command/Demon Command" />
@@ -450,7 +450,7 @@
 			<property name="Number" value="33a" />
 
 			<alternate name="Cheuxvelt, the Awakened Demon Spirit" type="awakening">
-				<property name="Civilization" value="Light" />
+				<property name="Civilization" value="Light/Darkness" />
 				<property name="Cost" value="12" />
 				<property name="Type" value="Psychic Creature" />
 				<property name="Race" value="Angel Command/Demon Command" />
@@ -462,7 +462,7 @@
 		</card>
 
 		<card name="Ashliger, Holy Dark Beast" id="f2d2121f-cf86-456d-b232-dc8037902b14">
-			<property name="Civilization" value="Light" />
+			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Shine Monster/Dark Monster" />
@@ -472,7 +472,7 @@
 			<property name="Number" value="34" />
 		</card>
 		<card name="Doskoi Firststar" id="506ecc24-26aa-40de-b4ed-a9efa1863752">
-			<property name="Civilization" value="Water" />
+			<property name="Civilization" value="Water/Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cyber Moon/Big Muscle" />

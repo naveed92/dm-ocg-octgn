@@ -21,13 +21,13 @@ cardScripts = {
                 'Aqua Deformer': { 'onPlay': { 'fromMana': ['2', '"ALL"', '"ALL"', '"ALL"', 'True', 'False', 'True'] }},
                 'Aqua Hulcus': { 'onPlay': { 'draw': ['me.Deck', 'True'] }},
                 'Aqua Hulk': { 'onPlay': { 'draw': ['me.Deck', 'True'] }},
-		'Aqua Sniper': { 'onPlay': { 'bounce': ['2'] }},
+        		'Aqua Sniper': { 'onPlay': { 'bounce': ['2'] }},
                 'Aqua Surfer': { 'onPlay': { 'bounce': [] }},
                 'Armored Decimator Valkaizer': { 'onPlay': {  'kill': ['4000'] }},
                 'Artisan Picora': { 'onPlay': { 'fromMana': ['1','"ALL"','"ALL"','"ALL"','False','True'] }}, 
                 'Astral Warper': { 'onPlay': { 'draw': ['me.Deck', 'True', '3'] }},
-		'Ballom, Master of Death': { 'onPlay': { 'banishAll': ['table', 'True', '"ALL"', '"Darkness"', 'True'] }},
-		'Bega, Vizier of Shadow': { 'onPlay': { 'shields': ['me.Deck'] , 'targetDiscard': ['True'] }},
+        		'Ballom, Master of Death': { 'onPlay': { 'banishAll': ['table', 'True', '"ALL"', '"Darkness"', 'True'] }},
+        		'Bega, Vizier of Shadow': { 'onPlay': { 'shields': ['me.Deck'] , 'targetDiscard': ['True'] }},
                 'Belix, the Explorer': { 'onPlay': { 'fromMana': ['1','"Spell"'] }},
                 'Bronze-Arm Tribe': { 'onPlay': { 'mana': ['me.Deck'] }},
                 'Bronze Chain Sickle': { 'onPlay': { 'mana': ['me.Deck'] }},
@@ -52,28 +52,28 @@ cardScripts = {
                 'Fortress Shell': { 'onPlay': {  'destroyMana': ['2'] }},
                 'Forbos, Sanctum Guardian Q': { 'onPlay': {  'search': ['me.Deck', '1', '"Spell"'] }},
                 'Funky Wizard': { 'onPlay': {  'draw': ['me.Deck', 'True'] }},
-		'Galek, the Shadow Warrior': { 'onPlay': { 'targetDiscard': ['True'] }},
+        		'Galek, the Shadow Warrior': { 'onPlay': { 'targetDiscard': ['True'] }},
                 'Gardner, the Invoked': { 'onPlay': { 'gear': ['"mana"'] }},
                 'Gigargon': { 'onPlay': {  'search': ['me.piles["Graveyard"]', '2', '"Creature"'] }},
-		'Gigabalza': { 'onPlay': { 'targetDiscard': ['True'] }},
+                'Gigabalza': { 'onPlay': { 'targetDiscard': ['True'] }},
                 'Grave Worm Q': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"ALL"', '"ALL"', '"Survivor"'] }},
                 'Gunes Valkyrie, Holy Vizier': { 'onPlay': { 'tapCreature': [] }},
-		'Gylus, Larval Lord': { 'onPlay': { 'targetDiscard': ['True'] }},
+                'Gylus, Larval Lord': { 'onPlay': { 'targetDiscard': ['True'] }},
                 'Gyulcas, Sage of the East Wind': { 'onPlay': {  'search': ['me.Deck', '1', '"Cross Gear"'] }},
                 'Hawkeye Lunatron': { 'onPlay': { 'search': ['me.Deck', '1', '"ALL"', '"ALL"', '"ALL"', 'False'] }},
                 'Hulk Crawler': { 'onPlay': { 'draw': ['me.Deck', 'True'] }},
                 'Hurlosaur': { 'onPlay': {  'kill': ['1000'] }},
                 'Izana Keeza': { 'onPlay': {  'kill': ['2000'] }},
                 'Jelly, Dazzling Electro-Princess': { 'onPlay': { 'draw': ['me.Deck', 'True'] }},
-		'Jenny, the Dismantling Puppet': { 'onPlay': {  'targetDiscard': [] }},
+                'Jenny, the Dismantling Puppet': { 'onPlay': {  'targetDiscard': [] }},
                 'Jet R.E, Brave Vizier': { 'onPlay': { 'shields': ['me.Deck'] }},
                 'King Ripped-Hide': { 'onPlay': { 'draw': ['me.Deck', 'True', '2'] }},
                 'Kolon, the Oracle': { 'onPlay': { 'tapCreature': [] }},
                 'Lena, Vizier of Brilliance': { 'onPlay': { 'fromMana': ['1','"Spell"'] }},
                 'Lugias, The Explorer': { 'onPlay': { 'tapCreature': [] }},
-		'Locomotiver': { 'onPlay': { 'targetDiscard': ['True'] }},
+        		'Locomotiver': { 'onPlay': { 'targetDiscard': ['True'] }},
                 'Magris, Vizier of Magnetism': { 'onPlay': { 'draw': ['me.Deck', 'True'] }},
-		'Masked Horror, Shadow of Scorn': { 'onPlay': { 'targetDiscard': ['True'] }},
+        		'Masked Horror, Shadow of Scorn': { 'onPlay': { 'targetDiscard': ['True'] }},
                 'Meteosaur': { 'onPlay': { 'kill': ['2000'] }},
                 'Miele, Vizier of Lightning': { 'onPlay': { 'tapCreature': [] }},
                 'Moors, the Dirty Digger Puppet': { 'onPlay': {  'search': ['me.piles["Graveyard"]'] }},
@@ -83,7 +83,7 @@ cardScripts = {
                 'Phal Eega, Dawn Guardian': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Spell"'] }},
                 'Phal Reeze, Apocalyptic Sage': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Spell"'] }},
                 'Piara Heart': { 'onPlay': {  'kill': ['1000'] }},
-		'Pointa, the Aqua Shadow': { 'onPlay': { 'targetDiscard': ['True'] }},
+        		'Pointa, the Aqua Shadow': { 'onPlay': { 'targetDiscard': ['True'] }},
                 'Qurian': { 'onPlay': { 'draw': ['me.Deck', 'True'] }},
                 'Raiden, Lightfang Ninja': { 'onPlay': { 'tapCreature': [] }},
                 'Rayla, Truth Enforcer': { 'onPlay': { 'search': ['me.Deck', '1', '"Spell"'] }},
@@ -97,7 +97,7 @@ cardScripts = {
                 'Shtra': { 'onPlay': {  'fromMana': ['1', '"ALL"', '"ALL"', '"ALL"', 'True', 'False', 'True'] }},
                 'Sir Navaal, Thunder Mecha Knight': { 'onPlay': { 'fromMana': ['1','"Spell"'] }},
                 'Sir Virginia, Mystic Light Insect': { 'onPlay': {  'search': ['me.piles["Graveyard"]', '1', '"Creature"'] }},
-		'Skysword, the Savage Vizier': { 'onPlay': {  'mana': ['me.Deck'], 'shields': ['me.Deck'] }},
+        		'Skysword, the Savage Vizier': { 'onPlay': {  'mana': ['me.Deck'], 'shields': ['me.Deck'] }},
                 'Solidskin Fish': { 'onPlay': { 'fromMana': [] }},
                 'Spiritual Star Dragon': { 'onPlay': { 'fromDeck': [] }},
                 'Splash Zebrafish': { 'onPlay': { 'fromMana': [] }},
@@ -119,7 +119,7 @@ cardScripts = {
                 'Apocalypse Day': { 'onPlay': {  'banishAll': ['table', 'len([card for card in table if isCreature(card)])>5'] }},			
                 'Big Beast Cannon': { 'onPlay': { 'kill': ['7000'] }},
                 'Blizzard of Spears': { 'onPlay': {  'banishAll': ['table', 'True', '4000'] }},
-		'Bomber Doll': { 'onPlay': { 'kill': ['2000'] }},
+        		'Bomber Doll': { 'onPlay': { 'kill': ['2000'] }},
                 'Boomerang Comet': { 'onPlay': { 'fromMana': [], 'toMana': ['card'] }},
                 'Brain Cyclone': { 'onPlay': { 'draw': ['me.Deck', 'False', '1'] }},
                 'Brain Serum': { 'onPlay': {  'draw': ['me.Deck', 'False', '2'] }},
@@ -128,7 +128,7 @@ cardScripts = {
                                       'onMetaMorph': { 'kill': ['6000'] }},
                 'Chains of Sacrifice': { 'onPlay': { 'kill': ['"ALL"','"ALL"','"ALL"','2'], 'sacrifice': [] }},
                 'Clone Factory': { 'onPlay': {  'fromMana': ['2'] }},
-		'Cloned Nightmare': { 'onPlay': {  'targetDiscard': ['True'] }},
+        		'Cloned Nightmare': { 'onPlay': {  'targetDiscard': ['True'] }},
                 'Corpse Charger': { 'onPlay': {  'search': ['me.piles["Graveyard"]', '1', '"Creature"'] }},
                 'Crimson Hammer': { 'onPlay': { 'kill': ['2000'] }},
                 'Cyber Brain': { 'onPlay': { 'draw': ['me.Deck', 'False', '3'] }},
@@ -149,15 +149,15 @@ cardScripts = {
                 'Faerie Miracle': { 'onPlay': { 'mana': ['me.Deck'] }},
                 'Gardening Drive': { 'onPlay': { 'mana': ['me.Deck'] }},
                 'Gatling Cyclone': { 'onPlay': {  'kill': ['2000'] }},
-		'Ghost Clutch': { 'onPlay': { 'targetDiscard': ['True'] }},
-		'Ghost Touch': { 'onPlay': { 'targetDiscard': ['True'] }},
+        		'Ghost Clutch': { 'onPlay': { 'targetDiscard': ['True'] }},
+        		'Ghost Touch': { 'onPlay': { 'targetDiscard': ['True'] }},
                 'Goren Cannon': { 'onPlay': { 'kill': ['3000'] }},
                 'Flame-Absorbing Palm': { 'onPlay': { 'kill': ['2000'] }},
                 'Fire Crystal Bomb': { 'onPlay': { 'kill': ['5000'] }},
                 'Flame Lance Trap': { 'onPlay': { 'kill': ['5000'] }},
                 'Flood Valve': { 'onPlay': { 'fromMana': [] }},
                 'Hell Chariot': { 'onPlay': { 'kill': ['"ALL"','"Untap"'] }},
-		'Hide and Seek': { 'onPlay': { 'bounce':['1', 'True'], 'targetDiscard': ['True'] }},
+        		'Hide and Seek': { 'onPlay': { 'bounce':['1', 'True'], 'targetDiscard': ['True'] }},
                 'Holy Awe': { 'onPlay': { 'tapCreature': ['1','True'] }},
                 'Hopeless Vortex': { 'onPlay': { 'kill': [] }},
                 'Infernal Smash': { 'onPlay': { 'kill': [] }},
@@ -184,7 +184,7 @@ cardScripts = {
                 'Mystic Dreamscape': { 'onPlay': { 'fromMana': ['3'] }},
                 'Mystic Inscription': { 'onPlay': { 'shields': ['me.Deck'] }},
                 'Natural Snare': { 'onPlay': { 'sendToMana': [] }},
-		'Persistent Prison of Gaia': { 'onPlay': { 'bounce':['1', 'True'], 'targetDiscard': ['True'] }},
+        		'Persistent Prison of Gaia': { 'onPlay': { 'bounce':['1', 'True'], 'targetDiscard': ['True'] }},
                 'Phantom Dragon\'s Flame': { 'onPlay': {  'kill': ['2000'] }},
                 'Phantasm Clutch': { 'onPlay': { 'kill': ['"ALL"','"Tap"'] }},
                 'Pixie Cocoon': { 'onPlay': { 'fromMana': ['1', '"Creature"'], 'toMana': ['card'] }},
@@ -192,7 +192,7 @@ cardScripts = {
                 'Purgatory Force': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '2', '"Creature"'] }},
                 'Reap and Sow': { 'onPlay': { 'mana': ['me.Deck'], 'destroyMana': [] }},       
                 'Reaper Hand': { 'onPlay': { 'kill': [] }},        
-		'Reflecting Ray': { 'onPlay': { 'tapCreature': [] }},
+        		'Reflecting Ray': { 'onPlay': { 'tapCreature': [] }},
                 'Reverse Cyclone': { 'onPlay': { 'tapCreature': [] }},
                 'Riptide Charger': { 'onPlay': {  'bounce': [] }},
                 'Skeleton Vice': { 'onPlay': { 'targetDiscard': ['True'], 'targetDiscard': ['True'] }},
@@ -218,7 +218,7 @@ cardScripts = {
                 'The Strong Breath': { 'onPlay': { 'kill': ['"ALL"','"Untap"'] }},
                 'Timeless Garden': { 'onPlay': { 'mana': ['me.Deck'] }},
                 'Tornado Flame': { 'onPlay': {  'kill': ['4000'] }},
-		'Transmogrify': { 'onPlay': { 'killAndSearch': ['True'] }},
+        		'Transmogrify': { 'onPlay': { 'killAndSearch': ['True'] }},
                 'Triple Brain': { 'onPlay': { 'draw': ['me.Deck', 'False', '3'] }},
                 'Ultimate Force': { 'onPlay': {  'mana': ['me.Deck', '2'] }},
                 'Vacuum Ray': { 'onPlay': { 'tapCreature': [] }},
@@ -228,11 +228,11 @@ cardScripts = {
                 'Wave Rifle': { 'onPlay': { 'gear': ["bounce"] }},
                 'White Knight Spark': { 'onPlay': { 'tapCreature': ['1','True'] }},
                 'Wizard Resurrection': { 'onPlay': { 'mana': ['me.Deck'], 'fromMana': ['1','"Spell"'] }},
-		'XENOM, the Reaper Fortress': { 'onPlay': {  'targetDiscard': ['True'] }},
+        		'XENOM, the Reaper Fortress': { 'onPlay': {  'targetDiscard': ['True'] }},
                 'Zombie Carnival': { 'onPlay': { 'fromGrave': [] }},
                 'Zombie Cyclone': { 'onPlay': {  'search': ['me.piles["Graveyard"]', '1', '"Creature"'] }},
 		# ON BANISH EFFECTS
-		'Akashic First, Electro-Dragon': { 'onDestroy': { 'toHand': ['card'] }},
+        		'Akashic First, Electro-Dragon': { 'onDestroy': { 'toHand': ['card'] }},
                 'Akashic Second, Electro-Spirit': { 'onPlay': { 'draw': ['me.Deck', 'True'] }, 'onDestroy': { 'toMana': ['card'] }},
                 'Aqua Agent': { 'onDestroy': { 'toHand': ['card'] }},
                 'Aqua Knight': { 'onDestroy': { 'toHand': ['card'] }},
@@ -250,10 +250,10 @@ cardScripts = {
                 'Crasher Burn': { 'onDestroy': { 'kill': ['3000'] }},
                 'Crystal Jouster': { 'onDestroy': { 'toHand': ['card'] }},
                 'Cubela, the Oracle': { 'onDestroy': { 'tapCreature': [] }},
-		'Death Monarch, Lord of Demons': { 'onDestroy': { 'SummonFromGrave': ['len([card for card in me.piles["Graveyard"] if not re.search("Evolution",card.type)])', '"Creature"', '"ALL"', '"Demon Command"']}},
+        		'Death Monarch, Lord of Demons': { 'onDestroy': { 'SummonFromGrave': ['len([card for card in me.piles["Graveyard"] if not re.search("Evolution",card.type)])', '"Creature"', '"ALL"', '"Demon Command"']}},
                 'Dracodance Totem': { 'onDestroy': { 'fromMana': ['1','"ALL"','"ALL"','"Dragon"'], 'toMana': ['card'] }},
-		'Fly Lab, Crafty Demonic Tree': { 'onDestroy': { 'targetDiscard': ['True'] }},
-		'Glider Man': { 'onDestroy': { 'targetDiscard': [] }},
+        		'Fly Lab, Crafty Demonic Tree': { 'onDestroy': { 'targetDiscard': ['True'] }},
+        		'Glider Man': { 'onDestroy': { 'targetDiscard': [] }},
                 'Hammerhead Cluster': { 'onDestroy': { 'bounce': [] }},
                 'Jil Warka, Time Guardian': { 'onDestroy': {  'tapCreature': ['2'] }},
                 'Mighty Shouter': { 'onDestroy': { 'toMana': ['card'] }},
@@ -261,14 +261,14 @@ cardScripts = {
                 'Peace Lupia': { 'onDestroy': { 'tapCreature': [] }},
                 'Peru Pere, Viral Guardian': { 'onDestroy': { 'toHand': ['card'] }},
                 'Pharzi, the Oracle': { 'onDestroy': { 'search': ['me.piles["Graveyard"]', '1', '"Spell"'] }},
-		'Propeller Mutant': { 'onDestroy': { 'targetDiscard': ['True'] }},
+        		'Propeller Mutant': { 'onDestroy': { 'targetDiscard': ['True'] }},
                 'Proxion, the Oracle': { 'onDestroy': { 'toHand': ['card'] }},
                 'Shaman Broccoli': { 'onDestroy': { 'toMana': ['card'] }},
                 'Shout Corn': { 'onDestroy': { 'toMana': ['card'] }},
                 'Solid Horn': { 'onDestroy': { 'toMana': ['card'] }},
                 'Stubborn Jasper': { 'onDestroy': { 'toHand': ['card'] }},
                 'Red-Eye Scorpion': { 'onDestroy': { 'toMana': ['card'] }},
-		'Worm Gowarski, Masked Insect': { 'onDestroy': { 'targetDiscard': ['True'] }},
+        		'Worm Gowarski, Masked Insect': { 'onDestroy': { 'targetDiscard': ['True'] }},
    }
 
 # Functions used in the Automation dictionaries.
@@ -686,6 +686,13 @@ def isShield(card):
     else:
         return False
 
+def isPsychic(card):
+    mute()
+    if re.search("Psychic", card.Type):
+        return True
+    else:
+        return False
+
 def metamorph():
     mute()
     cardList = [card for card in table if isMana(card) and card.owner== me]
@@ -761,7 +768,8 @@ def clear(card, x = 0, y = 0):
 
 def setup(group, x = 0, y = 0):
     mute()
-    cardsInTable = [c for c in table if c.controller == me or c.owner == me]
+    cardsInTable = [c for c in table if c.controller == me or c.owner == me and not isPsychic(card)]
+    psychicsInTable = [c for c in table if c.controller == me or c.owner == me and isPsychic(card)]
     cardsInHand = [c for c in me.hand]
     cardsInGrave = [c for c in me.piles['Graveyard']]
     if cardsInTable or cardsInHand or cardsInGrave:
@@ -772,6 +780,8 @@ def setup(group, x = 0, y = 0):
                 card.moveTo(me.Deck)
             for card in cardsInGrave:
                 card.moveTo(me.Deck)
+            for card in psychicsInTable:
+                card.moveTo(me.Hyperspatial)
         else:
             return
     if len(me.Deck) < 10: #We need at least 10 cards to properly setup the game
@@ -948,6 +958,9 @@ def toMana(card, x = 0, y = 0, notifymute = False):
     if isMana(card):
         whisper("This is already mana")
         return
+    if isPsychic(card):
+        toHyperspatial(card)
+        return
     card.moveToTable(0,0)
     card.orientation = Rot180
     if re.search("/", card.Civilization):
@@ -963,6 +976,13 @@ def toMana(card, x = 0, y = 0, notifymute = False):
     if notifymute == False:
         notify("{} charges {} as mana.".format(me, card))
 
+def toHyperspatial(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreEvo = False):
+    if card.alternate is 'awakening':
+        awaken(card)
+        return
+    else:
+        card.moveTo(me.Hyperspatial)    
+
 def toShields(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreEvo = False):
     mute()
     if isShield(card):
@@ -972,6 +992,9 @@ def toShields(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreE
     if ignoreEvo == False and card._id in list(itertools.chain.from_iterable(evolveDict.values())):
         if not confirm("WARNING: There is an evolution creature on top of this card, and can not legally be placed into your shield zone.\nWould you like to override this?"):
             return
+    if isPsychic(card):
+        toHyperspatial(card)
+        return
     count = int(me.getGlobalVariable("shieldCount")) + 1
     me.setGlobalVariable("shieldCount", convertToString(count))
     if notifymute == False:
@@ -979,6 +1002,7 @@ def toShields(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreE
             notify("{} sets {} as shield #{}.".format(me, card, count))
         else:
             notify("{} sets a card in {} as shield #{}.".format(me, card.group.name, count))
+
     card.moveToTable(0,0,True)
     if card.isFaceUp:
         card.isFaceUp = False
@@ -1057,6 +1081,9 @@ def toDiscard(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreE
     if ignoreEvo == False and isCreature(card) and card._id in list(itertools.chain.from_iterable(evolveDict.values())):
         if not confirm("WARNING: There is an evolution creature on top of this card, and can not legally be banished.\nWould you like to override this?"):
             return
+    if isPsychic(card):
+        toHyperspatial(card)
+        return    
     src = card.group
     card.moveTo(card.owner.piles['Graveyard'])
     if card._id in evolveDict:
@@ -1081,6 +1108,9 @@ def toHand(card, show = True, x = 0, y = 0, alignCheck = True, ignoreEvo = False
     if ignoreEvo == False and isCreature(card) and card._id in list(itertools.chain.from_iterable(evolveDict.values())):
         if not confirm("WARNING: There is an evolution creature on top of this card, and can not legally be banished.\nWould you like to override this?"):
             return
+    if isPsychic(card):
+        toHyperspatial(card)
+        return
     card.moveTo(card.owner.hand)
     if card._id in evolveDict:
         evolvedCardList = evolveDict[card._id]
@@ -1110,6 +1140,9 @@ def toDeck(card, bottom = False):
     if isCreature(card) and card._id in list(itertools.chain.from_iterable(evolveDict.values())):
         if not confirm("WARNING: There is an evolution creature on top of this card, and can not legally be banished.\nWould you like to override this?"):
             return
+    if isPsychic(card):
+        toHyperspatial(card)
+        return
     cardList = [card]
     if card._id in evolveDict:
         evolvedCardList = evolveDict[card._id]

@@ -73,7 +73,7 @@
 			<property name="Number" value="S4" />
 		</card>
 		<card name="Diabolos Zeta, Temporal Ruler" id="958f72e9-4635-4a77-914a-f29804064c16">
-			<property name="Civilization" value="Light" />
+			<property name="Civilization" value="Light/Water/Fire/Darkness/Nature" />
 			<property name="Cost" value="10" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="World Command" />
@@ -83,7 +83,7 @@
 			<property name="Number" value="S5a" />
 
 			<alternate name="Devil Diabolos Zeta, Evil Awakened" type="awakening">
-				<property name="Civilization" value="Light" />
+				<property name="Civilization" value="Light/Water/Fire/Darkness/Nature" />
 				<property name="Cost" value="20" />
 				<property name="Type" value="Psychic Creature" />
 				<property name="Race" value="World Command" />
@@ -159,7 +159,7 @@
 		</card>
 
 		<card name="Final Doppel" id="3f1c1001-8f6e-416e-88af-e524faf49ef0">
-			<property name="Civilization" value="Water" />
+			<property name="Civilization" value="Water/Nature" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Soul Command" />
@@ -345,7 +345,7 @@
 			<property name="Number" value="19" />
 		</card>
 		<card name="Hyperspatial Guard Hole" id="811afce8-0825-45b7-9c29-ba3fdd42c2a3">
-			<property name="Civilization" value="Light" />
+			<property name="Civilization" value="Light/Darkness" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />

@@ -158,6 +158,15 @@ cardScripts = {
                 'Flood Valve': { 'onPlay': { 'fromMana': [] }},
                 'Hell Chariot': { 'onPlay': { 'kill': ['"ALL"','"Untap"'] }},
         		'Hide and Seek': { 'onPlay': { 'bounce':['1', 'True'], 'targetDiscard': ['True'] }},
+                'Hyperspatial Storm Hole': { 'onPlay': { 'kill': ['5000'] }},
+                'Hyperspatial Bolshack Hole': { 'onPlay': { 'kill': ['5000'] }},
+                'Hyperspatial Kutt Hole': { 'onPlay': { 'kill': ['5000'] }},
+                'Hyperspatial Guard Hole': { 'onPlay': { 'sendToShields': [] }},
+                'Hyperspatial Vice Hole': { 'onPlay': {  'targetDiscard': [] }},
+                'Hyperspatial Shiny Hole': { 'onPlay': { 'tapCreature': [] }},
+                'Hyperspatial Energy Hole': { 'onPlay': { 'draw': ['me.Deck', 'False', '1'] }},
+                'Hyperspatial Faerie Hole': { 'onPlay': { 'mana': ['me.Deck'] }},
+                'Hyperspatial Revive Hole': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Creature"'] }},
                 'Holy Awe': { 'onPlay': { 'tapCreature': ['1','True'] }},
                 'Hopeless Vortex': { 'onPlay': { 'kill': [] }},
                 'Infernal Smash': { 'onPlay': { 'kill': [] }},
@@ -613,9 +622,24 @@ def awaken(card, x = 0, y = 0):
         if card.alternate is '':
             card.switchTo('awakening')
             notify("{}'s' {} awakens to {}.".format(me, altName, card))
+            align()
+            return
         else:
             card.switchTo('')
             notify("{}'s {} reverts to {}.".format(me, altName, card))
+            align()
+            return
+
+def toHyperspatial(card, x = 0, y = 0, notifymute = False):
+    mute()
+    if card.alternate is not '' and re.search("{RELEASE}", card.Rules):
+        awaken(card)
+        return
+    else:
+        card.moveTo(me.Hyperspatial)
+        align()
+        if notifymute == False:
+            notify("{}'s {} returns to the Hyperspatial Zone.".format(me, card))
 
 def resetGame():
     mute()
@@ -787,6 +811,13 @@ def setup(group, x = 0, y = 0):
     if len(me.Deck) < 10: #We need at least 10 cards to properly setup the game
         whisper("Not enough cards in deck")
         return
+
+    cardsInDeck = [c for c in me.Deck]
+    for card in cardsInDeck:
+        if isPsychic(card):
+            whisper("You cannot have Psychic creatures in your main deck")
+            return
+
     me.setGlobalVariable("shieldCount", "0")
     me.setGlobalVariable("evolution", "{}")
     me.Deck.shuffle()
@@ -975,13 +1006,6 @@ def toMana(card, x = 0, y = 0, notifymute = False):
     align()
     if notifymute == False:
         notify("{} charges {} as mana.".format(me, card))
-
-def toHyperspatial(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreEvo = False):
-    if card.alternate is 'awakening':
-        awaken(card)
-        return
-    else:
-        card.moveTo(me.Hyperspatial)    
 
 def toShields(card, x = 0, y = 0, notifymute = False, alignCheck = True, ignoreEvo = False):
     mute()

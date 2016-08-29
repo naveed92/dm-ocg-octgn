@@ -12,7 +12,6 @@ Astral Reef
 Emeral
 Deep Operation
 Streaming Shaper
-Skeleton Vice
 Cloned Nightmare
 Nariel, the Oracle
 Aqua Hulcus
@@ -49,6 +48,7 @@ Orochi, of the Hidden Blade
 Banned:
 Bombazar, Dragon of Destiny
 Bolmeteus Sapphire Dragon
+Skeleton Vice
 Future Slash
 Hell Slash
 Slash Charger
@@ -64,4 +64,4 @@ Aquan
 Cyber Brain
 
 Combo Ban:
-Hyperspatial Vice Hole >> Diabolos Zeta, Temporal Ruler
+Hyperspatial Vice Hole >> Diabolos Zeta, Temporal Ruler(these cannot be in the same deck + hyperspatial zone)

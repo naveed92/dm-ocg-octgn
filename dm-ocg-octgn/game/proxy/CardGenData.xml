@@ -1,139 +1,149 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <templates>
 	<blocks>
-		<block type="overlay" id="light" src="proxy\frames\light.jpg">
+		<block type="overlay" id="lightC" src="proxy\frames\lightC.png">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="water" src="proxy\frames\water.jpg">
+		<block type="overlay" id="waterC" src="proxy\frames\waterC.png">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="darkness" src="proxy\frames\darkness.jpg">
+		<block type="overlay" id="darkC" src="proxy\frames\darkC.png">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="fire" src="proxy\frames\fire.jpg">
+		<block type="overlay" id="fireC" src="proxy\frames\fireC.png">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="nature" src="proxy\frames\nature.jpg">
+		<block type="overlay" id="natureC" src="proxy\frames\natureC.png">
+			<location x="0" y="0" />
+		</block>	
+		
+		<block type="overlay" id="lightS" src="proxy\frames\lightS.png">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="darklight" src="proxy\frames\darklight.jpg">
+		<block type="overlay" id="waterS" src="proxy\frames\waterS.png">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="darkwater" src="proxy\frames\darkwater.jpg">
+		<block type="overlay" id="darkS" src="proxy\frames\darkS.png">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="darknature" src="proxy\frames\darknature.jpg">
+		<block type="overlay" id="fireS" src="proxy\frames\fireS.png">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="darkfire" src="proxy\frames\darkfire.jpg">
+		<block type="overlay" id="natureS" src="proxy\frames\natureS.png">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="firenature" src="proxy\frames\firenature.jpg">
+    
+		<block type="overlay" id="fireDarkS" src="proxy\frames\fireDarkS.png">
+			<location x="0" y="0" />
+		</block>	
+		<block type="overlay" id="fireDarkC" src="proxy\frames\fireDarkC.png">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="firelight" src="proxy\frames\firelight.jpg">
+		<block type="overlay" id="fireNatureS" src="proxy\frames\fireNatureS.png">
+			<location x="0" y="0" />
+		</block>	
+		<block type="overlay" id="fireNatureC" src="proxy\frames\fireNatureC.png">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="firewater" src="proxy\frames\firewater.jpg">
+		<block type="overlay" id="lightWaterS" src="proxy\frames\lightWaterS.png">
+			<location x="0" y="0" />
+		</block>	
+		<block type="overlay" id="lightWaterC" src="proxy\frames\lightWaterC.png">
 			<location x="0" y="0" />
 		</block>
-		<block type="overlay" id="waterlight" src="proxy\frames\waterlight.jpg">
+		<block type="overlay" id="lightNatureS" src="proxy\frames\lightNatureS.png">
 			<location x="0" y="0" />
+		</block>	
+		<block type="overlay" id="lightNatureC" src="proxy\frames\lightNatureC.png">
+			<location x="0" y="0" />	
 		</block>
-		<block type="overlay" id="waternature" src="proxy\frames\waternature.jpg">
+		<block type="overlay" id="waterDarkS" src="proxy\frames\waterDarkS.png">
 			<location x="0" y="0" />
+		</block>	
+		<block type="overlay" id="waterDarkC" src="proxy\frames\waterDarkC.png">
+			<location x="0" y="0" />	
 		</block>
-		<block type="overlay" id="lightnature" src="proxy\frames\lightnature.jpg">
+		
+		<block type="overlay" id="darkNatureS" src="proxy\frames\darkNatureS.png">
 			<location x="0" y="0" />
+		</block>	
+		<block type="overlay" id="darkNatureC" src="proxy\frames\darkNatureC.png">
+			<location x="0" y="0" />	
 		</block>
-
-		<block type="overlay" id="lightbox" src="proxy\textboxes\lightbox.png">
+		
+		<block type="overlay" id="lightDarkS" src="proxy\frames\lightDarkS.png">
 			<location x="0" y="0" />
+		</block>	
+		<block type="overlay" id="lightDarkC" src="proxy\frames\lightDarkC.png">
+			<location x="0" y="0" />	
 		</block>
-		<block type="overlay" id="waterbox" src="proxy\textboxes\waterbox.png">
+	
+		<block type="overlay" id="lightFireS" src="proxy\frames\lightFireS.png">
 			<location x="0" y="0" />
+		</block>	
+		<block type="overlay" id="lightFireC" src="proxy\frames\lightFireC.png">
+			<location x="0" y="0" />	
 		</block>
-		<block type="overlay" id="darknessbox" src="proxy\textboxes\darknessbox.png">
+		
+		<block type="overlay" id="waterFireS" src="proxy\frames\waterFireS.png">
 			<location x="0" y="0" />
+		</block>	
+		<block type="overlay" id="waterFireC" src="proxy\frames\waterFireC.png">
+			<location x="0" y="0" />	
 		</block>
-		<block type="overlay" id="firebox" src="proxy\textboxes\firebox.png">
+		
+		<block type="overlay" id="waterNatureS" src="proxy\frames\waterNatureS.png">
 			<location x="0" y="0" />
+		</block>	
+		<block type="overlay" id="waterNatureC" src="proxy\frames\waterNatureC.png">
+			<location x="0" y="0" />	
 		</block>
-		<block type="overlay" id="naturebox" src="proxy\textboxes\naturebox.png">
-			<location x="0" y="0" />
-		</block>
-
-		<block type="overlay" id="darklightbox" src="proxy\textboxes\darklightbox.png">
-			<location x="0" y="0" />
-		</block>
-		<block type="overlay" id="darkwaterbox" src="proxy\textboxes\darkwaterbox.png">
-			<location x="0" y="0" />
-		</block>
-		<block type="overlay" id="darknaturebox" src="proxy\textboxes\darknaturebox.png">
-			<location x="0" y="0" />
-		</block>
-		<block type="overlay" id="darkfirebox" src="proxy\textboxes\darkfirebox.png">
-			<location x="0" y="0" />
-		</block>
-		<block type="overlay" id="firenaturebox" src="proxy\textboxes\firenaturebox.png">
-			<location x="0" y="0" />
-		</block>
-
-		<block type="overlay" id="firelightbox" src="proxy\textboxes\firelightbox.png">
-			<location x="0" y="0" />
-		</block>
-		<block type="overlay" id="firewaterbox" src="proxy\textboxes\firewaterbox.png">
-			<location x="0" y="0" />
-		</block>
-		<block type="overlay" id="waterlightbox" src="proxy\textboxes\waterlightbox.png">
-			<location x="0" y="0" />
-		</block>
-		<block type="overlay" id="waternaturebox" src="proxy\textboxes\waternaturebox.png">
-			<location x="0" y="0" />
-		</block>
-		<block type="overlay" id="lightnaturebox" src="proxy\textboxes\lightnaturebox.png">
-			<location x="0" y="0" />
-		</block>
-
+		
 		<block type="overlay" id="evo" src="proxy/evo.png">
 			<location x="0" y="0" />
 		</block>
 
 	<block type="text" id="title">
-			<location x="57" y="28" />
-			<text color="#000000" size="30" />
-			<border color="#000000" size="0" />
-			<wordwrap height="28" width="310" align="center" shrinktofit="True" valign="center" />
+			<location x="70" y="21" />
+			<text color="#000000" size="32" font="./fonts/perceval.ttf"/>
+			<border color="#FFFFFF" size="2" />
+			<wordwrap height="48" width="300" align="center" shrinktofit="True" valign="center" />
 		</block>
 		<block type="text" id="cost">
-			<location x="8" y="18" />
-			<text color="#FFFFFF" size="30" />
+			<location x="14" y="25" />
+			<text color="#FFFFFF" size="38" font="./fonts/armadaCondensed.ttf"/>
 			<border color="#000000" size="2" />
 			<wordwrap height="38" width="50" align="center" shrinktofit="False" valign="center" />
 		</block>
 		<block type="text" id="race">
-			<location x="80" y="55" />
-			<text color="#000000" size="14" />
-			<border color="#000000" size="0" />
-			<wordwrap height="18" width="260" align="center" shrinktofit="False" valign="center"/>
+			<location x="68" y="59" />
+			<text color="#000000" size="12" font="./fonts/armada.ttf"/>
+			<border color="#FFFFFF" size="1" />
+			<wordwrap height="18" width="300" align="center" shrinktofit="False" valign="center"/>
 		</block>
 		<block type="text" id="power">
-			<location x="21" y="502" />
-			<text color="#FFFFFF" size="60" />
-			<border color="#000000" size="4" />
-			<wordwrap height="38" width="115" align="near" shrinktofit="True" valign="center"/>
+			<location x="16" y="501" />
+			<text color="#FFFFFF" size="46" font="./fonts/armadaCondensed.ttf"/>
+			<border color="#000000" size="3" />
+			<wordwrap height="46" width="115" align="near" shrinktofit="True" valign="center"/>
 		</block>
-		<block type="text" id="type">
-			<location x="40" y="358" />
-			<text color="#000000" size="20" />
-			<border color="#000000" size="0" />
-			<wordwrap height="15" width="120" align="center" shrinktofit="True" valign="center"/>
+		<block type="text" id="typeC">
+			<location x="30" y="359" />
+			<text color="#000000" size="16" font="./fonts/armada.ttf"/>
+			<border color="#FFFFFF" size="2" />
+			<wordwrap height="16" width="126" align="center" shrinktofit="True" valign="center"/>
+		</block>
+		<block type="text" id="typeS">
+			<location x="8" y="359" />
+			<text color="#000000" size="16" font="./fonts/armada.ttf"/>
+			<border color="#FFFFFF" size="2" />
+			<wordwrap height="16" width="128" align="center" shrinktofit="True" valign="center"/>
 		</block>
 			<block type="text" id="rules">
-			<location x="42" y="380" />
-			<text color="#000000" size="14" />
+			<location x="48" y="382" />
+			<text color="#000000" size="13" font="./fonts/officina.ttf"/>
 			<border color="#000000" size="0" />
-			<wordwrap height="110" width="320" align="near" shrinktofit="False" valign="near"/>
+			<wordwrap height="130" width="315" align="near" shrinktofit="True" valign="near"/>
 		</block>
 
 		<block type="text" id="rarity">
@@ -143,32 +153,14 @@
 			<wordwrap height="20" width="120" align="far" shrinktofit="True"/>
 		</block>
 	</blocks>
-	<template src="proxy\frames\light.jpg" default="True" >
+	
+	
+	<template src="proxy\blank.png" default="True" >
 		<matches>
-			<match name="Civilization" value="Light"/>
+			<match name="Type" value="Creature"/>
 		</matches>
+		
 		<overlayblocks>
-
-			<conditional>
-				<switch property="Civilization">
-					<case value="Light"><link block="light" /></case>
-					<case value="Water"><link block="water" /></case>
-					<case value="Darkness"><link block="darkness" /></case>
-					<case value="Fire"><link block="fire" /></case>
-					<case value="Nature"><link block="nature" /></case>
-					<case value="Light/Water"><link block="waterlight" /></case>
-					<case value="Water/Darkness"><link block="darkwater" /></case>
-					<case value="Darkness/Fire"><link block="darkfire" /></case>
-					<case value="Fire/Nature"><link block="firenature" /></case>
-					<case value="Light/Nature"><link block="lightnature" /></case>
-					<case value="Light/Fire"><link block="firelight" /></case>
-					<case value="Water/Nature"><link block="waternature" /></case>
-					<case value="Light/Darkness"><link block="darklight" /></case>
-					<case value="Water/Fire"><link block="firewater" /></case>
-					<case value="Darkness/Nature"><link block="darknature" /></case>
-				</switch>
-			</conditional>
-
 			<artoverlay>
 				<location x="0" y="0" />
 				<size height="560" width="400" />
@@ -176,45 +168,128 @@
 
 			<conditional>
 				<switch property="Civilization">
-					<case value="Light"><link block="lightbox" /></case>
-					<case value="Water"><link block="waterbox" /></case>
-					<case value="Darkness"><link block="darknessbox" /></case>
-					<case value="Fire"><link block="firebox" /></case>
-					<case value="Nature"><link block="naturebox" /></case>
-					<case value="Light/Water"><link block="waterlightbox" /></case>
-					<case value="Water/Darkness"><link block="darkwaterbox" /></case>
-					<case value="Darkness/Fire"><link block="darkfirebox" /></case>
-					<case value="Fire/Nature"><link block="firenaturebox" /></case>
-					<case value="Light/Nature"><link block="lightnaturebox" /></case>
-					<case value="Light/Fire"><link block="firelightbox" /></case>
-					<case value="Water/Nature"><link block="waternaturebox" /></case>
-					<case value="Light/Darkness"><link block="darklightbox" /></case>
-					<case value="Water/Fire"><link block="firewaterbox" /></case>
-					<case value="Darkness/Nature"><link block="darknaturebox" /></case>
+					<case value="Light"> <link block="lightC" /> </case>
+					<case value="Fire"> <link block="fireC" /> </case>
+					<case value="Water"> <link block="waterC" /> </case>
+					<case value="Nature"> <link block="natureC" /> </case>
+					<case value="Darkness"> <link block="darkC" /> </case>
+					
+					<case value="Darkness/Fire"> <link block="fireDarkC" /> </case>
+					<case value="Fire/Darkness"> <link block="fireDarkC" /> </case>
+					
+					<case value="Nature/Fire"> <link block="fireNatureC" /> </case>
+					<case value="Fire/Nature"> <link block="fireNatureC" /> </case>
+					
+					<case value="Light/Water"> <link block="lightWaterC" /> </case>
+					<case value="Water/Light"> <link block="lightWaterC" /> </case>
+					
+					<case value="Light/Nature"> <link block="lightNatureC" /> </case>
+					<case value="Nature/Light"> <link block="lightNatureC" /> </case>
+					
+					<case value="Darkness/Water"> <link block="waterDarkC" /> </case>
+					<case value="Water/Darkness"> <link block="waterDarkC" /> </case>
+
+					
+					<case value="Darkness/Nature"> <link block="darkNatureC" /> </case>
+					<case value="Nature/Darkness"> <link block="darkNatureC" /> </case>
+					
+					<case value="Light/Darkness"> <link block="lightDarkC" /> </case>
+					<case value="Darkness/Light"> <link block="lightDarkC" /> </case>
+					
+					<case value="Light/Fire"> <link block="lightFireC" /> </case>
+					<case value="Fire/Light"> <link block="lightFireC" /> </case>
+					
+					<case value="Fire/Water"> <link block="waterFireC" /> </case>
+					<case value="Water/Fire"> <link block="waterFireC" /> </case>
+					
+					<case value="Water/Nature"> <link block="waterNatureC" /> </case>
+					<case value="Nature/Water"> <link block="waterNatureC" /> </case>
+					
+					<default> <link block="lightC" /> </default>
 				</switch>
 			</conditional>
-
+	
 			<conditional>
-				<if property="Type" value="Evolution Creature">
+				<if property="Type" contains="Evolution">
 					<link block="evo" />
   				</if>
 			</conditional>
-
-			<conditional>
-				<if property="Type" value="Evolution Cross Gear">
-					<link block="evo" />
-  				</if>
-			</conditional>
-
-
 		</overlayblocks>
+		
 		<textblocks>
+						
 			<link block="title"><property name="Name" /></link>
 			<link block="race"><property name="Race" /></link>
+			<link block="typeC"><property name="Type" /></link>
 			<link block="rules"><property name="Rules" /></link>
-			<link block="type"><property name="Type" /></link>
 			<link block="cost"><property name="Cost" /></link>
 			<link block="power"><property name="Power" /></link>
+		</textblocks>
+	</template>
+	
+		<template src="proxy\blank.png">
+		<matches>
+			<match name="Type" value="Spell"/>
+		</matches>
+		
+		<overlayblocks>
+			<artoverlay>
+				<location x="0" y="0" />
+				<size height="560" width="400" />
+			</artoverlay>
+
+			<conditional>
+				<switch property="Civilization">
+					<case value="Light"> <link block="lightS" /> </case>
+					<case value="Fire"> <link block="fireS" /> </case>
+					<case value="Water"> <link block="waterS" /> </case>
+					<case value="Nature"> <link block="natureS" /> </case>
+					<case value="Darkness"> <link block="darkS" /> </case>
+					
+					<case value="Darkness/Fire"> <link block="fireDarkS" /> </case>
+					<case value="Fire/Darkness"> <link block="fireDarkS" /> </case>
+					
+					<case value="Nature/Fire"> <link block="fireNatureS" /> </case>
+					<case value="Fire/Nature"> <link block="fireNatureS" /> </case>	
+					
+					<case value="Light/Water"> <link block="lightWaterS" /> </case>
+					<case value="Water/Light"> <link block="lightWaterS" /> </case>
+
+					<case value="Light/Nature"> <link block="lightNatureS" /> </case>
+					<case value="Nature/Light"> <link block="lightNatureS" /> </case>
+					
+					<case value="Darkness/Water"> <link block="waterDarkS" /> </case>
+					<case value="Water/Darkness"> <link block="waterDarkS" /> </case>
+
+					
+					<case value="Darkness/Nature"> <link block="darkNatureS" /> </case>
+					<case value="Nature/Darkness"> <link block="darkNatureS" /> </case>
+					
+					<case value="Light/Darkness"> <link block="lightDarkS" /> </case>
+					<case value="Darkness/Light"> <link block="lightDarkS" /> </case>
+					
+					<case value="Light/Fire"> <link block="lightFireS" /> </case>
+					<case value="Fire/Light"> <link block="lightFireS" /> </case>
+					
+					<case value="Fire/Water"> <link block="waterFireS" /> </case>
+					<case value="Water/Fire"> <link block="waterFireS" /> </case>
+					
+					<case value="Water/Nature"> <link block="waterNatureS" /> </case>
+					<case value="Nature/Water"> <link block="waterNatureS" /> </case>
+				
+					<default> <link block="lightS" /> </default>
+				</switch>
+			</conditional>	
+			
+		</overlayblocks>
+		
+		<textblocks>
+						
+			<link block="title"><property name="Name" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="typeS"><property name="Type" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="cost"><property name="Cost" /></link>
 		</textblocks>
 	</template>
 </templates>

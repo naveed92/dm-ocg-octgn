@@ -259,7 +259,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Gel Fish/Alien" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa; Blocker&#xd;&#xa;Space Charge Choose a non-evolution creature in the battle zone. Destroy it, return it to its owner&quot;s hand, or put it into its owner&quot;s shield zone face down." />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa; Blocker&#xd;&#xa;Space Charge: Choose a non-evolution creature in the battle zone. Destroy it, return it to its owner&quot;s hand, or put it into its owner&quot;s shield zone face down." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="14" />
@@ -281,7 +281,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Guardian/Alien" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Space Charge Choose one of your shields and one of your opponent&quot;s shields and look at them. Then, choose one of the chosen shields, and you may put that shield on the bottom of its owner&quot;s deck. If you do, that player adds the top card of their deck to their shields face down.&#xd;&#xa; Double breaker" />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Space Charge: Choose one of your shields and one of your opponent&quot;s shields and look at them. Then, choose one of the chosen shields, and you may put that shield on the bottom of its owner&quot;s deck. If you do, that player adds the top card of their deck to their shields face down.&#xd;&#xa; Double breaker" />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="16" />
@@ -292,7 +292,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Wild Veggies/Alien" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Space Charge Each of your cards in the battle zone and your mana zone are considered to be cards of all civilizations until the end of the turn." />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Space Charge: Each of your cards in the battle zone and your mana zone are considered to be cards of all civilizations until the end of the turn." />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="17" />
@@ -303,7 +303,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Demon Command/Alien" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Space Charge Your opponent chooses a card in his hand and discards it.&#xd;&#xa;Power Attacker&#xd;&#xa; When this creature would break a shield, if your opponent has no cards in his hand, put it into your opponent&quot;s graveyard instead.&#xd;&#xa;Double breaker" />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Space Charge: Your opponent chooses a card in his hand and discards it.&#xd;&#xa;Power Attacker&#xd;&#xa; When this creature would break a shield, if your opponent has no cards in his hand, put it into your opponent&quot;s graveyard instead.&#xd;&#xa;Double breaker" />
 			<property name="Power" value="5000+" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="18" />
@@ -314,7 +314,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Rainbow Command Dragon/Alien" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Space Charge Put a non-evolution creature that costs 5 or less from your graveyard into the battle zone. This turn, that creature gets &quot;Speed Attacker&quot;. At the end of that turn, put that creature on the bottom of your deck." />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Space Charge: Put a non-evolution creature that costs 5 or less from your graveyard into the battle zone. This turn, that creature gets &quot;Speed Attacker&quot;. At the end of that turn, put that creature on the bottom of your deck." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="19" />
@@ -336,7 +336,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; For each civilization you have in the battle zone, choose one of your opponent&quot;s creatures and tap it." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;For each civilization you have in the battle zone, choose one of your opponent&quot;s creatures and tap it." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="21" />
@@ -347,7 +347,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Destroy one of your opponent&quot;s non-multicolored creatures.&#xd;&#xa; If you have a light Hunter creature in the battle zone, choose one of your opponent&quot;s creatures in the battle zone, and tap it." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy one of your opponent&quot;s non-multicolored creatures.&#xd;&#xa; If you have a light Hunter creature in the battle zone, choose one of your opponent&quot;s creatures in the battle zone, and tap it." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="23" />
@@ -358,7 +358,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Human/Hunter" />
-			<property name="Rules" value="Shield Trigger&#xd;&#xa; When you put this creature into the battle zone, choose any number of your opponent&quot;s psychic creatures that have total power 8000 or less and destroy them." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, choose any number of your opponent&quot;s psychic creatures that have total power 8000 or less and destroy them." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="24" />
@@ -380,7 +380,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Liquid People/Hunter" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa; Shield trigger &#xd;&#xa; Blocker&#xd;&#xa; This creature can&quot;t attack players.&#xd;&#xa; When you put this creature into the battle zone, choose one of your opponent&quot;s psychic creatures in the battle zone and return it it to its owner&quot;s hyperspatial zone." />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;Blocker&#xd;&#xa; This creature can&quot;t attack players.&#xd;&#xa; When you put this creature into the battle zone, choose one of your opponent&quot;s psychic creatures in the battle zone and return it it to its owner&quot;s hyperspatial zone." />
 			<property name="Power" value="3500" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="26" />
@@ -435,7 +435,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Flame Monster/Blue Monster/Alien" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Space Charge Put a multicolored Alien psychic creature that costs the same as or less than the number of cards in your mana zone from your hyperspatial zone into the battle zone.Hyperspatial Psychic" />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Space Charge: Put a multicolored Alien psychic creature that costs the same as or less than the number of cards in your mana zone from your hyperspatial zone into the battle zone.Hyperspatial Psychic" />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="31" />
@@ -479,7 +479,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa;Shield Trigger &#xd;&#xa; Put a multicolored psychic creature that costs 5 or less from your hyperspatial zone into the battle zone. &#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;Put a multicolored psychic creature that costs 5 or less from your hyperspatial zone into the battle zone. &#xd;&#xa;Hyperspatial Psychic" />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="35" />
@@ -501,7 +501,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Initiate/Hunter" />
-			<property name="Rules" value="Shield Trigger&#xd;&#xa;Hunting" />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Hunting" />
 			<property name="Power" value="1000+" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="36" />
@@ -723,7 +723,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cyber Lord/Alien/Hunter" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Shield Trigger" />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;{SHIELD TRIGGER}" />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="54" />

@@ -115,7 +115,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Zombie Dragon/Alien" />
-			<property name="Rules" value="Space Charge Discard all cards in your hand, then draw 5 cards.&#xd;&#xa;Double breaker" />
+			<property name="Rules" value="Space Charge: Discard all cards in your hand, then draw 5 cards.&#xd;&#xa;Double breaker" />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S5" />
@@ -126,7 +126,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armored Dragon/Alien" />
-			<property name="Rules" value="Space Charge This turn, one of your creatures in the battle zone gets +5000 power and breaks an additional shield, and whenever that creature attacks, put the top card of your deck into your mana zone.&#xd;&#xa;Double breaker" />
+			<property name="Rules" value="Space Charge: This turn, one of your creatures in the battle zone gets +5000 power and breaks an additional shield, and whenever that creature attacks, put the top card of your deck into your mana zone.&#xd;&#xa;Double breaker" />
 			<property name="Power" value="8000+" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S6" />
@@ -181,7 +181,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Earth Eater/Alien" />
-			<property name="Rules" value="Space Charge Destroy one of your opponent&quot;s untapped creatures.&#xd;&#xa;Double breaker" />
+			<property name="Rules" value="Space Charge: Destroy one of your opponent&quot;s untapped creatures.&#xd;&#xa;Double breaker" />
 			<property name="Power" value="8000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="3" />
@@ -258,7 +258,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Giant/Alien" />
-			<property name="Rules" value="Space Charge Destroy one of your opponent&quot;s creatures that has 6000 power or less.&#xd;&#xa; Whenever this creature attacks, you may return a fire card from your mana zone to your hand.&#xd;&#xa;Double breaker" />
+			<property name="Rules" value="Space Charge: Destroy one of your opponent&quot;s creatures that has 6000 power or less.&#xd;&#xa; Whenever this creature attacks, you may return a fire card from your mana zone to your hand.&#xd;&#xa;Double breaker" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="10" />
@@ -280,7 +280,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Berserker/Alien" />
-			<property name="Rules" value="Space Charge Return a card from your mana zone to your hand.&#xd;&#xa;Double breaker" />
+			<property name="Rules" value="Space Charge: Return a card from your mana zone to your hand.&#xd;&#xa;Double breaker" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="12" />
@@ -302,7 +302,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Great Mecha King /Alien" />
-			<property name="Rules" value="Space Charge Look at one of your opponent&quot;s shields. You may have your opponent put the top card of his deck under that shield. If you do, your opponent chooses a card you looked at, and puts it on the bottom of his deck." />
+			<property name="Rules" value="Space Charge: Look at one of your opponent&quot;s shields. You may have your opponent put the top card of his deck under that shield. If you do, your opponent chooses a card you looked at, and puts it on the bottom of his deck." />
 			<property name="Power" value="4500" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="14" />
@@ -324,7 +324,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Add the top 2 cards of your deck into your shield zone face down.&#xd;&#xa; At the start of your next turn, return 2 of your shields to your hand. You can&quot;t use the &quot;Shield trigger&quot; ability of those shields." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Add the top 2 cards of your deck into your shield zone face down.&#xd;&#xa; At the start of your next turn, return 2 of your shields to your hand. You can&quot;t use the &quot;Shield trigger&quot; ability of those shields." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="16" />
@@ -346,7 +346,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cyber Moon" />
-			<property name="Rules" value=" Shield trigger &#xd;&#xa; Blocker&#xd;&#xa; This creature can&quot;t attack.&#xd;&#xa; When you put this creature into the battle zone, draw a card." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Blocker&#xd;&#xa; This creature can&quot;t attack.&#xd;&#xa; When you put this creature into the battle zone, draw a card." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="18" />
@@ -434,7 +434,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dark Monster/Alien" />
-			<property name="Rules" value="Blocker&#xd;&#xa;Space Charge This turn, this creature gets &quot;Power Attacker +5000&quot; and breaks an additional shield." />
+			<property name="Rules" value="Blocker&#xd;&#xa;Space Charge: This turn, this creature gets &quot;Power Attacker +5000&quot; and breaks an additional shield." />
 			<property name="Power" value="2000+" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="24" />
@@ -456,7 +456,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Pandora's Box/Alien" />
-			<property name="Rules" value=" Shield Trigger&#xd;&#xa; When you put this creature into the battle zone, you may destroy one of your Darkness or Fire creatures. If you do, put a Darkness or Fire psychic creature that costs 4 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, you may destroy one of your Darkness or Fire creatures. If you do, put a Darkness or Fire psychic creature that costs 4 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="26" />
@@ -511,7 +511,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Flame Command/Alien" />
-			<property name="Rules" value="Space Charge Return a creature from your graveyard to your hand.&#xd;&#xa;Double breaker" />
+			<property name="Rules" value="Space Charge: Return a creature from your graveyard to your hand.&#xd;&#xa;Double breaker" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="30" />
@@ -522,7 +522,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Flame Command/Alien" />
-			<property name="Rules" value="Space Charge Return a creature from your graveyard to your hand.&#xd;&#xa;Double breaker" />
+			<property name="Rules" value="Space Charge: Return a creature from your graveyard to your hand.&#xd;&#xa;Double breaker" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="30" />
@@ -555,7 +555,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Destroy any number of your opponent&quot;s creatures that have total power 5000 or less." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy any number of your opponent&quot;s creatures that have total power 5000 or less." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="33" />
@@ -688,7 +688,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Angel Command/Alien" />
-			<property name="Rules" value="Space Charge This turn, the next creature you summon may cost 1 less. It can&quot;t cost less than 1." />
+			<property name="Rules" value="Space Charge: This turn, the next creature you summon may cost 1 less. It can&quot;t cost less than 1." />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="43" />
@@ -732,7 +732,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Choose one of your opponent&quot;s creatures in the battle zone and tap it. That creature doesn&quot;t untap at the start of your opponent&quot;s next turn. " />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose one of your opponent&quot;s creatures in the battle zone and tap it. That creature doesn&quot;t untap at the start of your opponent&quot;s next turn. " />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="46" />
@@ -787,7 +787,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value=" Shield trigger&#xd;&#xa; Your opponent chooses one of his untapped creatures in the battle zone. Then, if you have a light or darkness creature in the battle zone, your opponent chooses another of his untapped creatures in the battle zone. Return the chosen creatures to your opponent&quot;s hand." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Your opponent chooses one of his untapped creatures in the battle zone. Then, if you have a light or darkness creature in the battle zone, your opponent chooses another of his untapped creatures in the battle zone. Return the chosen creatures to your opponent&quot;s hand." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="51" />
@@ -1058,7 +1058,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Wonder Trick" />
-			<property name="Rules" value="Shield Trigger&#xd;&#xa;Power Attacker" />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Power Attacker" />
 			<property name="Power" value="1000+" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="68" />
@@ -1080,7 +1080,7 @@
 			<property name="Cost" value="1" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Look at the top 5 cards of your deck. You may take a Hunter from among them, show that creature to your opponent, and put it into your hand. Then put the rest on the bottom of your deck in any order." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Look at the top 5 cards of your deck. You may take a Hunter from among them, show that creature to your opponent, and put it into your hand. Then put the rest on the bottom of your deck in any order." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="70" />
@@ -1113,7 +1113,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Mecha Thunder/Alien" />
-			<property name="Rules" value="Blocker This creature can&quot;t attack players.&#xd;&#xa;Space Charge Draw a card." />
+			<property name="Rules" value="Blocker This creature can&quot;t attack players.&#xd;&#xa;Space Charge: Draw a card." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="73" />
@@ -1168,7 +1168,7 @@
 			<property name="Cost" value="1" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Search your deck. You may take a spell from your deck and show it to your opponent. Then shuffle your deck and put that spell on top of your deck." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Search your deck. You may take a spell from your deck and show it to your opponent. Then shuffle your deck and put that spell on top of your deck." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="78" />
@@ -1190,7 +1190,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cyber Lord/Alien" />
-			<property name="Rules" value="Space Charge This turn, the next spell you cast may cost up to 2 less to cast. It can&quot;t cost less than 1." />
+			<property name="Rules" value="Space Charge: This turn, the next spell you cast may cost up to 2 less to cast. It can&quot;t cost less than 1." />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="80" />
@@ -1223,7 +1223,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Merfolk/Alien" />
-			<property name="Rules" value="Space Charge One of your creatures in the battle zone gets &quot;Slayer&quot; until the end of the turn." />
+			<property name="Rules" value="Space Charge: One of your creatures in the battle zone gets &quot;Slayer&quot; until the end of the turn." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="82" />
@@ -1267,7 +1267,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Look at your opponent&quot;s hand.&#xd;&#xa; Draw a card." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Look at your opponent&quot;s hand.&#xd;&#xa; Draw a card." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="86" />
@@ -1289,7 +1289,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil/Alien" />
-			<property name="Rules" value="Space Charge This turn, one of your creatures in the battle zone can&quot;t be blocked." />
+			<property name="Rules" value="Space Charge: This turn, one of your creatures in the battle zone can&quot;t be blocked." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="88" />
@@ -1300,7 +1300,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Pandora's Box/Alien" />
-			<property name="Rules" value="Space Charge Destroy one of your opponent&quot;s creatures that has &quot;Blocker&quot; and power 4000 or less." />
+			<property name="Rules" value="Space Charge: Destroy one of your opponent&quot;s creatures that has &quot;Blocker&quot; and power 4000 or less." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="89" />
@@ -1344,7 +1344,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Living Dead" />
-			<property name="Rules" value="Shield Trigger&#xd;&#xa; This creature can&quot;t attack." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;This creature can&quot;t attack." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="92" />
@@ -1399,7 +1399,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Tyranno Drake/Alien" />
-			<property name="Rules" value="Space Charge Your opponent chooses a card from his hand and discards it." />
+			<property name="Rules" value="Space Charge: Your opponent chooses a card from his hand and discards it." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="96" />
@@ -1454,7 +1454,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dreammate/Alien" />
-			<property name="Rules" value="Space Charge This turn, this creature gets +4000 power." />
+			<property name="Rules" value="Space Charge: This turn, this creature gets +4000 power." />
 			<property name="Power" value="1000+" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="101" />
@@ -1476,7 +1476,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Snow Faerie/Alien" />
-			<property name="Rules" value="Space Charge Choose one of your opponent&quot;s creatures in the battle zone and tap it." />
+			<property name="Rules" value="Space Charge: Choose one of your opponent&quot;s creatures in the battle zone and tap it." />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="103" />
@@ -1498,7 +1498,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Beast Folk/Hunter" />
-			<property name="Rules" value="Shield Trigger&#xd;&#xa; When you put this creature into the battle zone, look at the top 5 cards of your deck. You may reveal a creature from among them and put it into your hand. Then, put the rest on the bottom of your deck in any order." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, look at the top 5 cards of your deck. You may reveal a creature from among them and put it into your hand. Then, put the rest on the bottom of your deck in any order." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="105" />
@@ -1509,7 +1509,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Beast Folk/Hunter" />
-			<property name="Rules" value="Shield Trigger&#xd;&#xa; When you put this creature into the battle zone, look at the top 5 cards of your deck. You may reveal a creature from among them and put it into your hand. Then, put the rest on the bottom of your deck in any order." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, look at the top 5 cards of your deck. You may reveal a creature from among them and put it into your hand. Then, put the rest on the bottom of your deck in any order." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="105" />
@@ -1542,7 +1542,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Wild Veggies/Alien" />
-			<property name="Rules" value="Space Charge Destroy one of your opponent&quot;s creatures that has power 1000 or less." />
+			<property name="Rules" value="Space Charge: Destroy one of your opponent&quot;s creatures that has power 1000 or less." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="108" />

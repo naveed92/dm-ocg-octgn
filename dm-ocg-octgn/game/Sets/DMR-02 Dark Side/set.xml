@@ -81,7 +81,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Gaia Command/Alien" />
-			<property name="Rules" value="Evolution - Put on one of your nature creatures.&#xd;&#xa;Triple breaker&#xd;&#xa;Space Charge Your opponent chooses one of his creatures and puts it into his mana zone." />
+			<property name="Rules" value="Evolution - Put on one of your nature creatures.&#xd;&#xa;Triple breaker&#xd;&#xa;Space Charge: Your opponent chooses one of his creatures and puts it into his mana zone." />
 			<property name="Power" value="15000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />
@@ -170,7 +170,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Tap all your opponent&quot;s creatures in the battle zone. &#xd;&#xa; If you have 2 or less shields, add the top card of your deck to your shields face down." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Tap all your opponent&quot;s creatures in the battle zone. &#xd;&#xa; If you have 2 or less shields, add the top card of your deck to your shields face down." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="6" />
@@ -203,7 +203,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Choose a creature in the battle zone and return it to its owner&quot;s hand. Then that player chooses a creature in his hand that costs less than the chosen creature. That player may put that creature into the battle zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose a creature in the battle zone and return it to its owner&quot;s hand. Then that player chooses a creature in his hand that costs less than the chosen creature. That player may put that creature into the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="8" />
@@ -225,7 +225,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Destroy one of your opponent&quot;s untapped creatures. You may put a non-evolution creature that costs less than the destroyed creature from your graveyard into the battle zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy one of your opponent&quot;s untapped creatures. You may put a non-evolution creature that costs less than the destroyed creature from your graveyard into the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="10" />
@@ -291,7 +291,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa;Shield Trigger &#xd;&#xa; Discard a card. Then, your opponent discards 2 cards from his hand." />
+			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;Discard a card. Then, your opponent discards 2 cards from his hand." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="15" />
@@ -457,7 +457,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value=" Shield trigger&#xd;&#xa; Choose one of your opponent&quot;s creatures in the battle zone. If you have a water or fire creature in the battle zone, that creature gets -4000 power until the end of the turn. Otherwise, it gets -2000 power until the end of the turn.  (A creature that has power 0 or less is destroyed.) " />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose one of your opponent&quot;s creatures in the battle zone. If you have a water or fire creature in the battle zone, that creature gets -4000 power until the end of the turn. Otherwise, it gets -2000 power until the end of the turn.  (A creature that has power 0 or less is destroyed.) " />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="26" />
@@ -502,7 +502,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Choose a creature in the battle zone. That creature gets +5000 power and can&quot;t attack players until the end of the turn." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose a creature in the battle zone. That creature gets +5000 power and can&quot;t attack players until the end of the turn." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="29" />
@@ -590,7 +590,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value=" Shield trigger&#xd;&#xa; If you have a water or nature creature in the battle zone, you may put a creature that costs 5 or less from your graveyard into the battle zone . Otherwise, put a creature that costs 3 or less from your graveyard into the battle zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;If you have a water or nature creature in the battle zone, you may put a creature that costs 5 or less from your graveyard into the battle zone . Otherwise, put a creature that costs 3 or less from your graveyard into the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="37" />
@@ -623,7 +623,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Choose one of your opponent&quot;s creatures in the battle zone. If you have a light or darkness creature in the battle zone, put that creature on the top of its owner&quot;s deck. If not, return it to its owner&quot;s hand." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose one of your opponent&quot;s creatures in the battle zone. If you have a light or darkness creature in the battle zone, put that creature on the top of its owner&quot;s deck. If not, return it to its owner&quot;s hand." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="40" />
@@ -689,7 +689,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; If you have a darkness or nature creature in the battle zone, destroy one of your opponent&quot;s creatures that has power 7000 or less. If not, destroy one of your opponent&quot;s creatures that has power 4000 or less." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;If you have a darkness or nature creature in the battle zone, destroy one of your opponent&quot;s creatures that has power 7000 or less. If not, destroy one of your opponent&quot;s creatures that has power 4000 or less." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="45" />
@@ -733,7 +733,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; If you have a light or fire creature in the battle zone, choose one of your opponent&quot;s creatures in the battle zone and put it into his mana zone. Otherwise, choose one of your opponent&quot;s tapped creatures in the battle zone and put it into his mana zone. " />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;If you have a light or fire creature in the battle zone, choose one of your opponent&quot;s creatures in the battle zone and put it into his mana zone. Otherwise, choose one of your opponent&quot;s tapped creatures in the battle zone and put it into his mana zone. " />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="48" />
@@ -755,7 +755,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa;Shield Trigger &#xd;&#xa; Choose any number of your opponent&quot;s creatures in the battle zone. This turn, those creatures can&quot;t attack or block.&#xd;&#xa;" />
+			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;Choose any number of your opponent&quot;s creatures in the battle zone. This turn, those creatures can&quot;t attack or block.&#xd;&#xa;" />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="50" />

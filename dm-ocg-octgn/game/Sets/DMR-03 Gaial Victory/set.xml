@@ -180,7 +180,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Merfolk/Alien " />
-			<property name="Rules" value="Space Charge  (When you put a card into your mana zone, you may use this creature&quot;s  ability.) &#xd;&#xa; This creature gets the  abilities of all other Aliens in the battle zone not named Space Cebu Poseidon.&#xd;&#xa; Whenever one of your other Aliens is chosen due to the ability of your opponent&quot;s creature or spells, you may draw a card." />
+			<property name="Rules" value="Space Charge: This creature gets the  abilities of all other Aliens in the battle zone not named Space Cebu Poseidon.&#xd;&#xa; Whenever one of your other Aliens is chosen due to the ability of your opponent&quot;s creature or spells, you may draw a card." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="8" />
@@ -191,7 +191,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Look at the top 5 cards of your deck. Reveal one and put it into your hand, then put the rest on the bottom of your deck in any order. If a fire or nature card was revealed in this way, you may choose a creature in the battle zone and return it to its owner&quot;s hand. " />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Look at the top 5 cards of your deck. Reveal one and put it into your hand, then put the rest on the bottom of your deck in any order. If a fire or nature card was revealed in this way, you may choose a creature in the battle zone and return it to its owner&quot;s hand. " />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="9" />
@@ -202,7 +202,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Look at the top 5 cards of your deck. Reveal one and put it into your hand, then put the rest on the bottom of your deck in any order. If a fire or nature card was revealed in this way, you may choose a creature in the battle zone and return it to its owner&quot;s hand. " />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Look at the top 5 cards of your deck. Reveal one and put it into your hand, then put the rest on the bottom of your deck in any order. If a fire or nature card was revealed in this way, you may choose a creature in the battle zone and return it to its owner&quot;s hand. " />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="9" />
@@ -356,7 +356,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Choose one of your non-evolution creatures in the battle zone and put it into your shield zone face down. If you put a darkness or fire creature into the shield zone in this way, you may draw a card." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose one of your non-evolution creatures in the battle zone and put it into your shield zone face down. If you put a darkness or fire creature into the shield zone in this way, you may draw a card." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="21" />
@@ -401,7 +401,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Pandora's Box/Alien" />
-			<property name="Rules" value=" Shield trigger &#xd;&#xa; Blocker&#xd;&#xa; This creature can&quot;t attack.&#xd;&#xa; When this creature leaves the battle zone, your opponent chooses one of his psychic creatures and destroys it. " />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Blocker&#xd;&#xa; This creature can&quot;t attack.&#xd;&#xa; When this creature leaves the battle zone, your opponent chooses one of his psychic creatures and destroys it. " />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="24" />
@@ -467,7 +467,7 @@
 			<property name="Cost" value="1" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Tap one of your creatures. Until the start of your next turn, each of your opponent&quot;s creatures must attack the creature tapped in this way if able. If a water or darkness creature was tapped in this way, you may draw a card." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Tap one of your creatures. Until the start of your next turn, each of your opponent&quot;s creatures must attack the creature tapped in this way if able. If a water or darkness creature was tapped in this way, you may draw a card." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="29" />
@@ -566,7 +566,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value=" Shield trigger&#xd;&#xa; Choose one of your opponent&quot;s creatures in the battle zone and tap it. Then for each Hunter you have in the battle zone, choose another one of his creatures and tap it." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose one of your opponent&quot;s creatures in the battle zone and tap it. Then for each Hunter you have in the battle zone, choose another one of his creatures and tap it." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="36" />
@@ -621,7 +621,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Return a creature from your graveyard to your hand. If a light or nature creature was returned in this way, you may draw a card." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Return a creature from your graveyard to your hand. If a light or nature creature was returned in this way, you may draw a card." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="41" />
@@ -689,7 +689,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Destroy one of your opponent&quot;s creatures that has &quot;Blocker&quot;.&#xd;&#xa; If you have a light or water creature in the battle zone, you may draw a card." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy one of your opponent&quot;s creatures that has &quot;Blocker&quot;.&#xd;&#xa; If you have a light or water creature in the battle zone, you may draw a card." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="45" />

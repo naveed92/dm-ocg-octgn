@@ -325,7 +325,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Dreammate/Hunter" />
-			<property name="Rules" value="Shield Trigger&#xd;&#xa; When you put this creature into the battle zone, put all of your opponent&quot;s creatures that have power 2000 or less into his mana zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, put all of your opponent&quot;s creatures that have power 2000 or less into his mana zone." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -907,7 +907,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Destroy one of your opponent&quot;s psychic creatures that has power 11000 or less." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy one of your opponent&quot;s psychic creatures that has power 11000 or less." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -1121,7 +1121,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Choose one of your opponent&quot;s creature in the battle zone and put it into its owner&quot;s mana zone. Then, choose a non-evolution creature in that player&quot;s mana zone and that player puts that creature into the battle zone." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Choose one of your opponent&quot;s creature in the battle zone and put it into its owner&quot;s mana zone. Then, choose a non-evolution creature in that player&quot;s mana zone and that player puts that creature into the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -1154,7 +1154,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Draw a card. Then, if your opponent has 2 or less shields, draw 2 more cards." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Draw a card. Then, if your opponent has 2 or less shields, draw 2 more cards." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -1277,7 +1277,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Beast Folk/Hunter" />
-			<property name="Rules" value="Shield Trigger&#xd;&#xa; When one of your opponent&quot;s creatures attacks, you may destroy this creature. If you do, stop the attack." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When one of your opponent&quot;s creatures attacks, you may destroy this creature. If you do, stop the attack." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -1434,7 +1434,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Shield Trigger &#xd;&#xa; Destroy all creatures that have &quot;blocker&quot;." />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;Destroy all creatures that have &quot;blocker&quot;." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />

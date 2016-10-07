@@ -187,6 +187,17 @@
 			<property name="Number" value="7" />
 			<property name="Format" value="OCG" />
 			</card>
+		<card name="Aqua Jet (Charging Brotherhood!)" id="f041b53a-765f-42f5-90ee-8f3dae7e4b37">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Liquid People/Hunter" />
+			<property name="Rules" value="When you put this creature into the battle zone, look at the top 5 cards of your deck. From among them, you may put tooltip or tooltip, either one by one, or both, into the battle zone. Then put the rest on the bottom of your deck in any order." />
+			<property name="Power" value="3000" />
+			<property name="Rarity" value="R" />
+			<property name="Number" value="7" />
+			<property name="Format" value="OCG" />
+			</card>
 		<card name="Switch Reincarnation" id="c9443fd4-3db3-47b5-ba43-a00277275e2d">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
@@ -232,6 +243,17 @@
 			<property name="Format" value="OCG" />
 			</card>
 		<card name="Galaxy Falcon, Counterattack Fortress" id="fbf1d191-7001-4d72-90f3-ac97c311db93">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="1" />
+			<property name="Type" value="Castle" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Castle Fortify&#xd;&#xa; Each of your hunters in the battle zone gets &quot;Speed Attacker&quot;." />
+			<property name="Power" value="0" />
+			<property name="Rarity" value="R" />
+			<property name="Number" value="12" />
+			<property name="Format" value="OCG" />
+			</card>
+		<card name="Galaxy Falcon, Counterattack Fortress" id="1b073963-c2fb-4c75-8ebb-c17cf9bcef7b">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="1" />
 			<property name="Type" value="Castle" />
@@ -330,7 +352,29 @@
 			<property name="Number" value="20" />
 			<property name="Format" value="OCG" />
 			</card>
+		<card name="Hyperspatial Gotsusan Hole" id="4eed0fb4-714b-4939-b7ac-eec377aa05d5">
+			<property name="Civilization" value="Darkness/Fire/Nature" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa; Put a Darkness, Fire, or Nature psychic creature that costs 8 or less from your hyperspatial zone into the battle zone.&#xd;&#xa; When one of your opponent&quot;s creatures attacks, if you have a tooltip in the battle zone, you may discard this card. If you do, stop the attack, that turn your tooltip gets +3000 power, and it battles with the attacking creature." />
+			<property name="Power" value="0" />
+			<property name="Rarity" value="R" />
+			<property name="Number" value="20" />
+			<property name="Format" value="OCG" />
+			</card>
 		<card name="Shan Bell, Light Weapon" id="62d487ea-8348-4aa5-a9d7-cef45740ee98">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Mecha Del Sol/Hunter" />
+			<property name="Rules" value="Double breaker&#xd;&#xa; When this creature would be destroyed, you may discard a light creature instead." />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="U" />
+			<property name="Number" value="21" />
+			<property name="Format" value="OCG" />
+			</card>
+		<card name="Shan Bell, Light Weapon" id="5ee94738-2528-4592-99bd-76956a289232">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -618,6 +662,17 @@
 			<property name="Number" value="43" />
 			<property name="Format" value="OCG" />
 			</card>
+		<card name="Hyperspatial Raiden Hole" id="675efc56-60ff-415c-99e5-7feda4055138">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Spell " />
+			<property name="Race" value="" />
+			<property name="Rules" value="Put a Darkness psychic creature that costs 6 or less from your hyperspatial zone into the battle zone.&#xd;&#xa; You may destroy one of your non-psychic creature creatures. If you do, put a Darkness psychic creature that costs 5 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Power" value="0" />
+			<property name="Rarity" value="C" />
+			<property name="Number" value="43" />
+			<property name="Format" value="OCG" />
+			</card>
 		<card name="Melken Arrow, Fist Guy" id="b7a6c1a0-d280-45fb-a9c3-ba23c5e187e5">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="4" />
@@ -641,6 +696,17 @@
 			<property name="Format" value="OCG" />
 			</card>
 		<card name="Iron Arm Tribe" id="fa7a8eea-f285-4260-ba71-56678d4b5793">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Beast Folk/Hunter" />
+			<property name="Rules" value="When you put this creature into the battle zone, put the top card of your deck into your mana zone.&#xd;&#xa; When this creature would be destroyed, put it into your mana zone instead." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="C" />
+			<property name="Number" value="46" />
+			<property name="Format" value="OCG" />
+			</card>
+		<card name="Iron Arm Tribe" id="9d03131d-c529-4cfa-82b0-4b0aaf8a48e2">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
@@ -717,6 +783,17 @@
 			<property name="Number" value="52" />
 			<property name="Format" value="OCG" />
 			</card>
+		<card name="Deis Melnia, the Aqua Shadow" id="30f1e7f4-f897-4d1f-bbf3-9ff7c1035761">
+			<property name="Civilization" value="Water/Darkness" />
+			<property name="Cost" value="3" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Liquid People/Ghost/Alien" />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa; Blocker&#xd;&#xa; This creature can&quot;t be blocked.&#xd;&#xa;Slayer" />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="C" />
+			<property name="Number" value="52" />
+			<property name="Format" value="OCG" />
+			</card>
 		<card name="Deis Chicken Racer, Evil Battler" id="18dbeef3-c956-4edc-a858-deffe8d9cbcb">
 			<property name="Civilization" value="Darkness/Fire" />
 			<property name="Cost" value="3" />
@@ -739,5 +816,27 @@
 			<property name="Number" value="54" />
 			<property name="Format" value="OCG" />
 			</card>
+	    <card name="Volg Tiger, Thunder Beast" id="ad40f315-54b2-4d00-92a3-a28c803e8c2f">
+		    <property name="Civilization" value="Darkness" />
+		    <property name="Cost" value="12" />
+		    <property name="Type" value="Psychic Super Creature" />
+		    <property name="Race" value="Demon Command/Hunter" />
+		    <property name="Rules" value="Whenever this creature attacks, your opponent discards a card at random from his hand. Then, choose a creature that costs less than the discarded card in your graveyard and put it into the battle zone.&#xd;&#xa;Double breaker&#xd;&#xa;Link Release" />
+		    <property name="Power" value="11000" />
+		    <property name="Rarity" value="V" />
+		    <property name="Number" value="" />
+			<property name="Format" value="OCG" />
+		</card>
+	    <card name="Unryu Deis Izu, Great Yokozuna" id="4e26f628-fbe2-4f7d-ae51-a70d238cd80f">
+		    <property name="Civilization" value="Darkness/Fire/Nature" />
+		    <property name="Cost" value="20" />
+		    <property name="Type" value="Psychic Super Creature" />
+		    <property name="Race" value="Sumo Wrestler Command Dragon/Alien" />
+		    <property name="Rules" value="Your opponent&quot;s creatures must block if able.&#xd;&#xa; Whenever this creature wins a battle, untap it.&#xd;&#xa; Each of your other Aliens in the battle zone gets +5000 power.&#xd;&#xa;Quattro breaker&#xd;&#xa; Link Release  (When this creature would leave the battle zone, return a psychic cell to your hyperspatial zone and flip the other cards instead.) " />
+		    <property name="Power" value="20000" />
+		    <property name="Rarity" value="U" />
+		    <property name="Number" value="" />
+			<property name="Format" value="OCG" />
+		</card>
 	</cards>
 </set>

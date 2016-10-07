@@ -119,24 +119,13 @@
 			<property name="Number" value="None" />
 			<property name="Format" value="OCG" />
 		</card>
-		<card name="Super Deis Buster, Divine Hero Mech" id="790911df-da95-4dc4-8507-feb178138f96">
+		<card name="Super Dash Buster, Divine Hero Mech" id="790911df-da95-4dc4-8507-feb178138f96">
 			<property name="Civilization" value="Fire/Nature" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Human/Beast Folk/Hunter" />
 			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa; Evolution-Put on one of your fire or nature creatures.&#xd;&#xa; When you put this creature into the battle zone, choose up to 2 of your opponent&quot;s creatures that cost 5 or less and put them into their owner&quot;s mana zone.&#xd;&#xa;Double breaker" />
 			<property name="Power" value="8000" />
-			<property name="Rarity" value="None" />
-			<property name="Number" value="None" />
-			<property name="Format" value="OCG" />
-		</card>
-		<card name="Cheering Pippi" id="c01a316d-03d1-4a34-82a8-bf9c5ecd43f0">
-			<property name="Civilization" value="Fire" />
-			<property name="Cost" value="3" />
-			<property name="Type" value="Creature" />
-			<property name="Race" value="Fire Bird/Flame Monster" />
-			<property name="Rules" value="Your Dragons may each cost 1 less to summon. They can&quot;t cost less than 1.&#xd;&#xa; Your Commands may each cost 1 less to summon. They can&quot;t cost less than 1." />
-			<property name="Power" value="1000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
 			<property name="Format" value="OCG" />
@@ -1204,17 +1193,6 @@
 			<property name="Number" value="None" />
 			<property name="Format" value="OCG" />
 		</card>
-		<card name="Startdash Reviver, Crystalline Shadow" id="d3ddcdc9-c302-4725-8d14-13f22373df2b">
-			<property name="Civilization" value="Water/Darkness" />
-			<property name="Cost" value="5" />
-			<property name="Type" value="Evolution Creature" />
-			<property name="Race" value="Liquid People/Ghost " />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa; Evolution-Put on a water or darkness creature.&#xd;&#xa; When you put this creature into the battle zone, you may put a creature that costs 3 or less from your graveyard into the battle zone.&#xd;&#xa;Double breaker" />
-			<property name="Power" value="7000" />
-			<property name="Rarity" value="None" />
-			<property name="Number" value="None" />
-			<property name="Format" value="OCG" />
-		</card>
 		<card name="Aqua Sonicwave" id="db282445-3eba-405b-bba4-8c0dc02ae370">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="3" />
@@ -1642,6 +1620,116 @@
 			<property name="Number" value="None" />
 			<property name="Format" value="OCG" />
 		</card>
+		<card name="Kodamanma, Gil Gil Puppet" id="65cbb2ec-4b95-4552-999a-0610ac057677">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Death Puppet/Alien" />
+			<property name="Rules" value="When you put this creature into the battle zone, return one of your shields to your hand. You can't use the 'Shield Trigger' ability of that shield." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="None" />
+			<property name="Number" value="None" />
+			<property name="Format" value="OCG" />
+		</card>
+		<card name="Crazy Carnival! Saint Chan-Merrie" id="17d27968-bd96-4724-855b-d6fbb6739eba">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="39" />
+			<property name="Type" value="Psychic Super Creature" />
+			<property name="Race" value="Shining Command Dragon/Hunter" />
+			<property name="Rules" value="Blocker&#xd;&#xa;Quattro breaker&#xd;&#xa; At the end of your turn, untap all your Hunter creatures in the battle zone. For each light Hunter creature untapped in this way, you may add the top card of your deck to your shields face down.&#xd;&#xa; When this creature would leave the battle zone, you may discard a card instead.&#xd;&#xa;Link Release" />
+			<property name="Power" value="19500" />
+			<property name="Rarity" value="None" />
+			<property name="Number" value="None" />
+			<property name="Format" value="OCG" />
+		</card>
+		<card name="Shachihoko GOLDEN Dragon" id="101fb0f1-f04a-4b61-8588-c7382d59eb81">
+			<property name="Civilization" value="Light/Darkness/Fire" />
+			<property name="Cost" value="39" />
+			<property name="Type" value="Psychic Super Creature" />
+			<property name="Race" value="King Command Dragon/Alien" />
+			<property name="Rules" value="Whenever your opponent would choose a creature in the battle zone, he can&quot;t choose this one.  (It can still be attacked or blocked.)  &#xd;&#xa; Whenever this creature attacks, you may return up to 3 spells from your graveyard to your hand. Then, all other creatures in the battle zone get -9000 power until the end of the turn.  (A creature that has power 0 or less is destroyed.) &#xd;&#xa;World breaker&#xd;&#xa;Link Release" />
+			<property name="Power" value="39000" />
+			<property name="Rarity" value="None" />
+			<property name="Number" value="None" />
+			<property name="Format" value="OCG" />
+		</card>
+		<card name="Chopping Ruzou, Rude Mincing Gang Leader" id="b2ba709b-9107-43b1-aae6-71ab6a34f5a6">
+			<property name="Civilization" value="Fire/Nature" />
+			<property name="Cost" value="24" />
+			<property name="Type" value="Psychic Super Creature" />
+			<property name="Race" value="Beast Command/Hunter" />
+			<property name="Rules" value="When this creature link awakens, you may put any number of Hunter creatures from your mana zone or hyperspatial zone into the battle zone.&#xd;&#xa;Triple breaker" />
+			<property name="Power" value="17000" />
+			<property name="Rarity" value="None" />
+			<property name="Number" value="None" />
+			<property name="Format" value="OCG" />
+		</card>
+		<card name="Gaial Violence Dragon, Zero Fighter" id="cbec3ce5-4b2a-493d-9029-845be80b6c18">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="14" />
+			<property name="Type" value="Psychic Super Creature" />
+			<property name="Race" value="Red Command Dragon/Hunter " />
+			<property name="Rules" value="Whenever your Hunters win a battle, your opponent chooses one of his shields and returns it to his hand.&#xd;&#xa; While this creature is tapped, your opponent&quot;s attacking creatures must attack this creature if able.&#xd;&#xa;Double breaker&#xd;&#xa;Link Release" />
+			<property name="Power" value="9000" />
+			<property name="Rarity" value="None" />
+			<property name="Number" value="None" />
+			<property name="Format" value="OCG" />
+		</card>
+		<card name="Captivating Dancing Alien" id="6b3223ec-da98-4023-941c-687c5024af8a">
+			<property name="Civilization" value="Light/Water/Darkness/Fire" />
+			<property name="Cost" value="20" />
+			<property name="Type" value="Psychic Super Creature" />
+			<property name="Race" value="Alien" />
+			<property name="Rules" value="Whenever this creature attacks, you may destroy any number of your Aliens. For each Alien destroyed in this way, choose one of your opponent&quot;s shields and put it into his graveyard.&#xd;&#xa;Triple breaker" />
+			<property name="Power" value="12000" />
+			<property name="Rarity" value="None" />
+			<property name="Number" value="None" />
+			<property name="Format" value="OCG" />
+		</card>
+		<card name="Hyper Overthrow, Nation's Strongest Sumo" id="d3151564-06b3-4a8a-8a2f-ee294081a387">
+			<property name="Civilization" value="Darkness/Fire" />
+			<property name="Cost" value="15" />
+			<property name="Type" value="Psychic Super Creature" />
+			<property name="Race" value="Living Dead/Alien" />
+			<property name="Rules" value="You may summon Aliens from your graveyard.&#xd;&#xa; Double breaker&#xd;&#xa;Link Release" />
+			<property name="Power" value="9000" />
+			<property name="Rarity" value="None" />
+			<property name="Number" value="None" />
+			<property name="Format" value="OCG" />
+		</card>
+		<card name="Explosive Dash! Masashi, Crimson Sabre" id="91147923-7f79-4611-b885-680269d28e2b">
+			<property name="Civilization" value="Fire/Nature" />
+			<property name="Cost" value="15" />
+			<property name="Type" value="Psychic Super Creature" />
+			<property name="Race" value="Beast Folk/Flame Monster/Hunter" />
+			<property name="Rules" value="This creature can&quot;t be destroyed. &#xd;&#xa;Hunting&#xd;&#xa; Triple breaker&#xd;&#xa;Link Release" />
+			<property name="Power" value="12000+" />
+			<property name="Rarity" value="None" />
+			<property name="Number" value="None" />
+			<property name="Format" value="OCG" />
+		</card>
+		<card name="Gaial Killer Dragon, Gunlord" id="f0a64772-8735-4c95-917d-998a0207c86a">
+			<property name="Civilization" value="Darkness/Fire" />
+			<property name="Cost" value="13" />
+			<property name="Type" value="Psychic Super Creature" />
+			<property name="Race" value="Red Command Dragon/Demon Command/Hunter" />
+			<property name="Rules" value="Blocker&#xd;&#xa; Each turn, the first time one of your opponent&quot;s creatures is destroyed that turn, untap this creature.&#xd;&#xa; Double breaker" />
+			<property name="Power" value="9000" />
+			<property name="Rarity" value="None" />
+			<property name="Number" value="None" />
+			<property name="Format" value="OCG" />
+		</card>
+		<card name="Fused Dreadnought! Jet Cascade Attack" id="47f94539-2a9d-4624-b9ba-3fd8b2370bcb">
+			<property name="Civilization" value="Light/Water" />
+			<property name="Cost" value="24" />
+			<property name="Type" value="Psychic Super Creature" />
+			<property name="Race" value="Liquid People/Hunter" />
+			<property name="Rules" value="Your Hunters can&quot;t be attacked or blocked.&#xd;&#xa; Whenever this creature attacks, draw up to 3 cards. Then, reveal any number of cards in your hand. For each card revealed, choose one of your opponent&quot;s creatures in the battle zone that costs less than that revealed card&quot;s and return it its owner&quot;s hand.&#xd;&#xa;Triple breaker" />
+			<property name="Power" value="17000" />
+			<property name="Rarity" value="None" />
+			<property name="Number" value="None" />
+			<property name="Format" value="OCG" />
+		</card> 
 
 	</cards>
 </set>

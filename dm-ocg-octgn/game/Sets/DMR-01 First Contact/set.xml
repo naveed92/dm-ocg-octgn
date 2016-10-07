@@ -374,6 +374,17 @@
 			<property name="Number" value="20" />
 			<property name="Format" value="OCG" />
 		</card>
+		<card name="Lovely Heart" id="8f9055a0-70ff-4fa3-a421-23bed360c2ef">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Cyber Virus/Hunter" />
+			<property name="Rules" value="When this creature battles, you may return your opponent&quot;s battling creature to its owner&quot;s hand.&#xd;&#xa; While you have 2 or fewer shields, this creature gets +2000 power and &quot;Blocker&quot;." />
+			<property name="Power" value="4000+" />
+			<property name="Rarity" value="R" />
+			<property name="Number" value="20" />
+			<property name="Format" value="OCG" />
+		</card>
 		<card name="Parlock's Miracle Fever" id="d93db704-94db-4618-a378-a94e1c768e4d">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="7" />
@@ -386,6 +397,17 @@
 			<property name="Format" value="OCG" />
 		</card>
 		<card name="Hot Spring - Invincible Time" id="71ccb2e4-2944-413a-88d9-42d8f9c4957e">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Draw up to 2 cards.&#xd;&#xa; Until the start of your next turn, whenever your tooltip would leave the battle zone, it stays in the battle zone instead.&#xd;&#xa; When your tooltip would leave the battle zone, you may discard this card instead." />
+			<property name="Power" value="0" />
+			<property name="Rarity" value="R" />
+			<property name="Number" value="22" />
+			<property name="Format" value="OCG" />
+		</card>
+		<card name="Hot Spring - Invincible Time" id="fd5c64f2-61dd-4bcb-8646-8f20ca4de876">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
@@ -462,6 +484,17 @@
 			<property name="Number" value="28" />
 			<property name="Format" value="OCG" />
 		</card>
+		<card name="Miracle Re Born" id="f5b37a3a-1026-45be-a4f1-11da564879c4">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Put a Hunter creature that costs 7 or less from your graveyard into the battle zone." />
+			<property name="Power" value="0" />
+			<property name="Rarity" value="R" />
+			<property name="Number" value="28" />
+			<property name="Format" value="OCG" />
+		</card>
 		<card name="Great Plume, the Erupting" id="ecfbef2c-9a70-4b26-8eec-ac0ff22bac47">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
@@ -474,6 +507,17 @@
 			<property name="Format" value="OCG" />
 		</card>
 		<card name="Mars Gil Hydra, the Explosive" id="5cc963bc-b846-41a8-81d8-9b2eeb95a354">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Flame Command/Alien" />
+			<property name="Rules" value="Space Charge Return a creature from your graveyard to your hand.&#xd;&#xa;Double breaker" />
+			<property name="Power" value="6000" />
+			<property name="Rarity" value="R" />
+			<property name="Number" value="30" />
+			<property name="Format" value="OCG" />
+		</card>
+		<card name="Mars Gil Hydra, the Explosive" id="dc27833d-b0b6-4a3b-8449-05f828ab1471">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
@@ -518,6 +562,17 @@
 			<property name="Format" value="OCG" />
 		</card>
 		<card name="Hyperspatial Gaial Hole" id="65e2e3c3-15c1-4835-b52a-08c81d137524">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Put up to 2 Fire psychic creatures that have total cost 8 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Power" value="0" />
+			<property name="Rarity" value="R" />
+			<property name="Number" value="34" />
+			<property name="Format" value="OCG" />
+		</card>
+		<card name="Hyperspatial Gaial Hole" id="ec25f2c2-92ee-472e-80e5-4b2524e96be9">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
@@ -651,6 +706,17 @@
 			<property name="Format" value="OCG" />
 		</card>
 		<card name="Hyperspatial Mother Hole" id="9f9e958b-39a4-4b25-84ab-7bf70ff2b15d">
+			<property name="Civilization" value="Light" />
+			<property name="Cost" value="6" />
+			<property name="Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Rules" value="Put a non-evolution light creature that has &quot;Blocker&quot; from your hand into the battle zone.&#xd;&#xa; Put a light, water or nature psychic creature that costs 6 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;(At the start of your game, separate your psychic creatures from your deck and put them into your hyperspatial zone. If a psychic creature would be put into a zone other than the battle zone, return it to your hyperspatial zone.)" />
+			<property name="Power" value="0" />
+			<property name="Rarity" value="U" />
+			<property name="Number" value="45" />
+			<property name="Format" value="OCG" />
+		</card>
+		<card name="Hyperspatial Mother Hole" id="cd3c2d60-2e3e-4e1c-8a05-d6bfea78a094">
 			<property name="Civilization" value="Light" />
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
@@ -1141,6 +1207,17 @@
 			<property name="Number" value="81" />
 			<property name="Format" value="OCG" />
 		</card>
+		<card name="Aqua Jet" id="14b150a8-4c12-4a29-9ebc-3f15dcc99a0e">
+			<property name="Civilization" value="Water" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Liquid People/Hunter" />
+			<property name="Rules" value="When you put this creature into the battle zone, you may draw a card for each of your Hunter creatures in the battle zone." />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="C" />
+			<property name="Number" value="81" />
+			<property name="Format" value="OCG" />
+		</card>
 		<card name="Cebu Sargas Bouzu" id="346c3ed1-a3ca-421e-9cac-b29c3681a0d7">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="4" />
@@ -1240,6 +1317,17 @@
 			<property name="Number" value="90" />
 			<property name="Format" value="OCG" />
 		</card>
+		<card name="Kitarou, the Cursed Corpse" id="45e6d7fd-0581-45e7-a248-495b17741e30">
+			<property name="Civilization" value="Darkness" />
+			<property name="Cost" value="4" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Ghost/Hunter" />
+			<property name="Rules" value="When you put this creature into the battle zone, your opponent chooses 2 cards in his hand and reveals them. You choose one of these and your opponent discards it from his hand. " />
+			<property name="Power" value="2000" />
+			<property name="Rarity" value="C" />
+			<property name="Number" value="90" />
+			<property name="Format" value="OCG" />
+		</card>
 		<card name="Thunder Katyusha" id="a136aca9-fb32-4118-85bb-ad3b8d7a9b3d">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="3" />
@@ -1285,6 +1373,17 @@
 			<property name="Format" value="OCG" />
 		</card>
 		<card name="Raging Apache Lizard" id="f6b7f689-ed2e-4cc7-af4f-61b67473678e">
+			<property name="Civilization" value="Fire" />
+			<property name="Cost" value="7" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Melt Warrior/Hunter" />
+			<property name="Rules" value="When you put this creature into the battle zone, put a Fire or Nature psychic creature that costs 8 or less from your hyperspatial zone into the battle zone. &#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Power" value="5000" />
+			<property name="Rarity" value="C" />
+			<property name="Number" value="95" />
+			<property name="Format" value="OCG" />
+		</card>
+		<card name="Raging Apache Lizard" id="69d267a1-610e-4b86-a04e-cec08f447e32">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
@@ -1405,6 +1504,17 @@
 			<property name="Number" value="105" />
 			<property name="Format" value="OCG" />
 		</card>
+		<card name="Idaten Kid, the Swift Executor" id="1a49d30b-cb11-460a-85ef-16aab50f4143">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="5" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Beast Folk/Hunter" />
+			<property name="Rules" value="Shield Trigger&#xd;&#xa; When you put this creature into the battle zone, look at the top 5 cards of your deck. You may reveal a creature from among them and put it into your hand. Then, put the rest on the bottom of your deck in any order." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="C" />
+			<property name="Number" value="105" />
+			<property name="Format" value="OCG" />
+		</card>
 		<card name="Seven Star Ladybug" id="3779d00e-00a4-40ff-8758-23f285bafc75">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="4" />
@@ -1449,6 +1559,17 @@
 			<property name="Number" value="109" />
 			<property name="Format" value="OCG" />
 		</card>
+		<card name="Jasmine, Mist Faerie" id="986f96d4-7bc3-4ac7-be2f-98c28a5a6c8d">
+			<property name="Civilization" value="Nature" />
+			<property name="Cost" value="2" />
+			<property name="Type" value="Creature" />
+			<property name="Race" value="Snow Faerie" />
+			<property name="Rules" value="When you put this creature into the battle zone, you may destroy this creature. If you do, put the top card of your deck into your mana zone." />
+			<property name="Power" value="1000" />
+			<property name="Rarity" value="C" />
+			<property name="Number" value="109" />
+			<property name="Format" value="OCG" />
+		</card>
 		<card name="Geo Bronze Magic" id="a94f4cbb-c908-4d35-9922-1a9d79d97ad3">
 			<property name="Civilization" value="Nature" />
 			<property name="Cost" value="3" />
@@ -1459,6 +1580,50 @@
 			<property name="Rarity" value="C" />
 			<property name="Number" value="110" />
 			<property name="Format" value="OCG" />
+		</card>
+	    <card name="Gallows Devil Dragon, Dead Sea Dragon" id="002bc095-8b2e-4475-ba23-d175de9712c0">
+		    <property name="Civilization" value="Water/Darkness/Fire" />
+		    <property name="Cost" value="24" />
+		    <property name="Type" value="Psychic Super Creature" />
+		    <property name="Race" value="Devil Command Dragon/Alien" />
+		    <property name="Rules" value="Your opponent can&quot;t cast spells or summon creatures for no cost.&#xd;&#xa; Whenever this creature attacks, choose up to 2 creatures in the battle zone and return them to their owner&quot;s hand.&#xd;&#xa;Triple breaker&#xd;&#xa;Link Release" />
+		    <property name="Power" value="12000" />
+		    <property name="Rarity" value="V" />
+		    <property name="Number" value="" />
+			<property name="Format" value="OCG" />
+		</card>
+	    <card name="Gaial King Dragon, Raging Dragon Lord" id="ed555004-1bd1-4991-a82e-fbb9dca1d267">
+		    <property name="Civilization" value="Fire" />
+		    <property name="Cost" value="24" />
+		    <property name="Type" value="Psychic Super Creature" />
+		    <property name="Race" value="King Command Dragon/Hunter" />
+		    <property name="Rules" value="Whenever this creature attacks, destroy all your opponent&quot;s creatures that have less power than it. &#xd;&#xa;World breaker&#xd;&#xa;Link Release" />
+		    <property name="Power" value="25000" />
+		    <property name="Rarity" value="V" />
+		    <property name="Number" value="" />
+			<property name="Format" value="OCG" />
+		</card>
+	    <card name="Tearing Packunga, the Greedy" id="c028419e-7c24-46db-aa00-6838e11bed79">
+		    <property name="Civilization" value="Light/Nature" />
+		    <property name="Cost" value="15" />
+		    <property name="Type" value="Psychic Super Creature" />
+		    <property name="Race" value="Berserker/Gaia Command/Alien" />
+		    <property name="Rules" value="Whenever one of your opponent&quot;s creatures attacks, untap this creature.&#xd;&#xa; While one of your opponent&quot;s creatures is attacking, this creature gets &quot;Blocker&quot;.&#xd;&#xa;Double breaker&#xd;&#xa;Link Release" />
+		    <property name="Power" value="10500" />
+		    <property name="Rarity" value="U" />
+		    <property name="Number" value="" />
+	    	<property name="Format" value="OCG" />
+		</card>
+	    <card name="Don Marshmallow, Hand of Temptation" id="95069c1a-3579-4802-9d9d-0970f890cc84">
+		    <property name="Civilization" value="Darkness/Fire" />
+		    <property name="Cost" value="9" />
+		    <property name="Type" value="Psychic Super Creature" />
+		    <property name="Race" value="Death Puppet/Xenoparts/Alien" />
+		    <property name="Rules" value="Double breaker&#xd;&#xa;Link Release" />
+		    <property name="Power" value="6000" />
+		    <property name="Rarity" value="U" />
+		    <property name="Number" value="" />
+	    	<property name="Format" value="OCG" />
 		</card>
 	</cards>
 </set>

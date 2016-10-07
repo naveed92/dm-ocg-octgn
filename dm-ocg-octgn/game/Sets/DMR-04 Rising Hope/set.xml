@@ -752,5 +752,27 @@
 				<property name="Format" value="OCG" />
 			</alternate>
 		</card>
+		<card name="Gallows Hellish Dragon, Brink of Despair" id="8c3e12de-8d5c-4baf-bb59-b7bfeeccbf1e">
+			<property name="Civilization" value="Light/Water/Darkness/Fire/Nature" />
+			<property name="Cost" value="30" />
+			<property name="Type" value="Psychic Super Creature" />
+			<property name="Race" value="Rainbow Command Dragon/Alien" />
+			<property name="Rules" value="Whenever this creature attacks, your opponent puts all but the bottom 2 cards of his deck into his graveyard.&#xd;&#xa;Triple breaker&#xd;&#xa;Link Release" />
+			<property name="Power" value="17000" />
+			<property name="Rarity" value="V" />
+			<property name="Number" value="V1b" />
+			<property name="Format" value="OCG" />
+		</card>
+		<card name="Gaial Ore Dragon, the Vainglory" id="0b9906cc-37c8-4762-bdc4-135ff693af3c">
+			<property name="Civilization" value="Light/Water/Darkness/Fire/Nature" />
+			<property name="Cost" value="30" />
+			<property name="Type" value="Psychic Super Creature" />
+			<property name="Race" value="Rainbow Command Dragon/Hunter" />
+			<property name="Rules" value="Speed attacker&#xd;&#xa;Hunting&#xd;&#xa; Whenever this creature wins a battle, untap this creature, then choose 2 of your opponent&quot;s shields. Add those shields to your opponent&quot;s hand.&#xd;&#xa;World breaker&#xd;&#xa;Link Release" />
+			<property name="Power" value="26000+" />
+			<property name="Rarity" value="V" />
+			<property name="Number" value="V2b" />
+			<property name="Format" value="OCG" />
+		</card>
 	</cards>
 </set>

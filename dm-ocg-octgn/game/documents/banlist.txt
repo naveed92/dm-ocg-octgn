@@ -1,5 +1,5 @@
-Awakening Saga Banlist
-(As of July 24, 2011. Valid for Set 39 JP format)
+DMR Episode 1 Banlist
+(As of March 15, 2012. Valid for DMR Episode 1 JP format)
 
 Source:
 http://duelmasters.wikia.com/wiki/User:BlitzerRyuusei/Hall_of_Fame_timeline
@@ -20,13 +20,11 @@ Infinity Dragon
 Pacific Champion
 Uberdragon Bajula
 Bajula's Soul
-Crest of Mother
 Miraculous Plague
 Mist Rias, Thunder Guardian
 Inferno Sign
 Perfect Galaxy, Spirit of Immortality
 Amaterasu, Founder of the Blue Wolves
-Emperor Chirico
 Paradise Aroma
 Romanesk, the Dragon Wizard
 Spiral Gate
@@ -35,7 +33,6 @@ Falconer, Lightfang Ninja
 Hydro Hurricane
 Heavy, Dragon God
 Lucky Darts
-Mad Romanoff, he Wicked God
 Transmogrify
 Sir Virginia, Mystic Light Insect
 Dandy Eggplant
@@ -44,6 +41,7 @@ Mil Armor, Mecha King Vizier
 Prince Avaraldo, Cavalier of Thunder
 Shrine of Rebirth
 Orochi, of the Hidden Blade
+Colorful Dance
 
 Banned:
 Bombazar, Dragon of Destiny
@@ -62,6 +60,9 @@ Soul Advantage
 King Alcadeias, Holy Gaia
 Aquan
 Cyber Brain
+Crest of Mother
+Emperor Chirico
+Mad Romanoff, he Wicked God
 
 Combo Ban:
 Hyperspatial Vice Hole >> Diabolos Zeta, Temporal Ruler(these cannot be in the same deck + hyperspatial zone)

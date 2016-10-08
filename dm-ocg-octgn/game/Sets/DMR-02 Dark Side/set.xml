@@ -346,7 +346,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa; Put a Darkness, Fire, or Nature psychic creature that costs 8 or less from your hyperspatial zone into the battle zone.&#xd;&#xa; When one of your opponent&quot;s creatures attacks, if you have a tooltip in the battle zone, you may discard this card. If you do, stop the attack, that turn your tooltip gets +3000 power, and it battles with the attacking creature." />
+			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa; Put a Darkness, Fire, or Nature psychic creature that costs 8 or less from your hyperspatial zone into the battle zone.&#xd;&#xa; When one of your opponent&quot;s creatures attacks, if you have a Gil Fuji, Yokozuna in the battle zone, you may discard this card. If you do, stop the attack, that turn your Gil Fuji, Yokozuna gets +3000 power, and it battles with the attacking creature." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="20" />

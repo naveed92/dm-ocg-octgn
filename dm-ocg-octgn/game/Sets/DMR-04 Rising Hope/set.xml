@@ -303,7 +303,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Demon Command/Alien" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Space Charge: Your opponent chooses a card in his hand and discards it.&#xd;&#xa;Power Attacker&#xd;&#xa; When this creature would break a shield, if your opponent has no cards in his hand, put it into your opponent&quot;s graveyard instead.&#xd;&#xa;Double breaker" />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Space Charge: Your opponent chooses a card in his hand and discards it.&#xd;&#xa;Power Attacker +3000&#xd;&#xa; When this creature would break a shield, if your opponent has no cards in his hand, put it into your opponent&quot;s graveyard instead.&#xd;&#xa;Double breaker" />
 			<property name="Power" value="5000+" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="18" />
@@ -622,7 +622,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Fire Bird" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Power Attacker&#xd;&#xa; When this creature would be destroyed, put it into your mana zone instead." />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Power Attacker +3000&#xd;&#xa; When this creature would be destroyed, put it into your mana zone instead." />
 			<property name="Power" value="1000+" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="47" />

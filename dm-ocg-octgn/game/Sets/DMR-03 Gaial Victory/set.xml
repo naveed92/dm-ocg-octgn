@@ -500,7 +500,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Human/Guardian" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Power Attacker&#xd;&#xa; When this creature would be destroyed, add it to your shields face down instead." />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Power Attacker +2000&#xd;&#xa; When this creature would be destroyed, add it to your shields face down instead." />
 			<property name="Power" value="3000+" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="31" />

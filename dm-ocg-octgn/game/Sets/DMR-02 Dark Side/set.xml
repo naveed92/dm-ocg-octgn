@@ -212,9 +212,9 @@
 		<card name="Death Phantom, Pandora Fortress" id="9cb8ce32-ed97-4495-9431-7242445c9ea3">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
-			<property name="Type" value="Castle" />
+			<property name="Type" value="Fortress" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Castle Fortify&#xd;&#xa; Whenever one of your Aliens leaves the battle zone, you may put an Alien psychic creature that costs less than that Alien from your hyperspatial zone into the battle zone.&#xd;&#xa; If the fortified shield isn&quot;t fortified by any other castles, whenever the fortified shield would be broken by your opponent&quot;s creatures, you may return one of your other shields to your hand instead." />
+			<property name="Rules" value="Fortress&#xd;&#xa; Whenever one of your Aliens leaves the battle zone, you may put an Alien psychic creature that costs less than that Alien from your hyperspatial zone into the battle zone.&#xd;&#xa; If the fortified shield isn&quot;t fortified by any other Fortresses, whenever the fortified shield would be broken by your opponent&quot;s creatures, you may return one of your other shields to your hand instead." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="9" />
@@ -245,9 +245,9 @@
 		<card name="Galaxy Falcon, Counterattack Fortress" id="fbf1d191-7001-4d72-90f3-ac97c311db93">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="1" />
-			<property name="Type" value="Castle" />
+			<property name="Type" value="Fortress" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Castle Fortify&#xd;&#xa; Each of your hunters in the battle zone gets &quot;Speed Attacker&quot;." />
+			<property name="Rules" value="Fortress(Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into your graveyard.)&#xd;&#xa; Each of your hunters in the battle zone gets &quot;Speed Attacker&quot;." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="12" />
@@ -256,9 +256,9 @@
 		<card name="Galaxy Falcon, Counterattack Fortress" id="1b073963-c2fb-4c75-8ebb-c17cf9bcef7b">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="1" />
-			<property name="Type" value="Castle" />
+			<property name="Type" value="Fortress" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Castle Fortify&#xd;&#xa; Each of your hunters in the battle zone gets &quot;Speed Attacker&quot;." />
+			<property name="Rules" value="Fortress(Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into your graveyard.)&#xd;&#xa; Each of your hunters in the battle zone gets &quot;Speed Attacker&quot;." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="12" />

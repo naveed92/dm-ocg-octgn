@@ -916,7 +916,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armored Dragon /Samurai" />
-			<property name="Rules" value="When you put this creature into the battle zone, untap all Dragons in your mana zone.&#xd;&#xa; If you have tooltip or a Dragon that has NEX in its name in the battle zone, other than this creature, each of your Dragons gets &quot;Power Attacker +4000&quot; and breaks an additional shield. " />
+			<property name="Rules" value="When you put this creature into the battle zone, untap all Dragons in your mana zone.&#xd;&#xa; If you have Bolmeteus Samurai Dragon or a Dragon that has NEX in its name in the battle zone, other than this creature, each of your Dragons gets &quot;Power Attacker +4000&quot; and breaks an additional shield. " />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="61" />

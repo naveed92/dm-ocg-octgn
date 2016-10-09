@@ -526,7 +526,7 @@
 			<property name="Cost" value="9" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Armored Dragon/Alien" />
-			<property name="Rules" value="Speed attacker&#xd;&#xa;Power Attacker&#xd;&#xa;Triple breaker&#xd;&#xa; Players can&quot;t put psychic creatures into the battle zone." />
+			<property name="Rules" value="Speed attacker&#xd;&#xa;Power Attacker +5000&#xd;&#xa;Triple breaker&#xd;&#xa; Players can&quot;t put psychic creatures into the battle zone." />
 			<property name="Power" value="9000+" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />

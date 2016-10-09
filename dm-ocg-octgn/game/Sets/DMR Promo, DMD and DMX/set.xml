@@ -270,7 +270,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Light Bringer/Hunter" />
-			<property name="Rules" value="When you put this creature into the battle zone, you may put a light Hunter psychic creature that costs 6 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic&#xd;&#xa;Saver" />
+			<property name="Rules" value="When you put this creature into the battle zone, you may put a light Hunter psychic creature that costs 6 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic&#xd;&#xa;Saver: Psychic Creature" />
 			<property name="Power" value="500" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />

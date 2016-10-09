@@ -654,7 +654,7 @@
 		<card name="Hyperspatial Raiden Hole" id="a7e2e28b-5791-4e1e-a9bc-d8e4ce9596df">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
-			<property name="Type" value="Spell " />
+			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Put a Darkness psychic creature that costs 6 or less from your hyperspatial zone into the battle zone.&#xd;&#xa; You may destroy one of your non-psychic creature creatures. If you do, put a Darkness psychic creature that costs 5 or less from your hyperspatial zone into the battle zone." />
 			<property name="Power" value="0" />

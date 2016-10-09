@@ -190,7 +190,7 @@
 		</card>
 		<card name="Five-Way Soul Absorption" id="3fb53206-cb00-4e98-aae7-b01b067a8252">
 			<property name="Civilization" value="Darkness" />
-			<property name="Cost" value="3.0" />
+			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Choose one of your opponent&quot;s creature in the battle zone. That creature gets -2000 for each civilization on your cards in the battle zone until the end of the turn.  (A creature that has power 0 or less is destroyed.) " />

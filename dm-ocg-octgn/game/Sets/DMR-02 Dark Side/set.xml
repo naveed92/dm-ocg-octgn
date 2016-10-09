@@ -181,7 +181,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Liquid People/Hunter" />
-			<property name="Rules" value="When you put this creature into the battle zone, look at the top 5 cards of your deck. From among them, you may put tooltip or tooltip, either one by one, or both, into the battle zone. Then put the rest on the bottom of your deck in any order." />
+			<property name="Rules" value="When you put this creature into the battle zone, look at the top 5 cards of your deck. From among them, you may put Aqua Attack or Aqua Cascade, either one by one, or both, into the battle zone. Then put the rest on the bottom of your deck in any order." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="7" />

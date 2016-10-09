@@ -180,7 +180,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Merfolk/Alien " />
-			<property name="Rules" value="Space Charge: This creature gets the  abilities of all other Aliens in the battle zone not named Space Cebu Poseidon.&#xd;&#xa; Whenever one of your other Aliens is chosen due to the ability of your opponent&quot;s creature or spells, you may draw a card." />
+			<property name="Rules" value="Space Charge- any card: This creature gets the Space Charge abilities of all other Aliens in the battle zone not named Space Cebu Poseidon.&#xd;&#xa; Whenever one of your other Aliens is chosen due to the ability of your opponent&quot;s creature or spells, you may draw a card." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="8" />

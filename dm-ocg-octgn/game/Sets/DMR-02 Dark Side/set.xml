@@ -81,7 +81,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Gaia Command/Alien" />
-			<property name="Rules" value="Evolution - Put on one of your nature creatures.&#xd;&#xa;Triple breaker&#xd;&#xa;Space Charge: Your opponent chooses one of his creatures and puts it into his mana zone." />
+			<property name="Rules" value="Evolution - Put on one of your nature creatures.&#xd;&#xa;Triple breaker&#xd;&#xa;Space Charge- Nature: Your opponent chooses one of his creatures and puts it into his mana zone." />
 			<property name="Power" value="15000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />

@@ -401,7 +401,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Draw up to 2 cards.&#xd;&#xa; Until the start of your next turn, whenever your tooltip would leave the battle zone, it stays in the battle zone instead.&#xd;&#xa; When your tooltip would leave the battle zone, you may discard this card instead." />
+			<property name="Rules" value="Draw up to 2 cards.&#xd;&#xa; Until the start of your next turn, whenever your Gallows Cebu Kaiser would leave the battle zone, it stays in the battle zone instead.&#xd;&#xa; When your Gallows Cebu Kaiser would leave the battle zone, you may discard this card instead." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="22" />
@@ -412,7 +412,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Draw up to 2 cards.&#xd;&#xa; Until the start of your next turn, whenever your tooltip would leave the battle zone, it stays in the battle zone instead.&#xd;&#xa; When your tooltip would leave the battle zone, you may discard this card instead." />
+			<property name="Rules" value="Draw up to 2 cards.&#xd;&#xa; Until the start of your next turn, whenever your Gallows Cebu Kaiser would leave the battle zone, it stays in the battle zone instead.&#xd;&#xa; When your Gallows Cebu Kaiser would leave the battle zone, you may discard this card instead." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="22" />

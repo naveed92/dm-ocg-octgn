@@ -58,7 +58,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Fire Bird/Hunter" />
-			<property name="Rules" value="Saver:  Victory  (When one of your  Victory creatures would be destroyed, you may destroy this creature instead.) &#xd;&#xa; When this creature is discarded during your opponent&quot;s turn, you may put a tooltip from your hyperspatial zone into the battle zone." />
+			<property name="Rules" value="Saver:  Victory  (When one of your  Victory creatures would be destroyed, you may destroy this creature instead.) &#xd;&#xa; When this creature is discarded during your opponent&quot;s turn, you may put a Gaial Kaiser from your hyperspatial zone into the battle zone." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -102,7 +102,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Fire Bird/Hunter" />
-			<property name="Rules" value="Saver&#xd;&#xa; When this creature is discarded during your opponent&quot;s turn, you may put a tooltip from your hyperspatial zone into the battle zone." />
+			<property name="Rules" value="Saver- Hunter&#xd;&#xa; When this creature is discarded during your opponent&quot;s turn, you may put a Gaial Kaiser from your hyperspatial zone into the battle zone." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />

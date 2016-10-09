@@ -540,7 +540,7 @@
 			<property name="Format" value="OCG" />
 		</card>
 		<card name="Dragon Flare Egg" id="95dffe30-8c3f-437e-ae66-71d2531e92dd">
-			<property name="Civilization" value="Fire " />
+			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Egg" />

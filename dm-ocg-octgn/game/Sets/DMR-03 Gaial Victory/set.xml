@@ -81,7 +81,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cyber Command/Flame Command/Alien" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa; If you have 3 or more water cards in your mana zone, this creature gets &quot;Shield Trigger&quot;.&#xd;&#xa; If you have 3 or more fire cards in your mana zone, this creature gets +4000 power and &quot;Double breaker&quot;.&#xd;&#xa; If you have 7 or more water and/or fire [[card]]s in your mana zone, this creature gets &quot;Whenever this creature breaks a shield, put it on top of its owner&quot;s deck.&quot;" />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa; If you have 3 or more water cards in your mana zone, this creature gets {SHIELD TRIGGER}.&#xd;&#xa; If you have 3 or more fire cards in your mana zone, this creature gets +4000 power and &quot;Double breaker&quot;.&#xd;&#xa; If you have 7 or more water and/or fire [[card]]s in your mana zone, this creature gets &quot;Whenever this creature breaks a shield, put it on top of its owner&quot;s deck.&quot;" />
 			<property name="Power" value="4000+" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />

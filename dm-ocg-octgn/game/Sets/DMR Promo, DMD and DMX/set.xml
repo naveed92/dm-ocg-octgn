@@ -32,7 +32,7 @@
 			<property name="Format" value="OCG" />
 		</card>
 		<card name="Dead Sea Dragon" id="94f1e5ac-7f34-4356-a8a7-f70e84b3f2a1">
-			<property name="Civilization" value="Water/Darkness /Fire" />
+			<property name="Civilization" value="Water/Darkness/Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Rainbow Command Dragon/Alien" />

@@ -104,7 +104,7 @@
 			<property name="Cost" value="8" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Demon Command/Alien" />
-			<property name="Rules" value="When you put this creature into the battle zone, you may destroy any number of your other creatures. For each creature destroyed, you may put a psychic creature that costs 6 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic&#xd;&#xa;Double breaker" />
+			<property name="Rules" value="When you put this creature into the battle zone, you may destroy any number of your other creatures. For each creature destroyed, you may put a psychic creature that costs 6 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Double breaker" />
 			<property name="Power" value="9000" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />
@@ -203,7 +203,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Demon Command/Alien" />
-			<property name="Rules" value="Evolution - Put on one of your water or fire creatures.&#xd;&#xa; When you put this creature into the battle zone, put a Water, Darkness, or Fire psychic creature that costs 7 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic&#xd;&#xa;Double breaker" />
+			<property name="Rules" value="Evolution - Put on one of your water or fire creatures.&#xd;&#xa; When you put this creature into the battle zone, put a Water, Darkness, or Fire psychic creature that costs 7 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Double breaker" />
 			<property name="Power" value="8000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="5" />
@@ -456,7 +456,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Pandora's Box/Alien" />
-			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, you may destroy one of your Darkness or Fire creatures. If you do, put a Darkness or Fire psychic creature that costs 4 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="{SHIELD TRIGGER}&#xd;&#xa;When you put this creature into the battle zone, you may destroy one of your Darkness or Fire creatures. If you do, put a Darkness or Fire psychic creature that costs 4 or less from your hyperspatial zone into the battle zone." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="26" />
@@ -540,7 +540,7 @@
 			<property name="Format" value="OCG" />
 		</card>
 		<card name="Dragon Flare Egg" id="95dffe30-8c3f-437e-ae66-71d2531e92dd">
-			<property name="Civilization" value="Fire " />
+			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="3" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Egg" />
@@ -566,7 +566,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Put up to 2 Fire psychic creatures that have total cost 8 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Put up to 2 Fire psychic creatures that have total cost 8 or less from your hyperspatial zone into the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="34" />
@@ -577,7 +577,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Put up to 2 Fire psychic creatures that have total cost 8 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Put up to 2 Fire psychic creatures that have total cost 8 or less from your hyperspatial zone into the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="34" />
@@ -654,7 +654,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Berserker/Alien" />
-			<property name="Rules" value="Your opponent&quot;s spells cost 1 more to cast.&#xd;&#xa; Psychic Link - At the start of your turn, if you have Geo the Man, Earth Titan in the battle zone, link it to this creature and flip this creature to its higher cost side.Hyperspatial Psychic" />
+			<property name="Rules" value="Your opponent&quot;s spells cost 1 more to cast.&#xd;&#xa; Psychic Link - At the start of your turn, if you have Geo the Man, Earth Titan in the battle zone, link it to this creature and flip this creature to its higher cost side." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="41a" />
@@ -754,7 +754,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Earth Eater/Cyber Lord/Alien" />
-			<property name="Rules" value=" Blocker&#xd;&#xa; This creature can&quot;t attack.&#xd;&#xa; When you put this creature into the battle zone, put a Light, Water, or Darkness psychic creature that costs 5 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value=" Blocker&#xd;&#xa; This creature can&quot;t attack.&#xd;&#xa; When you put this creature into the battle zone, put a Light, Water, or Darkness psychic creature that costs 5 or less from your hyperspatial zone into the battle zone." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="48" />
@@ -832,7 +832,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Death Puppet/Alien" />
-			<property name="Rules" value="Psychic Link - At the start of your turn, if you have Gil Polymer&quot;s Pliers in the battle zone, link it to this creature and flip this creature to its higher cost side.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Psychic Link - At the start of your turn, if you have Gil Polymer&quot;s Pliers in the battle zone, link it to this creature and flip this creature to its higher cost side." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="54a" />
@@ -899,7 +899,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Rock Beast/Alien" />
-			<property name="Rules" value="Whenever your opponent summons a creature or casts a spell for no cost, he chooses a card in his mana zone and puts it into his graveyard.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Whenever your opponent summons a creature or casts a spell for no cost, he chooses a card in his mana zone and puts it into his graveyard." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="59a" />
@@ -922,7 +922,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Flame Monster/Hunter" />
-			<property name="Rules" value="When you put this creature into the battle zone, destroy one of your opponent&quot;s creatures that has less power than it.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="When you put this creature into the battle zone, destroy one of your opponent&quot;s creatures that has less power than it." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="60a" />
@@ -945,7 +945,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Xenoparts/Alien" />
-			<property name="Rules" value="Hyperspatial Psychic" />
+			<property name="Rules" value="(At the start of your game, separate your psychic creatures from your deck and put them into your hyperspatial zone. If a psychic creature would be put into a zone other than the battle zone, return it to your hyperspatial zone.)" />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="61a" />
@@ -968,7 +968,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Fire Bird/Hunter" />
-			<property name="Rules" value="Psychic Link - At the start of your turn, if you have Gaial Kaiser and Boost, Crimson Lord in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xd;&#xa;Hunting&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Psychic Link - At the start of your turn, if you have Gaial Kaiser and Boost, Crimson Lord in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xd;&#xa;Hunting" />
 			<property name="Power" value="2000+" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="62a" />
@@ -1013,7 +1013,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Gaia Command/Alien" />
-			<property name="Rules" value="At the end of your turn, you may return a card from your mana zone to your hand.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="At the end of your turn, you may return a card from your mana zone to your hand.&#xd;&#xa;(At the start of your game, separate your psychic creatures from your deck and put them into your hyperspatial zone. If a psychic creature would be put into a zone other than the battle zone, return it to your hyperspatial zone.)" />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="65a" />
@@ -1377,7 +1377,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Melt Warrior/Hunter" />
-			<property name="Rules" value="When you put this creature into the battle zone, put a Fire or Nature psychic creature that costs 8 or less from your hyperspatial zone into the battle zone. &#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="When you put this creature into the battle zone, put a Fire or Nature psychic creature that costs 8 or less from your hyperspatial zone into the battle zone. " />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="95" />
@@ -1388,7 +1388,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Melt Warrior/Hunter" />
-			<property name="Rules" value="When you put this creature into the battle zone, put a Fire or Nature psychic creature that costs 8 or less from your hyperspatial zone into the battle zone. &#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="When you put this creature into the battle zone, put a Fire or Nature psychic creature that costs 8 or less from your hyperspatial zone into the battle zone. " />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="95" />
@@ -1487,7 +1487,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Beast Folk/Alien" />
-			<property name="Rules" value="When you put this creature into the battle zone, put a Light, Fire, or Nature psychic creature that costs 6 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="When you put this creature into the battle zone, put a Light, Fire, or Nature psychic creature that costs 6 or less from your hyperspatial zone into the battle zone." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="104" />
@@ -1520,7 +1520,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Giant Insect" />
-			<property name="Rules" value="Power Attacker +2000&#xd;&#xa;" />
+			<property name="Rules" value="Power Attacker +2000" />
 			<property name="Power" value="3000+" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="106" />

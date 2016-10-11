@@ -25,7 +25,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Cyber Command/Alien" />
-			<property name="Rules" value="Double breaker&#xd;&#xa; During your turn, when you summon a non-evolution water or fire creature, you may put that creature on the top of your deck face-up. If you do, put that creature into the battle zone from the top of your deck.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Double breaker&#xd;&#xa; During your turn, when you summon a non-evolution water or fire creature, you may put that creature on the top of your deck face-up. If you do, put that creature into the battle zone from the top of your deck." />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="V1a" />
@@ -48,7 +48,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Red Command Dragon/Hunter" />
-			<property name="Rules" value="Your opponent&quot;s cards are put into his mana zone tapped.&#xd;&#xa;Double breaker &#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Your opponent&quot;s cards are put into his mana zone tapped.&#xd;&#xa;Double breaker " />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="V2a" />
@@ -71,7 +71,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Red Command Dragon/Hunter" />
-			<property name="Rules" value="Speed attacker&#xd;&#xa; During the turn this creature was put into the battle zone, this creature can attack untapped creatures.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Speed attacker&#xd;&#xa; During the turn this creature was put into the battle zone, this creature can attack untapped creatures." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="V3a" />
@@ -190,7 +190,7 @@
 		</card>
 		<card name="Five-Way Soul Absorption" id="3fb53206-cb00-4e98-aae7-b01b067a8252">
 			<property name="Civilization" value="Darkness" />
-			<property name="Cost" value="3.0" />
+			<property name="Cost" value="3" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
 			<property name="Rules" value="Choose one of your opponent&quot;s creature in the battle zone. That creature gets -2000 for each civilization on your cards in the battle zone until the end of the turn.  (A creature that has power 0 or less is destroyed.) " />
@@ -402,7 +402,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Hunter/Alien" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa; When you put this creature into the battle zone, put a multicolored psychic creature that costs 6 or less from your hyperspatial zone into the battle zone. Hyperspatial Psychic&#xd;&#xa;Saver: Psychic Creature" />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa; When you put this creature into the battle zone, put a multicolored psychic creature that costs 6 or less from your hyperspatial zone into the battle zone. &#xd;&#xa;Saver: Psychic Creature" />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="28" />
@@ -435,7 +435,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Flame Monster/Blue Monster/Alien" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Space Charge- Multicolored: Put a multicolored Alien psychic creature that costs the same as or less than the number of cards in your mana zone from your hyperspatial zone into the battle zone.Hyperspatial Psychic" />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Space Charge- Multicolored: Put a multicolored Alien psychic creature that costs the same as or less than the number of cards in your mana zone from your hyperspatial zone into the battle zone." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="31" />
@@ -446,7 +446,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Melt Warrior/Dark Lord/Hunter" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa; When you put this creature into the battle zone, or when this creature is destroyed, choose a card in your opponent&quot;s hand at random, and your opponent reveals that card. Put a Hunter psychic creature that shares a civilization with the revealed card that costs 8 or less from your hyperspatial zone into the battle zone &#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa; When you put this creature into the battle zone, or when this creature is destroyed, choose a card in your opponent&quot;s hand at random, and your opponent reveals that card. Put a Hunter psychic creature that shares a civilization with the revealed card that costs 8 or less from your hyperspatial zone into the battle zone " />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="32" />
@@ -479,7 +479,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;Put a multicolored psychic creature that costs 5 or less from your hyperspatial zone into the battle zone. &#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;Put a multicolored psychic creature that costs 5 or less from your hyperspatial zone into the battle zone. " />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="35" />
@@ -644,7 +644,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Rainbow Command Dragon/Alien" />
-			<property name="Rules" value="At the start of your turn, put a creature that costs 3 or less from your graveyard into the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="At the start of your turn, put a creature that costs 3 or less from your graveyard into the battle zone." />
 			<property name="Power" value="5500" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="49a" />
@@ -678,7 +678,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Hunter/Alien" />
-			<property name="Rules" value="When you put this creature into the battle zone, choose one of your opponent&quot;s creatures  in the battle zone. Until the start of your next turn, that creature can&quot;t attack or block.&#xd;&#xa; Victory Psychic Link - If you have Ryusei Kaiser, the Victorious and Gaial Kaiser, the Victorious in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="When you put this creature into the battle zone, choose one of your opponent&quot;s creatures  in the battle zone. Until the start of your next turn, that creature can&quot;t attack or block.&#xd;&#xa; Victory Psychic Link - If you have Ryusei Kaiser, the Victorious and Gaial Kaiser, the Victorious in the battle zone, link them to this creature and flip this creature to its higher cost side." />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="51a" />
@@ -734,7 +734,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Flame Command/Alien" />
-			<property name="Rules" value="Each of your other creatures gets +1000 power for each of it&quot;s civilizations. &#xd;&#xa; Psychic Link - At the start of your turn, if you have Intense World! Shachihoko Kaiser and Intense Boiling! Hot Spring Gallows in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Each of your other creatures gets +1000 power for each of it&quot;s civilizations. &#xd;&#xa; Psychic Link - At the start of your turn, if you have Intense World! Shachihoko Kaiser and Intense Boiling! Hot Spring Gallows in the battle zone, link them to this creature and flip this creature to its higher cost side." />
 			<property name="Power" value="5000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="55a" />

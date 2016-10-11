@@ -81,7 +81,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Cyber Command/Flame Command/Alien" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa; If you have 3 or more water cards in your mana zone, this creature gets &quot;Shield Trigger&quot;.&#xd;&#xa; If you have 3 or more fire cards in your mana zone, this creature gets +4000 power and &quot;Double breaker&quot;.&#xd;&#xa; If you have 7 or more water and/or fire [[card]]s in your mana zone, this creature gets &quot;Whenever this creature breaks a shield, put it on top of its owner&quot;s deck.&quot;" />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa; If you have 3 or more water cards in your mana zone, this creature gets {SHIELD TRIGGER}.&#xd;&#xa; If you have 3 or more fire cards in your mana zone, this creature gets +4000 power and &quot;Double breaker&quot;.&#xd;&#xa; If you have 7 or more water and/or fire [[card]]s in your mana zone, this creature gets &quot;Whenever this creature breaks a shield, put it on top of its owner&quot;s deck.&quot;" />
 			<property name="Power" value="4000+" />
 			<property name="Rarity" value="S" />
 			<property name="Number" value="S4" />
@@ -147,7 +147,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Evolution Creature" />
 			<property name="Race" value="Rainbow Command Dragon/Alien" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa; Evolution - Put on one of your multicolored creatures.&#xd;&#xa; Double breaker&#xd;&#xa; Whenever one of your non-psychic creatures is destroyed, you may put a Light, Darkness or Fire Alien psychic creature that costs 7 or less from your hyperspatial zone into the battle zone. Hyperspatial Psychic" />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa; Evolution - Put on one of your multicolored creatures.&#xd;&#xa; Double breaker&#xd;&#xa; Whenever one of your non-psychic creatures is destroyed, you may put a Light, Darkness or Fire Alien psychic creature that costs 7 or less from your hyperspatial zone into the battle zone. " />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="5" />
@@ -378,7 +378,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Living Dead/Alien" />
-			<property name="Rules" value=" Blocker&#xd;&#xa; This creature can&quot;t attack.&#xd;&#xa; Loop Awaken -  Whenever this creature blocks or is attacked, put the top 2 cards of your deck into your graveyard, then flip this creature to the Geo Hyde, Temporal Macho side.  (The attack is not canceled.)  Hyperspatial Psychic" />
+			<property name="Rules" value=" Blocker&#xd;&#xa; This creature can&quot;t attack.&#xd;&#xa; Loop Awaken -  Whenever this creature blocks or is attacked, put the top 2 cards of your deck into your graveyard, then flip this creature to the Geo Hyde, Temporal Macho side.  (The attack is not canceled.)  " />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="23a" />
@@ -423,7 +423,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Fire Bird/Hunter" />
-			<property name="Rules" value="When you put this creature into the battle zone, choose one of the following.:► Put up to 2 Fire Bird psychic creatures that have total cost 3 or less from your hyperspatial zone into the battle zone.:► Put a Fire psychic creature that costs 6 or less from your hyperspatial zone into the battle zone,Hyperspatial Psychic" />
+			<property name="Rules" value="When you put this creature into the battle zone, choose one of the following.:► Put up to 2 Fire Bird psychic creatures that have total cost 3 or less from your hyperspatial zone into the battle zone.:► Put a Fire psychic creature that costs 6 or less from your hyperspatial zone into the battle zone," />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="26" />
@@ -434,7 +434,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Fire Bird/Hunter" />
-			<property name="Rules" value="When you put this creature into the battle zone, choose one of the following.:► Put up to 2 Fire Bird psychic creatures that have total cost 3 or less from your hyperspatial zone into the battle zone.:► Put a Fire psychic creature that costs 6 or less from your hyperspatial zone into the battle zone,Hyperspatial Psychic" />
+			<property name="Rules" value="When you put this creature into the battle zone, choose one of the following.:► Put up to 2 Fire Bird psychic creatures that have total cost 3 or less from your hyperspatial zone into the battle zone.:► Put a Fire psychic creature that costs 6 or less from your hyperspatial zone into the battle zone," />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="26" />
@@ -632,7 +632,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Fire Bird/Hunter" />
-			<property name="Rules" value="Each of your Dragons in the battle zone gets +2000 power.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Each of your Dragons in the battle zone gets +2000 power." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="42a" />
@@ -655,7 +655,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Fire Bird/Hunter" />
-			<property name="Rules" value="Psychic Link - At the start of your turn, if you have Ryusei the Forever Kaiser and Ukon Pippi in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Psychic Link - At the start of your turn, if you have Ryusei the Forever Kaiser and Ukon Pippi in the battle zone, link them to this creature and flip this creature to its higher cost side." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="43a" />
@@ -733,7 +733,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa; Choose a shield in either player&quot;s shield zone and look at it. Then, choose a shield in either player&quot;s shield zone and put it into its owner&quot;s graveyard. Its owner adds the top card of his deck to their shields face down.&#xd;&#xa; Put a psychic creature that costs 5 or less from your hyperspatial zone into the battle zone. Hyperspatial Psychic" />
+			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa; Choose a shield in either player&quot;s shield zone and look at it. Then, choose a shield in either player&quot;s shield zone and put it into its owner&quot;s graveyard. Its owner adds the top card of his deck to their shields face down.&#xd;&#xa; Put a psychic creature that costs 5 or less from your hyperspatial zone into the battle zone. " />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="49" />
@@ -744,7 +744,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa; Tap all your opponent&quot;s creatures that have power 2000 or less.&#xd;&#xa; Put a psychic creature that costs 5 or less from your hyperspatial zone into the battle zone. Hyperspatial Psychic" />
+			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa; Tap all your opponent&quot;s creatures that have power 2000 or less.&#xd;&#xa; Put a psychic creature that costs 5 or less from your hyperspatial zone into the battle zone. " />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="50" />
@@ -766,7 +766,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa; Each of your creatures in the battle zone gets &quot;Power Attacker +2000&quot; and can&quot;t be blocked until the end of the turn.&#xd;&#xa; Put a psychic creature that costs 5 or less from your hyperspatial zone into the battle zone. Hyperspatial Psychic" />
+			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa; Each of your creatures in the battle zone gets &quot;Power Attacker +2000&quot; and can&quot;t be blocked until the end of the turn.&#xd;&#xa; Put a psychic creature that costs 5 or less from your hyperspatial zone into the battle zone. " />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="52" />
@@ -777,7 +777,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa; Each of your creatures in the battle zone gets +1000 power for each card in your hand until the end of the turn.&#xd;&#xa; Put a psychic creature that costs 5 or less from your hyperspatial zone into the battle zone. Hyperspatial Psychic" />
+			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa; Each of your creatures in the battle zone gets +1000 power for each card in your hand until the end of the turn.&#xd;&#xa; Put a psychic creature that costs 5 or less from your hyperspatial zone into the battle zone. " />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="53" />
@@ -788,7 +788,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa; Put a creature from your graveyard into your mana zone.&#xd;&#xa; Put a psychic creature that costs 5 or less from your hyperspatial zone into the battle zone. Hyperspatial Psychic" />
+			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa; Put a creature from your graveyard into your mana zone.&#xd;&#xa; Put a psychic creature that costs 5 or less from your hyperspatial zone into the battle zone. " />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="54" />

@@ -110,10 +110,10 @@
 			<wordwrap height="48" width="300" align="center" shrinktofit="True" valign="center" />
 		</block>
 		<block type="text" id="cost">
-			<location x="14" y="25" />
+			<location x="4" y="25" />
 			<text color="#FFFFFF" size="38" font="./fonts/armadaCondensed.ttf"/>
 			<border color="#000000" size="2" />
-			<wordwrap height="38" width="50" align="center" shrinktofit="False" valign="center" />
+			<wordwrap height="38" width="70" align="center" shrinktofit="False" valign="center" />
 		</block>
 		<block type="text" id="race">
 			<location x="68" y="59" />

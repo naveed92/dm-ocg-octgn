@@ -32,7 +32,7 @@
 			<property name="Format" value="OCG" />
 		</card>
 		<card name="Dead Sea Dragon" id="94f1e5ac-7f34-4356-a8a7-f70e84b3f2a1">
-			<property name="Civilization" value="Water/Darkness /Fire" />
+			<property name="Civilization" value="Water/Darkness/Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Rainbow Command Dragon/Alien" />
@@ -157,7 +157,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Mecha Del Sol/Hunter" />
-			<property name="Rules" value="Blocker&#xd;&#xa; While blocking, this creature gets +2000 power. &#xd;&#xa; At the end of your turn, untap all your Hunter creatures in the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Blocker&#xd;&#xa; While blocking, this creature gets +2000 power. &#xd;&#xa; At the end of your turn, untap all your Hunter creatures in the battle zone." />
 			<property name="Power" value="5500+" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -180,7 +180,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Initiate/Hunter" />
-			<property name="Rules" value="Blocker&#xd;&#xa; This creature can&quot;t attack players. &#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Blocker&#xd;&#xa; This creature can&quot;t attack players. " />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -203,7 +203,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Mecha Del Sol/Hunter" />
-			<property name="Rules" value="When this creature would be destroyed, you may discard a light card from your hand instead. &#xd;&#xa; Psychic Link-At the start of your turn, if you have &quot;Saint Ave Maria, Light Weapon&quot; and &quot;Merrianne, Apostle of the Alps&quot; in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="When this creature would be destroyed, you may discard a light card from your hand instead. &#xd;&#xa; Psychic Link-At the start of your turn, if you have &quot;Saint Ave Maria, Light Weapon&quot; and &quot;Merrianne, Apostle of the Alps&quot; in the battle zone, link them to this creature and flip this creature to its higher cost side." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -270,7 +270,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Light Bringer/Hunter" />
-			<property name="Rules" value="When you put this creature into the battle zone, you may put a light Hunter psychic creature that costs 6 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic&#xd;&#xa;Saver: Psychic Creature" />
+			<property name="Rules" value="When you put this creature into the battle zone, you may put a light Hunter psychic creature that costs 6 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Saver: Psychic Creature" />
 			<property name="Power" value="500" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -413,7 +413,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Red Command Dragon/Alien" />
-			<property name="Rules" value="Whenever your opponent chooses this creature, put all of his cards in his mana zone into his graveyard.&#xd;&#xa;Double breaker&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Whenever your opponent chooses this creature, put all of his cards in his mana zone into his graveyard.&#xd;&#xa;Double breaker" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -436,7 +436,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="White Command Dragon/Alien" />
-			<property name="Rules" value="Whenever this creature attacks, you may return a spell from your graveyard to your hand.&#xd;&#xa;Double breaker&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Whenever this creature attacks, you may return a spell from your graveyard to your hand.&#xd;&#xa;Double breaker" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -459,7 +459,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Black Command Dragon/Alien" />
-			<property name="Rules" value="Whenever this creature attacks, choose one of your opponent&quot;s creatures in the battle zone. That creature gets -3000 power until the end of the turn.  (A creature that has power 0 or less is destroyed.) &#xd;&#xa;Double breaker&#xd;&#xa; Psychic Link-At the start of your turn, if you have Red ABYTHEN Kaiser and White TENMTH Kaiser in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Whenever this creature attacks, choose one of your opponent&quot;s creatures in the battle zone. That creature gets -3000 power until the end of the turn.  (A creature that has power 0 or less is destroyed.) &#xd;&#xa;Double breaker&#xd;&#xa; Psychic Link-At the start of your turn, if you have Red ABYTHEN Kaiser and White TENMTH Kaiser in the battle zone, link them to this creature and flip this creature to its higher cost side." />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -548,7 +548,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Angel Command/Alien" />
-			<property name="Rules" value="Blocker&#xd;&#xa; This creature can&quot;t attack players.&#xd;&#xa; Loop Awaken-At the start of your turn, you may flip this creature to the Cebu Lancer, the Temporal side.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Blocker&#xd;&#xa; This creature can&quot;t attack players.&#xd;&#xa; Loop Awaken-At the start of your turn, you may flip this creature to the Cebu Lancer, the Temporal side." />
 			<property name="Power" value="12500" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -559,7 +559,7 @@
 				<property name="Cost" value="7" />
 				<property name="Type" value="Psychic Creature" />
 				<property name="Race" value="Liquid People/Alien" />
-				<property name="Rules" value="This creature can&quot;t be attacked or blocked.&#xd;&#xa; Loop Awaken-At the start of your turn, you may flip this creature to the Gaga Sirius, the Temporal side.&#xd;&#xa;Hyperspatial Psychic" />
+				<property name="Rules" value="This creature can&quot;t be attacked or blocked.&#xd;&#xa; Loop Awaken-At the start of your turn, you may flip this creature to the Gaga Sirius, the Temporal side." />
 				<property name="Power" value="5000" />
 				<property name="Rarity" value="None" />
 				<property name="Number" value="None" />
@@ -670,7 +670,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa; During your opponent&quot;s next turn, your Aliens can&quot;t be attacked.&#xd;&#xa; Put an Alien psychic creature that costs 7 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa; During your opponent&quot;s next turn, your Aliens can&quot;t be attacked.&#xd;&#xa; Put an Alien psychic creature that costs 7 or less from your hyperspatial zone into the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -681,7 +681,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Beast Command/Hunter" />
-			<property name="Rules" value="Whenever one of your fire or nature Hunters wins a battle, you may put a Hunter that costs less than that Hunter from your mana zone or hyperspatial zone into the battle zone.&#xd;&#xa; Double breaker&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Whenever one of your fire or nature Hunters wins a battle, you may put a Hunter that costs less than that Hunter from your mana zone or hyperspatial zone into the battle zone.&#xd;&#xa; Double breaker" />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -704,7 +704,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Beast Folk/Hunter" />
-			<property name="Rules" value="At the start of your turn, you may put the top card of your deck into your mana zone.&#xd;&#xa;Double breaker&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="At the start of your turn, you may put the top card of your deck into your mana zone.&#xd;&#xa;Double breaker" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -727,7 +727,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Beast Folk/Hunter" />
-			<property name="Rules" value="Psychic Link-At the start of your turn, if you have Jin, the Ogre Blade ~Crimson Rage~ and Quattro Fang, Soul Gang Leader in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xd;&#xa;Hunting&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Psychic Link-At the start of your turn, if you have Jin, the Ogre Blade ~Crimson Rage~ and Quattro Fang, Soul Gang Leader in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xd;&#xa;Hunting" />
 			<property name="Power" value="2000+" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -794,7 +794,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Red Command Dragon/Hunter" />
-			<property name="Rules" value="Double breaker&#xd;&#xa; Whenever one of your Fire Birds is destroyed, your opponent chooses one of his shields and returns it to his hand.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Double breaker&#xd;&#xa; Whenever one of your Fire Birds is destroyed, your opponent chooses one of his shields and returns it to his hand." />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -839,7 +839,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Fire Bird/Hunter" />
-			<property name="Rules" value="Psychic Link-At the start of your turn, if you have a Zero Kaiser in the battle zone, link it to this creature and flip this creature.&#xd;&#xa; While this creature is tapped, your opponent&quot;s attacking creatures must attack this creature if able. &#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Psychic Link-At the start of your turn, if you have a Zero Kaiser in the battle zone, link it to this creature and flip this creature.&#xd;&#xa; While this creature is tapped, your opponent&quot;s attacking creatures must attack this creature if able. " />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -929,7 +929,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Liquid People/Hunter" />
-			<property name="Rules" value="At the start of your turn, you may draw a card.&#xd;&#xa; Your water Hunters can&quot;t be attacked.&#xd;&#xa;Double breaker&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="At the start of your turn, you may draw a card.&#xd;&#xa; Your water Hunters can&quot;t be attacked.&#xd;&#xa;Double breaker" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -952,7 +952,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Liquid People/Hunter" />
-			<property name="Rules" value="Psychic Link-At the start of your turn, if you have Aqua Attack (BAGOOON Panzer) and Aqua Cascade (ZABUUUN Cruiser) in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xd;&#xa;Hunting&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Psychic Link-At the start of your turn, if you have Aqua Attack (BAGOOON Panzer) and Aqua Cascade (ZABUUUN Cruiser) in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xd;&#xa;Hunting" />
 			<property name="Power" value="2000+" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -975,7 +975,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Liquid People/Hunter" />
-			<property name="Rules" value="Blocker&#xd;&#xa; This creature can&quot;t attack.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Blocker&#xd;&#xa; This creature can&quot;t attack." />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -1075,7 +1075,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Alien" />
-			<property name="Rules" value="All Aliens in the battle zone get &quot;Slayer&quot;.  (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.) &#xd;&#xa; Psychic Link-At the start of your turn, if you have Mother Alien (Gladly) in the battle zone, link it to this creature and flip this creature to its higher cost side.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="All Aliens in the battle zone get &quot;Slayer&quot;.  (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.) &#xd;&#xa; Psychic Link-At the start of your turn, if you have Mother Alien (Gladly) in the battle zone, link it to this creature and flip this creature to its higher cost side." />
 			<property name="Power" value="4000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -1098,7 +1098,7 @@
 			<property name="Cost" value="7" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Alien" />
-			<property name="Rules" value="Each of your Aliens in the battle zone gets &quot;Saver: Alien&quot;.  (When one of your Aliens would be destroyed, you may destroy a creature that has &quot;Saver: Alien&quot; instead. &#xd;&#xa; Double breaker&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Each of your Aliens in the battle zone gets &quot;Saver: Alien&quot;.  (When one of your Aliens would be destroyed, you may destroy a creature that has &quot;Saver: Alien&quot; instead. &#xd;&#xa; Double breaker" />
 			<property name="Power" value="6000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -1143,7 +1143,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Choose a number. Then, look at your opponent&quot;s hand. For each card that costs the same as the chosen number, draw a card.&#xd;&#xa; Put up to 2 Water psychic creatures that have total cost 7 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Choose a number. Then, look at your opponent&quot;s hand. For each card that costs the same as the chosen number, draw a card.&#xd;&#xa; Put up to 2 Water psychic creatures that have total cost 7 or less from your hyperspatial zone into the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -1255,7 +1255,7 @@
 			<property name="Cost" value="4" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Melt Warrior/Hunter" />
-			<property name="Rules" value="When you put this creature into the battle zone, you may put a Hunter psychic creature that costs 4 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="When you put this creature into the battle zone, you may put a Hunter psychic creature that costs 4 or less from your hyperspatial zone into the battle zone." />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -1445,7 +1445,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Red Command Dragon/Hunter" />
-			<property name="Rules" value="Whenever this creature would break a shield, your opponent reveals that shield instead. You may put a psychic creature that costs less than any of the revealed cards from that shield from your hyperspatial zone into the battle zone. Then, break that shield.&#xd;&#xa;Hyperspatial Psychic&#xd;&#xa; Double breaker" />
+			<property name="Rules" value="Whenever this creature would break a shield, your opponent reveals that shield instead. You may put a psychic creature that costs less than any of the revealed cards from that shield from your hyperspatial zone into the battle zone. Then, break that shield.&#xd;&#xa; Double breaker" />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -1512,7 +1512,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Curry Bread/Hunter" />
-			<property name="Rules" value="Whenever this creature battles, you may say &quot;Now show me the curry bread!&quot;. If you do, this creature gets +2000 power until the end of the turn.&#xd;&#xa; Awaken-When this creature wins a battle, flip this creature to its higher cost side. Hyperspatial Psychic" />
+			<property name="Rules" value="Whenever this creature battles, you may say &quot;Now show me the curry bread!&quot;. If you do, this creature gets +2000 power until the end of the turn.&#xd;&#xa; Awaken-When this creature wins a battle, flip this creature to its higher cost side. " />
 			<property name="Power" value="4000+" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />
@@ -1558,7 +1558,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Flame Monster/Hunter" />
-			<property name="Rules" value="Whenever this creature attacks, you may put a Silver Volg from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Whenever this creature attacks, you may put a Silver Volg from your hyperspatial zone into the battle zone." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="None" />
 			<property name="Number" value="None" />

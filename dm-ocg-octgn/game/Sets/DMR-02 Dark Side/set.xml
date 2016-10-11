@@ -25,7 +25,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Demon Command/Hunter" />
-			<property name="Rules" value="When you put this creature into the battle zone, choose a player. That player puts cards from the top of his deck into his graveyard until 2 creatures have been put into his graveyard in this way.&#xd;&#xa; Double breaker&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="When you put this creature into the battle zone, choose a player. That player puts cards from the top of his deck into his graveyard until 2 creatures have been put into his graveyard in this way.&#xd;&#xa; Double breaker" />
 			<property name="Power" value="7000" />
 			<property name="Rarity" value="V" />
 			<property name="Number" value="V1a" />
@@ -212,9 +212,9 @@
 		<card name="Death Phantom, Pandora Fortress" id="9cb8ce32-ed97-4495-9431-7242445c9ea3">
 			<property name="Civilization" value="Water" />
 			<property name="Cost" value="5" />
-			<property name="Type" value="Castle" />
+			<property name="Type" value="Fortress" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Castle Fortify&#xd;&#xa; Whenever one of your Aliens leaves the battle zone, you may put an Alien psychic creature that costs less than that Alien from your hyperspatial zone into the battle zone.&#xd;&#xa; If the fortified shield isn&quot;t fortified by any other castles, whenever the fortified shield would be broken by your opponent&quot;s creatures, you may return one of your other shields to your hand instead." />
+			<property name="Rules" value="Fortress&#xd;&#xa; Whenever one of your Aliens leaves the battle zone, you may put an Alien psychic creature that costs less than that Alien from your hyperspatial zone into the battle zone.&#xd;&#xa; If the fortified shield isn&quot;t fortified by any other Fortresses, whenever the fortified shield would be broken by your opponent&quot;s creatures, you may return one of your other shields to your hand instead." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="9" />
@@ -245,9 +245,9 @@
 		<card name="Galaxy Falcon, Counterattack Fortress" id="fbf1d191-7001-4d72-90f3-ac97c311db93">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="1" />
-			<property name="Type" value="Castle" />
+			<property name="Type" value="Fortress" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Castle Fortify&#xd;&#xa; Each of your hunters in the battle zone gets &quot;Speed Attacker&quot;." />
+			<property name="Rules" value="Fortress(Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into your graveyard.)&#xd;&#xa; Each of your hunters in the battle zone gets &quot;Speed Attacker&quot;." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="12" />
@@ -256,9 +256,9 @@
 		<card name="Galaxy Falcon, Counterattack Fortress" id="1b073963-c2fb-4c75-8ebb-c17cf9bcef7b">
 			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="1" />
-			<property name="Type" value="Castle" />
+			<property name="Type" value="Fortress" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Castle Fortify&#xd;&#xa; Each of your hunters in the battle zone gets &quot;Speed Attacker&quot;." />
+			<property name="Rules" value="Fortress(Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into your graveyard.)&#xd;&#xa; Each of your hunters in the battle zone gets &quot;Speed Attacker&quot;." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="12" />
@@ -313,7 +313,7 @@
 			<property name="Cost" value="5" />
 			<property name="Type" value="Creature" />
 			<property name="Race" value="Grand Devil/Alien" />
-			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Multi Space Charge Water: Draw a card.: Darkness: Your opponent discards a card from his hand.&#xd;&#xa;" />
+			<property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xd;&#xa;Multi Space Charge Water: Draw a card.: Darkness: Your opponent discards a card from his hand." />
 			<property name="Power" value="3000" />
 			<property name="Rarity" value="R" />
 			<property name="Number" value="17" />
@@ -434,7 +434,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Living Dead/Alien" />
-			<property name="Rules" value="Your opponent&quot;s creatures must block if able.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Your opponent&quot;s creatures must block if able.&#xd;&#xa;(At the start of your game, separate your psychic creatures from your deck and put them into your hyperspatial zone. If a psychic creature would be put into a zone other than the battle zone, return it to your hyperspatial zone.)" />
 			<property name="Power" value="1000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="25a" />
@@ -479,7 +479,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Psychic Creature" />
 			<property name="Race" value="Wild Veggies /Alien" />
-			<property name="Rules" value="Each of your other Aliens in the battle zone gets +2000 power.&#xd;&#xa; Psychic Link - At the start of your turn, if you have Gil Fuji, Yokozuna and Zabi Komusubi Flower in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Each of your other Aliens in the battle zone gets +2000 power.&#xd;&#xa; Psychic Link - At the start of your turn, if you have Gil Fuji, Yokozuna and Zabi Komusubi Flower in the battle zone, link them to this creature and flip this creature to its higher cost side." />
 			<property name="Power" value="2000" />
 			<property name="Rarity" value="U" />
 			<property name="Number" value="28a" />
@@ -654,9 +654,9 @@
 		<card name="Hyperspatial Raiden Hole" id="a7e2e28b-5791-4e1e-a9bc-d8e4ce9596df">
 			<property name="Civilization" value="Darkness" />
 			<property name="Cost" value="6" />
-			<property name="Type" value="Spell " />
+			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value="Put a Darkness psychic creature that costs 6 or less from your hyperspatial zone into the battle zone.&#xd;&#xa; You may destroy one of your non-psychic creature creatures. If you do, put a Darkness psychic creature that costs 5 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Put a Darkness psychic creature that costs 6 or less from your hyperspatial zone into the battle zone.&#xd;&#xa; You may destroy one of your non-psychic creature creatures. If you do, put a Darkness psychic creature that costs 5 or less from your hyperspatial zone into the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="43" />
@@ -667,7 +667,7 @@
 			<property name="Cost" value="6" />
 			<property name="Type" value="Spell " />
 			<property name="Race" value="" />
-			<property name="Rules" value="Put a Darkness psychic creature that costs 6 or less from your hyperspatial zone into the battle zone.&#xd;&#xa; You may destroy one of your non-psychic creature creatures. If you do, put a Darkness psychic creature that costs 5 or less from your hyperspatial zone into the battle zone.&#xd;&#xa;Hyperspatial Psychic" />
+			<property name="Rules" value="Put a Darkness psychic creature that costs 6 or less from your hyperspatial zone into the battle zone.&#xd;&#xa; You may destroy one of your non-psychic creature creatures. If you do, put a Darkness psychic creature that costs 5 or less from your hyperspatial zone into the battle zone." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="43" />
@@ -755,7 +755,7 @@
 			<property name="Cost" value="2" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />
-			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;Choose any number of your opponent&quot;s creatures in the battle zone. This turn, those creatures can&quot;t attack or block.&#xd;&#xa;" />
+			<property name="Rules" value=" (This spell is put into your mana zone tapped.) &#xd;&#xa;{SHIELD TRIGGER}&#xd;&#xa;Choose any number of your opponent&quot;s creatures in the battle zone. This turn, those creatures can&quot;t attack or block." />
 			<property name="Power" value="0" />
 			<property name="Rarity" value="C" />
 			<property name="Number" value="50" />

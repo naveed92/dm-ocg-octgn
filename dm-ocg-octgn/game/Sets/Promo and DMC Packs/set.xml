@@ -3971,7 +3971,7 @@ abilities) and becomes one creature. When the linked creature leaves the battle 
 
 		<card name="Hyperspatial Shooting Hole" id="0da4592c-74e2-408b-9856-6f6c56e06e63">
 			<property name="Format" value="OCG" />
-			<property name="Civilization" value=" Fire" />
+			<property name="Civilization" value="Fire" />
 			<property name="Cost" value="5" />
 			<property name="Type" value="Spell" />
 			<property name="Race" value="" />

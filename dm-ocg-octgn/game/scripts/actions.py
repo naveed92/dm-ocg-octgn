@@ -26,8 +26,9 @@ cardScripts = {
                 'Armored Decimator Valkaizer': { 'onPlay': {  'kill': ['4000'] }},
                 'Artisan Picora': { 'onPlay': { 'fromMana': ['1','"ALL"','"ALL"','"ALL"','False','True'] }}, 
                 'Astral Warper': { 'onPlay': { 'draw': ['me.Deck', 'True', '3'] }},
-        		'Ballom, Master of Death': { 'onPlay': { 'banishAll': ['table', 'True', '"ALL"', '"Darkness"', 'True'] }},
-        		'Bega, Vizier of Shadow': { 'onPlay': { 'shields': ['me.Deck'] , 'targetDiscard': ['True'] }},
+        	'Baban Ban Ban, Earth\'s Blessing': { 'onPlay': { 'massMana': ['me.Deck', 'True'] }},
+		'Ballom, Master of Death': { 'onPlay': { 'banishAll': ['table', 'True', '"ALL"', '"Darkness"', 'True'] }},
+        	'Bega, Vizier of Shadow': { 'onPlay': { 'shields': ['me.Deck'] , 'targetDiscard': ['True'] }},
                 'Belix, the Explorer': { 'onPlay': { 'fromMana': ['1','"Spell"'] }},
                 'Bronze-Arm Tribe': { 'onPlay': { 'mana': ['me.Deck'] }},
                 'Bronze Chain Sickle': { 'onPlay': { 'mana': ['me.Deck'] }},
@@ -186,6 +187,7 @@ cardScripts = {
                 'Magic Shot - Panda Full Life': { 'onPlay': { 'mana': ['me.Deck'] }},
                 'Magic Shot - Soul Catcher': { 'onPlay': {  'search': ['me.piles["Graveyard"]', '1', '"Creature"'] }},
                 'Magic Shot - Sword Launcher': { 'onPlay': {  'kill': ['3000'] }},
+		'Mana Bonanza': { 'onPlay': { 'massMana': ['me.Deck', 'False'] }}
                 'Miraculous Rebirth': { 'onPlay': { 'kill': ['5000'], 'fromDeck': [] }},
                 'Miraculous Snare': { 'onPlay': { 'sendToShields': [] }},
                 'Moonlight Flash': { 'onPlay': { 'tapCreature': ['2'] }},
@@ -974,6 +976,22 @@ def mana(group, count = 1, x = 0, y = 0):
 		card = group[0]
 		toMana(card, notifymute = True)
 		notify("{} charges top card of {} as mana.".format(me, group.name))
+		
+def massMana(group, conditional = False, x=0, y=0)
+	mute()
+	if conditional == True: 
+		choiceList = ['Yes', 'No'] 
+		colorsList = ['#FF0000', '#FF0000'] 
+		choice = askChoice("Put cards to mana?", choiceList, colorsList) 
+		if choice == 0 or choice == 2: return 
+	cardList = [card for card in table if isMana(card) and card.owner== me]
+	count = len(cardList)
+	for i in range(0,count):         
+		if len(group) == 0: return         
+		card = group[0]         
+		toMana(card, notifymute = True)
+		notify("{} charges top card of {} as mana.".format(me, group.name))
+		tap(card)
     
 def endTurn(table,x=0,y=0):
     mute()

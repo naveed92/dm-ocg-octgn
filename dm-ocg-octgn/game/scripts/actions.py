@@ -137,6 +137,7 @@ cardScripts = {
                 'Darkflame Drive': { 'onPlay': { 'kill': ['"ALL"','"Untap"'] }},
                 'Dark Reversal': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Creature"'] }},
                 'Death Chaser': { 'onPlay': { 'kill': ['"ALL"','"Untap"'] }},
+	        'Death Gate, Gate of Hell': { 'onPlay': { 'kill': ['"ALL"','"Untap"'], 'fromGrave': [] }},
                 'Death Smoke': { 'onPlay': { 'kill': ['"ALL"','"Untap"'] }},
                 'Decopin Crash': { 'onPlay': { 'kill': ['4000'] }},
                 'Devil Smoke': { 'onPlay': { 'kill': ['"ALL"','"Untap"'] }},
@@ -187,7 +188,7 @@ cardScripts = {
                 'Magic Shot - Panda Full Life': { 'onPlay': { 'mana': ['me.Deck'] }},
                 'Magic Shot - Soul Catcher': { 'onPlay': {  'search': ['me.piles["Graveyard"]', '1', '"Creature"'] }},
                 'Magic Shot - Sword Launcher': { 'onPlay': {  'kill': ['3000'] }},
-		'Mana Bonanza': { 'onPlay': { 'massMana': ['me.Deck', 'False'] }}
+		'Mana Bonanza': { 'onPlay': { 'massMana': ['me.Deck', 'False'] }},
                 'Miraculous Rebirth': { 'onPlay': { 'kill': ['5000'], 'fromDeck': [] }},
                 'Miraculous Snare': { 'onPlay': { 'sendToShields': [] }},
                 'Moonlight Flash': { 'onPlay': { 'tapCreature': ['2'] }},

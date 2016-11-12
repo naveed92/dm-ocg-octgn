@@ -36,6 +36,7 @@ cardScripts = {
                 'Chief De Baula, Machine King of Mystic Light': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Spell"'] }},
                 'Craze Valkyrie, the Drastic': { 'onPlay': { 'tapCreature': ['2'] }},
                 'Crimson Maru, the Untamed Flame': { 'onPlay': {  'kill': ['4000'] }},
+	        'Cyber N World': { 'onPlay': {  'semiReset': [] }},
                 'Dacity Dragoon, Explosive Beast': { 'onPlay': {  'kill': ['3000'] }},
                 'Dandy Eggplant': { 'onPlay': { 'fromDeck': [] }},
                 'Dark Hydra, Evil Planet Lord': { 'onPlay': { 'fromGrave': [] }},
@@ -623,6 +624,21 @@ def tapCreature(count = 1, targetALL = False, includeOwn = False):
             if type(choice) is not Card:
                 return
             remoteCall(choice.owner,"tap",choice)
+		
+def semiReset():
+	mute()
+	if confirm("Are you sure you want to continue?"):
+		currentPlayers = getPlayers()	
+		for player in currentPlayers:
+			cardsInHand = [c for c in player.hand] 
+			cardsInGrave = [c for c in player.piles['Graveyard']]
+			if cardsInHand or cardsInGrave:
+    				for card in cardsInHand: 
+					card.moveTo(player.Deck) 
+				for card in cardsInGrave: 
+					card.moveTo(player.Deck)
+        		else: return
+			player.Deck.shuffle()
 
 #End of Automation Code
 

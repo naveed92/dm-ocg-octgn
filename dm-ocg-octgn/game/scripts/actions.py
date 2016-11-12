@@ -26,8 +26,9 @@ cardScripts = {
                 'Armored Decimator Valkaizer': { 'onPlay': {  'kill': ['4000'] }},
                 'Artisan Picora': { 'onPlay': { 'fromMana': ['1','"ALL"','"ALL"','"ALL"','False','True'] }}, 
                 'Astral Warper': { 'onPlay': { 'draw': ['me.Deck', 'True', '3'] }},
-        		'Ballom, Master of Death': { 'onPlay': { 'banishAll': ['table', 'True', '"ALL"', '"Darkness"', 'True'] }},
-        		'Bega, Vizier of Shadow': { 'onPlay': { 'shields': ['me.Deck'] , 'targetDiscard': ['True'] }},
+        	'Baban Ban Ban, Earth\'s Blessing': { 'onPlay': { 'massMana': ['me.Deck', 'True'] }},
+		'Ballom, Master of Death': { 'onPlay': { 'banishAll': ['table', 'True', '"ALL"', '"Darkness"', 'True'] }},
+        	'Bega, Vizier of Shadow': { 'onPlay': { 'shields': ['me.Deck'] , 'targetDiscard': ['True'] }},
                 'Belix, the Explorer': { 'onPlay': { 'fromMana': ['1','"Spell"'] }},
                 'Bronze-Arm Tribe': { 'onPlay': { 'mana': ['me.Deck'] }},
                 'Bronze Chain Sickle': { 'onPlay': { 'mana': ['me.Deck'] }},
@@ -136,6 +137,7 @@ cardScripts = {
                 'Darkflame Drive': { 'onPlay': { 'kill': ['"ALL"','"Untap"'] }},
                 'Dark Reversal': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Creature"'] }},
                 'Death Chaser': { 'onPlay': { 'kill': ['"ALL"','"Untap"'] }},
+	        'Death Gate, Gate of Hell': { 'onPlay': { 'kill': ['"ALL"','"Untap"'], 'fromGrave': [] }},
                 'Death Smoke': { 'onPlay': { 'kill': ['"ALL"','"Untap"'] }},
                 'Decopin Crash': { 'onPlay': { 'kill': ['4000'] }},
                 'Devil Smoke': { 'onPlay': { 'kill': ['"ALL"','"Untap"'] }},
@@ -170,6 +172,7 @@ cardScripts = {
                 'Holy Awe': { 'onPlay': { 'tapCreature': ['1','True'] }},
                 'Hopeless Vortex': { 'onPlay': { 'kill': [] }},
                 'Infernal Smash': { 'onPlay': { 'kill': [] }},
+	        'Intense Vacuuming Twist': { 'onPlay': { 'lookAtCards': ['5', 'True'] }},
                 'Invincible Abyss': { 'onPlay': { 'banishAll': ['[card for card in table if card.owner != me]', 'True'] }},
                 'Invincible Aura': { 'onPlay': { 'shields': ['me.Deck', '3', 'True'] }},
                 'Invincible Technology': { 'onPlay': { 'search': ['me.Deck','len(me.Deck)'] }},
@@ -186,6 +189,7 @@ cardScripts = {
                 'Magic Shot - Panda Full Life': { 'onPlay': { 'mana': ['me.Deck'] }},
                 'Magic Shot - Soul Catcher': { 'onPlay': {  'search': ['me.piles["Graveyard"]', '1', '"Creature"'] }},
                 'Magic Shot - Sword Launcher': { 'onPlay': {  'kill': ['3000'] }},
+		'Mana Bonanza': { 'onPlay': { 'massMana': ['me.Deck', 'False'] }},
                 'Miraculous Rebirth': { 'onPlay': { 'kill': ['5000'], 'fromDeck': [] }},
                 'Miraculous Snare': { 'onPlay': { 'sendToShields': [] }},
                 'Moonlight Flash': { 'onPlay': { 'tapCreature': ['2'] }},
@@ -507,6 +511,13 @@ def fromGrave():
     mute()
     notify("{} looks at their Graveyard.".format(me))
     me.piles['Graveyard'].lookAt(-1)
+
+def lookAtCards(count = 1, isTop = True):
+	mute()
+	if isTop == False: 
+		notify("{} looks at {} cards from bottom of their deck.".format(me, count))
+	notify("{} looks at {} cards from top of their deck.".format(me, count))
+	me.Deck.lookAt(count, isTop)
 
 def sacrifice(power = float('inf'), count = 1):
 	mute()
@@ -974,6 +985,22 @@ def mana(group, count = 1, x = 0, y = 0):
 		card = group[0]
 		toMana(card, notifymute = True)
 		notify("{} charges top card of {} as mana.".format(me, group.name))
+		
+def massMana(group, conditional = False, x=0, y=0)
+	mute()
+	if conditional == True: 
+		choiceList = ['Yes', 'No'] 
+		colorsList = ['#FF0000', '#FF0000'] 
+		choice = askChoice("Put cards to mana?", choiceList, colorsList) 
+		if choice == 0 or choice == 2: return 
+	cardList = [card for card in table if isMana(card) and card.owner== me]
+	count = len(cardList)
+	for i in range(0,count):         
+		if len(group) == 0: return         
+		card = group[0]         
+		toMana(card, notifymute = True)
+		notify("{} charges top card of {} as mana.".format(me, group.name))
+		tap(card)
     
 def endTurn(table,x=0,y=0):
     mute()

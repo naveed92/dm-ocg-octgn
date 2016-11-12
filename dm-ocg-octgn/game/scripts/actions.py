@@ -172,6 +172,7 @@ cardScripts = {
                 'Holy Awe': { 'onPlay': { 'tapCreature': ['1','True'] }},
                 'Hopeless Vortex': { 'onPlay': { 'kill': [] }},
                 'Infernal Smash': { 'onPlay': { 'kill': [] }},
+	        'Intense Vacuuming Twist': { 'onPlay': { 'lookAtCards': ['5', 'True'] }},
                 'Invincible Abyss': { 'onPlay': { 'banishAll': ['[card for card in table if card.owner != me]', 'True'] }},
                 'Invincible Aura': { 'onPlay': { 'shields': ['me.Deck', '3', 'True'] }},
                 'Invincible Technology': { 'onPlay': { 'search': ['me.Deck','len(me.Deck)'] }},
@@ -510,6 +511,13 @@ def fromGrave():
     mute()
     notify("{} looks at their Graveyard.".format(me))
     me.piles['Graveyard'].lookAt(-1)
+
+def lookAtCards(count = 1, isTop = True):
+	mute()
+	if isTop == False: 
+		notify("{} looks at {} cards from bottom of their deck.".format(me, count))
+	notify("{} looks at {} cards from top of their deck.".format(me, count))
+	me.Deck.lookAt(count, isTop)
 
 def sacrifice(power = float('inf'), count = 1):
 	mute()

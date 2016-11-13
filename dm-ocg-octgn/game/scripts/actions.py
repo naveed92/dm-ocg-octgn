@@ -36,6 +36,7 @@ cardScripts = {
                 'Chief De Baula, Machine King of Mystic Light': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Spell"'] }},
                 'Craze Valkyrie, the Drastic': { 'onPlay': { 'tapCreature': ['2'] }},
                 'Crimson Maru, the Untamed Flame': { 'onPlay': {  'kill': ['4000'] }},
+	        'Cyber N World': { 'onPlay': {  'semiReset': [] }},
                 'Dacity Dragoon, Explosive Beast': { 'onPlay': {  'kill': ['3000'] }},
                 'Dandy Eggplant': { 'onPlay': { 'fromDeck': [] }},
                 'Dark Hydra, Evil Planet Lord': { 'onPlay': { 'fromGrave': [] }},
@@ -65,8 +66,10 @@ cardScripts = {
                 'Hulk Crawler': { 'onPlay': { 'draw': ['me.Deck', 'True'] }},
                 'Hurlosaur': { 'onPlay': {  'kill': ['1000'] }},
                 'Izana Keeza': { 'onPlay': {  'kill': ['2000'] }},
+                'Jasmine, Mist Faerie': { 'onPlay': { 'suicide': ['"Jasmine, Mist Faerie"', 'mana', 'me.Deck'] }},
                 'Jelly, Dazzling Electro-Princess': { 'onPlay': { 'draw': ['me.Deck', 'True'] }},
                 'Jenny, the Dismantling Puppet': { 'onPlay': {  'targetDiscard': [] }},
+                'Jenny, the Suicide Doll': { 'onPlay': { 'suicide': ['"Jenny, the Suicide Doll"', 'targetDiscard', 'True'] }},
                 'Jet R.E, Brave Vizier': { 'onPlay': { 'shields': ['me.Deck'] }},
                 'King Ripped-Hide': { 'onPlay': { 'draw': ['me.Deck', 'True', '2'] }},
                 'Kolon, the Oracle': { 'onPlay': { 'tapCreature': [] }},
@@ -79,9 +82,11 @@ cardScripts = {
                 'Miele, Vizier of Lightning': { 'onPlay': { 'tapCreature': [] }},
                 'Moors, the Dirty Digger Puppet': { 'onPlay': {  'search': ['me.piles["Graveyard"]'] }},
                 'Muramasa\'s Socket': { 'onPlay': {  'kill': ['1000'] }},
+                'Murian': { 'onPlay': { 'suicide': ['"Murian"', 'draw', 'me.Deck'] }},
                 'Niofa, Horned Protector': { 'onPlay': { 'search': ['me.Deck', '1', '"ALL"', '"Nature"'] }},
                 'Ochappi, Pure Hearted Faerie': { 'onPlay': { 'fromGrave': [] }},
                 'Phal Eega, Dawn Guardian': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Spell"'] }},
+                'Phal Pierro, Apocalyptic Guardian': { 'onPlay': { 'suicide': ['"Phal Pierro, Apocalyptic Guardian"', 'fromGrave', ''] }},
                 'Phal Reeze, Apocalyptic Sage': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Spell"'] }},
                 'Piara Heart': { 'onPlay': {  'kill': ['1000'] }},
         		'Pointa, the Aqua Shadow': { 'onPlay': { 'targetDiscard': ['True'] }},
@@ -96,6 +101,7 @@ cardScripts = {
                 'Sarvarti, Thunder Spirit Knight': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Spell"'] }},
                 'Scissor Scarab': { 'onPlay': { 'search': ['1','"ALL"','"ALL"','"Giant Insect"'] }},
                 'Shtra': { 'onPlay': {  'fromMana': ['1', '"ALL"', '"ALL"', '"ALL"', 'True', 'False', 'True'] }},
+                'Self-Destructing Gil Poser': { 'onPlay': { 'suicide': ['"Self-Destructing Gil Poser"', 'kill', '2000'] }},
                 'Sir Navaal, Thunder Mecha Knight': { 'onPlay': { 'fromMana': ['1','"Spell"'] }},
                 'Sir Virginia, Mystic Light Insect': { 'onPlay': {  'search': ['me.piles["Graveyard"]', '1', '"Creature"'] }},
         		'Skysword, the Savage Vizier': { 'onPlay': {  'mana': ['me.Deck'], 'shields': ['me.Deck'] }},
@@ -623,6 +629,34 @@ def tapCreature(count = 1, targetALL = False, includeOwn = False):
             if type(choice) is not Card:
                 return
             remoteCall(choice.owner,"tap",choice)
+		
+def semiReset():
+	mute()
+	if confirm("Are you sure you want to continue?"):
+		currentPlayers = getPlayers()	
+		for player in currentPlayers:
+			cardsInHand = [c for c in player.hand] 
+			cardsInGrave = [c for c in player.piles['Graveyard']]
+			if cardsInHand or cardsInGrave:
+    				for card in cardsInHand: 
+					card.moveTo(player.Deck) 
+				for card in cardsInGrave: 
+					card.moveTo(player.Deck)
+        		else: return
+			player.Deck.shuffle()
+
+def suicide(name, action, arg):
+	mute()
+	choiceList = ['Yes', 'No']
+	colorsList = ['#FF0000', '#FF0000']
+	choice = askChoice("Banish the card to activate effect?", choiceList, colorsList)
+	if choice == 0 or choice == 2:
+		return
+	cardList = [card for card in table if isCreature(card) and card.owner==me and re.search("Creature", card.type)]
+	cardList = [card for card in cardList if card.name==name]
+	toDiscard(cardList[-1])
+	notify("{} destroys {}.".format(me, name))
+	action(arg)
 
 #End of Automation Code
 
@@ -986,21 +1020,22 @@ def mana(group, count = 1, x = 0, y = 0):
 		toMana(card, notifymute = True)
 		notify("{} charges top card of {} as mana.".format(me, group.name))
 		
-def massMana(group, conditional = False, x=0, y=0)
-	mute()
-	if conditional == True: 
-		choiceList = ['Yes', 'No'] 
-		colorsList = ['#FF0000', '#FF0000'] 
-		choice = askChoice("Put cards to mana?", choiceList, colorsList) 
-		if choice == 0 or choice == 2: return 
-	cardList = [card for card in table if isMana(card) and card.owner== me]
-	count = len(cardList)
-	for i in range(0,count):         
-		if len(group) == 0: return         
-		card = group[0]         
-		toMana(card, notifymute = True)
-		notify("{} charges top card of {} as mana.".format(me, group.name))
-		tap(card)
+def massMana(group, conditional = False, x=0, y=0):
+    	mute()
+    	cardList = [card for card in table if isMana(card) and card.owner== me]
+    	count = len(cardList)
+    	if conditional == True: 
+        	choiceList = ['Yes', 'No'] 
+        	colorsList = ['#FF0000', '#FF0000']
+        	choice = askChoice("Put top {} cards to mana?".format(count), choiceList, colorsList)
+        	if choice == 0 or choice == 2: return 
+    	for i in range(0,count):         
+        	if len(group) == 0: return
+        	card = group[0]         
+        	toMana(card, notifymute = True)
+        	if card.orientation & Rot90 != Rot90:
+            		card.orientation ^= Rot90
+    	notify("{} charges top {} cards of {} as mana.".format(me, count, group.name))
     
 def endTurn(table,x=0,y=0):
     mute()

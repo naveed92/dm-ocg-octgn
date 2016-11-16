@@ -66,6 +66,7 @@ cardScripts = {
                 'Hulk Crawler': { 'onPlay': { 'draw': ['me.Deck', 'True'] }},
                 'Hurlosaur': { 'onPlay': {  'kill': ['1000'] }},
                 'Izana Keeza': { 'onPlay': {  'kill': ['2000'] }},
+                'Intense Vacuuming Twist': { 'onPlay': { 'lookAtTopCards': ['5'] }},
                 'Jasmine, Mist Faerie': { 'onPlay': { 'suicide': ['"Jasmine, Mist Faerie"', 'mana', 'me.Deck'] }},
                 'Jelly, Dazzling Electro-Princess': { 'onPlay': { 'draw': ['me.Deck', 'True'] }},
                 'Jenny, the Dismantling Puppet': { 'onPlay': {  'targetDiscard': [] }},
@@ -85,6 +86,7 @@ cardScripts = {
                 'Murian': { 'onPlay': { 'suicide': ['"Murian"', 'draw', 'me.Deck'] }},
                 'Niofa, Horned Protector': { 'onPlay': { 'search': ['me.Deck', '1', '"ALL"', '"Nature"'] }},
                 'Ochappi, Pure Hearted Faerie': { 'onPlay': { 'fromGrave': [] }},
+                'Pakurio': { 'onPlay': {  'targetDiscard': ['False','"shields"'] }},
                 'Phal Eega, Dawn Guardian': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Spell"'] }},
                 'Phal Pierro, Apocalyptic Guardian': { 'onPlay': { 'suicide': ['"Phal Pierro, Apocalyptic Guardian"', 'fromGrave', ''] }},
                 'Phal Reeze, Apocalyptic Sage': { 'onPlay': { 'search': ['me.piles["Graveyard"]', '1', '"Spell"'] }},
@@ -165,7 +167,7 @@ cardScripts = {
                 'Flame Lance Trap': { 'onPlay': { 'kill': ['5000'] }},
                 'Flood Valve': { 'onPlay': { 'fromMana': [] }},
                 'Hell Chariot': { 'onPlay': { 'kill': ['"ALL"','"Untap"'] }},
-        		'Hide and Seek': { 'onPlay': { 'bounce':['1', 'True'], 'targetDiscard': ['True'] }},
+        		'Hide and Seek': { 'onPlay': { 'bounceAndDiscard':[] }},
                 'Hyperspatial Storm Hole': { 'onPlay': { 'kill': ['5000'] }},
                 'Hyperspatial Bolshack Hole': { 'onPlay': { 'kill': ['5000'] }},
                 'Hyperspatial Kutt Hole': { 'onPlay': { 'kill': ['5000'] }},
@@ -178,7 +180,6 @@ cardScripts = {
                 'Holy Awe': { 'onPlay': { 'tapCreature': ['1','True'] }},
                 'Hopeless Vortex': { 'onPlay': { 'kill': [] }},
                 'Infernal Smash': { 'onPlay': { 'kill': [] }},
-	        'Intense Vacuuming Twist': { 'onPlay': { 'lookAtCards': ['5', 'True'] }},
                 'Invincible Abyss': { 'onPlay': { 'banishAll': ['[card for card in table if card.owner != me]', 'True'] }},
                 'Invincible Aura': { 'onPlay': { 'shields': ['me.Deck', '3', 'True'] }},
                 'Invincible Technology': { 'onPlay': { 'search': ['me.Deck','len(me.Deck)'] }},
@@ -187,6 +188,7 @@ cardScripts = {
                 'Living Lithograph': { 'onPlay': { 'mana': ['me.Deck'] }},
                 'Logic Cube': { 'onPlay': { 'search': ['me.Deck', '1', '"Spell"'] }},
                 'Logic Sphere': { 'onPlay': { 'fromMana': ['1', '"Spell"'] }},
+                'Lost Soul': { 'onPlay': { 'discardAll': [] }},
                 'Mana Crisis': { 'onPlay': { 'destroyMana': [] }},
                 'Martial Law': { 'onPlay': { 'gear': ['"kill"'] }},
                 'Magic Shot - Arcadia Egg': { 'onPlay': { 'kill': ['"ALL"','"Untap"'] }},
@@ -203,7 +205,7 @@ cardScripts = {
                 'Mystic Dreamscape': { 'onPlay': { 'fromMana': ['3'] }},
                 'Mystic Inscription': { 'onPlay': { 'shields': ['me.Deck'] }},
                 'Natural Snare': { 'onPlay': { 'sendToMana': [] }},
-        		'Persistent Prison of Gaia': { 'onPlay': { 'bounce':['1', 'True'], 'targetDiscard': ['True'] }},
+        		'Persistent Prison of Gaia': { 'onPlay': { 'bounceAndDiscard':[]}},
                 'Phantom Dragon\'s Flame': { 'onPlay': {  'kill': ['2000'] }},
                 'Phantasm Clutch': { 'onPlay': { 'kill': ['"ALL"','"Tap"'] }},
                 'Pixie Cocoon': { 'onPlay': { 'fromMana': ['1', '"Creature"'], 'toMana': ['card'] }},
@@ -312,8 +314,43 @@ def SummonFromGrave(count=1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter =
 		if type(choice) is not Card: break
 		toPlay(choice)
 
+def lookAtTopCards(num, targetZone='hand'):
+    mute()
+    notify("{} looks at the top {} cards of their deck".format(me,num))
+    cardList = [card for card in me.Deck.top(num)]
+    choice = askCard(cardList, 'Choose a card to take')
+    toHand(choice, show = True)
+    for counter in range(num-1, 0, -1):
+        cardList = [card for card in me.Deck.top(counter)]
+        choice = askCard(cardList, 'Choose card to put to bottom','To Bottom')
+        choice.moveToBottom(me.Deck)
+        notify("{} moves card #{} to the bottom of their deck.".format(me, num-counter))
 
-def targetDiscard(randomDiscard = False):
+def targetDiscard(randomDiscard = False, targetZone = 'grave'):
+    mute()
+    currentPlayers = getPlayers()
+    playerList = []
+    cardList = []
+    for player in currentPlayers:
+        playerList.append(player.name)
+    choicePlayer = askChoice("Pick a player:", playerList)
+    if choicePlayer < 1: return
+    targetPlayer = currentPlayers[choicePlayer-1]
+    cardList = [card for card in targetPlayer.hand]
+    if randomDiscard:
+        remoteCall(targetPlayer,'randomDiscard',targetPlayer.hand)
+        return
+    cardChoice = askCard(cardList, 'Choose a Card to discard','Discard')
+    if type(cardChoice) is not Card: 
+        notify("{} - Error".format(type(cardChoice)))
+        return
+    if targetZone == 'shields': 
+        whisper("Setting {} as shield.".format(cardChoice))
+        remoteCall(targetPlayer,'toShields',cardChoice) 
+    elif targetZone == 'grave':
+        remoteCall(targetPlayer,'toDiscard',cardChoice)
+    
+def discardAll():
 	mute()
 	currentPlayers = getPlayers()
 	playerList = []
@@ -324,15 +361,9 @@ def targetDiscard(randomDiscard = False):
 	if choicePlayer < 1: return
 	targetPlayer = currentPlayers[choicePlayer-1]
 	cardList = [card for card in targetPlayer.hand]
-	if randomDiscard:
-		remoteCall(targetPlayer,'randomDiscard',targetPlayer.hand)
-		return
-	cardChoice = askCard(cardList, 'Choose a Card to discard','Discard')
-	if type(cardChoice) is not Card: 
-		notify("{} - Error".format(type(cardChoice)))
-		return
-	remoteCall(targetPlayer,'toDiscard',cardChoice)
-
+	for card in cardList:
+		remoteCall(targetPlayer, 'toDiscard', card)
+        
 def fromMana(count = 1, TypeFilter = "ALL", CivFilter = "ALL", RaceFilter = "ALL", show = True, toGrave = False, ApplyToAllPlayers = False):
     mute()
     if ApplyToAllPlayers == True:
@@ -554,6 +585,11 @@ def bounce(count = 1, opponentOnly = False):
 		else:
 			remoteCall(choice.owner,"toHand",choice)
     
+def bounceAndDiscard(bcount = 1, opponentOnly = True, randomDiscard=True):
+    mute()
+    bounce(bcount, opponentOnly)
+    targetDiscard(randomDiscard)
+    
 def gear(str):        
     mute()
     if str == 'kill':
@@ -631,19 +667,19 @@ def tapCreature(count = 1, targetALL = False, includeOwn = False):
             remoteCall(choice.owner,"tap",choice)
 		
 def semiReset():
-	mute()
-	if confirm("Are you sure you want to continue?"):
-		currentPlayers = getPlayers()	
-		for player in currentPlayers:
-			cardsInHand = [c for c in player.hand] 
-			cardsInGrave = [c for c in player.piles['Graveyard']]
-			if cardsInHand or cardsInGrave:
-    				for card in cardsInHand: 
-					card.moveTo(player.Deck) 
-				for card in cardsInGrave: 
-					card.moveTo(player.Deck)
-        		else: return
-			player.Deck.shuffle()
+    mute()
+    if confirm("Are you sure you want to continue?"):
+        currentPlayers = getPlayers()	
+        for player in currentPlayers:
+            cardsInHand = [c for c in player.hand] 
+            cardsInGrave = [c for c in player.piles['Graveyard']]
+            if cardsInHand or cardsInGrave:
+                for card in cardsInHand: 
+                    remoteCall(player, 'toDeckTop', card) 
+                for card in cardsInGrave: 
+                    remoteCall(player, 'toDeckTop', card)
+            remoteCall(player,'shuffle', player.deck)
+            remoteCall(player,'draw', [player.deck, False, 5])
 
 def suicide(name, action, arg):
 	mute()

@@ -42,6 +42,9 @@ Prince Avaraldo, Cavalier of Thunder
 Shrine of Rebirth
 Orochi, of the Hidden Blade
 Colorful Dance
+Bolbalzak Ex
+Geo Baribari Miranda
+Surprise Illusion
 
 Banned:
 Bombazar, Dragon of Destiny
@@ -62,7 +65,9 @@ Aquan
 Cyber Brain
 Crest of Mother
 Emperor Chirico
-Mad Romanoff, he Wicked God
+Mad Romanoff, the Wicked God
 
 Combo Ban:
-Hyperspatial Vice Hole >> Diabolos Zeta, Temporal Ruler(these cannot be in the same deck + hyperspatial zone)
+[these cannot be in the same deck + hyperspatial zone]
+Hyperspatial Vice Hole >> Diabolos Zeta, Temporal Ruler
+Codename Sorge >> Jin, the Ogre Blade ~Crimson Rage~
